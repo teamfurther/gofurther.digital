@@ -1,0 +1,234 @@
+.post {
+    background-color: $grey-lighter;
+    overflow: hidden;
+
+    &.is-single {
+        background-color: transparent;
+
+        figure {
+            display: table;
+            margin: 60px auto;
+
+            @include desktop() {
+                margin: 90px auto;
+            }
+
+            figcaption {
+                background-color: $grey-lighter;
+                border-left: 3px solid $cobalt;
+                caption-side: bottom;
+                display: table-caption;
+                font-size: 14px;
+                padding: 5px;
+            }
+        }
+
+        .post__content {
+            float: none;
+            padding: 0;
+            width: auto;
+        }
+
+        .post__meta {
+            font: 600 14px / 1 $family-highlight;
+            margin-bottom: 60px;
+
+            @include desktop() {
+                margin-bottom: 90px;
+            }
+        }
+
+        .post__title {
+            color: $grey-darker;
+            font: 700 20px / 1.25 $family-highlight;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+
+            @include tablet() {
+                font-size: 24px;
+                width: 80%;
+            }
+
+            @include desktop() {
+                font-size: 30px;
+            }
+        }
+    }
+
+    &__author {
+        align-items: center;
+        border-top: 1px solid $grey-light;
+        display: flex;
+        margin-top: 30px;
+        padding-top: 30px;
+
+        @include desktop() {
+            margin-top: 60px;
+            padding-top: 60px;
+        }
+
+        &__description {
+            font-size: 12px;
+        }
+
+        &__info {
+            padding: 15px;
+        }
+
+        &__name {
+            color: $grey-darker;
+            font: 700 16px / 1 $family-highlight;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+
+            @include tablet() {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+
+        &__picture {
+            width: 100px;
+
+            @include tablet() {
+                width: 138px;
+            }
+        }
+
+        .social-icons {
+            justify-content: flex-start;
+            margin-top: 15px;
+
+            .icon {
+                margin: 0 10px 0 0;
+
+                &.icon-linkedin {
+                    background-color: #0077b5;
+                }
+
+                &.icon-twitter {
+                    background-color: #1da1f2;
+                }
+            }
+        }
+    }
+
+    &__content {
+        padding: 15px;
+
+        @include tablet() {
+            float: right;
+            width: calc(100% - 200px);
+        }
+
+        @include desktop() {
+            width: calc(100% - 280px);
+        }
+    }
+
+    &__excerpt {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    &__featured-image {
+        width: 100%;
+
+        @include tablet() {
+            height: 240px;
+        }
+
+        & > img {
+            object-fit: cover;
+            width: 100%;
+
+            @include tablet() {
+                height: 240px;
+            }
+        }
+    }
+
+    &__image {
+        display: block;
+        height: 150px;
+        width: 100%;
+
+        @include tablet() {
+            float: left;
+            height: 200px;
+            width: 200px;
+        }
+
+        @include desktop() {
+            height: 280px;
+            width: 280px;
+        }
+
+        & > img {
+            height: 150px;
+            object-fit: cover;
+            width: 100%;
+
+            @include tablet() {
+                height: auto;
+                width: auto;
+            }
+        }
+    }
+
+    &__read-more {
+        display: block;
+        font: 700 12px / 1 $family-highlight;
+        text-align: right;
+        text-transform: uppercase;
+
+        @include tablet() {
+            font-size: 14px;
+        }
+    }
+
+    &__share {
+        .social-icons {
+            justify-content: flex-start;
+
+            @include tablet() {
+                flex-direction: column;
+
+                .icon {
+                    margin: 5px 0;
+                }
+            }
+        }
+
+        @include tablet() {
+            &.is-absolute {
+                bottom: 0;
+                position: absolute !important;
+                top: auto !important;
+            }
+
+            &.is-fixed {
+                position: fixed;
+                top: 95px;
+            }
+        }
+    }
+
+    &__title {
+        display: block;
+        font: 700 16px / 1.5 $family-highlight;
+        margin-bottom: 15px;
+
+        @include tablet() {
+            font-size: 18px;
+        }
+
+        @include desktop() {
+            margin-bottom: 30px;
+        }
+
+        & > a {
+            color: $grey-darker;
+        }
+    }
+}

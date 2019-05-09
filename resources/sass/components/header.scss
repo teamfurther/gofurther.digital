@@ -1,0 +1,193 @@
+.header {
+    background-color: $white;
+    border-bottom: 1px solid $grey-lighter;
+    padding: 15px 0;
+    position: relative;
+    transition: .4s all ease-in-out;
+    width: 100%;
+    z-index: 100;
+
+    @include desktop() {
+        position: fixed;
+        top: 0;
+    }
+
+    &::before {
+        content: '';
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    &.is-fixed,
+    &.is-open {
+        background-color: $white;
+
+        &__logo a {
+            background-image: url(../img/logo.svg);
+        }
+    }
+
+    &.is-fixed {
+        position: fixed;
+        top: 0;
+
+        @include touch() {
+            & + .section {
+                margin-top: 80px;
+            }
+
+            & + .hero {
+                margin-top: 0;
+            }
+        }
+    }
+
+    & > .container {
+        display: flex;
+        justify-content: space-between;
+        position: static;
+    }
+
+    &__brand {
+        margin: 0 30px 0 15px;
+        position: relative;
+        z-index: 5;
+    }
+
+    &__logo {
+        font-size: 0;
+        transition: .2s all ease-in-out;
+
+        a {
+            background: url(../img/logo.svg) 0 0 / 160px 45px no-repeat;
+            display: block;
+            height: 45px;
+            width: 160px;
+        }
+    }
+}
+
+body.home > .header {
+    background-color: transparent;
+    border-bottom-color: transparent;
+
+    .header__logo a {
+        background-image: url(../img/logo-knockout.svg);
+    }
+
+    .navbar {
+        background-color: darken($cobalt, 5%);
+
+        @include desktop() {
+            background-color: transparent;
+        }
+
+        &__item {
+            @include desktop() {
+                &.has-subnav {
+                    & > a {
+                        &::before,
+                        &::after {
+                            background-color: $white;
+                        }
+                    }
+                }
+            }
+
+            &--lang {
+                & > a {
+                    &::before {
+                        background-position: 0 0;
+                    }
+                }
+            }
+
+            & > a {
+                border-bottom-color: $cobalt;
+                color: $white;
+
+                @include desktop() {
+                    border-bottom-color: transparent;
+                }
+
+                &:hover {
+                    background-color: darken($cobalt, 2%);
+
+                    @include desktop() {
+                        background-color: transparent;
+                        border-bottom-color: $white;
+                    }
+                }
+            }
+        }
+
+        &__toggle {
+            & > span {
+                background-color: $white;
+            }
+        }
+    }
+
+    &.is-fixed,
+    &.is-open {
+        background-color: $white;
+        border-bottom-color: $grey-lighter;
+
+        .header__logo a {
+            background-image: url(../img/logo.svg);
+        }
+
+        .navbar {
+            background-color: $grey-light;
+
+            @include desktop() {
+                background-color: transparent;
+            }
+
+            &__item {
+                @include desktop() {
+                    &.has-subnav {
+                        & > a {
+                            &::before,
+                            &::after {
+                                background-color: $grey-darker;
+                            }
+                        }
+                    }
+                }
+
+                &--lang {
+                    & > a {
+                        &::before {
+                            background-position: 0 -20px;
+                        }
+                    }
+                }
+
+                & > a {
+                    border-bottom-color: $white;
+                    color: $grey-darker;
+
+                    &:hover {
+                        background-color: lighten($grey-lighter, 2%);
+
+                        @include desktop() {
+                            background-color: transparent;
+                            border-color: $pearl;
+                        }
+                    }
+                }
+            }
+
+            &__toggle {
+                & > span {
+                    background-color: $black;
+                }
+            }
+        }
+    }
+}

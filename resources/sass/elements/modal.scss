@@ -1,0 +1,132 @@
+.is-modal-open {
+    overflow: hidden !important;
+}
+
+.modal {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    outline: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    transition: .4s all ease-in-out;
+    z-index: -1;
+    width: 100%;
+
+    &.is-open {
+        opacity: 1;
+        z-index: 999;
+
+        .modal__dialog {
+            transform: translate(0, 0);
+        }
+    }
+
+    &__backdrop {
+        background-color: rgba($black, .6);
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        position: fixed;
+        top: 0;
+        transition: .4s all ease-in-out;
+        width: 100%;
+        z-index: -1;
+
+        &.is-open {
+            opacity: 1;
+            z-index: 990;
+        }
+    }
+
+    &__body {
+        position: relative;
+    }
+
+    &__close {
+        color: $grey;
+        cursor: pointer;
+        float: right;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 1;
+        margin-top: -2px;
+
+        &:hover {
+            color: $grey-darker;
+        }
+    }
+
+    &__content {
+        background-clip: padding-box;
+        background-color: $white;
+        border-left: 5px solid $pearl;
+        outline: 0;
+        position: relative;
+    }
+
+    &__dialog {
+        margin: 15px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        position: relative;
+        transform: translate(0, -25%);
+        transition: .4s all ease-in-out;
+        width: auto;
+        z-index: 10;
+
+        @include tablet() {
+            margin: 30px auto;
+            width: 600px;
+        }
+
+        @include desktop() {
+            &.is-large {
+                width: 900px;
+            }
+        }
+    }
+
+    &__form {
+        overflow: hidden;
+        padding: 30px 15px;
+        text-align: center;
+
+        .is-pulled-left,
+        .is-pulled-right {
+            width: calc(50% - 5px);
+        }
+    }
+
+    &__header {
+        border-bottom: 1px solid $grey-light;
+        overflow: hidden;
+        padding: 15px;
+
+        &.has-no-border {
+            border-bottom: none;
+        }
+    }
+
+    &__icon {
+        display: block;
+        margin: 0 auto 15px;
+    }
+
+    &__subtitle {
+        color: $grey-darker;
+        font: 14px / 1 $family-highlight;
+    }
+
+    &__title {
+        color: $grey-darker;
+        font: 700 20px / 1 $family-highlight;
+        margin: 0;
+
+        @include tablet() {
+            font-size: 24px;
+        }
+    }
+}

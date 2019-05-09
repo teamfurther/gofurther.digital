@@ -1,0 +1,64 @@
+.table {
+    margin-bottom: 15px;
+
+    @include tablet() {
+        margin-bottom: 30px;
+    }
+
+    &.is-fixed {
+        table-layout: fixed;
+    }
+
+    td,
+    th {
+        border: 1px solid $grey-lighter;
+        font-size: 12px;
+        padding: 5px 10px;
+
+        @include desktop() {
+            font-size: 13px;
+        }
+    }
+
+    th {
+        background-color: lighten($olive, 20%);
+        color: $grey-darker;
+        font-family: $family-highlight;
+    }
+
+    @include mobile() {
+        thead {
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+        }
+
+        tr {
+            border-bottom: 3px solid $grey-lighter;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        td {
+            border-bottom: 1px solid $grey-lighter;
+            display: block;
+            text-align: right;
+
+            &::before {
+                content: attr(data-label);
+                float: left;
+                font-family: $family-highlight;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+    }
+}

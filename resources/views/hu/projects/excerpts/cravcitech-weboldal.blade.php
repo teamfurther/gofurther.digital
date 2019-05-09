@@ -1,0 +1,4 @@
+<a href="{{ localizedRoute('projects.view', ['slug' => 'cravcitech-weboldal']) }}"><img class="has-margin-b30" src="{{ asset('media/projects/cravcitech-illustration-featured.jpg') }}" alt="Esettanulmányok: Cravcitech" /></a>
+<h4 class="heading-3"><a href="{{ localizedRoute('projects.view', ['slug' => 'cravcitech-weboldal']) }}">Cravcitech</a></h4>
+<p class="has-margin-b30">Minden vállalat számára a siker valós mércéje az elégedett ügyfelek száma. Számunkra a Cravcitech, a világ vezető fafeldolgozó berendezéseinek hazai forgalmazója, egy ilyen ügyfél, mivel már 2010 elejétől kezdve velünk van. Azóta számos honlapot fejlesztettünk nekik az általuk forgalmazott különböző márkáknak.</p>
+<a class="btn is-primary" href="{{ localizedRoute('projects.view', ['slug' => 'cravcitech-weboldal']) }}">Olvasson tovább</a>

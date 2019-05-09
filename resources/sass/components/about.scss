@@ -1,0 +1,201 @@
+.about {
+    .columns {
+        position: relative;
+    }
+
+    &__process {
+        @include desktop() {
+            background: url(../img/about-process.png) center center / contain no-repeat;
+            min-height: 200px;
+            position: relative;
+        }
+
+        &__step {
+            display: block;
+            font-size: 14px;
+            line-height: 1;
+            margin-bottom: 15px;
+
+            @include desktop() {
+                margin-bottom: 0;
+                max-width: 27.5%;
+                position: absolute;
+            }
+
+            & > strong {
+                color: $cobalt;
+                display: block;
+                font: 700 18px $family-highlight;
+
+                @include desktop() {
+                    margin-bottom: 15px;
+                }
+            }
+
+            &--1 {
+                left: 24%;
+
+                @include desktop() {
+                    top: 8.5%;
+                }
+
+                @include widescreen() {
+                    top: 4%;
+                }
+            }
+
+            &--2 {
+                left: 56.5%;
+
+                @include desktop() {
+                    top: 8.5%;
+                }
+
+                @include widescreen() {
+                    top: 4%;
+                }
+            }
+
+            &--3 {
+                left: 67.5%;
+
+                @include desktop() {
+                    top: 55.5%;
+                }
+
+                @include widescreen() {
+                    top: 59%;
+                }
+            }
+
+            &--4 {
+                left: 37%;
+
+                @include desktop() {
+                    max-width: 20%;
+                    top: 55.5%;
+                }
+
+                @include widescreen() {
+                    top: 59%;
+                }
+            }
+
+            &--5 {
+                left: 7%;
+
+                @include desktop() {
+                    top: 55.5%;
+                }
+
+                @include widescreen() {
+                    top: 59%;
+                }
+            }
+        }
+    }
+
+    &__stat {
+        color: $white;
+        font-family: $family-highlight;
+        font-size: 18px;
+        line-height: 1;
+        position: absolute;
+        text-align: center;
+
+        & > strong {
+            display: block;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        &--1 {
+            left: 18%;
+            top: 29%;
+        }
+
+        &--2 {
+            left: 67%;
+            top: 56%;
+        }
+
+        &--3 {
+            left: 28%;
+            top: 69%;
+        }
+    }
+
+    &__stats {
+        background: url(../img/about-stats-bg.png) top right no-repeat;
+        display: none;
+        height: 250px;
+        position: absolute;
+        right: 8.3333%;
+        top: 0;
+        width: 271px;
+
+        &.is-hu {
+            .about__stat {
+                font-size: 17px;
+
+                &--1 {
+                    left: 20%;
+                }
+
+                &--2 {
+                    left: 68%;
+                }
+
+                &--3 {
+                    left: 28%;
+                }
+            }
+        }
+
+        @include tablet() {
+            display: block;
+        }
+    }
+
+    &__team {
+        &__member {
+            margin-bottom: 30px;
+            text-align: center;
+
+            &__name {
+                color: $grey-darker;
+                font: 700 16px / 1 $family-highlight;
+                text-transform: uppercase;
+
+                @include tablet() {
+                    font-size: 20px;
+                }
+            }
+
+            &__picture {
+                -webkit-filter: grayscale(1);
+                filter: grayscale(1);
+                margin-bottom: 15px;
+
+                &:hover {
+                    -webkit-filter: grayscale(0);
+                    filter: none;
+                }
+
+                @include desktop() {
+                    margin-bottom: 30px;
+                }
+            }
+
+            &__title {
+                font: 12px / 1 $family-highlight;
+                margin-bottom: 30px;
+                text-transform: uppercase;
+
+                @include tablet() {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

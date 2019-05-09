@@ -1,0 +1,134 @@
+.social-icons {
+    display: flex;
+    justify-content: center;
+
+    &.is-small {
+        .icon {
+            height: 26px;
+            width: 26px;
+
+            &.icon--facebook {
+                &::after {
+                    background-position: 0 -21px;
+                    height: 15px;
+                    width: 8px;
+                }
+            }
+
+            &.icon--instagram {
+                &::after {
+                    background-position: -40px -21px;
+                    height: 14px;
+                    width: 14px;
+                }
+            }
+
+            &.icon--linkedin {
+                &::after {
+                    background-position: -26px -21px;
+                    height: 15px;
+                    width: 13px;
+                }
+            }
+
+            &.icon--medium {
+                &::after {
+                    background-position: -55px -21px;
+                    height: 15px;
+                    width: 18px;
+                }
+            }
+
+            &.icon--twitter {
+                &::after {
+                    background-position: -10px -20px;
+                    height: 15px;
+                    width: 13px;
+                }
+            }
+        }
+    }
+
+    .icon {
+        align-items: center;
+        background-color: $grey-darker;
+        border-radius: 30px;
+        display: flex;
+        height: 35px;
+        justify-content: center;
+        margin: 0 5px;
+        transition: .2s all ease-in-out;
+        width: 35px;
+
+        &::after {
+            background-image: url(../img/social-icons.png);
+            background-repeat: no-repeat;
+            content: '';
+            display: block;
+        }
+
+        &:hover {
+            background-color: $pearl;
+        }
+
+        &.icon--facebook {
+            &:hover {
+                background-color: #3b5998;
+            }
+
+            &::after {
+                background-position: 0 0;
+                height: 20px;
+                width: 10px;
+            }
+        }
+
+        &.icon--instagram {
+            &:hover {
+                background-color: #e1306c;
+            }
+
+            &::after {
+                background-position: -51px 0;
+                height: 19px;
+                width: 19px;
+            }
+        }
+
+        &.icon--linkedin {
+            &:hover {
+                background-color: #0077b5;
+            }
+
+            &::after {
+                background-position: -31px 0;
+                height: 20px;
+                width: 18px;
+            }
+        }
+
+        &.icon--medium {
+            &:hover {
+                background-color: #6ed3cf;
+            }
+
+            &::after {
+                background-position: -71px 0;
+                height: 16px;
+                width: 19px;
+            }
+        }
+
+        &.icon--twitter {
+            &:hover {
+                background-color: #1da1f2;
+            }
+
+            &::after {
+                background-position: -11px 0;
+                height: 20px;
+                width: 19px;
+            }
+        }
+    }
+}

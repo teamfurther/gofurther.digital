@@ -1,0 +1,38 @@
+.nav-page {
+    font-size: 0;
+    margin-top: 30px;
+    padding: 0 15px;
+    text-align: center;
+
+    @include tablet() {
+        margin-top: 60px;
+    }
+
+    @include desktop() {
+        margin-top: 90px;
+    }
+
+    & > a {
+        color: $grey-darker;
+        font-size: 16px;
+        text-decoration: none;
+
+        @include desktop() {
+            font-size: 18px;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &::after {
+            color: $cobalt;
+            content: '|';
+            margin: 0 5px;
+        }
+
+        &:last-child:after {
+            content: none;
+        }
+    }
+}

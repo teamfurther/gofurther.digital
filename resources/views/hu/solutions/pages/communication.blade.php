@@ -1,0 +1,343 @@
+@extends('hu.site')
+
+@section('title', 'Beszélje meg és ossza meg ötleteit')
+@section('description', 'Integrált moduljaink segítségével hatékonyabban kommunikálhat és oszthat meg ötleteket csapataival, partnereivel vagy ügyfeleivel.')
+
+@section('content')
+    <section class="section">
+        <div class="solution">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <h1 class="heading">Testre szabott kommunikációs megoldások</h1>
+                    </div>
+                </div>
+                <div class="columns is-mobile">
+                    <div class="column is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet">
+                        <p class="solution__intro">Integrált moduljaink segítségével hatékonyabban kommunikálhat és oszthat meg ötleteket csapataival, partnereivel vagy ügyfeleivel. </p>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <h3 class="heading-3">Vegyen részt a párbeszédben</h3>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-half-tablet is-two-thirds-desktop">
+                        <p>Beszélje meg kollégáival a projektjeit vagy a dokumentumait. Bárhova integrálhatjuk megoldásainkat, lehetővé téve a csevegést és a fájlmegosztást személyes és csoportos beszélgetésekben. Részletes értesítési beállításokat biztosítunk, ezért csak azokról a beszélgetésekről kap e-mailt vagy push-értesítést, amelyekről tényleg szeretne.</p>
+                        <ul class="list has-bullets">
+                            <li>csevegés és üzenetírás az ablakok közötti váltáskor</li>
+                            <li>integrálható bármely más megoldással</li>
+                            <li>ossza meg fájljait</li>
+                            <li>hozzon létre csoportos csatornákat</li>
+                            <li>említsen meg más felhasználókat a figyelemfelkeltés céljából</li>
+                            <li>jelölje meg csillaggal kedvenc beszélgetéseit</li>
+                            <li>e-mailek és push-értesítések</li>
+                        </ul>
+                    </div>
+                    <div class="column is-half-tablet is-one-third-desktop">
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/communication-illustration-chat.png') }}" alt="Vegyen részt a párbeszédben" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section is-dark">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-offset-half-tablet is-offset-4-desktop">
+                    <h3 class="heading-3">Használja ki az e-mail erejét</h3>
+                </div>
+            </div>
+            <div class="columns is-reversed">
+                <div class="column is-half-tablet is-two-thirds-desktop">
+                    <p>E-mailes megoldásainkat használhatja úgy a vállalaton belüli hirdetésekre, mint az ügyfelekre irányuló marketing célokra. Testreszabható sablonokat hozhatunk Önnek létre, így alig néhány perc alatt tranzakciós e-maileket és hírleveleket küldhet.</p>
+                    <ul class="list has-bullets">
+                        <li>testreszabható e-mail sablonok</li>
+                        <li>céges közlemények</li>
+                        <li>ütemezett e-mailek</li>
+                        <li>levelezési listák</li>
+                        <li>e-mail értesítések</li>
+                    </ul>
+                </div>
+                <div class="column is-half-tablet is-one-third-desktop">
+                    <img class="is-centered-mobile" src="{{ asset('img/solutions/communication-illustration-announcements.png') }}" alt="Használja ki az e-mail erejét" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="solution">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <h3 class="heading-3">Hozzon létre vonzó e-mailes marketingkampányokat</h3>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-half-tablet is-two-thirds-desktop">
+                        <p>Használja elegáns sablonjainkat, és alakítsa ki őket igényei szerint vonzó tartalmakkal a leadek generálásához. Sikerességét javíthatja az adatbázisa szegmentálásával és a célcsoportoknak való e-mailküldéssel, A/B teszteléses e-mailek kiküldésével, de az egyes kampányok pontos és valós idejű statisztikával történő nyomon követésével is.</p>
+                        <ul class="list has-bullets">
+                            <li>igényes testreszabható e-mail sablonok</li>
+                            <li>minden eszközön optimálisan jelenik meg</li>
+                            <li>célcsoportok hely, dátum és más kritériumok szerint</li>
+                            <li>A/B tesztelés</li>
+                            <li>pontos jelentések és elemzések</li>
+                            <li>feliratkozási widgetek</li>
+                            <li>leiratkozási funkció</li>
+                        </ul>
+                    </div>
+                    <div class="column is-half-tablet is-one-third-desktop">
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/communication-illustration-newsletter.png') }}" alt="Hozzon létre vonzó e-mailes marketingkampányokat" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section is-dark">
+        <div class="container">
+            <div class="columns is-reversed">
+                <div class="column is-half-tablet is-two-thirds-desktop">
+                    <h3 class="heading-3">Szervezze meg munkáját jegyzetekkel és feladatlistákkal</h3>
+                    <p>Jegyzet- és feladatlista-modulunkat bármely más megoldásunkkal integrálhatjuk, így bármivel összekapcsolhatja a jegyzeteket és a feladatlistákat: személyekkel, dokumentumokkal és termékekkel. Lendítse fel termelékenységét úgy, hogy megosztja ötleteit és együttműködik csapatával.</p>
+                    <ul class="list has-bullets">
+                        <li>gyorsan hozzon létre jegyzeteket</li>
+                        <li>legyen a feladatlista mindig kéznél</li>
+                        <li>kapcsolja össze személyekkel, dokumentumokkal vagy termékekkel</li>
+                        <li>kapjon értesítést egy adott feladat esedékességéről</li>
+                    </ul>
+                </div>
+                <div class="column is-half-tablet is-one-third-desktop">
+                    <img class="is-centered-mobile" src="{{ asset('img/solutions/communication-illustration-todos.png') }}" alt="Szervezze meg munkáját jegyzetekkel és feladatlistákkal" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="solution__cta">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="heading-2">Szeretne többet megtudni kommunikációs megoldásainkról?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjen egy bemutatót</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="solution">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <h3 class="heading-3">Funkcionalitások, amelyeket már megvalósítottunk ügyfeleink számára</h3>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <ul class="list has-bullets has-two-columns has-margin-b60">
+                            <li>chat és üzenetküldési ablakok</li>
+                            <li>e-mailek és push-értesítések</li>
+                            <li>reszponzív e-mail sablonok</li>
+                            <li>hírlevelek</li>
+                            <li>e-mail elemzések</li>
+                            <li>jegyzetek és feladatlisták</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <h3 class="heading-3">Használja együtt további megoldásainkkal</h3>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="solution__nav solution__nav--productivity">
+                            <nav class="solution__nav__items">
+                                <a href="{{ localizedRoute('solutions.crm') }}">CRM</a>
+                                <a href="{{ localizedRoute('solutions.sales') }}">Értékesítés</a>
+                                <a href="{{ localizedRoute('solutions.projects') }}">Projektmenedzsment</a>
+                                <a href="{{ localizedRoute('solutions.plm') }}">PLM</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="solution__blog">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="heading-2">Miért válasszon testreszabott megoldást?</div>
+                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudja meg itt</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection
+
+
+
+@push('structured-data')
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "author": {
+        "@type": "Corporation",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "{{ config('site.company.address.country') }}",
+            "addressLocality": "{{ config('site.company.address.city') }}",
+            "postalCode": "{{ config('site.company.address.postal_code') }}",
+            "streetAddress": "{{ config('site.company.address.street_address') }}"
+        },
+        "alternateName": "{{ config('site.company.name') }}",
+        "description": "{{ config('site.description.' . getLang()) }}",
+        "email": "{{ config('site.contact.email') }}",
+        "founder": "Peter Illés and Norbert Zsombori",
+        "foundingDate": "2013",
+        "foundingLocation": "{{ config('site.company.address.city') }}, {{ config('site.company.address.country') }}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ asset('img/logo.svg') }}",
+            "height": "50",
+            "width": "185"
+        },
+        "name": "Further Digital Solutions",
+        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.google') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.twitter') }}"],
+        "telephone": "{{ config('site.contact.phone-1') }}",
+        "url": "{{ config('app.url') }}"
+    },
+    "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                    "@id": "{{ localizedRoute('home') }}",
+                    "name": "Főoldal"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                    "@id": "{{ localizedRoute('solutions') }}",
+                    "name": "Megoldásaink"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": "3",
+                "item": {
+                    "@id": "{{ localizedRoute('solutions.communication') }}",
+                    "name": "Beszélje meg és ossza meg ötleteit"
+                }
+            }
+        ]
+    },
+    "copyrightHolder": {
+        "@type": "Corporation",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "{{ config('site.company.address.country') }}",
+            "addressLocality": "{{ config('site.company.address.city') }}",
+            "postalCode": "{{ config('site.company.address.postal_code') }}",
+            "streetAddress": "{{ config('site.company.address.street_address') }}"
+        },
+        "alternateName": "{{ config('site.company.name') }}",
+        "description": "{{ config('site.description.' . getLang()) }}",
+        "email": "{{ config('site.contact.email') }}",
+        "founder": "Peter Illés and Norbert Zsombori",
+        "foundingDate": "2013",
+        "foundingLocation": "{{ config('site.company.address.city') }}, {{ config('site.company.address.country') }}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ asset('img/logo.svg') }}",
+            "height": "50",
+            "width": "185"
+        },
+        "name": "Further Digital Solutions",
+        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.google') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.twitter') }}"],
+        "telephone": "{{ config('site.contact.phone-1') }}",
+        "url": "{{ config('app.url') }}"
+    },
+    "description": "Integrált moduljaink segítségével hatékonyabban kommunikálhat és oszthat meg ötleteket csapataival, partnereivel vagy ügyfeleivel.",
+    "headline": "Beszélje meg és ossza meg ötleteit",
+    "image": {
+        "@type": "ImageObject",
+        "url": "{{ asset('img/logo.svg') }}",
+        "height": "50",
+        "width": "185"
+    },
+    "inLanguage": "hu_HU",
+    "keywords": "Chat, Üzenetküldés, E-mail marketing",
+    "mainEntityOfPage": "{{ localizedRoute('solutions.communication') }}",
+    "name": "Beszélje meg és ossza meg ötleteit",
+    "publisher": {
+        "@type": "Corporation",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "{{ config('site.company.address.country') }}",
+            "addressLocality": "{{ config('site.company.address.city') }}",
+            "postalCode": "{{ config('site.company.address.postal_code') }}",
+            "streetAddress": "{{ config('site.company.address.street_address') }}"
+        },
+        "alternateName": "{{ config('site.company.name') }}",
+        "description": "{{ config('site.description.' . getLang()) }}",
+        "email": "{{ config('site.contact.email') }}",
+        "founder": "Peter Illés and Norbert Zsombori",
+        "foundingDate": "2013",
+        "foundingLocation": "{{ config('site.company.address.city') }}, {{ config('site.company.address.country') }}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ asset('img/logo.svg') }}",
+            "height": "50",
+            "width": "185"
+        },
+        "name": "Further Digital Solutions",
+        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.google') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.twitter') }}"],
+        "telephone": "{{ config('site.contact.phone-1') }}",
+        "url": "{{ config('app.url') }}"
+    }
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": "1",
+            "item": {
+                "@id": "{{ localizedRoute('home') }}",
+                "name": "Főoldal"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": "2",
+            "item": {
+                "@id": "{{ localizedRoute('solutions') }}",
+                "name": "Megoldásaink"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": "3",
+            "item": {
+                "@id": "{{ localizedRoute('solutions.communication') }}",
+                "name": "Beszélje meg és ossza meg ötleteit"
+            }
+        }
+    ]
+}
+</script>
+@endpush

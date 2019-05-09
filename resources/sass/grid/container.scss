@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+
+    @include desktop {
+        margin: 0 auto;
+        width: $desktop - 40px;
+
+        // Modifiers
+        &.is-fluid {
+            margin: 0 20px;
+            max-width: none;
+            width: auto;
+        }
+    }
+
+    @include widescreen {
+        width: $widescreen - 40px;
+    }
+
+    @include fullhd {
+        width: $fullhd - 40px;
+    }
+}

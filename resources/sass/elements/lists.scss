@@ -1,0 +1,42 @@
+.list {
+    margin: 5px 0 15px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &.has-bullets {
+        li {
+            overflow: hidden;
+            padding-left: 25px;
+            position: relative;
+
+            &::before {
+                background: url(../img/bullets.png) 0 50% no-repeat;
+                content: '';
+                display: block;
+                float: left;
+                height: 14px;
+                left: 0;
+                position: absolute;
+                top: 5px;
+                width: 10px;
+            }
+        }
+    }
+
+    @include tablet() {
+        &.has-two-columns {
+            -webkit-columns: 2;
+            columns: 2;
+        }
+    }
+}

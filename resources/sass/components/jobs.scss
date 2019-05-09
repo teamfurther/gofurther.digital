@@ -1,0 +1,153 @@
+.job {
+    border-bottom: 1px solid $grey-light;
+    margin-bottom: 15px;
+    padding-bottom: 30px;
+
+    @include tablet() {
+        position: relative;
+    }
+
+    @include desktop() {
+        margin-bottom: 45px;
+        padding-bottom: 60px;
+    }
+
+    &.is-open {
+        padding-bottom: 15px;
+
+        @include desktop() {
+            padding-bottom: 30px;
+        }
+
+        .job__description {
+            max-height: 9999px;
+
+            &::after {
+                opacity: 0;
+            }
+        }
+
+        .job__read-more {
+            display: none;
+        }
+    }
+
+    &__actions {
+        @include tablet() {
+            display: flex;
+            position: absolute;
+            right: 0;
+            text-align: right;
+            top: 0;
+        }
+
+        @include desktop() {
+            top: 20px;
+        }
+
+        &__apply {
+            margin-top: 10px;
+
+            @include tablet() {
+                margin-top: 0;
+            }
+        }
+
+        &__share {
+            font: 14px / 1 $family-highlight;
+            margin-top: 30px;
+            text-transform: uppercase;
+
+            @include tablet() {
+                margin-top: 0;
+            }
+
+            @include desktop() {
+                display: inline-block;
+                margin-right: 30px;
+            }
+
+            .social-icons {
+                display: inline-flex;
+                vertical-align: middle;
+            }
+        }
+    }
+
+    &__department {
+        font: 14px / 1 $family-highlight;
+        text-transform: uppercase;
+
+        @include desktop() {
+            font-size: 16px;
+        }
+    }
+
+    &__description {
+        max-height: 90px;
+        margin-bottom: 15px;
+        overflow: hidden;
+        position: relative;
+        transition: .8s all ease-in-out;
+
+        @include tablet() {
+            max-height: 120px;
+        }
+
+        @include desktop() {
+            max-height: 150px;
+        }
+
+        &::after {
+            background-image: -webkit-linear-gradient(top, rgba($white, 0) 0%, $white 100%);
+            background-image: -o-linear-gradient(top, rgba($white, 0) 0%, $white 100%);
+            background-image: linear-gradient(to bottom, rgba($white, 0) 0%, $white 100%);
+            background-repeat: repeat-x;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$black', endColorstr='$white', GradientType=0);
+            bottom: 0;
+            content: '';
+            display: block;
+            height: 50px;
+            left: 0;
+            position: absolute;
+            transition: .8s all ease-in-out;
+            width: 100%;
+        }
+    }
+
+    &__extra,
+    &__location,
+    &__type {
+        font: 14px / 1 $family-highlight;
+    }
+
+    &__extra,
+    &__type {
+        border-left: 1px solid $cobalt;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+
+    &__meta {
+        margin-bottom: 30px;
+    }
+
+    &__read-more {
+        font: 700 14px / 1 $family-highlight;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        color: $grey-darker;
+        font: 700 20px / 1 $family-highlight;
+        margin: 15px 0 5px;
+
+        @include tablet() {
+            font-size: 24px;
+        }
+
+        @include desktop() {
+            font-size: 27px;
+        }
+    }
+}

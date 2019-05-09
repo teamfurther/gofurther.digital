@@ -1,0 +1,43 @@
+.btn {
+    background-color: $grey-darker;
+    border: none;
+    border-radius: 3px;
+    color: $white;
+    cursor: pointer;
+    display: inline-block;
+    font: 400 14px / 35px $family-highlight;
+    height: 35px;
+    padding: 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .2s all ease-in-out;
+    touch-action: manipulation;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        background-color: lighten($grey-darker, 2.5%);
+        color: $white;
+    }
+
+    // Colors
+    &.is-primary {
+        background-color: $pearl;
+
+        &:hover {
+            background-color: lighten($pearl, 2.5%);
+        }
+    }
+
+    // Sizes
+    &.is-large {
+        font-size: 18px;
+        height: 45px;
+        padding: 5px 15px;
+    }
+}

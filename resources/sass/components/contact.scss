@@ -1,0 +1,159 @@
+.section#contact {
+    background-color: $pearl;
+    overflow: hidden;
+    padding: 30px 0 50px;
+    position: relative;
+
+    @include tablet() {
+        padding: 60px 0 120px;
+    }
+
+    & > .container {
+        background-color: $white;
+        padding: 30px 0 45px;
+        position: relative;
+
+        @include tablet() {
+            padding: 60px 0 120px;
+            position: relative;
+            z-index: 50;
+        }
+
+        @include desktop() {
+            padding-top: 90px;
+        }
+
+        &:before {
+            background: url(../img/contact-box-bg.png) top left / contain no-repeat;
+            content: '';
+            height: 100px;
+            position: absolute;
+            right: -45px;
+            top: -30px;
+            width: 150px;
+
+            @include desktop() {
+                display: block;
+            }
+
+            @include widescreen() {
+                display: block;
+                height: 150px;
+                width: 225px;
+            }
+        }
+    }
+
+    .contact-box {
+        font-size: 16px;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+
+        @include tablet() {
+            max-width: 720px;
+            width: 80%;
+        }
+
+        &__bg {
+            background: url(../img/contact-bg.jpg) center center / cover no-repeat;
+            bottom: 0;
+            display: none;
+            height: 75%;
+            position: absolute;
+            width: 100%;
+
+            @include tablet() {
+                display: block;
+            }
+
+            @include desktop() {
+                background: url(../img/contact-bg-md.jpg) center center / cover no-repeat;
+            }
+
+            @include widescreen() {
+                background: url(../img/contact-bg-lg.jpg) center center / cover no-repeat;
+            }
+
+            &::before {
+                background-color: rgba($cobalt, .85);
+                content: '';
+                display: block;
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                z-index: 10;
+            }
+        }
+
+        &__company-details {
+            border-bottom: 1px solid $grey-darker;
+            border-top: 1px solid $grey-darker;
+            margin: 0 auto;
+            padding: 15px 0;
+            text-align: center;
+
+            span {
+                display: block;
+                font: 400 14px / 1.5 $family-highlight;
+            }
+
+            &__heading {
+                color: $grey-darker;
+                font: 400 20px / 1 $family-highlight;
+                margin-bottom: 10px;
+            }
+        }
+
+        &__form {
+            margin: 30px 0;
+
+            @include tablet() {
+                margin: 60px 0;
+            }
+
+            p {
+                margin-bottom: 30px;
+
+                @include desktop() {
+                    margin-bottom: 60px;
+                }
+            }
+
+            .is-pulled-left,
+            .is-pulled-right {
+                width: 100%;
+
+                @include tablet() {
+                    width: calc(50% - 5px);
+                }
+            }
+        }
+
+        &__info {
+            a {
+                display: block;
+                font: 400 18px / 1.5 $family-highlight;
+                line-height: 1.5;
+
+                @include tablet() {
+                    font-size: 20px;
+                }
+
+                @include desktop() {
+                    font-size: 24px;
+                }
+            }
+
+            .tel a {
+                color: $grey-darker;
+            }
+        }
+    }
+
+    .social-icons {
+        margin-top: 15px;
+    }
+}

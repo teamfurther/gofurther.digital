@@ -1,0 +1,115 @@
+.heading {
+    color: $grey-darker;
+    font: 700 20px / 1 $family-highlight;
+    margin: 0 auto 30px;
+    padding-bottom: 15px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90%;
+
+    @include tablet() {
+        font-size: 24px;
+        margin-bottom: 45px;
+        width: 80%;
+        max-width: 720px;
+    }
+
+    @include desktop() {
+        font-size: 30px;
+        margin-bottom: 90px;
+    }
+
+    &::after {
+        background-color: $grey-darker;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 1px;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        width: 180px;
+    }
+}
+
+.heading-2 {
+    color: $grey-darker;
+    font: 700 20px / 1 $family-highlight;
+    margin-bottom: 15px;
+
+    @include tablet() {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    @include desktop() {
+        font-size: 27px;
+        margin-bottom: 60px;
+    }
+}
+
+.heading-3 {
+    color: $grey-darker;
+    font: 600 20px / 1 $family-highlight;
+    margin-bottom: 15px;
+}
+
+.heading-4 {
+    color: $grey-darker;
+    font: 600 16px / 1.5 $family-highlight;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.heading,
+.heading-2,
+.heading-3,
+.heading-4 {
+    a {
+        color: $grey-darker;
+
+        &:hover {
+            color: lighten($grey-darker, 10%);
+        }
+    }
+}
+
+.hero-heading {
+    border-bottom: 1px solid $grey-darker;
+    border-top: 1px solid $grey-darker;
+    color: $grey-darker;
+    font: 600 20px $family-highlight;
+    margin: 0 auto 30px;
+    padding: 15px 0;
+    text-align: center;
+    width: 90%;
+
+    @include tablet() {
+        font-size: 24px;
+        margin-bottom: 45px;
+        max-width: 720px;
+        width: 80%;
+    }
+
+    @include desktop() {
+        font-size: 30px;
+        margin-bottom: 90px;
+    }
+
+    strong {
+        display: block;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1;
+
+        @include tablet() {
+            font-size: 42px;
+            margin-top: -5px;
+        }
+
+        @include desktop() {
+            font-size: 60px;
+        }
+    }
+}

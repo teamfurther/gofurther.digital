@@ -1,0 +1,75 @@
+.alert {
+    background-color: $grey-lighter;
+    border-radius: 3px;
+    bottom: -100%;
+    box-shadow: 0 5px 5px rgba($black, .1);
+    color: $white;
+    font: 600 14px / 1.5 $family-highlight;
+    left: 50%;
+    opacity: 0;
+    padding: 10px 15px;
+    position: fixed;
+    text-align: center;
+    transform: translateX(-50%);
+    transition: 1s all cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    width: calc(100% - 30px);
+    z-index: 999;
+
+    @include tablet() {
+        max-width: 600px;
+    }
+
+    &.is-success {
+        background: url(../img/alert-success-bg.png) -30px 50% no-repeat $olive; // https://thenounproject.com/goldenroof/collection/mood-smiles
+    }
+
+    &.is-open {
+        bottom: 30px;
+        opacity: 1;
+        transition: 1s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    &__close {
+        color: rgba($black, .25);
+        cursor: pointer;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 1;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+
+        &:hover {
+            color: rgba($black, .5);
+        }
+    }
+
+    strong {
+        display: block;
+        font: 700 20px / 1 $family-highlight;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        position: relative;
+        text-transform: uppercase;
+
+        @include tablet() {
+            font-size: 22px;
+        }
+
+        @include desktop() {
+            font-size: 22px;
+        }
+
+        &::after {
+            background-color: $white;
+            bottom: 0;
+            content: '';
+            display: block;
+            height: 1px;
+            left: 50%;
+            position: absolute;
+            transform: translateX(-50%);
+            width: 180px;
+        }
+    }
+}

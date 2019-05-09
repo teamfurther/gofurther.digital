@@ -1,0 +1,11 @@
+version: '3'
+services:
+    server:
+        volumes:
+            - further-data-sync:/var/www:nocopy
+    app:
+        volumes:
+            - further-data-sync:/var/www:nocopy
+volumes:
+    further-data-sync:
+        external: true

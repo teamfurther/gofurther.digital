@@ -1,0 +1,30 @@
+.footer {
+    color: $white;
+    font: 14px / 50px $family-highlight;
+    height: 50px;
+    margin-top: -50px;
+    padding: 0 15px;
+    position: relative;
+    top: 0;
+    z-index: 10;
+
+    a {
+        color: $white;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .columns {
+        margin: 0 -15px;
+    }
+
+    .column {
+        padding: 0 15px;
+
+        @include tablet() {
+            text-align: center;
+        }
+    }
+}

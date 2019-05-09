@@ -1,0 +1,125 @@
+.project-list {
+    font-size: 0;
+    overflow: hidden;
+
+    .col {
+        float: left;
+        padding-bottom: 30px;
+        vertical-align: top;
+        width: 100%;
+
+        @include tablet() {
+            padding: 0 15px 30px;
+        }
+
+        &.is-half-tablet {
+            @include tablet() {
+                width: 50%;
+            }
+        }
+
+        &.is-half-desktop {
+            @include desktop() {
+                width: 50%;
+            }
+        }
+
+        &.is-one-quarter-desktop {
+            @include desktop() {
+                width: 25%;
+            }
+        }
+
+        &.is-three-quarters-desktop {
+            @include desktop() {
+                width: 75%;
+            }
+        }
+    }
+
+    .project {
+        background-color: $grey;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 255px;
+        text-align: center;
+
+        @include desktop() {
+            height: 210px;
+        }
+
+        @include widescreen() {
+            height: 255px;
+        }
+
+        &.is-rowspan {
+            @include desktop() {
+                height: 450px;
+            }
+
+            @include widescreen() {
+                height: 540px;
+            }
+        }
+
+        &.is-stat {
+            align-items: center;
+            background-color: $grey-lighter;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+
+            @include desktop() {
+                display: flex;
+            }
+        }
+
+        &__title {
+            color: $white;
+            font: 600 30px / 1 $family-highlight;
+            margin: 0;
+
+            &::after {
+                background-color: $white;
+                content: '';
+                display: block;
+                height: 1px;
+                left: 50%;
+                margin: 15px 0 0 -50px;
+                position: relative;
+                width: 100px;
+            }
+
+            @include desktop() {
+                display: none;
+            }
+        }
+
+        & > a {
+            align-items: center;
+            background-color: rgba(0, 0, 0, .6);
+            bottom: 0;
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            transition: .4s all ease-in-out;
+
+            @include desktop() {
+                background-color: transparent;
+
+                &:hover {
+                    .project__title {
+                        display: block;
+                    }
+                }
+            }
+
+            &:hover {
+                background-color: rgba($pearl, .9);
+                text-decoration: none;
+            }
+        }
+    }
+}
