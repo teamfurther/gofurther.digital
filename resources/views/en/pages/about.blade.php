@@ -139,7 +139,7 @@
                         <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-noemi-varga.png') }}" alt="Noémi Varga" />
                             <h4 class="about__team__member__name">Noémi Varga</h4>
-                            <div class="about__team__member__title">Fejlesztő<br class="visible-md-block" /><br class="visible-md-block" /></div>
+                            <div class="about__team__member__title">Developer<br class="visible-md-block" /><br class="visible-md-block" /></div>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
