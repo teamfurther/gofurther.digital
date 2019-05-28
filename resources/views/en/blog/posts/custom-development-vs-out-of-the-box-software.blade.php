@@ -130,7 +130,7 @@
     },
     "inLanguage": "en_gb",
     "keywords": "Custom software development, Licensed software, Out-of-the-box software, Packaged software, SaaP, SaaS",
-    "mainEntityOfPage":{
+    "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
     },

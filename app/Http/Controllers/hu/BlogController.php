@@ -15,6 +15,10 @@ class BlogController extends Controller
 
     public function view($slug)
     {
+        if (!view()->exists(getLang() . '.blog.posts.' . $slug)) {
+            abort(404);
+        }
+
         return view(getLang() . '.blog.view')->with([
             'slug' => $slug
         ]);

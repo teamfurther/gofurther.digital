@@ -14,7 +14,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">Mitől jó egy (agilis) szoftverspecifikáció?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2018-05-03 12:00:00">2018 szeptember 17</time> &middot; 6 perces olvasás
+                                <time class="dt-published" datetime="2018-09-17 12:00:00">2018 szeptember 17</time> &middot; 6 perces olvasás
                             </div>
                         </div>
                     </div>
@@ -112,8 +112,8 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "datePublished": "2018-05-03T12:00:00",
-    "dateModified": "2018-05-03T12:00:00",
+    "datePublished": "2018-09-17T12:00:00",
+    "dateModified": "2018-09-17T12:00:00",
     "description": "A vízesés modell esetében egy szoftver minőségi és időben történő szállításának biztosítása érdekében ki kellett dolgozni a szoftverspecifikációt a legutolsó részletig. De mi a helyzet ha agilis környezetben fejlesztünk?",
     "headline": "Hogyan írjunk egy jó agilis szoftver specifikációt?",
     "image": {
@@ -124,7 +124,7 @@
     },
     "inLanguage": "en_gb",
     "keywords": "Egyedi szoftverfejlesztés, Szoftverspecifikáció, Agilis szoftverfejlesztés",
-    "mainEntityOfPage":{
+    "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
     },

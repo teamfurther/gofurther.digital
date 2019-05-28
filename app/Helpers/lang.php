@@ -53,6 +53,18 @@ if (!function_exists('setLang')) {
     }
 }
 
+if (!function_exists('routeMappingLookup')) {
+    function routeMappingLookup($key, $slug, $targetLang)
+    {
+        $array = config('routeMapping.' . $key);
+        $currentLang = app()->getLocale();
+
+        $resultKey = array_search($slug, array_column($array, $currentLang));
+
+        return $array[$resultKey][$targetLang];
+    }
+}
+
 if (!function_exists('switchLang')) {
     function switchLang($lang)
     {
@@ -61,9 +73,22 @@ if (!function_exists('switchLang')) {
         }
 
         $route = substr(request()->route()->getName(), 3);
+        $parameters = request()->route()->parameters();
 
-        return Route::has($lang . '.' . $route) ?
-            localizedRoute($route, request()->route()->parameters(), true, $lang) :
-            null;
+        // handle exceptions
+        switch ($route) {
+            case 'blog.view':
+                $parameters['slug'] = routeMappingLookup('blog', $parameters['slug'], $lang);
+
+                break;
+            case 'projects.view':
+                $parameters['slug'] = routeMappingLookup('projects', $parameters['slug'], $lang);
+
+                break;
+        }
+
+        return Route::has($lang . '.' . $route)
+            ? localizedRoute($route, $parameters, true, $lang)
+            : null;
     }
 }

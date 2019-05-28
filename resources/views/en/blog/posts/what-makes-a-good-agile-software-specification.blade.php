@@ -14,7 +14,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">What makes a good (agile) software specification?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2018-05-03 12:00:00">Sep 17th, 2018</time> &middot; 6 min read
+                                <time class="dt-published" datetime="2018-09-17 12:00:00">Sep 17th, 2018</time> &middot; 6 min read
                             </div>
                         </div>
                     </div>
@@ -112,8 +112,8 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "datePublished": "2018-05-03T12:00:00",
-    "dateModified": "2018-05-03T12:00:00",
+    "datePublished": "2018-09-17T12:00:00",
+    "dateModified": "2018-09-17T12:00:00",
     "description": "In the waterfall model, to ensure the quality and timely delivery of a software product, you needed to create a detailed software specification. But what if we're using agile methodologies on our projects?",
     "headline": "How to write a good agile software specification?",
     "image": {
@@ -124,7 +124,7 @@
     },
     "inLanguage": "en_gb",
     "keywords": "Custom software development, Software specification, Agile software development",
-    "mainEntityOfPage":{
+    "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
     },

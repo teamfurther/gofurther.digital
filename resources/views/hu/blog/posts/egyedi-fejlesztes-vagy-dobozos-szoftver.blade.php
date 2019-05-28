@@ -130,7 +130,7 @@
     },
     "inLanguage": "hu_HU",
     "keywords": "Egyedi szoftverfejlesztés, Licenszes szoftver, Dobozos szoftver, Szolgáltatott szoftver, SaaP, SaaS",
-    "mainEntityOfPage":{
+    "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
     },

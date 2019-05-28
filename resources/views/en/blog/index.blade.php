@@ -15,6 +15,16 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'the-story-behind-our-rebranding']) }}"><img src="{{ asset('media/blog/thumb-rebranding.png') }}" alt="The story behind our rebranding" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'the-story-behind-our-rebranding']) }}">The story behind our rebranding</a></h3>
+                                <p class="post__excerpt">We took the shot and decided to rebrand our company not only because change is necessary to grow, but the main reason behind the rebrand was that the old brand did not represent us well anymore.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'what-makes-a-good-agile-software-specification']) }}">Read on &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'what-makes-a-good-agile-software-specification']) }}"><img src="{{ asset('media/blog/thumb-agile-software-specification.jpg') }}" alt="What makes a good (agile) software specification?" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'what-makes-a-good-agile-software-specification']) }}">What makes a good (agile) software specification?</a></h3>
