@@ -15,11 +15,21 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'laraconeu-madrid-2019']) }}"><img src="{{ asset('media/blog/thumb-laraconeu-madrid-2019.png') }}" alt="Further@LaraconEU Madrid 2019" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'laraconeu-madrid-2019']) }}">Further@LaraconEU Madrid 2019</a></h3>
+                                <p class="post__excerpt">The 23rd of May was a special day for us, as we attended our first Laracon in Madrid. Laracon has always been high up on our conferences bucket list, but it just didn't work out for us. Until now.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'laraconeu-madrid-2019']) }}">Read on &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'the-story-behind-our-rebranding']) }}"><img src="{{ asset('media/blog/thumb-rebranding.png') }}" alt="The story behind our rebranding" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'the-story-behind-our-rebranding']) }}">The story behind our rebranding</a></h3>
                                 <p class="post__excerpt">We took the shot and decided to rebrand our company not only because change is necessary to grow, but the main reason behind the rebrand was that the old brand did not represent us well anymore.</p>
-                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'what-makes-a-good-agile-software-specification']) }}">Read on &raquo;</a>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'the-story-behind-our-rebranding']) }}">Read on &raquo;</a>
                             </div>
                         </div>
                     </div>

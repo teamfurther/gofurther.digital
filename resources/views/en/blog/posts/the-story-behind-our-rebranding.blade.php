@@ -14,7 +14,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">The story behind our rebranding</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2019-05-13 12:00:00">May 13th, 2019</time> &middot; 3 min read
+                                <time class="dt-published" datetime="2019-05-13 12:00:00">May 13th, 2019</time> &middot; 4 min read
                             </div>
                         </div>
                     </div>
