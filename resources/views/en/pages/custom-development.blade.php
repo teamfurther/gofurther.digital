@@ -3,9 +3,13 @@
 @section('content')
     <section class="hero is-green">
         <div class="hero__video">
-            <a href="#" class="hero__video__thumb"><img src="{{ asset('img/presentation-video-thumb.png') }}" alt="Watch our presentation video" /></a>
+            <a class="hero__video__thumb" data-toggle="modal" data-target="#video-modal">
+                <img src="{{ asset('img/presentation-video-thumb.png') }}" alt="Watch our presentation video" />
+            </a>
         </div>
-        <a class="hero__cta" href="#">Want to know how we can help you?<strong>Watch now</strong></a>
+        <a class="hero__cta" data-toggle="modal" data-target="#video-modal">
+            Want to know how we can help you?<strong>Watch now</strong>
+        </a>
         <a class="hero__scroll" href="{{ url('#signs') }}"></a>
     </section>
 
@@ -131,6 +135,21 @@
         </div>
     </section>
 @endsection
+
+
+
+@push('content-modals')
+<div class="modal is-centered-vertical" id="video-modal" tabindex="-1" role="dialog">
+    <div class="modal__dialog is-large">
+        <div class="modal__content">
+            <div class="video-container">
+                <iframe width="880" height="495" src="https://www.youtube.com/embed/ac0F4Woqso4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div><!-- /.modal__content -->
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+<div class="modal__backdrop"></div>
+@endpush
 
 
 
