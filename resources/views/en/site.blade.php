@@ -59,7 +59,7 @@
     </script>
 </head>
 
-<body @if (request()->route() && request()->route()->getName() == 'en.home') class="home" @endif id="top">
+<body class="{{ !empty($bodyClass) ? $bodyClass : '' }}" id="top">
 
 <header class="header">
     <div class="container">

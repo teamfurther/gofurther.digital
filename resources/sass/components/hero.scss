@@ -42,6 +42,12 @@
         z-index: 10;
     }
 
+    &.is-green {
+        &::before {
+            background-color: rgba($pearl, .9);
+        }
+    }
+
     &__cta {
         color: $white;
         display: block;
@@ -169,6 +175,56 @@
             @include fullhd() {
                 font-size: 54px;
                 height: 60px;
+            }
+        }
+    }
+
+    &__video {
+        z-index: 15;
+
+        &__thumb {
+            display: block;
+            margin: 15px auto -30px;
+            max-width: 500px;
+            padding: 0 30px;
+            position: relative;
+
+            @include desktop() {
+                margin: 5% auto calc(-12.5% + 30px);
+                padding: 0;
+            }
+
+            @include widescreen() {
+                margin: 2.5% auto calc(-10% + 30px);
+            }
+
+            &::after {
+                background: url(../img/play-icon.png) center center / 20px 20px no-repeat rgba($pearl, .95);
+                border-radius: 100%;
+                content: '';
+                height: 50px;
+                left: 50%;
+                position: absolute;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                transition: .4s all ease-in;
+                width: 50px;
+
+                @include tablet() {
+                    background-size: auto;
+                    height: 75px;
+                    width: 75px;
+                }
+            }
+
+            &:hover {
+                &::after {
+                    background-color: $pearl;
+                }
+            }
+
+            img {
+                max-width: 100%;
             }
         }
     }

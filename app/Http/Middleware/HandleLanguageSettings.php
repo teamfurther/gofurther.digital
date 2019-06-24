@@ -26,7 +26,7 @@ class HandleLanguageSettings
             setLang($lang);
         }
 
-        if ($lang != $prefix) {
+        if ($lang !== $prefix) {
             return redirect('/' . $lang);
         }
 

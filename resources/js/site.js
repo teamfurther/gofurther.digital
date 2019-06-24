@@ -72,9 +72,9 @@ let alert = new function() {
 };
 
 /*
- * HOMEPAGE
+ * HERO
  */
-let home = new function() {
+let heroContainer = new function() {
     this.animIn = null;
     this.animLine = null;
     this.animOut = null;
@@ -82,11 +82,11 @@ let home = new function() {
     this.hero = document.querySelector('.hero');
 
     function adjustHero() {
-        if (document.querySelector('body').classList.contains('home')) {
-            let sectionAfterHero = home.hero.nextElementSibling;
+        if (document.querySelector('body').classList.contains('has-hero')) {
+            let sectionAfterHero = heroContainer.hero.nextElementSibling;
 
             if (breakpoints.fromDesktop()) {
-                sectionAfterHero.style.marginTop = home.hero.offsetHeight + 'px';
+                sectionAfterHero.style.marginTop = heroContainer.hero.offsetHeight + 'px';
             } else {
                 sectionAfterHero.style.marginTop = '0px';
             }
@@ -94,19 +94,19 @@ let home = new function() {
     }
 
     function animateHeroTagline() {
-        if (!home.hero) {
+        if (!document.querySelector('.hero__tagline')) {
             return;
         }
 
-        clearInterval(home.animIn);
-        clearInterval(home.animOut);
-        clearTimeout(home.animLine);
-        clearTimeout(home.animOutDelay);
+        clearInterval(heroContainer.animIn);
+        clearInterval(heroContainer.animOut);
+        clearTimeout(heroContainer.animLine);
+        clearTimeout(heroContainer.animOutDelay);
 
-        const line = home.hero.querySelector('.hero__tagline strong');
+        const line = heroContainer.hero.querySelector('.hero__tagline strong');
         line.innerHTML = '';
 
-        const texts = JSON.parse(home.hero.querySelector('.hero__tagline').getAttribute('data-texts'));
+        const texts = JSON.parse(heroContainer.hero.querySelector('.hero__tagline').getAttribute('data-texts'));
         const longestTextLength = texts.reduce(function (length, string) {
             return length > string.length ? length : string.length
         }, 0);
@@ -120,20 +120,20 @@ let home = new function() {
         function animateLine() {
             let currentChar = 0;
 
-            home.animIn = setInterval(function () {
+            heroContainer.animIn = setInterval(function () {
                 if (typeof texts[currentLine][currentChar] !== 'undefined') {
                     line.innerHTML += texts[currentLine][currentChar++];
                 } else {
-                    clearInterval(home.animIn);
+                    clearInterval(heroContainer.animIn);
                 }
             }, delayBeforeNextChar);
 
-            home.animOutDelay = setTimeout(function () {
-                home.animOut = setInterval(function () {
+            heroContainer.animOutDelay = setTimeout(function () {
+                heroContainer.animOut = setInterval(function () {
                     if (line.innerHTML.length > 0) {
                         line.innerHTML = line.innerHTML.slice(0, -1);
                     } else {
-                        clearInterval(home.animOut);
+                        clearInterval(heroContainer.animOut);
 
                         currentLine++;
                         if (currentLine > texts.length - 1) {
@@ -143,7 +143,7 @@ let home = new function() {
                 }, delayBeforeNextChar);
             }, longestTextLength * delayBeforeNextChar + delayBeforeDelete);
 
-            home.animLine = setTimeout(animateLine, longestTextLength * delayBeforeNextChar * 2 + delayBeforeDelete + delayBetweenLoops);
+            heroContainer.animLine = setTimeout(animateLine, longestTextLength * delayBeforeNextChar * 2 + delayBeforeDelete + delayBetweenLoops);
         }
         animateLine();
     }
@@ -157,10 +157,10 @@ let home = new function() {
     window.addEventListener('load', initHero);
     window.addEventListener('resize', initHero);
     window.addEventListener('visibilitychange', function () {
-        clearInterval(home.animIn);
-        clearInterval(home.animOut);
-        clearTimeout(home.animLine);
-        clearTimeout(home.animOutDelay);
+        clearInterval(heroContainer.animIn);
+        clearInterval(heroContainer.animOut);
+        clearTimeout(heroContainer.animLine);
+        clearTimeout(heroContainer.animOutDelay);
     });
 };
 

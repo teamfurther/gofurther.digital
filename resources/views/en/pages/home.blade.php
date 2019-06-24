@@ -1,4 +1,4 @@
-@extends('en.site')
+@extends('en.site', ['bodyClass' => 'has-hero'])
 
 @section('content')
     <section class="hero">
@@ -31,7 +31,7 @@
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
                     <h3 class="heading-4">Custom<br />software development</h3>
                     <p>We can take care of all your custom development needs, from business analysis, through design to implementation, all tailor-made for you.</p>
-                    {{--<a class="btn is-primary" href="#">Read more</a>--}}
+                    <a class="btn is-primary" href="{{ localizedRoute('custom-development') }}">Read more</a>
                 </div>
             </div>
             <div class="columns is-mobile">

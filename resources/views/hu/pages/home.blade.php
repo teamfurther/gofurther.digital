@@ -1,4 +1,4 @@
-@extends('hu.site')
+@extends('hu.site', ['bodyClass' => 'has-hero'])
 
 @section('content')
     <section class="hero">

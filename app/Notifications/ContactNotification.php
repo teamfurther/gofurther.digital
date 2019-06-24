@@ -13,7 +13,7 @@ class ContactNotification extends Notification
      *
      * @var string
      */
-    public $data;
+    protected $data;
 
     /**
      * Create a new notification instance.
@@ -45,10 +45,10 @@ class ContactNotification extends Notification
     public function toMail($notifiable)
     {
         $slot = View::make('emails.contact_message', [
-            'data' => $this->data
+            'data' => $this->data,
         ]);
 
-        $mail = new MailMessage;
+        $mail = new MailMessage();
         $mail->subject('New contact message');
 
         $mail->view('emails.email', [

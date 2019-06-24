@@ -13,7 +13,7 @@ class JobApplicationNotification extends Notification
      *
      * @var string
      */
-    public $data;
+    protected $data;
 
     /**
      * Create a new notification instance.
@@ -45,14 +45,14 @@ class JobApplicationNotification extends Notification
     public function toMail($notifiable)
     {
         $slot = View::make('emails.job_application', [
-            'data' => $this->data
+            'data' => $this->data,
         ]);
 
-        $mail = new MailMessage;
+        $mail = new MailMessage();
         $mail->subject('New job application');
 
         $mail->view('emails.email', [
-            'slot' => $slot
+            'slot' => $slot,
         ]);
 
         return $mail;

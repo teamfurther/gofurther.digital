@@ -22,8 +22,9 @@ class JobsController extends Controller
     {
         $job = Job::where('slug', $slug)->first();
 
-        if (!$job)
+        if (!$job) {
             abort(404);
+        }
 
         return view(getLang() . '.jobs.view')->with([
             'job' => $job

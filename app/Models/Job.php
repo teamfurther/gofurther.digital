@@ -44,23 +44,4 @@ class Job extends Model
     ];
 
 
-    /**
-     * Set slug by transliterating
-     *
-     * @param $value
-     */
-    public function setTitleAttribute($value) {
-        $this->attributes['title'] = $value;
-
-        if(!$this->slug) {
-            $slug = str_transliterate($value);
-            $slugCount = self::whereRaw('slug REGEXP "^' . $slug . '(-[0-9]*)?$"')->count();
-            if ($slugCount > 0)
-                $slug = $slug . '-' . $slugCount;
-
-            $this->attributes['slug'] = $slug;
-        }
-    }
-
-
 }

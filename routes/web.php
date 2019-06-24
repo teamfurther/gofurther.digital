@@ -11,21 +11,22 @@
 |
 */
 
-Route::group(['middleware' => ['lang', 'web']], function() {
+Route::group(['middleware' => ['lang', 'web']], function () {
 
-    Route::get('/', function() {
+    Route::get('/', function () {
         // this is empty, as lang middleware will take care of redirection
     });
 
     /*
      * ENGLISH
      */
-    Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function() {
+    Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function () {
         Route::get('/', ['uses' => 'PagesController@index', 'as' => 'home']);
 
         Route::get('about', ['uses' => 'PagesController@about', 'as' => 'about']);
         Route::get('coming-soon', ['uses' => 'PagesController@comingSoon', 'as' => 'coming-soon']);
         Route::get('cookies-policy', ['uses' => 'PagesController@cookies', 'as' => 'cookies']);
+        Route::get('custom-software-development', ['uses' => 'PagesController@customDevelopment', 'as' => 'custom-development']);
         Route::get('privacy-policy', ['uses' => 'PagesController@privacy', 'as' => 'privacy']);
         Route::get('terms-of-use', ['uses' => 'PagesController@terms', 'as' => 'terms']);
         Route::get('tech-stack', ['uses' => 'PagesController@techStack', 'as' => 'tech-stack']);
@@ -63,11 +64,12 @@ Route::group(['middleware' => ['lang', 'web']], function() {
     /*
      * MAGYAR
      */
-    Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function() {
+    Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function () {
         Route::get('/', ['uses' => 'PagesController@index', 'as' => 'home']);
 
         Route::get('adatvedelmi-szabalyzat', ['uses' => 'PagesController@privacy', 'as' => 'privacy']);
         Route::get('cookie-szabalyzat', ['uses' => 'PagesController@cookies', 'as' => 'cookies']);
+        Route::get('egyedi-szoftverfejlesztes', ['uses' => 'PagesController@customDevelopment', 'as' => 'custom-development']);
         Route::get('eszkoztar', ['uses' => 'PagesController@techStack', 'as' => 'tech-stack']);
         Route::get('felhasznalasi-feltetelek', ['uses' => 'PagesController@terms', 'as' => 'terms']);
         Route::get('hamarosan', ['uses' => 'PagesController@comingSoon', 'as' => 'coming-soon']);
@@ -99,10 +101,10 @@ Route::group(['middleware' => ['lang', 'web']], function() {
         Route::get('megoldasaink/webaruhaz', ['uses' => 'SolutionsController@ecommerce', 'as' => 'solutions.ecommerce']);
     });
 
-
-
     /*
      * REDIRECTS
      */
-    Route::get('testreszabott-vallalatiranyitasi-rendszerek', function () { return Redirect::to('/', 302); });
+    Route::get('testreszabott-vallalatiranyitasi-rendszerek', function () {
+        return Redirect::to('/', 302);
+    });
 });

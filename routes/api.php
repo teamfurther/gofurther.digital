@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::group(['middleware' => ['auth:api'], 'name' => 'api.'], function() {
+Route::group(['middleware' => ['auth:api'], 'name' => 'api.'], function () {
 
     //
 

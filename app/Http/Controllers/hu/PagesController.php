@@ -25,6 +25,11 @@ class PagesController extends Controller
         return view(getLang() . '.pages.coming-soon');
     }
 
+    public function customDevelopment()
+    {
+        return view(getLang() . '.pages.custom-development');
+    }
+
     public function services()
     {
         return view(getLang() . '.pages.services');

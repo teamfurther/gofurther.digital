@@ -197,6 +197,12 @@
                 float: left;
                 margin-bottom: 0;
                 margin-right: 30px;
+
+                &.is-right-aligned {
+                    float: right;
+                    margin-left: 30px;
+                    margin-right: 0;
+                }
             }
         }
     }
