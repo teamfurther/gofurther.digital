@@ -12,8 +12,10 @@ class ContactTest extends TestCase
 
     /**
      * Set up testing environment
+     *
+     * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -41,7 +43,7 @@ class ContactTest extends TestCase
         $data = $this->data;
         unset($data['contact_email']);
 
-        $response = $this->json('POST', '/contact', $data);
+        $response = $this->json('POST', '/en/contact', $data);
 
         $response->assertStatus(422)
             ->assertJsonStructure([
@@ -57,7 +59,7 @@ class ContactTest extends TestCase
         $data = $this->data;
         $data['contact_email'] = 'whatever';
 
-        $response = $this->json('POST', '/contact', $data);
+        $response = $this->json('POST', '/en/contact', $data);
 
         $response->assertStatus(422)
             ->assertJsonStructure([
@@ -73,7 +75,7 @@ class ContactTest extends TestCase
         $data = $this->data;
         unset($data['contact_message']);
 
-        $response = $this->json('POST', '/contact', $data);
+        $response = $this->json('POST', '/en/contact', $data);
 
         $response->assertStatus(422)
             ->assertJsonStructure([
@@ -89,7 +91,7 @@ class ContactTest extends TestCase
         $data = $this->data;
         unset($data['contact_name']);
 
-        $response = $this->json('POST', '/contact', $data);
+        $response = $this->json('POST', '/en/contact', $data);
 
         $response->assertStatus(422)
             ->assertJsonStructure([
@@ -102,14 +104,14 @@ class ContactTest extends TestCase
 
     public function testContactShouldSendNotificationIfSuccess()
     {
-        $response = $this->json('POST', '/contact', $this->data);
+        $response = $this->json('POST', '/en/contact', $this->data);
 
         \Notification::assertSentTo(User::findOrFail(1), ContactNotification::class);
     }
 
     public function testContactShouldRedirectIfSuccess()
     {
-        $response = $this->json('POST', '/contact', $this->data);
+        $response = $this->json('POST', '/en/contact', $this->data);
 
         $response->assertStatus(302)
             ->assertSessionHas('alert', [
@@ -123,8 +125,11 @@ class ContactTest extends TestCase
 
     /**
      * Tear down testing environment
+     *
+     * @return void
      */
-    public function tearDown() {
+    public function tearDown(): void
+    {
         \Honeypot::enable();
     }
 }
