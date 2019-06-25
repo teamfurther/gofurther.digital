@@ -9,8 +9,7 @@ return [
         ],
         [
             'en' => 'the-story-behind-our-rebranding',
-//            'hu' => 'ujrabrandeles-avagy-miert-valtottunk-arculatot',
-            'hu' => null,
+            'hu' => 'uj-ruhaban-koszontjuk-a-nyarat',
         ],
         [
             'en' => 'what-makes-a-good-agile-software-specification',
