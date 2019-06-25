@@ -6,7 +6,6 @@ use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Illuminate\Support\ViewErrorBag;
 use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
-use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class Handler extends ExceptionHandler
 {
@@ -45,7 +44,7 @@ class Handler extends ExceptionHandler
 
         $this->registerErrorViewPaths();
         $view = getLang() . ".errors.{$e->getStatusCode()}";
-        
+
         if (view()->exists($view)) {
             return response()->view($view, [
                 'errors' => new ViewErrorBag(),

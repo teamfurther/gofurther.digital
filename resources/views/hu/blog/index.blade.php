@@ -15,6 +15,16 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'uj-ruhaban-koszontjuk-a-nyarat']) }}"><img src="{{ asset('media/blog/thumb-rebranding.png') }}" alt="Új ruhában köszöntjük a nyarat" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'uj-ruhaban-koszontjuk-a-nyarat']) }}">Új ruhában köszöntjük a nyarat</a></h3>
+                                <p class="post__excerpt">Nemcsak azért döntöttünk cégünk arculatváltása mellett, mert ez elengedhetetlen a növekedéshez, hanem főleg azért, mert a régi arculat már nem képviselt minket eléggé.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'uj-ruhaban-koszontjuk-a-nyarat']) }}">Tovább &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'mitol-jo-egy-agilis-szoftverspecifikacio']) }}"><img src="{{ asset('media/blog/thumb-agile-software-specification.jpg') }}" alt="Mitől jó egy (agilis) szoftverspecifikáció?" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'mitol-jo-egy-agilis-szoftverspecifikacio']) }}">Mitől jó egy (agilis) szoftverspecifikáció?</a></h3>
