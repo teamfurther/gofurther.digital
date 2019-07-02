@@ -15,6 +15,46 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt4-it']) }}"><img src="{{ asset('media/blog/thumb-digital-transformation-4.jpg') }}" alt="Digital Transformation Pt. 4 - IT" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt4-it']) }}">Digital Transformation Pt. 4 - IT</a></h3>
+                                <p class="post__excerpt">In this final part, we'll tackle the final piece of the puzzle and look at what technology you can leverage to take your business one step further.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt4-it']) }}">Read on &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}"><img src="{{ asset('media/blog/thumb-digital-transformation-3.jpg') }}" alt="Digital Transformation Pt. 3 - Business Processes" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}">Digital Transformation Pt. 3 - Business Processes</a></h3>
+                                <p class="post__excerpt">In the third part of the series, we take a look at how implementing BPM and Agile helps support digital transformation.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}">Read on &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt2-company-culture']) }}"><img src="{{ asset('media/blog/thumb-digital-transformation-2.jpg') }}" alt="Digital Transformation Pt. 2 - Company Culture" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt2-company-culture']) }}">Digital Transformation Pt. 2 - Company Culture</a></h3>
+                                <p class="post__excerpt">In the first part of the series we saw how digital killed Kodak. But they made efforts to change their company culture and have risen from their ashes.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt2-company-culture']) }}">Read on &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt1-introduction']) }}"><img src="{{ asset('media/blog/thumb-digital-transformation-1.jpg') }}" alt="Digital Transformation Pt. 1 - Introduction" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt1-introduction']) }}">Digital Transformation Pt. 1 - Introduction</a></h3>
+                                <p class="post__excerpt">Welcome to the first part of our 4 part series on digital transformation. Let's dive in, and start with what digital transformation actually means.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt1-introduction']) }}">Read on &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'laraconeu-madrid-2019']) }}"><img src="{{ asset('media/blog/thumb-laraconeu-madrid-2019.png') }}" alt="Further@LaraconEU Madrid 2019" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'laraconeu-madrid-2019']) }}">Further@LaraconEU Madrid 2019</a></h3>

@@ -21,7 +21,7 @@
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
                     <h3 class="heading-4">Digital<br />transformation</h3>
                     <p>The shift to digital will disrupt all industries. Let us help you understand how it can help your business and how you can embrace the opportunities it brings.</p>
-                    {{--<a class="btn is-primary" href="#">Read more</a>--}}
+                    <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt1-introduction']) }}">Read more</a>
                 </div>
             </div>
             <div class="columns has-margin-b60 is-mobile">

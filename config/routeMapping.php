@@ -8,6 +8,22 @@ return [
             'hu' => 'egyedi-fejlesztes-vagy-dobozos-szoftver',
         ],
         [
+            'en' => 'digital-transformation-pt1-introduction',
+            'hu' => 'digitalis-transzformacio-1-resz-bevezetes',
+        ],
+        [
+            'en' => 'digital-transformation-pt2-company-culture',
+            'hu' => 'digitalis-transzformacio-2-resz-ceges-kultura',
+        ],
+        [
+            'en' => 'digital-transformation-pt3-business-processes',
+            'hu' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok',
+        ],
+        [
+            'en' => 'digital-transformation-pt4-it',
+            'hu' => 'digitalis-transzformacio-4-technologia',
+        ],
+        [
             'en' => 'the-story-behind-our-rebranding',
             'hu' => 'uj-ruhaban-koszontjuk-a-nyarat',
         ],
