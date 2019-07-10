@@ -25,11 +25,11 @@ return [
         ],
         [
             'en' => 'the-story-behind-our-rebranding',
-            'hu' => 'uj-ruhaban-koszontjuk-a-nyarat',
+            'hu' => 'uj-kontosben-koszontjuk-a-nyarat',
         ],
         [
             'en' => 'what-makes-a-good-agile-software-specification',
-            'hu' => 'mitol-jo-egy-agilis-szoftverspecifikacio',
+            'hu' => 'mitol-lesz-jo-egy-agilis-szoftverspecifikacio',
         ]
     ],
 

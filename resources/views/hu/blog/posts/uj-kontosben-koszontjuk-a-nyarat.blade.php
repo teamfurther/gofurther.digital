@@ -1,10 +1,10 @@
-@section('title', 'Új ruhában köszöntjük a nyarat')
+@section('title', 'Új köntösben köszöntjük a nyarat')
 @section('description', 'Nemcsak azért döntöttünk cégünk arculatváltása mellett, mert ez elengedhetetlen a növekedéshez, hanem főleg azért, mert a régi arculat már nem képviselt minket eléggé.')
 @section('preview_image', asset('media/blog/cover-rebranding.jpg'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-rebranding.jpg') }}" srcset="{{ asset('media/blog/featured-rebranding-769w.jpg') }} 769w" sizes="100vw" alt="Új ruhában köszöntjük a nyarat" />
+        <img src="{{ asset('media/blog/featured-rebranding.jpg') }}" srcset="{{ asset('media/blog/featured-rebranding-769w.jpg') }} 769w" sizes="100vw" alt="Új köntösben köszöntjük a nyarat" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">Új ruhában köszöntjük a nyarat</h1>
+                            <h1 class="post__title p-name">Új köntösben köszöntjük a nyarat</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2019-05-13 12:00:00">2019 május 13</time> &middot; 4 perces olvasás
                             </div>
@@ -47,7 +47,7 @@
                             <p><em>Külön köszönet <a href="https://www.behance.net/zsoltik" target="_blank"><strong>Zsoltnak</strong></a> és <a href="https://madebybalu.com" target="_blank"><strong>Balunak</strong></a>, hogy segítettek nekünk az arculatváltás folyamatában. A következő sörre vendégeink vagytok!</em></p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Új ruhában köszöntjük a nyarat'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Új köntösben köszöntjük a nyarat'])
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
     "datePublished": "2019-05-13T12:00:00",
     "dateModified": "2019-05-13T12:00:00",
     "description": "Nemcsak azért döntöttünk cégünk arculatváltása mellett, mert ez elengedhetetlen a növekedéshez, hanem főleg azért, mert a régi arculat már nem képviselt minket eléggé",
-    "headline": "Új ruhában köszöntjük a nyarat",
+    "headline": "Új köntösben köszöntjük a nyarat",
     "image": {
         "@type": "ImageObject",
         "height": 630,
@@ -116,7 +116,7 @@
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
     },
-    "name": "Új ruhában köszöntjük a nyarat",
+    "name": "Új köntösben köszöntjük a nyarat",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -156,7 +156,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
-                "name": "Új ruhában köszöntjük a nyarat"
+                "name": "Új köntösben köszöntjük a nyarat"
             }
         }
     ]

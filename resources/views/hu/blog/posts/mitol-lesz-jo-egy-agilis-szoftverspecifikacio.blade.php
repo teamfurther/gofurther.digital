@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">Mitől jó egy (agilis) szoftverspecifikáció?</h1>
+                            <h1 class="post__title p-name">Mitől lesz jó egy (agilis) szoftverspecifikáció?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2018-09-17 12:00:00">2018 szeptember 17</time> &middot; 6 perces olvasás
                             </div>
@@ -59,7 +59,7 @@
                             <p>Cikkünk végére értünk. Mindig kíváncsiak vagyunk arra, hogy megtudjuk, hogyan dolgoznak mások, ezért ha meg szeretné ezt osztani velünk, vagy elképzelése van arról, hogyan javíthatnánk a munkafolyamatunkon, akkor lépjen kapcsolatba velünk.</p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Mitől jó egy (agilis) szoftverspecifikáció?'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Mitől lesz jó egy (agilis) szoftverspecifikáció?'])
                         </div>
                     </div>
                 </div>

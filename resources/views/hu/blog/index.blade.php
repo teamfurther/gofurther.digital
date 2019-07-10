@@ -15,21 +15,21 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
-                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'uj-ruhaban-koszontjuk-a-nyarat']) }}"><img src="{{ asset('media/blog/thumb-rebranding.png') }}" alt="Új ruhában köszöntjük a nyarat" /></a>
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'uj-kontosben-koszontjuk-a-nyarat']) }}"><img src="{{ asset('media/blog/thumb-rebranding.png') }}" alt="Új köntösben köszöntjük a nyarat" /></a>
                             <div class="post__content">
-                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'uj-ruhaban-koszontjuk-a-nyarat']) }}">Új ruhában köszöntjük a nyarat</a></h3>
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'uj-kontosben-koszontjuk-a-nyarat']) }}">Új köntösben köszöntjük a nyarat</a></h3>
                                 <p class="post__excerpt">Nemcsak azért döntöttünk cégünk arculatváltása mellett, mert ez elengedhetetlen a növekedéshez, hanem főleg azért, mert a régi arculat már nem képviselt minket eléggé.</p>
-                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'uj-ruhaban-koszontjuk-a-nyarat']) }}">Tovább &raquo;</a>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'uj-kontosben-koszontjuk-a-nyarat']) }}">Tovább &raquo;</a>
                             </div>
                         </div>
                     </div>
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
-                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'mitol-jo-egy-agilis-szoftverspecifikacio']) }}"><img src="{{ asset('media/blog/thumb-agile-software-specification.jpg') }}" alt="Mitől jó egy (agilis) szoftverspecifikáció?" /></a>
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'mitol-lesz-jo-egy-agilis-szoftverspecifikacio']) }}"><img src="{{ asset('media/blog/thumb-agile-software-specification.jpg') }}" alt="Mitől lesz jó egy (agilis) szoftverspecifikáció?" /></a>
                             <div class="post__content">
-                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'mitol-jo-egy-agilis-szoftverspecifikacio']) }}">Mitől jó egy (agilis) szoftverspecifikáció?</a></h3>
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'mitol-lesz-jo-egy-agilis-szoftverspecifikacio']) }}">Mitől lesz jó egy (agilis) szoftverspecifikáció?</a></h3>
                                 <p class="post__excerpt">A vízesés modell esetében egy szoftver minőségi és időben történő szállításának biztosítása érdekében ki kellett dolgozni a szoftverspecifikációt a legutolsó részletig. De mi a helyzet ha agilis környezetben fejlesztünk?</p>
-                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'mitol-jo-egy-agilis-szoftverspecifikacio']) }}">Tovább &raquo;</a>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'mitol-lesz-jo-egy-agilis-szoftverspecifikacio']) }}">Tovább &raquo;</a>
                             </div>
                         </div>
                     </div>
