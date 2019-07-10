@@ -17,6 +17,7 @@ mix.js('resources/js/site.js', 'public/js').sourceMaps()
     }).sourceMaps()
     .copyDirectory('resources/fonts', 'public/fonts', false)
     .copyDirectory('resources/img', 'public/img', false)
+    .copyDirectory('resources/media', 'public/media', false)
     .copyDirectory('resources/video', 'public/video', false);
 
 // Only do cache-busting in production

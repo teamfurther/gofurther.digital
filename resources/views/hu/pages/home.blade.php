@@ -31,7 +31,7 @@
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
                     <h3 class="heading-4">Egyedi<br />szoftverfejlesztés</h3>
                     <p>Minden egyedi fejlesztési igényének eleget tudunk tenni, az alkalmazás életciklusának minden szakaszában, a követelményektől a tervezésig és a megvalósításig.</p>
-                    {{--<a class="btn is-primary" href="#">Tovább</a>--}}
+                    <a class="btn is-primary" href="{{ localizedRoute('custom-development') }}">Tovább</a>
                 </div>
             </div>
             <div class="columns is-mobile">
