@@ -1,5 +1,5 @@
 @section('title', 'Élményeink a 2019-es LaraconEU Madrid konferenciáról')
-@section('description', 'The 23rd of May was a special day for us, as we attended our first Laracon in Madrid. Laracon has always been high up on our conferences bucket list, but it just didn\'t work out for us. Until now.')
+@section('description', 'Május 23-a különleges nap volt számunkra, mivel részt vettünk az első Laracon találkozónkon Madridban. A Laracon mindig is ott volt a konferenciák kívánságlistánkon, de nem sikerült eljutnunk... egészen mostanáig.')
 @section('preview_image', asset('media/blog/cover-laraconeu-madrid-2019.png'))
 
 @section('content')
@@ -110,7 +110,7 @@
     },
     "datePublished": "2019-05-29T12:00:00",
     "dateModified": "2019-05-29T12:00:00",
-    "description": "The 23rd of May was a special day for us, as we attended our first Laracon in Madrid. Laracon has always been high up on our conferences bucket list, but it just didn't work out for us. Until now.",
+    "description": "Május 23-a különleges nap volt számunkra, mivel részt vettünk az első Laracon találkozónkon Madridban. A Laracon mindig is ott volt a konferenciák kívánságlistánkon, de nem sikerült eljutnunk... egészen mostanáig.",
     "headline": "Élménybeszámoló a LaraconEU Madrid 2019-ről",
     "image": {
         "@type": "ImageObject",
