@@ -1,18 +1,28 @@
 @extends('hu.site')
 
 @section('title', 'Blog')
-@section('description', 'Gondolatok és betekintések a Further csapatától. Blogunkban osztunk meg híreket és pillanatokat mindennapjainkról, technológiáról, designról, innovációról és kultúráról.')
+@section('description', 'Gondolatok és írások a Further csapatától. Blogunkban osztunk meg híreket és pillanatokat mindennapjainkról, technológiáról, designról, innovációról és kultúráról.')
 
 @section('content')
     <section class="section">
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <h1 class="heading">Gondolatok és benyomások</h1>
+                    <h1 class="heading">Gondolatok és firkálások</h1>
                 </div>
             </div>
             <div class="posts">
                 <div class="columns is-multiline">
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'laraconeu-madrid-2019']) }}"><img src="{{ asset('media/blog/thumb-laraconeu-madrid-2019.png') }}" alt="Élménybeszámoló a LaraconEU Madrid 2019-ről" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'laraconeu-madrid-2019']) }}">Élménybeszámoló a LaraconEU Madrid 2019-ről</a></h3>
+                                <p class="post__excerpt">Május 23-a különleges nap volt számunkra, mivel részt vettünk az első Laracon találkozónkon Madridban. A Laracon mindig is ott volt a konferenciák kívánságlistánkon, de nem sikerült eljutnunk... egészen mostanáig.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'laraconeu-madrid-2019']) }}">Tovább &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'uj-kontosben-koszontjuk-a-nyarat']) }}"><img src="{{ asset('media/blog/thumb-rebranding.png') }}" alt="Új köntösben köszöntjük a nyarat" /></a>
@@ -129,7 +139,7 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "Gondolatok és betekintések a Further csapatától. Blogunkban osztunk meg híreket és pillanatokat mindennapjainkról, technológiáról, designról, innovációról és kultúráról.",
+    "description": "Gondolatok és írások a Further csapatától. Blogunkban osztunk meg híreket és pillanatokat mindennapjainkról, technológiáról, designról, innovációról és kultúráról.",
     "headline": "Blog",
     "image": {
         "@type": "ImageObject",

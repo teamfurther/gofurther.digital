@@ -24,6 +24,10 @@ return [
             'hu' => 'digitalis-transzformacio-4-technologia',
         ],
         [
+            'en' => 'laraconeu-madrid-2019',
+            'hu' => 'laraconeu-madrid-2019',
+        ],
+        [
             'en' => 'the-story-behind-our-rebranding',
             'hu' => 'uj-kontosben-koszontjuk-a-nyarat',
         ],
