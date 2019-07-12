@@ -54,11 +54,11 @@
                         <li><a href="https://support.google.com/chrome/answer/95647?hl=en" target="_blank">Cookie-beállítások Chrome-ban</a></li>
                         <li><a href="https://support.mozilla.com/en-US/kb/enable-and-disable-cookies-website-preferences" target="_blank">Cookie-beállítások Firefox-ban</a></li>
                         <li><a href="https://www.opera.com/help/tutorials/security/privacy/" target="_blank">Cookie-beállítások Operaban</a></li>
-                        <li><a href="https://support.apple.com/kb/ph21411?locale=en_US" target="_blank">Cookie-beállítások Safariban</a></li>
+                        <li><a href="https://support.apple.com/en-gb/guide/safari/sfri11471/mac" target="_blank">Cookie-beállítások Safariban</a></li>
                         <li><a href="https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy" target="_blank">Cookie-beállítások Edge-ben</a></li>
                         <li><a href="https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies" target="_blank">Cookie-beállítások Internet Explorerben</a></li>
                     </ul>
-                    <p>Ha közvetlenül kapcsolatba szeretne lépni velünk a cookie-k felhasználásával kapcsolatban, kérjük, írjon nekünk a következő címre: <a href="hello@gofurther.digital">hello@gofurther.digital</a>.</p>
+                    <p>Ha közvetlenül kapcsolatba szeretne lépni velünk a cookie-k felhasználásával kapcsolatban, kérjük, írjon nekünk a következő címre: <a href="mailto:hello@gofurther.digital">hello@gofurther.digital</a>.</p>
                 </div>
             </div>
         </div>

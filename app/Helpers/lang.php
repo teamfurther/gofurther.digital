@@ -61,7 +61,7 @@ if (!function_exists('routeMappingLookup')) {
 
         $resultKey = array_search($slug, array_column($array, $currentLang));
 
-        return $resultKey ? $array[$resultKey][$targetLang] : null;
+        return $resultKey !== false ? $array[$resultKey][$targetLang] : null;
     }
 }
 

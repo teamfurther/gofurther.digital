@@ -53,7 +53,7 @@
                             </figure>
                             <h2 class="heading-3 has-margin-b30">Look Out for IoT and Industry 4.0 Opportunities</h2>
                             <p>IoT is all around us. It's in our pockets, it's in our homes and it's also in our businesses. Machines which are augmented with web connectivity are helping us automate work and gather data. In manufacturing they call it Industry 4.0.</p>
-                            <p>In fact, manufacturing is where the most IoT project are realized, even topping the consumer market. 66% percent of early-adopters in the manufacturing space say that IoT is now critical to competitive advantage<sup><a href="http://www.verizonenterprise.com/verizon-insights-lab/state-of-the-market-internet-of-things/2016/" target="_blank">3</a></sup>.</p>
+                            <p>In fact, manufacturing is where the most IoT project are realized, even topping the consumer market. 66% percent of early-adopters in the manufacturing space say that IoT is now critical to competitive advantage<sup><a href="https://www.verizon.com/about/sites/default/files/state-of-the-internet-of-things-market-report-2016.pdf" target="_blank">3</a></sup>.</p>
                             <p class="has-margin-b60">Keep on the lookout for where you can use IoT in production flow monitoring, remote equipment management, energy management, waster management, aggregate customer and product data and equipment diagnostics.</p>
                             <div class="has-text-centered">
                                 <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}">&laquo; Pt. 3 - Business Processes</a>

@@ -54,11 +54,11 @@
                         <li><a href="https://support.google.com/chrome/answer/95647?hl=en" target="_blank">Cookie settings in Chrome</a></li>
                         <li><a href="https://support.mozilla.com/en-US/kb/enable-and-disable-cookies-website-preferences" target="_blank">Cookie settings in Firefox</a></li>
                         <li><a href="https://www.opera.com/help/tutorials/security/privacy/" target="_blank">Cookie settings in Opera</a></li>
-                        <li><a href="https://support.apple.com/kb/ph21411?locale=en_US" target="_blank">Cookie settings in Safari</a></li>
+                        <li><a href="https://support.apple.com/en-gb/guide/safari/sfri11471/mac" target="_blank">Cookie settings in Safari</a></li>
                         <li><a href="https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy" target="_blank">Cookie settings in Edge</a></li>
                         <li><a href="https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies" target="_blank">Cookie settings in Internet Explorer</a></li>
                     </ul>
-                    <p>If you would like to contact us directly about our use of cookies, please email us at <a href="hello@gofurther.digital">hello@gofurther.digital</a>.</p>
+                    <p>If you would like to contact us directly about our use of cookies, please email us at <a href="mailto:hello@gofurther.digital">hello@gofurther.digital</a>.</p>
                 </div>
             </div>
         </div>
