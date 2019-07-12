@@ -21,7 +21,7 @@ return [
         ],
         [
             'en' => 'digital-transformation-pt4-it',
-            'hu' => 'digitalis-transzformacio-4-technologia',
+            'hu' => 'digitalis-transzformacio-4-resz-technologia',
         ],
         [
             'en' => 'laraconeu-madrid-2019',

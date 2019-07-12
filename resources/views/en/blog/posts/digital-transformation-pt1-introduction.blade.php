@@ -101,8 +101,8 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "datePublished": "2018-05-03T12:00:00",
-    "dateModified": "2018-05-03T12:00:00",
+    "datePublished": "2019-06-25T12:00:00",
+    "dateModified": "2019-06-25T12:00:00",
     "description": "Welcome to the first part of our 4 part series on digital transformation. Let\'s dive in, and start with what digital transformation actually means.",
     "headline": "Digital Transformation Pt. 1 - Introduction",
     "image": {

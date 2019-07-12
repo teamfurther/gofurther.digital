@@ -102,8 +102,8 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "datePublished": "2018-05-03T12:00:00",
-    "dateModified": "2018-05-03T12:00:00",
+    "datePublished": "2019-06-26T12:00:00",
+    "dateModified": "2019-06-26T12:00:00",
     "description": "In the first part of the series we saw how digital killed Kodak. But they made efforts to change their company culture and have risen from their ashes.",
     "headline": "Digital Transformation Pt. 2 - Company Culture",
     "image": {

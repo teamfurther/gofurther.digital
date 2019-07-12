@@ -49,12 +49,13 @@
                             <p>The sheer volume of the data that has recently become available and the increase of computing capacity to parse this information has made machine learning one of the most exciting subjects in the tech sphere.</p>
                             <p>The best known examples of where machine learning has been employed is personal assistants like Amazon's Alexa or Apple's Siri, but ML is also the driver behind Google Translate and chatbots. But this is not all, in the coming years ML will be used to discover new consumer trends, optimize clinical trials or schedule preventive maintenance.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/digital-transformation-machine-learning-use-cases.jpg') }}" alt="Machine learning will be used to discover new consumer trends, optimize clinical trials or schedule preventive maintenance" />
+                                <img src="{{ asset('media/blog/digital-transformation-machine-learning-use-cases.png') }}" alt="Machine learning will be used to discover new consumer trends, optimize clinical trials or schedule preventive maintenance" />
                             </figure>
                             <h2 class="heading-3 has-margin-b30">Look Out for IoT and Industry 4.0 Opportunities</h2>
                             <p>IoT is all around us. It's in our pockets, it's in our homes and it's also in our businesses. Machines which are augmented with web connectivity are helping us automate work and gather data. In manufacturing they call it Industry 4.0.</p>
                             <p>In fact, manufacturing is where the most IoT project are realized, even topping the consumer market. 66% percent of early-adopters in the manufacturing space say that IoT is now critical to competitive advantage<sup><a href="https://www.verizon.com/about/sites/default/files/state-of-the-internet-of-things-market-report-2016.pdf" target="_blank">3</a></sup>.</p>
                             <p class="has-margin-b60">Keep on the lookout for where you can use IoT in production flow monitoring, remote equipment management, energy management, waster management, aggregate customer and product data and equipment diagnostics.</p>
+                            <p class="has-margin-b60"><em>If you enjoyed our series on digital transformation, <a href="{{ url('#contact') }}">get in touch</a>. We're always willing to chat about this topic.</em></p>
                             <div class="has-text-centered">
                                 <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}">&laquo; Pt. 3 - Business Processes</a>
                             </div>
@@ -113,8 +114,8 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "datePublished": "2018-05-03T12:00:00",
-    "dateModified": "2018-05-03T12:00:00",
+    "datePublished": "2019-06-28T12:00:00",
+    "dateModified": "2019-06-28T12:00:00",
     "description": "In this final part, we'll tackle the final piece of the puzzle and look at what technology you can leverage to take your business one step further.",
     "headline": "Digital Transformation Pt. 4 - IT",
     "image": {

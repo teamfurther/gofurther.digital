@@ -102,8 +102,8 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "datePublished": "2018-05-03T12:00:00",
-    "dateModified": "2018-05-03T12:00:00",
+    "datePublished": "2019-06-26T12:00:00",
+    "dateModified": "2019-06-26T12:00:00",
     "description": "A sorozat első részében megtudhattuk, hogyan buktatta meg a digitális világ a Kodakot. De változtattak a vállalati kultúrájukon és feltámadtak hamvaikból.",
     "headline": "Digitális transzformáció sorozat 2. rész - Vállalati kultúra",
     "image": {

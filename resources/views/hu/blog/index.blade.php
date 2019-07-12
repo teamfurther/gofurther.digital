@@ -8,11 +8,51 @@
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <h1 class="heading">Gondolatok és firkálások</h1>
+                    <h1 class="heading">Gondolatok és firkák</h1>
                 </div>
             </div>
             <div class="posts">
                 <div class="columns is-multiline">
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}"><img src="{{ asset('media/blog/thumb-digital-transformation-4-hu.jpg') }}" alt="Digitális transzformáció 4. rész - Technológia" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">Digitális transzformáció 4. rész - Technológia</a></h3>
+                                <p class="post__excerpt">Sorozatunk záró cikkében, a digitális transzformáció puzzle utolsó darabjával foglalkozunk és megnézzük hogyan használhatja ki a technológiában rejlő lehetőségeket, hogy előrelendítse vállalkozását.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">Tovább &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}"><img src="{{ asset('media/blog/thumb-digital-transformation-3-hu.jpg') }}" alt="Digitális transzformáció 3. rész - Üzleti folyamatok" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">Digitális transzformáció 3. rész - Üzleti folyamatok</a></h3>
+                                <p class="post__excerpt">Sorozatunk harmadik részében megnézzük hogyan segítheti a BPM és az agilis metódusok a digitális transzformációt.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">Tovább &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}"><img src="{{ asset('media/blog/thumb-digital-transformation-2-hu.jpg') }}" alt="Digitális transzformáció 2. rész - Vállalati kultúra" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">Digitális transzformáció 2. rész - Vállalati kultúra</a></h3>
+                                <p class="post__excerpt">A sorozat első részében megtudhattuk, hogyan buktatta meg a digitális világ a Kodakot. De változtattak a vállalati kultúrájukon és feltámadtak hamvaikból.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">Tovább &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}"><img src="{{ asset('media/blog/thumb-digital-transformation-1-hu.jpg') }}" alt="Digitális transzformáció 1. rész - Bevezető" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">Digitális transzformáció 1. rész - Bevezető</a></h3>
+                                <p class="post__excerpt">Üdvözöljük a digitális átalakulással kapcsolatos sorozatunk első részében. Merüljünk is el a témában, és kezdjük a digitális átalakulás valós jelentésével.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">Tovább &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'laraconeu-madrid-2019']) }}"><img src="{{ asset('media/blog/thumb-laraconeu-madrid-2019.png') }}" alt="Élménybeszámoló a LaraconEU Madrid 2019-ről" /></a>

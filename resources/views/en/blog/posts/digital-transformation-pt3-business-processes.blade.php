@@ -103,8 +103,8 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "datePublished": "2018-05-03T12:00:00",
-    "dateModified": "2018-05-03T12:00:00",
+    "datePublished": "2019-06-27T12:00:00",
+    "dateModified": "2019-06-27T12:00:00",
     "description": "In the third part of the series, we take a look at how implementing BPM and Agile helps support digital transformation.",
     "headline": "Digital Transformation Pt. 3 - Business Processes",
     "image": {
