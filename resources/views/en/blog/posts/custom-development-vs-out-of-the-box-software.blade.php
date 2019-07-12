@@ -14,7 +14,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">How to Choose Between Custom Development and Out-of-the-Box Software</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2018-05-03 12:00:00">May 3rd, 2018</time> &middot; 6 min read
+                                <time class="dt-published" datetime="2018-05-03 12:00:00">May 3rd, 2018</time> &middot; 7 min read
                             </div>
                         </div>
                     </div>

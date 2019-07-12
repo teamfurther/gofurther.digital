@@ -1,10 +1,10 @@
 @section('title', 'Digital Transformation Series Pt. 3 - Business Processes')
 @section('description', 'In the third part of the series, we take a look at how implementing BPM and Agile helps support digital transformation.')
-@section('preview_image', asset('media/blog/cover-digital-transformation-3.jpg'))
+@section('preview_image', asset('media/blog/cover-digital-transformation-3-en.jpg'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-digital-transformation-3.jpg') }}" srcset="{{ asset('media/blog/featured-digital-transformation-3-769w.jpg') }} 769w" sizes="100vw" alt="Digital Transformation Pt. 3 - Business Processes" />
+        <img src="{{ asset('media/blog/featured-digital-transformation-3-en.jpg') }}" srcset="{{ asset('media/blog/featured-digital-transformation-3-769w-en.jpg') }} 769w" sizes="100vw" alt="Digital Transformation Pt. 3 - Business Processes" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -50,7 +50,7 @@
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'How to Choose Between Custom Development and Out-of-the-Box Software'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Digital Transformation Pt. 3 - Business Processes'])
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-custom-development-vs-ootb.jpg') }}"
+        "url": "{{ asset('media/blog/cover-digital-transformation-3-en.jpg') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Digital Transformation",

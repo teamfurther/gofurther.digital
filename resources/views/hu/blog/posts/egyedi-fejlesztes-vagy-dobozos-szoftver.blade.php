@@ -14,7 +14,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">Hogyan válasszunk egyedi fejlesztés és egy dobozos szoftver között?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2018-05-03 12:00:00">2018 május 3</time> &middot; 6 perces olvasás
+                                <time class="dt-published" datetime="2018-05-03 12:00:00">2018 május 3</time> &middot; 7 perces olvasás
                             </div>
                         </div>
                     </div>

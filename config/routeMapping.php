@@ -9,11 +9,11 @@ return [
         ],
         [
             'en' => 'digital-transformation-pt1-introduction',
-            'hu' => 'digitalis-transzformacio-1-resz-bevezetes',
+            'hu' => 'digitalis-transzformacio-1-resz-bevezeto',
         ],
         [
             'en' => 'digital-transformation-pt2-company-culture',
-            'hu' => 'digitalis-transzformacio-2-resz-ceges-kultura',
+            'hu' => 'digitalis-transzformacio-2-resz-vallalati-kultura',
         ],
         [
             'en' => 'digital-transformation-pt3-business-processes',
