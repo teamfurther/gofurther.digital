@@ -143,7 +143,7 @@
     <div class="modal__dialog is-large">
         <div class="modal__content">
             <div class="video-container">
-                <iframe width="880" height="495" src="https://www.youtube.com/embed/ac0F4Woqso4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="880" height="495" src="https://www.youtube.com/embed/mP1choUB52Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div><!-- /.modal__content -->
     </div><!-- /.modal__dialog -->
