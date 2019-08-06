@@ -16,7 +16,7 @@ if (!function_exists('getPreferredLang')) {
         $location = getGeolocation($ip);
 
         if ($location) {
-            switch ($location->country) {
+            switch ($location) {
                 case 'HU':
                     return 'hu';
                     break;

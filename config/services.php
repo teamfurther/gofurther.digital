@@ -14,10 +14,10 @@ return [
     |
     */
 
-    'ipify' => [
-        'secret' => env('IPIFY_SECRET'),
-        'endpoint' => env('IPIFY_ENDPOINT', 'https://api.ipify.org'),
-        'geo_endpoint' => env('IPIFY_GEO_ENDPOINT', 'https://geo.ipify.org/api/v1'),
+    'ipapi' => [
+        'secret' => env('IPAPI_SECRET'),
+        'endpoint' => env('IPAPI_ENDPOINT', 'https://api.ipify.org'),
+        'geo_endpoint' => env('IPAPI_GEO_ENDPOINT', 'https://geo.ipify.org/api/v1'),
     ],
 
     'mailgun' => [
