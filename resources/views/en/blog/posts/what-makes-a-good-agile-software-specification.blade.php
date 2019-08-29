@@ -1,6 +1,6 @@
 @section('title', 'Software specifications in an agile environment')
 @section('description', 'In the waterfall model, to ensure the quality and timely delivery of a software product, you needed to create a detailed software specification. But what if we\'re using agile methodologies on our projects?')
-@section('preview_image', asset('media/blog/cover-agile-software-specification.jpg'))
+@section('preview_image', asset('media/blog/cover-agile-software-specification-en.jpg'))
 
 @section('content')
     <div class="post__featured-image">

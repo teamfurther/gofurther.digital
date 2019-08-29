@@ -1,6 +1,6 @@
 @section('title', 'Custom Development vs. Out-of-the-Box Software')
 @section('description', 'At one stage, each company reaches a point when they need to invest in their software infrastructure in order to grow. We will try to help you decide if a custom-built solution or out-of-the-box software is right for you.')
-@section('preview_image', asset('media/blog/cover-custom-development-vs-ootb.jpg'))
+@section('preview_image', asset('media/blog/cover-custom-development-vs-ootb-en.jpg'))
 
 @section('content')
     <div class="post__featured-image">
@@ -44,7 +44,7 @@
                             <p>Most out-of-the-box software companies employ a pricing model which makes it exponentially more expensive if you have more users. In case of SaaP, you need to buy a license for every computer you intend to use it on, while SaaS also gets more expensive the more users you have. The amount of users you expect to have and the projected growth of your company, is one the most important things to factor in when estimating software expenses.</p>
                             <p>Based on the number of users in your company who will use the software, the cost of an out-of-the-box software might surpass the cost of a tailor-made solution in 2 to 5 years.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/custom-development-vs-saas-costs.png') }}" alt="Evolution of costs, comparing one of our custom solutions to an SaaS similar in features" />
+                                <img src="{{ asset('media/blog/custom-development-vs-saas-costs-en.png') }}" alt="Evolution of costs, comparing one of our custom solutions to an SaaS similar in features" />
                                 <figcaption>Evolution of costs, comparing one of our custom solutions to an SaaS similar in features</figcaption>
                             </figure>
                             <h2 class="heading-3 has-margin-b30">Speed of Implementation</h2>

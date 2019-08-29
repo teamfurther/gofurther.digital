@@ -24,7 +24,7 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p>Ez a digitális átalakulás sorozatunk harmadik része. Ha egy bizonyos cikket keres a sorozatból, akkor itt megtalálja a linkeket:</p>
+                            <p>Ez a digitális átalakulás sorozatunk befejező része. Ha egy bizonyos cikket keres a sorozatból, akkor itt megtalálja a linkeket:</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">1. rész - Bevezető</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">2. rész - Vállalati kultúra</a></li>

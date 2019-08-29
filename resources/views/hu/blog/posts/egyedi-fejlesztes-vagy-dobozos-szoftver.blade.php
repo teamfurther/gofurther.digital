@@ -1,6 +1,6 @@
 @section('title', 'Egyedi fejlesztés vagy dobozos szoftver?')
 @section('description', 'Valamikor minden vállalat eléri azt a pontot, amikor a növekedés érdekében be kell fektetnie a szoftverinfrastruktúrájába. Megpróbálunk Önnek segíteni abban, hogy eldöntse, hogy az egyedi fejlesztés vagy egy dobozos megoldás a megfelelő vállalatának.')
-@section('preview_image', asset('media/blog/cover-custom-development-vs-ootb.jpg'))
+@section('preview_image', asset('media/blog/cover-custom-development-vs-ootb-hu.jpg'))
 
 @section('content')
     <div class="post__featured-image">
@@ -44,7 +44,7 @@
                             <p>A legtöbb egyedi szoftvercég olyan árképzési modellt alkalmaz, amely exponenciálisan drágább, ha több felhasználója van. A SaaP esetében licencet kell vásárolnia minden számítógépre amin telepíteni szeretné, míg az SaaS drágább lesz a felhasználók számának növekedésével. Az Ön által elvárható felhasználók mennyisége és a vállalat előre jelzett növekedése az egyik legfontosabb tényező a szoftverköltségek felbecslésében.</p>
                             <p>A cég szoftverét használó felhasználók számát figyelembe véve, a dobozos szoftver költsége meghaladhatja a testreszabott megoldás költségeit 2-5 év alatt.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/custom-development-vs-saas-costs.png') }}" alt="Költségek változása időben, összehasonlítva egyik testreszabott fejlesztésünket egy hasonló szolgáltatott szoftverrel (SaaS)" />
+                                <img src="{{ asset('media/blog/custom-development-vs-saas-costs-en.png') }}" alt="Költségek változása időben, összehasonlítva egyik testreszabott fejlesztésünket egy hasonló szolgáltatott szoftverrel (SaaS)" />
                                 <figcaption>Költségek változása időben, összehasonlítva egyik testreszabott fejlesztésünket egy hasonló szolgáltatott szoftverrel (SaaS)</figcaption>
                             </figure>
                             <h2 class="heading-3 has-margin-b30">Fejlesztési idő</h2>

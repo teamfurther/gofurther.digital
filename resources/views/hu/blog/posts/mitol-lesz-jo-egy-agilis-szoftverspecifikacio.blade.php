@@ -1,6 +1,6 @@
 @section('title', 'A szoftverspecifikáció egy agilis környezetben')
 @section('description', 'A vízesés modell esetében egy szoftver minőségi és időben történő szállításának biztosítása érdekében ki kellett dolgozni a szoftverspecifikációt a legutolsó részletig. De mi a helyzet ha agilis környezetben fejlesztünk?')
-@section('preview_image', asset('media/blog/cover-agile-software-specification.jpg'))
+@section('preview_image', asset('media/blog/cover-agile-software-specification-hu.jpg'))
 
 @section('content')
     <div class="post__featured-image">

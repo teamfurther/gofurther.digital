@@ -21,7 +21,7 @@
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
                     <h3 class="heading-4">Digitális<br />transzformáció</h3>
                     <p>A digitalizáció minden iparra hatással lesz. Megmutatjuk hogyan segítheti a digitalizáció az Ön vállalkozását és hogyan használhatja ki az ezzel járó lehetőségeket.</p>
-                    {{--<a class="btn is-primary" href="#">Tovább</a>--}}
+                    <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">Tovább</a>
                 </div>
             </div>
             <div class="columns has-margin-b60 is-mobile">
