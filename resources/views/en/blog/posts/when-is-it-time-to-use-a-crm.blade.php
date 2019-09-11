@@ -14,7 +14,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">When is it time to use a CRM?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2019-05-13 12:00:00">Sep 11th, 2019</time> &middot; 5 min read
+                                <time class="dt-published" datetime="2019-05-13 12:00:00">Sep 11th, 2019</time> &middot; 6 min read
                             </div>
                         </div>
                     </div>

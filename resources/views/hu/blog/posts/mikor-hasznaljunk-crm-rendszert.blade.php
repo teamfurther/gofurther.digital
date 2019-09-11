@@ -14,7 +14,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">Mikor használjunk CRM rendszert?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2019-05-13 12:00:00">2019 szeptember 11</time> &middot; 5 perces olvasás
+                                <time class="dt-published" datetime="2019-05-13 12:00:00">2019 szeptember 11</time> &middot; 6 perces olvasás
                             </div>
                         </div>
                     </div>
@@ -24,6 +24,9 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
+                            <div class="post__video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/HlwyL21vR5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                             <p class="has-margin-b60">Az ügyfélmenedzsment folyamatait illetően a legtöbb vállalkozás ugyanazokon a fázisokon megy keresztül.</p>
                             <p>Vegyünk egy példát. Anna egyéni vállalkozóként rendezvényszervezéssel foglalkozik. Kezdetben egyedül ő felelős az ügyfélkapcsolatért. Ilyenkor az ügyfelek adatai még a telefonja névjegyzékében vannak, a hozzájuk tartozó tennivalókat pedig Anna könnyen megjegyzi.</p>
                             <p>Később, ahogy nő az ügyfelek száma és a projektek komplexitása, emlékeztetőket állít be és elkezdi az e-maileket fontosságuk szerint mappákba rendezni.</p>
