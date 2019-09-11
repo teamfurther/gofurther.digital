@@ -15,6 +15,16 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'when-is-it-time-to-use-a-crm']) }}"><img src="{{ asset('media/blog/thumb-when-is-it-time-to-use-a-crm.jpg') }}" alt="When is it time to use a CRM?" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'when-is-it-time-to-use-a-crm']) }}">When is it time to use a CRM?</a></h3>
+                                <p class="post__excerpt">Most companies go through the same stages regarding their customer management processes. In this article we'll show you when it is the right time to finally invest in a CRM software.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'when-is-it-time-to-use-a-crm']) }}">Read on &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt4-it']) }}"><img src="{{ asset('media/blog/thumb-digital-transformation-4-en.jpg') }}" alt="Digital Transformation Pt. 4 - IT" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt4-it']) }}">Digital Transformation Pt. 4 - IT</a></h3>

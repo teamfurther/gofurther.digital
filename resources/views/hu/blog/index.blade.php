@@ -15,6 +15,16 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'mikor-hasznaljunk-crm-rendszert']) }}"><img src="{{ asset('media/blog/thumb-when-is-it-time-to-use-a-crm.jpg') }}" alt="Mikor használjunk CRM rendszert?" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'mikor-hasznaljunk-crm-rendszert']) }}">Mikor használjunk CRM rendszert?</a></h3>
+                                <p class="post__excerpt">Az ügyfélmenedzsment folyamatait illetően a legtöbb vállalkozás ugyanazokon a fázisokon megy keresztül. Cikkünkben arra derítünk fényt, hogy mikortól érdemes bevezetni egy CRM rendszert.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'mikor-hasznaljunk-crm-rendszert']) }}">Tovább &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}"><img src="{{ asset('media/blog/thumb-digital-transformation-4-hu.jpg') }}" alt="Digitális transzformáció 4. rész - Technológia" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">Digitális transzformáció 4. rész - Technológia</a></h3>
