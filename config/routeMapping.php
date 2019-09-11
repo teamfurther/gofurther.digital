@@ -34,6 +34,10 @@ return [
         [
             'en' => 'what-makes-a-good-agile-software-specification',
             'hu' => 'mitol-lesz-jo-egy-agilis-szoftverspecifikacio',
+        ],
+        [
+            'en' => 'when-is-it-time-to-use-a-crm',
+            'hu' => 'mikor-hasznaljunk-crm-rendszert',
         ]
     ],
 
