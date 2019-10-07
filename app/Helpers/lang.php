@@ -49,7 +49,7 @@ if (!function_exists('localizedRoute')) {
 if (!function_exists('setLang')) {
     function setLang($lang)
     {
-        return app()->setLocale($lang);
+        app()->setLocale($lang);
     }
 }
 

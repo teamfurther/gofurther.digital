@@ -24,6 +24,10 @@ return [
             'hu' => 'digitalis-transzformacio-4-resz-technologia',
         ],
         [
+            'en' => 'how-to-choose-the-right-crm',
+            'hu' => 'hogyan-valasszuk-ki-a-megfelelo-crm-rendszert',
+        ],
+        [
             'en' => 'laraconeu-madrid-2019',
             'hu' => 'laraconeu-madrid-2019',
         ],

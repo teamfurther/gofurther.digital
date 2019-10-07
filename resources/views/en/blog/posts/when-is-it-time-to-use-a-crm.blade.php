@@ -14,7 +14,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">When is it time to use a CRM?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2019-05-13 12:00:00">Sep 11th, 2019</time> &middot; 6 min read
+                                <time class="dt-published" datetime="2019-09-11 12:00:00">Sep 11th, 2019</time> &middot; 6 min read
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@
                             </figure>
                             <p>But this is only a stopgap solution: it's difficult to apprehend and only scalable to a certain point. Anne's colleagues will soon face her with questions like: did we send out the quote already? Or did we order the giant chocolate cake?</p>
                             <p class="has-margin-b60">If things got to this point, then Anne definitely needs a framework, that adds structure to their customer relationship and sales processes.</p>
-                            <p class="has-margin-b60">This framework is the CRM, or Customer Relationship Management software. There's hundreds of CRM systems: out-of-the-box products and custom solutions galore. We're discussing the actual things to look out for when choosing the right solution in a separate article.</p>
+                            <p class="has-margin-b60">This framework is the CRM, or Customer Relationship Management software. There's hundreds of CRM systems: out-of-the-box products and custom solutions galore. We're discussing the actual things to look out for when choosing the right solution in a <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-choose-the-right-crm']) }}">separate article</a>.</p>
                             <h2 class="heading-2 has-margin-b30">How does a CRM help?</h2>
                             <p class="has-margin-b60">Without considering any kind of CRM, we can tell you that they all solve the same inherent problems. Basically they support your sales and customer relationship management processes.</p>
                             <h3 class="heading-3 has-margin-b30">Organising your data</h3>
