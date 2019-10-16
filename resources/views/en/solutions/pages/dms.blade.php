@@ -78,7 +78,7 @@
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
                     <h3 class="heading-3">Discuss and collaborate on documents</h3>
-                    <p>By choosing to integrate with our <a href="{{ localizedRoute('solutions.communication') }}">communication modules</a>, you’ll be able to share and discuss ideas related to your documents. Get notified each time somebody makes changes, adds a new message to the document or mentions you, or review discussion history on the document feed.</p>
+                    <p>By choosing to integrate with our <a href="{{ localizedRoute('solutions.communication') }}">communication modules</a>, you'll be able to share and discuss ideas related to your documents. Get notified each time somebody makes changes, adds a new message to the document or mentions you, or review discussion history on the document feed.</p>
                     <ul class="list has-bullets">
                         <li>discuss and share ideas</li>
                         <li>receive notifications of document activity</li>

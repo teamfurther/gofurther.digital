@@ -8,7 +8,7 @@
             <div class="columns">
                 <div class="column is-8-desktop is-offset-2-desktop">
                     <h1 class="heading">Cookies Policy</h1>
-                    <p>Visiting this site may generate cookies or web beacons that get stored on your computer or mobile device. Session cookies are used as a ‘memory’ for the website so you only get asked for information on a single occasion and it’s remembered for the remainder of your browsing session.</p>
+                    <p>Visiting this site may generate cookies or web beacons that get stored on your computer or mobile device. Session cookies are used as a ‘memory' for the website so you only get asked for information on a single occasion and it's remembered for the remainder of your browsing session.</p>
                     <p>We also use analytics cookies to help us understand how many people visit our site, what they look at, how they find us and to give us an understanding of how our site is performing. This data is anonymous and cannot be used to identify individuals.</p>
                     <p>Please find a breakdown below, detailing the types of cookies we are using and what they are used for.</p>
                     <table class="table is-fixed has-margin-b60">

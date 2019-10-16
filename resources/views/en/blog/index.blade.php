@@ -15,10 +15,30 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'going-paperless-how-to-digitise-your-business']) }}"><img src="{{ asset('media/blog/thumb-going-paperless.jpg') }}" alt="Going paperless: how to digitise your business?" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'going-paperless-how-to-digitise-your-business']) }}">Going paperless: how to digitise your business?</a></h3>
+                                <p class="post__excerpt">There's a lot of talk about paperless businesses nowadays. But how can your turn your business fully paperless?</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'going-paperless-how-to-digitise-your-business']) }}">Read on &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-choose-the-right-crm']) }}"><img src="{{ asset('media/blog/thumb-how-to-choose-the-right-crm.jpg') }}" alt="How to choose the right CRM for your business?" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-choose-the-right-crm']) }}">How to choose the right CRM for your business?</a></h3>
-                                <p class="post__excerpt">In this article, we’ll write about all the things you need to take into consideration when choosing the CRM for your business.</p>
+                                <p class="post__excerpt">In this article, we'll write about all the things you need to take into consideration when choosing the CRM for your business.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-choose-the-right-crm']) }}">Read on &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-choose-the-right-crm']) }}"><img src="{{ asset('media/blog/thumb-how-to-choose-the-right-crm.jpg') }}" alt="How to choose the right CRM for your business?" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-choose-the-right-crm']) }}">How to choose the right CRM for your business?</a></h3>
+                                <p class="post__excerpt">In this article, we'll write about all the things you need to take into consideration when choosing the CRM for your business.</p>
                                 <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-choose-the-right-crm']) }}">Read on &raquo;</a>
                             </div>
                         </div>

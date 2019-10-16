@@ -32,7 +32,7 @@
                 </div>
                 <div class="column">
                     <h2 class="heading-2">The Client</h2>
-                    <p>At its core, Steiger is a family business, being involved in the metalworking industry for several generations. The company was founded in Carei in 1994 and has seen a constant growth ever since. Today it has over 100 staff, a 3-aisle production hall with 7 bridge cranes and specialised workshops with precision machines and equipment. Their portfolio of metal processing services and the manufacturing of locksmith products includes some of the area’s most significant civil and industrial constructions.</p>
+                    <p>At its core, Steiger is a family business, being involved in the metalworking industry for several generations. The company was founded in Carei in 1994 and has seen a constant growth ever since. Today it has over 100 staff, a 3-aisle production hall with 7 bridge cranes and specialised workshops with precision machines and equipment. Their portfolio of metal processing services and the manufacturing of locksmith products includes some of the area's most significant civil and industrial constructions.</p>
                 </div>
             </div>
         </div>

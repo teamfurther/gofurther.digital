@@ -42,7 +42,7 @@
                                 <figcaption>Notice the 'F' in the negative space</figcaption>
                             </figure>
                             <p>The cobalt blue and pearl green was chosen since it represents exactly what we would like to broadcast to our customers. It represents professionalism, that we are serious about the trust our customers put in us. Belief, that we are doing everything in our power to make our clients satisfied and happy. Approachability, as we are happy to discuss, ideate and collaborate with our clients continuously to create a perfectly functioning system based on their needs and requirements.</p>
-                            <p>We are very happy with the result; we truly hope that you are too. We believe that by this new look we can represent what we truly believe in and show the world our passion towards software solutions and great service. Let’s say goodbye to our old look together and keep going further together.</p>
+                            <p>We are very happy with the result; we truly hope that you are too. We believe that by this new look we can represent what we truly believe in and show the world our passion towards software solutions and great service. Let's say goodbye to our old look together and keep going further together.</p>
                             <p class="has-margin-b60"><strong>Be efficient. Get organized. Go Further.</strong></p>
                             <p><em>Special thanks to <a href="https://www.behance.net/zsoltik" target="_blank"><strong>Zsolt</strong></a> and <a href="https://madebybalu.com" target="_blank"><strong>Balu</strong></a> for assisting us throughout the rebranding process. Next beer is on us!</em></p>
                         </div>

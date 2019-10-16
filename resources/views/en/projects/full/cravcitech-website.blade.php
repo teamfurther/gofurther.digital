@@ -47,7 +47,7 @@
             </div>
             <div class="columns">
                 <div class="column">
-                    <p>Our main challenge while designing their new website was coming up with an easy to use navigation and interface, so that the users can quickly find the product pages they are looking for. This wasn’t such a straightforward task considering they have over 40 product categories nested 3 levels deep.</p>
+                    <p>Our main challenge while designing their new website was coming up with an easy to use navigation and interface, so that the users can quickly find the product pages they are looking for. This wasn't such a straightforward task considering they have over 40 product categories nested 3 levels deep.</p>
                     <p>Other requests included driving more traffic to their website by organic search and including a newsletter module to handle all their email marketing.</p>
                 </div>
                 <div class="column">
@@ -82,7 +82,7 @@
                     <div class="column">
                         <img class="project__testimonial__picture" src="{{ asset('media/projects/cravcitech-sebastian-cravcenco.png') }}" alt="Case studies: Cravcitech Sebastian Cravcenco testimonial" />
                         <blockquote class="project__testimonial__content">
-                            <p>We again appealed to Further for our web development needs, and we weren’t disappointed. As before, we found in them a serious partner, who was open and receptive to our requests and surprised us with their creativity and expertise.</p>
+                            <p>We again appealed to Further for our web development needs, and we weren't disappointed. As before, we found in them a serious partner, who was open and receptive to our requests and surprised us with their creativity and expertise.</p>
                             <p>Proof of this is our new website: it improved our web presence, (...) and generates sales leads. We wish that our clients become repeat customers, as this is the best measure of their satisfaction. We will definitely call on Further for our future projects, and wholeheartedly recommend them.</p>
                             <cite class="project__testimonial__author">Sebastian CRAVCENCO, Manager</cite>
                         </blockquote>

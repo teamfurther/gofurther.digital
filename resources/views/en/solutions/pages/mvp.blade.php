@@ -43,7 +43,7 @@
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
                     <h3 class="heading-3">Prototyping and testing</h3>
-                    <p>A prototype is a visual representation of how the digital product will look, feel, and interact in it's final version. Going through loops of feedback and revisions with prospective users, we optimize the prototype. As nothing has been coded yet, it’s relatively cheap and easy to make changes at this stage.</p>
+                    <p>A prototype is a visual representation of how the digital product will look, feel, and interact in it's final version. Going through loops of feedback and revisions with prospective users, we optimize the prototype. As nothing has been coded yet, it's relatively cheap and easy to make changes at this stage.</p>
                     <ul class="list has-bullets">
                         <li>give users control</li>
                         <li>validate business ideas</li>

@@ -44,7 +44,7 @@
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
                     <h3 class="heading-3">Discuss tasks and share files</h3>
-                    <p>Collaborate on tasks by adding notes and sharing documents, so you’re always in the loop! Follow all the activity on the project or task timelines. For even more flexibility, use the PM software together with our <a href={{ localizedRoute('solutions.communication') }}>communication modules</a> or <a href={{ localizedRoute('solutions.dms') }}>document management system</a>.</p>
+                    <p>Collaborate on tasks by adding notes and sharing documents, so you're always in the loop! Follow all the activity on the project or task timelines. For even more flexibility, use the PM software together with our <a href={{ localizedRoute('solutions.communication') }}>communication modules</a> or <a href={{ localizedRoute('solutions.dms') }}>document management system</a>.</p>
                     <ul class="list has-bullets">
                         <li>create quick notes</li>
                         <li>drag and drop file sharing</li>

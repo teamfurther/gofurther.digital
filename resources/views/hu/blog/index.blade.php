@@ -15,6 +15,16 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-alakitsuk-at-cegunket-papirmentesse']) }}"><img src="{{ asset('media/blog/thumb-going-paperless.jpg') }}" alt="Hogyan alakítsuk át cégünket papírmentessé?" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-alakitsuk-at-cegunket-papirmentesse']) }}">Hogyan alakítsuk át cégünket papírmentessé?</a></h3>
+                                <p class="post__excerpt">Sokat hallunk mostanában papírmentes vállalkozásokról. De miként tudjuk teljesen papírmentessé tenni a vállalkozásunkat?</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-alakitsuk-at-cegunket-papirmentesse']) }}">Tovább &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-valasszuk-ki-a-megfelelo-crm-rendszert']) }}"><img src="{{ asset('media/blog/thumb-how-to-choose-the-right-crm.jpg') }}" alt="Hogyan válasszuk ki a megfelelő CRM rendszert?" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-valasszuk-ki-a-megfelelo-crm-rendszert']) }}">Hogyan válasszuk ki a megfelelő CRM rendszert?</a></h3>

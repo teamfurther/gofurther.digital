@@ -139,7 +139,7 @@
             <form class="contact-box__form" id="contact-form" action="{{ localizedRoute('contact.send') }}" method="POST">
                 {{ csrf_field() }}
 
-                <p>We’re always willing and ready to listen to any request. So, if you like our work and you’ve got an idea you want to discuss, just grab your phone or keyboard and contact us.</p>
+                <p>We're always willing and ready to listen to any request. So, if you like our work and you've got an idea you want to discuss, just grab your phone or keyboard and contact us.</p>
                 <div class="is-pulled-left">
                     <div class="form-group {{ isset($errors) && $errors->has('contact_name') ? 'has-error' : '' }}">
                         <input class="form-control" name="contact_name" placeholder="Your name*" type="text" value="{{ old('contact_name') }}" autocomplete="name" tabindex="1" required />

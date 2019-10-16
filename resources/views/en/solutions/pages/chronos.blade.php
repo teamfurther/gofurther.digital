@@ -69,7 +69,7 @@
             <div class="columns">
                 <div class="column is-half-tablet">
                     <h3 class="heading-3">Multilingual out-of-the-box</h3>
-                    <p>Chronos enables you to add as many languages as you wish for your website. Adding a new language is easy, just check a box in settings and you’re ready to upload your content. Wunderbar!</p>
+                    <p>Chronos enables you to add as many languages as you wish for your website. Adding a new language is easy, just check a box in settings and you're ready to upload your content. Wunderbar!</p>
                     <ul class="list has-bullets">
                         <li>add a new language with just a few clicks</li>
                         <li>translate content and static strings of text</li>

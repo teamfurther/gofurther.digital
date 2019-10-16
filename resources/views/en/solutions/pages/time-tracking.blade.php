@@ -24,7 +24,7 @@
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>Small business or large, every minute counts. Our time tracking module allows you to quickly start logging on what you work with, even while you’re on the go. Use the planner to set out objectives for the day, or integrate with our other solutions and attach timesheets to projects or products.</p>
+                        <p>Small business or large, every minute counts. Our time tracking module allows you to quickly start logging on what you work with, even while you're on the go. Use the planner to set out objectives for the day, or integrate with our other solutions and attach timesheets to projects or products.</p>
                         <ul class="list has-bullets">
                             <li>plan your day</li>
                             <li>start tracking time with a single click</li>

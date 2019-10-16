@@ -74,8 +74,8 @@
                 <div class="column">
                     <p>Based on the Codeigniter framework, we created a fully custom e-learning solution. We handled all phases of the project from software architecture, to development and interface design.</p>
                     <p>On the frontend side we created a youthful but easy to navigate user interface, which is straightforward to use, even by the youngest students. Here they can get all the latest information, read new announcements and stories.</p>
-                    <p>Once logged in, they can access all the courses and tests they’ve been assigned to. While reading courses, they can also browse all the attached content, such as images, videos and other training materials.</p>
-                    <p>Participating in quizzes is also facilitated by having a constant overview of how many questions have been taken and how many remain, how much time remains until the test finishes and what the student’s current score is.</p>
+                    <p>Once logged in, they can access all the courses and tests they've been assigned to. While reading courses, they can also browse all the attached content, such as images, videos and other training materials.</p>
+                    <p>Participating in quizzes is also facilitated by having a constant overview of how many questions have been taken and how many remain, how much time remains until the test finishes and what the student's current score is.</p>
                 </div>
                 <div class="column">
                     <img src="{{ asset('media/projects/profnet-illustration-3.jpg') }}" alt="Case studies: PROFNET" />

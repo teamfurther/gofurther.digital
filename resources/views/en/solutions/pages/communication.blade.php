@@ -24,7 +24,7 @@
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>Discuss projects or documents with your colleagues. We can integrate our solutions anywhere, allowing you to chat and share files in private and group conversations. Granularly set notification preferences, so you only receive email or push notifications from starred conversations or if you’re mentioned.</p>
+                        <p>Discuss projects or documents with your colleagues. We can integrate our solutions anywhere, allowing you to chat and share files in private and group conversations. Granularly set notification preferences, so you only receive email or push notifications from starred conversations or if you're mentioned.</p>
                         <ul class="list has-bullets">
                             <li>chat and message while switching windows</li>
                             <li>integrate with any other solution</li>

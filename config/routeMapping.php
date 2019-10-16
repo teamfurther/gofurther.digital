@@ -24,6 +24,10 @@ return [
             'hu' => 'digitalis-transzformacio-4-resz-technologia',
         ],
         [
+            'en' => 'going-paperless-how-to-digitise-your-business',
+            'hu' => 'hogyan-alakitsuk-at-cegunket-papirmentesse',
+        ],
+        [
             'en' => 'how-to-choose-the-right-crm',
             'hu' => 'hogyan-valasszuk-ki-a-megfelelo-crm-rendszert',
         ],

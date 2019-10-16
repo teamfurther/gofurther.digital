@@ -102,7 +102,7 @@
                 <div class="column is-8-tablet is-offset-2-tablet">
                     <img class="project__testimonial__picture" src="{{ asset('img/testimonials-adorian-demeter.png') }}" alt="nJoy - The Hive Adorian Demeter testimonial" />
                     <blockquote class="project__testimonial__content">
-                        <p>I couldn’t imagine how developing products would work without The Hive. Since its introduction, development of new products is 20% faster and all our data is organized and easy to manage.</p>
+                        <p>I couldn't imagine how developing products would work without The Hive. Since its introduction, development of new products is 20% faster and all our data is organized and easy to manage.</p>
                         <cite class="project__testimonial__author">Adorian DEMETER, nJoy</cite>
                     </blockquote>
                 </div>

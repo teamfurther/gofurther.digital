@@ -146,7 +146,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-rebranding.jpg') }}"
+        "url": "{{ asset('media/blog/cover-when-is-it-time-to-use-a-crm-hu.jpg') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Further Digital Solutions, Further, Rebranding",

@@ -45,7 +45,7 @@
             </div>
             <div class="columns">
                 <div class="column">
-                    <p>Our principal challenge during this project was working together with the DAI-TECH management, IT and design teams to understand their workflow and translate this business logic into an easy to use and scalable system. This system would act as a collaboration hub between DAI-TECH, it’s suppliers, service centers and distributors.</p>
+                    <p>Our principal challenge during this project was working together with the DAI-TECH management, IT and design teams to understand their workflow and translate this business logic into an easy to use and scalable system. This system would act as a collaboration hub between DAI-TECH, it's suppliers, service centers and distributors.</p>
                     <p>We also had to conceive a strategy to connect with pre-existing software infrastructure and slowly migrate data into their new software via custom APIs.</p>
                 </div>
                 <div class="column">
@@ -65,7 +65,7 @@
                 <div class="column">
                     <p>The end result is a tailor-made product lifecycle management tool, which permits DAI-TECH to manage the most important steps in the lifespan of their products, from development and manufacturing, to distribution and logistics.</p>
                     <p>We worked together with the nJoy design team who created the user interface, as our dedicated team developed the software backend using based on Codeigniter, a mature PHP framework, ideal for the server-side development of online systems that need to be fast, stable and available from anywhere around the world.</p>
-                    <p>As the company and it’s IT requirements grow, it is imperative that the system can handle the increasing amount of data and the quick development of new components. To make this possible, our software utilises a modular architecture and runs on dedicated servers, making it easily scalable. We also implemented continuous integration and continuous delivery processes, to ensure the quality and fasten the release of new features.</p>
+                    <p>As the company and it's IT requirements grow, it is imperative that the system can handle the increasing amount of data and the quick development of new components. To make this possible, our software utilises a modular architecture and runs on dedicated servers, making it easily scalable. We also implemented continuous integration and continuous delivery processes, to ensure the quality and fasten the release of new features.</p>
                 </div>
                 <div class="column">
                     <img src="{{ asset('media/projects/hive-illustration-3.jpg') }}" alt="Case studies: nJoy - The Hive" />
@@ -80,7 +80,7 @@
                     <div class="column">
                         <img class="project__testimonial__picture" src="{{ asset('media/projects/hive-adorian-demeter.png') }}" alt="Case studies: nJoy Adorian Demeter testimonial" />
                         <blockquote class="project__testimonial__content">
-                            <p>I couldn’t imagine how developing products would work without The Hive. Since its introduction, development of new products is 20% faster and all our data is organized and easy to manage.</p>
+                            <p>I couldn't imagine how developing products would work without The Hive. Since its introduction, development of new products is 20% faster and all our data is organized and easy to manage.</p>
                             <cite class="project__testimonial__author">Adorian DEMETER, General Manager</cite>
                         </blockquote>
                     </div>
@@ -97,7 +97,7 @@
             </div>
             <div class="columns">
                 <div class="column">
-                    <p>The Hive is a flexible system, which grows proportionally with the company. Since it’s inception, more and more features have been added, and at the moment it acts as a central hub where DAI-TECH collaborates with manufacturers, suppliers, service centers and distributors. The company’s workflows have become more fluid, saving time and money for our client.</p>
+                    <p>The Hive is a flexible system, which grows proportionally with the company. Since it's inception, more and more features have been added, and at the moment it acts as a central hub where DAI-TECH collaborates with manufacturers, suppliers, service centers and distributors. The company's workflows have become more fluid, saving time and money for our client.</p>
                 </div>
                 <div class="column">
                     <img class=" is-pulled-right-tablet" src="{{ asset('media/projects/hive-illustration-4.jpg') }}" alt="Case studies: nJoy - The Hive" />

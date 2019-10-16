@@ -31,8 +31,8 @@
                 </div>
                 <div class="column">
                     <h2 class="heading-2">The Client</h2>
-                    <p>The idea was born in 2013, when a couple of friends who used to get together and brew beer together, realised that home-brewing requires way too much time, equipment and know-how for a hobby. They decided to create a machine which can help automate this process and make home-brewing easily accessible to everyone. That is how Brewie, the world’s first fully-automated home-brewery was born.</p>
-                    <p>A couple of years, a lot of pitches and a successful crowdfunding campaign later, Brewie became one of Hungary’s most successful startups. The company released an updated version of the machine in 2018 and are currently delivering to hundreds of happy customers around the world.</p>
+                    <p>The idea was born in 2013, when a couple of friends who used to get together and brew beer together, realised that home-brewing requires way too much time, equipment and know-how for a hobby. They decided to create a machine which can help automate this process and make home-brewing easily accessible to everyone. That is how Brewie, the world's first fully-automated home-brewery was born.</p>
+                    <p>A couple of years, a lot of pitches and a successful crowdfunding campaign later, Brewie became one of Hungary's most successful startups. The company released an updated version of the machine in 2018 and are currently delivering to hundreds of happy customers around the world.</p>
                 </div>
             </div>
         </div>
@@ -46,8 +46,8 @@
             </div>
             <div class="columns">
                 <div class="column">
-                    <p>From a development standpoint, the principal challenge was to build a website that is flexible enough to adapt and extend at a moment’s notice. Content strategy was also key, as the platform serves as the main source of information for customers and partners alike.</p>
-                    <p>Another important factor was the integration of the website into the company’s sales channels and marketing campaigns.</p>
+                    <p>From a development standpoint, the principal challenge was to build a website that is flexible enough to adapt and extend at a moment's notice. Content strategy was also key, as the platform serves as the main source of information for customers and partners alike.</p>
+                    <p>Another important factor was the integration of the website into the company's sales channels and marketing campaigns.</p>
                 </div>
                 <div class="column">
                     <img class="is-pulled-right-tablet" src="{{ asset('media/projects/brewie-illustration-2.jpg') }}" alt="Case studies: Brewie" />
@@ -64,8 +64,8 @@
             </div>
             <div class="columns is-reversed">
                 <div class="column">
-                    <p>We worked together with Brewie’s management, design and marketing teams to come up with the right solution to structure the information. We have broken up the platform into two different sections, a product website and a knowledge center.</p>
-                    <p>The product website is the main marketing tool for the product. It is built using reusable templates and components which allows us to swiftly add new sections or change the current ones, to meet current requirements from the marketing department. Landing pages, customer acquisition and relationship forms can also be added in just a couple of minutes. All the data from these sources is then channelled into Brewie’s CRM software via an API, enabling a robust and smooth flow of information which leads to higher conversion and customer satisfaction rates.</p>
+                    <p>We worked together with Brewie's management, design and marketing teams to come up with the right solution to structure the information. We have broken up the platform into two different sections, a product website and a knowledge center.</p>
+                    <p>The product website is the main marketing tool for the product. It is built using reusable templates and components which allows us to swiftly add new sections or change the current ones, to meet current requirements from the marketing department. Landing pages, customer acquisition and relationship forms can also be added in just a couple of minutes. All the data from these sources is then channelled into Brewie's CRM software via an API, enabling a robust and smooth flow of information which leads to higher conversion and customer satisfaction rates.</p>
                     <p>To support the product website, we have built a knowledge center. As its name suggests, this is the main source of information, a place for news articles, user manuals and FAQ. The knowledge center also includes non-public sections for different partners, such as services centers or distributors.</p>
                     <p>The platform is powered by Chronos, our in-house CMS, which enables the staff at Brewie to easily add and edit content to both the product website and knowledge center.</p>
                 </div>
@@ -100,7 +100,7 @@
             </div>
             <div class="columns">
                 <div class="column">
-                    <p>Brewie’s new product website and knowledge platform has immediately started driving traffic and sales, which have been consistently been growing since launch. Thanks to its lightweight modular design and small footprint, and a well designed server infrastructure, the system successfully handled all the traffic spikes we encountered during marketing campaigns.</p>
+                    <p>Brewie's new product website and knowledge platform has immediately started driving traffic and sales, which have been consistently been growing since launch. Thanks to its lightweight modular design and small footprint, and a well designed server infrastructure, the system successfully handled all the traffic spikes we encountered during marketing campaigns.</p>
                 </div>
                 <div class="column">
                     <img class=" is-pulled-right-tablet" src="{{ asset('media/projects/brewie-illustration-4.jpg') }}" alt="Case studies: Brewie" />
