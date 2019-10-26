@@ -15,6 +15,16 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'how-does-a-software-optimise-your-manufacturing-processes']) }}"><img src="{{ asset('media/blog/thumb-manufacturing-software.jpg') }}" alt="How does a software optimise your manufacturing processes?" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'how-does-a-software-optimise-your-manufacturing-processes']) }}">How does a software optimise your manufacturing processes?</a></h3>
+                                <p class="post__excerpt">In today's article we'd like to show you how a software can help optimise your product development, supply chain and manufacturing processes.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'how-does-a-software-optimise-your-manufacturing-processes']) }}">Read on &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'going-paperless-how-to-digitise-your-business']) }}"><img src="{{ asset('media/blog/thumb-going-paperless.jpg') }}" alt="Going paperless: how to digitise your business?" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'going-paperless-how-to-digitise-your-business']) }}">Going paperless: how to digitise your business?</a></h3>

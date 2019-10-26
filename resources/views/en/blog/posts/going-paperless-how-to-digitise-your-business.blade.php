@@ -132,7 +132,7 @@
         "url": "{{ asset('media/blog/cover-going-paperless-en.jpg') }}"
     },
     "inLanguage": "en_gb",
-    "keywords": "Further Digital Solutions, Further, Rebranding",
+    "keywords": "CRM, Customer Relationship Management, DMS, Document Management System, Paperless, Paperless Business, Digital Business, Digital Transformation, ERP",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"

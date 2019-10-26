@@ -146,7 +146,7 @@
         "url": "{{ asset('media/blog/cover-when-is-it-time-to-use-a-crm-en.jpg') }}"
     },
     "inLanguage": "en_gb",
-    "keywords": "Further Digital Solutions, Further, Rebranding",
+    "keywords": "CRM, Customer Relationship Management, Digital Business, Digital Transformation, ERP",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"

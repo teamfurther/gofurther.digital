@@ -110,7 +110,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-rebranding.jpg') }}"
     },
-    "inLanguage": "en_gb",
+    "inLanguage": "hu_HU",
     "keywords": "Further Digital Solutions, Further, Arculatváltás",
     "mainEntityOfPage": {
         "@type": "WebPage",

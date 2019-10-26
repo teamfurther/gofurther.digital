@@ -28,6 +28,10 @@ return [
             'hu' => 'hogyan-alakitsuk-at-cegunket-papirmentesse',
         ],
         [
+            'en' => 'how-does-a-software-optimise-your-manufacturing-processes',
+            'hu' => 'hogyan-segit-egy-szoftver-a-termelesi-folyamatok-optimalizalasaban',
+        ],
+        [
             'en' => 'how-to-choose-the-right-crm',
             'hu' => 'hogyan-valasszuk-ki-a-megfelelo-crm-rendszert',
         ],

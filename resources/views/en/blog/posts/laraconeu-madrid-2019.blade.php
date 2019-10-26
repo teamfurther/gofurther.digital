@@ -119,7 +119,7 @@
         "url": "{{ asset('media/blog/cover-rebranding.jpg') }}"
     },
     "inLanguage": "en_gb",
-    "keywords": "Further Digital Solutions, Further, Rebranding",
+    "keywords": "Further Digital Solutions, Further, Laracon, Laravel",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"

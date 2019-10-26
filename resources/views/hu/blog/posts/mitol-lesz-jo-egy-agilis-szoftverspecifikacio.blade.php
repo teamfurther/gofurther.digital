@@ -122,7 +122,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-agile-software-specification.jpg') }}"
     },
-    "inLanguage": "en_gb",
+    "inLanguage": "hu_HU",
     "keywords": "Egyedi szoftverfejlesztés, Szoftverspecifikáció, Agilis szoftverfejlesztés",
     "mainEntityOfPage": {
         "@type": "WebPage",

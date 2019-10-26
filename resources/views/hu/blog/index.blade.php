@@ -15,6 +15,16 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-segit-egy-szoftver-a-termelesi-folyamatok-optimalizalasaban']) }}"><img src="{{ asset('media/blog/thumb-manufacturing-software.jpg') }}" alt="Hogyan segíthet egy termelésirányítási szoftver?" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-segit-egy-szoftver-a-termelesi-folyamatok-optimalizalasaban']) }}">Hogyan segíthet egy termelésirányítási szoftver?</a></h3>
+                                <p class="post__excerpt">Mai cikkünkben megmutatjuk, hogy miként tudja egy szoftver optimalizálni a termékfejlesztést, a beszerzést és a gyártási folyamatokat.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-segit-egy-szoftver-a-termelesi-folyamatok-optimalizalasaban']) }}">Tovább &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-alakitsuk-at-cegunket-papirmentesse']) }}"><img src="{{ asset('media/blog/thumb-going-paperless.jpg') }}" alt="Hogyan alakítsuk át cégünket papírmentessé?" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-alakitsuk-at-cegunket-papirmentesse']) }}">Hogyan alakítsuk át cégünket papírmentessé?</a></h3>

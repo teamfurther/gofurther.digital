@@ -148,8 +148,8 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-when-is-it-time-to-use-a-crm-hu.jpg') }}"
     },
-    "inLanguage": "en_gb",
-    "keywords": "Further Digital Solutions, Further, Rebranding",
+    "inLanguage": "hu_HU",
+    "keywords": "CRM, Customer Relationship Management, Ügyfélkezelés, Ügyfélkezelő-rendszer, Digitális Vállalkozás, Digitális Transzformáció, ERP, Vállalatirányítás",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
