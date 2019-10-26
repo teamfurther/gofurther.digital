@@ -40,7 +40,7 @@
                                 <td scope="row" data-label="Cookie">_ga<span class="is-hidden-tablet">, _gid</span></td>
                                 <td scope="row" data-label="Expiration">2 év<span class="is-hidden-tablet">, 24 óra</span></td>
                                 <td scope="row" rowspan="2">A látogatók holnapfelhasználásáról információt gyűjtünk és a Google Analytics szolgáltatást használjuk a honlap javítása érdekében. A cookie-kat névtelen formában gyűjtjük, beleértve a honlap látogatóinak számát, milyen oldalról találtak a látogatók erre a honlapra és a meglátogatott oldalakat.</td>
-                                <td scope="row" rowspan="2">Ha le szeretné tiltani azt, hogy a Google Analytics nyomon kövesse az összes honlapon, akkor látogasson el <a href="http://tools.google.com/dlpage/gaoptout" target="_blank">erre a linkre</a>.</td>
+                                <td scope="row" rowspan="2">Ha le szeretnéd tiltani azt, hogy a Google Analytics nyomon kövessen az összes honlapon, akkor látogass el <a href="http://tools.google.com/dlpage/gaoptout" target="_blank">erre a linkre</a>.</td>
                             </tr>
                             <tr class="is-hidden-mobile">
                                 <td scope="row" data-label="Cookie">_gid</td>
@@ -49,7 +49,7 @@
                         </tbody>
                     </table>
                     <h2 class="heading-2">A cookie-k kikapcsolása</h2>
-                    <p>Minden modern böngésző lehetővé teszi a cookie-beállítások módosítását. Az alábbi linkek hasznosak lehetnek abban, hogy megértse, hogyan frissítheti a böngésző cookie-beállításait:</p>
+                    <p>Minden modern böngésző lehetővé teszi a cookie-beállítások módosítását. Az alábbi linkek hasznosak lehetnek abban, hogy megértsd, hogyan frissítheted a böngésző cookie-beállításait:</p>
                     <ul class="list has-bullets">
                         <li><a href="https://support.google.com/chrome/answer/95647?hl=en" target="_blank">Cookie-beállítások Chrome-ban</a></li>
                         <li><a href="https://support.mozilla.com/en-US/kb/enable-and-disable-cookies-website-preferences" target="_blank">Cookie-beállítások Firefox-ban</a></li>
@@ -58,7 +58,7 @@
                         <li><a href="https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy" target="_blank">Cookie-beállítások Edge-ben</a></li>
                         <li><a href="https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies" target="_blank">Cookie-beállítások Internet Explorerben</a></li>
                     </ul>
-                    <p>Ha közvetlenül kapcsolatba szeretne lépni velünk a cookie-k felhasználásával kapcsolatban, kérjük, írjon nekünk a következő címre: <a href="mailto:hello@gofurther.digital">hello@gofurther.digital</a>.</p>
+                    <p>Ha közvetlenül kapcsolatba szeretnél lépni velünk a cookie-k felhasználásával kapcsolatban, kérjük, írjál nekünk a következő címre: <a href="mailto:hello@gofurther.digital">hello@gofurther.digital</a>.</p>
                 </div>
             </div>
         </div>
@@ -153,7 +153,7 @@
         "width": "185"
     },
     "inLanguage": "hu_HU",
-    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Web design, Webfejlesztés",
+    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, MVP fejlesztés, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('cookies') }}",
     "name": "Cookie szabályzat",
     "publisher": {

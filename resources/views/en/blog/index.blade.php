@@ -35,16 +35,6 @@
                     </div>
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
-                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-choose-the-right-crm']) }}"><img src="{{ asset('media/blog/thumb-how-to-choose-the-right-crm.jpg') }}" alt="How to choose the right CRM for your business?" /></a>
-                            <div class="post__content">
-                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-choose-the-right-crm']) }}">How to choose the right CRM for your business?</a></h3>
-                                <p class="post__excerpt">In this article, we'll write about all the things you need to take into consideration when choosing the CRM for your business.</p>
-                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-choose-the-right-crm']) }}">Read on &raquo;</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column is-full-tablet is-half-widescreen">
-                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'when-is-it-time-to-use-a-crm']) }}"><img src="{{ asset('media/blog/thumb-when-is-it-time-to-use-a-crm.jpg') }}" alt="When is it time to use a CRM?" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'when-is-it-time-to-use-a-crm']) }}">When is it time to use a CRM?</a></h3>
@@ -228,7 +218,7 @@
         "width": "185"
     },
     "inLanguage": "en_gb",
-    "keywords": "Custom software development, Web design, Technology, Design, Company culture",
+    "keywords": "Custom software development, Software development, Web development, MVP development, Digital transformation, Technology, Design, Company culture",
     "mainEntityOfPage": "{{ localizedRoute('blog') }}",
     "name": "Blog",
     "publisher": {

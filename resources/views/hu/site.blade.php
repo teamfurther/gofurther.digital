@@ -121,7 +121,7 @@
 
 <section class="section" id="contact">
     <div class="container">
-        <h2 class="hero-heading">Van egy ötlete vagy csak beszélgetne?<strong>Üzenjen most!</strong></h2>
+        <h2 class="hero-heading">Van egy ötleted vagy csak beszélgetnél?<strong>Üzenj most!</strong></h2>
         <div class="contact-box">
             <div class="contact-box__info h-card vcard">
                 <div class="p-tel tel"><a href="tel:{{ str_replace(' ', '', config('site.contact.phone-1')) }}" class="value">{{ config('site.contact.phone-1') }} </a></div>
@@ -137,10 +137,10 @@
             <form class="contact-box__form" id="contact-form" action="{{ localizedRoute('contact.send') }}" method="POST">
                 {{ csrf_field() }}
 
-                <p>Nyitottak vagyunk minden új kérdésre, felkérésre. Ha felkeltettük érdeklődését, megtetszett Önnek a munkánk vagy van olyan projektje, amelyet meg szeretne velünk beszélni, akkor vegye fel velünk a kapcsolatot telefonon vagy e-mailben.</p>
+                <p>Nyitottak vagyunk minden új kérdésre, felkérésre. Ha felkeltettük érdeklődésed, megtetszett a munkánk vagy van olyan projekted, amelyet meg szeretnél velünk beszélni, akkor vedd fel velünk a kapcsolatot telefonon vagy e-mailben.</p>
                 <div class="is-pulled-left">
                     <div class="form-group {{ isset($errors) && $errors->has('contact_name') ? 'has-error' : '' }}">
-                        <input class="form-control" name="contact_name" placeholder="Az Ön neve*" type="text" value="{{ old('contact_name') }}" autocomplete="name" tabindex="1" required />
+                        <input class="form-control" name="contact_name" placeholder="Neved*" type="text" value="{{ old('contact_name') }}" autocomplete="name" tabindex="1" required />
                     </div>
                     <div class="form-group {{ isset($errors) && $errors->has('contact_phone') ? 'has-error' : '' }}">
                         <input class="form-control" name="contact_phone" placeholder="Telefon" type="text" value="{{ old('contact_phone') }}" autocomplete="tel" tabindex="3" />
@@ -148,7 +148,7 @@
                 </div>
                 <div class="is-pulled-right">
                     <div class="form-group {{ isset($errors) && $errors->has('contact_company') ? 'has-error' : '' }}">
-                        <input class="form-control" name="contact_company" placeholder="A Ön cégének neve" type="text" value="{{ old('contact_company') }}" autocomplete="organization" tabindex="2" />
+                        <input class="form-control" name="contact_company" placeholder="Céged neve" type="text" value="{{ old('contact_company') }}" autocomplete="organization" tabindex="2" />
                     </div>
                     <div class="form-group {{ isset($errors) && $errors->has('contact_email') ? 'has-error' : '' }}">
                         <input class="form-control" name="contact_email" placeholder="E-mail*" type="email" value="{{ old('contact_email') }}" autocomplete="email" tabindex="4" required />

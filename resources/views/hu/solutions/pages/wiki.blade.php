@@ -1,7 +1,7 @@
 @extends('hu.site')
 
 @section('title', 'Egyedi wiki szoftver')
-@section('description', 'Gyűjtsön összes minden vállalati szaktudást egy helyre. Osszon meg linkeket, dokumentumokat, képeket vagy GYIK-et, hogy a csapata könnyen hozzáférhessen az információkhoz.')
+@section('description', 'Gyűjts össze minden vállalati szaktudást egy helyre. Osszál meg linkeket, dokumentumokat, képeket vagy GYIK-et, hogy a csapatod könnyen hozzáférhessen az információkhoz.')
 
 @section('content')
     <section class="section">
@@ -14,7 +14,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet">
-                        <p class="solution__intro">Gyűjtsön összes minden vállalati szaktudást egy helyre. Osszon meg linkeket, dokumentumokat, képeket vagy GYIK-et, hogy a csapata könnyen hozzáférhessen az információkhoz.</p>
+                        <p class="solution__intro">Gyűjts össze minden vállalati szaktudást egy helyre. Osszál meg linkeket, dokumentumokat, képeket vagy GYIK-et, hogy a csapatod könnyen hozzáférhessen az információkhoz.</p>
                     </div>
                 </div>
                 <div class="columns">
@@ -24,16 +24,15 @@
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>A "wiki" gyorsat jelent a hawaii nyelven. És ez pontosan az, amit a mi wiki szoftverünk tehet az Ön cége számára: gyors hozzáférést biztosítunk az információkhoz. Csoportosítsa linkjeit és fájljait kategóriák vagy címkék segítségével, hogy könnyen megtalálhatók legyenek. A jól karbantartott tudásközpont felgyorsítja az új csapattagok belépését a cégbe, és elősegíti a tudásmegosztás kultúráját a vállalaton belül.</p>
+                        <p>A "wiki" gyorsat jelent a hawaii nyelven. És ez pontosan az, amit a mi wiki szoftverünk tehet a céged számára: gyors hozzáférést biztosít az információkhoz. Csoportosítsd linkjeit és fájljait kategóriák vagy címkék segítségével, hogy könnyen megtalálhatók legyenek. A jól karbantartott tudásközpont felgyorsítja az új csapattagok belépését a cégbe, és elősegíti a tudásmegosztás kultúráját a vállalaton belül.</p>
                         <ul class="list has-bullets">
-                            <li>osszon meg linkeket, dokumentumokat vagy képeket</li>
-                            <li>hozzon létre GYIK-et</li>
-                            <li>csoportosítsa és címkézze az információt</li>
-                            <li>beszéljék meg és működjenek együtt a wiki elemeken</li>
+                            <li>ossz meg linkeket, dokumentumokat vagy képeket</li>
+                            <li>hozz létre GYIK-et</li>
+                            <li>csoportosítsd és címkézd az információt</li>
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/wiki-illustration-information.png') }}" alt="Osszon meg linkeket, dokumentumokat vagy képeket" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/wiki-illustration-information.png') }}" alt="Ossz meg linkeket, dokumentumokat vagy képeket" />
                     </div>
                 </div>
             </div>
@@ -48,14 +47,14 @@
             </div>
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
-                    <p>Nemcsak cégen belüli használatú tudásközpontot tudunk kialakítani, hanem ügyfelei vagy partnerei számára is létrehozhatunk egyet. A részletes engedélyezési beállításokkal eldöntheti, hogy mely elemek kinek álljanak a rendelkezésére.</p>
+                    <p>Nemcsak cégen belüli használatú tudásközpontot tudunk kialakítani, hanem ügyfeleid vagy partnereid számára is létrehozhatunk egyet. A részletes engedélyezési beállításokkal eldöntheted, hogy mely elemek kinek álljanak a rendelkezésére.</p>
                     <ul class="list has-bullets">
-                        <li>ossza meg az információt az ügyfelekkel vagy a partnerekkel</li>
-                        <li>állítsa be a hozzáférési, szerkesztési és hozzászólási jogokat a wiki elemekre</li>
+                        <li>oszd meg az információt az ügyfelekkel vagy a partnerekkel</li>
+                        <li>állítsd be a hozzáférési, szerkesztési és hozzászólási jogokat a wiki elemekre</li>
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/wiki-illustration-partners.png') }}" alt="Ossza meg az információt az ügyfelekkel vagy a partnerekkel" />
+                    <img class="is-centered-mobile" src="{{ asset('img/solutions/wiki-illustration-partners.png') }}" alt="Oszd meg az információt az ügyfelekkel vagy a partnerekkel" />
                 </div>
             </div>
         </div>
@@ -65,8 +64,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Szeretne többet megtudni tudástár megoldásainkról?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjen egy bemutatót</a>
+                        <div class="heading-2">Szeretnél többet megtudni tudástár megoldásainkról?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
                     </div>
                 </div>
             </div>
@@ -92,7 +91,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Használja együtt további megoldásainkkal</h3>
+                        <h3 class="heading-3">Használd együtt további megoldásainkkal</h3>
                     </div>
                 </div>
                 <div class="columns">
@@ -115,8 +114,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Miért válasszon testreszabott megoldást?</div>
-                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudja meg itt</a>
+                        <div class="heading-2">Miért válassz testreszabott megoldást?</div>
+                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudd meg itt</a>
                     </div>
                 </div>
             </div>
@@ -212,7 +211,7 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "Gyűjtsön összes minden vállalati szaktudást egy helyre. Osszon meg linkeket, dokumentumokat, képeket vagy GYIK-et, hogy a csapata könnyen hozzáférhessen az információkhoz.",
+    "description": "Gyűjts össze minden vállalati szaktudást egy helyre. Osszál meg linkeket, dokumentumokat, képeket vagy GYIK-et, hogy a csapatod könnyen hozzáférhessen az információkhoz.",
     "headline": "Egyedi wiki szoftver",
     "image": {
         "@type": "ImageObject",

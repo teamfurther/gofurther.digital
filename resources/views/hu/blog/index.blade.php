@@ -48,7 +48,7 @@
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}"><img src="{{ asset('media/blog/thumb-digital-transformation-4-hu.jpg') }}" alt="Digitális transzformáció 4. rész - Technológia" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">Digitális transzformáció 4. rész - Technológia</a></h3>
-                                <p class="post__excerpt">Sorozatunk záró cikkében, a digitális transzformáció puzzle utolsó darabjával foglalkozunk és megnézzük hogyan használhatja ki a technológiában rejlő lehetőségeket, hogy előrelendítse vállalkozását.</p>
+                                <p class="post__excerpt">Sorozatunk záró cikkében, a digitális transzformáció puzzle utolsó darabjával foglalkozunk és megnézzük hogyan használhatod Te is ki a technológiában rejlő lehetőségeket, hogy előrelendítsd vállalkozásod.</p>
                                 <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">Tovább &raquo;</a>
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}"><img src="{{ asset('media/blog/thumb-digital-transformation-2-hu.jpg') }}" alt="Digitális transzformáció 2. rész - Vállalati kultúra" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">Digitális transzformáció 2. rész - Vállalati kultúra</a></h3>
-                                <p class="post__excerpt">A sorozat első részében megtudhattuk, hogyan buktatta meg a digitális világ a Kodakot. De változtattak a vállalati kultúrájukon és feltámadtak hamvaikból.</p>
+                                <p class="post__excerpt">A sorozat első részében megtudhattuk, hogyan buktatta meg a digitális világ a Kodakot. De sikerült változtatniuk a vállalati kultúrájukon és feltámadtak hamvaikból.</p>
                                 <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">Tovább &raquo;</a>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}"><img src="{{ asset('media/blog/thumb-digital-transformation-1-hu.jpg') }}" alt="Digitális transzformáció 1. rész - Bevezető" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">Digitális transzformáció 1. rész - Bevezető</a></h3>
-                                <p class="post__excerpt">Üdvözöljük a digitális átalakulással kapcsolatos sorozatunk első részében. Merüljünk is el a témában, és kezdjük a digitális átalakulás valós jelentésével.</p>
+                                <p class="post__excerpt">Üdvözlünk a digitális átalakulással kapcsolatos sorozatunk első részében. Merüljünk is el a témában, és kezdjük a digitális átalakulás valós jelentésével.</p>
                                 <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">Tovább &raquo;</a>
                             </div>
                         </div>
@@ -88,7 +88,7 @@
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'laraconeu-madrid-2019']) }}"><img src="{{ asset('media/blog/thumb-laraconeu-madrid-2019.png') }}" alt="Élménybeszámoló a LaraconEU Madrid 2019-ről" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'laraconeu-madrid-2019']) }}">Élménybeszámoló a LaraconEU Madrid 2019-ről</a></h3>
-                                <p class="post__excerpt">Május 23-a különleges nap volt számunkra, mivel részt vettünk az első Laracon találkozónkon Madridban. A Laracon mindig is ott volt a konferenciák kívánságlistánkon, de nem sikerült eljutnunk... egészen mostanáig.</p>
+                                <p class="post__excerpt">Május 23-a különleges nap volt számunkra, mivel részt vettünk az első Laracon találkozónkon Madridban. A Laracon mindig is ott volt a konferenciák bakancslistánkon, de nem sikerült eljutnunk&hellip; egészen mostanáig.</p>
                                 <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'laraconeu-madrid-2019']) }}">Tovább &raquo;</a>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}"><img src="{{ asset('media/blog/thumb-custom-development-vs-ootb.jpg') }}" alt="Egyedi fejlesztés vagy dobozos szoftver?" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Egyedi fejlesztés vagy dobozos szoftver?</a></h3>
-                                <p class="post__excerpt">Valamikor minden vállalat eléri azt a pontot, amikor a növekedés érdekében be kell fektetnie a szoftveres infrastruktúrájába. Megpróbálunk Önnek segíteni abban, hogy eldöntse, hogy az egyedi fejlesztés vagy egy dobozos megoldás a megfelelő vállalatának.</p>
+                                <p class="post__excerpt">Valamikor minden vállalat eléri azt a pontot, amikor a növekedés érdekében be kell fektetnie a szoftveres infrastruktúrájába. Megpróbálunk segíteni abban, hogy eldöntsd, hogy az egyedi fejlesztés vagy egy dobozos megoldás a megfelelő számodra.</p>
                                 <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tovább &raquo;</a>
                             </div>
                         </div>
@@ -218,7 +218,7 @@
         "width": "185"
     },
     "inLanguage": "hu_HU",
-    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Web design, Webfejlesztés",
+    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, MVP fejlesztés, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('blog') }}",
     "name": "Blog",
     "publisher": {

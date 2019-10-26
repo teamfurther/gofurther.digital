@@ -2,8 +2,8 @@
 
 @section('content')
     <section class="hero">
-        <h2 class="hero__tagline" data-texts='["automatizálni folyamatait", "rendszerezni adatait", "növelni produktivitását"]'>Segítünk Önnek<strong></strong></h2>
-        <a class="hero__cta" href="{{ url('#contact') }}">Van egy ötlete, amit meg szeretne velünk beszélni?<strong>Írja meg nekünk!</strong></a>
+        <h2 class="hero__tagline" data-texts='["automatizálni folyamataidat", "rendszerezni adataidat", "növelni produktivitásodat"]'>Segítünk<strong></strong></h2>
+        <a class="hero__cta" href="{{ url('#contact') }}">Van egy ötleted, amit meg szeretnél velünk beszélni?<strong>Írd meg nekünk!</strong></a>
         <a class="hero__scroll" href="{{ url('#szolgaltatasok') }}"></a>
     </section>
 
@@ -11,7 +11,7 @@
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <h2 class="hero-heading">Az Ön hosszútávú<strong><span class="is-hidden-mobile">fejlesztési </span>partnerei</strong></h2>
+                    <h2 class="hero-heading">A hosszútávú<strong><span class="is-hidden-mobile">fejlesztési </span>partnereid</strong></h2>
                 </div>
             </div>
             <div class="columns has-margin-b60 is-mobile">
@@ -20,7 +20,9 @@
                 </div>
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
                     <h3 class="heading-4">Digitális<br />transzformáció</h3>
-                    <p>A digitalizáció minden iparra hatással lesz. Megmutatjuk hogyan segítheti a digitalizáció az Ön vállalkozását és hogyan használhatja ki az ezzel járó lehetőségeket.</p>
+                    <p>
+                        A digitalizáció minden iparra hatással lesz. Megmutatjuk, hogyan segítheti a digitalizáció a Te vállalkozásodat és hogyan használhatod ki az ezzel járó lehetőségeket.
+                    </p>
                     <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">Tovább</a>
                 </div>
             </div>
@@ -30,7 +32,9 @@
                 </div>
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
                     <h3 class="heading-4">Egyedi<br />szoftverfejlesztés</h3>
-                    <p>Minden egyedi fejlesztési igényének eleget tudunk tenni, az alkalmazás életciklusának minden szakaszában, a követelményektől a tervezésig és a megvalósításig.</p>
+                    <p>
+                        Minden egyedi fejlesztési igényednek eleget tudunk tenni a követelmények megfogalmazásától a tervezésig és a megvalósításig.
+                    </p>
                     <a class="btn is-primary" href="{{ localizedRoute('custom-development') }}">Tovább</a>
                 </div>
             </div>
@@ -40,7 +44,8 @@
                 </div>
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
                     <h3 class="heading-4">MVP<br />fejlesztés</h3>
-                    <p>Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk,amelyek lehetővé teszi Ön számára, hogy hamar mérhető eredményeket lásson.
+                    <p>
+                        Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, amelyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.
                     </p>
                     <a class="btn is-primary" href="{{ localizedRoute('solutions.mvp') }}">Tovább</a>
                 </div>
@@ -54,7 +59,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="container">
-                            <div class="heading-2">Szeretne többet megtudni munkáinkról?</div>
+                            <div class="heading-2">Szeretnél többet megtudni munkáinkról?</div>
                             <a class="btn is-large is-primary" href="{{ localizedRoute('projects') }}">Esettanulmányok</a>
                         </div>
                     </div>
@@ -88,7 +93,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="container">
-                            <div class="heading-2">Tudjon meg többet az általunk használt technológiákról</div>
+                            <div class="heading-2">Tudj meg többet az általunk használt technológiákról!</div>
                             <a class="btn is-large is-primary" href="{{ localizedRoute('tech-stack') }}">Eszköztár</a>
                         </div>
                     </div>
@@ -210,7 +215,7 @@
         "width": "185"
     },
     "inLanguage": "hu_HU",
-    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Web design, Webfejlesztés",
+    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, MVP fejlesztés, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('home') }}",
     "name": "{{ config('site.name') }} | {{ config('site.title.' . getLang()) }}",
     "publisher": {

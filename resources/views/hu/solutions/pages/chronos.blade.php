@@ -25,17 +25,16 @@
                 <div class="columns">
                     <div class="column is-half-tablet">
                         <h3 class="heading-3">Nincs szükség technikai ismeretekre</h3>
-                        <p>Minden oldal alapvetően egy sablon. Egy egyszerű és intuitív kezelőfelületet biztosítunk a tartalom kezeléséhez. Töltse fel a tartalmat és a képeket, és figyelje meg hogyan jön létre a honlapja.</p>
+                        <p>Minden oldal alapvetően egy sablon. Egy egyszerű és intuitív kezelőfelületet biztosítunk a tartalom kezeléséhez. Töltsd fel a tartalmat és a képeket, és figyeld meg hogyan kel életre létre a honlapod.</p>
                         <ul class="list has-bullets">
-                            <li>hozzon létre tartalmat egy egyszerű Markdown szerkesztővel</li>
-                            <li>mentse le a tartalmat vázlatként és tegye közzé később</li>
+                            <li>hozz létre tartalmat egy egyszerű Markdown szerkesztővel</li>
                             <li>alapból kereső-optimalizált (SEO)</li>
-                            <li>töltse fel a képeket egy médiakönyvtárba, így később újra felhasználhatja őket</li>
-                            <li>töltsön fel bármilyen méretű képet, és hagyja, hogy a Chronos menet közben hozza létre a bélyegképeket</li>
+                            <li>töltsd fel a képeket egy médiakönyvtárba, így később újra felhasználhatod őket</li>
+                            <li>tölts fel bármilyen méretű képet, és hagyd, hogy a Chronos menet közben hozza létre a bélyegképeket</li>
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/web-illustration-build-websites.png') }}" alt="Kezelje a tartalmat egy intuitív grafikus felületen" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/web-illustration-build-websites.png') }}" alt="Kezeld a tartalmat egy intuitív grafikus felületen" />
                     </div>
                 </div>
             </div>
@@ -45,21 +44,21 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-offset-half">
-                    <h3 class="heading-3">Elemezze az eredményeket</h3>
+                    <h3 class="heading-3">Elemezd az eredményeket</h3>
                 </div>
             </div>
             <div class="columns is-reversed">
                 <div class="column is-half-tablet">
-                    <p>A Chronos megkönnyíti a kattintási és konverziós arányok elemzését. Optimalizálja a weboldalait célcsoportjához vagy hozzon létre A / B teszteket annak érdekében, hogy meghatározza a legeredményesebb marketing módszert.</p>
+                    <p>A Chronos megkönnyíti a kattintási és konverziós arányok elemzését. Optimalizálhatod a weboldalaidat egy bizonyos célcsoportra vagy hozz létre A / B teszteket annak érdekében, hogy meghatározd a legeredményesebb marketing módszert.</p>
                     <ul class="list has-bullets">
-                        <li>kövesse nyomon a kattintási arányokat</li>
-                        <li>kövesse nyomon a konverziós arányokat</li>
+                        <li>kövesd nyomon a kattintási arányokat</li>
+                        <li>kövesd nyomon a konverziós arányokat</li>
                         <li>A/B tesztek</li>
                         <li>többváltozós tesztek</li>
                     </ul>
                 </div>
                 <div class="column is-half-tablet">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/web-illustration-analytics.png') }}" alt="Kövesse nyomon a kattintási és konverziós arányokat" />
+                    <img class="is-centered-mobile" src="{{ asset('img/solutions/web-illustration-analytics.png') }}" alt="Kövesd nyomon a kattintási és konverziós arányokat" />
                 </div>
             </div>
         </div>
@@ -69,11 +68,11 @@
             <div class="columns">
                 <div class="column is-half-tablet">
                     <h3 class="heading-3">Alapértelmezetten többnyelvű</h3>
-                    <p>A Chronos lehetővé teszi, hogy annyi nyelvet adjon hozzá a honlapjához, amennyit csak szeretne. Egy új nyelv hozzáadása nagyon egyszerű, csak jelöljön be egy jelölőnégyzetet a beállításokban, és készen áll a tartalom feltöltésére. Wunderbar!</p>
+                    <p>A Chronos lehetővé teszi, hogy annyi nyelvet adjál hozzá a honlapodhoz, amennyit csak szeretnél. Egy új nyelv hozzáadása nagyon egyszerű, csak jelölj be egy jelölőnégyzetet a beállításokban, és a rendszer készen is áll a tartalom feltöltésére. Wunderbar!</p>
                     <ul class="list has-bullets">
-                        <li>adjon hozzá egy új nyelveket néhány kattintással</li>
-                        <li>fordítsa le a tartalmat és a statikus szövegeket</li>
-                        <li>kövesse nyomon a lefordítatlan tartalmat</li>
+                        <li>adjál hozzá új nyelveket néhány kattintással</li>
+                        <li>fordítsd le a tartalmat és a statikus szövegeket</li>
+                        <li>kövesd nyomon a lefordítatlan tartalmat</li>
                     </ul>
                 </div>
                 <div class="column is-half-tablet">
@@ -92,11 +91,11 @@
                 </div>
                 <div class="columns is-reversed">
                     <div class="column is-half-tablet">
-                        <p>A Chronos úgynevezett szétcsatolt vagy leválasztot tartalomkezelő rendszer (CMS). A Chronos alapvetően csupán egy backend-rendszer, amely a tartalmat egy alkalmazásprogramozási felületen (API-n) keresztül teszi hozzáférhetővé. Ez azt jelenti, hogy teljesen frontend agnosztikus, amelynek számos előnye van: bármilyen programozási nyelvet használhat a frontend létrehozásához, vagy akár a statikus oldalak generálásához. Ezt könnyedén csatlakoztathatja más honlapokhoz vagy egy mobilalkalmazáshoz.</p>
+                        <p>A Chronos úgynevezett szétcsatolt vagy leválasztot tartalomkezelő rendszer (CMS). A Chronos alapvetően csupán egy backend-rendszer, amely a tartalmat egy alkalmazásprogramozási felületen (API-n) keresztül teszi hozzáférhetővé. Ez azt jelenti, hogy teljesen frontend agnosztikus, amelynek számos előnye van: bármilyen programozási nyelvet használhatsz a frontend létrehozásához, vagy akár a statikus oldalak generálásához. Ezt könnyedén csatlakoztathatod más honlapokhoz vagy egy mobilalkalmazáshoz.</p>
                         <ul class="list has-bullets">
-                            <li>használjon bármilyen programozási nyelvet a frontenden</li>
-                            <li>generáljon statikus weboldalakat</li>
-                            <li>csatlakozzon más honlapokhoz vagy alkalmazásokhoz</li>
+                            <li>használj bármilyen programozási nyelvet a frontenden</li>
+                            <li>generálj statikus weboldalakat</li>
+                            <li>csatlakozz más honlapokhoz vagy alkalmazásokhoz</li>
                             <li>jól dokumentált API</li>
                         </ul>
                     </div>
@@ -112,8 +111,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Szeretne többet megtudni a Chronosról?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjen egy bemutatót</a>
+                        <div class="heading-2">Szeretné többet megtudni a Chronosról?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
                     </div>
                 </div>
             </div>

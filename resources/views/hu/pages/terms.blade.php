@@ -10,7 +10,7 @@
                     <h1 class="heading">Felhasználási feltételek</h1>
                     <p>A honlapon található információ kizárólag általános tájékoztató jellegű a C4WEB STUDIO SRL (Further Digital Solutions) társaságról, partnereiről és az általuk kínált szolgáltatásokról.</p>
                     <p>Annak ellenére, hogy megtettük az összes intézkedést a megadott információ pontossága érdekében, ez nem képez semmilyen formájú tanácsadást, ajánlást, képviseletet, jóváhagyását vagy megegyezést a Further Digital Solutions részéről.</p>
-                    <p>A bemutatott információ megbízhatónak tekinthető, de bármikor módosítható előzetes értesítés nélkül. A Further Digital Solutions nem garantál ennek teljességéért vagy pontosságáért. A honlaphoz való hozzáférés által Ön elfogadja, hogy a Further Digital Solutions nem vállal felelősséget semmilyen közvetlen, közvetett vagy következményes kárért, amely a honlapon található információ és tartalmak használatából, vagy a honlapon levő linkeken keresztül elért más internetes tartalmak hozzáféréséből származik.</p>
+                    <p>A bemutatott információ megbízhatónak tekinthető, de bármikor módosítható előzetes értesítés nélkül. A Further Digital Solutions nem garantál ennek teljességéért vagy pontosságáért. A honlaphoz való hozzáférés által elfogadod, hogy a Further Digital Solutions nem vállal felelősséget semmilyen közvetlen, közvetett vagy következményes kárért, amely a honlapon található információ és tartalmak használatából, vagy a honlapon levő linkeken keresztül elért más internetes tartalmak hozzáféréséből származik.</p>
                     <p>A honlapon található tartalom szerzői jogai a Further Digital Solutions társaságot illeti. Bárki lemásolhatja a tartalom bármely részét, az alábbi feltételek mellett:</p>
                     <ul class="list has-bullets">
                         <li>A tartalmat kizárólag nem kereskedelmi célokra szabad felhasználni;</li>
@@ -112,7 +112,7 @@
         "width": "185"
     },
     "inLanguage": "hu_HU",
-    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Web design, Webfejlesztés",
+    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, MVP fejlesztés, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('terms') }}",
     "name": "Terms of Use",
     "publisher": {

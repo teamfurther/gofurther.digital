@@ -24,16 +24,16 @@
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <h3 class="heading-3">Hozzon létre elegáns termékoldalakat</h3>
-                        <p>Könnyedén hozhat létre új termékoldalakat, és személyre szabhatja a megmutatott információt az elegáns sablonok segítségével. Adjon hozzá termékváltozatokat olyan attribútumok alapján, mint például a szín, a méret vagy bármilyen más egyéni attribútum, amire szüksége van.</p>
+                        <h3 class="heading-3">Hozz létre elegáns termékoldalakat</h3>
+                        <p>Könnyedén létrehozhatsz új termékoldalakat, és személyre szabhatod a megmutatott információt az elegáns sablonok segítségével. Adjál hozzá termékváltozatokat olyan attribútumok alapján, mint például a szín, a méret vagy bármilyen más egyéni attribútum, amire szükséged van.</p>
                         <ul class="list has-bullets">
-                            <li>válasszon több testreszabható sablon közül</li>
-                            <li>hozzon létre termékváltozatokat</li>
-                            <li>adjon hozzá egyéni termék-attribútumokat</li>
+                            <li>válassz több testreszabható sablon közül</li>
+                            <li>hozz létre termékváltozatokat</li>
+                            <li>adjál hozzá egyéni termék-attribútumokat</li>
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/ecommerce-illustration-product-pages.png') }}" alt="Hozzon létre elegáns termékoldalakat" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/ecommerce-illustration-product-pages.png') }}" alt="Hozz létre elegáns termékoldalakat" />
                     </div>
                 </div>
             </div>
@@ -43,22 +43,22 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-offset-half-tablet is-offset-4-desktop">
-                    <h3 class="heading-3">Használjon dinamikus árképzést a bevétel növelése érdekében</h3>
+                    <h3 class="heading-3">Használj dinamikus árképzést a bevétel növelése érdekében</h3>
                 </div>
             </div>
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
-                    <p>A dinamikus árképzés lehetővé teszi, hogy a megrendelt mennyiség alapján állapítsa meg a termékek árszintjét. Szükség esetén hozzáadhatjuk az ajánlatok, az utalványok, a termékcsomagok vagy az ajándéktárgyak létrehozásának lehetőségét.</p>
+                    <p>A dinamikus árképzés lehetővé teszi, hogy a megrendelt mennyiség alapján állapítsd meg a termékek árszintjét. Szükség esetén hozzáadhatjuk az ajánlatok, az utalványok, a termékcsomagok vagy az ajándéktárgyak létrehozásának lehetőségét.</p>
                     <ul class="list has-bullets">
-                        <li>adjon hozzá többszintű termékárat</li>
-                        <li>hozzon létre promóciós kampányokat és ajánlatokat</li>
-                        <li>küldjön utalványokat és kuponokat</li>
-                        <li>csomagolja együtt a termékeket</li>
-                        <li>adjon ajándéktermékeket vevőinek</li>
+                        <li>adjál hozzá többszintű termékárat</li>
+                        <li>hozz létre promóciós kampányokat és ajánlatokat</li>
+                        <li>küldj utalványokat és kuponokat</li>
+                        <li>csomagold együtt a termékeket</li>
+                        <li>adjál ajándéktermékeket vevőinek</li>
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/ecommerce-illustration-dynamic-pricing.png') }}" alt="Használjon dinamikus árképzést a bevétel növelése érdekében" />
+                    <img class="is-centered-mobile" src="{{ asset('img/solutions/ecommerce-illustration-dynamic-pricing.png') }}" alt="Használj dinamikus árképzést a bevétel növelése érdekében" />
                 </div>
             </div>
         </div>
@@ -68,8 +68,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <h3 class="heading-3">Növelje eladásait</h3>
-                        <p>Növelje az átlagos kiskereskedelmi bevételét azáltal, hogy kihasználja az optimalizált marketing lehetőségeket, mint például a kosár helyreállítása, a keresztértékesítés és a felülértékesítés a termékoldalakon, a kosárban vagy a vásárlás visszaigazolásánál. A webáruházát úgy konfigurálhatjuk, hogy automatikusan hasonló termékeket vagy kiegészítőket ajánljon.</p>
+                        <h3 class="heading-3">Növeld eladásaidat</h3>
+                        <p>Növeld az átlagos kosárértéked azáltal, hogy kihasználod az optimalizált marketing lehetőségeket, mint például a kosár helyreállítását, a keresztértékesítést és a felülértékesítést a termékoldalakon, a kosárban vagy a vásárlás visszaigazolásánál. A webáruházat úgy konfigurálhatjuk, hogy automatikusan hasonló termékeket vagy kiegészítőket ajánljon.</p>
                         <ul class="list has-bullets">
                             <li>elhagyott kosár emlékeztetők</li>
                             <li>termékek keresztértékesítése</li>
@@ -77,7 +77,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/ecommerce-illustration-boost-sales.png') }}" alt="Növelje eladásait kereszt- és felülértékesítéssel" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/ecommerce-illustration-boost-sales.png') }}" alt="Növeld eladásaidat kereszt- és felülértékesítéssel" />
                     </div>
                 </div>
             </div>
@@ -87,20 +87,20 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-offset-half-tablet is-offset-4-desktop">
-                    <h3 class="heading-3">Integrálja harmadik felek fizetési szolgáltatásaival</h3>
+                    <h3 class="heading-3">Integráld harmadik felek fizetési szolgáltatásaival</h3>
                 </div>
             </div>
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
-                    <p>Annak érdekében, hogy megkönnyítse a kifizetést az ügyfelek számára, hitelkártyás fizetéseket is létrehozhatunk olyan szolgáltatások segítségével, mint a Stripe, a Braintree, az Authorize.net, a Barion vagy az OTP. Az online fizetési szolgáltatások átirányítják ügyfeleit a honlapján egy egyéni köszönet oldalra annak érdekében, hogy nyomon követhesse a konverziós arányokat.</p>
+                    <p>Annak érdekében, hogy megkönnyítsd a kifizetést az ügyfelek számára, hitelkártyás fizetéseket is létrehozhatunk olyan szolgáltatások segítségével, mint a Stripe, a Braintree, az Authorize.net, a Barion vagy az OTP. Az online fizetési szolgáltatások átirányítják ügyfeleit a honlapján egy egyéni köszönet oldalra annak érdekében, hogy nyomon követhesse a konverziós arányokat.</p>
                     <ul class="list has-bullets">
-                        <li>integrálja a nemzetközi online fizetési szolgáltatásokkal (Stripe, Braintree stb.)</li>
-                        <li>integrálja a helyi online fizetési szolgáltatásokkal (Barion, OTP stb.)</li>
-                        <li>kövesse nyomon a konverziót egy köszönet oldalon</li>
+                        <li>integráld a nemzetközi online fizetési szolgáltatásokat (Stripe, Braintree stb.)</li>
+                        <li>integráld helyi online fizetési szolgáltatásokat (Barion, OTP stb.)</li>
+                        <li>kövesd nyomon a konverziót egy köszönet oldalon</li>
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/ecommerce-illustration-payment-gateways.png') }}" alt="Integrálja harmadik felek fizetési szolgáltatásaival" />
+                    <img class="is-centered-mobile" src="{{ asset('img/solutions/ecommerce-illustration-payment-gateways.png') }}" alt="Integráld harmadik felek fizetési szolgáltatásait" />
                 </div>
             </div>
         </div>
@@ -110,20 +110,20 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Küldje el bárhova a termékeket</h3>
+                        <h3 class="heading-3">Küld el bárhova a termékeket</h3>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>A megrendelés teljesítését is könnyűvé tesszük. Nyomtassa ki a kiszállítási címkéket egyetlen kattintással, közvetlenül a bolt adminisztrációs felületéről. Az összes nagyobb futártársaság szolgáltatásaival integrálhatjuk, mint például a DHL, a UPS, a FedEx, a DPD, a GLS vagy a Fan Courier, annak érdekében, hogy a csomagkövetést megkönnyítsük.</p>
+                        <p>A megrendelés teljesítését is könnyűvé tesszük. Nyomtasd ki a kiszállítási címkéket egyetlen kattintással, közvetlenül a bolt adminisztrációs felületéről. Az összes nagyobb futártársaság szolgáltatását integrálhatjuk, mint például a DHL, a UPS, a FedEx, a DPD, a GLS vagy a Fan Courier, annak érdekében, hogy a csomagkövetést megkönnyítsük.</p>
                         <ul class="list has-bullets">
-                            <li>nyomtassa ki a kiszállítási címkéket közvetlenül a webáruházból</li>
-                            <li>kövesse nyomon a kiszállítást a webáruházból</li>
-                            <li>integrálja a DHL, az UPS, a FedEx, a DPD, a GLS, a Fan Courier szolgáltatásaival</li>
+                            <li>nyomtasd ki a kiszállítási címkéket közvetlenül a webáruházból</li>
+                            <li>kövesd nyomon a kiszállítást a webáruházból</li>
+                            <li>integráld a DHL, az UPS, a FedEx, a DPD, a GLS, a Fan Courier szolgáltatásait</li>
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/ecommerce-illustration-shipping.png') }}" alt="Küldje el bárhova a termékeket" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/ecommerce-illustration-shipping.png') }}" alt="Küld el bárhova a termékeket" />
                     </div>
                 </div>
             </div>
@@ -134,8 +134,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Szeretne többet megtudni e-commerce megoldásainkról?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjen egy bemutatót</a>
+                        <div class="heading-2">Szeretnél többet megtudni e-commerce megoldásainkról?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
                     </div>
                 </div>
             </div>

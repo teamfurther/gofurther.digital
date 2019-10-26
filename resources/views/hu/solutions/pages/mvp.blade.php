@@ -14,7 +14,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet">
-                        <p class="solution__intro">Jutassa gyorsabban piacra termékét.</p>
+                        <p class="solution__intro">Jutasd gyorsabban piacra terméked.</p>
                     </div>
                 </div>
                 <div class="columns">
@@ -24,7 +24,7 @@
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>Egy szoftvertermék fejlesztésében a legfontosabb mérföldkő a megismerés. Ez az a folyamat amikor felmérjük az Ön üzleti igényeit és megtervezzük a következő lépéseket.</p>
+                        <p>Egy szoftvertermék fejlesztésében a legfontosabb mérföldkő a megismerés. Ez az a folyamat amikor felmérjük az üzleti igényeid és megtervezzük a következő lépéseket.</p>
                         <ul class="list has-bullets">
                             <li>igények megértése</li>
                             <li>funkciónalitás prioretizálása</li>
@@ -63,7 +63,7 @@
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
                         <h3 class="heading-3">UI tervezés és fejlesztés</h3>
-                        <p>Ez önmagát magyarázó. Amint a tervek validálva lettek, designereink segítségével életre keltjük a prototípusokat, míg a fejlesztő csapat kiválaszt a megfelelő architektúrát az Ön szoftvertermékéhez. Induljon a kódolás!</p>
+                        <p>Ez önmagát magyarázó. Amint a tervek validálva lettek, designereink segítségével életre keltjük a prototípusokat, míg a fejlesztő csapat kiválasztja a megfelelő architektúrát a szoftveredhez. Induljon a kódolás!</p>
                         <ul class="list has-bullets">
                             <li>mobilfejlesztés</li>
                             <li>webfejlesztés</li>
@@ -81,7 +81,7 @@
         <div class="container">
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
-                    <h3 class="heading-3">Kielemzés és továbbfejlesztés</h3>
+                    <h3 class="heading-3">Elemzés és továbbfejlesztés</h3>
                     <p>Adatokat gyűjtünk arról, hogy a felhasználók hogyan interakcionálnak a termékkel. Segítünk kielemezni a visszajelzéseket és méréseket, módosítva a terméket ahol szükséges. A szoftvereinket úgy tervezzük, hogy könnyű legyen módosítani őket, így pivot esetében, akár radikális változtatásokat is könnyen eszközölhetünk.</p>
                     <ul class="list has-bullets">
                         <li>mérés</li>
@@ -100,8 +100,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Van egy ötlete ami meg szeretne velünk beszélni?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Írja meg nekünk!</a>
+                        <div class="heading-2">Van egy ötleted ami meg szeretnél velünk beszélni?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Írd meg nekünk!</a>
                     </div>
                 </div>
             </div>

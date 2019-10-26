@@ -24,7 +24,7 @@
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>Ha befektet vállalkozása marketingjébe, akkor mindenképpen nyomon kellene követnie honnan jönnek az ügyfelei. Bármilyen adatforrás integrálható, ami kevesebb manuális munkát és kevesebb adatvesztést jelent.</p>
+                        <p>Ha befektetsz vállalkozásod marketingjébe, akkor mindenképpen nyomon kellene követned honnan jönnek az ügyfeleid. Bármilyen adatforrás integrálható, ami kevesebb manuális munkát és kevesebb adatvesztést jelent.</p>
                         <ul class="list has-bullets has-two-columns">
                             <li>internetes kapcsolatfelvételi űrlapok</li>
                             <li>landing oldalak</li>
@@ -52,11 +52,11 @@
             </div>
             <div class="columns is-reversed">
                 <div class="column is-half-tablet">
-                    <p>Az értékesítési csatornák szerkezete különbözik vállalatonként, és ezt az Ön CRM rendszerének is tükröznie kell. Az Ön munkafolyamatának elemzésével és megértésével olyan szoftveres megoldást fejlesztünk ki, amely leképezi a szükséges műveletek sorrendjét annak érdekében, hogy a potenciális ügyfelekből új ügyfelek legyenek.</p>
+                    <p>Az értékesítési csatornák szerkezete különbözik vállalatonként, és ezt a Te CRM rendszerednek is tükröznie kell. A Te munkafolyamatodnak elemzésével és megértésével olyan szoftveres megoldást fejlesztünk ki, amely leképezi a szükséges műveletek sorrendjét annak érdekében, hogy a potenciális ügyfelekből új ügyfelek legyenek.</p>
                     <ul class="list has-bullets">
-                        <li>személyre szabhatja az értékesítési folyamat szakaszait</li>
-                        <li>az ügyfeleket kategóriákba rendezheti</li>
-                        <li>több csatornát hozhat létre a különböző csapatok számára</li>
+                        <li>személyre szabhatod az értékesítési folyamat szakaszait</li>
+                        <li>az ügyfeleket kategóriákba rendezheted</li>
+                        <li>több csatornát hozhatsz létre a különböző csapatok számára</li>
                     </ul>
                 </div>
                 <div class="column is-half-tablet">
@@ -75,7 +75,7 @@
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet">
-                        <p>Kapjon áttekintést az értékesítési teljesítményéről és használja ezeket az adatokat jobb döntések meghozatalára. Készítsen diagramokat az ügynökök vagy csapatok teljesítményéről, földrajzi és időrendi adatokból vagy bármilyen más adatból ami értékes döntéshozatali szempontból.</p>
+                        <p>Kapjál áttekintést az értékesítési teljesítményéről és használd ezeket az adatokat jobb döntések meghozatalára. Készíts diagramokat az ügynökök vagy csapatok teljesítményéről, földrajzi és időrendi adatokból vagy bármilyen más adatból ami értékes döntéshozatali szempontból.</p>
                         <ul class="list has-bullets">
                             <li>értékesítési csatorna elemzések</li>
                             <li>tölcsérjelentések (funnel report)</li>
@@ -96,8 +96,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Szeretne többet megtudni CRM megoldásainkról?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjen egy bemutatót</a>
+                        <div class="heading-2">Szeretnél többet megtudni CRM megoldásainkról?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Használja együtt további megoldásainkkal</h3>
+                        <h3 class="heading-3">Használd együtt további megoldásainkkal</h3>
                     </div>
                 </div>
                 <div class="columns">
@@ -151,8 +151,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Miért válasszon testreszabott megoldást?</div>
-                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudja meg itt</a>
+                        <div class="heading-2">Miért válassz testreszabott megoldást?</div>
+                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudd meg itt</a>
                     </div>
                 </div>
             </div>

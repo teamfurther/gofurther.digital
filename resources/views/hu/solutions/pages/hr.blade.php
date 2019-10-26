@@ -1,7 +1,7 @@
 @extends('hu.site')
 
 @section('title', 'Testreszabott emberi erőforrások-menedzsment')
-@section('description', 'Az emberi erőforrásoknak szánt megoldásunkkal egyesítheti az összes információt alkalmazottairól, a szabadságoktól és a költségektől egészen az értékelésig.')
+@section('description', 'Az emberi erőforrásoknak szánt megoldásunkkal egyesítheted az összes információt alkalmazottaidról, a szabadságoktól és a költségektől egészen az értékelésig.')
 
 @section('content')
     <section class="section">
@@ -14,7 +14,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet">
-                        <p class="solution__intro">Az emberi erőforrásoknak szánt megoldásunkkal egyesítheti az összes információt alkalmazottairól, a szabadságoktól és a költségektől egészen az értékelésig.</p>
+                        <p class="solution__intro">Az emberi erőforrásoknak szánt megoldásunkkal egyesítheted az összes információt alkalmazottaidról, a szabadságoktól és a költségektől egészen az értékelésig.</p>
                     </div>
                 </div>
                 <div class="columns">
@@ -24,11 +24,11 @@
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>Egy teljes szabadságkezelési megoldást fejleszthetünk, amely lehetővé teszi az alkalmazottai számára, hogy kérelmezzék a szabadságukat ünnepnapok, fizetett szabadság vagy betegségszabadság esetén. A menedzserek jóváhagyhatják, elutasíthatják vagy jegyzeteket adhatnak hozzá a kérelmekhez. Ha más megoldásainkkal integrálja, mint például a <a href="{{ localizedRoute('solutions.projects') }}">PM-modullal</a>, akkor ezeket az adatokat felhasználhatjuk az idővonalak pontosabb előrejelzésére.</p>
+                        <p>Egy teljes szabadságkezelési megoldást fejleszthetünk, amely lehetővé teszi az alkalmazottaid számára, hogy kérelmezzék a szabadságukat ünnepnapok, fizetett szabadság vagy betegségszabadság esetén. A menedzserek jóváhagyhatják, elutasíthatják vagy jegyzeteket adhatnak hozzá a kérelmekhez. Ha más megoldásainkkal is integrálod, mint például a <a href="{{ localizedRoute('solutions.projects') }}">PM-modullal</a>, akkor ezeket az adatokat felhasználhatjuk az idővonalak pontosabb előrejelzésére.</p>
                         <ul class="list has-bullets">
-                            <li>naplózza a  szabadságkérelmeket</li>
-                            <li>hagyja jóvá vagy utasítsa el a kérelmeket</li>
-                            <li>vegye figyelembe a szabadságokat az idővonalak előrejelzése során</li>
+                            <li>naplózd a  szabadságkérelmeket</li>
+                            <li>hagyd jóvá vagy utasítsd el a kérelmeket</li>
+                            <li>vedd figyelembe a szabadságokat az előrejelzések során</li>
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
@@ -43,12 +43,12 @@
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
                     <h3 class="heading-3">Költségkezelés</h3>
-                    <p>A testreszabott költségkezelő megoldásunkkal az alkalmazottak benyújthatják és igazolhatják költségeiket, sőt csatolhatják is a számlák másolatát. Ezt követően a menedzsmentcsapat elfogadhatja vagy elutasíthatja az egyes kiadásokat. Ha összekapcsolja a <a href="{{ localizedRoute('solutions.accounting') }}">számviteli modulunkkal</a>, akkor a jóváhagyott költségek automatikusan megjelennek a jelentéseiben.</p>
+                    <p>A testreszabott költségkezelő megoldásunkkal az alkalmazottak benyújthatják és igazolhatják költségeiket, sőt csatolhatják is a számlák másolatát. Ezt követően a menedzsmentcsapat elfogadhatja vagy elutasíthatja az egyes kiadásokat. Ha összekapcsolod a <a href="{{ localizedRoute('solutions.accounting') }}">számviteli modulunkkal</a>, akkor a jóváhagyott költségek automatikusan megjelennek a jelentésekben.</p>
                     <ul class="list has-bullets">
-                        <li>naplózza a költségigényeket</li>
-                        <li>hagyja jóvá vagy utasítsa el a kérelmeket</li>
-                        <li>legyen digitális másolata a számlákról</li>
-                        <li>naplózza a költségeket a könyvelésbe</li>
+                        <li>naplózd a költségigényeket</li>
+                        <li>hagyd jóvá vagy utasítsd el a kérelmeket</li>
+                        <li>legyen digitális másolatod a számlákról</li>
+                        <li>vezesd automatikusan a költségeket a könyvelésbe</li>
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
@@ -67,7 +67,7 @@
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>Határozzon meg egy értékelési naptárt az alkalmazottak számára menedzsmenti, szakértői értékelésékre és önértékelésekre. Segíthetünk Önnek online kérdőívek vagy felmérések készítésében alkalmazottai számára. Lehetőség van az egész folyamat automatizálására, így valóban az emberekre koncentrálhat, nem az adminisztrációs feladatokra.</p>
+                        <p>Határozz meg egy értékelési naptárt az alkalmazottak számára menedzsmenti, szakértői értékelésékre és önértékelésekre. Segíthetünk online kérdőívek vagy felmérések készítésében alkalmazottaid számára. Lehetőség van az egész folyamat automatizálására, így valóban az emberekre koncentrálhatsz, nem az adminisztrációs feladatokra.</p>
                         <ul class="list has-bullets">
                             <li>értékelések ütemezése</li>
                             <li>online kérdőívek és felmérések kitöltése</li>
@@ -86,8 +86,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Szeretne többet megtudni HR megoldásainkról?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjen egy bemutatót</a>
+                        <div class="heading-2">Szeretnél többet megtudni HR megoldásainkról?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Használja együtt további megoldásainkkal</h3>
+                        <h3 class="heading-3">Használd együtt további megoldásainkkal</h3>
                     </div>
                 </div>
                 <div class="columns">
@@ -136,8 +136,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Miért válasszon testreszabott megoldást?</div>
-                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudja meg itt</a>
+                        <div class="heading-2">Miért válassz testreszabott megoldást?</div>
+                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudd meg itt</a>
                     </div>
                 </div>
             </div>
@@ -233,7 +233,7 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "Az emberi erőforrásoknak szánt megoldásunkkal egyesítheti az összes információt alkalmazottairól, a szabadságoktól és a költségektől egészen az értékelésig.",
+    "description": "Az emberi erőforrásoknak szánt megoldásunkkal egyesítheted az összes információt alkalmazottaidról, a szabadságoktól és a költségektől egészen az értékelésig.",
     "headline": "Testreszabott emberi erőforrások-menedzsment",
     "image": {
         "@type": "ImageObject",

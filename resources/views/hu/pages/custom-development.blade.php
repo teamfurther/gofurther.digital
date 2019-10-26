@@ -4,11 +4,11 @@
     <section class="hero is-green">
         <div class="hero__video">
             <a class="hero__video__thumb" data-toggle="modal" data-target="#video-modal">
-                <img src="{{ asset('img/presentation-video-thumb.png') }}" alt="Tekintse meg bemutató videónkat" />
+                <img src="{{ asset('img/presentation-video-thumb.png') }}" alt="Tekintsd meg bemutató videónkat" />
             </a>
         </div>
         <a class="hero__cta" data-toggle="modal" data-target="#video-modal">
-            Szeretné megtudni miben segíthetünk?<strong>Tekintse meg videónkat</strong>
+            Szeretnéd megtudni miben segíthetünk?<strong>Tekintsd meg videónkat</strong>
         </a>
         <a class="hero__scroll" href="{{ url('#jelek') }}"></a>
     </section>
@@ -17,7 +17,7 @@
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <h2 class="hero-heading"><strong>5 jel</strong>hogy érdemes egy szoftverbe befektetnie</h2>
+                    <h2 class="hero-heading"><strong>5 jel</strong>hogy érdemes egy szoftverbe befektetned</h2>
                 </div>
             </div>
             <div class="columns has-margin-b60 is-mobile">
@@ -25,9 +25,9 @@
                     <div class="list-hero">1</div>
                 </div>
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
-                    <h3 class="heading-4">Nem látja át az adatokat<br />amik szükségesek a döntéshozáshoz</h3>
-                    <p>Az üzlet gyorsabban pörög, mint bármikor. A hatékony üzleti intelligencia a gyors adatelemzésre alapszik, de ha az adatok több Excel táblázatba vannak lementve, vagy még rosszabb, papír alapon vannak tárolva, akkor Ön és csapattagjai nehezen jutnak a megfelelő információhoz.</p>
-                    <p>Ha az összes információ egységesítve és központosítva van egy integrált szoftverrendszerbe, a menedzsment bármikor egy holisztikus képet kaphat a bármikori helyzetről, míg a többi csapattag részére minden egyes hatékony munkavégzéshez szükséges adat hozzáférhető lesz.</p>
+                    <h3 class="heading-4">Nem látod át az adatokat<br />amik szükségesek a döntéshozáshoz</h3>
+                    <p>Az üzlet gyorsabban pörög, mint bármikor. A hatékony üzleti intelligencia a gyors adatelemzésre alapszik, de ha az adatok több Excel táblázatba vannak lementve, vagy még rosszabb, papír alapon vannak tárolva, akkor Te és csapattagjaid nehezen juttok a megfelelő információhoz.</p>
+                    <p>Ha az összes információ egységesítve és központosítva van egy integrált szoftverrendszerbe, bármikor egy holisztikus képet kaphatsz a bármikori helyzetről, míg a többi csapattag részére minden egyes hatékony munkavégzéshez szükséges adat hozzáférhető lesz.</p>
                 </div>
             </div>
             <div class="columns has-margin-b60 is-mobile">
@@ -35,10 +35,10 @@
                     <div class="list-hero">2</div>
                 </div>
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
-                    <h3 class="heading-4">Automatizálható feladatokra<br />vesztegeti az időt</h3>
-                    <p>A <a href="https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages#part1" target="_blank">McKinsey jelentése</a> szerint az irodai dolgozók közel 60%-a legalább 6 órával kevesebbet dolgozna hetente bizonyos feladatok automatizálásával. Egy integrált szoftvermegoldás képes az összes folyamatot elejétől végéig kezelni, így az alkalmazottai az értékes munkaóráikat valóban értékes munkával tölthetik el.</p>
+                    <h3 class="heading-4">Automatizálható feladatokra<br />vesztegeted az időt</h3>
+                    <p>A <a href="https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages#part1" target="_blank">McKinsey jelentése</a> szerint az irodai dolgozók közel 60%-a legalább 6 órával kevesebbet dolgozna hetente bizonyos feladatok automatizálásával. Egy integrált szoftvermegoldás képes az összes folyamatot elejétől végéig kezelni, így az alkalmazottaid az értékes munkaóráikat valóban értékes munkával tölthetik el.</p>
                     <p>Azt tapasztaltuk, hogy a legnagyobb termelékenységnövelő tényezők az automatikus jóváhagyások, az állapotfrissítések és az adatgyűjtés. Ezek nemcsak az ismétlődő munkára fordított időt, hanem az emberi hibák lehetőségének arányát is csökkentik.</p>
-                    <p>Ennek további előnye, hogy csapata pozitív fényben látja majd az automatizálást, amely lehetőséget biztosít arra, hogy nemcsak munkájuk, de a személyes életük jobb legyen.</p>
+                    <p>Ennek további előnye, hogy csapatod pozitív fényben látja majd az automatizálást, amely lehetőséget biztosít arra, hogy nemcsak munkájuk, de a személyes életük jobb legyen.</p>
                 </div>
             </div>
             <div class="columns has-margin-b60 is-mobile">
@@ -46,10 +46,10 @@
                     <div class="list-hero">3</div>
                 </div>
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
-                    <h3 class="heading-4">Elavult IT<br />infrastruktúrával rendelkezik</h3>
-                    <p>Az informatikai részlegtől való függés, a gyakori hardverfrissítések vagy a folyamatosan növekvő licencköltségek arra utalnak, hogy Ön elavult informatikai infrastruktúrát használ.</p>
+                    <h3 class="heading-4">Elavult IT<br />infrastruktúrával rendelkezel</h3>
+                    <p>Az informatikai részlegtől való függés, a gyakori hardverfrissítések vagy a folyamatosan növekvő licencköltségek arra utalnak, hogy elavult informatikai infrastruktúrát használsz.</p>
                     <p>A KKV-k kétharmada elavult verziójú üzleti szoftvereket futtat, időt, pénzt és kritikus erőforrásokat pazarol.</p>
-                    <p>Ahelyett, hogy egy már elavult rendszert toldozzon-foldozzon, gyakran jobb, ha egy modern szoftvermegoldásra vált, amely lehetővé teheti a változó üzleti igényekre való gyors választ.</p>
+                    <p>Ahelyett, hogy egy már elavult rendszert toldozzál-foldozzál, gyakran jobb, ha egy modern szoftvermegoldásra váltasz, amely lehetővé teheti a változó üzleti igényekre való gyors választ.</p>
                 </div>
             </div>
             <div class="columns has-margin-b60 is-mobile">
@@ -57,7 +57,7 @@
                     <div class="list-hero">4</div>
                 </div>
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
-                    <h3 class="heading-4">Több szoftvert használ,<br />amelyek nem kommunikálnak egymással</h3>
+                    <h3 class="heading-4">Több szoftvert használsz,<br />amelyek nem kommunikálnak egymással</h3>
                     <p>A legtöbb vállalkozás különböző szoftvereket futtat a különböző részlegeken. A CRM (ügyfélkapcsolat-kezelés) segíti az értékesítési csapatot, de van egy leltárrendszer, egy számviteli szoftver is és így tovább.</p>
                     <p>Annak ellenére, hogy nagyszerűen működnek azon a részlegen, ahol használják ezeket, sok olyan információt tartalmaznak, amelyek láthatatlanok a csapat többi részének. </p>
                     <p>Az adatok sokszorosítása a rendszerekben növeli a hibalehetőséget és végső soron egy szükségtelen folyamat. Egy központi információforrásként működő szoftvermegoldás segítségével mindeki ugyanahhoz a pontos, naprakész tudáshoz fér hozzá, amely lehetővé teszi a jobb döntések meghozatalát.</p>
@@ -68,9 +68,9 @@
                     <div class="list-hero">5</div>
                 </div>
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
-                    <h3 class="heading-4">Nem használja ki a felhő- és <br />a mobilmegoldások adta lehetőségeket</h3>
-                    <p>Napjainkban, ha a csapata nem tudja bárhol elérni az információkat, és nem tud a munkával bárhol haladni, akkor veszít a versenytársaival szemben. Gondoljon csak az értékesítési csapatára, amely nem fér hozzá a készletkimutatáshoz amikor terepmunkán van, vagy ha a vezetőség nem fér hozzá a jelentésekhez az üzleti találkozókon.</p>
-                    <p>A modern felhőalapú szoftver gyorsan méretezhető, olcsóbban karbantartható, minden mobileszközre reszponzív interfészt kínál, és lehetővé teszi a csapata számára, hogy útközben hozzáférjen az információkhoz és frissítse ezeket, folyamatosan fejlesztve üzleti tevékenységét.</p>
+                    <h3 class="heading-4">Nem használod ki a felhő- és <br />a mobilmegoldások adta lehetőségeket</h3>
+                    <p>Napjainkban, ha a csapatod nem tudja bárhol elérni az információkat, és nem tud a munkával bárhol haladni, akkor veszítesz a versenytársaival szemben. Gondolj csak az értékesítési csapatodra, amely nem fér hozzá a készletkimutatáshoz amikor terepmunkán van, vagy ha a vezetőség nem fér hozzá a jelentésekhez az üzleti találkozókon.</p>
+                    <p>A modern felhőalapú szoftver gyorsan méretezhető, olcsóbban karbantartható, minden mobileszközre reszponzív interfészt kínál, és lehetővé teszi a csapatod számára, hogy útközben hozzáférjen az információkhoz és frissítse ezeket, folyamatosan fejlesztve üzleti tevékenységét.</p>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Megoldásainkkal segíthetünk!</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('solutions') }}">Nézze meg hogyan</a>
+                            <a class="btn is-large is-primary" href="{{ localizedRoute('solutions') }}">Nézd meg hogyan</a>
                         </div>
                     </div>
                 </div>
@@ -126,7 +126,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="container">
-                            <div class="heading-2">Szeretne többet megtudni munkáinkról?</div>
+                            <div class="heading-2">Szeretnél többet megtudni munkáinkról?</div>
                             <a class="btn is-large is-primary" href="{{ localizedRoute('projects') }}">Esettanulmányok</a>
                         </div>
                     </div>
@@ -271,7 +271,7 @@
         "width": "185"
     },
     "inLanguage": "en_gb",
-    "keywords": "Egyedi szoftverfejlesztés, Integrált szoftveres megoldások, ERP fejlesztés, Webfejlesztés",
+    "keywords": "Egyedi szoftverfejlesztés, Integrált szoftveres megoldások, ERP fejlesztés, Szoftverfejlesztés, Webfejlesztés",
     "mainEntityOfPage": "{{ localizedRoute('home') }}",
     "name": "{{ config('site.name') }} | {{ config('site.title.' . config('app.locale')) }}",
     "publisher": {

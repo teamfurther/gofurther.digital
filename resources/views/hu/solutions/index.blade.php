@@ -1,7 +1,7 @@
 @extends('hu.site')
 
 @section('title', 'Megoldásaink')
-@section('description', 'Fejlessze vállalatát és növelje eladásait ügyviteli szoftvereink segítségével. Feltérképezzük és megértjük a vállalkozásának munkafolyamatait, hogy olyan szoftvert fejlesszünk amellyel automatizálhatjuk a napi teendőket.')
+@section('description', 'Fejleszd vállalatod és növeld eladásait ügyviteli szoftvereink segítségével. Feltérképezzük és megértjük a vállalkozásodnak a munkafolyamatait, hogy olyan szoftvert fejlesszünk amellyel automatizálhatjuk a napi teendőket.')
 
 @section('content')
     <section class="section">
@@ -145,7 +145,7 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "Fejlessze vállalatát és növelje eladásait ügyviteli szoftvereink segítségével. Feltérképezzük és megértjük a vállalkozásának munkafolyamatait, hogy olyan szoftvert fejlesszünk amellyel automatizálhatjuk a napi teendőket.",
+    "description": "Fejleszd vállalatod és növeld eladásait ügyviteli szoftvereink segítségével. Feltérképezzük és megértjük a vállalkozásodnak a munkafolyamatait, hogy olyan szoftvert fejlesszünk amellyel automatizálhatjuk a napi teendőket.",
     "headline": "Megoldásaink",
     "image": {
         "@type": "ImageObject",
@@ -154,7 +154,7 @@
         "width": "185"
     },
     "inLanguage": "hu_HU",
-    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Web design, Webfejlesztés",
+    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, MVP fejlesztés, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('solutions') }}",
     "name": "Megoldásaink",
     "publisher": {

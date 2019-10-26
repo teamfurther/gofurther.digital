@@ -24,7 +24,7 @@
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>Kezelje egy adott termékre vonatkozó összes információt egy integrált dokumentumközpontban. Tárolja egy helyen az anyagjegyzékeket, a rajzokat, a munkalapokat és a minőségi dokumentumokat. A szoftver különböző hozzáférési szintek beállítását teszi lehetővé a különböző munkacsoportok számára, megkönnyíti a gyors kommunikációt és a jóváhagyásokat.</p>
+                        <p>Kezeld egy adott termékre vonatkozó összes információt egy integrált dokumentumközpontban. Tárold egy helyen az anyagjegyzékeket, a rajzokat, a munkalapokat és a minőségi dokumentumokat. A szoftver különböző hozzáférési szintek beállítását teszi lehetővé a különböző munkacsoportok számára, megkönnyíti a gyors kommunikációt és a jóváhagyásokat.</p>
                         <ul class="list has-bullets">
                             <li>központosított dokumentumkezelés</li>
                             <li>dokumentumverzionálás</li>
@@ -49,10 +49,10 @@
             </div>
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
-                    <p>Ne csak az ügyfeleit kezelje, hanem a partnereit is. A felhasználói és szerepkör-jogosultságok lehetővé teszik, hogy hozzáférést biztosítson a beszállítóknak, a gyártóknak, a szervizközpontoknak és a forgalmazóknak. Mindez lehetővé teszi Önnek, hogy az összes termékre vonatkozó adatot egy helyen tárolja. Ugyanakkor elősegíti a szorosabb együttműködést és a gyorsabb választ a résztvevők között.</p>
+                    <p>Ne csak az ügyfeleid kezeld, hanem a partnereid is. A felhasználói és szerepkör-jogosultságok lehetővé teszik, hogy hozzáférést biztosíts a beszállítóknak, a gyártóknak, a szervizközpontoknak és a forgalmazóknak. Mindez lehetővé teszi, hogy az összes termékre vonatkozó adatot egy helyen tárold. Ugyanakkor elősegíti a szorosabb együttműködést és a gyorsabb választ a résztvevők között.</p>
                     <ul class="list has-bullets">
-                        <li>biztosítson hozzáférést partnereinek</li>
-                        <li>küldjön nekik valós idejű értesítéseket</li>
+                        <li>biztosíts hozzáférést partnereidnek</li>
+                        <li>küldj nekik valós idejű értesítéseket</li>
                         <li>központosított termékadatok és előzmények</li>
                     </ul>
                 </div>
@@ -67,20 +67,20 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Gyorsítsa fel a műveleteket vonalkódokkal</h3>
+                        <h3 class="heading-3">Gyorsítsd fel a műveleteket vonalkódokkal</h3>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>Nagy tapasztalattal rendelkezünk a szoftverfolyamatok automatizálása terén vonalkódok vagy QR-kódok segítségével. Kódokat generálhatunk bármilyen tevékenységre, mint például az átvételre, a válogatásra, a csomagolásra, a gyártásra stb. Ha ezt az <a href="{{ localizedRoute('solutions.time-tracking') }}">időkövető</a> modulunkkal integrálja, akkor a munkalapokat is automatizálhatja.</p>
+                        <p>Nagy tapasztalattal rendelkezünk a szoftverfolyamatok automatizálása terén vonalkódok vagy QR-kódok segítségével. Kódokat generálhatunk bármilyen tevékenységre, mint például az átvételre, a válogatásra, a csomagolásra, a gyártásra stb. Ha ezt az <a href="{{ localizedRoute('solutions.time-tracking') }}">időkövető</a> modulunkkal integrálod, akkor akár a munkalapokat is automatizálhatod.</p>
                         <ul class="list has-bullets">
                             <li>SN-vonalkód generálása</li>
                             <li>QR-kódok generálása az időkövetéshez</li>
-                            <li>használja ezeket táblagépen vagy szkennelje ezeket a gyártási csarnokban</li>
+                            <li>használd ezeket táblagépen vagy szkenneld be a gyártási csarnokban</li>
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/plm-illustration-barcodes.png') }}" alt="Gyorsítsa fel a műveleteket vonalkódokkal" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/plm-illustration-barcodes.png') }}" alt="Gyorsítsd fel a műveleteket vonalkódokkal" />
                     </div>
                 </div>
             </div>
@@ -91,8 +91,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Szeretne többet megtudni PLM megoldásainkól?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjen egy bemutatót</a>
+                        <div class="heading-2">Szeretnél többet megtudni PLM megoldásainkól?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Használja együtt további megoldásainkkal</h3>
+                        <h3 class="heading-3">Használd együtt további megoldásainkkal</h3>
                     </div>
                 </div>
                 <div class="columns">
@@ -142,8 +142,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Miért válasszon testreszabott megoldást?</div>
-                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudja meg itt</a>
+                        <div class="heading-2">Miért válassz testreszabott megoldást?</div>
+                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudd meg itt</a>
                     </div>
                 </div>
             </div>

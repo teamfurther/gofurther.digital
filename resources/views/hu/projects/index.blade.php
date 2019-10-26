@@ -1,7 +1,7 @@
 @extends('hu.site')
 
 @section('title', 'Munkáink')
-@section('description', 'Projektkeink meghatároznak minket. Büszkék vagyunk munkáinkra és párat megosztottuk közűlük esettanulmányok formájában. Ha Ön is úgy lelkesedik projektjeinkért mint mi, lépjen velünk kapcsolatba és még többet megosztunk Önnel.')
+@section('description', 'Projektkeink meghatároznak minket. Büszkék vagyunk munkáinkra és párat megosztottuk közűlük esettanulmányok formájában. Ha Te is úgy lelkesedsz projektjeinkért mint mi, lépjen velünk kapcsolatba és még többet megosztunk Veled!')
 
 @section('content')
     <section class="section">
@@ -145,7 +145,7 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "Projektkeink meghatároznak minket. Büszkék vagyunk munkáinkra és párat megosztottuk közűlük esettanulmányok formájában. Ha Ön is úgy lelkesedik projektjeinkért mint mi, lépjen velünk kapcsolatba és még többet megosztunk Önnel.",
+    "description": "Projektkeink meghatároznak minket. Büszkék vagyunk munkáinkra és párat megosztottuk közűlük esettanulmányok formájában. Ha Te is úgy lelkesedsz projektjeinkért mint mi, lépjen velünk kapcsolatba és még többet megosztunk Veled!",
     "headline": "Munkáink",
     "image": {
         "@type": "ImageObject",
@@ -154,7 +154,7 @@
         "width": "185"
     },
     "inLanguage": "hu_HU",
-    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Web design, Webfejlesztés",
+    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, MVP fejlesztés, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('projects') }}",
     "name": "Munkáink",
     "publisher": {

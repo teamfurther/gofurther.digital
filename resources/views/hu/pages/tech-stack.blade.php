@@ -79,8 +79,8 @@
                 <div class="columns">
                     <div class="column">
                         <div class="container">
-                            <div class="heading-2">Szeretné tudni hogyan segíthetünk önnek?</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('solutions') }}">Olvasson tovább</a>
+                            <div class="heading-2">Szeretnéd tudni hogyan segíthetünk önnek?</div>
+                            <a class="btn is-large is-primary" href="{{ localizedRoute('solutions') }}">Olvass tovább</a>
                         </div>
                     </div>
                 </div>
@@ -178,7 +178,7 @@
         "width": "185"
     },
     "inLanguage": "hu_HU",
-    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Web design, Webfejlesztés",
+    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, MVP fejlesztés, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('tech-stack') }}",
     "name": "Eszköztárunk",
     "publisher": {

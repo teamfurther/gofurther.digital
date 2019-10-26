@@ -20,7 +20,9 @@
                 </div>
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
                     <h3 class="heading-4">Digital<br />transformation</h3>
-                    <p>The shift to digital will disrupt all industries. Let us help you understand how it can help your business and how you can embrace the opportunities it brings.</p>
+                    <p>
+                        The shift to digital will disrupt all industries. Let us help you understand how it can help your business and how you can embrace the opportunities it brings.
+                    </p>
                     <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt1-introduction']) }}">Read more</a>
                 </div>
             </div>
@@ -30,7 +32,9 @@
                 </div>
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
                     <h3 class="heading-4">Custom<br />software development</h3>
-                    <p>We can take care of all your custom development needs, from business analysis, through design to implementation, all tailor-made for you.</p>
+                    <p>
+                        We can take care of all your custom development needs, from business analysis, through design to implementation, all tailor-made for you.
+                    </p>
                     <a class="btn is-primary" href="{{ localizedRoute('custom-development') }}">Read more</a>
                 </div>
             </div>
@@ -40,7 +44,9 @@
                 </div>
                 <div class="column is-9-mobile is-6-tablet is-5-desktop">
                     <h3 class="heading-4">MVP<br />development</h3>
-                    <p>By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.</p>
+                    <p>
+                        By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.
+                    </p>
                     <a class="btn is-primary" href="{{ localizedRoute('solutions.mvp') }}">Read more</a>
                 </div>
             </div>
@@ -209,7 +215,7 @@
         "width": "185"
     },
     "inLanguage": "en_gb",
-    "keywords": "Custom software development, Web design",
+    "keywords": "Custom software development, Software development, Web development, MVP development, Digital transformation",
     "mainEntityOfPage": "{{ localizedRoute('home') }}",
     "name": "{{ config('site.name') }} | {{ config('site.title.' . config('app.locale')) }}",
     "publisher": {

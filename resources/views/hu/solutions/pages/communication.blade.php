@@ -1,7 +1,7 @@
 @extends('hu.site')
 
-@section('title', 'Beszélje meg és ossza meg ötleteit')
-@section('description', 'Integrált moduljaink segítségével hatékonyabban kommunikálhat és oszthat meg ötleteket csapataival, partnereivel vagy ügyfeleivel.')
+@section('title', 'Beszéljétek és osszátok meg ötleteiteket')
+@section('description', 'Integrált moduljaink segítségével hatékonyabban kommunikálhatsz és oszthatsz meg ötleteket csapatoddal, partnereiddel vagy ügyfeleiddel.')
 
 @section('content')
     <section class="section">
@@ -14,29 +14,29 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet">
-                        <p class="solution__intro">Integrált moduljaink segítségével hatékonyabban kommunikálhat és oszthat meg ötleteket csapataival, partnereivel vagy ügyfeleivel. </p>
+                        <p class="solution__intro">Integrált moduljaink segítségével hatékonyabban kommunikálhatsz és oszthatsz meg ötleteket csapatoddal, partnereiddel vagy ügyfeleiddel.</p>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Vegyen részt a párbeszédben</h3>
+                        <h3 class="heading-3">Vegyél részt a párbeszédben</h3>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>Beszélje meg kollégáival a projektjeit vagy a dokumentumait. Bárhova integrálhatjuk megoldásainkat, lehetővé téve a csevegést és a fájlmegosztást személyes és csoportos beszélgetésekben. Részletes értesítési beállításokat biztosítunk, ezért csak azokról a beszélgetésekről kap e-mailt vagy push-értesítést, amelyekről tényleg szeretne.</p>
+                        <p>Beszéld meg kollégáiddal a projekteket vagy a dokumentumokat. Bárhova integrálhatjuk megoldásainkat, lehetővé téve a csevegést és a fájlmegosztást személyes és csoportos beszélgetésekben. Részletes értesítési beállításokat biztosítunk, ezért csak azokról a beszélgetésekről kapsz e-mailt vagy push-értesítést, amelyekről tényleg szeretnél.</p>
                         <ul class="list has-bullets">
                             <li>csevegés és üzenetírás az ablakok közötti váltáskor</li>
                             <li>integrálható bármely más megoldással</li>
-                            <li>ossza meg fájljait</li>
-                            <li>hozzon létre csoportos csatornákat</li>
-                            <li>említsen meg más felhasználókat a figyelemfelkeltés céljából</li>
-                            <li>jelölje meg csillaggal kedvenc beszélgetéseit</li>
+                            <li>osszd meg fájljait</li>
+                            <li>hozz létre csoportos csatornákat</li>
+                            <li>említs meg más felhasználókat a figyelemfelkeltés céljából</li>
+                            <li>jelöld meg csillaggal kedvenc beszélgetéseid</li>
                             <li>e-mailek és push-értesítések</li>
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/communication-illustration-chat.png') }}" alt="Vegyen részt a párbeszédben" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/communication-illustration-chat.png') }}" alt="Vegyél részt a párbeszédben" />
                     </div>
                 </div>
             </div>
@@ -46,12 +46,12 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-offset-half-tablet is-offset-4-desktop">
-                    <h3 class="heading-3">Használja ki az e-mail erejét</h3>
+                    <h3 class="heading-3">Használd ki az e-mail erejét</h3>
                 </div>
             </div>
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
-                    <p>E-mailes megoldásainkat használhatja úgy a vállalaton belüli hirdetésekre, mint az ügyfelekre irányuló marketing célokra. Testreszabható sablonokat hozhatunk Önnek létre, így alig néhány perc alatt tranzakciós e-maileket és hírleveleket küldhet.</p>
+                    <p>E-mailes megoldásainkat használhatod úgy a vállalaton belüli hirdetésekre, mint az ügyfelekre irányuló marketing célokra. Testreszabható sablonokat hozhatunk létre, így akár néhány perc alatt tranzakciós e-maileket és hírleveleket küldhetsz.</p>
                     <ul class="list has-bullets">
                         <li>testreszabható e-mail sablonok</li>
                         <li>céges közlemények</li>
@@ -61,7 +61,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/communication-illustration-announcements.png') }}" alt="Használja ki az e-mail erejét" />
+                    <img class="is-centered-mobile" src="{{ asset('img/solutions/communication-illustration-announcements.png') }}" alt="Használd ki az e-mail erejét" />
                 </div>
             </div>
         </div>
@@ -71,12 +71,12 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Hozzon létre vonzó e-mailes marketingkampányokat</h3>
+                        <h3 class="heading-3">Hozz létre vonzó e-mailes marketingkampányokat</h3>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>Használja elegáns sablonjainkat, és alakítsa ki őket igényei szerint vonzó tartalmakkal a leadek generálásához. Sikerességét javíthatja az adatbázisa szegmentálásával és a célcsoportoknak való e-mailküldéssel, A/B teszteléses e-mailek kiküldésével, de az egyes kampányok pontos és valós idejű statisztikával történő nyomon követésével is.</p>
+                        <p>Használd elegáns sablonjainkat, és egészítsd ki őket igényeid szerint vonzó tartalmakkal a leadek generálásához. Sikerességed javíthatod az adatbázis szegmentálásával és a célcsoportoknak való e-mailküldéssel, A/B teszteléses e-mailek kiküldésével, de az egyes kampányok pontos és valós idejű statisztikával történő nyomon követésével is.</p>
                         <ul class="list has-bullets">
                             <li>igényes testreszabható e-mail sablonok</li>
                             <li>minden eszközön optimálisan jelenik meg</li>
@@ -88,7 +88,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/communication-illustration-newsletter.png') }}" alt="Hozzon létre vonzó e-mailes marketingkampányokat" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/communication-illustration-newsletter.png') }}" alt="Hozz létre vonzó e-mailes marketingkampányokat" />
                     </div>
                 </div>
             </div>
@@ -98,17 +98,17 @@
         <div class="container">
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
-                    <h3 class="heading-3">Szervezze meg munkáját jegyzetekkel és feladatlistákkal</h3>
-                    <p>Jegyzet- és feladatlista-modulunkat bármely más megoldásunkkal integrálhatjuk, így bármivel összekapcsolhatja a jegyzeteket és a feladatlistákat: személyekkel, dokumentumokkal és termékekkel. Lendítse fel termelékenységét úgy, hogy megosztja ötleteit és együttműködik csapatával.</p>
+                    <h3 class="heading-3">Szervezd meg munkádat jegyzetekkel és feladatlistákkal</h3>
+                    <p>Jegyzet- és feladatlista-modulunkat bármely más megoldásunkkal integrálhatjuk, így bármivel összekapcsolhatod a jegyzeteket és a feladatlistákat: személyekkel, dokumentumokkal és termékekkel. Lendítsd fel termelékenységed úgy, hogy megosztod ötleteidet és együttműködsz csapatoddal.</p>
                     <ul class="list has-bullets">
-                        <li>gyorsan hozzon létre jegyzeteket</li>
+                        <li>hozz létreg yorsan jegyzeteket</li>
                         <li>legyen a feladatlista mindig kéznél</li>
-                        <li>kapcsolja össze személyekkel, dokumentumokkal vagy termékekkel</li>
-                        <li>kapjon értesítést egy adott feladat esedékességéről</li>
+                        <li>kapcsold össze személyekkel, dokumentumokkal vagy termékekkel</li>
+                        <li>kapj értesítést egy adott feladat esedékességéről</li>
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/communication-illustration-todos.png') }}" alt="Szervezze meg munkáját jegyzetekkel és feladatlistákkal" />
+                    <img class="is-centered-mobile" src="{{ asset('img/solutions/communication-illustration-todos.png') }}" alt="Szervezd meg munkádat jegyzetekkel és feladatlistákkal" />
                 </div>
             </div>
         </div>
@@ -118,8 +118,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Szeretne többet megtudni kommunikációs megoldásainkról?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjen egy bemutatót</a>
+                        <div class="heading-2">Szeretnél többet megtudni kommunikációs megoldásainkról?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
                     </div>
                 </div>
             </div>
@@ -147,7 +147,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Használja együtt további megoldásainkkal</h3>
+                        <h3 class="heading-3">Használd együtt további megoldásainkkal</h3>
                     </div>
                 </div>
                 <div class="columns">
@@ -170,8 +170,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Miért válasszon testreszabott megoldást?</div>
-                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudja meg itt</a>
+                        <div class="heading-2">Miért válassz testreszabott megoldást?</div>
+                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudd meg itt</a>
                     </div>
                 </div>
             </div>
@@ -236,7 +236,7 @@
                 "position": "3",
                 "item": {
                     "@id": "{{ localizedRoute('solutions.communication') }}",
-                    "name": "Beszélje meg és ossza meg ötleteit"
+                    "name": "Beszéljétek és osszátok meg ötleteiteket"
                 }
             }
         ]
@@ -267,8 +267,8 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "Integrált moduljaink segítségével hatékonyabban kommunikálhat és oszthat meg ötleteket csapataival, partnereivel vagy ügyfeleivel.",
-    "headline": "Beszélje meg és ossza meg ötleteit",
+    "description": "Integrált moduljaink segítségével hatékonyabban kommunikálhatsz és oszthatsz meg ötleteket csapatoddal, partnereiddel vagy ügyfeleiddel.",
+    "headline": "Beszéljétek és osszátok meg ötleteiteket",
     "image": {
         "@type": "ImageObject",
         "url": "{{ asset('img/logo.svg') }}",
@@ -278,7 +278,7 @@
     "inLanguage": "hu_HU",
     "keywords": "Chat, Üzenetküldés, E-mail marketing",
     "mainEntityOfPage": "{{ localizedRoute('solutions.communication') }}",
-    "name": "Beszélje meg és ossza meg ötleteit",
+    "name": "Beszéljétek és osszátok meg ötleteiteket",
     "publisher": {
         "@type": "Corporation",
         "address": {
@@ -334,7 +334,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('solutions.communication') }}",
-                "name": "Beszélje meg és ossza meg ötleteit"
+                "name": "Beszéljétek és osszátok meg ötleteiteket"
             }
         }
     ]

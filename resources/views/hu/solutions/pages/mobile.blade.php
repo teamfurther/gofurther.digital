@@ -14,7 +14,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet">
-                        <p class="solution__intro">A nagyvállalatokkal és az induló vállalkozásokkal együtt dolgozva számos natív és hibrid alkalmazást fejlesztettünk már.</p>
+                        <p class="solution__intro">Nagyvállalatokkal és induló vállalkozásokkal egyaránt együtt dolgozva, számos natív és hibrid alkalmazást fejlesztettünk már.</p>
                     </div>
                 </div>
                 <div class="columns">
@@ -67,7 +67,7 @@
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
                         <h3 class="heading-3">Felhasználói élmény</h3>
-                        <p>Függetlenül attól, hogy natív vagy hibrid applikáció fejlesztést választ, a sikeres mobilalkalmazás kulcsa az általa kínált felhasználói élmény. A legjobb felhasználói élmény (UX) tervezőkkel dolgozunk együtt, akik segíthetnek átalakítani ötleteit egy telitalálattá az App Store-ban vagy a Play Store-ban.</p>
+                        <p>Függetlenül attól, hogy natív vagy hibrid applikáció fejlesztést választasz, a sikeres mobilalkalmazás kulcsa az általad kínált felhasználói élmény. A legjobb felhasználói élmény (UX) tervezőkkel dolgozunk együtt, akik segíthetnek átalakítani ötleteid egy telitalálattá az App Store-ban vagy a Play Store-ban.</p>
                         <ul class="list has-bullets">
                             <li>mobil felhasználói élmény (UX)</li>
                             <li>információs architektúra</li>
@@ -87,8 +87,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Szeretne többet megtudni mobilfejlesztési szolgáltatásainkról?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjen egy bemutatót</a>
+                        <div class="heading-2">Szeretnél többet megtudni mobilfejlesztési szolgáltatásainkról?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
                     </div>
                 </div>
             </div>

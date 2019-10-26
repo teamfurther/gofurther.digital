@@ -19,12 +19,12 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Küldjön igényes és testreszabott árajánlatokat</h3>
+                        <h3 class="heading-3">Küldj igényes és testreszabott árajánlatokat</h3>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet">
-                        <p>Az értékesítési modul lehetővé teszi a személyre szabott sablonok használatát, vagy leírások, képek és további információk hozzáadását. Meghatározhatja az ügyféllel kapcsolatos feltételeket és az árlistázási szabályokat a megfelelő ár kiszámításához, vagy további opciókat és kedvezményeket javasolhat az értékesítési mennyiség növelése érdekében.</p>
+                        <p>Az értékesítési modul lehetővé teszi a személyre szabott sablonok használatát, vagy leírások, képek és további információk hozzáadását. Meghatározhatod az ügyféllel kapcsolatos feltételeket és az árlistázási szabályokat a megfelelő ár kiszámításához, vagy további opciókat és kedvezményeket javasolhatsz az értékesítési mennyiség növelése érdekében.</p>
                         <ul class="list has-bullets">
                             <li>elegáns testreszabható sablonok</li>
                             <li>dinamikus árképzés meghatározott feltételek és szabályok szerint</li>
@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/sales-illustration-quotation.png') }}" alt="Küldjön igényes és testreszabott árajánlatokat" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/sales-illustration-quotation.png') }}" alt="Küldj igényes és testreszabott árajánlatokat" />
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@
             </div>
             <div class="columns is-reversed">
                 <div class="column is-two-thirds-tablet">
-                    <p>Alakítson át könnyen bármilyen árajánlatot megrendeléssé és generáljon egy szerződést, ha szükséges. Ha még több rugalmasságra van szüksége, akkor integrálja a modult a <a href="{{ localizedRoute('solutions.accounting') }}">számviteli modulunkkal</a> vagy a <a href="{{ localizedRoute('solutions.dms') }}">dokumentumkezelő rendszerünkkel</a>. Az értékesítési modul továbbá nyomon követheti a megújítási vagy felülértékesítési lehetőségeket.</p>
+                    <p>Alakíts át könnyen bármilyen árajánlatot megrendeléssé és generálj egy szerződést, ha szükséges. Ha még több rugalmasságra van szükséged, akkor integráld a modult a <a href="{{ localizedRoute('solutions.accounting') }}">számviteli modulunkkal</a> vagy a <a href="{{ localizedRoute('solutions.dms') }}">dokumentumkezelő rendszerünkkel</a>. Az értékesítési modul nyomon követheti a megújítási vagy felülértékesítési lehetőségeket is.</p>
                     <ul class="list has-bullets">
                         <li>egy kattintásos megrendelés- és szerződésgenerálás</li>
                         <li>testreszabható szerződésminták</li>
@@ -66,8 +66,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Szeretne megtudni többet értékesítési megoldásainkról?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjen egy bemutatót</a>
+                        <div class="heading-2">Szeretnél többet megtudni értékesítési megoldásainkról?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Használja együtt további megoldásainkkal</h3>
+                        <h3 class="heading-3">Használd együtt további megoldásainkkal</h3>
                     </div>
                 </div>
                 <div class="columns">
@@ -116,8 +116,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Miért válasszon testreszabott megoldást?</div>
-                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudja meg itt</a>
+                        <div class="heading-2">Miért válassz testreszabott megoldást?</div>
+                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudd meg itt</a>
                     </div>
                 </div>
             </div>

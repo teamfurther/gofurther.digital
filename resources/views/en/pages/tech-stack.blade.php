@@ -178,7 +178,7 @@
         "width": "185"
     },
     "inLanguage": "en_gb",
-    "keywords": "Custom software development, Web design",
+    "keywords": "Custom software development, Software development, Web development, MVP development, Digital transformation",
     "mainEntityOfPage": "{{ localizedRoute('tech-stack') }}",
     "name": "Our Tools",
     "publisher": {

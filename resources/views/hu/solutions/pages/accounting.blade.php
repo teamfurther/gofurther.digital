@@ -1,7 +1,7 @@
 @extends('hu.site')
 
 @section('title', 'Egyedi online számviteli megoldások')
-@section('description', 'Felejtse el az ügyletek manuális bejegyzéseit, és győződjön meg arról, hogy gyorsabban kapja meg a kifizetéseket az egyedi számviteli megoldásainkkal.')
+@section('description', 'Felejtsd el az ügyletek manuális bejegyzéseit, és győződj meg arról, hogy gyorsabban kapo meg a kifizetéseket az egyedi számviteli megoldásainkkal.')
 
 @section('content')
     <section class="section">
@@ -14,28 +14,28 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet">
-                        <p class="solution__intro">Felejtse el az ügyletek manuális bejegyzéseit, és győződjön meg arról, hogy gyorsabban kapja meg a kifizetéseket az egyedi számviteli megoldásainkkal.</p>
+                        <p class="solution__intro">Felejtsd el az ügyletek manuális bejegyzéseit, és győződj meg arról, hogy gyorsabban kapo meg a kifizetéseket az egyedi számviteli megoldásainkkal.</p>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Hozzon létre és küldjön igényes számlákat</h3>
+                        <h3 class="heading-3">Hozz létre és küldjél igényes számlákat</h3>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet">
-                        <p>Használjon testreszabható mintákat elegáns számlák létrehozásához, amelyeket közvetlenül az általunk kifejlesztett számviteli szoftveréből küldhet el. Ha igénybe veszi az <a href="{{ localizedRoute('solutions.sales') }}">értékesítési megoldásainkat</a> is, akkor a számlát egyetlen kattintással generálhatja a rendelésekből. Kövesse egy központi műszerfalon a kifizetéseket, és küldjön automatikus emlékeztető e-maileket annak érdekében, hogy biztosítsa a kifizetést.</p>
+                        <p>Használj testreszabható mintákat elegáns számlák létrehozásához, amelyeket közvetlenül az általunk kifejlesztett számviteli szoftveréből küldhetsz el. Ha igénybe veszed az <a href="{{ localizedRoute('solutions.sales') }}">értékesítési megoldásainkat</a> is, akkor a számlát egyetlen kattintással generálhatod a rendelésekből. Kövesd egy központi műszerfalon a kifizetéseket, és küldjél automatikus emlékeztető e-maileket annak érdekében, hogy biztosítsd a kifizetést.</p>
                         <ul class="list has-bullets">
-                            <li>hozzon létre számlákat testreszabható mintákból</li>
-                            <li>generáljon számlákat a rendelésekből egyetlen kattintással</li>
-                            <li>állítson be ismétlődő számlákat</li>
-                            <li>nyomtasson vagy küldjön számlákat közvetlenül a szoftverből</li>
-                            <li>állítson be automatikus emlékeztető e-maileket</li>
-                            <li>kövesse nyomon könnyen a kifizetéseket</li>
+                            <li>hozz létre számlákat testreszabható mintákból</li>
+                            <li>generálj számlákat a rendelésekből egyetlen kattintással</li>
+                            <li>állíts be ismétlődő számlákat</li>
+                            <li>nyomtass vagy küldjék számlákat közvetlenül a szoftverből</li>
+                            <li>állíts be automatikus emlékeztető e-maileket</li>
+                            <li>kövesd nyomon könnyen a kifizetéseket</li>
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/accounting-illustration-invoice.png') }}" alt="Hozzon létre és küldjön igényes számlákat" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/accounting-illustration-invoice.png') }}" alt="Hozz létre és küldjél igényes számlákat" />
                     </div>
                 </div>
             </div>
@@ -45,16 +45,16 @@
         <div class="container">
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
-                    <h3 class="heading-3">Kezelje a számlákat és a költségeket</h3>
-                    <p>Importálja és kezelje a beszállítói számlákat és kapjon egy egyértelmű előrejelzést a jövőbeli kiadásokról. Ha beszállítója alkalmazásprogramozási felületet (API-t) biztosít a számlákhoz való hozzáféréshez, akkor a számlákat automatikusan importálhatjuk vagy lehetőséget biztosíthatunk a manuális feltöltésükhöz.</p>
+                    <h3 class="heading-3">Kezeld a számlákat és a költségeket</h3>
+                    <p>Importáld és kezeld a beszállítói számlákat és kapjál egy egyértelmű előrejelzést a jövőbeli kiadásokról. Ha beszállítód alkalmazásprogramozási felületet (API-t) biztosít a számlákhoz való hozzáféréshez, akkor a számlákat automatikusan importálhatjuk vagy lehetőséget biztosíthatunk a manuális feltöltésükhöz.</p>
                     <ul class="list has-bullets">
-                        <li>importálja a beszállítói számlákat</li>
-                        <li>irányítsa az aktuális költségeit</li>
-                        <li>kapjon előrejelzést a jövőbeli számláiról</li>
+                        <li>importáld a beszállítói számlákat</li>
+                        <li>irányítsd az aktuális költségeit</li>
+                        <li>kapjál előrejelzést a jövőbeli számláiról</li>
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/accounting-illustration-bills-expenses.png') }}" alt="Kezelje a számlákat és a költségeket" />
+                    <img class="is-centered-mobile" src="{{ asset('img/solutions/accounting-illustration-bills-expenses.png') }}" alt="Kezeld a számlákat és a költségeket" />
                 </div>
             </div>
         </div>
@@ -64,12 +64,12 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Hozzon létre elegáns pénzügyi nyilatkozatokat</h3>
+                        <h3 class="heading-3">Hozz létre elegáns pénzügyi nyilatkozatokat</h3>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet">
-                        <p>Miután rögzítette az összes számláját és kiadását, bármilyen mintákon alapuló igény szerinti pénzügyi nyilatkozatot generálhat. Bevételi jelentések, mérlegek vagy pénzforgalmi kimutatások úgy, ahogyan Ön szereti&hellip;</p>
+                        <p>Miután rögzítetted az összes számládat és kiadásodat, bármilyen mintákon alapuló igény szerinti pénzügyi nyilatkozatot generálhatsz. Bevételi jelentések, mérlegek vagy pénzforgalmi kimutatások úgy, ahogyan Te szereted&hellip;</p>
                         <ul class="list has-bullets">
                             <li>testreszabható sablonok</li>
                             <li>automatikus jelentés- és nyilatkozatgenerálás</li>
@@ -77,7 +77,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/accounting-illustration-cash-flow.png') }}" alt="Hozzon létre elegáns pénzügyi nyilatkozatokat" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/accounting-illustration-cash-flow.png') }}" alt="Hozz létre elegáns pénzügyi nyilatkozatokat" />
                     </div>
                 </div>
             </div>
@@ -87,20 +87,20 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-offset-half-tablet is-offset-4-desktop">
-                    <h3 class="heading-3">Integrálja harmadik felek szoftvereivel</h3>
+                    <h3 class="heading-3">Integráld harmadik felek szoftvereivel</h3>
                 </div>
             </div>
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
-                    <p>Ha nem szeretne mintákat használni a számlák létrehozásához, akkor harmadik felek számlázási megoldásait integrálhatjuk, mint a FreshBooks, az Invoicely, a Számlázz.hu vagy a Billingo. Ha bankja engedélyezi, akkor szinkronizálhatjuk bankszámlakivonatait is. Annak érdekében, hogy ügyfelei számára könnyebbé váljon a fizetés, a kifizetéseket olyan szolgáltatások segítségével állíthatjuk be, mint például a Stripe, a Braintree, Barion vagy az OTP).</p>
+                    <p>Ha nem szeretnél mintákat használni a számlák létrehozásához, akkor olyan harmadik felek számlázási megoldásait integrálhatjuk, mint a FreshBooks, az Invoicely, a Számlázz.hu vagy a Billingo. Ha bankod engedélyezi, akkor szinkronizálhatjuk bankszámlakivonataidat is. Annak érdekében, hogy ügyfeleid számára könnyebbé váljon a fizetés, a kifizetéseket olyan szolgáltatások segítségével állíthatjuk be, mint például a Stripe, a Braintree, Barion vagy az OTP).</p>
                     <ul class="list has-bullets">
-                        <li>generáljon számlákat harmadik felek platformjain</li>
-                        <li>szinkronizálja a bankszámlakivonatokat</li>
-                        <li>fogadjon el kifizetéseket online fizetési szolgáltatások segítségével</li>
+                        <li>generálj számlákat harmadik felek platformjain</li>
+                        <li>szinkronizáld a bankszámlakivonatokat</li>
+                        <li>fogadj el kifizetéseket online fizetési szolgáltatások segítségével</li>
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/accounting-illustration-integrations.png') }}" alt="Integrálja harmadik felek szoftvereivel" />
+                    <img class="is-centered-mobile" src="{{ asset('img/solutions/accounting-illustration-integrations.png') }}" alt="Integráld harmadik felek szoftvereivel" />
                 </div>
             </div>
         </div>
@@ -110,8 +110,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Szeretne többet megtudni számviteli megoldásainkról?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjen egy bemutatót</a>
+                        <div class="heading-2">Szeretnél többet megtudni számviteli megoldásainkról?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérj egy bemutatót</a>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Használja együtt további megoldásainkkal</h3>
+                        <h3 class="heading-3">Használd együtt további megoldásainkkal</h3>
                     </div>
                 </div>
                 <div class="columns">
@@ -162,8 +162,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Miért válasszon testreszabott megoldást?</div>
-                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudja meg itt</a>
+                        <div class="heading-2">Miért válassz testreszabott megoldást?</div>
+                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudd meg itt</a>
                     </div>
                 </div>
             </div>
@@ -259,7 +259,7 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "Felejtse el az ügyletek manuális bejegyzéseit, és győződjön meg arról, hogy gyorsabban kapja meg a kifizetéseket az egyedi számviteli megoldásainkkal.",
+    "description": "Felejtsd el az ügyletek manuális bejegyzéseit, és győződj meg arról, hogy gyorsabban kapo meg a kifizetéseket az egyedi számviteli megoldásainkkal.",
     "headline": "Egyedi online számviteli megoldások",
     "image": {
         "@type": "ImageObject",

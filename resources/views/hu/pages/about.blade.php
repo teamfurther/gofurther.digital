@@ -1,7 +1,7 @@
 @extends('hu.site')
 
 @section('title', 'Rólunk és fejlesztési folyamatainkról')
-@section('description', 'Célunk ügyfeleink üzleti növekedésének segítése innovatív megoldások és kiváló minőségű szoftverek szolgáltatásával. Az állandó kommunikáció, a szenvedély és a rugalmasság olyan értékek, amelyekben hiszünk, és amelyek ideális hosszú távú partnerekké tesznek minket.')
+@section('description', 'Célunk ügyfeleink üzleti növekedésének segítése innovatív megoldások és kiváló minőségű szoftverek szolgáltatásával. Az állandó kommunikáció, a szenvedély és a rugalmasság olyan értékek, melyekben hiszünk, és amelyek ideális hosszú távú partnerekké tesznek minket.')
 
 @section('content')
     <section class="section">
@@ -14,8 +14,8 @@
                 </div>
                 <div class="columns">
                     <div class="column is-7-tablet is-half-desktop is-offset-2-desktop">
-                        <p>A Further Digital Solutionsnél ügyfélközpontú megoldások kidolgozására fókuszálunk: időt szakítunk arra, hogy megismerjük az Ön vállalkozását, így olyan testreszabott szoftvereket fejlesztünk, melyek az Ön konkrét igényeinek megoldására szolgálnak.</p>
-                        <p>Célunk ügyfeleink üzleti növekedésének segítése innovatív megoldások és kiváló minőségű szoftverek szolgáltatásával. Az állandó kommunikáció, a szenvedély és a rugalmasság olyan értékek, amelyekben hiszünk, és amelyek ideális hosszú távú partnerekké tesznek minket.</p>
+                        <p>A Further Digital Solutionsnél ügyfélközpontú megoldások kidolgozására fókuszálunk: időt szakítunk arra, hogy megismerjük a vállalkozásod, így olyan testreszabott szoftvereket fejlesztünk, melyek a Te konkrét igényeid szolgálják ki.</p>
+                        <p>Célunk ügyfeleink üzleti növekedésének segítése innovatív megoldások és kiváló minőségű szoftverek szolgáltatásával. Az állandó kommunikáció, a szenvedély és a rugalmasság olyan értékek, melyekben hiszünk, és amelyek ideális hosszú távú partnerekké tesznek minket.</p>
                     </div>
                     <div class="about__stats is-hu">
                         <span class="about__stat about__stat--1"><strong>160+</strong>projekt</span>
@@ -33,8 +33,8 @@
                 <div class="columns">
                     <div class="column">
                         <div class="container">
-                            <div class="heading-2">Szeretne többet megtudni rólunk?</div>
-                            <a class="btn is-large is-primary" href="{{ url('media/further-booklet-0419-web-hu.pdf') }}" target="_blank">Töltse le bemutatónkat</a>
+                            <div class="heading-2">Szeretnél többet megtudni rólunk?</div>
+                            <a class="btn is-large is-primary" href="{{ url('media/further-booklet-0419-web-hu.pdf') }}" target="_blank">Töltsd le bemutatónkat</a>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
             </div>
             <div class="columns">
                 <div class="column is-8-tablet is-offset-2-tablet">
-                    <p>Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, amelyek lehetővé teszik Ön számára, hogy hamar mérhető eredményeket lásson.</p>
+                    <p>Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, melyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.</p>
                 </div>
             </div>
             <div class="columns">
@@ -59,7 +59,7 @@
                     <div class="about__process">
                         <span class="about__process__step about__process__step--1">
                             <strong>Megismerés</strong>
-                            Felmérjük az Ön üzleti igényeit és folyamatait
+                            Felmérjük az üzleti igényeket és folyamatokat
                         </span>
                         <span class="about__process__step about__process__step--2">
                             <strong>Ötletelés</strong>
@@ -89,8 +89,8 @@
                 <div class="columns">
                     <div class="column">
                         <div class="container">
-                            <div class="heading-2">Szeretné tudni hogyan segíthetünk önnek?</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('solutions') }}">Olvasson tovább</a>
+                            <div class="heading-2">Szeretnéd tudni hogyan segíthetünk neked?</div>
+                            <a class="btn is-large is-primary" href="{{ localizedRoute('solutions') }}">Olvass tovább</a>
                         </div>
                     </div>
                 </div>
@@ -294,7 +294,7 @@
         "width": "185"
     },
     "inLanguage": "hu_HU",
-    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Web design, Webfejlesztés",
+    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, MVP fejlesztés, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('about') }}",
     "name": "Rólunk és fejlesztési folyamatainkról",
     "publisher": {

@@ -1,7 +1,7 @@
 @extends('hu.site')
 
 @section('title', 'Időkövetési és jelentéskészítő szoftver')
-@section('description', 'Az időkövetési megoldásainkkal Ön és csapata naplózhatja és nyomon követheti az időt bármely eszközről, bárhonnan. Még offline állapotban is.')
+@section('description', 'Az időkövetési megoldásainkkal csapatod naplózhatja és nyomon követheti az időt bármely eszközről, bárhonnan. Még offline állapotban is.')
 
 @section('content')
     <section class="section">
@@ -14,27 +14,27 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet">
-                        <p class="solution__intro">Az időkövetési megoldásainkkal Ön és csapata naplózhatja és nyomon követheti az időt bármely eszközről, bárhonnan. Még offline állapotban is.</p>
+                        <p class="solution__intro">Az időkövetési megoldásainkkal csapatod naplózhatja és nyomon követheti az időt bármely eszközről, bárhonnan. Még offline állapotban is.</p>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Tervezze meg és kövesse nyomon idejét</h3>
+                        <h3 class="heading-3">Tervezd meg és kövesd nyomon idődet</h3>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>A vállalkozás nagyságától függetlenül, minden perc számít. Időkövető modulunk lehetővé teszi, hogy gyorsan bejelentkezzen a rendszerébe, amiben dolgozik, még akkor is, ha úton van. Használja a tervezőt, hogy meghatározza a napi célokat, vagy integrálja más megoldásainkat, és csatolja a munkaidő-kimutatásokat a projektekhez vagy a termékekhez.</p>
+                        <p>A vállalkozás nagyságától függetlenül, minden perc számít. Tarts számon hogy mennyit dolgoztál és min, akár útközben is. Használd a tervezőt, hogy meghatározd a napi célokat, vagy integráld más megoldásainkat, és csatold a munkaidő-kimutatásokat a projektekhez vagy a termékekhez.</p>
                         <ul class="list has-bullets">
-                            <li>tervezze meg napját</li>
-                            <li>kezdje el nyomon követni idejét egyetlen kattintással</li>
+                            <li>tervezd meg napját</li>
+                            <li>kezdd el nyomon követni idejét egyetlen kattintással</li>
                             <li>minden eszközön működik</li>
-                            <li>kövesse nyomon az időt offline állapotban</li>
-                            <li>csatolja az időkimutatásokat projektekhez vagy termékekhez</li>
+                            <li>kövesd nyomon az időt offline állapotban</li>
+                            <li>csatold az időkimutatásokat projektekhez vagy termékekhez</li>
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/time-tracking-illustration-track.png') }}" alt="Tervezze meg és kövesse nyomon idejét" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/time-tracking-illustration-track.png') }}" alt="Tervezd meg és kövesd nyomon idődet" />
                     </div>
                 </div>
             </div>
@@ -45,10 +45,10 @@
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
                     <h3 class="heading-3">Elegáns és tájékoztató munkaidő-kimutatások</h3>
-                    <p>Bármilyen jelentést elkészíthetünk Önnek: szűrje a jelentéseket időintervallum, ügyfél, alkalmazott, projekt vagy termék szerint, és győződjön meg róla, hogy csapata jó úton halad, és a projektjei nyereségesek. Integrálja <a href="{{ localizedRoute('solutions.accounting') }}">számviteli modulunkkal</a>, hogy az ügyfelek számláit közvetlenül a kiszámlázható órák alapján állítsa ki.</p>
+                    <p>Bármilyen jelentést elkészíthetünk: szűrd a jelentéseket időintervallum, ügyfél, alkalmazott, projekt vagy termék szerint, és győződj meg róla, hogy csapatod jó úton halad, és a projektjeid nyereségesek. Integráld <a href="{{ localizedRoute('solutions.accounting') }}">számviteli modulunkkal</a>, hogy az ügyfelek számláit közvetlenül a kiszámlázható órák alapján állítsd ki.</p>
                     <ul class="list has-bullets">
-                        <li>generáljon munkaidő-kimutatásokat</li>
-                        <li>szűrje ki az időbejegyzéseket bármely kritérium alapján</li>
+                        <li>generálj munkaidő-kimutatásokat</li>
+                        <li>szűrd ki az időbejegyzéseket bármely kritérium alapján</li>
                         <li>előrejelzések a jövőbeli projektekre</li>
                         <li>számlázás az ügyfeleknek a munkaidő-kimutatások alapján</li>
                     </ul>
@@ -64,8 +64,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Szeretne többet megtudni időkövetési megoldásainkról?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjen egy bemutatót</a>
+                        <div class="heading-2">Szeretnél többet megtudni időkövetési megoldásainkról?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Használja együtt további megoldásainkkal</h3>
+                        <h3 class="heading-3">Használd együtt további megoldásainkkal</h3>
                     </div>
                 </div>
                 <div class="columns">
@@ -115,8 +115,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Miért válasszon testreszabott megoldást?</div>
-                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudja meg itt</a>
+                        <div class="heading-2">Miért válassz testreszabott megoldást?</div>
+                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudd meg itt</a>
                     </div>
                 </div>
             </div>
@@ -212,7 +212,7 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "Az időkövetési megoldásainkkal Ön és csapata naplózhatja és nyomon követheti az időt bármely eszközről, bárhonnan. Még offline állapotban is.",
+    "description": "Az időkövetési megoldásainkkal csapatod naplózhatja és nyomon követheti az időt bármely eszközről, bárhonnan. Még offline állapotban is.",
     "headline": "Időkövetési és jelentéskészítő szoftver",
     "image": {
         "@type": "ImageObject",

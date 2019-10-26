@@ -1,7 +1,7 @@
 @extends('hu.site')
 
 @section('title', 'Egyedi projektmenedzsment szoftver')
-@section('description', 'Szervezze, tervezze és elemezze projektjeit a saját fejlesztésű projektmenedzsment megoldásainkkal.')
+@section('description', 'Szervezd, tervezzdés elemezd projektjeid a saját fejlesztésű projektmenedzsment megoldásainkkal.')
 
 @section('content')
     <section class="section">
@@ -14,26 +14,26 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet">
-                        <p class="solution__intro">Szervezze, tervezze és elemezze projektjeit a saját fejlesztésű projektmenedzsment megoldásainkkal.</p>
+                        <p class="solution__intro">Szervezd, tervezzdés elemezd projektjeid a saját fejlesztésű projektmenedzsment megoldásainkkal.</p>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Ütemezze és tervezze tevékenységeit egy pillanat alatt</h3>
+                        <h3 class="heading-3">Ütemezd és tervezd tevékenységeid egy pillanat alatt</h3>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet">
-                        <p>Mielőtt elkezdjük a szoftverfejlesztést, egy részletes elemzési folyamatot végzünk azért, hogy megértsük a vállalkozása, a munkafolyamata és a résztvevők természetét. Ez lehetővé teszi számunkra, hogy megtaláljuk az adatok optimális megjelenítési módját, megkönnyítve a gyors hozzáférést az aktuális állapothoz, a sürgős ügyekhez, a határidőkhöz és a felelősökhöz.</p>
+                        <p>Mielőtt elkezdjük a szoftverfejlesztést, egy részletes elemzési folyamatot végzünk azért, hogy megértsük a vállalkozásod, a munkafolyamataid és a résztvevők természetét. Ez lehetővé teszi számunkra, hogy megtaláljuk az adatok optimális megjelenítési módját, megkönnyítve a gyors hozzáférést az aktuális állapothoz, a sürgős ügyekhez, a határidőkhöz és a felelősökhöz.</p>
                         <ul class="list has-bullets">
-                            <li>hozzon létre feladatokat és rendeljen hozzá felelőst, egyszerűen és gyorsan</li>
-                            <li>jelenítse meg vizuálisan adatait Kanban táblákon vagy egy naptárban</li>
-                            <li>kövesse a haladást GANTT-diagramon vagy burndown chartokon (napi eredménykimutatásokon)</li>
-                            <li>frissítse egyszerűen az állapotokat, a határidőket és a felelősöket</li>
+                            <li>hozz létre feladatokat és rendelj hozzá felelőst, egyszerűen és gyorsan</li>
+                            <li>jelenítsd meg vizuálisan adataid Kanban táblákon vagy egy naptárban</li>
+                            <li>kövesd a haladást GANTT-diagramon vagy burndown chartokon (napi eredménykimutatásokon)</li>
+                            <li>frissítsd egyszerűen az állapotokat, a határidőket és a felelősöket</li>
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/projects-illustration-boards.png') }}" alt="Ütemezze és tervezze tevékenységeit egy pillanat alatt" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/projects-illustration-boards.png') }}" alt="Ütemezd és tervezd tevékenységeit egy pillanat alatt" />
                     </div>
                 </div>
             </div>
@@ -43,16 +43,16 @@
         <div class="container">
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
-                    <h3 class="heading-3">Beszélje meg a feladatokat és osszon meg fájlokat</h3>
-                    <p>Működjön együtt a feladatokon jegyzetek hozzáadásával és dokumentumok megosztásával annak érdekében, hogy mindig naprakész legyen! Kövesse az aktivitást az adott projekten vagy idővonalakon. A még nagyobb rugalmasság érdekében használja a PM-szoftvert <a href={{ localizedRoute('solutions.communication') }}>kommunikációs modulunkkal</a> vagy <a href={{ localizedRoute('solutions.dms') }}>dokumentumkezelő rendszerünkkel</a> együtt.</p>
+                    <h3 class="heading-3">Beszéljd meg a feladatokat és ossz meg fájlokat</h3>
+                    <p>Működj együtt a feladatokon jegyzetek hozzáadásával és dokumentumok megosztásával annak érdekében, hogy mindig naprakész legyél! Kövesd az aktivitást az adott projekten vagy idővonalakon. A még nagyobb rugalmasság érdekében használd a PM-szoftvert <a href={{ localizedRoute('solutions.communication') }}>kommunikációs modulunkkal</a> vagy <a href={{ localizedRoute('solutions.dms') }}>dokumentumkezelő rendszerünkkel</a> együtt.</p>
                     <ul class="list has-bullets">
-                        <li>készítsen gyorsan jegyzeteket</li>
+                        <li>készíts gyorsan jegyzeteket</li>
                         <li>egyszerű és gyors fájlmegosztás</li>
                         <li>e-mailek és push-értesítések</li>
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/projects-illustration-discuss-share.png') }}" alt="Beszélje meg a feladatokat és osszon meg fájlokat" />
+                    <img class="is-centered-mobile" src="{{ asset('img/solutions/projects-illustration-discuss-share.png') }}" alt="Beszéld meg a feladatokat és ossz meg fájlokat" />
                 </div>
             </div>
         </div>
@@ -62,21 +62,21 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Tervezzen előre az erőforrások beosztásával</h3>
+                        <h3 class="heading-3">Tervezz előre az erőforrások beosztásával</h3>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet">
-                        <p>Segíthetünk a következő projektek pontosabb felmérésében, olyan adatok elemzésével, mint amilyen a múltbeli projektek valós munkaidő-kimutatása, vagy az erőforrások rendelkezésre állása (pld. az alkalmazottak szabadsága). A legjobb eredmények érdekében használja együtt az <a href={{ localizedRoute('solutions.time-tracking') }}>időkövetési</a> és a <a href={{ localizedRoute('solutions.hr') }}>humán erőforrások</a> moduljainkkal.</p>
+                        <p>Segíthetünk a következő projektek pontosabb felmérésében, olyan adatok elemzésével, mint amilyen a múltbeli projektek valós munkaidő-kimutatása, vagy az erőforrások rendelkezésre állása (pld. az alkalmazottak szabadsága). A legjobb eredmények érdekében használd együtt az <a href={{ localizedRoute('solutions.time-tracking') }}>időkövetési</a> és a <a href={{ localizedRoute('solutions.hr') }}>humán erőforrások</a> moduljainkkal.</p>
                         <ul class="list has-bullets">
-                            <li>becsüljön a korábbi projektek és munkaidő-kimutatások alapján</li>
-                            <li>kapjon pontos erőforrás előrejelzéseket</li>
-                            <li>jelenítse meg vizuálisan a jelenlegi haladást és a felmért határidőket</li>
-                            <li>kapjon riasztásokat, amikor a projektek nem az ütemezés szerint haladnak</li>
+                            <li>készítsd becsléseket a korábbi projektek és munkaidő-kimutatások alapján</li>
+                            <li>kapj pontos erőforrás előrejelzéseket</li>
+                            <li>jelenítsd meg vizuálisan a jelenlegi haladást és a felmért határidőket</li>
+                            <li>kapj riasztásokat, amikor a projektek nem az ütemezés szerint haladnak</li>
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/projects-illustration-forecast.png') }}" alt="Tervezzen előre az erőforrások beosztásával" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/projects-illustration-forecast.png') }}" alt="Tervezz előre az erőforrások beosztásával" />
                     </div>
                 </div>
             </div>
@@ -87,8 +87,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Szeretne többet megtudni projektmenedszment megoldásainkról?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjen egy bemutatót</a>
+                        <div class="heading-2">Szeretnél többet megtudni projektmenedszment megoldásainkról?</div>
+                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Használja együtt további megoldásainkkal</h3>
+                        <h3 class="heading-3">Használd együtt további megoldásainkkal</h3>
                     </div>
                 </div>
                 <div class="columns">
@@ -139,8 +139,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="heading-2">Miért válasszon testreszabott megoldást?</div>
-                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudja meg itt</a>
+                        <div class="heading-2">Miért válassz testreszabott megoldást?</div>
+                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudd meg itt</a>
                     </div>
                 </div>
             </div>
@@ -236,7 +236,7 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "Szervezze, tervezze és elemezze projektjeit a saját fejlesztésű projektmenedzsment megoldásainkkal.",
+    "description": "Szervezd, tervezzdés elemezd projektjeid a saját fejlesztésű projektmenedzsment megoldásainkkal.",
     "headline": "Egyedi projektmenedzsment szoftver",
     "image": {
         "@type": "ImageObject",

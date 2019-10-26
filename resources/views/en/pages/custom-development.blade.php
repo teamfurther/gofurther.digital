@@ -271,7 +271,7 @@
         "width": "185"
     },
     "inLanguage": "en_gb",
-    "keywords": "Custom software development, Integrated software solutions, ERP development, Web development",
+    "keywords": "Custom software development, Integrated software solutions, ERP development, Software development, Web development",
     "mainEntityOfPage": "{{ localizedRoute('home') }}",
     "name": "{{ config('site.name') }} | {{ config('site.title.' . config('app.locale')) }}",
     "publisher": {

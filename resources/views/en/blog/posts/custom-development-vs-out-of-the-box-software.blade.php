@@ -119,7 +119,7 @@
         "url": "{{ config('app.url') }}"
     },
     "datePublished": "2018-05-03T12:00:00",
-    "dateModified": "2018-05-03T12:00:00",
+    "dateModified": "2019-10-25T12:00:00",
     "description": "At one stage, each company reaches a point when they need to invest in their software infrastructure in order to grow. We will try to help you decide if a custom-built solution or out-of-the-box software is right for you.",
     "headline": "Custom Development vs. Out-of-the-Box Software",
     "image": {
