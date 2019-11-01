@@ -59,7 +59,7 @@
                                 <figcaption>You can set up various control points to ensure production quality</figcaption>
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Conclusions</h2>
-                            <p>Összegezzük akkor, hogy miben segíthet egy termelésirányító szoftver? Leegyszerűsítve egy termelésirányító szoftver segít a gyártási hatékonyság növelésében és a költségek csökkentésében.</p>
+                            <p>Let's reiterate how a manufacturing software can help. Putting it simply, it helps improve your manufacturing efficiency and lower your costs.</p>
                             <p>This is achieved by:</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li>organising product information</li>
