@@ -29,7 +29,7 @@
                             <h2 class="heading-3 has-margin-b30">Funkcionalitások és testreszabás</h2>
                             <p>Nézzük meg, hogyan viszonyul egy dobozos termék és egy egyedi fejlesztés egymáshoz funkcionalitás és testreszabhatóság szempontjából.</p>
                             <p>Egy dobozos szoftver célja, hogy megfeleljen a lehető a legtöbb vállalat legtöbb igényének, de valószínűleg nem fog megfelelni a Te összes igényednek.</p>
-                            <p>A legtöbb szükséges funkcionalitás megtalálható lesz benne és hasznos munkafolyamatot biztosí, azonban valószínűleg kompromisszumokkal is fog járni. Egyes funkcionalitások hiányozni fognak belőle vagy a várttól eltérően fognak működni.</p>
+                            <p>A legtöbb szükséges funkcionalitás megtalálható lesz benne és hasznos munkafolyamatot biztosít, azonban valószínűleg kompromisszumokkal is fog járni. Egyes funkcionalitások hiányozni fognak belőle vagy a várttól eltérően fognak működni.</p>
                             <p>Ezeknek a hiányzó funkcionalitásoknak a hozzáadása vagy a meglévők testreszabása hosszas folyamat lehet vagy egyszerűen lehetetlen.</p>
                             <p>Bár a szoftvergyártók megpróbálják folyamatosan beépíteni a felhasználói visszajelzéseket a termékeikbe, az igényelt funkcionalitások hozzáadása sok időbe telhet, vagy egyáltalán nem valósulhat meg, ha nem igazodik más felhasználók igényeihez is.</p>
                             <p>Ezzel szemben egy egyedi megoldás minden igényelt funkcionalitást tartalmaz és teljes mértékben testre szabható.</p>
@@ -55,7 +55,7 @@
                             <p class="has-margin-b60">Ennek ellenére megállapíthatjuk, hogy egy dobozos szoftver bevezetési ideje rövidebb lesz az egyedi megoldásénál.</p>
                             <h2 class="heading-3 has-margin-b30">Bevezetés után</h2>
                             <p>Számos dolgot figyelembe kell venni a szoftver telepítése után: a felhasználók képzését, az adatbiztonságot és a karbantartást.</p>
-                            <p>Ami a felhasználói <strong>képzést</strong>illeti, a legtöbb egyéni szoftvert fejlesztő cég, akárcsak a miénk, részletes képzést nyújt a szolgáltatás részeként.</p>
+                            <p>Ami a felhasználói <strong>képzést</strong> illeti, a legtöbb egyéni szoftvert fejlesztő cég, akárcsak a miénk, részletes képzést nyújt a szolgáltatás részeként.</p>
                             <p>A licences szoftvereket fejlesztő cégek ugyanolyan típusú képzést kínálnak. Ez beszállító és termék függvényében vagy bele van kalkulálva az árba, vagy külön díj ellenében érhető el.</p>
                             <p>Az SaaS szoftverek viszont legtöbbször csak általános online oktatóprogrammal rendelkeznek, melyek kevésbé hasznosak, mint egy, a szervezet sajátos igényeinek megfelelő képzés.</p>
                             <p><strong>Az adatbiztonság</strong> is egy kiemelten fontos szempont az ügyfeleink számára. Minden dobozos szoftvergyártó a legnagyobb biztonságra törekszik, mivel az adatszegés jelentős hatással lehet az értékesítésükre és a hírnevükre.</p>

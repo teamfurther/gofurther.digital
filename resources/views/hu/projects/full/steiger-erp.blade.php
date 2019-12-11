@@ -115,8 +115,8 @@
             <div class="container">
                 <div class="columns is-mobile is-multiline">
                     <div class="column is-half-mobile is-one-quarter-tablet">
-                        <span class="project__stats__number">23<small>%</small></span>
-                        <span class="project__stats__description">decrease in man-hours</span>
+                        <span class="project__stats__number">23<small>%-os</small></span>
+                        <span class="project__stats__description">munkaóra csökkenés</span>
                     </div>
                     <div class="column is-half-mobile is-one-quarter-tablet">
                         <span class="project__stats__number">2100<small>+</small></span>

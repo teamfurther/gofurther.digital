@@ -33,7 +33,7 @@
                             </ul>
                             <p>Let's dive in, and start with what digital transformation really means. Because of the word 'digital', most people associate with the shift away from analogue systems. But <a href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt4-it']) }}">this is only a tiny fraction of digital transition</a>.</p>
                             <p>For us, digital transformation is about the pace a company can innovate and adapt to new technology. It's about how open they are to change and how quickly they are able to implement these changes.</p>
-                            <p>The speed of business is changing faster than ever. It seems like a new buzzword pops up every week or so: IoT, big data, industry 4.0, actionable analytics&hellip;</p>
+                            <p>Business is changing faster than ever. It seems like a new buzzword pops up every week or so: IoT, big data, industry 4.0, actionable analytics&hellip;</p>
                             <p class="has-margin-b60">Companies who are not prepared to embrace new change are going to be left behind. There are countless examples of companies who missed the boat: Blockbuster, Nokia or RadioShack.</p>
                             <h2 class="heading-3 has-margin-b30">Don't be like Kodak</h2>
                             <p>But my favourite example is that of Kodak. Kodak's core business was that of selling film and post-processing services. They were known to hand out cameras in exchange to getting people hooked on paying to develop their own "Kodak moments". When digital cameras and later camera phones came around, people stopped printing pictures and starting sharing online. Kodak filed for bankruptcy in 2012.</p>
