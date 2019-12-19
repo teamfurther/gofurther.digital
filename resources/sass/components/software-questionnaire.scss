@@ -1,0 +1,93 @@
+.software-questionnaire {
+    color: $white;
+    padding: 0 15px;
+    position: relative;
+    z-index: 15;
+
+    @include desktop() {
+        width: 75%;
+    }
+
+    &__body {
+        margin-bottom: 30px;
+    }
+
+    &__heading {
+        font: 600 18px / 1.5 $family-highlight;
+        margin-bottom: 15px;
+
+        @include tablet() {
+            font-size: 24px;
+        }
+
+        span {
+            color: $raspberry;
+            font-weight: 700;
+        }
+    }
+
+    &__option {
+        align-items: center;
+        background-color: rgba($pearl, .5);
+        border: 1px solid rgba($white, .5);
+        border-radius: 3px;
+        color: $white;
+        counter-increment: answer;
+        cursor: pointer;
+        display: flex;
+        margin-bottom: 3px;
+        padding: 3px;
+        transition: .2s all ease-out;
+
+        &:hover {
+            background-color: rgba($pearl, .75);
+        }
+
+        &.is-selected {
+            background-color: rgba($white, .95);
+            color: $cobalt;
+        }
+
+        &:before {
+            align-items: center;
+            background-color: rgba($cobalt, .9);
+            border: 1px solid rgba($white, .75);
+            border-radius: 3px;
+            color: $white;
+            content: counter(answer, upper-alpha);
+            display: inline-flex;
+            font-size: 12px;
+            font-weight: 600;
+            height: 22px;
+            justify-content: center;
+            margin-right: 5px;
+            width: 22px;
+        }
+    }
+
+    &__options {
+        counter-reset: answer;
+        list-style: none;
+        margin-bottom: 15px;
+
+        @include tablet() {
+            width: 90%;
+        }
+
+        @include desktop() {
+            width: 75%;
+        }
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+
+        @include tablet() {
+            width: 90%;
+        }
+
+        @include desktop() {
+            width: 75%;
+        }
+    }
+}

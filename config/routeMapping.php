@@ -4,6 +4,10 @@ return [
 
     'blog' => [
         [
+            'en' => '5-things-every-business-owner-should-know',
+            'hu' => '5-hasznos-adat-cegvezetoknek',
+        ],
+        [
             'en' => 'custom-development-vs-out-of-the-box-software',
             'hu' => 'egyedi-fejlesztes-vagy-dobozos-szoftver',
         ],

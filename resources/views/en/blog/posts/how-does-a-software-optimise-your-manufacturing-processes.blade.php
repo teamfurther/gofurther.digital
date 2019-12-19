@@ -126,7 +126,7 @@
     },
     "datePublished": "2019-10-26T12:00:00",
     "dateModified": "2019-10-26T12:00:00",
-    "description": "In today\'s article we'd like to show you how a software can help optimise your product development, supply chain and manufacturing processes.",
+    "description": "In today's article we'd like to show you how a software can help optimise your product development, supply chain and manufacturing processes.",
     "headline": "How does a software optimise your manufacturing processes?",
     "image": {
         "@type": "ImageObject",
