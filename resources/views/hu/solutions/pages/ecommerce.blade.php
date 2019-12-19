@@ -135,7 +135,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="heading-2">Szeretnél többet megtudni e-commerce megoldásainkról?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
+                        <a class="btn is-large is-pearl" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
                     </div>
                 </div>
             </div>

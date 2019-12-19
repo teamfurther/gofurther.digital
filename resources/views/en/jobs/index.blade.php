@@ -30,14 +30,14 @@
                                         <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ localizedRoute('jobs.view', ['slug' => $job->slug]) }}&title=Apply+to+become+a+{{ urlencode($job->title) }}+at+Further&source={{ localizedRoute('home') }}" target="_blank"><span class="icon icon--linkedin"></span></a>
                                     </div>
                                 </div>
-                                <a class="job__apply btn is-primary" data-toggle="modal" data-target="#apply-modal" data-job-title="{{ $job->title }}">Apply for this job</a>
+                                <a class="job__apply btn is-pearl" data-toggle="modal" data-target="#apply-modal" data-job-title="{{ $job->title }}">Apply for this job</a>
                             </div>
                         </article>
                         @endforeach
                     @else
                         <h2 class="heading-2">We have no job openings available</h2>
                         <p>However, we still encourage you to forward us your resume, we might create an opening just for you!</p>
-                        <a class="job__apply btn is-primary" data-toggle="modal" data-target="#apply-modal">Apply now</a>
+                        <a class="job__apply btn is-pearl" data-toggle="modal" data-target="#apply-modal">Apply now</a>
                     @endif
                 </div>
             </div>
@@ -51,7 +51,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Take a look at some of the projects you might work on</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('projects') }}">Read our case studies</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('projects') }}">Read our case studies</a>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                     </div>
                     <input name="job" type="hidden" value="" />
                     {!! Honeypot::generate('potname', 'pottime') !!}
-                    <button class="btn is-large is-primary" type="submit">Send</button>
+                    <button class="btn is-large is-pearl" type="submit">Send</button>
                 </form>
             </div><!-- /.modal__content -->
         </div><!-- /.modal__dialog -->

@@ -160,7 +160,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="heading-2">Want to see more of this project?</div>
-                        <a class="btn is-large is-primary" data-toggle="modal" data-target="#project-gallery">Visit the gallery</a>
+                        <a class="btn is-large is-pearl" data-toggle="modal" data-target="#project-gallery">Visit the gallery</a>
                     </div>
                 </div>
             </div>

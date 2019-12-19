@@ -101,7 +101,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="heading-2">Do you want to talk about your software product idea?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Let's talk!</a>
+                        <a class="btn is-large is-pearl" href="{{ url('#contact') }}">Let's talk!</a>
                     </div>
                 </div>
             </div>

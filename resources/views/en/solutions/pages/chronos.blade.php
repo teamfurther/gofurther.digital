@@ -113,7 +113,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="heading-2">Do you want to learn more about Chronos?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Ask for a demo</a>
+                        <a class="btn is-large is-pearl" href="{{ url('#contact') }}">Ask for a demo</a>
                     </div>
                 </div>
             </div>

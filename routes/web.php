@@ -99,6 +99,8 @@ Route::group(['middleware' => ['lang', 'web']], function () {
         Route::get('megoldasaink/tudastar', ['uses' => 'SolutionsController@wiki', 'as' => 'solutions.wiki']);
         Route::get('megoldasaink/ugyfelkapcsolat-kezeles', ['uses' => 'SolutionsController@crm', 'as' => 'solutions.crm']);
         Route::get('megoldasaink/webaruhaz', ['uses' => 'SolutionsController@ecommerce', 'as' => 'solutions.ecommerce']);
+
+        Route::get('szoftver-kerdoiv', ['uses' => 'SoftwareQuestionnaireController@view', 'as' => 'software-questionnaire.view']);
     });
 
     /*

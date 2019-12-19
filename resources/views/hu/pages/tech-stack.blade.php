@@ -80,7 +80,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Szeretnéd tudni hogyan segíthetünk önnek?</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('solutions') }}">Olvass tovább</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('solutions') }}">Olvass tovább</a>
                         </div>
                     </div>
                 </div>

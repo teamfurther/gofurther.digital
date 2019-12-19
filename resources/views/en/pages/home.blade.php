@@ -23,7 +23,7 @@
                     <p>
                         The shift to digital will disrupt all industries. Let us help you understand how it can help your business and how you can embrace the opportunities it brings.
                     </p>
-                    <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt1-introduction']) }}">Read more</a>
+                    <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt1-introduction']) }}">Read more</a>
                 </div>
             </div>
             <div class="columns has-margin-b60 is-mobile">
@@ -35,7 +35,7 @@
                     <p>
                         We can take care of all your custom development needs, from business analysis, through design to implementation, all tailor-made for you.
                     </p>
-                    <a class="btn is-primary" href="{{ localizedRoute('custom-development') }}">Read more</a>
+                    <a class="btn is-pearl" href="{{ localizedRoute('custom-development') }}">Read more</a>
                 </div>
             </div>
             <div class="columns is-mobile">
@@ -47,7 +47,7 @@
                     <p>
                         By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.
                     </p>
-                    <a class="btn is-primary" href="{{ localizedRoute('solutions.mvp') }}">Read more</a>
+                    <a class="btn is-pearl" href="{{ localizedRoute('solutions.mvp') }}">Read more</a>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Take a look at our work</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('projects') }}">Read our case studies</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('projects') }}">Read our case studies</a>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Want to learn more about the tools and tech we use?</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('tech-stack') }}">Explore the stack</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('tech-stack') }}">Explore the stack</a>
                         </div>
                     </div>
                 </div>

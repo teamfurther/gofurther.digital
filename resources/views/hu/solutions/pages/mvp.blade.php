@@ -101,7 +101,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="heading-2">Van egy ötleted ami meg szeretnél velünk beszélni?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Írd meg nekünk!</a>
+                        <a class="btn is-large is-pearl" href="{{ url('#contact') }}">Írd meg nekünk!</a>
                     </div>
                 </div>
             </div>

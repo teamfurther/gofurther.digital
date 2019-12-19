@@ -45,8 +45,8 @@
                             <p class="has-margin-b60">The agile process is defined that if business priorities change or the team discovers a solution that is more efficient or adds more business value, then they have the flexibility to switch focus.</p>
                             <p class="has-margin-b60">While BPM allows your team to stay alert and look out for opportunities for improvement, agile helps in putting these improvements into action quicker. Gradually introducing these tools one team at a time will allow companies to support digital transformation.</p>
                             <div class="has-text-centered">
-                                <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt2-company-culture']) }}">&laquo; Pt. 2 - Company Culture</a>
-                                <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt4-it']) }}">Pt. 4 - IT &raquo;</a>
+                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt2-company-culture']) }}">&laquo; Pt. 2 - Company Culture</a>
+                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt4-it']) }}">Pt. 4 - IT &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

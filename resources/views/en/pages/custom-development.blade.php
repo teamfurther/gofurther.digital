@@ -83,7 +83,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">We can help you!</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('solutions') }}">Learn how</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('solutions') }}">Learn how</a>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Take a look at our work</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('projects') }}">Read our case studies</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('projects') }}">Read our case studies</a>
                         </div>
                     </div>
                 </div>

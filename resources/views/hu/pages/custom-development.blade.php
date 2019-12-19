@@ -83,7 +83,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Megoldásainkkal segíthetünk!</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('solutions') }}">Nézd meg hogyan</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('solutions') }}">Nézd meg hogyan</a>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Szeretnél többet megtudni munkáinkról?</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('projects') }}">Esettanulmányok</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('projects') }}">Esettanulmányok</a>
                         </div>
                     </div>
                 </div>

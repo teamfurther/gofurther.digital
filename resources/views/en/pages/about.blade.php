@@ -34,7 +34,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Read our company profile</div>
-                            <a class="btn is-large is-primary" href="{{ url('media/further-booklet-0419-web-en.pdf') }}" target="_blank">Download</a>
+                            <a class="btn is-large is-pearl" href="{{ url('media/further-booklet-0419-web-en.pdf') }}" target="_blank">Download</a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Want to know how we can help you?</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('solutions') }}">Read on</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('solutions') }}">Read on</a>
                         </div>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Want to learn more about the tools and tech we use?</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('tech-stack') }}">Explore the stack</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('tech-stack') }}">Explore the stack</a>
                         </div>
                     </div>
                 </div>
