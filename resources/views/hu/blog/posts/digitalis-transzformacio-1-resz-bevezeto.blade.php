@@ -44,7 +44,7 @@
                             <p>A bukásuk nem amiatt következett be, hogy nem próbáltak új technológiákat fejleszteni. 1975-ben az első digitális fényképezőgép prototípusát Steve Sasson dolgozta ki, aki pont a Kodaknál dolgozott mérnökként. A The New York Times-nak 2008-ban adott <a href="http://www.nytimes.com/2008/05/02/technology/02kodak.html" target="_blank">interjújában elmondta</a>, hogy a Kodak menedzsment reakciója erre ez volt: „aranyos ötlet – de ne mondd el senkinek”.</p>
                             <p class="has-margin-b60">Nyilvánvaló, hogy a Kodak bukása nem a technológia miatt volt. Mindez azért következett be, mert a saját sikerük elvakította őket, és nem vették figyelembe az állandóan változó digitális világot, amelyben élünk. Nem voltak felkészülve a változásra.</p>
                             <div class="has-text-centered">
-                                <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">2. rész – Vállalati kultúra &raquo;</a>
+                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">2. rész – Vállalati kultúra &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

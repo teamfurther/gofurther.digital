@@ -97,7 +97,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="heading-2">Do you want to learn more about our DMS solutions?</div>
-                        <a class="btn is-large is-primary" href="{{ url('#contact') }}">Ask for a demo</a>
+                        <a class="btn is-large is-pearl" href="{{ url('#contact') }}">Ask for a demo</a>
                     </div>
                 </div>
             </div>
@@ -148,7 +148,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="heading-2">Why choose a custom-built solution?</div>
-                        <a class="btn is-large is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'custom-development-vs-out-of-the-box-software']) }}">Find out</a>
+                        <a class="btn is-large is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'custom-development-vs-out-of-the-box-software']) }}">Find out</a>
                     </div>
                 </div>
             </div>

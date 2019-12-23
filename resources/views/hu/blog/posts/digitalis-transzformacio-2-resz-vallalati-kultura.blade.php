@@ -44,8 +44,8 @@
                             <p>A radikális változás gyakran a csapatok átalakítását, a munkakörök megváltoztatását és a hosszú távú üzleti folyamatokat érinti. Emiatt az emberek attól tartanak, hogy a hozzáadott értékük és a munkahelyük is veszélybe kerül.</p>
                             <p class="has-margin-b60">A vezetőség feladata, hogy biztosٕítsa, hogy ez nem történik meg. Empatikusnak kell lenniük a csapatukkal, meg kell hallgatniuk és dokumentálniuk kell a problémáikat, és következetes erőfeszítéseket kell tenniük ezen kérdések megbeszélése érdekében. Hosszú távon ez az empátia növeli a bizalmat, és a változás végrehajtása során kevésbé ütköznek majd ellenállásba.</p>
                             <div class="has-text-centered">
-                                <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">&laquo; 1. rész – Bevezető</a>
-                                <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">3. rész – Üzleti folyamatok &raquo; </a>
+                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">&laquo; 1. rész – Bevezető</a>
+                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">3. rész – Üzleti folyamatok &raquo; </a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

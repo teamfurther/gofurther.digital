@@ -34,7 +34,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Szeretnél többet megtudni rólunk?</div>
-                            <a class="btn is-large is-primary" href="{{ url('media/further-booklet-0419-web-hu.pdf') }}" target="_blank">Töltsd le bemutatónkat</a>
+                            <a class="btn is-large is-pearl" href="{{ url('media/further-booklet-0419-web-hu.pdf') }}" target="_blank">Töltsd le bemutatónkat</a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Szeretnéd tudni hogyan segíthetünk neked?</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('solutions') }}">Olvass tovább</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('solutions') }}">Olvass tovább</a>
                         </div>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Tudj meg többet az általunk használt technológiákról</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('tech-stack') }}">Eszköztár</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('tech-stack') }}">Eszköztár</a>
                         </div>
                     </div>
                 </div>

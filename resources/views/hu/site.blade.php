@@ -80,6 +80,8 @@
 
 <body class="{{ !empty($bodyClass) ? $bodyClass : '' }}" id="top">
 
+<div id="app">
+
 <header class="header">
     <div class="container">
         <div class="header__brand">
@@ -138,6 +140,7 @@
 
 @yield('content')
 
+@if (!isset($showContactForm) || $showContactForm)
 <section class="section" id="contact">
     <div class="container">
         <h2 class="hero-heading">Van egy ötleted vagy csak beszélgetnél?<strong>Üzenj most!</strong></h2>
@@ -177,7 +180,7 @@
                     <textarea class="form-control" name="contact_message" placeholder="Üzenet*" rows="5" tabindex="5" required>{{ old('contact_message') }}</textarea>
                 </div>
                 {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
-                <button class="btn is-large is-primary" type="submit">Küldés</button>
+                <button class="btn is-large is-pearl" type="submit">Küldés</button>
             </form>
             <div class="contact-box__company-details h-card vcard">
                 <h3 class="contact-box__company-details__heading">Cégadatok</h3>
@@ -189,6 +192,7 @@
     </div>
     <div class="contact-box__bg"></div>
 </section>
+@endif
 
 <footer class="footer">
     <div class="container">
@@ -211,6 +215,8 @@
 @endif
 
 @stack('content-modals')
+
+</div>
 
 <script src="{{ mix('js/site.js') }}"></script>
 

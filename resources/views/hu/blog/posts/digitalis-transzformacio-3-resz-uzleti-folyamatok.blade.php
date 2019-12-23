@@ -45,8 +45,8 @@
                             <p class="has-margin-b60">Az agilis folyamat rugalmas változtatásokat és fókuszváltást tesz lehetővé abban az esetben, ha az üzleti prioritások megváltoznak, vagy a csapat olyan megoldást fedez fel, amely hatékonyabb vagy több üzleti értéket jelent.</p>
                             <p class="has-margin-b60">Összefoglalva, a BPM lehetővé teszi a csapat számára, hogy éber maradjon, és figyeljen a javítási lehetőségekre, az agilis módszer segít abban, hogy gyorsabbá tegye a javítások alkalmazását. Ezeknek az eszközöknek a fokozatos bevezetése egy adott csapatba egyszerre lehetővé teszi a vállalatok számára, hogy támogassák a digitális átalakulást.</p>
                             <div class="has-text-centered">
-                                <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-vallalati-kultura']) }}">&laquo; 2. rész – Vállalati kultúra</a>
-                                <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">4. rész – Technológia &raquo; </a>
+                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-vallalati-kultura']) }}">&laquo; 2. rész – Vállalati kultúra</a>
+                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">4. rész – Technológia &raquo; </a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

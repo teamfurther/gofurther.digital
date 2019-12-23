@@ -57,7 +57,7 @@
                             <p class="has-margin-b60">Legyél résen, hogy az IoT-t hol használhatod fel a termelési folyamatok felügyeletében, az energiagazdálkodásban, a hulladékkezelésben, az ügyfél- és termékadatok összesítésében és a berendezések diagnosztizálásában.</p>
                             <p class="has-margin-b60"><em>Ha élvezted digitális transzformációról szóló sorozatunkat, <a href="{{ url('#contact') }}">vedd fel velünk a kapcsolatot</a>. Mindig szívesen beszélgetünk erről a témáról.</em></p>
                             <div class="has-text-centered">
-                                <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-uzleti-folyamatok']) }}">&laquo; 3. rész – Üzleti folyamatok</a>
+                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-uzleti-folyamatok']) }}">&laquo; 3. rész – Üzleti folyamatok</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

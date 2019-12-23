@@ -26,12 +26,29 @@
     }
 
     // Colors
-    &.is-primary {
+    &.is-pearl {
         background-color: $pearl;
 
         &:hover {
             background-color: lighten($pearl, 2.5%);
         }
+    }
+
+    &.is-white {
+        background-color: darken($white, 2.5%);
+        color: $cobalt;
+
+        &:hover {
+            background-color: $white;
+            color: $cobalt;
+        }
+    }
+
+    // Disabled
+    &.is-disabled {
+        cursor: not-allowed;
+        opacity: .75;
+        pointer-events: none;
     }
 
     // Sizes

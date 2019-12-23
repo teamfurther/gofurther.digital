@@ -23,7 +23,7 @@
                     <p>
                         A digitalizáció minden iparra hatással lesz. Megmutatjuk, hogyan segítheti a digitalizáció a Te vállalkozásodat és hogyan használhatod ki az ezzel járó lehetőségeket.
                     </p>
-                    <a class="btn is-primary" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">Tovább</a>
+                    <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">Tovább</a>
                 </div>
             </div>
             <div class="columns has-margin-b60 is-mobile">
@@ -35,7 +35,7 @@
                     <p>
                         Minden egyedi fejlesztési igényednek eleget tudunk tenni a követelmények megfogalmazásától a tervezésig és a megvalósításig.
                     </p>
-                    <a class="btn is-primary" href="{{ localizedRoute('custom-development') }}">Tovább</a>
+                    <a class="btn is-pearl" href="{{ localizedRoute('custom-development') }}">Tovább</a>
                 </div>
             </div>
             <div class="columns is-mobile">
@@ -47,7 +47,7 @@
                     <p>
                         Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, amelyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.
                     </p>
-                    <a class="btn is-primary" href="{{ localizedRoute('solutions.mvp') }}">Tovább</a>
+                    <a class="btn is-pearl" href="{{ localizedRoute('solutions.mvp') }}">Tovább</a>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Szeretnél többet megtudni munkáinkról?</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('projects') }}">Esettanulmányok</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('projects') }}">Esettanulmányok</a>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                     <div class="column">
                         <div class="container">
                             <div class="heading-2">Tudj meg többet az általunk használt technológiákról!</div>
-                            <a class="btn is-large is-primary" href="{{ localizedRoute('tech-stack') }}">Eszköztár</a>
+                            <a class="btn is-large is-pearl" href="{{ localizedRoute('tech-stack') }}">Eszköztár</a>
                         </div>
                     </div>
                 </div>

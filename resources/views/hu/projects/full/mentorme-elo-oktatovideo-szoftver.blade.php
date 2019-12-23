@@ -94,7 +94,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="heading-2">Szeretne többet látni ebből a projektből?</div>
-                        <a class="btn is-large is-primary" data-toggle="modal" data-target="#project-gallery">Látogassa meg a galériát</a>
+                        <a class="btn is-large is-pearl" data-toggle="modal" data-target="#project-gallery">Látogassa meg a galériát</a>
                     </div>
                 </div>
             </div>

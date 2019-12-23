@@ -1,3 +1,16 @@
+import Vue from 'vue';
+
+import softwareQuestionnaire from './components/SoftwareQuestionnaire.vue';
+
+const app = new Vue({
+    el: '#app',
+    components: {
+        'software-questionnaire' : softwareQuestionnaire
+    }
+});
+
+
+
 /*
  * BREAKPOINTS
  */
@@ -236,6 +249,9 @@ let navbar = new function() {
     this.navbarItems = document.querySelectorAll('.navbaritem');
     this.navbarToggle = document.querySelector('.navbar__toggle');
     this.nextSection = document.querySelector('.section:not(.hero)');
+    if (!this.nextSection) {
+        this.nextSection = document.querySelector('.footer');
+    }
     this.subnavToggle = document.querySelectorAll('.navbar__item.has-subnav > a, .navbar__subnav__overlay');
 
     // toggle fixed navbar
