@@ -1,0 +1,214 @@
+@section('title', 'Remote Corporate Culture: Benefits and Challenges for Employees and Employers')
+@section('description', 'In this article, we\'ll show you what are the advantages and disadvantages of the remote work, what you should pay attention to when you think of working in a remote team and how we do it ourselves!')
+@section('preview_image', asset('media/blog/cover-what-is-a-remote-team-en.jpg'))
+
+@section('content')
+    <div class="post__featured-image">
+        <img src="{{ asset('media/blog/featured-what-is-a-remote-team-hu.jpg') }}" srcset="{{ asset('media/blog/featured-what-is-a-remote-team-1-769w.jpg') }} 769w" sizes="100vw" alt="Remote Corporate Culture Part 1 - What is a Remote Team?" />
+    </div>
+    <section class="section">
+        <div class="post is-single h-entry">
+            <div class="post__header">
+                <div class="container">
+                    <div class="columns">
+                        <div class="column">
+                            <h1 class="post__title p-name">Remote Corporate Culture Part 1 - What is a Remote Team?</h1>
+                            <div class="post__meta">
+                                <time class="dt-published" datetime="2019-11-24 12:00:00">Nov 24th, 2019</time> &middot; 5 min read
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post__content">
+                <div class="container">
+                    <div class="columns is-reversed">
+                        <div class="column is-10-tablet is-8-desktop e-content">
+                            <p>At Further we are working as a fully remote team. And we love it.</p>
+                            <p>The IT sector sets the trend when it comes to remote work. Start-ups and digital companies often employ remote teams. In our case, we employ 10 people from 7 different cities. But remote work for large companies as well:<a href="https://www.invisionapp.com/" target="_blank">Invision</a> employs 700 people, but doesn’t have one office.</p>
+                            <p>We believe that remote work isn’t just for the IT sector. More companies, from the financial or legal sectors to name just a few, should embrace building partially or fully remote teams.</p>
+                            <p>But why is it that great to work as a remote team? Working remotely means more than just working seaside, while sipping margaritas by the pool. It brings a lot of other advantages as well, which can be mostly split into two categories.</p>
+                            <p class="has-margin-b60">On the one hand, there are advantages for the business. On the other hand, we can talk about conveniences, which improve the employees' lives. If you think about it, they all help both parties, as the employers’ and employees’ happiness is closely related.</p>
+                            <figure>
+                                <img src="{{ asset('media/blog/what-is-a-remote-team-handshake.jpg') }}" alt="Homeoffice can be profitable for both the worker and the company." />
+                            </figure>
+                            <h2 class="heading-2 has-margin-b60 has-margin-t60">Advantages for the employee</h2>
+                            <h2 class="heading-4 has-margin-b30">Work-life balance</h2>
+                            <p>Remote work can lead to a better work-life balance. A flexible work schedule means there’s more time for family and personal projects. This in turn helps with stress and prevents burn-outs.</p>
+                            <h2 class="heading-4 has-margin-b30">No commute</h2>
+                            <p>How many people do you know who like commuting? There’s no problem with going to work until it’s just a 15 minute stroll, but can be nerve-racking if it means sitting in traffic for hours.</p>
+                            <p>What’s even worse, is that most companies don’t write off time spent commuting to and from work. This means that all those hours are deducted from time we would otherwise spend with family, friends and hobbies.</p>
+                            <h2 class="heading-4 has-margin-b30">Health</h2>
+                            <p>We already mentioned that a flexible schedule leads to less stress, and less burn-outs. But it has other health benefits as well.</p>
+                            <p>Working from an office means it’s less likely we would interrupt work to exercise or to eat healthy.</p>
+                            <p>Working from home means more time to work out. Additionally, we’re always close to a well-equipped kitchen, so we don't have to turn to the hot-dog stand on the corner.</p>
+                            <figure>
+                                <img src="{{ asset('media/blog/what-is-a-remote-team-benefits-for-employees.jpg') }}" alt="Benefits of working in a remote team for employees" />
+                            </figure>
+                            <h2 class="heading-2 has-margin-b60">Advantages for the employer</h2>
+                            <h2 class="heading-4 has-margin-b30">Less overhead</h2>
+                            <p>Barring wages, the biggest outlay for every company is office rent. With a remote team, we can forget about this cost, although we might decide to keep on office for meetings. But even so, less square footage is needed, which means less costs.</p>
+                            <p>We also don’t have to pay for expensive office equipment, although it’s always a good idea to provide your team with the right tools to do their jobs efficiently.</p>
+                            <h2 class="heading-4 has-margin-b30">Endless pool of talent</h2>
+                            <p>The main reason the IT sector loves remote work, is that they can take advantage of talent from all around the world. Think about it, how limited would you opportunities be, if you’d have to build a team in a rural town.</p>
+                            <p>If you’re working remotely, you can access qualified professionals from anywhere. Are you not finding the right team member in your town? No problem, look around in other cities, or even countries!</p>
+                            <h2 class="heading-4 has-margin-b30">Higher efficiency</h2>
+                            <p>Most employers are afraid of remote work, because they believe employees are going to be less efficient than working from an office.</p>
+                            <p>It’s a fact that working remotely doesn’t suit everyone. But <a href="https://www.globenewswire.com/news-release/2016/02/08/1019290/0/en/Vodafone-Study-75-Percent-of-Global-Companies-Leverage-Flexible-Working-Policies.html" target="_blank">reports</a> show that people who are working remotely and with a flexible schedule, are much more productive.</p>
+                            <p>We’re not all the same. Some of us are early birds, others are night owls. With a little extra organization, it’s possible to allow everyone to work when they are most efficient.</p>
+                            <h2 class="heading-4 has-margin-b30">Trust and loyalty</h2>
+                            <p>If as an employer, you give your team the freedom and flexibility to handle whatever life throws at them, while also trusting and empowering them to do their jobs well and in a timely manner, their affection and loyalty towards the company will increase over time.</p>
+                            <figure>
+                                <img src="{{ asset('media/blog/what-is-a-remote-team-benefits-for-a-leader.jpg') }}" alt="Benefits for the employer" />
+                            </figure>
+                            <h2 class="heading-2 has-margin-b30">The challenges</h2>
+                            <p class="has-margin-b60">Based on the above you might be thinking of jumping right on board the remote train. Although it all sounds good, building a positive remote culture also has a lot of challenges.</p>
+                            <h2 class="heading-4 has-margin-b30">Self-discipline</h2>
+                            <p>Working from an office, where you’re surrounded by colleagues can be motivating on its own. When working remotely, you don’t experience this kind of peer-pressure. There’s nobody there to remind you of the tasks at hand – you have to motivate yourself.</p>
+                            <h2 class="heading-4 has-margin-b30">Work-life balance</h2>
+                            <p>We already said that remote work leads to a better work-life balance. But it also has its downsides.</p>
+                            <p>As we start working from home, the lines between work life and personal life start getting blurry. If we allow family to interrupt us the same way we’re getting interrupted in an office, then we’re in the same position, or even worse off. Make sure you set up a dedicated work environment.</p>
+                            <h2 class="heading-4 has-margin-b30">Communication</h2>
+                            <p>As much as it seems that remote work has more advantages than office work, the office still has a leg up when it comes to personal interaction. Whatever you want to discuss, you can just walk over to your colleague and discuss it (although this kind of disturbance is the number one reason for decreased office productivity).</p>
+                            <p>In a remote environment, solving the communicational challenges is the most important job of an employer. We at Further, constantly review this question in order to improve.</p>
+                            <h2 class="heading-4 has-margin-b30">Knowledge sharing</h2>
+                            <p>In an office it’s easy to share that eureka moment. But when working remotely, it’s easier to keep these moments to ourselves. As an employer it is important to build a company culture that encourages knowledge sharing.</p>
+                            <h2 class="heading-4 has-margin-b30">Personal relationships</h2>
+                            <p>Meeting in person gives a whole other dimension to interactions within a team, that cannot be replaced virtually. We make sure to grab any opportunity to meet.</p>
+                            <figure>
+                                <img src="{{ asset('media/blog/what-is-a-remote-team-challenges.jpg') }}" alt="Apart from its many benefits, remote work has its specific challenges." />
+                            </figure>
+                            <p class="has-margin-t60">It’s obvious that remote work has its challenges, but we believe that working from an office provides just as many. Taking everything into account, we believe that building remote teams could be the way forward for many businesses – even for those that were hesitant to take this step for now.</p>
+                            <p>That is the reason why we started this series of articles. We wish to present you with the pros and cons of remote work, what to look out for when working remotely and of course, show you how we do it!</p>
+
+
+                            {{--
+                            <p class="has-margin-t60">Keep reading the rest of the series:</p>
+                            <ul class="list has-bullets has-margin-b60">
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">Hogyan vegyünk fel új remote csapattagot?</a></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">Hogyan építsünk remote vállalati kultúrát?</a></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">Működhet-e sikeres távkapcsolat céges környezetben?</a></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'egy-hatekony-stand-up-meeting-anatomiaja']) }}">Egy hátékony stand-up meeting anatómiája</a></li>
+                            </ul>
+
+                            --}}
+
+                        </div>
+                        <div class="column is-1-tablet is-2-desktop">
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Remote Corporate Culture Part 1 - What is a Remote Team?'])
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-10-tablet is-8-desktop is-offset-1-tablet is-offset-2-desktop">
+                        @include(getLang() . '.blog.authors.peterilles')
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection
+
+
+
+@push('structured-data')
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "author": {
+        "@type": "Person",
+        "name": "Peter Illes"
+    },
+    "copyrightHolder": {
+        "@type": "Corporation",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "{{ config('site.company.address.country') }}",
+            "addressLocality": "{{ config('site.company.address.city') }}",
+            "postalCode": "{{ config('site.company.address.postal_code') }}",
+            "streetAddress": "{{ config('site.company.address.street_address') }}"
+        },
+        "alternateName": "{{ config('site.company.name') }}",
+        "description": "{{ config('site.description.' . config('app.locale')) }}",
+        "email": "{{ config('site.contact.email') }}",
+        "founder": "Peter Illés and Norbert Zsombori",
+        "foundingDate": "2013",
+        "foundingLocation": "{{ config('site.company.address.city') }}, {{ config('site.company.address.country') }}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ asset('img/logo.svg') }}",
+            "height": "50",
+            "width": "185"
+        },
+        "name": "Further Digital Solutions",
+        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.twitter') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.instagram') }}","{{ config('site.social.medium') }}"],
+        "telephone": "{{ config('site.contact.phone-1') }}",
+        "url": "{{ config('app.url') }}"
+    },
+    "datePublished": "2019-11-24T12:00:00",
+    "dateModified": "2019-11-24T12:00:00",
+    "description": "In this article, we\'ll show you what are the advantages and disadvantages of the remote work, what you should pay attention to when you think of working in a remote team and how we do it ourselves!",
+    "headline": "Remote Corporate Culture: Benefits and Challenges for Employees and Employers",
+    "image": {
+        "@type": "ImageObject",
+        "height": 630,
+        "width": 1200,
+        "url": "{{ asset('media/blog/cover-what-is-a-remote-team-en.jpg') }}"
+    },
+    "inLanguage": "en_gb",
+    "keywords": "Business, Remote team, Software developer, Software company, Remote work, Remote team, Teamwork, Home office, ",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+    },
+    "name": "Remote Corporate Culture: Benefits and Challenges for Employees and Employers",
+    "publisher": {
+        "@type": "Organization",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ asset('img/logo.svg') }}",
+            "height": "50",
+            "width": "185"
+        },
+        "name": "Further Digital Solutions"
+    }
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": "1",
+            "item": {
+                "@id": "{{ localizedRoute('home') }}",
+                "name": "Homepage"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": "2",
+            "item": {
+                "@id": "{{ localizedRoute('blog') }}",
+                "name": "Blog"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": "3",
+            "item": {
+                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "name": "Remote Corporate Culture: Benefits and Challenges for Employees and Employers"
+            }
+        }
+    ]
+}
+</script>
+@endpush

@@ -15,6 +15,16 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}"><img src="{{ asset('media/blog/thumb-what-is-a-remote-team.jpg') }}" alt="What is remote work (and is it for you)?" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">What is remote work (and is it for you)?</a></h3>
+                                <p class="post__excerpt">In this article, we'll show you what are the advantages and disadvantages of the remote work, what you should pay attention to when you think of working in a remote team and how we do it ourselves!</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Read on &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => '5-things-every-business-owner-should-know']) }}"><img src="{{ asset('media/blog/thumb-5-things-every-business-owner-should-know.jpg') }}" alt="5 things, every business owner should know" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => '5-things-every-business-owner-should-know']) }}">5 things, every business owner should know</a></h3>

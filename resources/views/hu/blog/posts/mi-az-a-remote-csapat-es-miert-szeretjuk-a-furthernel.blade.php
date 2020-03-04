@@ -1,10 +1,10 @@
-@section('title', 'Távmunka: előnyök és kihívások alkalmazottak és munkaadók számára')
+@section('title', 'Remote vállalati kultúra: előnyök és kihívások alkalmazottak és munkaadók számára')
 @section('description', 'Ebben a cikkben megmutatjuk, mi is az a remote csapat, és hogy milyen előnyökkel és specifikus kihívásokkal jár munkaadóknak és alkalmazottaknak egyaránt.')
 @section('preview_image', asset('media/blog/cover-what-is-a-remote-team-hu.jpg'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-what-is-a-remote-team-hu.jpg') }}" srcset="{{ asset('media/blog/featured-what-is-a-remote-team-1-769w.jpg') }} 769w" sizes="100vw" alt="Távmunka 1. rész – Mi is az a remote csapat?" />
+        <img src="{{ asset('media/blog/featured-what-is-a-remote-team-hu.jpg') }}" srcset="{{ asset('media/blog/featured-what-is-a-remote-team-1-769w.jpg') }} 769w" sizes="100vw" alt="Remote vállalati kultúra 1. rész – Mi is az a remote csapat?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -14,7 +14,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">Mi az a remote csapat (és miért imádjuk a Furthernél)?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2020-02-06 12:00:00">2020 február 6</time> &middot; 5 perces olvasás
+                                <time class="dt-published" datetime="2019-11-24 12:00:00">2019 november 24</time> &middot; 5 perces olvasás
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                             <p>Nem kell drága irodai felszerelést sem vásárolnunk, bár az mindig jó ötlet, hogy a csapatunknak biztosítsuk a megfelelő felszerelést, ahhoz hogy hatékonyan tudják végezni a munkájukat.</p>
                             <h2 class="heading-4 has-margin-b30">Képzettebb munkaerő</h2>
                             <p>Az IT szektor leginkább azért szereti a távmunkát, mert képzett munkaerőhöz tudnak hozzáférni bárhonnan a világból. Gondolj bele, mennyire limitáltak a lehetőségeid, ha egy vidéki városban kell csapatot építened?</p>
-                            <p>Ha remote csapatként működtök, gyakorlatilag bárhol a világon kereshetsz megfelelően képzett szakembereket. Nem találod az ideális csapattagot Budapesten? Semmi gond, <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">nézzél szét más városokban is</a>, vagy akár országokban.</p>
+                            <p>Ha remote csapatként működtök, gyakorlatilag bárhol a világon kereshetsz megfelelően képzett szakembereket. Nem találod az ideális csapattagot Budapesten? Semmi gond, nézzél szét más városokban is, vagy akár országokban.</p>
                             <h2 class="heading-4 has-margin-b30">Magasabb produktivitás</h2>
                             <p>Legtöbb munkaadó ezért nem mer belevágni a távmunkába, mert attól tartanak, hogy az alkalmazottak nem lesznek annyira hatékonyak, mint az irodában.</p>
                             <p>Az tény, hogy nem mindenkinek való a távmunka, de a <a href="https://www.globenewswire.com/news-release/2016/02/08/1019290/0/en/Vodafone-Study-75-Percent-of-Global-Companies-Leverage-Flexible-Working-Policies.html" target="_blank">kutatások</a> azt mutatják, hogy távmunkában, flexibilis időbeosztással a csapatok sokkal produktívabbak.</p>
@@ -64,22 +64,25 @@
                             <h2 class="heading-2 has-margin-b30">A kihívások</h2>
                             <p class="has-margin-b60">Eddig minden jónak hangzik, ugye? Igen, azonban egy pozitív vállalati kultúra kiépítése sok energiát követel…</p>
                             <h2 class="heading-4 has-margin-b30">Önfegyelem hiánya</h2>
-                            <p>Egy irodában ülni, ahol a kollégák folyton körülötted vannak, önmagában is motiváló lehet. Távmunkában ez a fajta nyomás nem nehezedik a csapatra. Nincs ott senki, aki folyton emlékeztesse őket, hogy el kell végezni egy munkát – <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">saját magukat kell motiválják.</a></p>
+                            <p>Egy irodában ülni, ahol a kollégák folyton körülötted vannak, önmagában is motiváló lehet. Távmunkában ez a fajta nyomás nem nehezedik a csapatra. Nincs ott senki, aki folyton emlékeztesse őket, hogy el kell végezni egy munkát – saját magukat kell motiválják.</p>
                             <h2 class="heading-4 has-margin-b30">Work-life balance</h2>
                             <p>Azt már említettük, hogy a távmunka segít egy kiegyensúlyozottabb munka és magánélet közötti viszonyban. De vannak nehézségei is.</p>
-                            <p>Ahogy elkezdünk otthonról dolgozni, a munka és magánélet közötti határ elkezd elmosódni. Ha megengedjük a családnak, hogy ugyanúgy megzavarjon, mint egy kolléga az irodában, akkor nem nyertünk semmit. <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">Alakítsunk ki egy megfelelő munkakörnyezetet</a> magunknak.</p>
+                            <p>Ahogy elkezdünk otthonról dolgozni, a munka és magánélet közötti határ elkezd elmosódni. Ha megengedjük a családnak, hogy ugyanúgy megzavarjon, mint egy kolléga az irodában, akkor nem nyertünk semmit. Alakítsunk ki egy megfelelő munkakörnyezetet magunknak.</p>
                             <h2 class="heading-4 has-margin-b30">Kommunikáció</h2>
                             <p>Bármennyire is úgy tűnik, hogy a távmunka előnyösebb lehet az irodánál, egy nagy előnye azért van az irodának – az pedig a személyes kommunikáció. Ha bármit meg kell beszélni, akkor egyszerűen átsétálhatunk a kollégánkhoz (amúgy ez a figyelemelterelés az első számú tényező, ami csökkenti az irodai hatékonyságot).</p>
-                            <p>A kommunikáció problémájának megoldása lesz a munkaadó legfontosabb feladata egy remote csapatban. A Furthernél is <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">folyamatosan foglalkozunk ezzel a kérdéssel.</a></p>
+                            <p>A kommunikáció problémájának megoldása lesz a munkaadó legfontosabb feladata egy remote csapatban. A Furthernél is folyamatosan foglalkozunk ezzel a kérdéssel.</p>
                             <h2 class="heading-4 has-margin-b30">Tudásmegosztás</h2>
-                            <p>Irodában könnyű megosztani egy heuréka pillanatot. De távmunkában könnyebb ezeket magunknak megtartani. Munkaadóként fontos, hogy <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">olyan vállalati kultúrát alakítsunk ki, ami támogatja a tudás megosztását.</a></p>
+                            <p>Irodában könnyű megosztani egy heuréka pillanatot. De távmunkában könnyebb ezeket magunknak megtartani. Munkaadóként fontos, hogy olyan vállalati kultúrát alakítsunk ki, ami támogatja a tudás megosztását.</p>
                             <h2 class="heading-4 has-margin-b30">Személyes kapcsolatok hiánya</h2>
-                            <p>A személyes találkozások teljesen másféle interakciót alakítanak ki egy csapaton belül, amit virtuálisan nem lehet helyettesíteni. Ragadjunk meg minden alkalmat, hogy <a href="{{ localizedRoute('blog.view', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">találkozzon a csapat.</a></p>
+                            <p>A személyes találkozások teljesen másféle interakciót alakítanak ki egy csapaton belül, amit virtuálisan nem lehet helyettesíteni. Ragadjunk meg minden alkalmat, hogy találkozzon a csapat.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/what-is-a-remote-team-challenges.jpg') }}" alt="A távmunkának, számos előnye mellett, megvannak a sajátos kihívásai." />
                             </figure>
                             <p class="has-margin-t60">Bár láthatod, hogy a remote munkának vannak specifikus kihívásai, de szerintünk legalább ennyi kihívás van egy klasszikus munkahelyen is, irodai környezetben. Mi úgy érezzük, hogy mindent összevetve, a távmunka megoldást jelenthet sok cég számára – olyanok számára is, akik eddig nem merték megtenni ezt a lépést.</p>
                             <p>Pontosan ebből az okból született cikksorozatunk, amelyben azt mutatjuk be, hogy mik az előnyei és hátrányai a távmunkának, mire érdemes odafigyelned, ha távmunkában gondolkozol, illetve azt, hogy mi magunk hogyan csináljuk!</p>
+
+
+                            {{--
                             <p class="has-margin-t60">Olvasd el sorozatunk többi cikkét:</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">Hogyan vegyünk fel új remote csapattagot?</a></li>
@@ -88,9 +91,12 @@
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">Működhet-e sikeres távkapcsolat céges környezetben?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'egy-hatekony-stand-up-meeting-anatomiaja']) }}">Egy hátékony stand-up meeting anatómiája</a></li>
                             </ul>
+
+                            --}}
+
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Távmunka 1. rész – Mi is az a remote csapat?'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Remote vállalati kultúra 1. rész – Mi is az a remote csapat?'])
                         </div>
                     </div>
                 </div>
@@ -159,7 +165,7 @@
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
     },
-    "name": "Távmunka: előnyök és kihívások alkalmazottak és munkaadók számára",
+    "name": "Remote vállalati kultúra: előnyök és kihívások alkalmazottak és munkaadók számára",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -199,7 +205,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
-                "name": "Távmunka: előnyök és kihívások alkalmazottak és munkaadók számára"
+                "name": "Remote vállalati kultúra: előnyök és kihívások alkalmazottak és munkaadók számára"
             }
         }
     ]
