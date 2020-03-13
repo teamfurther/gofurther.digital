@@ -1,10 +1,10 @@
 @section('title', 'Remote vállalati kultúra: előnyök és kihívások alkalmazottak és munkaadók számára')
 @section('description', 'Ebben a cikkben megmutatjuk, mi is az a remote csapat, és hogy milyen előnyökkel és specifikus kihívásokkal jár munkaadóknak és alkalmazottaknak egyaránt.')
-@section('preview_image', asset('media/blog/cover-what-is-a-remote-team-hu.jpg'))
+@section('preview_image', asset('media/blog/cover-remote-corporate-culture-1-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-what-is-a-remote-team-hu.jpg') }}" srcset="{{ asset('media/blog/featured-what-is-a-remote-team-1-769w.jpg') }} 769w" sizes="100vw" alt="Remote vállalati kultúra 1. rész – Mi is az a remote csapat?" />
+        <img src="{{ asset('media/blog/featured-remote-corporate-culture-1-hu.png') }}" srcset="{{ asset('media/blog/featured-remote-corporate-culture-1-769w-hu.png') }} 769w" sizes="100vw" alt="Remote vállalati kultúra 1. rész – Mi is az a remote csapat?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -149,18 +149,18 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "datePublished": "2020-02-06T12:00:00",
-    "dateModified": "2020-02-06T12:00:00",
+    "datePublished": "2019-11-24T12:00:00",
+    "dateModified": "2019-11-24T12:00:00",
     "description": "Ebben a cikkben megmutatjuk, mi is az a remote csapat, és hogy milyen előnyökkel és specifikus kihívásokkal jár munkaadóknak és alkalmazottaknak egyaránt.",
-    "headline": "Digitális transzformáció sorozat 1. rész – Bevezető",
+    "headline": "Remote vállalati kultúra: előnyök és kihívások alkalmazottak és munkaadók számára",
     "image": {
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-what-is-a-remote-team-hu.jpg') }}"
+        "url": "{{ asset('media/blog/cover-remote-corporate-culture-1-hu.jpg') }}"
     },
     "inLanguage": "hu_HU",
-    "keywords": "Távmunka, Távoli csapat, Remote csapat, Remote team, Távmunka előnyök, Távmunka otthonról, Digitális transzformáció, Digitális átalakulás",
+    "keywords": "Csapat, Remote csapat, Remote team, Távmunka, Távoli csapat, Kommunikáció, Céges távkapcsolat, Videóhívás, Team building, Csapatépítés, Munkavállaló, Motiváció",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
