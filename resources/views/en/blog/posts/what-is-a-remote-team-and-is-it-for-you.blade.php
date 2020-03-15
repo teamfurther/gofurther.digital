@@ -1,10 +1,10 @@
 @section('title', 'Remote Corporate Culture: Benefits and Challenges for Employees and Employers')
 @section('description', 'In this article, we\'ll show you what are the advantages and disadvantages of the remote work, what you should pay attention to when you think of working in a remote team and how we do it ourselves!')
-@section('preview_image', asset('media/blog/cover-what-is-a-remote-team-en.jpg'))
+@section('preview_image', asset('media/blog/cover-remote-corporate-culture-1-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-what-is-a-remote-team-hu.jpg') }}" srcset="{{ asset('media/blog/featured-what-is-a-remote-team-1-769w.jpg') }} 769w" sizes="100vw" alt="Remote Corporate Culture Part 1 - What is a Remote Team?" />
+        <img src="{{ asset('media/blog/featured-remote-corporate-culture-1-en.png') }}" srcset="{{ asset('media/blog/featured-remote-corporate-culture-1-769w-en.png') }} 769w" sizes="100vw" alt="Remote Corporate Culture Part 1 - What is a Remote Team?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -25,7 +25,7 @@
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>At Further we are working as a fully remote team. And we love it.</p>
-                            <p>The IT sector sets the trend when it comes to remote work. Start-ups and digital companies often employ remote teams. In our case, we employ 10 people from 7 different cities. But remote work for large companies as well:<a href="https://www.invisionapp.com/" target="_blank">Invision</a> employs 700 people, but doesn’t have one office.</p>
+                            <p>The IT sector sets the trend when it comes to remote work. Start-ups and digital companies often employ remote teams. In our case, we employ 10 people from 7 different cities. But remote work for large companies as well: <a href="https://www.invisionapp.com/" target="_blank">Invision</a> employs 700 people, but doesn’t have one office.</p>
                             <p>We believe that remote work isn’t just for the IT sector. More companies, from the financial or legal sectors to name just a few, should embrace building partially or fully remote teams.</p>
                             <p>But why is it that great to work as a remote team? Working remotely means more than just working seaside, while sipping margaritas by the pool. It brings a lot of other advantages as well, which can be mostly split into two categories.</p>
                             <p class="has-margin-b60">On the one hand, there are advantages for the business. On the other hand, we can talk about conveniences, which improve the employees' lives. If you think about it, they all help both parties, as the employers’ and employees’ happiness is closely related.</p>
@@ -157,10 +157,10 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-what-is-a-remote-team-en.jpg') }}"
+        "url": "{{ asset('media/blog/cover-remote-corporate-culture-1-en.png') }}"
     },
     "inLanguage": "en_gb",
-    "keywords": "Business, Remote team, Software developer, Software company, Remote work, Remote team, Teamwork, Home office, ",
+    "keywords": "Team, Remote team, Software developer, Software company, Remote work, Remote team, Teamwork, Home office, Video call, Motivation, ",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
