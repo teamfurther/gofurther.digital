@@ -4,10 +4,13 @@ namespace Tests\Unit;
 
 use App\Models\User;
 use App\Notifications\ContactNotification;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
 class ContactTest extends TestCase
 {
+    use RefreshDatabase;
+
     private $data;
 
     /**
@@ -104,13 +107,17 @@ class ContactTest extends TestCase
 
     public function testContactShouldSendNotificationIfSuccess()
     {
+        $user = factory(User::class)->create();
+
         $response = $this->json('POST', '/en/contact', $this->data);
 
-        \Notification::assertSentTo(User::findOrFail(1), ContactNotification::class);
+        \Notification::assertSentTo($user, ContactNotification::class);
     }
 
     public function testContactShouldRedirectIfSuccess()
     {
+        $user = factory(User::class)->create();
+
         $response = $this->json('POST', '/en/contact', $this->data);
 
         $response->assertStatus(302)
