@@ -1,7 +1,9 @@
-@extends('hu.site', ['bodyClass' => 'has-hero', 'showContactForm' => false])
+@extends('hu.site', [
+    'bodyClass' => 'has-transparent-header',
+    'showContactForm' => false,
+    'showFooter' => false
+])
 
 @section('content')
-    <section class="hero">
-        <software-questionnaire></software-questionnaire>
-    </section>
+    <software-questionnaire></software-questionnaire>
 @endsection

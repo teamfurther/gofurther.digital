@@ -1,6 +1,7 @@
 .header {
     background-color: $white;
     border-bottom: 1px solid $grey-lighter;
+    min-height: 76px;
     padding: 15px 0;
     position: relative;
     transition: .4s all ease-in-out;
@@ -133,6 +134,126 @@ body.has-hero > #app > .header {
     }
 
     &.is-fixed,
+    &.is-open {
+        background-color: $white;
+        border-bottom-color: $grey-lighter;
+
+        .header__logo a {
+            background-image: url(../img/logo.svg);
+        }
+
+        .navbar {
+            background-color: $grey-light;
+
+            @include desktop() {
+                background-color: transparent;
+            }
+
+            &__item {
+                @include desktop() {
+                    &.has-subnav {
+                        & > a {
+                            &::before,
+                            &::after {
+                                background-color: $grey-darker;
+                            }
+                        }
+                    }
+                }
+
+                &--lang {
+                    & > a {
+                        &::before {
+                            background-position: 0 -20px;
+                        }
+                    }
+                }
+
+                & > a {
+                    border-bottom-color: $white;
+                    color: $grey-darker;
+
+                    &:hover {
+                        background-color: lighten($grey-lighter, 2%);
+
+                        @include desktop() {
+                            background-color: transparent;
+                            border-color: $pearl;
+                        }
+                    }
+                }
+            }
+
+            &__toggle {
+                & > span {
+                    background-color: $black;
+                }
+            }
+        }
+    }
+}
+
+body.has-transparent-header > #app > .header {
+    background-color: transparent;
+    border-bottom-color: transparent;
+
+    .header__logo a {
+        background-image: url(../img/logo-knockout.svg);
+    }
+
+    .navbar {
+        background-color: darken($cobalt, 5%);
+
+        @include desktop() {
+            background-color: transparent;
+        }
+
+        &__item {
+            @include desktop() {
+                &.has-subnav {
+                    & > a {
+                        &::before,
+                        &::after {
+                            background-color: $white;
+                        }
+                    }
+                }
+            }
+
+            &--lang {
+                & > a {
+                    &::before {
+                        background-position: 0 0;
+                    }
+                }
+            }
+
+            & > a {
+                border-bottom-color: $cobalt;
+                color: $white;
+
+                @include desktop() {
+                    border-bottom-color: transparent;
+                }
+
+                &:hover {
+                    background-color: darken($cobalt, 2%);
+
+                    @include desktop() {
+                        background-color: transparent;
+                        border-bottom-color: $white;
+                    }
+                }
+            }
+        }
+
+        &__toggle {
+            & > span {
+                background-color: $white;
+            }
+        }
+    }
+
     &.is-open {
         background-color: $white;
         border-bottom-color: $grey-lighter;

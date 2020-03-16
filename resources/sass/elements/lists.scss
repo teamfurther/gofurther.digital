@@ -33,6 +33,28 @@
         }
     }
 
+    &.has-discs {
+        li {
+            margin-bottom: 2px;
+            overflow: hidden;
+            padding-left: 15px;
+            position: relative;
+
+            &::before {
+                background-color: $grey-darker;
+                border-radius: 100%;
+                content: '';
+                display: block;
+                float: left;
+                height: 5px;
+                left: 0;
+                position: absolute;
+                top: 9px;
+                width: 5px;
+            }
+        }
+    }
+
     @include tablet() {
         &.has-two-columns {
             -webkit-columns: 2;

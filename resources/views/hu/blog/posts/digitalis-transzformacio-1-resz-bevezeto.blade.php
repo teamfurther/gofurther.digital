@@ -29,7 +29,7 @@
                                 <li><strong>1. rész – Bevezető</strong></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">2. rész – Vállalati kultúra</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">3. rész – Üzleti folyamatok</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-technologia']) }}">4. rész – Technológia</a></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">4. rész – Technológia</a></li>
                             </ul>
                             <p>Merüljünk is el a témában, és kezdjük a digitális átalakulás valós jelentésével. A „digitális” szó kapcsán a legtöbb embernek az analóg rendszerektől való elhatárolódás jut az eszébe. De <a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-technologia']) }}">ez csak egy kis része</a> a digitális transzformációnak.</p>
                             <p>Számunkra a digitális átalakulás a cég innovációs készségét és az új technológiákhoz való alkalmazkodási képességét jelenti. Tehát azt jelenti, hogy mennyire nyitott a változásokra, és milyen gyorsan képes végrehajtani ezeket a változásokat.</p>

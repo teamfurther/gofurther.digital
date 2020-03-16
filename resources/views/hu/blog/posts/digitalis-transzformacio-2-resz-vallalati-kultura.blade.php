@@ -29,7 +29,7 @@
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">1. rész – Bevezető</a></li>
                                 <li><strong>2. rész – Vállalati kultúra</strong></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">3. rész – Üzleti folyamatok</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-technologia']) }}">4. rész – Technológia</a></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">4. rész – Technológia</a></li>
                             </ul>
                             <p>A sorozat <a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">első részében</a> megtudhattuk, hogyan buktatta meg a digitális világ a Kodakot. A csúcsidőszak alatt milliárdos bevételük volt, és több mint 140.000 embert foglalkoztattak világszerte. De aztán egy kicsi tárgy miatt, amit kamerás telefonnak neveztek, kénytelenek voltak csődeljárást indítani és a szabadalmaikat eladni.</p>
                             <p>De valahogy a Kodak a hamvaiból újjászületett. Igen, csak töredéke annak, ami korábban volt, de legalább a név tovább él. Visszatértek az alapokhoz, és rájöttek, hogy egyedülálló értékesítési pontjuk nem az, hogy filmet árulnak, hanem az, hogy emlékeket árulnak. „Kodak pillanatokat” árulnak.</p>
@@ -42,7 +42,7 @@
                                 <img src="{{ asset('media/blog/digitalis-transzformacio-digitalis-vezeto-vagy-digitalisak-vagyunk.png') }}" alt="Az erős vállalati kultúrával rendelkező cégek az összes fenti tulajdonságot magáévá teszik" />
                             </figure>
                             <p>A radikális változás gyakran a csapatok átalakítását, a munkakörök megváltoztatását és a hosszú távú üzleti folyamatokat érinti. Emiatt az emberek attól tartanak, hogy a hozzáadott értékük és a munkahelyük is veszélybe kerül.</p>
-                            <p class="has-margin-b60">A vezetőség feladata, hogy biztosٕítsa, hogy ez nem történik meg. Empatikusnak kell lenniük a csapatukkal, meg kell hallgatniuk és dokumentálniuk kell a problémáikat, és következetes erőfeszítéseket kell tenniük ezen kérdések megbeszélése érdekében. Hosszú távon ez az empátia növeli a bizalmat, és a változás végrehajtása során kevésbé ütköznek majd ellenállásba.</p>
+                            <p class="has-margin-b60">A vezetőség feladata, hogy biztosítsa, hogy ez nem történik meg. Empatikusnak kell lenniük a csapatukkal, meg kell hallgatniuk és dokumentálniuk kell a problémáikat, és következetes erőfeszítéseket kell tenniük ezen kérdések megbeszélése érdekében. Hosszú távon ez az empátia növeli a bizalmat, és a változás végrehajtása során kevésbé ütköznek majd ellenállásba.</p>
                             <div class="has-text-centered">
                                 <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">&laquo; 1. rész – Bevezető</a>
                                 <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">3. rész – Üzleti folyamatok &raquo; </a>

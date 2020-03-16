@@ -199,7 +199,7 @@ let modal = new function() {
 
     // close modal
     function closeModal(e) {
-        if (e.target == e.currentTarget) {
+        if (e.target === e.currentTarget) {
             let modals = document.querySelectorAll('.modal');
 
             document.querySelector('body').classList.remove('is-modal-open');
@@ -279,7 +279,7 @@ let navbar = new function() {
         if (breakpoints.fromDesktop()) {
             e.preventDefault();
 
-            if (e.target != e.currentTarget)
+            if (e.target !== e.currentTarget)
                 return false;
 
             e.currentTarget.closest('.navbar__item').classList.toggle('is-open');
@@ -305,13 +305,13 @@ let navbar = new function() {
 /*
  * SMOOTH SCROLL
  */
-window.addEventListener('DOMContentLoaded', function(e) {
+window.addEventListener('DOMContentLoaded', function() {
     let links = document.getElementsByTagName('a');
     for (let i = 0; i < links.length; i++) {
         if (!links[i].hash)
             continue;
 
-        if (links[i].origin + links[i].pathname != self.location.href)
+        if (links[i].origin + links[i].pathname !== self.location.href)
             continue;
 
         (function(anchorPoint) {
@@ -339,10 +339,10 @@ let social = new function() {
         let that = e.currentTarget.parentNode;
         let url = that.getAttribute('href');
 
-        var winHeight = 600;
-        var winWidth = 600;
-        var winTop = (screen.height / 2) - (winHeight / 2);
-        var winLeft = (screen.width / 2) - (winWidth / 2);
+        let winHeight = 600;
+        let winWidth = 600;
+        let winTop = (screen.height / 2) - (winHeight / 2);
+        let winLeft = (screen.width / 2) - (winWidth / 2);
         window.open(url, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + winWidth + ',height=' + winHeight);
 
     }

@@ -8,6 +8,10 @@
     top: 0;
     z-index: 10;
 
+    &.is-disabled {
+        pointer-events: none;
+    }
+
     a {
         color: $white;
 

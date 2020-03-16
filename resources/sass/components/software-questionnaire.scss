@@ -1,15 +1,111 @@
 .software-questionnaire {
+    background: url(../img/hero-bg.jpg) center center / cover no-repeat;
     color: $white;
-    padding: 0 15px;
+    min-height: 100vh;
+    margin-top: -76px;
+    padding: 95px 15px 15px;
     position: relative;
-    z-index: 15;
+    top: 0;
+    width: 100%;
 
-    @include desktop() {
-        width: 75%;
+    &::before {
+        background-color: rgba(mix($cobalt, $grey-darker, 70%), .9);
+        content: '';
+        display: block;
+        min-height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
     }
 
     &__body {
         margin-bottom: 30px;
+    }
+
+    &__checkbox {
+        display: inline-block;
+        height: 25px;
+        position: relative;
+        vertical-align: middle;
+        width: 25px;
+
+        input[type="checkbox"] {
+            height: 25px;
+            visibility: hidden;
+            width: 25px;
+            z-index: 10;
+
+            &:checked + span {
+                background-color: $pearl;
+
+                &:after {
+                    visibility: visible;
+                }
+            }
+        }
+
+        span {
+            background-color: $white;
+            border-radius: 3px;
+            cursor: pointer;
+            height: 25px;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 25px;
+            z-index: 5;
+
+            &:after {
+                color: $white;
+                content: '\d7';
+                font-size: 32px;
+                font-weight: 700;
+                left: 50%;
+                position: absolute;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                visibility: hidden;
+            }
+        }
+    }
+
+    &__form-control {
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid rgba($white, .15);
+        border-radius: 0;
+        color: $white;
+        font-size: 16px;
+        font-weight: 600;
+        height: 30px;
+        transition: .2s all ease-out;
+        width: 100%;
+
+        &:hover {
+            border-bottom-color: rgba($white, .75);
+        }
+
+        &:focus { // Focus is after hover, because of precedence
+            border-bottom-color: $white;
+            outline: none;
+        }
+
+        &::placeholder {
+            color: rgba($white, .75);
+        }
+    }
+
+    &__form-group {
+        margin-bottom: 15px;
+
+        @include tablet() {
+            width: 90%;
+        }
+
+        @include desktop() {
+            width: 75%;
+        }
     }
 
     &__heading {
@@ -20,9 +116,29 @@
             font-size: 24px;
         }
 
-        span {
+        .required {
             color: $raspberry;
             font-weight: 700;
+        }
+
+        small {
+            display: block;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+
+    &__intro,
+    &__notice,
+    &__questions,
+    &__results {
+        @include tablet() {
+            max-width: 720px;
+            width: 80%;
+        }
+
+        @include desktop() {
+            margin: 0 15px;
         }
     }
 
@@ -69,25 +185,28 @@
         counter-reset: answer;
         list-style: none;
         margin-bottom: 15px;
-
-        @include tablet() {
-            width: 90%;
-        }
-
-        @include desktop() {
-            width: 75%;
-        }
     }
 
-    .form-group {
+    &__subheading {
+        font: 600 14px / 1.5 $family-highlight;
         margin-bottom: 15px;
 
         @include tablet() {
-            width: 90%;
+            font-size: 18px;
         }
+    }
 
-        @include desktop() {
-            width: 75%;
+    a:not(.btn) {
+        color: $white;
+
+        &:hover {
+            color: $white;
+        }
+    }
+
+    ul.list.has-discs {
+        li:before {
+            background-color: $white;
         }
     }
 }

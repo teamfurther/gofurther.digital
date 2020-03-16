@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="hero">
-        <h2 class="hero__tagline" data-texts='["automatizálni folyamataidat", "rendszerezni adataidat", "növelni produktivitásodat"]'>Segítünk<strong></strong></h2>
+        <h2 class="hero__tagline" data-texts='["automatizálj", "rendszerezz", "légy  hatékonyabb"]'>Segítünk, hogy<strong></strong></h2>
         <a class="hero__cta" href="{{ url('#contact') }}">Van egy ötleted, amit meg szeretnél velünk beszélni?<strong>Írd meg nekünk!</strong></a>
         <a class="hero__scroll" href="{{ url('#szolgaltatasok') }}"></a>
     </section>

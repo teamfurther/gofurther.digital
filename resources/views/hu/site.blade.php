@@ -124,7 +124,11 @@
                 </nav>
             </div>
             <div class="navbar__item"><a href="{{ localizedRoute('about') }}">Rólunk</a></div>
+            @if (!isset($showContactForm) || $showContactForm)
             <div class="navbar__item"><a href="{{ url('#contact') }}">Kapcsolat</a></div>
+            @else
+            <div class="navbar__item"><a href="{{ localizedRoute('home') }}#contact">Kapcsolat</a></div>
+            @endif
             <div class="navbar__item"><a href="{{ localizedRoute('blog') }}">Blog</a></div>
             @if (switchLang('en'))
             <div class="navbar__item navbar__item--lang"><a href="{{ switchLang('en') }}">EN</a></div>
@@ -194,7 +198,8 @@
 </section>
 @endif
 
-<footer class="footer">
+<footer class="footer @if (isset($showFooter) && $showFooter === false) is-disabled @endif">
+@if (!isset($showFooter) || $showFooter)
     <div class="container">
         <div class="columns">
             <div class="column">
@@ -202,6 +207,7 @@
             </div>
         </div>
     </div>
+@endif
 </footer>
 
 

@@ -69,7 +69,7 @@
                             <p class="has-margin-b60">A Furthernél például folyamatosan monitorozzuk az ügyfeleink szoftvereit, a javításokat és biztonsági frissítéseket pedig végrehajtjuk, amint azok rendelkezésünkre állnak. Így elkerülhető az ú.n. technikai adósság felhalmozódása, azaz a szoftverek elavulása.</p>
                             <h2 class="heading-3 has-margin-b30">Skálázhatóság</h2>
                             <p>Skálázhatóságnak nevezzük egy szoftver esetében azt, hogy mennyire rövid idő alatt alakítható át a változó igények függvényében és mennyire könnyen bővíthető új funkciókkal.</p>
-                            <p>Gondold át, hogyan fogjátok használni a szoftvert a jövőben, hány felhasználója lesz és milyen funkcionalitásokra lesz szükségetek?</p>
+                            <p>Gondold át, hogyan fogjátok használni a szoftvert a jövőben, hány felhasználója lesz és milyen funkcionalitásra lesz szükségetek?</p>
                             <p class="has-margin-b60">Az egyedi szoftverek lehetővé teszik a funkcionalitások hozzáadását vagy eltávolítását igényeitek szerint. Ahogy vállalkozásod növekszik, párhuzamosan változnia kell a szoftvernek is. Ez a rugalmasság a dobozos szoftverek esetén csak ritkán érhető el.</p>
                             <h2 class="heading-3 has-margin-b30">Következtetések</h2>
                             <p>Csakis a vállalkozásod igényei alapján tudsz egy testreszabott megoldás és egy létező dobozos szoftver vásárlása között dönteni.</p>
