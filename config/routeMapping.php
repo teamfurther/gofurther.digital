@@ -54,6 +54,10 @@ return [
         [
             'en' => 'when-is-it-time-to-use-a-crm',
             'hu' => 'mikor-hasznaljunk-crm-rendszert',
+        ],
+        [
+            'en' => 'what-is-a-remote-team-and-is-it-for-you',
+            'hu' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel'
         ]
     ],
 

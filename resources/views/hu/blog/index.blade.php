@@ -15,6 +15,16 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}"><img src="{{ asset('media/blog/thumb-remote-corporate-culture-1-hu.png') }}" alt="Hogyan segíthet egy termelésirányítási szoftver?" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">Mi az a remote csapat (és miért imádjuk a Furthernél?)</a></h3>
+                                <p class="post__excerpt">Ebben a cikkben megmutatjuk, hogy mik az előnyei és hátrányai a távmunkának, mire érdemes odafigyelned, ha távmunkában gondolkozol, illetve azt, hogy mi magunk hogyan csináljuk!</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">Tovább &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => '5-hasznos-adat-cegvezetoknek']) }}"><img src="{{ asset('media/blog/thumb-5-things-every-business-owner-should-know.jpg') }}" alt="Hogyan segíthet egy termelésirányítási szoftver?" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => '5-hasznos-adat-cegvezetoknek']) }}">5 adat, amit minden cégvezetőnek tudnia kell</a></h3>
