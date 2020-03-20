@@ -21,8 +21,8 @@ return [
         'address' => [
             'city' => 'Timisoara',
             'country' => 'Romania',
-            'postal_code' => '300627',
-            'street_address' => 'Cl. Torontalului 7 sc. B ap. 36',
+            'postal_code' => '300667',
+            'street_address' => 'Cl. Torontalului 25/A sc. A ap. 6',
         ],
         'name' => 'C4WEB STUDIO SRL',
         'regno' => 'J35/2534/2013',
