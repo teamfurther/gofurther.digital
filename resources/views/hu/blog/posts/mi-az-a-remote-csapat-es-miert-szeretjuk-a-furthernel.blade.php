@@ -24,6 +24,11 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
+                            <p>Ez a remote vállalati kultúráról szóló sorozatunk első része. Ha egy bizonyos cikket keresel a sorozatból, akkor itt megtalálod a linkeket:</p>
+                            <ul class="list has-bullets has-margin-b60">
+                                <li><strong>1. rész – Mi az a remote csapat (és miért imádjuk a Furthernél)?</strong></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">2. rész – Hogyan vegyünk fel új remote csapattagot?</a></li>
+                            </ul>
                             <p>A Furthernél 100%-ban remote (távoli) csapatként működünk. És imádjuk.</p>
                             <p>Az IT szektor úttörő ilyen szempontból. Start-up cégek és digitális vállalkozások esetében gyakran találkozhatunk remote csapatokkal. A mi esetünkben 7 különböző városban van 10 kollégánk. De nem csak kisebb cégek esetén jöhet szóba a remote csapat: az <a href="https://www.invisionapp.com/" target="_blank">Invision</a> 700 embert alkalmaz, de nincs egyetlen irodája sem.</p>
                             <p>Hiszünk abban, hogy a távoli munka nemcsak IT vállalatok esetében működik, hanem sokkal több cégnek fel kéne vállalnia, hogy részben vagy teljesen remote csapatokat foglalkoztasson.</p>
@@ -34,12 +39,12 @@
                                 <figcaption>A távmunka az alkalmazottak és a munkaadó számára is előnyökkel, de kihívásokkal is jár</figcaption>
                             </figure>
                             <h2 class="heading-2 has-margin-b60 has-margin-t60">Előnyök az alkalmazottak számára</h2>
-                            <h2 class="heading-4 has-margin-b15">Work-life balance</h2>
+                            <h3 class="heading-4 has-margin-b15">Work-life balance</h3>
                             <p class="has-margin-b30">A távmunka jobb magánélet és munka közötti egyensúlyhoz vezethet. A flexibilis időbeosztás azt jelenti, hogy időt tudunk fordítani a családra és a személyes feladatainkra is. Ez segít feloldani a stresszt és megelőzi a kiégést.</p>
-                            <h2 class="heading-4 has-margin-b15">Nincs ingázás</h2>
+                            <h3 class="heading-4 has-margin-b15">Nincs ingázás</h3>
                             <p>Hány embert ismertek, aki szeret ingázni? Addig nincs is gond az ingázással, amíg ez egy 15 perces sétát jelent a munkahelyig, de amikor órákat állunk a dugóban, az gyakran idegtépő.</p>
                             <p class="has-margin-b30">Ami pedig még rosszabb, hogy nagyon kevés az olyan cég, aki az ingázást a munkaidőből vonja le, nem a személyes időnkből, ezért az ingázás a családdal, barátokkal és hobbikkal eltölthető időnkből veszik el.</p>
-                            <h2 class="heading-4 has-margin-b15">Egészség</h2>
+                            <h3 class="heading-4 has-margin-b15">Egészség</h3>
                             <p>Azt már említettük, hogy a flexibilis munkaidő kevesebb stresszhez és kiégéshez vezet. De más egészségügyi előnyei is vannak a távmunkának.</p>
                             <p>Egy irodában dolgozva, nehéz megszakítani a munkát annak érdekében hogy mozogjunk vagy vigyázni arra, hogy egészségesen étkezzünk.</p>
                             <p>Otthonról dolgozva több időnk marad testmozgásra és mindig közel vagyunk egy jól felszerelt konyhához, így nem vagyunk rászorulva a sarki gyrosra.</p>
@@ -47,54 +52,43 @@
                                 <img src="{{ asset('media/blog/what-is-a-remote-team-benefits-for-employees.jpg') }}" alt="A remote csapat előnyei egy alkalmazott számára" />
                             </figure>
                             <h2 class="heading-2 has-margin-b60">Előnyök a munkaadó számára</h2>
-                            <h2 class="heading-4 has-margin-b15">Kevesebb költség</h2>
+                            <h3 class="heading-4 has-margin-b15">Kevesebb költség</h3>
                             <p>Egy vállalkozás számára a bérek után az egyik legnagyobb költség az irodabérlés. Egy remote cég esetében nem kell számolnunk ezzel a költséggel, bár dönthetünk úgy, hogy fenntartunk egy irodát megbeszélésekre. Viszont ebben az esetben is sokkal kisebb, ezáltal olcsóbb irodára lesz szükség.</p>
                             <p class="has-margin-b30">Nem kell drága irodai felszerelést sem vásárolnunk, bár az mindig jó ötlet, hogy a csapatunknak biztosítsuk a megfelelő felszerelést, ahhoz hogy hatékonyan tudják végezni a munkájukat.</p>
-                            <h2 class="heading-4 has-margin-b15">Képzettebb munkaerő</h2>
+                            <h3 class="heading-4 has-margin-b15">Képzettebb munkaerő</h3>
                             <p>Az IT szektor leginkább azért szereti a távmunkát, mert képzett munkaerőhöz tudnak hozzáférni bárhonnan a világból. Gondolj bele, mennyire limitáltak a lehetőségeid, ha egy vidéki városban kell csapatot építened?</p>
-                            <p class="has-margin-b30">Ha remote csapatként működtök, gyakorlatilag bárhol a világon kereshetsz megfelelően képzett szakembereket. Nem találod az ideális csapattagot Budapesten? Semmi gond, nézzél szét más városokban is, vagy akár országokban.</p>
-                            <h2 class="heading-4 has-margin-b15">Magasabb produktivitás</h2>
+                            <p class="has-margin-b30">Ha remote csapatként működtök, gyakorlatilag bárhol a világon kereshetsz megfelelően képzett szakembereket. Nem találod az ideális csapattagot Budapesten? Semmi gond, <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">nézzél szét más városokban is</a>, vagy akár országokban.</p>
+                            <h3 class="heading-4 has-margin-b15">Magasabb produktivitás</h3>
                             <p>Legtöbb munkaadó ezért nem mer belevágni a távmunkába, mert attól tartanak, hogy az alkalmazottak nem lesznek annyira hatékonyak, mint az irodában.</p>
                             <p>Az tény, hogy nem mindenkinek való a távmunka, de a <a href="https://www.globenewswire.com/news-release/2016/02/08/1019290/0/en/Vodafone-Study-75-Percent-of-Global-Companies-Leverage-Flexible-Working-Policies.html" target="_blank">kutatások</a> azt mutatják, hogy távmunkában, flexibilis időbeosztással a csapatok sokkal produktívabbak.</p>
                             <p class="has-margin-b30">Nem vagyunk mind egyformák. Egyesek reggel működnek jobban, mások éjjeli baglyok. Egy kis extra szervezéssel megoldható, hogy mindenki akkor dolgozzon, amikor a leghatékonyabb.</p>
-                            <h2 class="heading-4 has-margin-b15">Bizalom és hűség</h2>
+                            <h3 class="heading-4 has-margin-b15">Bizalom és hűség</h3>
                             <p>Ha munkaadóként biztosítod csapatodnak azt a szabadságot és flexibilitást, hogy bármivel foglalkozhassanak, amit az élethelyzetük megkíván, de közben megbízol bennük és feljogosítod őket arra, hogy időben és jól végezzék a munkájukat, hosszú távon növeli a lelkesedésüket és lojalitásukat a cégünk iránt.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/what-is-a-remote-team-benefits-for-a-leader.jpg') }}" alt="Egy remote csapat alkalmazásának előnyei a munkaadó számára" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">A kihívások</h2>
                             <p class="has-margin-b60">Eddig minden jónak hangzik, ugye? Igen, azonban egy pozitív vállalati kultúra kiépítése sok energiát követel…</p>
-                            <h2 class="heading-4 has-margin-b15">Önfegyelem hiánya</h2>
+                            <h3 class="heading-4 has-margin-b15">Önfegyelem hiánya</h3>
                             <p class="has-margin-b30">Egy irodában ülni, ahol a kollégák folyton körülötted vannak, önmagában is motiváló lehet. Távmunkában ez a fajta nyomás nem nehezedik a csapatra. Nincs ott senki, aki folyton emlékeztesse őket, hogy el kell végezni egy munkát – saját magukat kell motiválják.</p>
-                            <h2 class="heading-4 has-margin-b15">Work-life balance</h2>
+                            <h3 class="heading-4 has-margin-b15">Work-life balance</h3>
                             <p>Azt már említettük, hogy a távmunka segít egy kiegyensúlyozottabb munka és magánélet közötti viszonyban. De vannak nehézségei is.</p>
                             <p class="has-margin-b30">Ahogy elkezdünk otthonról dolgozni, a munka és magánélet közötti határ elkezd elmosódni. Ha megengedjük a családnak, hogy ugyanúgy megzavarjon, mint egy kolléga az irodában, akkor nem nyertünk semmit. Alakítsunk ki egy megfelelő munkakörnyezetet magunknak.</p>
-                            <h2 class="heading-4 has-margin-b15">Kommunikáció</h2>
+                            <h3 class="heading-4 has-margin-b15">Kommunikáció</h3>
                             <p>Bármennyire is úgy tűnik, hogy a távmunka előnyösebb lehet az irodánál, egy nagy előnye azért van az irodának – az pedig a személyes kommunikáció. Ha bármit meg kell beszélni, akkor egyszerűen átsétálhatunk a kollégánkhoz (amúgy ez a figyelemelterelés az első számú tényező, ami csökkenti az irodai hatékonyságot).</p>
                             <p class="has-margin-b30">A kommunikáció problémájának megoldása lesz a munkaadó legfontosabb feladata egy remote csapatban. A Furthernél is folyamatosan foglalkozunk ezzel a kérdéssel.</p>
-                            <h2 class="heading-4 has-margin-b15">Tudásmegosztás</h2>
+                            <h3 class="heading-4 has-margin-b15">Tudásmegosztás</h3>
                             <p class="has-margin-b30">Irodában könnyű megosztani egy heuréka pillanatot. De távmunkában könnyebb ezeket magunknak megtartani. Munkaadóként fontos, hogy olyan vállalati kultúrát alakítsunk ki, ami támogatja a tudás megosztását.</p>
-                            <h2 class="heading-4 has-margin-b15">Személyes kapcsolatok hiánya</h2>
+                            <h3 class="heading-4 has-margin-b15">Személyes kapcsolatok hiánya</h3>
                             <p>A személyes találkozások teljesen másféle interakciót alakítanak ki egy csapaton belül, amit virtuálisan nem lehet helyettesíteni. Ragadjunk meg minden alkalmat, hogy találkozzon a csapat.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/what-is-a-remote-team-challenges.jpg') }}" alt="A távmunkának, számos előnye mellett, megvannak a sajátos kihívásai." />
                             </figure>
                             <p class="has-margin-t60">Bár láthatod, hogy a remote munkának vannak specifikus kihívásai, de szerintünk legalább ennyi kihívás van egy klasszikus munkahelyen is, irodai környezetben. Mi úgy érezzük, hogy mindent összevetve, a távmunka megoldást jelenthet sok cég számára – olyanok számára is, akik eddig nem merték megtenni ezt a lépést.</p>
-                            <p>Pontosan ebből az okból született cikksorozatunk, amelyben azt mutatjuk be, hogy mik az előnyei és hátrányai a távmunkának, mire érdemes odafigyelned, ha távmunkában gondolkozol, illetve azt, hogy mi magunk hogyan csináljuk!</p>
-
-
-                            {{--
-                            <p class="has-margin-t60">Olvasd el sorozatunk többi cikkét:</p>
-                            <ul class="list has-bullets has-margin-b60">
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">Hogyan vegyünk fel új remote csapattagot?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">Hogyan építsünk remote vállalati kultúrát?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">Működhet-e sikeres távkapcsolat céges környezetben?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'egy-hatekony-stand-up-meeting-anatomiaja']) }}">Egy hátékony stand-up meeting anatómiája</a></li>
-                            </ul>
-
-                            --}}
-
+                            <p class="has-margin-b60">Pontosan ebből az okból született cikksorozatunk, amelyben azt mutatjuk be, hogy mik az előnyei és hátrányai a távmunkának, mire érdemes odafigyelned, ha távmunkában gondolkozol, illetve azt, hogy mi magunk hogyan csináljuk!</p>
+                            <div class="has-text-centered">
+                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">2. rész – Hogyan vegyünk fel új remote csapattagot? &raquo;</a>
+                            </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
                             @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Remote vállalati kultúra 1. rész – Mi is az a remote csapat?'])

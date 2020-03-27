@@ -40,6 +40,10 @@ return [
             'hu' => 'hogyan-valasszuk-ki-a-megfelelo-crm-rendszert',
         ],
         [
+            'en' => 'how-to-hire-remote-talent',
+            'hu' => 'hogyan-vegyunk-fel-uj-remote-csapattagot',
+        ],
+        [
             'en' => 'laraconeu-madrid-2019',
             'hu' => 'laraconeu-madrid-2019',
         ],
@@ -48,16 +52,16 @@ return [
             'hu' => 'uj-kontosben-koszontjuk-a-nyarat',
         ],
         [
+            'en' => 'what-is-a-remote-team-and-is-it-for-you',
+            'hu' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel'
+        ],
+        [
             'en' => 'what-makes-a-good-agile-software-specification',
             'hu' => 'mitol-lesz-jo-egy-agilis-szoftverspecifikacio',
         ],
         [
             'en' => 'when-is-it-time-to-use-a-crm',
             'hu' => 'mikor-hasznaljunk-crm-rendszert',
-        ],
-        [
-            'en' => 'what-is-a-remote-team-and-is-it-for-you',
-            'hu' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel'
         ]
     ],
 

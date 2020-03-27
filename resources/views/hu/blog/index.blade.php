@@ -15,10 +15,20 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}"><img src="{{ asset('media/blog/thumb-remote-corporate-culture-2-hu.png') }}" alt="Hogyan alkalmazzunk egy új remote csapattagot?" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">Hogyan vegyünk fel új remote csapattagot?</a></h3>
+                                <p class="post__excerpt">Ebben a cikkben megmutatjuk, hogyan tanácsos új remote csapattagot alkalmazni és melyek azok a lépések, amellyel segíthetjük a beilleszkedésüket.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">Tovább &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}"><img src="{{ asset('media/blog/thumb-remote-corporate-culture-1-hu.png') }}" alt="Hogyan segíthet egy termelésirányítási szoftver?" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">Mi az a remote csapat (és miért imádjuk a Furthernél?)</a></h3>
-                                <p class="post__excerpt">Ebben a cikkben megmutatjuk, hogy mik az előnyei és hátrányai a távmunkának, mire érdemes odafigyelned, ha távmunkában gondolkozol, illetve azt, hogy mi magunk hogyan csináljuk!</p>
+                                <p class="post__excerpt">Mik az előnyei és hátrányai a távmunkának? Mire érdemes odafigyelned, ha távmunkában gondolkozol? Mi hogyan csináljuk a Furtherél? Mindezt megtudhatod cikkünkből.</p>
                                 <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">Tovább &raquo;</a>
                             </div>
                         </div>
