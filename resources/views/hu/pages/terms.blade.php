@@ -1,6 +1,6 @@
 @extends('hu.site')
 
-@section('title', 'Terms of Use')
+@section('title', 'Felhasználási feltételek')
 
 @section('content')
     <section class="section">

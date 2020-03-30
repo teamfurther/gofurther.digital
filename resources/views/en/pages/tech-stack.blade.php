@@ -1,5 +1,7 @@
 @extends('en.site')
 
+@section('title', 'Tech and tools we know')
+
 @section('content')
     <section class="section">
         <div class="container">

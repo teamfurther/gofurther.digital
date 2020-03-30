@@ -1,6 +1,6 @@
 @extends('hu.site')
 
-@section('title', 'Blog')
+@section('title', 'Blog, cikkek')
 @section('description', 'Gondolatok és írások a Further csapatától. Blogunkban osztunk meg híreket és pillanatokat mindennapjainkról, technológiáról, designról, innovációról és kultúráról.')
 
 @section('content')

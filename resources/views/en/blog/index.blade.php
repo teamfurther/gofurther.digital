@@ -1,6 +1,6 @@
 @extends('en.site')
 
-@section('title', 'Blog')
+@section('title', 'Blog, articles')
 @section('description', 'Thoughts and insights from the Further team. This is where we share news and moments from our life and across technology, design, innovation and culture.')
 
 @section('content')

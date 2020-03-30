@@ -223,7 +223,7 @@
     "inLanguage": "en_gb",
     "keywords": "Wiki software, Wiki, Knowledge center",
     "mainEntityOfPage": "{{ localizedRoute('solutions.wiki') }}",
-    "name": "Custom Wiki Software,
+    "name": "Custom Wiki Software",
     "publisher": {
         "@type": "Corporation",
         "address": {

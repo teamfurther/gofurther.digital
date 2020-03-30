@@ -25,9 +25,9 @@
                                 <div class="job__actions__share social-sharer">
                                     <span>Share job:</span>
                                     <div class="social-icons">
-                                        <a href="http://www.facebook.com/share.php?u={{ localizedRoute('jobs.view', ['slug' => $job->slug]) }}&title=Apply+to+become+a+{{ urlencode($job->title) }}+at+Further" target="_blank"><span class="icon icon--facebook"></span></a>
-                                        <a href="http://twitter.com/intent/tweet?status=Apply+to+become+a+{{ urlencode($job->title) }}+at+Further+{{ localizedRoute('jobs.view', ['slug' => $job->slug]) }}" target="_blank"><span class="icon icon--twitter"></span></a>
-                                        <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ localizedRoute('jobs.view', ['slug' => $job->slug]) }}&title=Apply+to+become+a+{{ urlencode($job->title) }}+at+Further&source={{ localizedRoute('home') }}" target="_blank"><span class="icon icon--linkedin"></span></a>
+                                        <a href="http://www.facebook.com/share.php?u={{ localizedRoute('jobs.view', ['slug' => $job->slug]) }}&title=Apply+to+become+a+{{ urlencode($job->title) }}+at+Further" rel="nofollow" target="_blank"><span class="icon icon--facebook"></span></a>
+                                        <a href="http://twitter.com/intent/tweet?status=Apply+to+become+a+{{ urlencode($job->title) }}+at+Further+{{ localizedRoute('jobs.view', ['slug' => $job->slug]) }}" rel="nofollow" target="_blank"><span class="icon icon--twitter"></span></a>
+                                        <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ localizedRoute('jobs.view', ['slug' => $job->slug]) }}&title=Apply+to+become+a+{{ urlencode($job->title) }}+at+Further&source={{ localizedRoute('home') }}" rel="nofollow" target="_blank"><span class="icon icon--linkedin"></span></a>
                                     </div>
                                 </div>
                                 <a class="job__apply btn is-pearl" data-toggle="modal" data-target="#apply-modal" data-job-title="{{ $job->title }}">Apply for this job</a>

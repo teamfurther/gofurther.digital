@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-custom-development-vs-ootb-1.jpg') }}" srcset="{{ asset('media/blog/featured-custom-development-vs-ootb-769w.jpg') }} 769w" sizes="100vw" alt="Egyedi fejlesztés vagy dobozos szoftver?" />
+        <img src="{{ asset('media/blog/featured-custom-development-vs-ootb.jpg') }}" srcset="{{ asset('media/blog/featured-custom-development-vs-ootb-769w.jpg') }} 769w" sizes="100vw" alt="Egyedi fejlesztés vagy dobozos szoftver?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">

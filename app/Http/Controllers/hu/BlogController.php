@@ -21,6 +21,7 @@ class BlogController extends Controller
      */
     public function view($slug)
     {
+        dd($slug);
         if (!view()->exists(getLang() . '.blog.posts.' . $slug)) {
             abort(404);
         }

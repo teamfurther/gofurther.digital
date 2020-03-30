@@ -1,5 +1,7 @@
 @extends('hu.site')
 
+@section('title', 'Technológiák és eszközök amihez értünk')
+
 @section('content')
     <section class="section">
         <div class="container">
