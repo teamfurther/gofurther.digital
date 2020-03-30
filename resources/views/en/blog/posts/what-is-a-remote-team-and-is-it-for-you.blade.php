@@ -28,6 +28,7 @@
                             <ul class="list has-bullets has-margin-b60">
                                 <li><strong>Pt. 1 – What is a remote team (and is it for you)?</strong></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
                             </ul>
                             <p>At Further we are working as a fully remote team. And we love it.</p>
                             <p>The IT sector sets the trend when it comes to remote work. Start-ups and digital companies often employ remote teams. In our case, we employ 10 people from 7 different cities. But remote work for large companies as well: <a href="https://www.invisionapp.com/" target="_blank">Invision</a> employs 700 people, but doesn’t have one office.</p>
@@ -76,9 +77,9 @@
                             <p class="has-margin-b30">As we start working from home, the lines between work life and personal life start getting blurry. If we allow family to interrupt us the same way we’re getting interrupted in an office, then we’re in the same position, or even worse off. Make sure you set up a dedicated work environment.</p>
                             <h3 class="heading-4 has-margin-b15">Communication</h3>
                             <p>As much as it seems that remote work has more advantages than office work, the office still has a leg up when it comes to personal interaction. Whatever you want to discuss, you can just walk over to your colleague and discuss it (although this kind of disturbance is the number one reason for decreased office productivity).</p>
-                            <p class="has-margin-b30">In a remote environment, solving the communicational challenges is the most important job of an employer. We at Further, constantly review this question in order to improve.</p>
+                            <p class="has-margin-b30">In a remote environment, solving the communicational challenges is the most important job of an employer. We at Further, <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">constantly review this question</a> in order to improve.</p>
                             <h3 class="heading-4 has-margin-b15">Knowledge sharing</h3>
-                            <p class="has-margin-b30">In an office it’s easy to share that eureka moment. But when working remotely, it’s easier to keep these moments to ourselves. As an employer it is important to build a company culture that encourages knowledge sharing.</p>
+                            <p class="has-margin-b30">In an office it’s easy to share that eureka moment. But when working remotely, it’s easier to keep these moments to ourselves. As an employer it is important to <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">build a company culture that encourages knowledge sharing</a>.</p>
                             <h3 class="heading-4 has-margin-b15">Personal relationships</h3>
                             <p>Meeting in person gives a whole other dimension to interactions within a team, that cannot be replaced virtually. We make sure to grab any opportunity to meet.</p>
                             <figure>
@@ -87,7 +88,7 @@
                             <p class="has-margin-t60">It’s obvious that remote work has its challenges, but we believe that working from an office provides just as many. Taking everything into account, we believe that building remote teams could be the way forward for many businesses – even for those that were hesitant to take this step for now.</p>
                             <p>That is the reason why we started this series of articles. We wish to present you with the pros and cons of remote work, what to look out for when working remotely and of course, show you how we do it!</p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent? &raquo;</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent? &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

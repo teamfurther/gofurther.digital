@@ -28,6 +28,7 @@
                             <ul class="list has-bullets has-margin-b60">
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
                                 <li><strong>Pt. 2 – How to hire remote talent?</strong></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
                             </ul>
                             <p>In our previous article, we spoke about <a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">the advantages and challenges</a> of working as a remote team. At Further we are 100% remote, and couldn’t even imagine working in a different way.</p>
                             <p>Although working remotely is great, it’s also true that it is not suitable for everyone. In an office, the proximity of your colleagues can be motivating on it’s own. You don’t have that when working remotely. So your team will need to be extremely self-disciplined to resist the temptation to binge-watch all 30+ seasons of The Simpsons.</p>
@@ -92,8 +93,8 @@
                             <p class="has-margin-b60">Tell the candidates what the expectations are, how the team is structured, the type of projects they’re going to work on and the payment terms. Make sure these are clear early on, the sooner in the hiring process, the better. We do this in the interview phase already. When it comes to remote work, holidays and the question of working hours is not always clear, because they’re often very flexible. If they aren’t, make sure you’re transparent about it.</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li><strong>Don’t skip skill assessment completely</strong></li>
-                                <li><strong>Invite the candidate to a paid trial period</strong><</li>
-                                <li><strong>Be transparent about expectations</strong><</li>
+                                <li><strong>Invite the candidate to a paid trial period</strong></li>
+                                <li><strong>Be transparent about expectations</strong></li>
                             </ul>
                             <p>At Further, we prefer regular business hours, but you don’t have to stick to these if it doesn’t influence your work. Nevertheless, it is mandatory to participate in the morning stand-up meetings.</p>
                             <p>As for holidays, we don’t have a limit on how many holidays a person can take. In case of longer vacations though, it is expected that the rest of the team is notified at least 1 month in advance, to allow time for preparations. We make sure to explain these details as early as the first interview.</p>
@@ -113,7 +114,8 @@
                             <p>Always pay attention, that your new colleague has something to work on immediately, however small that task may be. This gives them a sense of accomplishment early on, and they’ll be able to pick up the tempo from there. They won’t have time to question what they’re actually doing alone in a room.</p>
                             <p class="has-margin-b60">This is especially important for people who have never worked remotely before. Later on, this won’t be an issue anymore. Once they get a taste of working remotely, they won’t ever look back.</p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">&laquo; Pt. 1 – What is a remote team (and is it for you)?</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">&laquo; Pt. 1 – What is a remote team?</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – Remote company culture? &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

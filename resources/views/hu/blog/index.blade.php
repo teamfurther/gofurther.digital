@@ -15,6 +15,16 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}"><img src="{{ asset('media/blog/thumb-remote-corporate-culture-3-hu.png') }}" alt="Vállalati Kultúra: Hogyan építsünk remote vállalati kultúrát" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">Hogyan építsünk remote vállalati kultúrát?</a></h3>
+                                <p class="post__excerpt">Miért olyan fontos a jó vállalati kultúra és hogyan alakíthatod ki ezt egy remote vállalat keretein belül? Ismerd meg milyen trükköket és technikákat alkalmazunk a Furthernél céges kultúra építésre.</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">Tovább &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}"><img src="{{ asset('media/blog/thumb-remote-corporate-culture-2-hu.png') }}" alt="Hogyan alkalmazzunk egy új remote csapattagot?" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">Hogyan vegyünk fel új remote csapattagot?</a></h3>

@@ -57,7 +57,7 @@
                             <p class="has-margin-b60">Keep on the lookout for where you can use IoT in production flow monitoring, remote equipment management, energy management, waster management, aggregate customer and product data and equipment diagnostics.</p>
                             <p class="has-margin-b60"><em>If you enjoyed our series on digital transformation, <a href="{{ url('#contact') }}">get in touch</a>. We're always willing to chat about this topic.</em></p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}">&laquo; Pt. 3 - Business Processes</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}">&laquo; Pt. 3 - Business Processes</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

@@ -44,7 +44,7 @@
                             <p>Their downfall wasn't because they didn't try to develop new technology. The prototype for the first ever digital camera was created in 1975 by Steve Sasson, an engineer who worked for&hellip; Kodak. In a <a href="http://www.nytimes.com/2008/05/02/technology/02kodak.html" target="_blank">2008 interview</a> for The New York Times he told that the Kodak management's reaction was: "that's cute – but don't tell anyone about it".</p>
                             <p class="has-margin-b60">It's clear that Kodak's downfall wasn't because of technology. It was because they were blinded by their own success and didn't take into account the ever changing digital world we live in. They weren't prepared for change.</p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt2-company-culture']) }}">Pt. 2 - Company Culture &raquo;</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt2-company-culture']) }}">Pt. 2 - Company Culture &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

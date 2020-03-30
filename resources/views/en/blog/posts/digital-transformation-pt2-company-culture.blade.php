@@ -44,8 +44,8 @@
                             <p>Radical change often means reshaping teams, changing job titles and longtime business processes. Because of this, people will fear that the value they bring and even their jobs is at risk.</p>
                             <p class="has-margin-b60">It comes down to the leadership to make sure this doesn't happen. They have to be empathetic towards their teams, listen to and document their issues and make consistent efforts to address these issues. In the long run, this empathy will breed trust, and there will be less push-back when implementing change.</p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}">&laquo; Pt. 1 - Introduction</a>
-                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}">Pt. 3 - Business Processes &raquo; </a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}">&laquo; Pt. 1 - Introduction</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}">Pt. 3 - Business Processes &raquo; </a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

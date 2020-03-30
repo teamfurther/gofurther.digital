@@ -28,6 +28,7 @@
                             <ul class="list has-bullets has-margin-b60">
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">1. rész – Mi az a remote csapat (és miért imádjuk a Furthernél)?</a></li>
                                 <li><strong>2. rész – Hogyan vegyünk fel új remote csapattagot?</strong></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Hogyan építsünk remote vállalati kultúrát?</a></li>
                             </ul>
                             <p>Előző cikkünkben megmutattuk, hogy milyen <a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">előnyökkel és hátrányokkal</a> jár egy olyan csapatot működtetni, amely részben vagy teljesen távmunkában dolgozik. Mi a Furthernél 100%-ban távoli csapatként működünk, és el sem tudjuk képzelni, hogy ez másként legyen.</p>
                             <p>Ugyanakkor kétségkívül igaz az az állítás, miszerint a távmunka nem mindenkinek való. Távmunkában nincsenek kollégák mellettünk, akik puszta jelenlétükkel motiválóak tudnak lenni. Ezért csapatunknak átlagon felüli önfegyelemre lesz szüksége, hogy ne a sötét szobában nézzék a Netflixet naphosszat.</p>
@@ -112,7 +113,8 @@
                             <p>Mindig figyelj oda, hogy az új kollégának már az első napon legyen feladata, bármilyen apró feladat az. Így hamar sikerélménye lesz és felveszi a munka ritmusát. Nem marad ideje megkérdőjelezni, hogy mit keres egyedül egy szobában.</p>
                             <p class="has-margin-b60">Ez főleg azoknál a kollégáknál fontos, akik még sosem dolgoztak távmunkában. Később már nem jelent ez problémát, ha egyszer ráéreztek a távmunka ízére, nem is fog már felmerülni az irodai munka kérdése.</p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">&laquo; 1. rész – Mi az a remote csapat (és miért imádjuk a Furthernél)?</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">&laquo; 1. rész – Mi az a remote csapat?</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Remote vállalati kultúra &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

@@ -62,6 +62,10 @@ return [
         [
             'en' => 'when-is-it-time-to-use-a-crm',
             'hu' => 'mikor-hasznaljunk-crm-rendszert',
+        ],
+        [
+            'en' => 'how-to-build-a-remote-company-culture',
+            'hu' => 'hogyan-epitsunk-remote-vallalati-kulturat',
         ]
     ],
 
