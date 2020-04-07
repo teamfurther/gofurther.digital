@@ -54,6 +54,10 @@ return [
         [
             'en' => 'when-is-it-time-to-use-a-crm',
             'hu' => 'mikor-hasznaljunk-crm-rendszert',
+        ],
+        [
+            'en' => 'long-distance-relationship-in-a-corporate-environment',
+            'hu' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben',
         ]
     ],
 
