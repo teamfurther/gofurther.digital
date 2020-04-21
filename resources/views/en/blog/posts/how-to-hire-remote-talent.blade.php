@@ -29,6 +29,7 @@
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
                                 <li><strong>Pt. 2 – How to hire remote talent?</strong></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
                             </ul>
                             <p>In our previous article, we spoke about <a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">the advantages and challenges</a> of working as a remote team. At Further we are 100% remote, and couldn’t even imagine working in a different way.</p>
                             <p>Although working remotely is great, it’s also true that it is not suitable for everyone. In an office, the proximity of your colleagues can be motivating on it’s own. You don’t have that when working remotely. So your team will need to be extremely self-disciplined to resist the temptation to binge-watch all 30+ seasons of The Simpsons.</p>

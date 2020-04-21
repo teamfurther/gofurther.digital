@@ -29,6 +29,7 @@
                                 <li><strong>Pt. 1 – What is a remote team (and is it for you)?</strong></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
                             </ul>
                             <p>At Further we are working as a fully remote team. And we love it.</p>
                             <p>The IT sector sets the trend when it comes to remote work. Start-ups and digital companies often employ remote teams. In our case, we employ 10 people from 7 different cities. But remote work for large companies as well: <a href="https://www.invisionapp.com/" target="_blank">Invision</a> employs 700 people, but doesn’t have one office.</p>
@@ -71,10 +72,10 @@
                             <h2 class="heading-2 has-margin-b30">The challenges</h2>
                             <p class="has-margin-b60">Based on the above you might be thinking of jumping right on board the remote train. Although it all sounds good, building a positive remote culture also has a lot of challenges.</p>
                             <h3 class="heading-4 has-margin-b15">Self-discipline</h3>
-                            <p class="has-margin-b30">Working from an office, where you’re surrounded by colleagues can be motivating on its own. When working remotely, you don’t experience this kind of peer-pressure. There’s nobody there to remind you of the tasks at hand – you have to motivate yourself.</p>
+                            <p class="has-margin-b30">Working from an office, where you’re surrounded by colleagues can be motivating on its own. When working remotely, you don’t experience this kind of peer-pressure. There’s nobody there to remind you of the tasks at hand – <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">you have to motivate yourself</a>.</p>
                             <h3 class="heading-4 has-margin-b15">Work-life balance</h3>
                             <p>We already said that remote work leads to a better work-life balance. But it also has its downsides.</p>
-                            <p class="has-margin-b30">As we start working from home, the lines between work life and personal life start getting blurry. If we allow family to interrupt us the same way we’re getting interrupted in an office, then we’re in the same position, or even worse off. Make sure you set up a dedicated work environment.</p>
+                            <p class="has-margin-b30">As we start working from home, the lines between work life and personal life start getting blurry. If we allow family to interrupt us the same way we’re getting interrupted in an office, then we’re in the same position, or even worse off. <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Make sure you set up a dedicated work environment</a>.</p>
                             <h3 class="heading-4 has-margin-b15">Communication</h3>
                             <p>As much as it seems that remote work has more advantages than office work, the office still has a leg up when it comes to personal interaction. Whatever you want to discuss, you can just walk over to your colleague and discuss it (although this kind of disturbance is the number one reason for decreased office productivity).</p>
                             <p class="has-margin-b30">In a remote environment, solving the communicational challenges is the most important job of an employer. We at Further, <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">constantly review this question</a> in order to improve.</p>

@@ -66,6 +66,10 @@ return [
         [
             'en' => 'how-to-build-a-remote-company-culture',
             'hu' => 'hogyan-epitsunk-remote-vallalati-kulturat',
+        ],
+        [
+            'en' => 'how-to-stay-motivated-when-you-work-remotely',
+            'hu' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk',
         ]
     ],
 

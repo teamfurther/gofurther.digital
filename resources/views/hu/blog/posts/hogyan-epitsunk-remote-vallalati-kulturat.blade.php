@@ -29,6 +29,7 @@
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">1. rész – Mi az a remote csapat (és miért imádjuk a Furthernél)?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">2. rész – Hogyan vegyünk fel új remote csapattagot?</a></li>
                                 <li><strong>3. rész – Hogyan építsünk remote vállalati kultúrát?</strong></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
                             </ul>
                             <p>A céges kultúra sokkal többet jelent, mint egy pár csocsó asztal az irodában. A céges kultúra jelenti azt, hogy hogyan dolgozunk, ahogy az ügyfelekkel kommunikálunk, de azt is ahogy egymással kapcsolódunk.</p>
                             <figure>
@@ -77,7 +78,7 @@
                             </figure>
                             <h2 class="heading-2 has-margin-b60">Bizalom</h2>
                             <h3 class="heading-4 has-margin-b15">Elengedés</h3>
-                            <p>Remote környezetben a bizalom rendkívül fontos. Sok időt fektettél abba, hogy önálló munkára képes embereket alkalmazzál, ezért a legrosszabb dolog, amit tehetsz, hogy minden részletét felügyelni próbálod a munkájuknak.</p>
+                            <p>Remote környezetben a bizalom rendkívül fontos. Sok időt fektettél abba, hogy <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">önálló munkára képes embereket alkalmazzál</a>, ezért a legrosszabb dolog, amit tehetsz, hogy minden részletét felügyelni próbálod a munkájuknak.</p>
                             <p class="has-margin-b30">Ahelyett, hogy ellenőrzöd minden lépésüket, szánj inkább időt arra, hogy megadd nekik a megfelelő struktúrát és kommunikációs eszközöket a munkájuk elvégzéséhez.</p>
                             <h3 class="heading-4 has-margin-b15">Munkaidő</h3>
                             <p>Az egyik leggyakrabban felmerülő félelem a távmunkával szemben az, hogy mi van, ha a kollégák nem töltik ki a munkaidejüket. A Furthernél csak azért mérjük az időt, amit ledolgozunk, mert annak alapján készülnek majd el a riportok az ügyfeleknek.</p>
@@ -96,6 +97,7 @@
                             <p>A csapatépítőkön sokat megtudhattok egymásról, a szenvedélyeitekről és egymás mozgató rugóitokról. Ezért ragadjátok meg az alkalmat, hogy minél gyakrabban találkozzatok személyesen is! A csapatépítőkön kívül jó alkalom lehet személyes találkozásokra az is, ha közösen eljártok konferenciákra vagy meetupokra.</p>
                             <div class="has-text-centered has-margin-t60">
                                 <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}" class="btn is-pearl has-margin-b15">« 2. rész – Hogyan vegyünk fel új remote csapattagot?</a>
+                                <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}" class="btn is-pearl has-margin-b15">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk? &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

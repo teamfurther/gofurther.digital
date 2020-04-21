@@ -1,10 +1,10 @@
 @section('title', 'How to build a remote company culture')
 @section('description', 'Why is a good corporate culture so important and how you can achieve it within a remote company?')
-@section('preview_image', asset('media/blog/cover-remote-corporate-culture-3-en.jpg'))
+@section('preview_image', asset('media/blog/cover-remote-corporate-culture-3-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-remote-corporate-culture-3-en.jpg') }}" srcset="{{ asset('media/blog/featured-remote-corporate-culture-3-769w-en.png') }} 769w" sizes="100vw" alt="How to build a remote company culture" />
+        <img src="{{ asset('media/blog/featured-remote-corporate-culture-3-en.png') }}" srcset="{{ asset('media/blog/featured-remote-corporate-culture-3-769w-en.png') }} 769w" sizes="100vw" alt="How to build a remote company culture" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -29,6 +29,7 @@
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
                                 <li><strong>Pt. 3 – How to build a remote company culture?</strong></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
                             </ul>
                             <p class="has-margin-b30">Company culture is much more than a couple of foosball tables in the office. Company culture is about how you work, how you communicate with your clients, but also about how you connect with the rest of the team.</p>
                             <figure>
@@ -96,6 +97,7 @@
                             <p>Team building activities help you get to know each other better, what excites and motivates you each in part. Grab every opportunity to meet in person. Apart from team buildings, a good way to meet is attending conferences and meetups.</p>
                             <div class="has-text-centered has-margin-t60">
                                 <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}" class="btn is-pearl has-margin-b15">« Pt. 2 – How to hire remote talent?</a>
+                                <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}" class="btn is-pearl has-margin-b15">Pt. 4 – How to stay motivated when you work remotely? &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
@@ -160,7 +162,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-remote-corporate-culture-3-en.jpg') }}"
+        "url": "{{ asset('media/blog/cover-remote-corporate-culture-3-en.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Remote team, Remote corporate culture, Remote work, Team, Team building,",

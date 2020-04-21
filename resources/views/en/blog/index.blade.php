@@ -15,6 +15,16 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}"><img src="{{ asset('media/blog/thumb-remote-corporate-culture-4-en.png') }}" alt="How to stay motivated when you work remotely?" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">How to stay motivated when you work remotely?</a></h3>
+                                <p class="post__excerpt">One of the biggest challenges of working from home is losing motivation. What can we do on our part to regain our initial enthusiasm?</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Read on &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-full-tablet is-half-widescreen">
+                            <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}"><img src="{{ asset('media/blog/thumb-remote-corporate-culture-3-en.png') }}" alt="How to build a remote company culture?" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">How to build a remote company culture?</a></h3>

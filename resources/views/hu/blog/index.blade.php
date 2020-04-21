@@ -15,6 +15,16 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}"><img src="{{ asset('media/blog/thumb-remote-corporate-culture-4-hu.png') }}" alt="Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?" /></a>
+                            <div class="post__content">
+                                <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></h3>
+                                <p class="post__excerpt">Az otthoni munka iránti elhivatottság egy idő után jellemzően alábbhagy. Mit tehetünk azért, hogy visszanyerjük a kezdeti lelkesedésünket?</p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">Tovább &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-full-tablet is-half-widescreen">
+                            <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}"><img src="{{ asset('media/blog/thumb-remote-corporate-culture-3-hu.png') }}" alt="Vállalati Kultúra: Hogyan építsünk remote vállalati kultúrát" /></a>
                             <div class="post__content">
                                 <h3 class="post__title"><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">Hogyan építsünk remote vállalati kultúrát?</a></h3>

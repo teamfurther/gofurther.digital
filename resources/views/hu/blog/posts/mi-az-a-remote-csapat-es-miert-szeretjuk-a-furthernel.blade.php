@@ -29,6 +29,7 @@
                                 <li><strong>1. rész – Mi az a remote csapat (és miért imádjuk a Furthernél)?</strong></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">2. rész – Hogyan vegyünk fel új remote csapattagot?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Hogyan építsünk remote vállalati kultúrát?</a></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
                             </ul>
                             <p>A Furthernél 100%-ban remote (távoli) csapatként működünk. És imádjuk.</p>
                             <p>Az IT szektor úttörő ilyen szempontból. Start-up cégek és digitális vállalkozások esetében gyakran találkozhatunk remote csapatokkal. A mi esetünkben 7 különböző városban van 10 kollégánk. De nem csak kisebb cégek esetén jöhet szóba a remote csapat: az <a href="https://www.invisionapp.com/" target="_blank">Invision</a> 700 embert alkalmaz, de nincs egyetlen irodája sem.</p>
@@ -71,10 +72,10 @@
                             <h2 class="heading-2 has-margin-b30">A kihívások</h2>
                             <p class="has-margin-b60">Eddig minden jónak hangzik, ugye? Igen, azonban egy pozitív vállalati kultúra kiépítése sok energiát követel…</p>
                             <h3 class="heading-4 has-margin-b15">Önfegyelem hiánya</h3>
-                            <p class="has-margin-b30">Egy irodában ülni, ahol a kollégák folyton körülötted vannak, önmagában is motiváló lehet. Távmunkában ez a fajta nyomás nem nehezedik a csapatra. Nincs ott senki, aki folyton emlékeztesse őket, hogy el kell végezni egy munkát – saját magukat kell motiválják.</p>
+                            <p class="has-margin-b30">Egy irodában ülni, ahol a kollégák folyton körülötted vannak, önmagában is motiváló lehet. Távmunkában ez a fajta nyomás nem nehezedik a csapatra. Nincs ott senki, aki folyton emlékeztesse őket, hogy el kell végezni egy munkát – <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">saját magukat kell motiválják</a>.</p>
                             <h3 class="heading-4 has-margin-b15">Work-life balance</h3>
                             <p>Azt már említettük, hogy a távmunka segít egy kiegyensúlyozottabb munka és magánélet közötti viszonyban. De vannak nehézségei is.</p>
-                            <p class="has-margin-b30">Ahogy elkezdünk otthonról dolgozni, a munka és magánélet közötti határ elkezd elmosódni. Ha megengedjük a családnak, hogy ugyanúgy megzavarjon, mint egy kolléga az irodában, akkor nem nyertünk semmit. Alakítsunk ki egy megfelelő munkakörnyezetet magunknak.</p>
+                            <p class="has-margin-b30">Ahogy elkezdünk otthonról dolgozni, a munka és magánélet közötti határ elkezd elmosódni. Ha megengedjük a családnak, hogy ugyanúgy megzavarjon, mint egy kolléga az irodában, akkor nem nyertünk semmit. <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">Alakítsunk ki egy megfelelő munkakörnyezetet magunknak</a>.</p>
                             <h3 class="heading-4 has-margin-b15">Kommunikáció</h3>
                             <p>Bármennyire is úgy tűnik, hogy a távmunka előnyösebb lehet az irodánál, egy nagy előnye azért van az irodának – az pedig a személyes kommunikáció. Ha bármit meg kell beszélni, akkor egyszerűen átsétálhatunk a kollégánkhoz (amúgy ez a figyelemelterelés az első számú tényező, ami csökkenti az irodai hatékonyságot).</p>
                             <p class="has-margin-b30">A kommunikáció problémájának megoldása lesz a munkaadó legfontosabb feladata egy remote csapatban. A Furthernél is <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">folyamatosan foglalkozunk ezzel a kérdéssel</a>.</p>
