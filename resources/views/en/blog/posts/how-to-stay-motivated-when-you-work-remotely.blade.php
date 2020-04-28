@@ -30,6 +30,7 @@
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
                                 <li><strong>Pt. 4 – How to stay motivated when you work remotely?</strong></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a long-distance relationship work in a corporate environment?</a></li>
                             </ul>
                             <p>Nowadays, IT is one of the few sectors that gives you full freedom to work outside of the office. Whether it's your own apartment or a café, you can easily do your daily business anywhere, all you need is a laptop and internet access.</p>
                             <p>Aside from the <a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">considerable benefits</a>, unfortunately, a home office has its own set of challenges. Perhaps one of the biggest challenges of working from home is losing or missing motivation. This can have a serious impact on our efficiency, it can make us unhappy and also affect our colleagues.</p>
@@ -59,7 +60,7 @@
                                 <img src="{{ asset('media/blog/get-up-early.jpg') }}" alt="There are many benefits of getting up early" />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Get up earlier</h3>
-                            <p>Getting up early is difficult enough when you need to get to the office every day. You’d rather just hit the snooze button. However, if you work from home and are not on a fixed schedule, you often feel too lazy to get out of bed. If you want to stay motivated, set a specific time and try to keep up with it every day!</p>
+                            <p>Getting up early is difficult enough when you need to get to the office every day. You'd rather just hit the snooze button. However, if you work from home and are not on a fixed schedule, you often feel too lazy to get out of bed. If you want to stay motivated, set a specific time and try to keep up with it every day!</p>
                             <p class="has-margin-b30">It is important to mention that we are not all the same, many are active in the morning and others are night owls. Find out when you are most productive, when you can focus best.</p>
                             <h3 class="heading-4 has-margin-b15">Draw the line between work and private life</h3>
                             <p>The 8-hour working day can be easily extended in the home office. Often team leaders are unaware of the amount of work behind your performance, so it will be less impressive to see what kind of work you do.</p>
@@ -73,6 +74,7 @@
                             <p class="has-margin-t60">As you can see, motivation is a very complex thing, especially as a member of a remote team. It is difficult to strike a balance between freedom and flexibility, self-discipline and focus in order to feel successful and productive. As an employee it is primarily our own thoughts and feelings that can solve our problems and motivate ourselves.</p>
                             <div class="has-text-centered has-margin-t60">
                                 <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}" class="btn is-pearl has-margin-b15">« Pt. 3 – How to build a remote company culture?</a>
+                                <a href="{{ localizedRoute('blog.view', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}" class="btn is-pearl has-margin-b15">Pt. 5 – Can a long-distance relationship work in a corporate environment? &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

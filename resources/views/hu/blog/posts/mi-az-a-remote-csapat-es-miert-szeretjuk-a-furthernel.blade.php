@@ -30,6 +30,7 @@
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">2. rész – Hogyan vegyünk fel új remote csapattagot?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Hogyan építsünk remote vállalati kultúrát?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">5. rész – Működhet-e sikeres távkapcsolat egy céges környezetben?</a></li>
                             </ul>
                             <p>A Furthernél 100%-ban remote (távoli) csapatként működünk. És imádjuk.</p>
                             <p>Az IT szektor úttörő ilyen szempontból. Start-up cégek és digitális vállalkozások esetében gyakran találkozhatunk remote csapatokkal. A mi esetünkben 7 különböző városban van 10 kollégánk. De nem csak kisebb cégek esetén jöhet szóba a remote csapat: az <a href="https://www.invisionapp.com/" target="_blank">Invision</a> 700 embert alkalmaz, de nincs egyetlen irodája sem.</p>

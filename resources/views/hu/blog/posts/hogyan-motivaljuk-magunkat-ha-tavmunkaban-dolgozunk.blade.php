@@ -30,6 +30,7 @@
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">2. rész – Hogyan vegyünk fel új remote csapattagot?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Hogyan építsünk remote vállalati kultúrát?</a></li>
                                 <li><strong>4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</strong></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">5. rész – Működhet-e sikeres távkapcsolat egy céges környezetben?</a></li>
                             </ul>
                             <p>Napjainkban az IT szektor néhány olyan területek egyike, amely teljes szabadságot nyújt az irodán kívüli munkához. Legyen szó a saját lakásodról, vagy épp egy kávézóról, bárhonnan könnyedén elvégezheted a napi teendőideet, csak egy laptopra és internet hozzáférésre van szükséged.</p>
                             <p>A <a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">számottevő előnye mellett</a>, sajnos a home office-nak is megvannak a maga kihívásai, könnyen szembe találhatjuk magunkat a kényelem okozta hátráltató tényezőkkel. Az otthoni munka talán egyik legnagyobb kihívása a motiváció elvesztése vagy hiánya. Ez súlyos hatással lehet a hatékonyságunkra, boldogtalanokká válunk és ez a kollégákra is demotiválóan hathat.</p>
@@ -73,6 +74,7 @@
                             <p class="has-margin-t60">Amint láthatod, a motiváció egy rendkívül összetett dolog, különösen egy remote csapat tagjaként. Nehéz megtalálni az egyensúlyt szabadság és rugalmasság, önfegyelem és fókusz között ahhoz, hogy sikeresnek és eredményesnek érezzük magunkat. Mint munkavállaló, elsősorban saját gondolatainkon és érzéseinken keresztül van módunk problémáink megoldására és önmagunk motiválására.</p>
                             <div class="has-text-centered has-margin-t60">
                                 <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}" class="btn is-pearl has-margin-b15">« 3. rész – Hogyan építsünk remote vállalati kultúrát?</a>
+                                <a href="{{ localizedRoute('blog.view', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}" class="btn is-pearl has-margin-b15">5. rész – Működhet-e sikeres távkapcsolat egy céges környezetben? &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

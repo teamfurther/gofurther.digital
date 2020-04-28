@@ -30,6 +30,7 @@
                                 <li><strong>2. rész – Hogyan vegyünk fel új remote csapattagot?</strong></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Hogyan építsünk remote vállalati kultúrát?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
+                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">5. rész – Működhet-e sikeres távkapcsolat egy céges környezetben?</a></li>
                             </ul>
                             <p>Előző cikkünkben megmutattuk, hogy milyen <a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">előnyökkel és hátrányokkal</a> jár egy olyan csapatot működtetni, amely részben vagy teljesen távmunkában dolgozik. Mi a Furthernél 100%-ban távoli csapatként működünk, és el sem tudjuk képzelni, hogy ez másként legyen.</p>
                             <p>Ugyanakkor kétségkívül igaz az az állítás, miszerint a távmunka nem mindenkinek való. Távmunkában nincsenek kollégák mellettünk, akik puszta jelenlétükkel motiválóak tudnak lenni. Ezért csapatunknak átlagon felüli önfegyelemre lesz szüksége, hogy ne a sötét szobában nézzék a Netflixet naphosszat.</p>

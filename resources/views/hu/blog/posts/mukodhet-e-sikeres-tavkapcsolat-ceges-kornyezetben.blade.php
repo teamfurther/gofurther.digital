@@ -1,5 +1,5 @@
 @section('title', 'Áthidalható-e a földrajzi távolság egy remote csapat életében?')
-@section('description', 'Ebben a cikkben megmutatjuk, hogy mitől válik egy remote csapat igazán összetartó csapattá és mi hogyan járulunk hozzá a sikeres céges távkapcsolat kialakításához.')
+@section('description', 'Mitől válik egy remote csapat igazán összetartó csapattá és hogyan járulhatunk hozzá a sikeres céges távkapcsolat kialakításához?')
 @section('preview_image', asset('media/blog/cover-remote-corporate-culture-5-hu.png'))
 
 @section('content')
@@ -24,7 +24,7 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p class="has-margin-t60">Olvasd el sorozatunk többi cikkét:</p>
+                            <p>Olvasd el sorozatunk többi cikkét:</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">1. rész – Mi az a remote csapat (és miért imádjuk a Furthernél)?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">2. rész – Hogyan vegyünk fel új remote csapattagot?</a></li>
@@ -35,7 +35,7 @@
                             <p>Egy <a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">előző cikkben</a> bemutattuk a remote munka számos előnyét és a buktatóit is. Most lássuk mitől válik egy remote csapat igazán összetartó csapattá.</p>
                             <p>Az erős vállalati kultúrát gyakran figyelmen kívül hagyják, függetlenül attól, hogy fizikai vagy virtuális irodáról van szó. Egy cég olyan emberek egységéből tevődik össze, akik nagyobb célok-javak érdekében dolgoznak. Minél nagyobb a kollégák közötti összhang, annál könnyebben megy a közös munka.</p>
                             <p>Nincs olyan vállalkozás, amely erős munkavállalói elkötelezettség és <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">belső kultúra alapja</a> nélkül növekedni tudna. Az alkalmazottaknak kényelmesen és magabiztosan kell érezniük magukat a pozitív vállalati kultúra kialakulásához.</p>
-                            <p class="has-margin-t60 has-margin-b60 heading-3">Íme néhány tipp a sikeres céges távkapcsolat kialakításához.</p>
+                            <p class="has-margin-t60 has-margin-b60 heading-3">Íme néhány tipp a sikeres céges távkapcsolat kialakításához:</p>
                             <h3 class="heading-4 has-margin-b15">Semmi nem helyettesíti a személyes találkozást</h3>
                             <p>A home office egyik hátulütője a személyes találkozók hiánya. A négyszemközti beszélgetéseket felváltják az e-mailek, telefonhívások, chat beszélgetések, ahol a nonverbális jelek hiánya miatt nehezebben értelmezhetőek az üzenetek. A levelek amiket mások felé küldünk nem mindig érnek úgy célba ahogy azt mi szeretnénk. A befogadó sokszor máshogy kódolja az információkat így rendkívül gyakoriak a kommunikációs félreértések.</p>
                             <p>A személyes találkozások és a minőségi idő eltöltése a csapattal felbecsülhetetlen értékű számunkra. A kötelékek, amelyeket a személyes beszélgetések során jönnek létre, erősek és tudatosan dolgozunk a fejlesztésükön egész évben. A szemtől szembeni beszélgetések során jobban megértjük a másik személy gondolkodását. Ezek a személyesen eltöltött időszakok rendkívül hasznosnak bizonyulnak majd a virtuális térben is.</p>
@@ -137,7 +137,7 @@
     },
     "datePublished": "2020-01-27T12:00:00",
     "dateModified": "2020-01-27T12:00:00",
-    "description": "Ebben a cikkben megmutatjuk, hogy mitől válik egy remote csapat igazán összetartó csapattá és mi hogyan járulunk hozzá a sikeres céges távkapcsolat kialakításához.",
+    "description": "Mitől válik egy remote csapat igazán összetartó csapattá és hogyan járulhatunk hozzá a sikeres céges távkapcsolat kialakításához?",
     "headline": "Áthidalható-e a földrajzi távolság egy remote csapat életében?",
     "image": {
         "@type": "ImageObject",

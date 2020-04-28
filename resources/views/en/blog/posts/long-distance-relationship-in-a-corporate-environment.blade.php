@@ -1,5 +1,5 @@
 @section('title', 'Bridging the distance gap with remote employees')
-@section('description', 'In this article, we’ll show you what makes a remote team a truly cohesive team and how we contribute to building a successful remote corporate culture.')
+@section('description', 'What makes a remote team a truly cohesive team and how can we contribute to building a successful remote corporate culture?')
 @section('preview_image', asset('media/blog/cover-remote-corporate-culture-5-en.png'))
 
 @section('content')
@@ -24,20 +24,20 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p class="has-margin-t60">We hope you liked this article about remote work. Browse the other articles of the series:</p>
+                            <p>We hope you liked this article about remote work. Browse the other articles of the series:</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
                                 <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
-                                <li><strong>Pt. 4 – Can a long-distance relationship work in a corporate environment?</strong></li>
+                                <li><strong>Pt. 5 – Can a long-distance relationship work in a corporate environment?</strong></li>
                             </ul>
                             <p>In our <a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">previous article,</a> we have outlined the many benefits and pitfalls of remote work. Now, let's see what makes a remote team, a truly cohesive team.</p>
                             <p>A strong corporate culture is often ignored, whether it is a physical or virtual office. A company is made up of people who work for greater goals and good. The greater the consistency between colleagues, the easier it is to work together.</p>
                             <p>There is no business that can grow without strong employee commitment and <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">internal culture. </a> Employees need to feel comfortable and confident in building a positive corporate culture.</p>
-                            <p class="has-margin-t60 has-margin-b60 heading-3">Here are some tips for building successful remote company connections.</p>
+                            <p class="has-margin-t60 has-margin-b60 heading-3">Here are some tips for building successful remote company connections:</p>
                             <h3 class="heading-4 has-margin-b15">Nothing replaces face-to-face communication</h3>
-                            <p>One of the drawbacks of home office is the lack of personal meetings. 1-on-1 conversations are replaced by e-mails, phone calls, and chat conversations, where messages are more difficult to interpret due to the lack of nonverbal signals. The messages we send to others do not always reach the destination we want. The recipient often encodes the information in a different way, so misunderstandings are very common.</p>
+                            <p>One of the drawbacks of home office is the lack of personal meetings. face-to-face conversations are replaced by e-mails, phone calls, and chat conversations, where messages are more difficult to interpret due to the lack of nonverbal signals. The messages we send to others do not always reach the destination we want. The recipient often encodes the information in a different way, so misunderstandings are very common.</p>
                             <p>Personal meetings and quality time with the team are invaluable to us. The bonds that come from personal conversations are strong and we work hard to develop them throughout the year. In face-to-face conversations, we understand the other person's thinking better. This time spent together is going to prove extremely useful in cyberspace later on.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/stand-up-meeting.jpg') }}" alt="The morning meetings are built into the everyday life of our company" />
@@ -137,7 +137,7 @@
     },
     "datePublished": "2020-01-27T12:00:00",
     "dateModified": "2020-01-27T12:00:00",
-    "description": "In this article, we’ll show you what makes a remote team a truly cohesive team and how we contribute to building a successful remote corporate culture.",
+    "description": "What makes a remote team a truly cohesive team and how can we contribute to building a successful remote corporate culture?",
     "headline": "Bridging the distance gap with remote employees",
     "image": {
         "@type": "ImageObject",
