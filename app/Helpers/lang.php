@@ -56,7 +56,7 @@ if (!function_exists('setLang')) {
 if (!function_exists('routeMappingLookup')) {
     function routeMappingLookup($key, $slug, $targetLang)
     {
-        $array = config('routeMapping.' . $key);
+        $array = config('route-mapping.' . $key);
         $currentLang = app()->getLocale();
 
         $resultKey = array_search($slug, array_column($array, $currentLang));
