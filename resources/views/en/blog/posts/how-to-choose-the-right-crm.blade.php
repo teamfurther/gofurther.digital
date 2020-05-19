@@ -24,7 +24,7 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p class="has-margin-b60">In our <a href="{{ localizedRoute('blog.view', ['slug' => 'when-is-it-time-to-use-a-crm']) }}">last post</a> we showed you when the right time comes to start using a CRM. This time, we'll write about all the things you need to take into consideration when choosing the CRM for your business.</p>
+                            <p class="has-margin-b60">In our <a href="{{ localizedRoute('blog.show', ['slug' => 'when-is-it-time-to-use-a-crm']) }}">last post</a> we showed you when the right time comes to start using a CRM. This time, we'll write about all the things you need to take into consideration when choosing the CRM for your business.</p>
                             <h2 class="heading-2 has-margin-b30">Always make your team part of the process!</h2>
                             <p>Let's dive right into it. The first and foremost thing when choosing a CRM software is to include your whole team into the process. Most CRM investments already fail at this point.</p>
                             <p>Ask your team, what they expect from the CRM, what aspects are important for them and what functions they wish to have.</p>
@@ -102,6 +102,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -155,7 +157,7 @@
     "keywords": "CRM, Customer Relationship Management, Digital Business, Digital Transformation, ERP",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "How to choose the right CRM for your business?",
     "publisher": {
@@ -196,7 +198,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "How to choose the right CRM for your business?"
             }
         }

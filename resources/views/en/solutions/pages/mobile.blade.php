@@ -39,6 +39,7 @@
             </div>
         </div>
     </section>
+
     <section class="section is-dark">
         <div class="container">
             <div class="columns">
@@ -50,9 +51,10 @@
                 <div class="column is-half-tablet is-two-thirds-desktop">
                     <p>For more budget-conscious applications we can also offer hybrid app development. Through specialised SDKs which enable native features such as camera, events or notifications, we can easily create cross-platform applications, or turn websites into mobile apps.</p>
                     <ul class="list has-bullets">
-                        <li>NativeScript</li>
+                        <li>Flutter</li>
                         <li>ReactNative</li>
-                        <li>Cordova/PhoneGap</li>
+                        <li>Cordova</li>
+                        <li>Electron</li>
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
@@ -61,6 +63,7 @@
             </div>
         </div>
     </section>
+
     <section class="section">
         <div class="solution">
             <div class="container">
@@ -82,18 +85,11 @@
             </div>
         </div>
     </section>
-    <section class="section">
-        <div class="solution__cta">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="heading-2">Do you want to learn more about our mobile solutions?</div>
-                        <a class="btn is-large is-pearl" href="{{ url('#contact') }}">Ask for a demo</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+    @include(getLang() . '.banners.contact', [
+        'buttonText' => 'Ask for a demo',
+        'headingText' => 'Do you want to learn more about our mobile solutions?'
+    ])
 @endsection
 
 

@@ -2,65 +2,60 @@
 
 @section('content')
     <section class="hero">
-        <h2 class="hero__tagline" data-texts='["automatizálj", "rendszerezz", "légy  hatékonyabb"]'>Segítünk, hogy<strong></strong></h2>
-        <a class="hero__cta" href="{{ url('#contact') }}">Van egy ötleted, amit meg szeretnél velünk beszélni?<strong>Írd meg nekünk!</strong></a>
-        <a class="hero__scroll" href="{{ url('#szolgaltatasok') }}"></a>
+        <h2 class="hero-heading">
+            Adat. Rendszer.<br />
+            Automatizálás.<br />
+            <strong class="is-tangerine">Szoftver.</strong>
+        </h2>
+        <a class="hero__cta" href="{{ localizedRoute('contact') }}">
+            Van egy ötleted, amit meg szeretnél velünk beszélni?<strong>Írd meg nekünk</strong>
+        </a>
+        <a class="hero__scroll" href="#partners"></a>
     </section>
 
-    <section class="section" id="services">
+    <section class="section is-dark has-padding-b30" id="partners">
         <div class="container">
             <div class="columns">
-                <div class="column">
-                    <h2 class="hero-heading">A hosszútávú<strong><span class="is-hidden-mobile">fejlesztési </span>partnereid</strong></h2>
+                <div class="column is-10-tablet is-9-desktop">
+                    <h2 class="hero-heading">
+                        Nehezen találsz <strong class="is-raspberry">megbízható</strong> fejlesztő partnert?
+                    </h2>
                 </div>
             </div>
-            <div class="columns has-margin-b60 is-mobile">
-                <div class="column has-text-centered is-3-mobile is-2-tablet is-offset-2-tablet is-1-desktop is-offset-3-desktop">
-                    <img src="{{ asset('img/home-services-digital-transformation-icon.png') }}" alt="Digital transformation" />
-                </div>
-                <div class="column is-9-mobile is-6-tablet is-5-desktop">
-                    <h3 class="heading-4">Digitális<br />transzformáció</h3>
-                    <p>
-                        A digitalizáció minden iparra hatással lesz. Megmutatjuk, hogyan segítheti a digitalizáció a Te vállalkozásodat és hogyan használhatod ki az ezzel járó lehetőségeket.
+            <div class="columns">
+                <div class="column is-5-tablet">
+                    <p class="has-margin-b30">
+                        Egy olyan szoftverfejlesztő céget keresel aki nem csak egyszerű beszállítód, hanem egyben partnered is? Aki túlteljesíti a projektleírásban szereplő igényeket? Akkor jó helyen jársz!
                     </p>
-                    <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">Tovább</a>
-                </div>
-            </div>
-            <div class="columns has-margin-b60 is-mobile">
-                <div class="column has-text-centered is-3-mobile is-2-tablet is-offset-2-tablet is-1-desktop is-offset-3-desktop">
-                    <img src="{{ asset('img/home-services-custom-development-icon.png') }}" alt="Custom software development" />
-                </div>
-                <div class="column is-9-mobile is-6-tablet is-5-desktop">
-                    <h3 class="heading-4">Egyedi<br />szoftverfejlesztés</h3>
                     <p>
-                        Minden egyedi fejlesztési igényednek eleget tudunk tenni a követelmények megfogalmazásától a tervezésig és a megvalósításig.
+                        A Further egy fejlesztőkből, rendszertervezőkből, designerekből és üzleti elemzőkből álló csapat. Büszkék vagyunk, hogy az ügyfeleink átlagban {{ config('site.stats.avg_years') }} éve kitartanak mellettünk. Ez úgy gondoljuk jól tükrözi a szolgáltatásaink minőségét és a hosszútávú partnerségek iránti elhivatottságunkat.
                     </p>
-                    <a class="btn is-pearl" href="{{ localizedRoute('custom-development') }}">Tovább</a>
                 </div>
-            </div>
-            <div class="columns is-mobile">
-                <div class="column has-text-centered is-3-mobile is-2-tablet is-offset-2-tablet is-1-desktop is-offset-3-desktop">
-                    <img src="{{ asset('img/home-services-mvp-development-icon.png') }}" alt="MVP development" />
-                </div>
-                <div class="column is-9-mobile is-6-tablet is-5-desktop">
-                    <h3 class="heading-4">MVP<br />fejlesztés</h3>
-                    <p>
-                        Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, amelyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.
-                    </p>
-                    <a class="btn is-pearl" href="{{ localizedRoute('solutions.mvp') }}">Tovább</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="cta cta--projects">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="container">
-                            <div class="heading-2">Szeretnél többet megtudni munkáinkról?</div>
-                            <a class="btn is-large is-pearl" href="{{ localizedRoute('projects') }}">Esettanulmányok</a>
+                <div class="column is-6-tablet is-offset-1-tablet">
+                    <div class="columns is-mobile is-multiline">
+                        <div class="column is-6 has-margin-b60">
+                            <img src="{{ asset('media/partners/png.png') }}" alt="Procter & Gamble" />
+                        </div>
+                        <div class="column is-6 has-margin-b60">
+                            <img src="{{ asset('media/partners/njoy.png') }}" alt="nJoy" />
+                        </div>
+                        <div class="column is-6 has-margin-b60">
+                            <img src="{{ asset('media/partners/msd.png') }}" alt="MSD Pharma" />
+                        </div>
+                        <div class="column is-6 has-margin-b60">
+                            <img src="{{ asset('media/partners/praktiker.png') }}" alt="Praktiker Hungary" />
+                        </div>
+                        <div class="column is-6 has-margin-b60">
+                            <img src="{{ asset('media/partners/harborsz.png') }}" alt="Harborsz Logistic" />
+                        </div>
+                        <div class="column is-6 has-margin-b60">
+                            <img src="{{ asset('media/partners/ovsz.png') }}" alt="Hungarian National Blood Transfusion Service" />
+                        </div>
+                        <div class="column is-6">
+                            <img src="{{ asset('media/partners/onrobot.png') }}" alt="OnRobot" />
+                        </div>
+                        <div class="column is-6">
+                            <img src="{{ asset('media/partners/steiger.png') }}" alt="Steiger" />
                         </div>
                     </div>
                 </div>
@@ -68,37 +63,83 @@
         </div>
     </section>
 
+    <section class="section" id="services">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-12-tablet is-5-widescreen">
+                    <h2 class="hero-heading">
+                        Ötleteid <strong class="is-pearl">működő</strong> digitális termékké alakítjuk.
+                    </h2>
+                </div>
+                <div class="column is-offset-1-widescreen">
+                    <div class="columns has-margin-b90 is-mobile">
+                        <div class="column is-3-mobile is-2-tablet is-offset-1-tablet is-offset-0-widescreen">
+                            <img src="{{ asset('img/home-services-digital-transformation-icon.png') }}" alt="Digitális transzformáció" />
+                        </div>
+                        <div class="column is-8-tablet">
+                            <h3 class="heading-4">Digitális<br />transzformáció</h3>
+                            <p>
+                                A digitalizáció minden iparra hatással lesz. Megmutatjuk, hogyan segítheti a digitalizáció a Te vállalkozásodat és hogyan használhatod ki az ezzel járó lehetőségeket.
+                            </p>
+                            <a class="btn is-pearl" href="{{ localizedRoute('services.digital-transformation') }}">Tovább</a>
+                        </div>
+                    </div>
+                    <div class="columns has-margin-b90 is-mobile">
+                        <div class="column is-3-mobile is-2-tablet is-offset-1-tablet is-offset-0-widescreen">
+                            <img src="{{ asset('img/home-services-custom-development-icon.png') }}" alt="Egyedi szoftverfejlesztés" />
+                        </div>
+                        <div class="column is-8-tablet">
+                            <h3 class="heading-4">Egyedi<br />szoftverfejlesztés</h3>
+                            <p>
+                                Minden egyedi fejlesztési igényednek eleget tudunk tenni a követelmények megfogalmazásától a tervezésig és a megvalósításig.
+                            </p>
+                            <a class="btn is-pearl" href="{{ localizedRoute('services.custom-development') }}">Tovább</a>
+                        </div>
+                    </div>
+                    <div class="columns is-mobile">
+                        <div class="column is-3-mobile is-2-tablet is-offset-1-tablet is-offset-0-widescreen">
+                            <img src="{{ asset('img/home-services-mvp-development-icon.png') }}" alt="MVP fejlesztés" />
+                        </div>
+                        <div class="column is-8-tablet">
+                            <h3 class="heading-4">MVP<br />fejlesztés</h3>
+                            <p>
+                                Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, amelyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.
+                            </p>
+                            <a class="btn is-pearl" href="{{ localizedRoute('services.mvp-development') }}">Tovább</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @include(getLang() . '.banners.projects')
+
     <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column">
-                    <h2 class="hero-heading">Amiben a legjobbak vagyunk<strong>Laravel + Vue.js</strong></h2>
+                <div class="column is-10-tablet is-9-desktop">
+                    <h2 class="hero-heading">
+                        Further <strong class="is-raspberry">❤</strong> Laravel + Vue.js.
+                    </h2>
                 </div>
             </div>
             <div class="columns">
-                <div class="column has-margin-b0 is-5-tablet is-offset-1-tablet">
+                <div class="column is-8-tablet">
                     <p>Imádjuk az olyan keretrendszereket mint a Laravel és a Vue.js. A gazdag funkcionalitásuknak köszönhetően lehetőve teszik számunkra, hogy csökkentsük a fejlesztési időket és költségeket. Komoly tudással és tapasztalattal rendelkezünk ezeknek az eszközöknek a használatában, ami segít a letisztult, karbantartható és skálázható kód írásában.</p>
                     <p>A Laravel a legnépszerűbb PHP keretrendszer, de a Vue.js is egyre kedveltebb a Javascript fejlesztők körében. Mindkettő hátterében egy fantasztikus közösség áll, amit mi is próbálunk támogatni, hozzájárulva a kódbázis fejlesztéséhez és közösségi projektekhez.</p>
                 </div>
-                <div class="column has-margin-b0 has-text-right is-5-tablet is-centered-vertical is-hidden-mobile">
+                <div class="column has-text-right is-4-tablet is-centered-vertical is-hidden-mobile">
                     <img src="{{ asset('img/home-laravel-vuejs.png') }}" alt="Laravel & Vue.js" />
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section">
-        <div class="cta cta--tech-stack">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="container">
-                            <div class="heading-2">Tudj meg többet az általunk használt technológiákról!</div>
-                            <a class="btn is-large is-pearl" href="{{ localizedRoute('tech-stack') }}">Eszköztár</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="section is-pearl has-padding-b0">
+        <div class="banner--laravel-meetup">
+            <div class="heading-3">A Further a Laravel Hungary meetup szervezője!</div>
+            <img class="has-margin-l30" src="{{ asset('img/laravel-meetup.png') }}" alt="Laravel Hungary Meetup" />
         </div>
     </section>
 @endsection

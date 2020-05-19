@@ -26,7 +26,7 @@
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>Business is evolving faster than ever. Business owners who do not know their numbers, and are unable to make decisions based on these numbers are going to be left behind by their competitors.</p>
                             <p class="has-margin-b60">Today we would like to show you which are the most important things that you should know as a business owner. We're also going to teach you how a software solution can help you keep track and analyse the most important numbers.</p>
-                            <p>Previously we wrote about how software can help organise and automate your business processes. We wrote about <a href="{{ localizedRoute('blog.view', ['slug' => 'going-paperless-how-to-digitise-your-business']) }}">document management systems</a>, <a href="{{ localizedRoute('blog.view', ['slug' => 'how-does-a-software-optimise-your-manufacturing-processes']) }}">manufacturing software</a>, <a href="{{ localizedRoute('blog.view', ['slug' => 'when-is-it-time-to-use-a-crm']) }}">and about CRM's</a>, which help you with sales and customer relationships.</p>
+                            <p>Previously we wrote about how software can help organise and automate your business processes. We wrote about <a href="{{ localizedRoute('blog.show', ['slug' => 'going-paperless-how-to-digitise-your-business']) }}">document management systems</a>, <a href="{{ localizedRoute('blog.show', ['slug' => 'how-does-a-software-optimise-your-manufacturing-processes']) }}">manufacturing software</a>, <a href="{{ localizedRoute('blog.show', ['slug' => 'when-is-it-time-to-use-a-crm']) }}">and about CRM's</a>, which help you with sales and customer relationships.</p>
                             <p>But there are other systems which can be used in a business, like financial software, supply chain software and HR software. If you connect these into an integrated system, then we can already talk about ERP software.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/erp-modules-en.png') }}" alt="An ERP is an integrated system, in which multiple other software modules work together" />
@@ -74,7 +74,7 @@
                                 <figcaption>Know how your team performs</figcaption>
                             </figure>
                             <h2 class="heading-2 has-margin-b30">4. Know you production numbers</h2>
-                            <p>Speaking of production facilities, the next thing you should know as a business owner, are your production numbers. We already wrote about these in <a href="{{ localizedRoute('blog.view', ['slug' => 'how-does-a-software-optimise-your-manufacturing-processes']) }}">our post about manufacturing software</a>, so we're only going to quickly show you how a BI software can add to this.</p>
+                            <p>Speaking of production facilities, the next thing you should know as a business owner, are your production numbers. We already wrote about these in <a href="{{ localizedRoute('blog.show', ['slug' => 'how-does-a-software-optimise-your-manufacturing-processes']) }}">our post about manufacturing software</a>, so we're only going to quickly show you how a BI software can add to this.</p>
                             <p>A BI software is able to process data which comes from the production line and manufacturing software and provide you with data about the average hourly outputs, scrap rates or average downtimes. Based on this data, you'll be able to optimise your manufacturing processes and maximize profits.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/5-things-production-data.jpg') }}" alt="Know you production numbers" />
@@ -112,6 +112,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -165,7 +167,7 @@
     "keywords": "BI, Business Intelligence, Big Data, Analytics, ERP",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "5 things, every business owner should know",
     "publisher": {
@@ -206,7 +208,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "5 things, every business owner should know"
             }
         }

@@ -224,7 +224,7 @@
                 "@type": "ListItem",
                 "position": "3",
                 "item": {
-                    "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                    "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                     "name": "IDEA e-tanulási szoftver"
                 }
             }
@@ -266,7 +266,7 @@
     },
     "inLanguage": "hu_HU",
     "keywords": "e-learning szoftver, Codeigniter",
-    "mainEntityOfPage": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+    "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "IDEA e-tanulási szoftver",
     "publisher": {
         "@type": "Corporation",
@@ -322,7 +322,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                 "name": "IDEA e-tanulási szoftver"
             }
         }

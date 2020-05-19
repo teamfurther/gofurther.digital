@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>@yield('title', config('site.title.' . config('app.locale'))) | {{ config('site.name') }}</title>
+    <title>@yield('title', config('site.title.' . getLang())) | {{ config('site.name') }}</title>
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="description" content="@yield('description', config('site.description.' . config('app.locale')))" />
+    <meta name="description" content="@yield('description', config('site.description.' . getLang()))" />
 
-    <meta property="og:description" content="@yield('description', config('site.description.' . config('app.locale')))" />
-    <meta property="og:image" content="@yield('preview_image', asset(config('site.preview_image.' . config('app.locale'))))" />
+    <meta property="og:description" content="@yield('description', config('site.description.' . getLang()))" />
+    <meta property="og:image" content="@yield('preview_image', asset(config('site.preview_image.' . getLang())))" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
@@ -22,7 +22,7 @@
     <meta property="og:see_also" content="{{ config('site.social.instagram') }}" />
     <meta property="og:see_also" content="{{ config('site.social.medium') }}" />
     <meta property="og:site_name" content="{{ config('site.name') }}" />
-    <meta property="og:title" content="@yield('title', config('site.title.' . config('app.locale'))) | {{ config('site.name') }}" />
+    <meta property="og:title" content="@yield('title', config('site.title.' . getLang())) | {{ config('site.name') }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ url()->current() }}" />
 
@@ -48,6 +48,25 @@
 
     @stack('structured-data')
 
+    <!-- FB Pixel -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '482902165683190');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=482902165683190&ev=PageView&noscript=1"
+        />
+    </noscript>
+
     <!-- GTM -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20343659-28"></script>
     <script>
@@ -66,55 +85,107 @@
 <header class="header">
     <div class="container">
         <div class="header__brand">
-            <h1 class="header__logo"><a href="{{ localizedRoute('home') }}">{{ config('site.name') }} | {{ config('site.title.' . config('app.locale')) }}</a></h1>
+            <h1 class="header__logo">
+                <a href="{{ localizedRoute('home') }}">
+                    {{ config('site.name') }} | {{ config('site.title.' . getLang()) }}
+                </a>
+            </h1>
         </div> <!-- /.header__brand -->
         <nav class="navbar">
-            <div class="navbar__item"><a href="{{ localizedRoute('projects') }}">Work</a></div>
+            <div class="navbar__item"><a href="{{ localizedRoute('projects') }}">Case Studies</a></div>
             <div class="navbar__item has-subnav">
-                <a href="{{ localizedRoute('solutions') }}">Solutions</a>
+                <a href="{{ localizedRoute('solutions') }}">
+                    Solutions <span class="navbar__item__caret"></span>
+                </a>
                 <nav class="navbar__subnav">
                     <div class="container">
                         <div class="columns">
                             <div class="column is-one-third is-sales-operations">
                                 <h3 class="navbar__subnav__title">Sales &amp; Operations</h3>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.crm') }}">CRM</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.sales') }}">Sales</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.projects') }}">Projects</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.accounting') }}">Accounting</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.purchase') }}">Purchase &amp; Inventory</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.plm') }}">PLM</a></div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.crm') }}">CRM</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.sales') }}">Sales</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.projects') }}">Projects</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.accounting') }}">Accounting</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.purchase') }}">Purchase &amp; Inventory</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.plm') }}">PLM</a>
+                                </div>
                             </div>
                             <div class="column is-one-third is-productivity">
                                 <h3 class="navbar__subnav__title">Communication &amp; Productivity</h3>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.communication') }}">Communication</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.time-tracking') }}">Time Tracking</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.hr') }}">Human Resources</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.dms') }}">Document Management</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.wiki') }}">Knowledge Center</a></div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.communication') }}">Communication</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.time-tracking') }}">Time Tracking</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.hr') }}">Human Resources</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.dms') }}">Document Management</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.wiki') }}">Knowledge Center</a>
+                                </div>
                             </div>
                             <div class="column is-one-third is-websites">
                                 <h3 class="navbar__subnav__title">Web & Mobile</h3>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.mvp') }}">MVP Development</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.mobile') }}">Mobile Apps</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.chronos') }}">Custom Websites - Chronos CMS</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.ecommerce') }}">eCommerce</a></div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.mvp') }}">MVP Development</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.mobile') }}">Mobile Apps</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.chronos') }}">Custom Websites - Chronos CMS</a></div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.ecommerce') }}">eCommerce</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="navbar__subnav__overlay"></div>
                 </nav>
             </div>
-            <div class="navbar__item"><a href="{{ localizedRoute('about') }}">About</a></div>
-            <div class="navbar__item"><a href="{{ localizedRoute('jobs') }}">Careers</a></div>
-            @if (!isset($showContactForm) || $showContactForm)
-                <div class="navbar__item"><a href="{{ url('#contact') }}">Contact</a></div>
-            @else
-                <div class="navbar__item"><a href="{{ localizedRoute('home') }}#contact">Contact</a></div>
-            @endif
             <div class="navbar__item"><a href="{{ localizedRoute('blog') }}">Blog</a></div>
-            @if (switchLang('hu'))
-            <div class="navbar__item navbar__item--lang"><a href="{{ switchLang('hu') }}">HU</a></div>
-            @endif
+            <div class="navbar__item navbar__item--cta"><a href="{{ localizedRoute('contact') }}">Work with us</a></div>
+        </nav> <!-- /.navbar -->
+        <nav class="navbar--mobile">
+            <a class="navbar--mobile__logo" href="{{ localizedRoute('home') }}">
+                {{ config('site.name') }} | {{ config('site.title.' . getLang()) }}
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('projects') }}">
+                Case Studies
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-transformation') }}">
+                Digital Transformation
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services.custom-development') }}">
+                Software Development
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services.mvp-development') }}">
+                MVP Development
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('solutions') }}">
+                Our Solutions
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('blog') }}">
+                Blog
+            </a>
+            <a class="navbar--mobile__cta" href="{{ localizedRoute('contact') }}">
+                Contact us
+            </a>
         </nav> <!-- /.navbar -->
         <a class="navbar__toggle">
             <span></span>
@@ -126,71 +197,49 @@
 
 @yield('content')
 
-@if (!isset($showContactForm) || $showContactForm)
-<section class="section" id="contact">
+<footer class="footer">
     <div class="container">
-        <h2 class="hero-heading">Want to discuss an idea us or just say hi?<strong>Get in touch now</strong></h2>
-        <div class="contact-box">
-            <div class="contact-box__info h-card vcard">
-                <div class="p-tel tel"><a href="tel:{{ str_replace(' ', '', config('site.contact.phone-1')) }}" class="value">HU: {{ config('site.contact.phone-1') }} </a></div>
-                <div class="p-tel tel"><a href="tel:{{ str_replace(' ', '', config('site.contact.phone-2')) }}" class="value">RO: {{ config('site.contact.phone-2') }}</a></div>
-                <div class="u-email email"><a href="mailto:{{ config('site.contact.email') }}" class="value">{{ config('site.contact.email') }}</a></div>
-                <div class="social-icons">
-                    <a href="{{ config('site.social.facebook') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--facebook"></span></a>
-                    <a href="{{ config('site.social.twitter') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--twitter"></span></a>
-                    <a href="{{ config('site.social.linkedin') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--linkedin"></span></a>
-                    <a href="{{ config('site.social.instagram') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--instagram"></span></a>
-                    <a href="{{ config('site.social.medium') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--medium"></span></a>
-                </div>
+        <img class="footer__logo" src="{{ asset('img/logo.svg') }}" alt="Further Digital Solutions" />
+        <div class="footer__top">
+            <nav class="footer__nav">
+                <span class="footer__nav__title">Services</span>
+                <a href="{{ localizedRoute('services.digital-transformation') }}">
+                    Digital Transformation
+                </a>
+                <a href="{{ localizedRoute('services.custom-development') }}">
+                    Custom Software Development
+                </a>
+                <a href="{{ localizedRoute('services.mvp-development') }}">
+                    MVP Development
+                </a>
+            </nav>
+            <nav class="footer__nav">
+                <span class="footer__nav__title">Links</span>
+                {{--<a href="{{ localizedRoute('events') }}">Events</a>--}}
+                <a href="{{ localizedRoute('jobs') }}">Careers</a>
+                <a href="{{ localizedRoute('about') }}">About</a>
+                <a href="{{ localizedRoute('tech-stack') }}">Tech stack</a>
+                <a href="{{ localizedRoute('contact') }}">Contact</a>
+                @if (switchLang('hu'))
+                <a class="footer__lang" href="{{ switchLang('hu') }}">Magyar</a>
+                @endif
+            </nav>
+            <nav class="social-icons is-small">
+                <a href="{{ config('site.social.facebook') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--facebook"></span></a>
+                <a href="{{ config('site.social.linkedin') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--linkedin"></span></a>
+                <a href="{{ config('site.social.twitter') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--twitter"></span></a>
+                <a href="{{ config('site.social.instagram') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--instagram"></span></a>
+            </nav>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__legal">
+                <a href="{{ localizedRoute('terms') }}">Terms of Use</a> | <a href="{{ localizedRoute('privacy') }}">Privacy<span class="is-hidden-mobile"> Policy</span></a> | <a href="{{ localizedRoute('cookies') }}">Cookies</a>
             </div>
-            <form class="contact-box__form" id="contact-form" action="{{ localizedRoute('contact.send') }}" method="POST">
-                {{ csrf_field() }}
-
-                <p>We're always willing and ready to listen to any request. So, if you like our work and you've got an idea you want to discuss, just grab your phone or keyboard and contact us.</p>
-                <div class="is-pulled-left">
-                    <div class="form-group {{ isset($errors) && $errors->has('contact_name') ? 'has-error' : '' }}">
-                        <input class="form-control" name="contact_name" placeholder="Your name*" type="text" value="{{ old('contact_name') }}" autocomplete="name" tabindex="1" required />
-                    </div>
-                    <div class="form-group {{ isset($errors) && $errors->has('contact_phone') ? 'has-error' : '' }}">
-                        <input class="form-control" name="contact_phone" placeholder="Phone" type="text" value="{{ old('contact_phone') }}" autocomplete="tel" tabindex="3" />
-                    </div>
-                </div>
-                <div class="is-pulled-right">
-                    <div class="form-group {{ isset($errors) && $errors->has('contact_company') ? 'has-error' : '' }}">
-                        <input class="form-control" name="contact_company" placeholder="Company" type="text" value="{{ old('contact_company') }}" autocomplete="organization" tabindex="2" />
-                    </div>
-                    <div class="form-group {{ isset($errors) && $errors->has('contact_email') ? 'has-error' : '' }}">
-                        <input class="form-control" name="contact_email" placeholder="Email*" type="email" value="{{ old('contact_email') }}" autocomplete="email" tabindex="4" required />
-                    </div>
-                </div>
-                <div class="form-group {{ isset($errors) && $errors->has('contact_message') ? 'has-error' : '' }}">
-                    <textarea class="form-control" name="contact_message" placeholder="Message*" rows="5" tabindex="5" required>{{ old('contact_message') }}</textarea>
-                </div>
-                {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
-                <button class="btn is-large is-pearl" type="submit">Send</button>
-            </form>
-            <div class="contact-box__company-details h-card vcard">
-                <h3 class="contact-box__company-details__heading">Company details</h3>
-                <span class="company-name p-name name">{{ config('site.company.name') }}</span>
-                <span class="company-no">Company no.: {{ config('site.company.regno') }}</span>
-                <span class="vat-no">EU VAT: {{ config('site.company.vatno') }}</span>
+            <div class="footer__copyright">
+                &copy; {{ date('Y') }} Further Digital Solutions
             </div>
         </div>
     </div>
-    <div class="contact-box__bg"></div>
-</section>
-@endif
-
-<footer class="footer @if (isset($showFooter) && $showFooter === false) is-disabled @endif">
-@if (!isset($showFooter) || $showFooter)
-    <div class="container">
-        <div class="columns">
-            <div class="column">
-                &copy; Further<span class="is-hidden-mobile"> Digital Solutions {{ date('Y') }}</span>. <a href="{{ localizedRoute('terms') }}">Terms<span class="is-hidden-mobile"> of Use</span></a> | <a href="{{ localizedRoute('privacy') }}">Privacy<span class="is-hidden-mobile"> Policy</span></a> | <a href="{{ localizedRoute('cookies') }}">Cookies</a>
-            </div>
-        </div>
-    </div>
-@endif
 </footer>
 
 

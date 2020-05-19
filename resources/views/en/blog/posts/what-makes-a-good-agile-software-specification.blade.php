@@ -73,6 +73,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -126,7 +128,7 @@
     "keywords": "Custom software development, Software specification, Agile software development",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "How to write a good agile software specification?",
     "publisher": {
@@ -167,7 +169,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "How to write a good agile software specification?"
             }
         }

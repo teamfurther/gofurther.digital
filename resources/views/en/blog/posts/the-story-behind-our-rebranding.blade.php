@@ -61,6 +61,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -114,7 +116,7 @@
     "keywords": "Further Digital Solutions, Further, Rebranding",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "The story behind our rebranding",
     "publisher": {
@@ -155,7 +157,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "The story behind our rebranding"
             }
         }

@@ -1,6 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,8 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::group(['middleware' => ['auth:api'], 'name' => 'api.'], function () {
-
+Route::group(['middleware' => ['auth:api'], 'name' => 'api.'], function (): void {
     //
-
 });

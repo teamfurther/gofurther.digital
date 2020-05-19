@@ -1,0 +1,121 @@
+.footer {
+    background-color: $white;
+    color: $grey-darker;
+    font: 14px $family-highlight;
+    position: relative;
+    z-index: 10;
+
+    &__bottom {
+        border-top: 1px solid $grey-light;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        justify-content: space-between;
+        margin: 0 15px;
+        padding: 15px 0;
+
+        @include tablet() {
+            flex-direction: row;
+        }
+
+        a {
+            color: $grey-darker;
+
+            &:hover {
+                color: $pearl;
+            }
+        }
+    }
+
+    &__copyright {
+        @include tablet() {
+            text-align: right;
+        }
+    }
+
+    &__lang {
+        align-items: center;
+        display: flex;
+        margin-top: 25px;
+
+        &::before {
+            background: url(../img/lang-icon.png) 0 0 no-repeat;
+            content: '';
+            display: inline-block;
+            height: 20px;
+            margin-right: 5px;
+            width: 20px;
+        }
+
+        &::after {
+            content: none !important;
+        }
+    }
+
+    &__logo {
+        height: 45px;
+        margin: 30px 15px;
+        width: 160px;
+    }
+
+    &__nav {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 30px;
+
+        @include tablet() {
+            margin-bottom: 0;
+        }
+
+        &__title {
+            color: $grey-dark;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        a {
+            color: $grey-darker;
+            margin-bottom: 10px;
+
+            &:hover {
+                &::after {
+                    width: 100%;
+                }
+            }
+
+            &::after {
+                background-color: $pearl;
+                content: '';
+                display: block;
+                height: 2px;
+                margin: 0 auto;
+                transition: all .2s ease-in-out;
+                width: 0;
+            }
+        }
+    }
+
+    &__top {
+        display: flex;
+        flex-direction: column;
+        margin: 0 15px;
+        padding: 15px 0;
+
+        @include tablet() {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .social-icons {
+            justify-content: flex-start;
+
+            @include tablet() {
+                justify-content: flex-end;
+                margin-left: 33%;
+            }
+        }
+    }
+}

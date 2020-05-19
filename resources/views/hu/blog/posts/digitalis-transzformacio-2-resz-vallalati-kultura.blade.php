@@ -26,12 +26,12 @@
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>Ez a digitális átalakulás sorozatunk második része. Ha egy bizonyos cikket keresel a sorozatból, akkor itt megtalálod a linkeket:</p>
                             <ul class="list has-bullets has-margin-b60">
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">1. rész – Bevezető</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">1. rész – Bevezető</a></li>
                                 <li><strong>2. rész – Vállalati kultúra</strong></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">3. rész – Üzleti folyamatok</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">4. rész – Technológia</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">3. rész – Üzleti folyamatok</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">4. rész – Technológia</a></li>
                             </ul>
-                            <p>A sorozat <a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">első részében</a> megtudhattuk, hogyan buktatta meg a digitális világ a Kodakot. A csúcsidőszak alatt milliárdos bevételük volt, és több mint 140.000 embert foglalkoztattak világszerte. De aztán egy kicsi tárgy miatt, amit kamerás telefonnak neveztek, kénytelenek voltak csődeljárást indítani és a szabadalmaikat eladni.</p>
+                            <p>A sorozat <a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">első részében</a> megtudhattuk, hogyan buktatta meg a digitális világ a Kodakot. A csúcsidőszak alatt milliárdos bevételük volt, és több mint 140.000 embert foglalkoztattak világszerte. De aztán egy kicsi tárgy miatt, amit kamerás telefonnak neveztek, kénytelenek voltak csődeljárást indítani és a szabadalmaikat eladni.</p>
                             <p>De valahogy a Kodak a hamvaiból újjászületett. Igen, csak töredéke annak, ami korábban volt, de legalább a név tovább él. Visszatértek az alapokhoz, és rájöttek, hogy egyedülálló értékesítési pontjuk nem az, hogy filmet árulnak, hanem az, hogy emlékeket árulnak. „Kodak pillanatokat” árulnak.</p>
                             <p class="has-margin-b60">Napjainkban képkereteket gyártanak és bébimonitorokat fejlesztenek integrált megosztással. A nehéz utat bejárva megtanulták, hogy a digitális transzformáció inkább a nyitottságot és az alkalmazkodóképességet jelenti, mint a technológiát. Ezen átalakulás legnagyobb hajtóereje a vállalati kultúra.</p>
                             <h2 class="heading-3 has-margin-b30">Felkészülés a digitális transzformációra</h2>
@@ -44,8 +44,8 @@
                             <p>A radikális változás gyakran a csapatok átalakítását, a munkakörök megváltoztatását és a hosszú távú üzleti folyamatokat érinti. Emiatt az emberek attól tartanak, hogy a hozzáadott értékük és a munkahelyük is veszélybe kerül.</p>
                             <p class="has-margin-b60">A vezetőség feladata, hogy biztosítsa, hogy ez nem történik meg. Empatikusnak kell lenniük a csapatukkal, meg kell hallgatniuk és dokumentálniuk kell a problémáikat, és következetes erőfeszítéseket kell tenniük ezen kérdések megbeszélése érdekében. Hosszú távon ez az empátia növeli a bizalmat, és a változás végrehajtása során kevésbé ütköznek majd ellenállásba.</p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">&laquo; 1. rész – Bevezető</a>
-                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">3. rész – Üzleti folyamatok &raquo; </a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">&laquo; 1. rész – Bevezető</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">3. rész – Üzleti folyamatok &raquo; </a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
@@ -63,6 +63,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -116,7 +118,7 @@
     "keywords": "Digitális transzformáció, Digitális átalakulás",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Digitális transzformáció sorozat 2. rész – Vállalati kultúra",
     "publisher": {
@@ -157,7 +159,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Digitális transzformáció sorozat 2. rész – Vállalati kultúra"
             }
         }

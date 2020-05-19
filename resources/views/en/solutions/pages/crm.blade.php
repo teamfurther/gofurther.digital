@@ -43,6 +43,7 @@
             </div>
         </div>
     </section>
+
     <section class="section is-dark">
         <div class="container">
             <div class="columns">
@@ -65,6 +66,7 @@
             </div>
         </div>
     </section>
+
     <section class="section">
         <div class="solution">
             <div class="container">
@@ -91,18 +93,12 @@
             </div>
         </div>
     </section>
-    <section class="section">
-        <div class="solution__cta">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="heading-2">Do you want to learn more about our CRM solutions?</div>
-                        <a class="btn is-large is-pearl" href="{{ url('#contact') }}">Ask for a demo</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+    @include(getLang() . '.banners.contact', [
+        'buttonText' => 'Ask for a demo',
+        'headingText' => 'Do you want to learn more about our CRM solutions?'
+    ])
+
     <section class="section">
         <div class="solution">
             <div class="container">
@@ -128,7 +124,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">Use together with our other solutions</h3>
+                        <h3 class="heading-3">Use it together with some of our other solutions</h3>
                     </div>
                 </div>
                 <div class="columns">
@@ -146,18 +142,8 @@
             </div>
         </div>
     </section>
-    <section class="section">
-        <div class="solution__blog">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="heading-2">Why choose a custom-built solution?</div>
-                        <a class="btn is-large is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'custom-development-vs-out-of-the-box-software']) }}">Find out</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+    @include(getLang() . '.banners.custom-development-vs-out-of-the-box-software')
 @endsection
 
 

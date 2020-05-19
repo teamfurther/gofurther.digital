@@ -2,49 +2,55 @@
 
 namespace App\Notifications;
 
-use Illuminate\Notifications\Notification;
 use Illuminate\Notifications\Messages\MailMessage;
-use Illuminate\Support\Facades\View;
+use Illuminate\Notifications\Notification;
+use Illuminate\View\Factory as View;
 
 class JobApplicationNotification extends Notification
 {
+
     /**
-     * The email verification token.
+     * Data for the notification.
      *
-     * @var string
+     * @var array<string>
      */
     protected $data;
 
     /**
+     * Reference to view object
+     * which will be injected.
+     *
+     * @var \Illuminate\View\Factory
+     */
+    protected $view;
+
+    /**
      * Create a new notification instance.
      *
-     * @return void
+     * @param array<string> $data
      */
-    public function __construct($data)
+    public function __construct(array $data, View $view)
     {
         $this->data = $data;
+        $this->view = $view;
     }
 
     /**
      * Get the notification's delivery channels.
      *
-     * @param  mixed  $notifiable
-     * @return array
+     * @return array<string>
      */
-    public function via($notifiable)
+    public function via(): array
     {
         return ['mail'];
     }
 
     /**
      * Get the mail representation of the notification.
-     *
-     * @param  mixed  $notifiable
-     * @return \Illuminate\Notifications\Messages\MailMessage
      */
-    public function toMail($notifiable)
+    public function toMail(): MailMessage
     {
-        $slot = View::make('emails.job_application', [
+        $slot = $this->view->make('emails.job_application', [
             'data' => $this->data,
         ]);
 
@@ -57,4 +63,5 @@ class JobApplicationNotification extends Notification
 
         return $mail;
     }
+
 }

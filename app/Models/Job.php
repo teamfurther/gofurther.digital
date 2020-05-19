@@ -7,12 +7,27 @@ use Illuminate\Database\Eloquent\Model;
 
 class Job extends Model
 {
+
+    /**
+     * The attributes that are mass assignable
+     *
+     * @var array<string>
+     */
+    protected $fillable = [
+        'department',
+        'description',
+        'extra',
+        'location',
+        'order',
+        'slug',
+        'title',
+        'type',
+    ];
+
     /**
      * The "booting" method of the model.
-     *
-     * @return void
      */
-    protected static function boot()
+    protected static function boot(): void
     {
         parent::boot();
 
@@ -20,7 +35,7 @@ class Job extends Model
          * Only show active jobs
          * Remove from query with withoutGlobalScope('active')
          */
-        static::addGlobalScope('active', function(Builder $builder) {
+        static::addGlobalScope('active', function (Builder $builder): void {
             $builder->where('status', 1);
         });
 
@@ -28,20 +43,9 @@ class Job extends Model
          * Default ordering
          * Remove from query with withoutGlobalScope('order')
          */
-        static::addGlobalScope('order', function(Builder $builder) {
+        static::addGlobalScope('order', function (Builder $builder): void {
             $builder->orderBy('order', 'ASC')->orderBy('created_at', 'DESC');
         });
     }
-
-
-    /**
-     * The attributes that are mass assignable
-     *
-     * @var array
-     */
-    protected $fillable = [
-        'slug', 'title', 'description', 'department', 'location', 'type', 'extra', 'order',
-    ];
-
 
 }

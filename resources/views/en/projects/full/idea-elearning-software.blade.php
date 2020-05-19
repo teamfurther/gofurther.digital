@@ -224,7 +224,7 @@
                 "@type": "ListItem",
                 "position": "3",
                 "item": {
-                    "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                    "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                     "name": "IDEA e-Learning Software"
                 }
             }
@@ -266,7 +266,7 @@
     },
     "inLanguage": "en_gb",
     "keywords": "e-Learning software, Codeigniter",
-    "mainEntityOfPage": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+    "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "IDEA e-Learning Software",
     "publisher": {
         "@type": "Corporation",
@@ -322,7 +322,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                 "name": "IDEA e-Learning Software"
             }
         }

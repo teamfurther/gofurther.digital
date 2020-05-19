@@ -37,7 +37,7 @@
                             </figure>
                             <p>Ez a megoldás azonban sajnos csak tűzoltásnak jó: nehezen átlátható és csak egy adott pontig növelhető. Anna hamarosan olyan kérdésekkel szembesül kollégáitól: ki lett már küldve az árajánlat? Vagy: meg lett már rendelve az óriás csokitorta?</p>
                             <p class="has-margin-b60">Ha már idáig eljutott, akkor Annának egyértelműen szüksége van egy olyan rendszerre, amely keretet ad az ügyfélkapcsolati és értékesítési folyamatoknak.</p>
-                            <p class="has-margin-b60">Ez a rendszer nem más, mint a CRM, avagy a Customer Relationship Management, magyarul ügyfélkapcsolat-kezelő rendszer. Rengeteg fajta CRM létezik: dobozos termékek és testreszabható fejlesztések egyaránt, kiválasztásukkal pedig egy <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-valasszuk-ki-a-megfelelo-crm-rendszert']) }}">külön cikkben</a> foglalkozunk.</p>
+                            <p class="has-margin-b60">Ez a rendszer nem más, mint a CRM, avagy a Customer Relationship Management, magyarul ügyfélkapcsolat-kezelő rendszer. Rengeteg fajta CRM létezik: dobozos termékek és testreszabható fejlesztések egyaránt, kiválasztásukkal pedig egy <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-valasszuk-ki-a-megfelelo-crm-rendszert']) }}">külön cikkben</a> foglalkozunk.</p>
                             <h2 class="heading-2 has-margin-b30">Miben segít egy CRM?</h2>
                             <p class="has-margin-b60">Alapjában véve az összes CRM az ügyfélszerzést és ügyfél kapcsolattartást támogatja, és ugyanazokat az alapvető problémákat oldja meg.</p>
                             <h3 class="heading-3 has-margin-b30">Adatok rendszerezése</h3>
@@ -99,6 +99,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -152,7 +154,7 @@
     "keywords": "CRM, Customer Relationship Management, Ügyfélkezelés, Ügyfélkezelő-rendszer, Digitális Vállalkozás, Digitális Transzformáció, ERP, Vállalatirányítás",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Mikor érdemes bevezetni egy CRM rendszert?",
     "publisher": {
@@ -193,7 +195,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Mikor érdemes bevezetni egy CRM rendszert?"
             }
         }

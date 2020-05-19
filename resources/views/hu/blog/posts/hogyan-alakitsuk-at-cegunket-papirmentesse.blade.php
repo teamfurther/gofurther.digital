@@ -27,7 +27,7 @@
                             <div class="post__video">
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/mJfjwN1dVIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
-                            <p>Egy <a href="{{ localizedRoute('blog.view', ['slug' => 'mikor-hasznaljunk-crm-rendszert']) }}">múltkori cikkben</a> megnéztük, Anna rendezvényszervező cége hogyan jutott el odáig, hogy bevezessenek egy CRM rendszert.</p>
+                            <p>Egy <a href="{{ localizedRoute('blog.show', ['slug' => 'mikor-hasznaljunk-crm-rendszert']) }}">múltkori cikkben</a> megnéztük, Anna rendezvényszervező cége hogyan jutott el odáig, hogy bevezessenek egy CRM rendszert.</p>
                             <p>Maradjunk is ennél a példánál. A mai cikkben megmutatjuk, hogy hogyan tudja Anna nemcsak az ügyfélkapcsolati rendszereit digitalizálni, hanem a cége többi részét is.</p>
                             <p>A CRM segíti Annát és csapatát a teljes értékesítési folyamat rendszerezésében, majd később az ügyfélprojektek menedzselésében, de az egyéb adminisztratív feladatokban már nem.</p>
                             <p>A szerződéseket továbbra is Wordben vagy egy hasonló szerkesztőben készítik el majd papír alapon tárolják.</p>
@@ -87,6 +87,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -140,7 +142,7 @@
     "keywords": "DMS, Document Management System, Dokumentumkezelés, Dokumentumkezelő-rendszer, CRM, Customer Relationship Management, Ügyfélkezelés, Ügyfélkezelő-rendszer, Digitális Vállalkozás, Digitális Transzformáció, ERP, Vállalatirányítás",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Digitális vállalkozás: hogyan legyünk papírmentesek?",
     "publisher": {
@@ -181,7 +183,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Digitális vállalkozás: hogyan legyünk papírmentesek?"
             }
         }

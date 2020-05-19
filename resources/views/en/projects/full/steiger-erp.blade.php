@@ -229,7 +229,7 @@
                 "@type": "ListItem",
                 "position": "3",
                 "item": {
-                    "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                    "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                     "name": "Steiger ERP"
                 }
             }
@@ -271,7 +271,7 @@
     },
     "inLanguage": "en_gb",
     "keywords": "ERP, Laravel",
-    "mainEntityOfPage": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+    "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "Steiger ERP",
     "publisher": {
         "@type": "Corporation",
@@ -327,7 +327,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                 "name": "Steiger ERP"
             }
         }

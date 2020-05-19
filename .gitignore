@@ -19,6 +19,7 @@
 Homestead.json
 Homestead.yaml
 npm-debug.log
+phpstan.neon
 redirects-en.php
 redirects-hu.php
 yarn-error.log

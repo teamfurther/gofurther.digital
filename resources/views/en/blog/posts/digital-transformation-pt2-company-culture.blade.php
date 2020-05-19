@@ -26,12 +26,12 @@
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>This is the second part of our series on digital transformation. If you're looking for a specific article in the series, here are the links to each post:</p>
                             <ul class="list has-bullets has-margin-b60">
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt1-introduction']) }}">Part 1 - Introduction</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'digital-transformation-pt1-introduction']) }}">Part 1 - Introduction</a></li>
                                 <li><strong>Part 2 - Company Culture</strong></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}">Part 3 - Business Processes</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt4-it']) }}">Part 4 - Information Technology</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'digital-transformation-pt3-business-processes']) }}">Part 3 - Business Processes</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'digital-transformation-pt4-it']) }}">Part 4 - Information Technology</a></li>
                             </ul>
-                            <p>In the <a href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt1-introduction']) }}">first part of the series</a> we saw how digital killed Kodak. During they're pinnacle years they were worth billions and employed over 140,000 people around the world. But then a small thing called a camera phone meant they were forced into filing for bankruptcy and selling their patents.</p>
+                            <p>In the <a href="{{ localizedRoute('blog.show', ['slug' => 'digital-transformation-pt1-introduction']) }}">first part of the series</a> we saw how digital killed Kodak. During they're pinnacle years they were worth billions and employed over 140,000 people around the world. But then a small thing called a camera phone meant they were forced into filing for bankruptcy and selling their patents.</p>
                             <p>Somehow the company emerged from it's ashes. Yes, it's fraction of the size it was before, but the name lives on. They went back to the basics and realized their unique selling point is not that they're selling film, but that they're selling memories. They're selling Kodak moments.</p>
                             <p class="has-margin-b60">Today they're developing picture frames and baby monitors with integrated sharing. They learned the hard way that digital transformation is more about open-mindfulness and adaptability rather than technology. And the biggest driver of this transformation is company-culture.</p>
                             <h2 class="heading-3 has-margin-b30">Getting Ready for Digital Transformation</h2>
@@ -44,8 +44,8 @@
                             <p>Radical change often means reshaping teams, changing job titles and longtime business processes. Because of this, people will fear that the value they bring and even their jobs is at risk.</p>
                             <p class="has-margin-b60">It comes down to the leadership to make sure this doesn't happen. They have to be empathetic towards their teams, listen to and document their issues and make consistent efforts to address these issues. In the long run, this empathy will breed trust, and there will be less push-back when implementing change.</p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}">&laquo; Pt. 1 - Introduction</a>
-                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt3-business-processes']) }}">Pt. 3 - Business Processes &raquo; </a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.show', ['slug' => 'digital-transformation-pt3-business-processes']) }}">&laquo; Pt. 1 - Introduction</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.show', ['slug' => 'digital-transformation-pt3-business-processes']) }}">Pt. 3 - Business Processes &raquo; </a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
@@ -63,6 +63,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -116,7 +118,7 @@
     "keywords": "Digital Transformation",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Digital Transformation Pt. 2 - Company Culture",
     "publisher": {
@@ -157,7 +159,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Digital Transformation Pt. 2 - Company Culture"
             }
         }

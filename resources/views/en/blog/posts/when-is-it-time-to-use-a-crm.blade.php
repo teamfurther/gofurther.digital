@@ -34,7 +34,7 @@
                             </figure>
                             <p>But this is only a stopgap solution: it's difficult to apprehend and only scalable to a certain point. Anne's colleagues will soon face her with questions like: did we send out the quote already? Or did we order the giant chocolate cake?</p>
                             <p class="has-margin-b60">If things got to this point, then Anne definitely needs a framework, that adds structure to their customer relationship and sales processes.</p>
-                            <p class="has-margin-b60">This framework is the CRM, or Customer Relationship Management software. There's hundreds of CRM systems: out-of-the-box products and custom solutions galore. We're discussing the actual things to look out for when choosing the right solution in a <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-choose-the-right-crm']) }}">separate article</a>.</p>
+                            <p class="has-margin-b60">This framework is the CRM, or Customer Relationship Management software. There's hundreds of CRM systems: out-of-the-box products and custom solutions galore. We're discussing the actual things to look out for when choosing the right solution in a <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-choose-the-right-crm']) }}">separate article</a>.</p>
                             <h2 class="heading-2 has-margin-b30">How does a CRM help?</h2>
                             <p class="has-margin-b60">Without considering any kind of CRM, we can tell you that they all solve the same inherent problems. Basically they support your sales and customer relationship management processes.</p>
                             <h3 class="heading-3 has-margin-b30">Organising your data</h3>
@@ -96,6 +96,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -149,7 +151,7 @@
     "keywords": "CRM, Customer Relationship Management, Digital Business, Digital Transformation, ERP",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "When is it the right time to invest in a CRM software?",
     "publisher": {
@@ -190,7 +192,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "When is it the right time to invest in a CRM software?"
             }
         }

@@ -27,10 +27,10 @@
                             <div class="post__video">
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/zCE0Lpfwqds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
-                            <p class="has-margin-b60">Korábban már írtunk arról, hogyan segíthet egy szoftveres megoldás különböző irodai folyamatokban, például az <a href="{{ localizedRoute('blog.view', ['slug' => 'mikor-hasznaljunk-crm-rendszert']) }}">értékesítésben</a> vagy az <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-alakitsuk-at-cegunket-papirmentesse']) }}">adminisztratív teendőkben</a>. Ma azt szeretnénk megmutatni, hogy miként tudjuk ezeket a szoftvereket az irodán kívül, a termelési folyamatok optimalizálására használni.</p>
+                            <p class="has-margin-b60">Korábban már írtunk arról, hogyan segíthet egy szoftveres megoldás különböző irodai folyamatokban, például az <a href="{{ localizedRoute('blog.show', ['slug' => 'mikor-hasznaljunk-crm-rendszert']) }}">értékesítésben</a> vagy az <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-alakitsuk-at-cegunket-papirmentesse']) }}">adminisztratív teendőkben</a>. Ma azt szeretnénk megmutatni, hogy miként tudjuk ezeket a szoftvereket az irodán kívül, a termelési folyamatok optimalizálására használni.</p>
                             <h2 class="heading-2 has-margin-b30">Termék A-tól Z-ig</h2>
                             <p>Egy termelésirányító szoftver több kapcsolódó modulból áll. A nulladik lépcső a PLM modul, vagyis a product-lifecycle management, magyarul termékéletciklus-kezelő. A PLM feladata egy termék megtervezése a mérnöki és gyártástervektől, egészen a szervízelésig és a termék megsemmisítésig.</p>
-                            <p>Vegyünk egy valós példát. Egyik <a href="{{ localizedRoute('projects.view', ['slug' => 'njoy-the-hive']) }}">ügyfelünk</a> elektronikai aprócikkeket gyárt. Az ő esetükben a PLM szoftver tartalmaz minden termékhez tartozó dokumentumot, megtervezi hogy milyen emberi erőforrásokra van szükségük és megszervezi a kommunikációt közöttük. Emellett tartalmazza az anyagjegyzéket (BoM), gyártásterveket és szervízelési útmutatókat is.</p>
+                            <p>Vegyünk egy valós példát. Egyik <a href="{{ localizedRoute('projects.show', ['slug' => 'njoy-the-hive']) }}">ügyfelünk</a> elektronikai aprócikkeket gyárt. Az ő esetükben a PLM szoftver tartalmaz minden termékhez tartozó dokumentumot, megtervezi hogy milyen emberi erőforrásokra van szükségük és megszervezi a kommunikációt közöttük. Emellett tartalmazza az anyagjegyzéket (BoM), gyártásterveket és szervízelési útmutatókat is.</p>
                             <p>Gondoljunk úgy a PLM-re, mint egy központi adatbázisra, amely információkat szolgáltat egy termékről a cégnek és egyéb szoftveres moduloknak.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/manufacturing-software-plm-hu.png') }}" alt="A PLM dokumentálja a termék életciklusának összes fázisát" />
@@ -89,6 +89,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -142,7 +144,7 @@
     "keywords": "PLM, Product Lifecycle Management, Termékéletciklus-kezelés, MRP, Material Resource Planning, Erőforrástervezés, Kapacitástervezés, Optimális készlet, Minőségellenőrzés, Termelésirányítás, Digitális Vállalkozás, Digitális Transzformáció, ERP, Vállalatirányítás",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Hogyan segíthet egy termelésirányítási szoftver?",
     "publisher": {
@@ -183,7 +185,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Hogyan segíthet egy termelésirányítási szoftver?"
             }
         }

@@ -25,9 +25,9 @@
                                 <div class="job__actions__share social-sharer">
                                     <span>Share job:</span>
                                     <div class="social-icons">
-                                        <a href="http://www.facebook.com/share.php?u={{ localizedRoute('jobs.view', ['slug' => $job->slug]) }}&title=Apply+to+become+a+{{ urlencode($job->title) }}+at+Further" rel="nofollow" target="_blank"><span class="icon icon--facebook"></span></a>
-                                        <a href="http://twitter.com/intent/tweet?status=Apply+to+become+a+{{ urlencode($job->title) }}+at+Further+{{ localizedRoute('jobs.view', ['slug' => $job->slug]) }}" rel="nofollow" target="_blank"><span class="icon icon--twitter"></span></a>
-                                        <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ localizedRoute('jobs.view', ['slug' => $job->slug]) }}&title=Apply+to+become+a+{{ urlencode($job->title) }}+at+Further&source={{ localizedRoute('home') }}" rel="nofollow" target="_blank"><span class="icon icon--linkedin"></span></a>
+                                        <a href="http://www.facebook.com/share.php?u={{ localizedRoute('jobs.show', ['slug' => $job->slug]) }}&title=Apply+to+become+a+{{ urlencode($job->title) }}+at+Further" rel="nofollow" target="_blank"><span class="icon icon--facebook"></span></a>
+                                        <a href="http://twitter.com/intent/tweet?status=Apply+to+become+a+{{ urlencode($job->title) }}+at+Further+{{ localizedRoute('jobs.show', ['slug' => $job->slug]) }}" rel="nofollow" target="_blank"><span class="icon icon--twitter"></span></a>
+                                        <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ localizedRoute('jobs.show', ['slug' => $job->slug]) }}&title=Apply+to+become+a+{{ urlencode($job->title) }}+at+Further&source={{ localizedRoute('home') }}" rel="nofollow" target="_blank"><span class="icon icon--linkedin"></span></a>
                                     </div>
                                 </div>
                                 <a class="job__apply btn is-pearl" data-toggle="modal" data-target="#apply-modal" data-job-title="{{ $job->title }}">Apply for this job</a>
@@ -44,20 +44,9 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="cta cta--projects">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="container">
-                            <div class="heading-2">Take a look at some of the projects you might work on</div>
-                            <a class="btn is-large is-pearl" href="{{ localizedRoute('projects') }}">Read our case studies</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include(getLang() . '.banners.projects', [
+        'headingText' => 'Take a look at some of the projects you might work on'
+    ])
 @endsection
 
 

@@ -11,4 +11,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.contact-info', [
+        'headingText' => 'Segíthetünk?'
+    ])
 @endsection

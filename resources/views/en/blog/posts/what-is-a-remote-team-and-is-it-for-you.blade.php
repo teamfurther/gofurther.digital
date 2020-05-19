@@ -27,10 +27,10 @@
                             <p>This is the first part of our series on remote company culture. If you're looking for a specific article in the series, here are the links to each post::</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li><strong>Pt. 1 – What is a remote team (and is it for you)?</strong></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a long-distance relationship work in a corporate environment?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a long-distance relationship work in a corporate environment?</a></li>
                             </ul>
                             <p>At Further we are working as a fully remote team. And we love it.</p>
                             <p>The IT sector sets the trend when it comes to remote work. Start-ups and digital companies often employ remote teams. In our case, we employ 10 people from 7 different cities. But remote work for large companies as well: <a href="https://www.invisionapp.com/" target="_blank">Invision</a> employs 700 people, but doesn't have one office.</p>
@@ -60,7 +60,7 @@
                             <p class="has-margin-b30">We also don't have to pay for expensive office equipment, although it's always a good idea to provide your team with the right tools to do their jobs efficiently.</p>
                             <h3 class="heading-4 has-margin-b15">Endless pool of talent</h3>
                             <p>The main reason the IT sector loves remote work, is that they can take advantage of talent from all around the world. Think about it, how limited would you opportunities be, if you'd have to build a team in a rural town.</p>
-                            <p class="has-margin-b30">If you're working remotely, you can access qualified professionals from anywhere. Are you not finding the right team member in your town? No problem, <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}">look around in other cities</a>, or even countries!</p>
+                            <p class="has-margin-b30">If you're working remotely, you can access qualified professionals from anywhere. Are you not finding the right team member in your town? No problem, <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">look around in other cities</a>, or even countries!</p>
                             <h3 class="heading-4 has-margin-b15">Higher efficiency</h3>
                             <p>Most employers are afraid of remote work, because they believe employees are going to be less efficient than working from an office.</p>
                             <p>It's a fact that working remotely doesn't suit everyone. But <a href="https://www.globenewswire.com/news-release/2016/02/08/1019290/0/en/Vodafone-Study-75-Percent-of-Global-Companies-Leverage-Flexible-Working-Policies.html" target="_blank">reports</a> show that people who are working remotely and with a flexible schedule, are much more productive.</p>
@@ -73,15 +73,15 @@
                             <h2 class="heading-2 has-margin-b30">The challenges</h2>
                             <p class="has-margin-b60">Based on the above you might be thinking of jumping right on board the remote train. Although it all sounds good, building a positive remote culture also has a lot of challenges.</p>
                             <h3 class="heading-4 has-margin-b15">Self-discipline</h3>
-                            <p class="has-margin-b30">Working from an office, where you're surrounded by colleagues can be motivating on its own. When working remotely, you don't experience this kind of peer-pressure. There's nobody there to remind you of the tasks at hand – <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">you have to motivate yourself</a>.</p>
+                            <p class="has-margin-b30">Working from an office, where you're surrounded by colleagues can be motivating on its own. When working remotely, you don't experience this kind of peer-pressure. There's nobody there to remind you of the tasks at hand – <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">you have to motivate yourself</a>.</p>
                             <h3 class="heading-4 has-margin-b15">Work-life balance</h3>
                             <p>We already said that remote work leads to a better work-life balance. But it also has its downsides.</p>
-                            <p class="has-margin-b30">As we start working from home, the lines between work life and personal life start getting blurry. If we allow family to interrupt us the same way we're getting interrupted in an office, then we're in the same position, or even worse off. <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Make sure you set up a dedicated work environment</a>.</p>
+                            <p class="has-margin-b30">As we start working from home, the lines between work life and personal life start getting blurry. If we allow family to interrupt us the same way we're getting interrupted in an office, then we're in the same position, or even worse off. <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Make sure you set up a dedicated work environment</a>.</p>
                             <h3 class="heading-4 has-margin-b15">Communication</h3>
                             <p>As much as it seems that remote work has more advantages than office work, the office still has a leg up when it comes to personal interaction. Whatever you want to discuss, you can just walk over to your colleague and discuss it (although this kind of disturbance is the number one reason for decreased office productivity).</p>
-                            <p class="has-margin-b30">In a remote environment, solving the communicational challenges is the most important job of an employer. We at Further, <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">constantly review this question</a> in order to improve.</p>
+                            <p class="has-margin-b30">In a remote environment, solving the communicational challenges is the most important job of an employer. We at Further, <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">constantly review this question</a> in order to improve.</p>
                             <h3 class="heading-4 has-margin-b15">Knowledge sharing</h3>
-                            <p class="has-margin-b30">In an office it's easy to share that eureka moment. But when working remotely, it's easier to keep these moments to ourselves. As an employer it is important to <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">build a company culture that encourages knowledge sharing</a>.</p>
+                            <p class="has-margin-b30">In an office it's easy to share that eureka moment. But when working remotely, it's easier to keep these moments to ourselves. As an employer it is important to <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">build a company culture that encourages knowledge sharing</a>.</p>
                             <h3 class="heading-4 has-margin-b15">Personal relationships</h3>
                             <p>Meeting in person gives a whole other dimension to interactions within a team, that cannot be replaced virtually. We make sure to grab any opportunity to meet.</p>
                             <figure>
@@ -90,7 +90,7 @@
                             <p class="has-margin-t60">It's obvious that remote work has its challenges, but we believe that working from an office provides just as many. Taking everything into account, we believe that building remote teams could be the way forward for many businesses – even for those that were hesitant to take this step for now.</p>
                             <p>That is the reason why we started this series of articles. We wish to present you with the pros and cons of remote work, what to look out for when working remotely and of course, show you how we do it!</p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent? &raquo;</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent? &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
@@ -108,6 +108,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -161,7 +163,7 @@
     "keywords": "Team, Remote team, Software developer, Software company, Remote work, Remote team, Teamwork, Home office, Video call, Motivation, ",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Remote Corporate Culture: Benefits and Challenges for Employees and Employers",
     "publisher": {
@@ -202,7 +204,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Remote Corporate Culture: Benefits and Challenges for Employees and Employers"
             }
         }

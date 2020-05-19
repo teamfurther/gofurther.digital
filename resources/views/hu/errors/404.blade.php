@@ -1,6 +1,5 @@
 @extends('hu.site')
 
-
 @section('content')
     <section class="section">
         <div class="container">
@@ -13,4 +12,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.contact-info', [
+        'headingText' => 'Segíthetünk?'
+    ])
 @endsection

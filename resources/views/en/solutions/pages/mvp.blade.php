@@ -38,6 +38,7 @@
             </div>
         </div>
     </section>
+
     <section class="section is-dark">
         <div class="container">
             <div class="columns is-reversed">
@@ -57,6 +58,7 @@
             </div>
         </div>
     </section>
+
     <section class="section">
         <div class="solution">
             <div class="container">
@@ -77,12 +79,13 @@
             </div>
         </div>
     </section>
+
     <section class="section is-dark">
         <div class="container">
             <div class="columns is-reversed">
                 <div class="column is-half-tablet is-two-thirds-desktop">
                     <h3 class="heading-3">Analyse and evolve product</h3>
-                    <p>Onboard your customers and observe how they interact with your app. We'll help you analyse the feedback and metrics and make adjustments to improve your product. We make sure our apps are easy to change, so in case the numbers show the need, we can quickly make radical changes to help you pivot.</p>
+                    <p>Onboard your customers and observe how they interact with your app. We'll help you analyse the feedback and metrics, and make adjustments to improve your product. We make sure our apps are easy to change, so in case the numbers show the need, we can quickly make radical changes to help you pivot.</p>
                     <ul class="list has-bullets">
                         <li>measure</li>
                         <li>improve</li>
@@ -95,18 +98,11 @@
             </div>
         </div>
     </section>
-    <section class="section">
-        <div class="solution__cta">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="heading-2">Do you want to talk about your software product idea?</div>
-                        <a class="btn is-large is-pearl" href="{{ url('#contact') }}">Let's talk!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+    @include(getLang() . '.banners.contact', [
+        'buttonText' => 'Let\'s build something',
+        'headingText' => 'We\'d love to help bring your product ideas to life'
+    ])
 @endsection
 
 

@@ -1,0 +1,55 @@
+.contact {
+    &__collaborate {
+        &__title {
+            color: $grey-darker;
+            display: block;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .column {
+            @include tablet() {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+
+            @include desktop() {
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+        }
+
+        a {
+            color: $grey-darker;
+            display: block;
+            font-size: 16px;
+            margin-top: 60px;
+            text-transform: uppercase;
+        }
+    }
+
+    &__form {
+        margin: 30px 0;
+
+        @include tablet() {
+            margin: 60px 0;
+        }
+
+        p {
+            margin-bottom: 30px;
+
+            @include desktop() {
+                margin-bottom: 60px;
+            }
+        }
+
+        .is-pulled-left,
+        .is-pulled-right {
+            width: 100%;
+
+            @include tablet() {
+                width: calc(50% - 5px);
+            }
+        }
+    }
+}

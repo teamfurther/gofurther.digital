@@ -195,7 +195,7 @@
                 "@type": "ListItem",
                 "position": "3",
                 "item": {
-                    "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                    "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                     "name": "mentor.me Live Video Tuition"
                 }
             }
@@ -237,7 +237,7 @@
     },
     "inLanguage": "en_gb",
     "keywords": "Live video tuition",
-    "mainEntityOfPage": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+    "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "mentor.me Live Video Tuition",
     "publisher": {
         "@type": "Corporation",
@@ -293,7 +293,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                 "name": "mentor.me Live Video Tuition"
             }
         }

@@ -271,7 +271,7 @@
                 "@type": "ListItem",
                 "position": "3",
                 "item": {
-                    "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                    "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                     "name": "PROFNET e-tanulás platform"
                 }
             }
@@ -313,7 +313,7 @@
     },
     "inLanguage": "hu_HU",
     "keywords": "e-learning szoftver, Codeigniter",
-    "mainEntityOfPage": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+    "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "PROFNET e-tanulás platform",
     "publisher": {
         "@type": "Corporation",
@@ -369,7 +369,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                 "name": "PROFNET e-tanulás platform"
             }
         }

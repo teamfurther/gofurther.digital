@@ -79,6 +79,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -132,7 +134,7 @@
     "keywords": "Custom software development, Licensed software, Out-of-the-box software, Packaged software, SaaP, SaaS",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Custom Development vs. Out-of-the-Box Software",
     "publisher": {
@@ -173,7 +175,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Custom Development vs. Out-of-the-Box Software"
             }
         }

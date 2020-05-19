@@ -271,7 +271,7 @@
                 "@type": "ListItem",
                 "position": "3",
                 "item": {
-                    "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                    "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                     "name": "PROFNET e-Learning Platform"
                 }
             }
@@ -313,7 +313,7 @@
     },
     "inLanguage": "en_gb",
     "keywords": "e-Learning software, Codeigniter",
-    "mainEntityOfPage": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+    "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "PROFNET e-Learning Platform",
     "publisher": {
         "@type": "Corporation",
@@ -369,7 +369,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                 "name": "PROFNET e-Learning Platform"
             }
         }

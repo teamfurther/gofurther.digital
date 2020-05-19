@@ -1,8 +1,8 @@
 <div class="post__share social-sharer">
     <div class="social-icons">
-        <a href="http://www.facebook.com/share.php?u={{ localizedRoute('blog.view', ['slug' => $slug]) }}&title={{ str_replace(' ', '+', $title) }}+by+@Further" rel="nofollow" target="_blank"><span class="icon icon--facebook"></span></a>
-        <a href="http://twitter.com/intent/tweet?status={{str_replace(' ', '+', $title) }}+by+@Further+{{ localizedRoute('blog.view', ['slug' => $slug]) }}" rel="nofollow" target="_blank"><span class="icon icon--twitter"></span></a>
-        <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ localizedRoute('blog.view', ['slug' => $slug]) }}&title={{ str_replace(' ', '+', $title) }}+by+@Further&source={{ localizedRoute('home') }}" rel="nofollow" target="_blank"><span class="icon icon--linkedin"></span></a>
+        <a href="http://www.facebook.com/share.php?u={{ localizedRoute('blog.show', ['slug' => $slug]) }}&title={{ str_replace(' ', '+', $title) }}+by+@Further" rel="nofollow" target="_blank"><span class="icon icon--facebook"></span></a>
+        <a href="http://twitter.com/intent/tweet?status={{str_replace(' ', '+', $title) }}+by+@Further+{{ localizedRoute('blog.show', ['slug' => $slug]) }}" rel="nofollow" target="_blank"><span class="icon icon--twitter"></span></a>
+        <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ localizedRoute('blog.show', ['slug' => $slug]) }}&title={{ str_replace(' ', '+', $title) }}+by+@Further&source={{ localizedRoute('home') }}" rel="nofollow" target="_blank"><span class="icon icon--linkedin"></span></a>
     </div>
 </div>
 

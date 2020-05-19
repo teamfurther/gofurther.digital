@@ -7,15 +7,21 @@ use App\Controller;
 class ProjectsController extends Controller
 {
 
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function index()
     {
         return view(getLang() . '.projects/index');
     }
 
-    public function view($slug)
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function show(string $slug)
     {
-        return view(getLang() . '.projects.view')->with([
-            'slug' => $slug
+        return view(getLang() . '.projects.show')->with([
+            'slug' => $slug,
         ]);
     }
 

@@ -26,13 +26,13 @@
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>Olvasd el a remote vállalati kultúráról szóló sorozatunk többi részét is:</p>
                             <ul class="list has-bullets has-margin-b60">
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">1. rész – Mi az a remote csapat (és miért imádjuk a Furthernél)?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">1. rész – Mi az a remote csapat (és miért imádjuk a Furthernél)?</a></li>
                                 <li><strong>2. rész – Hogyan vegyünk fel új remote csapattagot?</strong></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Hogyan építsünk remote vállalati kultúrát?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">5. rész – Működhet-e sikeres távkapcsolat egy céges környezetben?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Hogyan építsünk remote vállalati kultúrát?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">5. rész – Működhet-e sikeres távkapcsolat egy céges környezetben?</a></li>
                             </ul>
-                            <p>Előző cikkünkben megmutattuk, hogy milyen <a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">előnyökkel és hátrányokkal</a> jár egy olyan csapatot működtetni, amely részben vagy teljesen távmunkában dolgozik. Mi a Furthernél 100%-ban távoli csapatként működünk, és el sem tudjuk képzelni, hogy ez másként legyen.</p>
+                            <p>Előző cikkünkben megmutattuk, hogy milyen <a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">előnyökkel és hátrányokkal</a> jár egy olyan csapatot működtetni, amely részben vagy teljesen távmunkában dolgozik. Mi a Furthernél 100%-ban távoli csapatként működünk, és el sem tudjuk képzelni, hogy ez másként legyen.</p>
                             <p>Ugyanakkor kétségkívül igaz az az állítás, miszerint a távmunka nem mindenkinek való. Távmunkában nincsenek kollégák mellettünk, akik puszta jelenlétükkel motiválóak tudnak lenni. Ezért csapatunknak átlagon felüli önfegyelemre lesz szüksége, hogy ne a sötét szobában nézzék a Netflixet naphosszat.</p>
                             <p>A személyes kapcsolat hiánya miatt kiemelten jó kommunikációs készségekre is szüksége van azoknak a csapattagoknak, akik remote dolgoznak. Bár manapság rengeteg jó kommunikációs segédeszköz és szoftver létezik, a non-verbális kommunikációba kódolt információ gyakran elveszik a virtuális térben.</p>
                             <p>Számunkra ez a két szempont a legfontosabb. Viszont ilyen tulajdonságokkal megáldott munkavállalók, akik emellett még jó szakemberek is, nem jönnek velünk szembe túl gyakran. Éppen ezért szerencse, hogy távmunkában keressük a csapattagokat, így (legtöbbször) nincsenek földrajzi megkötéseink és sokkal nagyobb halmazból válogathatunk.</p>
@@ -115,8 +115,8 @@
                             <p>Mindig figyelj oda, hogy az új kollégának már az első napon legyen feladata, bármilyen apró feladat az. Így hamar sikerélménye lesz és felveszi a munka ritmusát. Nem marad ideje megkérdőjelezni, hogy mit keres egyedül egy szobában.</p>
                             <p class="has-margin-b60">Ez főleg azoknál a kollégáknál fontos, akik még sosem dolgoztak távmunkában. Később már nem jelent ez problémát, ha egyszer ráéreztek a távmunka ízére, nem is fog már felmerülni az irodai munka kérdése.</p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">&laquo; 1. rész – Mi az a remote csapat?</a>
-                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Remote vállalati kultúra &raquo;</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">&laquo; 1. rész – Mi az a remote csapat?</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Remote vállalati kultúra &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
@@ -134,6 +134,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -187,7 +189,7 @@
     "keywords": "Csapat, Remote csapat, Remote team, Távmunka, Távoli csapat, Kommunikáció, Céges távkapcsolat, Videóhívás, Team building, Csapatépítés, Munkavállaló, Motiváció ",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Hogyan vegyünk fel új remote csapattagot?",
     "publisher": {
@@ -228,7 +230,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Hogyan vegyünk fel új remote csapattagot?"
             }
         }

@@ -26,18 +26,18 @@
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>We hope you liked this article about remote work. Browse the other articles of the series:</p>
                             <ul class="list has-bullets has-margin-b60">
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
                                 <li><strong>Pt. 3 – How to build a remote company culture?</strong></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a long-distance relationship work in a corporate environment?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a long-distance relationship work in a corporate environment?</a></li>
                             </ul>
                             <p class="has-margin-b30">Company culture is much more than a couple of foosball tables in the office. Company culture is about how you work, how you communicate with your clients, but also about how you connect with the rest of the team.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/the-right-communication.jpg') }}" alt="Good communication is the key to success" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Communication</h2>
-                            <p>In a <a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">remote team</a> it is imperative to constantly and openly communicate about the above issues. Without this, everything is going to fall apart.</p>
+                            <p>In a <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">remote team</a> it is imperative to constantly and openly communicate about the above issues. Without this, everything is going to fall apart.</p>
                             <p>Everybody in the team must feel comfortable to express their opinions in order to be able to build dialogue regarding company culture. As a team leader, it is your responsibility to give them voice and allow them to express their opinion and ideas.</p>
                             <p>If you managed to achieve this open environment, the next important step is to discuss these issues regularly. Talk about how you're collaborating, what your shared values and goals are, what your expectations and fears are, but also discuss what you have to do as individuals in order to be successful together.</p>
                             <p>Grab every opportunity of a face-to-face meeting to discuss these topics. If this cannot be achieved, set aside time when you can discuss them online. We like to use Friday afternoons for these non-project related discussions.</p>
@@ -97,8 +97,8 @@
                             <p>No matter how mature culture is in a remote company, face-to-face meetings are always going to be necessary. Team building events offer a completely new layer of connections and interactions within the team, which you'll be able to translate to the virtual communication later on.</p>
                             <p>Team building activities help you get to know each other better, what excites and motivates you each in part. Grab every opportunity to meet in person. Apart from team buildings, a good way to meet is attending conferences and meetups.</p>
                             <div class="has-text-centered has-margin-t60">
-                                <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}" class="btn is-pearl has-margin-b15">« Pt. 2 – How to hire remote talent?</a>
-                                <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}" class="btn is-pearl has-margin-b15">Pt. 4 – How to stay motivated when you work remotely? &raquo;</a>
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}" class="btn is-pearl has-margin-b15">« Pt. 2 – How to hire remote talent?</a>
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}" class="btn is-pearl has-margin-b15">Pt. 4 – How to stay motivated when you work remotely? &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
@@ -116,6 +116,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -169,7 +171,7 @@
     "keywords": "Remote team, Remote corporate culture, Remote work, Team, Team building,",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "How to build a remote company culture",
     "publisher": {
@@ -210,7 +212,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "How to build a remote company culture"
             }
         }

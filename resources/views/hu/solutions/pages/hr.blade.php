@@ -38,6 +38,7 @@
             </div>
         </div>
     </section>
+
     <section class="section is-dark">
         <div class="container">
             <div class="columns is-reversed">
@@ -57,6 +58,7 @@
             </div>
         </div>
     </section>
+
     <section class="section">
         <div class="solution">
             <div class="container">
@@ -81,18 +83,12 @@
             </div>
         </div>
     </section>
-    <section class="section">
-        <div class="solution__cta">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="heading-2">Szeretnél többet megtudni HR megoldásainkról?</div>
-                        <a class="btn is-large is-pearl" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+    @include(getLang() . '.banners.contact', [
+        'buttonText' => 'Kérj egy bemutatót',
+        'headingText' => 'Szeretnél többet megtudni HR megoldásainkról?'
+    ])
+
     <section class="section">
         <div class="solution">
             <div class="container">
@@ -131,18 +127,8 @@
             </div>
         </div>
     </section>
-    <section class="section">
-        <div class="solution__blog">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="heading-2">Miért válassz testreszabott megoldást?</div>
-                        <a class="btn is-large is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">Tudd meg itt</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+    @include(getLang() . '.banners.custom-development-vs-out-of-the-box-software')
 @endsection
 
 

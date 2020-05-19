@@ -16,13 +16,12 @@ class ProjectsController extends Controller
     }
 
     /**
-     * @param $slug
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function view($slug)
+    public function show(string $slug)
     {
-        return view(getLang() . '.projects.view')->with([
-            'slug' => $slug
+        return view(getLang() . '.projects.show')->with([
+            'slug' => $slug,
         ]);
     }
 

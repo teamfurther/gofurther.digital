@@ -27,11 +27,11 @@
                             <p>Üdvözlünk a digitális transzformációval kapcsolatos sorozatunk első részében. Ha egy bizonyos cikket keresel a sorozatból, akkor itt megtalálod a linkeket:</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li><strong>1. rész – Bevezető</strong></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">2. rész – Vállalati kultúra</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">3. rész – Üzleti folyamatok</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">4. rész – Technológia</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">2. rész – Vállalati kultúra</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">3. rész – Üzleti folyamatok</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">4. rész – Technológia</a></li>
                             </ul>
-                            <p>Merüljünk is el a témában, és kezdjük a digitális átalakulás valós jelentésével. A „digitális” szó kapcsán a legtöbb embernek az analóg rendszerektől való elhatárolódás jut az eszébe. De <a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">ez csak egy kis része</a> a digitális transzformációnak.</p>
+                            <p>Merüljünk is el a témában, és kezdjük a digitális átalakulás valós jelentésével. A „digitális” szó kapcsán a legtöbb embernek az analóg rendszerektől való elhatárolódás jut az eszébe. De <a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-4-resz-technologia']) }}">ez csak egy kis része</a> a digitális transzformációnak.</p>
                             <p>Számunkra a digitális átalakulás a cég innovációs készségét és az új technológiákhoz való alkalmazkodási képességét jelenti. Tehát azt jelenti, hogy mennyire nyitott a változásokra, és milyen gyorsan képes végrehajtani ezeket a változásokat.</p>
                             <p>Az üzlet gyorsabban változik, mint valaha. Úgy tűnik, hogy minden héten egy új kifejezés lesz felkapott: IoT, Big Data, Ipar 4.0, gépi tanulás, stb.</p>
                             <p class="has-margin-b60">Egyszerűen lemaradnak azok a vállalatok, amelyek nem nyitottak az új változások bevezetésére. Számtalan példa van olyan cégekre, amelyek elszalasztották az esélyüket emiatt: a Blockbuster, a Nokia vagy a RadioShack.</p>
@@ -44,7 +44,7 @@
                             <p>A bukásuk nem amiatt következett be, hogy nem próbáltak új technológiákat fejleszteni. 1975-ben az első digitális fényképezőgép prototípusát Steve Sasson dolgozta ki, aki pont a Kodaknál dolgozott mérnökként. A The New York Times-nak 2008-ban adott <a href="http://www.nytimes.com/2008/05/02/technology/02kodak.html" target="_blank">interjújában elmondta</a>, hogy a Kodak menedzsment reakciója erre ez volt: „aranyos ötlet – de ne mondd el senkinek”.</p>
                             <p class="has-margin-b60">Nyilvánvaló, hogy a Kodak bukása nem a technológia miatt volt. Mindez azért következett be, mert a saját sikerük elvakította őket, és nem vették figyelembe az állandóan változó digitális világot, amelyben élünk. Nem voltak felkészülve a változásra.</p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">2. rész – Vállalati kultúra &raquo;</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">2. rész – Vállalati kultúra &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
@@ -62,6 +62,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -115,7 +117,7 @@
     "keywords": "Digitális transzformáció, Digitális átalakulás",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Digitális transzformáció sorozat 1. rész – Bevezető",
     "publisher": {
@@ -156,7 +158,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Digitális transzformáció sorozat 1. rész – Bevezető"
             }
         }

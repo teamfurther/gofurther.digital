@@ -24,10 +24,10 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p class="has-margin-b60">We previously wrote about the benefits a software can bring to your <a href="{{ localizedRoute('blog.view', ['slug' => 'when-is-it-time-to-use-a-crm']) }}">sales</a> or <a href="{{ localizedRoute('blog.view', ['slug' => 'going-paperless-how-to-digitise-your-business']) }}">operations</a>. Today we'd like to show you how these software can be used outside the office, optimising your manufacturing processes.</p>
+                            <p class="has-margin-b60">We previously wrote about the benefits a software can bring to your <a href="{{ localizedRoute('blog.show', ['slug' => 'when-is-it-time-to-use-a-crm']) }}">sales</a> or <a href="{{ localizedRoute('blog.show', ['slug' => 'going-paperless-how-to-digitise-your-business']) }}">operations</a>. Today we'd like to show you how these software can be used outside the office, optimising your manufacturing processes.</p>
                             <h2 class="heading-2 has-margin-b30">Product Lifecycle Management</h2>
                             <p>A manufacturing software is made up of multiple modules. The first one is the PLM or product lifecycle management. The PLM's goal is to plan a product from design and manufacturing schemes to servicing and disposal.</p>
-                            <p>Let's take a real-life example. One of our <a href="{{ localizedRoute('projects.view', ['slug' => 'njoy-the-hive']) }}">oldest clients</a> is manufacturing consumer electronics. In their case, the PLM software contains all the documents related to products and organises the necessary human resources. It also contains the bill-of-materials (BoM) and service manuals.</p>
+                            <p>Let's take a real-life example. One of our <a href="{{ localizedRoute('projects.show', ['slug' => 'njoy-the-hive']) }}">oldest clients</a> is manufacturing consumer electronics. In their case, the PLM software contains all the documents related to products and organises the necessary human resources. It also contains the bill-of-materials (BoM) and service manuals.</p>
                             <p>Think of a PLM, like a hub which supplies information about a product to the company and other software modules.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/manufacturing-software-plm-en.png') }}" alt="A PLM documents every stage of a product's lifecycle" />
@@ -85,6 +85,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -138,7 +140,7 @@
     "keywords": "PLM, Product Lifecycle Management, MRP, Material Resource Planning, Resource Planning, Capacity Planning, Optimal Inventory, Quality Control, Digital Business, Digital Transformation, ERP",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "How does a software optimise your manufacturing processes?",
     "publisher": {
@@ -179,7 +181,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "How does a software optimise your manufacturing processes?"
             }
         }

@@ -29,7 +29,7 @@
                             </div>
                             <p>Az üzlet gyorsabban változik, mint valaha. Azok a cégvezetők és vállalkozások, akik nincsenek tisztában a legfontosabb mérőszámokkal és nem tudnak ezek alapján informált döntéseket hozni, stratégiát alkotni, lemaradnak versenytársaikkal szemben.</p>
                             <p class="has-margin-b60">Ma szeretnénk megmutatni nektek, melyek azok az adatok, amelyeket minden vezetőnek ismernie kell, és hogyan segít egy szoftver ezek megismerésében.</p>
-                            <p>Korábban írtunk már arról, hogyan segítenek különböző szoftverek a céges folyamatok rendszerezésében és automatizálásában. Szó esett már <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-alakitsuk-at-cegunket-papirmentesse']) }}">a dokumentumkezelő rendszerről</a>, <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-segit-egy-szoftver-a-termelesi-folyamatok-optimalizalasaban']) }}">a termelésirányító szoftverekről</a>, valamint <a href="{{ localizedRoute('blog.view', ['slug' => 'mikor-hasznaljunk-crm-rendszert']) }}">a CRM-ről</a>, amely segít az ügyfélkapcsolat-kezelésben.</p>
+                            <p>Korábban írtunk már arról, hogyan segítenek különböző szoftverek a céges folyamatok rendszerezésében és automatizálásában. Szó esett már <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-alakitsuk-at-cegunket-papirmentesse']) }}">a dokumentumkezelő rendszerről</a>, <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-segit-egy-szoftver-a-termelesi-folyamatok-optimalizalasaban']) }}">a termelésirányító szoftverekről</a>, valamint <a href="{{ localizedRoute('blog.show', ['slug' => 'mikor-hasznaljunk-crm-rendszert']) }}">a CRM-ről</a>, amely segít az ügyfélkapcsolat-kezelésben.</p>
                             <p>Ezek mellett több különböző szoftver működhet még egy vállalkozáson belül, mint például a pénzügyi szoftverek, beszerzési szoftverek, készletkezelők vagy HR szoftverek. Ha ezek nem elszigetelve működnek, hanem együttesen alkotnak egy integrált rendszert, akkor már egy vállalatirányítási rendszerről vagy ERP-ről beszélhetünk.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/erp-modules-hu.png') }}" alt="Az ERP egy integrrált rendszer amiben több különböző más szoftvermodul működik együtt" />
@@ -77,7 +77,7 @@
                                 <figcaption>Tudd, hogyan teljesít a csapatod</figcaption>
                             </figure>
                             <h2 class="heading-2 has-margin-b30">4. Ismerd a termelési adatokat</h2>
-                            <p>Ha már a gyártásról írtunk, a negyedik dolog, amit vezetőként tudnod kell, a termelési adatok. Ezekről már részletesebben írtunk a <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-segit-egy-szoftver-a-termelesi-folyamatok-optimalizalasaban']) }}">termelésirányítási szoftverekről szóló cikkben</a>, ezért most csak összefoglaljuk mit tud ehhez hozzátenni az üzleti intelligencia.</p>
+                            <p>Ha már a gyártásról írtunk, a negyedik dolog, amit vezetőként tudnod kell, a termelési adatok. Ezekről már részletesebben írtunk a <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-segit-egy-szoftver-a-termelesi-folyamatok-optimalizalasaban']) }}">termelésirányítási szoftverekről szóló cikkben</a>, ezért most csak összefoglaljuk mit tud ehhez hozzátenni az üzleti intelligencia.</p>
                             <p>A BI szoftver feldolgozza a gépektől és a termelésirányítási rendszerből kapott adatokat és olyan hasznos információkat jelenít mint az óránként legyártott termékek száma, a selejt százalék, az átlag karbantartási idők vagy az anyagfeltöltéshez szükséges idők. Ezek alapján optimalizálni tudod a gyártási folyamatokat és maximalizálni a profitot.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/5-things-production-data.jpg') }}" alt="Ismerd a termelési adatokat" />
@@ -115,6 +115,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -168,7 +170,7 @@
     "keywords": "BI, Business Intelligence, Üzleti Intelligencia, Big Data, Analytics, Analitika, ERP, Vállalatirányítás",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "5 adat, amit ismerned kell cégvezetőként",
     "publisher": {
@@ -209,7 +211,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "5 adat, amit ismerned kell cégvezetőként"
             }
         }

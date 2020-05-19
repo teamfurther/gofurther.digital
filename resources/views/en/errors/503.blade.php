@@ -1,6 +1,5 @@
 @extends('en.site')
 
-
 @section('content')
     <section class="section">
         <div class="container">
@@ -12,4 +11,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.contact-info', [
+        'headingText' => 'Maybe we can help you in the meantime?'
+    ])
 @endsection

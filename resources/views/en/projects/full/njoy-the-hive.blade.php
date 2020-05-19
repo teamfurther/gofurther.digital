@@ -260,7 +260,7 @@
                 "@type": "ListItem",
                 "position": "3",
                 "item": {
-                    "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                    "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                     "name": "The Hive Product Lifecycle Management"
                 }
             }
@@ -302,7 +302,7 @@
     },
     "inLanguage": "en_gb",
     "keywords": "PLM, Product lifecycle management, Codeigniter",
-    "mainEntityOfPage": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+    "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "The Hive Product Lifecycle Management",
     "publisher": {
         "@type": "Corporation",
@@ -358,7 +358,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                 "name": "The Hive Product Lifecycle Management"
             }
         }

@@ -38,6 +38,7 @@
             </div>
         </div>
     </section>
+
     <section class="section is-dark">
         <div class="container">
             <div class="columns is-reversed">
@@ -57,6 +58,7 @@
             </div>
         </div>
     </section>
+
     <section class="section">
         <div class="solution">
             <div class="container">
@@ -77,6 +79,7 @@
             </div>
         </div>
     </section>
+
     <section class="section is-dark">
         <div class="container">
             <div class="columns is-reversed">
@@ -95,18 +98,11 @@
             </div>
         </div>
     </section>
-    <section class="section">
-        <div class="solution__cta">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="heading-2">Van egy ötleted ami meg szeretnél velünk beszélni?</div>
-                        <a class="btn is-large is-pearl" href="{{ url('#contact') }}">Írd meg nekünk!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+    @include(getLang() . '.banners.contact', [
+        'buttonText' => 'Írd meg nekünk',
+        'headingText' => 'Van egy ötleted ami meg szeretnél velünk beszélni?'
+    ])
 @endsection
 
 
@@ -205,7 +201,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "en_gb",
+    "inLanguage": "hu_hu",
     "keywords": "MVP, MVP fejlesztés, felhasználói történetek, üzleti modell validáció, UX, tervezői gondolkodásmód",
     "mainEntityOfPage": "{{ localizedRoute('solutions.mvp') }}",
     "name": "MVP fejlesztés",

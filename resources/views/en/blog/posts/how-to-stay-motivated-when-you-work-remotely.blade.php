@@ -26,14 +26,14 @@
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>We hope you liked this article about remote work. Browse the other articles of the series:</p>
                             <ul class="list has-bullets has-margin-b60">
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
                                 <li><strong>Pt. 4 – How to stay motivated when you work remotely?</strong></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a long-distance relationship work in a corporate environment?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a long-distance relationship work in a corporate environment?</a></li>
                             </ul>
                             <p>Nowadays, IT is one of the few sectors that gives you full freedom to work outside of the office. Whether it's your own apartment or a café, you can easily do your daily business anywhere, all you need is a laptop and internet access.</p>
-                            <p>Aside from the <a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">considerable benefits</a>, unfortunately, a home office has its own set of challenges. Perhaps one of the biggest challenges of working from home is losing or missing motivation. This can have a serious impact on our efficiency, it can make us unhappy and also affect our colleagues.</p>
+                            <p>Aside from the <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">considerable benefits</a>, unfortunately, a home office has its own set of challenges. Perhaps one of the biggest challenges of working from home is losing or missing motivation. This can have a serious impact on our efficiency, it can make us unhappy and also affect our colleagues.</p>
                             <p>Sometimes there are moments in life when even the best work can drive you crazy. Commitment typically diminishes after a while, and we need to do our part to regain our initial enthusiasm, because every job is just as good as we make it.</p>
                             <p class="has-margin-t60 heading-3">But what can you, as an employee do to boost your motivation a bit?</p>
                             <figure>
@@ -73,8 +73,8 @@
                             <p>If you work from home, you can be easily distracted in the world of housework and comfortable sofas. It is very easy to lose focus and at the end of the day face the fact that even though you have been busy all day, there is little to show for it. Family can easily distract us while we work, thus losing focus and taking time to get back to work. That is why it is advisable to clarify with them in the beginning when we are available to them.</p>
                             <p class="has-margin-t60">As you can see, motivation is a very complex thing, especially as a member of a remote team. It is difficult to strike a balance between freedom and flexibility, self-discipline and focus in order to feel successful and productive. As an employee it is primarily our own thoughts and feelings that can solve our problems and motivate ourselves.</p>
                             <div class="has-text-centered has-margin-t60">
-                                <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}" class="btn is-pearl has-margin-b15">« Pt. 3 – How to build a remote company culture?</a>
-                                <a href="{{ localizedRoute('blog.view', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}" class="btn is-pearl has-margin-b15">Pt. 5 – Can a long-distance relationship work in a corporate environment? &raquo;</a>
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}" class="btn is-pearl has-margin-b15">« Pt. 3 – How to build a remote company culture?</a>
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}" class="btn is-pearl has-margin-b15">Pt. 5 – Can a long-distance relationship work in a corporate environment? &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
@@ -92,6 +92,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -145,7 +147,7 @@
     "keywords": "Team, Remote team, Communication, Corporate culture, Video call, Team building, Employee, Motivation",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "How to be more motivated as a member of a remote team",
     "publisher": {
@@ -186,7 +188,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "How to be more motivated as a member of a remote team"
             }
         }

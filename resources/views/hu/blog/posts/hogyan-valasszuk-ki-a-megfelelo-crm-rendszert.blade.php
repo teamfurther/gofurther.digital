@@ -27,7 +27,7 @@
                             <div class="post__video">
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bmo3WMl46t4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
-                            <p class="has-margin-b60">A <a href="{{ localizedRoute('blog.view', ['slug' => 'mikor-hasznaljunk-crm-rendszert']) }}">múltkori cikkben</a> arról írtunk, hogy mikor érdemes egy CRM rendszert bevezetni. Most pedig azt szeretnénk megmutatni, hogy ha már eldöntöttük, hogy szükségünk van egy CRM-re, akkor hogyan válasszuk ki a megfelelőt.</p>
+                            <p class="has-margin-b60">A <a href="{{ localizedRoute('blog.show', ['slug' => 'mikor-hasznaljunk-crm-rendszert']) }}">múltkori cikkben</a> arról írtunk, hogy mikor érdemes egy CRM rendszert bevezetni. Most pedig azt szeretnénk megmutatni, hogy ha már eldöntöttük, hogy szükségünk van egy CRM-re, akkor hogyan válasszuk ki a megfelelőt.</p>
                             <h2 class="heading-2 has-margin-b30">A csapatod mindig legyen a folyamat része!</h2>
                             <p>Ugorjunk is egyből bele! Az első és legfontosabb dolog a kiválasztásnál az, hogy vondd be a teljes csapatodat a folyamatba. A legtöbb CRM bevezetés ugyanis ezen a ponton bukik el.</p>
                             <p>Kérdezd meg csapattagjaidat, hogy ők mit remélnek a CRM-től, melyek számukra a legfontosabb szempontok és milyen funkciókat szeretnének látni benne.</p>
@@ -105,6 +105,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -158,7 +160,7 @@
     "keywords": "CRM, Customer Relationship Management, Ügyfélkezelés, Ügyfélkezelő-rendszer, Digitális Vállalkozás, Digitális Transzformáció, ERP, Vállalatirányítás",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Hogyan válasszuk ki a megfelelő CRM rendszert?",
     "publisher": {
@@ -199,7 +201,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Hogyan válasszuk ki a megfelelő CRM rendszert?"
             }
         }

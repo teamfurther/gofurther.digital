@@ -39,6 +39,7 @@
             </div>
         </div>
     </section>
+
     <section class="section is-dark">
         <div class="container">
             <div class="columns">
@@ -50,9 +51,10 @@
                 <div class="column is-half-tablet is-two-thirds-desktop">
                     <p>A költséghatékonyabb alkalmazásokhoz hibrid applikációkat is fejleszthetünk. A speciális SDK-k révén, amelyek elérhetővé teszik az olyan natív funkciókat, mint például a fényképezőgép, az események vagy az értesítések, könnyen létrehozhatunk több platformra kiterjedő alkalmazást vagy weboldalakat alakíthatunk át mobilalkalmazásokká.</p>
                     <ul class="list has-bullets">
-                        <li>NativeScript</li>
+                        <li>Flutter</li>
                         <li>ReactNative</li>
-                        <li>Cordova/PhoneGap</li>
+                        <li>Cordova</li>
+                        <li>Electron</li>
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
@@ -61,6 +63,7 @@
             </div>
         </div>
     </section>
+
     <section class="section">
         <div class="solution">
             <div class="container">
@@ -82,18 +85,11 @@
             </div>
         </div>
     </section>
-    <section class="section">
-        <div class="solution__cta">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="heading-2">Szeretnél többet megtudni mobilfejlesztési szolgáltatásainkról?</div>
-                        <a class="btn is-large is-pearl" href="{{ url('#contact') }}">Kérjél egy bemutatót</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+    @include(getLang() . '.banners.contact', [
+        'buttonText' => 'Kérj egy bemutatót',
+        'headingText' => 'Szeretnél többet megtudni mobilfejlesztési szolgáltatásainkról?'
+    ])
 @endsection
 
 

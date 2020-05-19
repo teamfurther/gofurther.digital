@@ -16,17 +16,16 @@ class BlogController extends Controller
     }
 
     /**
-     * @param $slug
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function view($slug)
+    public function show(string $slug)
     {
         if (!view()->exists(getLang() . '.blog.posts.' . $slug)) {
             abort(404);
         }
 
-        return view(getLang() . '.blog.view')->with([
-            'slug' => $slug
+        return view(getLang() . '.blog.show')->with([
+            'slug' => $slug,
         ]);
     }
 

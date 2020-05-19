@@ -26,15 +26,15 @@
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>Ez a digitális átalakulás sorozatunk befejező része. Ha egy bizonyos cikket keresel a sorozatból, akkor itt megtalálod a linkeket:</p>
                             <ul class="list has-bullets has-margin-b60">
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">1. rész – Bevezető</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">2. rész – Vállalati kultúra</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">3. rész – Üzleti folyamatok</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">1. rész – Bevezető</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">2. rész – Vállalati kultúra</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">3. rész – Üzleti folyamatok</a></li>
                                 <li><strong>4. rész – Technológia</strong></li>
                             </ul>
-                            <p class="has-margin-b60">A <a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">második</a> és <a href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">harmadik</a> részben bemutattuk, hogyan segíti elő a vállalati kultúra, illetve hogyan segítik elő az üzleti folyamatok a digitális transzformációt. Ebben az utolsó részben a kirakós utolsó darabjával foglalkozunk, és megnézzük, milyen technológiákat tudunk felhasználni annak érdekében, hogy a vállalkozást egy lépéssel továbbfejlesszük.</p>
+                            <p class="has-margin-b60">A <a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">második</a> és <a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">harmadik</a> részben bemutattuk, hogyan segíti elő a vállalati kultúra, illetve hogyan segítik elő az üzleti folyamatok a digitális transzformációt. Ebben az utolsó részben a kirakós utolsó darabjával foglalkozunk, és megnézzük, milyen technológiákat tudunk felhasználni annak érdekében, hogy a vállalkozást egy lépéssel továbbfejlesszük.</p>
                             <h2 class="heading-3 has-margin-b30">Már automatizáltad munkafolyamatait?</h2>
                             <p>Az automatizálás az első olyan lépés, amit meg kell tenned. Az országod átlagbérétől függően egy 250.000 dolláros ipari robot, valamint annak karbantartási és működési költségei pár év alatt kiegyenlítik egy alkalmazott költségeit (1 év alatt Németországban, 6 év alatt Mexikóban)<sup><a href="https://ark-invest.com/research/robots-will-save-manufacturing-billions" target="_blank">1</a></sup>. És mindez anélkül, hogy figyelembe vennénk az alkamazottak kiképzését, az alkalmazási költségeket és a munkahelyi baleseteket. Ez nem igényel több gondolkodást.</p>
-                            <p>Tapasztalataink szerint <a href="{{ localizedRoute('custom-development') }}">egy integrált szoftverrendszer</a> hasonló idő alatt térül meg. Ügyfeleink beszámolói azt mutatják, hogy átlagosan egy kicsivel több mint 2 éves időszak alatt visszanyerték befektetéseiket. Figyelembe véve, hogy egy ipari robot 12 éves élettartammal rendelkezik, azzal érvelhetünk, hogy a szoftverbe történő befektetés még jövedelmezőbb.</p>
+                            <p>Tapasztalataink szerint <a href="{{ localizedRoute('services.custom-development') }}">egy integrált szoftverrendszer</a> hasonló idő alatt térül meg. Ügyfeleink beszámolói azt mutatják, hogy átlagosan egy kicsivel több mint 2 éves időszak alatt visszanyerték befektetéseiket. Figyelembe véve, hogy egy ipari robot 12 éves élettartammal rendelkezik, azzal érvelhetünk, hogy a szoftverbe történő befektetés még jövedelmezőbb.</p>
                             <p><a href="https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages#part1" target="_blank">A McKinsey adatai szerint</a> a globális munkaidő 30%-a automatizálható 2030-ig. Napjainkban pedig a munkáknak mintegy 50%-a technikailag automatizálható, illetve 10-ből 6 munkakör esetében a folyamatoknak több mint 30%-a automatizálható.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/digitalis-transzformacio-automatizalhato-munkak.png') }}" alt="A munkáknak mintegy 50%-a technikailag automatizálható, illetve 10-ből 6 munkakör esetében a folyamatoknak több mint 30%-a automatizálható" />
@@ -55,9 +55,9 @@
                             <p>Az IoT (Internet of Things) körülöttünk van. Ott van a zsebünkben, az otthonunkban és a vállalkozásunkban is. Az internetes kapcsolattal ellátott készülékek segítenek a munka automatizálásában és az adatgyűjtésben. A gyártóiparban ezt Ipar 4.0-nak nevezik.</p>
                             <p>Valójában a gyártás az, ahol a legtöbb IoT projekt megvalósul, még a fogyasztói piacon levő projekteknél is több. A gyártási térben a korai alkalmazók 66 százaléka azt mondja, hogy az IoT most kritikus a versenyelőny szempontjából<sup><a href="https://www.verizon.com/about/sites/default/files/state-of-the-internet-of-things-market-report-2016.pdf" target="_blank">3</a></sup>.</p>
                             <p class="has-margin-b60">Legyél résen, hogy az IoT-t hol használhatod fel a termelési folyamatok felügyeletében, az energiagazdálkodásban, a hulladékkezelésben, az ügyfél- és termékadatok összesítésében és a berendezések diagnosztizálásában.</p>
-                            <p class="has-margin-b60"><em>Ha élvezted digitális transzformációról szóló sorozatunkat, <a href="{{ url('#contact') }}">vedd fel velünk a kapcsolatot</a>. Mindig szívesen beszélgetünk erről a témáról.</em></p>
+                            <p class="has-margin-b60"><em>Ha élvezted digitális transzformációról szóló sorozatunkat, <a href="{{ localizedRoute('contact') }}">vedd fel velünk a kapcsolatot</a>. Mindig szívesen beszélgetünk erről a témáról.</em></p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">&laquo; 3. rész – Üzleti folyamatok</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">&laquo; 3. rész – Üzleti folyamatok</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
@@ -75,6 +75,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -128,7 +130,7 @@
     "keywords": "Digitális transzformáció, Digitális átalakulás",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Digitális transzformáció sorozat 4. rész – Technológia",
     "publisher": {
@@ -169,7 +171,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Digitális transzformáció sorozat 4. rész – Technológia"
             }
         }

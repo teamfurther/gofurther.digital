@@ -18,29 +18,16 @@
                         <p>Célunk ügyfeleink üzleti növekedésének segítése innovatív megoldások és kiváló minőségű szoftverek szolgáltatásával. Az állandó kommunikáció, a szenvedély és a rugalmasság olyan értékek, melyekben hiszünk, és amelyek ideális hosszú távú partnerekké tesznek minket.</p>
                     </div>
                     <div class="about__stats is-hu">
-                        <span class="about__stat about__stat--1"><strong>160+</strong>projekt</span>
-                        <span class="about__stat about__stat--2"><strong>63</strong>ügyfél</span>
-                        <span class="about__stat about__stat--3"><strong>11</strong>országban</span>
+                        <span class="about__stat about__stat--1"><strong>{{ config('site.stats.projects') }}+</strong>projekt</span>
+                        <span class="about__stat about__stat--2"><strong>{{ config('site.stats.clients') }}</strong>ügyfél</span>
+                        <span class="about__stat about__stat--3"><strong>{{ config('site.stats.countries') }}</strong>országban</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section">
-        <div class="cta cta--profile">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="container">
-                            <div class="heading-2">Szeretnél többet megtudni rólunk?</div>
-                            <a class="btn is-large is-pearl" href="{{ url('media/further-booklet-0419-web-hu.pdf') }}" target="_blank">Töltsd le bemutatónkat</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include(getLang() . '.banners.booklet')
 
     <section class="section" id="hogyan-dolgozunk">
         <div class="container">
@@ -59,23 +46,23 @@
                     <div class="about__process">
                         <span class="about__process__step about__process__step--1">
                             <strong>Megismerés</strong>
-                            Felmérjük az üzleti igényeket és folyamatokat
+                            Felmérjük az üzleti igényeket és folyamatokat.
                         </span>
                         <span class="about__process__step about__process__step--2">
                             <strong>Ötletelés</strong>
-                            Megoldásokat keresünk a meghatározott problémákra
+                            Megoldásokat keresünk a meghatározott problémákra.
                         </span>
                         <span class="about__process__step about__process__step--3">
                             <strong>Validáció</strong>
-                            Prototípusokat tervezünk, hogy teszteljük a kezdeti ötleteket
+                            Prototípusokat tervezünk, hogy teszteljük a kezdeti ötleteket.
                         </span>
                         <span class="about__process__step about__process__step--4">
                             <strong>Megvalósítás</strong>
-                            Lefejlesztjük a validált megoldásokat
+                            Lefejlesztjük a validált megoldásokat.
                         </span>
                         <span class="about__process__step about__process__step--5">
                             <strong>Fenntarthatóság</strong>
-                            Mérjük az eredményeket és továbbfejlesztjük a terméket
+                            Mérjük az eredményeket és továbbfejlesztjük a terméket.
                         </span>
                     </div>
                 </div>
@@ -83,20 +70,8 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="cta cta--services">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="container">
-                            <div class="heading-2">Szeretnéd tudni hogyan segíthetünk neked?</div>
-                            <a class="btn is-large is-pearl" href="{{ localizedRoute('solutions') }}">Olvass tovább</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include(getLang() . '.banners.solutions')
+
 
     <section class="section">
         <div class="about__team">
@@ -179,7 +154,7 @@
                 <div class="column is-5-desktop is-offset-2-desktop">
                     <p>Szenvedélyes, kreatív és világot hódítani akaró munkatársakat keresünk.</p>
                     <p>Úgy gondoljuk, hogy a tapasztalatot és a tudást meg kell osztani, ezért ösztönözzük a csapat tagjai közötti kommunikációt, konferenciákra járunk és workshopokat tartunk.</p>
-                    <p><a href="{{ url('#contact') }}">Ismerkedj meg velünk</a>, tudd meg hogyan pörgünk munka közben, és mit szeretünk a munkánkban.</p>
+                    <p><a href="{{ localizedRoute('contact') }}">Ismerkedj meg velünk</a>, tudd meg hogyan pörgünk munka közben, és mit szeretünk a munkánkban.</p>
                     <p>Oklevelek helyett inkább a fejlődni akarást és az ambíciót vesszük figyelembe. Ezért ha úgy gondolod, hogy rendelkezel ezekkel a tulajdonságokkal, akkor keresd fel az <a href="https://gofurther.digital/en/careers" target="_blank">https://gofurther.digital/en/careers</a> oldalt.</p>
                 </div>
                 <div class="column is-hidden-mobile is-3-desktop">
@@ -189,20 +164,7 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="cta cta--tech-stack">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="container">
-                            <div class="heading-2">Tudj meg többet az általunk használt technológiákról</div>
-                            <a class="btn is-large is-pearl" href="{{ localizedRoute('tech-stack') }}">Eszköztár</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include(getLang() . '.banners.tech-stack')
 @endsection
 
 

@@ -7,10 +7,11 @@ use Illuminate\Http\Request;
 
 class TrustProxies extends Middleware
 {
+
     /**
      * The trusted proxies for this application.
      *
-     * @var array
+     * @var array<string>
      */
     protected $proxies;
 
@@ -20,4 +21,5 @@ class TrustProxies extends Middleware
      * @var string
      */
     protected $headers = Request::HEADER_X_FORWARDED_ALL;
+
 }

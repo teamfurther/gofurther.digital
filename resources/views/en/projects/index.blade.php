@@ -12,44 +12,44 @@
                     <div class="project-list">
                         <div class="col is-full-mobile is-half-tablet is-half-desktop">
                             <div class="project" style="background-image: url(/media/projects/cover-njoy-the-hive.jpg)">
-                                <a href="{{ localizedRoute('projects.view', ['slug' => 'njoy-the-hive']) }}"><h3 class="project__title">nJoy - The Hive</h3></a>
+                                <a href="{{ localizedRoute('projects.show', ['slug' => 'njoy-the-hive']) }}"><h3 class="project__title">nJoy - The Hive</h3></a>
                             </div>
                         </div>
                         <div class="col is-hidden-mobile is-hidden-tablet-only is-one-quarter-desktop">
                             <div class="project is-stat">
-                                <span class="project__stat__main">63</span>
+                                <span class="project__stat__main">{{ config('site.stats.clients') }}</span>
                                 <span class="project__stat__sub">clients</span>
                             </div>
                         </div>
                         <div class="col is-full-mobile is-half-tablet is-one-quarter-desktop">
                             <div class="project" style="background-image: url(/media/projects/cover-cravcitech.jpg)">
-                                <a href="{{ localizedRoute('projects.view', ['slug' => 'cravcitech-website']) }}"><h3 class="project__title">Cravcitech</h3></a>
+                                <a href="{{ localizedRoute('projects.show', ['slug' => 'cravcitech-website']) }}"><h3 class="project__title">Cravcitech</h3></a>
                             </div>
                         </div>
                         <div class="col is-full-mobile is-half-tablet is-one-quarter-desktop">
                             <div class="project is-rowspan" style="background-image: url(/media/projects/cover-steiger.jpg)">
-                                <a href="{{ localizedRoute('projects.view', ['slug' => 'steiger-erp']) }}"><h3 class="project__title">Steiger ERP</h3></a>
+                                <a href="{{ localizedRoute('projects.show', ['slug' => 'steiger-erp']) }}"><h3 class="project__title">Steiger ERP</h3></a>
                             </div>
                         </div>
                         <div class="col is-hidden-mobile is-hidden-tablet-only is-one-quarter-desktop">
                             <div class="project is-stat">
-                                <span class="project__stat__main">160+</span>
+                                <span class="project__stat__main">{{ config('site.stats.projects') }}+</span>
                                 <span class="project__stat__sub">projects</span>
                             </div>
                         </div>
                         <div class="col is-full-mobile is-half-tablet is-half-desktop">
                             <div class="project" style="background-image: url(/media/projects/cover-mentorme.jpg)">
-                                <a href="{{ localizedRoute('projects.view', ['slug' => 'mentorme-live-video-tuition']) }}"><h3 class="project__title">mentor.me</h3></a>
+                                <a href="{{ localizedRoute('projects.show', ['slug' => 'mentorme-live-video-tuition']) }}"><h3 class="project__title">mentor.me</h3></a>
                             </div>
                         </div>
                         <div class="col is-full-mobile is-half-tablet is-one-quarter-desktop">
                             <div class="project" style="background-image: url(/media/projects/cover-idea.jpg)">
-                                <a href="{{ localizedRoute('projects.view', ['slug' => 'idea-elearning-software']) }}"><h3 class="project__title">IDEA</h3></a>
+                                <a href="{{ localizedRoute('projects.show', ['slug' => 'idea-elearning-software']) }}"><h3 class="project__title">IDEA</h3></a>
                             </div>
                         </div>
                         <div class="col is-full-mobile is-half-tablet is-one-quarter-desktop">
                             <div class="project" style="background-image: url(/media/projects/cover-profnet.jpg)">
-                                <a href="{{ localizedRoute('projects.view', ['slug' => 'profnet-elearning-platform']) }}"><h3 class="project__title">PROFNET</h3></a>
+                                <a href="{{ localizedRoute('projects.show', ['slug' => 'profnet-elearning-platform']) }}"><h3 class="project__title">PROFNET</h3></a>
                             </div>
                         </div>
                         <div class="col is-hidden-mobile is-hidden-tablet-only is-one-quarter-desktop">

@@ -26,15 +26,15 @@
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>We hope you liked this article about remote work. Browse the other articles of the series:</p>
                             <ul class="list has-bullets has-margin-b60">
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
                                 <li><strong>Pt. 5 – Can a long-distance relationship work in a corporate environment?</strong></li>
                             </ul>
-                            <p>In our <a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">previous article,</a> we have outlined the many benefits and pitfalls of remote work. Now, let's see what makes a remote team, a truly cohesive team.</p>
+                            <p>In our <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">previous article,</a> we have outlined the many benefits and pitfalls of remote work. Now, let's see what makes a remote team, a truly cohesive team.</p>
                             <p>A strong corporate culture is often ignored, whether it is a physical or virtual office. A company is made up of people who work for greater goals and good. The greater the consistency between colleagues, the easier it is to work together.</p>
-                            <p>There is no business that can grow without strong employee commitment and <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">internal culture. </a> Employees need to feel comfortable and confident in building a positive corporate culture.</p>
+                            <p>There is no business that can grow without strong employee commitment and <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">internal culture. </a> Employees need to feel comfortable and confident in building a positive corporate culture.</p>
                             <p class="has-margin-t60 has-margin-b60 heading-3">Here are some tips for building successful remote company connections:</p>
                             <h3 class="heading-4 has-margin-b15">Nothing replaces face-to-face communication</h3>
                             <p>One of the drawbacks of home office is the lack of personal meetings. face-to-face conversations are replaced by e-mails, phone calls, and chat conversations, where messages are more difficult to interpret due to the lack of nonverbal signals. The messages we send to others do not always reach the destination we want. The recipient often encodes the information in a different way, so misunderstandings are very common.</p>
@@ -63,9 +63,9 @@
                             <p class="has-margin-b30">At Further, we use <a href="https://slack.com/" target="_blank">Slack</a> as a communication channel, one of the best communication tools on the market for remote teams. With it, you can send a message to a colleague from around the world, share files, and add comments. You can create a custom chat channel for different projects, making it easier to organize.</p>
                             <h3 class="heading-4 has-margin-b15">Chat</h3>
                             <p>When managing virtual teams, it is impossible to maintain the same level of spontaneity as you would with a traditional office workplace. However, we can continue chatting in a chat room just as we would in the office dining room.</p>
-                            <p class="has-margin-b30">Slack provides a <a href="https://slackhq.com/the-5-essential-slack-channels-you-didnt-know-your-team-needed" target="_blank">watercooler chat room</a> to replace office chats. Here we share our hobbies, interests, personal experiences and goals. These conversations encourage employees to get to know each other and personally relate to each other. As employees build relationships with their colleagues, their <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">motivation and productivity</a> increase. Increased communication and a better understanding of each other will create a more favorable work environment.</p>
+                            <p class="has-margin-b30">Slack provides a <a href="https://slackhq.com/the-5-essential-slack-channels-you-didnt-know-your-team-needed" target="_blank">watercooler chat room</a> to replace office chats. Here we share our hobbies, interests, personal experiences and goals. These conversations encourage employees to get to know each other and personally relate to each other. As employees build relationships with their colleagues, their <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">motivation and productivity</a> increase. Increased communication and a better understanding of each other will create a more favorable work environment.</p>
                             <h3 class="heading-4 has-margin-b15">Shared virtual to-do lists</h3>
-                            <p>It often happens in a remote team that we work in multiple time zones, so it can sometimes be <a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">a challenge</a> to keep everyone up to date with shared projects. However, with virtual to-do lists, our team will have a much more transparent list of all the tasks along with their status, making it easy to share work and keep everyone informed.</p>
+                            <p>It often happens in a remote team that we work in multiple time zones, so it can sometimes be <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">a challenge</a> to keep everyone up to date with shared projects. However, with virtual to-do lists, our team will have a much more transparent list of all the tasks along with their status, making it easy to share work and keep everyone informed.</p>
                             <p>We use <a href="https://productive.io/" target="_blank">productive.io, </a>which allows you to send files, share notes and talk about them. Anyone can see what workflows are going on and who is working on that specific project.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/to-meet-in-person.jpg') }}" alt="Face-to-face meetings are important in the life of a remote team." />
@@ -76,9 +76,9 @@
                             <p>Corporate team building usually takes place during the first few weeks of each year, where the focus of the meeting is on co-development, celebration of small-to-bigger successes and setting collective goals. Of course, team building games and fun are not to be missed.</p>
                             <p>Family-based team building takes place in the last weeks of the summer when we learn about what our colleagues are like in their private lives as husbands / wives or even fathers / mothers.</p>
                             <p class="has-margin-t60">One of the keys to building trust is focusing on quality communication and properly interpreting feedback from employees.</p>
-                            <p>A united, strong team can create wonderful things. Even though remote teams have their <a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">own unique challenges.</a> A united team can unite in its goals and be successful in projects.</p>
+                            <p>A united, strong team can create wonderful things. Even though remote teams have their <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">own unique challenges.</a> A united team can unite in its goals and be successful in projects.</p>
                             <div class="has-text-centered has-margin-t60">
-                                <a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}" class="btn is-pearl has-margin-b15">« Pt. 4 – How to stay motivated when you work remotely?</a>
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}" class="btn is-pearl has-margin-b15">« Pt. 4 – How to stay motivated when you work remotely?</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
@@ -96,6 +96,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -149,7 +151,7 @@
     "keywords": "Team, Remote team, Communication, Corporate culture, Video calls, Team building, Employees",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Bridging the distance gap with remote employees",
     "publisher": {
@@ -190,7 +192,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Bridging the distance gap with remote employees"
             }
         }

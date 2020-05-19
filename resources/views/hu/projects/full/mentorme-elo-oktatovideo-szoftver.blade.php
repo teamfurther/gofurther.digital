@@ -195,7 +195,7 @@
                 "@type": "ListItem",
                 "position": "3",
                 "item": {
-                    "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                    "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                     "name": "mentor.me élő oktatóvideó-szoftver"
                 }
             }
@@ -237,7 +237,7 @@
     },
     "inLanguage": "hu_HU",
     "keywords": "Elő oktatóvideó-szoftver",
-    "mainEntityOfPage": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+    "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "mentor.me élő oktatóvideó-szoftver",
     "publisher": {
         "@type": "Corporation",
@@ -293,7 +293,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                 "name": "mentor.me élő oktatóvideó-szoftver"
             }
         }

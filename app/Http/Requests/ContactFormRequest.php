@@ -4,12 +4,11 @@ namespace App\Http\Requests;
 
 class ContactFormRequest extends Request
 {
+
     /**
      * Determine if the user is authorized to make this request.
-     *
-     * @return bool
      */
-    public function authorize()
+    public function authorize(): bool
     {
         return true;
     }
@@ -17,9 +16,9 @@ class ContactFormRequest extends Request
     /**
      * Get the validation rules that apply to the request.
      *
-     * @return array
+     * @return array<string>
      */
-    public function rules()
+    public function rules(): array
     {
         return [
             'contact_name' => 'required',
@@ -32,13 +31,12 @@ class ContactFormRequest extends Request
 
     /**
      * Get the URL to redirect to on a validation error.
-     *
-     * @return string
      */
-    protected function getRedirectUrl()
+    protected function getRedirectUrl(): string
     {
         $url = $this->redirector->getUrlGenerator();
 
         return $url->previous() . '#contact-form';
     }
+
 }

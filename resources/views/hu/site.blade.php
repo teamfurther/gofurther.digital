@@ -85,54 +85,107 @@
 <header class="header">
     <div class="container">
         <div class="header__brand">
-            <h1 class="header__logo"><a href="{{ localizedRoute('home') }}">{{ config('site.name') }} | {{ config('site.title.' . getLang()) }}</a></h1>
+            <h1 class="header__logo">
+                <a href="{{ localizedRoute('home') }}">
+                    {{ config('site.name') }} | {{ config('site.title.' . getLang()) }}
+                </a>
+            </h1>
         </div> <!-- /.header__brand -->
         <nav class="navbar">
-            <div class="navbar__item"><a href="{{ localizedRoute('projects') }}">Munkáink</a></div>
+            <div class="navbar__item"><a href="{{ localizedRoute('projects') }}">Projektjeink</a></div>
             <div class="navbar__item has-subnav">
-                <a href="{{ localizedRoute('solutions') }}">Megoldásaink</a>
+                <a href="{{ localizedRoute('solutions') }}">
+                    Megoldásaink <span class="navbar__item__caret"></span>
+                </a>
                 <nav class="navbar__subnav">
                     <div class="container">
                         <div class="columns">
                             <div class="column is-one-third is-sales-operations">
                                 <h3 class="navbar__subnav__title">Vállalatirányítás és ügyvitel</h3>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.crm') }}">CRM</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.sales') }}">Értékesítés</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.projects') }}">Projektmenedzsment</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.accounting') }}">Számvitel</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.purchase') }}">Beszerzés és leltározás</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.plm') }}">Termékéletciklus-kezelés</a></div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.crm') }}">CRM</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.sales') }}">Értékesítés</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.projects') }}">Projektmenedzsment</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.accounting') }}">Számvitel</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.purchase') }}">Beszerzés és leltározás</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.plm') }}">Termékéletciklus-kezelés</a>
+                                </div>
                             </div>
                             <div class="column is-one-third is-productivity">
                                 <h3 class="navbar__subnav__title">Kommunikáció és produktivitás</h3>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.communication') }}">Kommunikáció</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.time-tracking') }}">Időkövetés</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.hr') }}">Humán erőforrások</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.dms') }}">Dokumentumkezelés</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.wiki') }}">Tudástár</a></div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.communication') }}">Kommunikáció</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.time-tracking') }}">Időkövetés</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.hr') }}">Humán erőforrások</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.dms') }}">Dokumentumkezelés</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.wiki') }}">Tudástár</a>
+                                </div>
                             </div>
                             <div class="column is-one-third is-websites">
                                 <h3 class="navbar__subnav__title">Web- és mobilfejlesztés</h3>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.mvp') }}">MVP fejlesztés</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.mobile') }}">Mobilapplikációk</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.chronos') }}">Egyedi weboldalak - Chronos CMS</a></div>
-                                <div class="navbar__subnav__item"><a href="{{ localizedRoute('solutions.ecommerce') }}">Webáruház</a></div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.mvp') }}">MVP fejlesztés</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.mobile') }}">Mobilapplikációk</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.chronos') }}">Egyedi weboldalak - Chronos CMS</a>
+                                </div>
+                                <div class="navbar__subnav__item">
+                                    <a href="{{ localizedRoute('solutions.ecommerce') }}">Webáruház</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="navbar__subnav__overlay"></div>
                 </nav>
             </div>
-            <div class="navbar__item"><a href="{{ localizedRoute('about') }}">Rólunk</a></div>
-            @if (!isset($showContactForm) || $showContactForm)
-            <div class="navbar__item"><a href="{{ url('#contact') }}">Kapcsolat</a></div>
-            @else
-            <div class="navbar__item"><a href="{{ localizedRoute('home') }}#contact">Kapcsolat</a></div>
-            @endif
             <div class="navbar__item"><a href="{{ localizedRoute('blog') }}">Blog</a></div>
-            @if (switchLang('en'))
-            <div class="navbar__item navbar__item--lang"><a href="{{ switchLang('en') }}">EN</a></div>
-            @endif
+            <div class="navbar__item navbar__item--cta"><a href="{{ localizedRoute('contact') }}">Kapcsolat</a></div>
+        </nav> <!-- /.navbar -->
+        <nav class="navbar--mobile">
+            <a class="navbar--mobile__logo" href="{{ localizedRoute('home') }}">
+                {{ config('site.name') }} | {{ config('site.title.' . getLang()) }}
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('projects') }}">
+                Projektjeink
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-transformation') }}">Digitális transzformáció
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services.custom-development') }}">
+                Egyedi szoftverfejlesztés
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services.mvp-development') }}">
+                MVP fejlesztés
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('solutions') }}">
+                Megoldásaink
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('blog') }}">
+                Blog
+            </a>
+            <a class="navbar--mobile__cta" href="{{ localizedRoute('contact') }}">
+                Kapcsolat
+            </a>
         </nav> <!-- /.navbar -->
         <a class="navbar__toggle">
             <span></span>
@@ -144,70 +197,48 @@
 
 @yield('content')
 
-@if (!isset($showContactForm) || $showContactForm)
-<section class="section" id="contact">
+<footer class="footer">
     <div class="container">
-        <h2 class="hero-heading">Van egy ötleted vagy csak beszélgetnél?<strong>Üzenj most!</strong></h2>
-        <div class="contact-box">
-            <div class="contact-box__info h-card vcard">
-                <div class="p-tel tel"><a href="tel:{{ str_replace(' ', '', config('site.contact.phone-1')) }}" class="value">{{ config('site.contact.phone-1') }} </a></div>
-                <div class="u-email email"><a href="mailto:{{ config('site.contact.email') }}" class="value">{{ config('site.contact.email') }}</a></div>
-                <div class="social-icons">
-                    <a href="{{ config('site.social.facebook') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--facebook"></span></a>
-                    <a href="{{ config('site.social.twitter') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--twitter"></span></a>
-                    <a href="{{ config('site.social.linkedin') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--linkedin"></span></a>
-                    <a href="{{ config('site.social.instagram') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--instagram"></span></a>
-                    <a href="{{ config('site.social.medium') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--medium"></span></a>
-                </div>
+        <img class="footer__logo" src="{{ asset('img/logo.svg') }}" alt="Further Digital Solutions" />
+        <div class="footer__top">
+            <nav class="footer__nav">
+                <span class="footer__nav__title">Szolgáltatásaink</span>
+                <a href="{{ localizedRoute('services.digital-transformation') }}">
+                    Digitális transzformáció
+                </a>
+                <a href="{{ localizedRoute('services.custom-development') }}">
+                    Egyedi szoftverfejlesztés
+                </a>
+                <a href="{{ localizedRoute('services.mvp-development') }}">
+                    MVP fejlesztés
+                </a>
+            </nav>
+            <nav class="footer__nav">
+                <span class="footer__nav__title">Linkek</span>
+                {{--<a href="{{ localizedRoute('events') }}">Eseményeink</a>--}}
+                <a href="{{ localizedRoute('about') }}">Rólunk</a>
+                <a href="{{ localizedRoute('tech-stack') }}">Eszköztár</a>
+                <a href="{{ localizedRoute('contact') }}">Kapcsolat</a>
+                @if (switchLang('en'))
+                    <a class="footer__lang" href="{{ switchLang('en') }}">English</a>
+                @endif
+            </nav>
+            <nav class="social-icons is-small">
+                <a href="{{ config('site.social.facebook') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--facebook"></span></a>
+                <a href="{{ config('site.social.linkedin') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--linkedin"></span></a>
+                <a href="{{ config('site.social.twitter') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--twitter"></span></a>
+                <a href="{{ config('site.social.instagram') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--instagram"></span></a>
+            </nav>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__legal">
+                <a href="{{ localizedRoute('terms') }}">Felhasználási feltételek</a> | <a href="{{ localizedRoute('privacy') }}">Adatvédelem</a> | <a href="{{ localizedRoute('cookies') }}">Cookie szabályzat</a>
             </div>
-            <form class="contact-box__form" id="contact-form" action="{{ localizedRoute('contact.send') }}" method="POST">
-                {{ csrf_field() }}
-
-                <p>Nyitottak vagyunk minden új kérdésre, felkérésre. Ha felkeltettük érdeklődésed, megtetszett a munkánk vagy van olyan projekted, amelyet meg szeretnél velünk beszélni, akkor vedd fel velünk a kapcsolatot telefonon vagy e-mailben.</p>
-                <div class="is-pulled-left">
-                    <div class="form-group {{ isset($errors) && $errors->has('contact_name') ? 'has-error' : '' }}">
-                        <input class="form-control" name="contact_name" placeholder="Neved*" type="text" value="{{ old('contact_name') }}" autocomplete="name" tabindex="1" required />
-                    </div>
-                    <div class="form-group {{ isset($errors) && $errors->has('contact_phone') ? 'has-error' : '' }}">
-                        <input class="form-control" name="contact_phone" placeholder="Telefon" type="text" value="{{ old('contact_phone') }}" autocomplete="tel" tabindex="3" />
-                    </div>
-                </div>
-                <div class="is-pulled-right">
-                    <div class="form-group {{ isset($errors) && $errors->has('contact_company') ? 'has-error' : '' }}">
-                        <input class="form-control" name="contact_company" placeholder="Céged neve" type="text" value="{{ old('contact_company') }}" autocomplete="organization" tabindex="2" />
-                    </div>
-                    <div class="form-group {{ isset($errors) && $errors->has('contact_email') ? 'has-error' : '' }}">
-                        <input class="form-control" name="contact_email" placeholder="E-mail*" type="email" value="{{ old('contact_email') }}" autocomplete="email" tabindex="4" required />
-                    </div>
-                </div>
-                <div class="form-group {{ isset($errors) && $errors->has('contact_message') ? 'has-error' : '' }}">
-                    <textarea class="form-control" name="contact_message" placeholder="Üzenet*" rows="5" tabindex="5" required>{{ old('contact_message') }}</textarea>
-                </div>
-                {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
-                <button class="btn is-large is-pearl" type="submit">Küldés</button>
-            </form>
-            <div class="contact-box__company-details h-card vcard">
-                <h3 class="contact-box__company-details__heading">Cégadatok</h3>
-                <span class="company-name p-name name">{{ config('site.company.name') }}</span>
-                <span class="company-no">Cégjegyzékszám: {{ config('site.company.regno') }}</span>
-                <span class="vat-no">Adószám: {{ config('site.company.vatno') }}</span>
+            <div class="footer__copyright">
+                &copy; {{ date('Y') }} Further Digital Solutions
             </div>
         </div>
     </div>
-    <div class="contact-box__bg"></div>
-</section>
-@endif
-
-<footer class="footer @if (isset($showFooter) && $showFooter === false) is-disabled @endif">
-@if (!isset($showFooter) || $showFooter)
-    <div class="container">
-        <div class="columns">
-            <div class="column">
-                &copy; Further<span class="is-hidden-mobile"> Digital Solutions {{ date('Y') }}</span>. <a href="{{ localizedRoute('terms') }}"><span class="is-hidden-tablet">ÁFSZ</span><span class="is-hidden-mobile">Felhasználási feltételek</span></a> | <a href="{{ localizedRoute('privacy') }}">Adatvédelem</a> | <a href="{{ localizedRoute('cookies') }}">Cookie <span class="is-hidden-mobile"> szabályzat</span></a>
-            </div>
-        </div>
-    </div>
-@endif
 </footer>
 
 

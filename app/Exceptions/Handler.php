@@ -4,15 +4,17 @@ namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Illuminate\Support\ViewErrorBag;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
 use Throwable;
 
 class Handler extends ExceptionHandler
 {
+
     /**
      * A list of the exception types that are not reported.
      *
-     * @var array
+     * @var array<object>
      */
     protected $dontReport = [
         //
@@ -21,7 +23,7 @@ class Handler extends ExceptionHandler
     /**
      * A list of the inputs that are never flashed for validation exceptions.
      *
-     * @var array
+     * @var array<string>
      */
     protected $dontFlash = [
         'password',
@@ -29,12 +31,23 @@ class Handler extends ExceptionHandler
     ];
 
     /**
+     * Render an exception into an HTTP response.
+     *
+     * @param \Illuminate\Http\Request $request
+     *
+     * @throws \Throwable
+     */
+    public function render($request, Throwable $exception): Response
+    {
+        return parent::render($request, $exception);
+    }
+
+    /**
      * Render the given HttpException.
      *
-     * @param  \Symfony\Component\HttpKernel\Exception\HttpExceptionInterface  $e
-     * @return \Symfony\Component\HttpFoundation\Response
+     * @return \Illuminate\Http\Response|Response
      */
-    protected function renderHttpException(HttpExceptionInterface $e)
+    protected function renderHttpException(HttpExceptionInterface $exception)
     {
         $prefix = mb_substr(request()->path(), 0, 2);
         if ($prefix && in_array($prefix, config('app.locales'))) {
@@ -43,16 +56,16 @@ class Handler extends ExceptionHandler
         }
 
         $this->registerErrorViewPaths();
-        $view = getLang() . ".errors.{$e->getStatusCode()}";
+        $view = getLang() . ".errors.{$exception->getStatusCode()}";
 
         if (view()->exists($view)) {
             return response()->view($view, [
                 'errors' => new ViewErrorBag(),
-                'exception' => $e,
-            ], $e->getStatusCode(), $e->getHeaders());
+                'exception' => $exception,
+            ], $exception->getStatusCode(), $exception->getHeaders());
         }
 
-        return $this->convertExceptionToResponse($e);
+        return $this->convertExceptionToResponse($exception);
     }
 
     /**
@@ -60,27 +73,11 @@ class Handler extends ExceptionHandler
      *
      * This is a great spot to send exceptions to Sentry, Bugsnag, etc.
      *
-     * @param  \Throwable  $exception
-     * @return void
-     *
      * @throws \Exception
      */
-    public function report(Throwable $exception)
+    public function report(Throwable $exception): void
     {
         parent::report($exception);
     }
 
-    /**
-     * Render an exception into an HTTP response.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Throwable  $exception
-     * @return \Symfony\Component\HttpFoundation\Response
-     *
-     * @throws \Throwable
-     */
-    public function render($request, Throwable $exception)
-    {
-        return parent::render($request, $exception);
-    }
 }

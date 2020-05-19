@@ -24,7 +24,7 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p>In a <a href="{{ localizedRoute('blog.view', ['slug' => 'when-is-it-time-to-use-a-crm']) }}">previous article</a> we looked at how Anne's event planning company evolved to a point where they decided on introducing a CRM system.</p>
+                            <p>In a <a href="{{ localizedRoute('blog.show', ['slug' => 'when-is-it-time-to-use-a-crm']) }}">previous article</a> we looked at how Anne's event planning company evolved to a point where they decided on introducing a CRM system.</p>
                             <p>Let's stick to their example. In today's post we'll show you how Anne can digitise other areas of her company, beside customer relationship.</p>
                             <p>A CRM helps Anne and her team throughout the sales process, and later on in managing projects, but not in other operational tasks.</p>
                             <p>Contracts are still written in Word (or similar editors) and stored on paper. Similarly, at the end of each project, they invoice using a purpose-built billing tool. This is sent to the client and the accounting department by email, or worse, on paper.</p>
@@ -82,6 +82,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -135,7 +137,7 @@
     "keywords": "CRM, Customer Relationship Management, DMS, Document Management System, Paperless, Paperless Business, Digital Business, Digital Transformation, ERP",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "How to become a fully paperless business?",
     "publisher": {
@@ -176,7 +178,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "How to become a fully paperless business?"
             }
         }

@@ -1,16 +1,3 @@
-import Vue from 'vue';
-
-import softwareQuestionnaire from './components/SoftwareQuestionnaire.vue';
-
-const app = new Vue({
-    el: '#app',
-    components: {
-        'software-questionnaire' : softwareQuestionnaire
-    }
-});
-
-
-
 /*
  * BREAKPOINTS
  */
@@ -88,10 +75,6 @@ let alert = new function() {
  * HERO
  */
 let heroContainer = new function() {
-    this.animIn = null;
-    this.animLine = null;
-    this.animOut = null;
-    this.animOutDelay = null;
     this.hero = document.querySelector('.hero');
 
     function adjustHero() {
@@ -105,76 +88,8 @@ let heroContainer = new function() {
             }
         }
     }
-
-    function animateHeroTagline() {
-        if (!document.querySelector('.hero__tagline')) {
-            return;
-        }
-
-        clearInterval(heroContainer.animIn);
-        clearInterval(heroContainer.animOut);
-        clearTimeout(heroContainer.animLine);
-        clearTimeout(heroContainer.animOutDelay);
-
-        const line = heroContainer.hero.querySelector('.hero__tagline strong');
-        line.innerHTML = '';
-
-        const texts = JSON.parse(heroContainer.hero.querySelector('.hero__tagline').getAttribute('data-texts'));
-        const longestTextLength = texts.reduce(function (length, string) {
-            return length > string.length ? length : string.length
-        }, 0);
-
-        const delayBeforeDelete = 3000;
-        const delayBeforeNextChar = 100;
-        const delayBetweenLoops = 1000;
-
-        let currentLine = 0;
-
-        function animateLine() {
-            let currentChar = 0;
-
-            heroContainer.animIn = setInterval(function () {
-                if (typeof texts[currentLine][currentChar] !== 'undefined') {
-                    line.innerHTML += texts[currentLine][currentChar++];
-                } else {
-                    clearInterval(heroContainer.animIn);
-                }
-            }, delayBeforeNextChar);
-
-            heroContainer.animOutDelay = setTimeout(function () {
-                heroContainer.animOut = setInterval(function () {
-                    if (line.innerHTML.length > 0) {
-                        line.innerHTML = line.innerHTML.slice(0, -1);
-                    } else {
-                        clearInterval(heroContainer.animOut);
-
-                        currentLine++;
-                        if (currentLine > texts.length - 1) {
-                            currentLine = 0;
-                        }
-                    }
-                }, delayBeforeNextChar);
-            }, longestTextLength * delayBeforeNextChar + delayBeforeDelete);
-
-            heroContainer.animLine = setTimeout(animateLine, longestTextLength * delayBeforeNextChar * 2 + delayBeforeDelete + delayBetweenLoops);
-        }
-        animateLine();
-    }
-
-    function initHero() {
-        adjustHero();
-        animateHeroTagline();
-    }
-
-    window.addEventListener('focus', animateHeroTagline);
-    window.addEventListener('load', initHero);
-    window.addEventListener('resize', initHero);
-    window.addEventListener('visibilitychange', function () {
-        clearInterval(heroContainer.animIn);
-        clearInterval(heroContainer.animOut);
-        clearTimeout(heroContainer.animLine);
-        clearTimeout(heroContainer.animOutDelay);
-    });
+    window.addEventListener('load', adjustHero);
+    window.addEventListener('resize', adjustHero);
 };
 
 /*
@@ -244,15 +159,17 @@ let modal = new function() {
  * NAVBAR
  */
 let navbar = new function() {
+    this.body = document.querySelector('body');
     this.header = document.querySelector('.header');
     this.navbar = document.querySelector('.navbar');
-    this.navbarItems = document.querySelectorAll('.navbaritem');
+    this.navbarMobile = document.querySelector('.navbar--mobile');
+    this.navbarItems = document.querySelectorAll('.navbar__item');
     this.navbarToggle = document.querySelector('.navbar__toggle');
     this.nextSection = document.querySelector('.section:not(.hero)');
     if (!this.nextSection) {
         this.nextSection = document.querySelector('.footer');
     }
-    this.subnavToggle = document.querySelectorAll('.navbar__item.has-subnav > a, .navbar__subnav__overlay');
+    this.subnavToggle = document.querySelectorAll('.navbar__item.has-subnav > a, .navbar__item__caret, .navbar__subnav__overlay');
 
     // toggle fixed navbar
     function toggleFixed() {
@@ -269,8 +186,9 @@ let navbar = new function() {
 
     // toggle mobile navbar
     function toggle() {
+        navbar.body.classList.toggle('has-disabled-scroll');
         navbar.navbarToggle.classList.toggle('is-active');
-        navbar.navbar.classList.toggle('is-active');
+        navbar.navbarMobile.classList.toggle('is-active');
     }
     this.navbarToggle.addEventListener('click', toggle);
 

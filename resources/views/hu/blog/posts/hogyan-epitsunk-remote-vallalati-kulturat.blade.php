@@ -26,18 +26,18 @@
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>Ez a Remote vállalati kultúra sorozatunk második része. Ha egy bizonyos cikket keresel a sorozatból, akkor itt megtalálod a linkeket:</p>
                             <ul class="list has-bullets has-margin-b60">
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">1. rész – Mi az a remote csapat (és miért imádjuk a Furthernél)?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">2. rész – Hogyan vegyünk fel új remote csapattagot?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">1. rész – Mi az a remote csapat (és miért imádjuk a Furthernél)?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">2. rész – Hogyan vegyünk fel új remote csapattagot?</a></li>
                                 <li><strong>3. rész – Hogyan építsünk remote vállalati kultúrát?</strong></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">5. rész – Működhet-e sikeres távkapcsolat egy céges környezetben?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">5. rész – Működhet-e sikeres távkapcsolat egy céges környezetben?</a></li>
                             </ul>
                             <p>A céges kultúra sokkal többet jelent, mint egy pár csocsó asztal az irodában. A céges kultúra jelenti azt, hogy hogyan dolgozunk, ahogy az ügyfelekkel kommunikálunk, de azt is ahogy egymással kapcsolódunk.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/the-right-communication.jpg') }}" alt="A jó kommunikáció a siker kulcsa" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Kommunikáció</h2>
-                            <p><a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">Egy remote csapatban</a> kiemelten fontos, hogy ezekről a témákról nyíltan és hatékonyan kommunikáljunk. Enélkül minden könnyen széteshet.</p>
+                            <p><a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">Egy remote csapatban</a> kiemelten fontos, hogy ezekről a témákról nyíltan és hatékonyan kommunikáljunk. Enélkül minden könnyen széteshet.</p>
                             <p>Ahhoz, hogy a céges kultúráról párbeszéd alakuljon ki a csapaton belül, fontos, hogy a kollégák ne féljenek kifejezni a véleményüket. Cégvezetőként a te felelősséged, hogy mindenkinek legyen hangja és mindenki nyugodtan elmondhassa véleményét és ötleteit.</p>
                             <p>Ha elérted, hogy egy nyílt környezet alakuljon ki a cégedben, a következő fontos lépés az, hogy ezekről a témákról rendszeresen beszélgessetek. Beszéljétek meg, hogyan dolgoztok csapatként, milyen közös értékeket képviseltek, mik az elvárásaitok és félelmeitek, illetve azt, hogy mit kell egyénileg megtennetek annak érdekében, hogy közösen sikeresek legyetek.</p>
                             <p>Használjatok ki minden alkalmat, személyes találkozást, hogy erről beszélgessetek. Ha erre nincs lehetőség, akkor jelöljetek ki olyan időpontokat, amikor online tudtok beszélni. Mi például erre szoktuk használni a péntek délutánokat.</p>
@@ -79,7 +79,7 @@
                             </figure>
                             <h2 class="heading-2 has-margin-b60">Bizalom</h2>
                             <h3 class="heading-4 has-margin-b15">Elengedés</h3>
-                            <p>Remote környezetben a bizalom rendkívül fontos. Sok időt fektettél abba, hogy <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">önálló munkára képes embereket alkalmazzál</a>, ezért a legrosszabb dolog, amit tehetsz, hogy minden részletét felügyelni próbálod a munkájuknak.</p>
+                            <p>Remote környezetben a bizalom rendkívül fontos. Sok időt fektettél abba, hogy <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">önálló munkára képes embereket alkalmazzál</a>, ezért a legrosszabb dolog, amit tehetsz, hogy minden részletét felügyelni próbálod a munkájuknak.</p>
                             <p class="has-margin-b30">Ahelyett, hogy ellenőrzöd minden lépésüket, szánj inkább időt arra, hogy megadd nekik a megfelelő struktúrát és kommunikációs eszközöket a munkájuk elvégzéséhez.</p>
                             <h3 class="heading-4 has-margin-b15">Munkaidő</h3>
                             <p>Az egyik leggyakrabban felmerülő félelem a távmunkával szemben az, hogy mi van, ha a kollégák nem töltik ki a munkaidejüket. A Furthernél csak azért mérjük az időt, amit ledolgozunk, mert annak alapján készülnek majd el a riportok az ügyfeleknek.</p>
@@ -97,8 +97,8 @@
                             <p>Bármennyire érett is a vállalati kultúra egy remote cégben, a személyes kapcsolatokra akkor is szükség lesz. A csapatépítők során teljesen új kapcsolódási pontok és interakciók alakulnak ki a csapaton belül, amit később át lehet ültetni a virtuális kommunikációba.</p>
                             <p>A csapatépítőkön sokat megtudhattok egymásról, a szenvedélyeitekről és egymás mozgató rugóitokról. Ezért ragadjátok meg az alkalmat, hogy minél gyakrabban találkozzatok személyesen is! A csapatépítőkön kívül jó alkalom lehet személyes találkozásokra az is, ha közösen eljártok konferenciákra vagy meetupokra.</p>
                             <div class="has-text-centered has-margin-t60">
-                                <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}" class="btn is-pearl has-margin-b15">« 2. rész – Hogyan vegyünk fel új remote csapattagot?</a>
-                                <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}" class="btn is-pearl has-margin-b15">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk? &raquo;</a>
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}" class="btn is-pearl has-margin-b15">« 2. rész – Hogyan vegyünk fel új remote csapattagot?</a>
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}" class="btn is-pearl has-margin-b15">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk? &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
@@ -116,6 +116,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -169,7 +171,7 @@
     "keywords": "Csapat, Remote csapat, Remote team, Távmunka, Távoli csapat, Kommunikáció, Céges távkapcsolat, Videóhívás, Team building, Csapatépítés, Munkavállaló, Motiváció, Remote vállalati kultúra",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Remote vállalati kultúra, 3 rész: Hogyan építsünk remote vállalati kultúrát?",
     "publisher": {
@@ -210,7 +212,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Remote vállalati kultúra, 3 rész: Hogyan építsünk remote vállalati kultúrát?"
             }
         }

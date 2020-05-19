@@ -18,29 +18,16 @@
                         <p>Our goal is to help our customer's business grow by offering innovative solutions and providing top quality software. Constant communication, passion and flexibility are the values we believe in and which make us ideal long-term partners.</p>
                     </div>
                     <div class="about__stats">
-                        <span class="about__stat about__stat--1"><strong>160+</strong>projects</span>
-                        <span class="about__stat about__stat--2"><strong>63</strong>clients</span>
-                        <span class="about__stat about__stat--3"><strong>11</strong>countries</span>
+                        <span class="about__stat about__stat--1"><strong>{{ config('site.stats.projects') }}+</strong>projects</span>
+                        <span class="about__stat about__stat--2"><strong>{{ config('site.stats.clients') }}</strong>clients</span>
+                        <span class="about__stat about__stat--3"><strong>{{ config('site.stats.countries') }}</strong>countries</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section">
-        <div class="cta cta--profile">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="container">
-                            <div class="heading-2">Read our company profile</div>
-                            <a class="btn is-large is-pearl" href="{{ url('media/further-booklet-0419-web-en.pdf') }}" target="_blank">Download</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include(getLang() . '.banners.booklet')
 
     <section class="section" id="our-approach">
         <div class="container">
@@ -59,23 +46,23 @@
                     <div class="about__process">
                         <span class="about__process__step about__process__step--1">
                             <strong>Discover</strong>
-                            Understanding your business needs and requirements
+                            Understanding your business needs and requirements.
                         </span>
                         <span class="about__process__step about__process__step--2">
                             <strong>Ideate</strong>
-                            Finding solutions to the problems defined
+                            Finding solutions to the problems defined.
                         </span>
                         <span class="about__process__step about__process__step--3">
-                            <strong>Prototype</strong>
-                            Designing prototypes to test our initial concepts
+                            <strong>Prototype and test</strong>
+                            Designing prototypes to test our initial concepts.
                         </span>
                         <span class="about__process__step about__process__step--4">
                             <strong>Implement</strong>
-                            Developing the validated features
+                            Developing the validated features.
                         </span>
                         <span class="about__process__step about__process__step--5">
                             <strong>Evolve</strong>
-                            Sustaining, measuring and improving your product
+                            Sustaining, measuring and improving your product.
                         </span>
                     </div>
                 </div>
@@ -83,20 +70,7 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="cta cta--services">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="container">
-                            <div class="heading-2">Want to know how we can help you?</div>
-                            <a class="btn is-large is-pearl" href="{{ localizedRoute('solutions') }}">Read on</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include(getLang() . '.banners.solutions')
 
     <section class="section">
         <div class="about__team">
@@ -179,7 +153,7 @@
                 <div class="column is-7-tablet is-5-desktop is-offset-2-desktop">
                     <p>We are always looking for passionate, creative and driven people to work with.</p>
                     <p>We believe that experience and knowledge should be shared, so we encourage communication between team members, attend conferences and hold regular workshops.</p>
-                    <p><a href="{{ url('#contact') }}">Get to know us</a>, how we roll and what we love about our jobs.</p>
+                    <p><a href="{{ localizedRoute('contact') }}">Get to know us</a>, how we roll and what we love about our jobs.</p>
                     <p>At Further we hire for fit and ambition, rather than qualifications and degrees, so if you think you got what it takes, visit our <a href="{{ localizedRoute('jobs') }}">careers page</a>.</p>
                 </div>
                 <div class="column is-5-tablet is-hidden-mobile is-3-desktop">
@@ -189,20 +163,7 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="cta cta--tech-stack">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="container">
-                            <div class="heading-2">Want to learn more about the tools and tech we use?</div>
-                            <a class="btn is-large is-pearl" href="{{ localizedRoute('tech-stack') }}">Explore the stack</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include(getLang() . '.banners.tech-stack')
 @endsection
 
 

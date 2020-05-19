@@ -26,16 +26,16 @@
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>If you liked this article, read the rest of our series on remote work:</p>
                             <ul class="list has-bullets has-margin-b60">
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
                                 <li><strong>Pt. 2 – How to hire remote talent?</strong></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a long-distance relationship work in a corporate environment?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a long-distance relationship work in a corporate environment?</a></li>
                             </ul>
-                            <p>In our previous article, we spoke about <a href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">the advantages and challenges</a> of working as a remote team. At Further we are 100% remote, and couldn't even imagine working in a different way.</p>
-                            <p>Although working remotely is great, it's also true that it is not suitable for everyone. In an office, the proximity of your colleagues can be motivating on it's own. You don't have that when working remotely. So your team will need to be extremely self-disciplined to resist the temptation to binge-watch all 30+ seasons of The Simpsons.</p>
-                            <p>The lack of in-person contact requires especially good communication skills to be able to be efficient outside an office. Although there's an abundance of great tools that help you communicate online, the information coded into non-verbal signs is often lost in the virtual space.</p>
-                            <p>For us, these are the most important traits in a team member. But employees blessed with these qualities, who are also good professionals, don't come around too often. Fortunately, (most of the time) when operating a remote team, you're not limited by geography and can access a much broader pool of talent.</p>
+                            <p>In our previous article, we spoke about <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">the advantages and challenges</a> of working as a remote team. At Further we are 100% remote, and couldn’t even imagine working in a different way.</p>
+                            <p>Although working remotely is great, it’s also true that it is not suitable for everyone. In an office, the proximity of your colleagues can be motivating on it’s own. You don’t have that when working remotely. So your team will need to be extremely self-disciplined to resist the temptation to binge-watch all 30+ seasons of The Simpsons.</p>
+                            <p>The lack of in-person contact requires especially good communication skills to be able to be efficient outside an office. Although there’s an abundance of great tools that help you communicate online, the information coded into non-verbal signs is often lost in the virtual space.</p>
+                            <p>For us, these are the most important traits in a team member. But employees blessed with these qualities, who are also good professionals, don’t come around too often. Fortunately, (most of the time) when operating a remote team, you’re not limited by geography and can access a much broader pool of talent.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/job-advertisement.jpg') }}" alt="The job listing" />
                             </figure>
@@ -116,8 +116,8 @@
                             <p>Always pay attention, that your new colleague has something to work on immediately, however small that task may be. This gives them a sense of accomplishment early on, and they'll be able to pick up the tempo from there. They won't have time to question what they're actually doing alone in a room.</p>
                             <p class="has-margin-b60">This is especially important for people who have never worked remotely before. Later on, this won't be an issue anymore. Once they get a taste of working remotely, they won't ever look back.</p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">&laquo; Pt. 1 – What is a remote team?</a>
-                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.view', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – Remote company culture? &raquo;</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">&laquo; Pt. 1 – What is a remote team?</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – Remote company culture? &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
@@ -135,6 +135,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -188,7 +190,7 @@
     "keywords": "BI, Business Intelligence, Big Data, Analytics, ERP",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "How to hire people in a remote team?",
     "publisher": {
@@ -229,7 +231,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "How to hire people in a remote team?"
             }
         }

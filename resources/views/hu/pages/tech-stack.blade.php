@@ -46,8 +46,9 @@
                 <div class="column has-margin-b0 is-half-tablet is-one-quarter-desktop">
                     <h2 class="heading-4 has-margin-b0">Cross-platform mobil</h2>
                     <ul class="list has-bullets has-margin-b30">
-                        <li>NativeScript</li>
+                        <li>Flutter</li>
                         <li>ReactNative</li>
+                        <li>Cordova</li>
                         <li>Electron</li>
                     </ul>
                     <h2 class="heading-4 has-margin-b0">Natív mobil</h2>
@@ -75,20 +76,7 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="cta cta--services">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="container">
-                            <div class="heading-2">Szeretnéd tudni hogyan segíthetünk önnek?</div>
-                            <a class="btn is-large is-pearl" href="{{ localizedRoute('solutions') }}">Olvass tovább</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include(getLang() . '.banners.solutions')
 @endsection
 
 

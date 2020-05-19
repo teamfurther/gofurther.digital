@@ -26,15 +26,15 @@
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>Olvasd el sorozatunk többi cikkét:</p>
                             <ul class="list has-bullets has-margin-b60">
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">1. rész – Mi az a remote csapat (és miért imádjuk a Furthernél)?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">2. rész – Hogyan vegyünk fel új remote csapattagot?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Hogyan építsünk remote vállalati kultúrát?</a></li>
-                                <li><a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">1. rész – Mi az a remote csapat (és miért imádjuk a Furthernél)?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">2. rész – Hogyan vegyünk fel új remote csapattagot?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Hogyan építsünk remote vállalati kultúrát?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
                                 <li><strong>5. rész – Működhet-e sikeres távkapcsolat egy céges környezetben?</strong></li>
                             </ul>
-                            <p>Egy <a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">előző cikkben</a> bemutattuk a remote munka számos előnyét és a buktatóit is. Most lássuk mitől válik egy remote csapat igazán összetartó csapattá.</p>
+                            <p>Egy <a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">előző cikkben</a> bemutattuk a remote munka számos előnyét és a buktatóit is. Most lássuk mitől válik egy remote csapat igazán összetartó csapattá.</p>
                             <p>Az erős vállalati kultúrát gyakran figyelmen kívül hagyják, függetlenül attól, hogy fizikai vagy virtuális irodáról van szó. Egy cég olyan emberek egységéből tevődik össze, akik nagyobb célok-javak érdekében dolgoznak. Minél nagyobb a kollégák közötti összhang, annál könnyebben megy a közös munka.</p>
-                            <p>Nincs olyan vállalkozás, amely erős munkavállalói elkötelezettség és <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">belső kultúra alapja</a> nélkül növekedni tudna. Az alkalmazottaknak kényelmesen és magabiztosan kell érezniük magukat a pozitív vállalati kultúra kialakulásához.</p>
+                            <p>Nincs olyan vállalkozás, amely erős munkavállalói elkötelezettség és <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">belső kultúra alapja</a> nélkül növekedni tudna. Az alkalmazottaknak kényelmesen és magabiztosan kell érezniük magukat a pozitív vállalati kultúra kialakulásához.</p>
                             <p class="has-margin-t60 has-margin-b60 heading-3">Íme néhány tipp a sikeres céges távkapcsolat kialakításához:</p>
                             <h3 class="heading-4 has-margin-b15">Semmi nem helyettesíti a személyes találkozást</h3>
                             <p>A home office egyik hátulütője a személyes találkozók hiánya. A négyszemközti beszélgetéseket felváltják az e-mailek, telefonhívások, chat beszélgetések, ahol a nonverbális jelek hiánya miatt nehezebben értelmezhetőek az üzenetek. A levelek amiket mások felé küldünk nem mindig érnek úgy célba ahogy azt mi szeretnénk. A befogadó sokszor máshogy kódolja az információkat így rendkívül gyakoriak a kommunikációs félreértések.</p>
@@ -63,9 +63,9 @@
                             <p class="has-margin-b30">A Further-nél <a href="https://slack.com/" target="_blank">a Slack-et</a> használjuk kommunikációs csatornaként, amely a piac egyik legjobb kommunikációs eszköze remote csapatok számára. Segítségével a világ bármely tájáról üzenhetünk egy kollégának, fájlokat oszthatunk meg, amihez megjegyzéseket is fűzhetünk. Különböző projektek számára egyedi csevegőcsatornát hozhatunk létre, ezzel is megkönnyítve a szerveződést.</p>
                             <h3 class="heading-4 has-margin-b15">Csevegés</h3>
                             <p>A virtuális csapatok vezetésekor lehetetlen ugyanolyan szintű spontaneitást fenntartani, mint a hagyományos irodai munkahely esetén. Egy csevegőszobában azonban továbbra is folytathatunk beszélgetéseket, csakúgy mint ahogy azt az irodai ebédlőben tennénk.</p>
-                            <p class="has-margin-b30">A Slack biztosít egy  <a href="https://slackhq.com/the-5-essential-slack-channels-you-didnt-know-your-team-needed" target="_blank">watercooler csevegőszobát,</a> amivel helyettesíteni próbáljuk az irodai csevegéseket. Itt osztjuk meg a hobbijainkat, érdeklődési körünket, személyes élményeiket és céljaikat. Ezek a beszélgetések arra ösztönzik az alkalmazottakat, hogy megismerjék egymást és személyesen kötődjenek egymáshoz. Ahogy az alkalmazottak kapcsolatokat építenek kollégáikkal, a <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">motivációjuk és termelékenységük</a> növekszik. A fokozott kommunikáció és egymás jobban megismerése kedvezőbb munkakörnyezetet teremt.</p>
+                            <p class="has-margin-b30">A Slack biztosít egy  <a href="https://slackhq.com/the-5-essential-slack-channels-you-didnt-know-your-team-needed" target="_blank">watercooler csevegőszobát,</a> amivel helyettesíteni próbáljuk az irodai csevegéseket. Itt osztjuk meg a hobbijainkat, érdeklődési körünket, személyes élményeiket és céljaikat. Ezek a beszélgetések arra ösztönzik az alkalmazottakat, hogy megismerjék egymást és személyesen kötődjenek egymáshoz. Ahogy az alkalmazottak kapcsolatokat építenek kollégáikkal, a <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">motivációjuk és termelékenységük</a> növekszik. A fokozott kommunikáció és egymás jobban megismerése kedvezőbb munkakörnyezetet teremt.</p>
                             <h3 class="heading-4 has-margin-b15">Megosztott virtuális feladatlisták</h3>
-                            <p>Egy remote csapatban gyakran megesik, hogy több időzónában is dolgozunk, így néha <a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-imadjuk-a-furthernel']) }}">kihívást jelenthet,</a> hogy mindenki naprakész legyen a megosztott projektekkel. A virtuális feladatlistákkal azonban csapatunk számára sokkal átláthatóbb lesz az összes feladat listája az állapotukkal együtt, ami egyszerűvé teszi a munka megosztását és mindenki tájékoztatását.</p>
+                            <p>Egy remote csapatban gyakran megesik, hogy több időzónában is dolgozunk, így néha <a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-imadjuk-a-furthernel']) }}">kihívást jelenthet,</a> hogy mindenki naprakész legyen a megosztott projektekkel. A virtuális feladatlistákkal azonban csapatunk számára sokkal átláthatóbb lesz az összes feladat listája az állapotukkal együtt, ami egyszerűvé teszi a munka megosztását és mindenki tájékoztatását.</p>
                             <p>Mi a <a href="https://productive.io/" target="_blank">productive.io-ot</a> használjuk ami lehetővé teszik a fájlok küldését, a jegyzetek megosztását és a róluk folytatott beszélgetéseket. Bárki láthatja, hogy milyen munkafolyamatok zajlanak és hogy ki min dolgozik.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/to-meet-in-person.jpg') }}" alt="A személyes találkozás kiemelten fontos egy remote csapat számára." />
@@ -76,9 +76,9 @@
                             <p>A céges csapatépítés általában minden év első heteiben történik, amikor a találkozó központjában a közös fejlődés, a kisebb-nagyobb sikerek megünneplése és a kollektív célok kitűzése áll. Természetesen a csapatépitő játékok és a szórakozás sem maradnak ki.</p>
                             <p>A családos csapatépítésre a nyár utolsó heteiben kerül sor, amikor megismerjük, hogy milyenek is a kollégáink a magánéletben férjként/feleségként vagy akár apaként/anyaként.</p>
                             <p class="has-margin-t60">A bizalom kiépítésének egyik kulcsa, a minőségi kommunikációra való összpontosítás és a munkavállalóktól kapott visszajelzés megfelelő értelmezése.</p>
-                            <p>Egy egységes, erős csapat csodálatos dolgokat hozhat létre. Annak ellenére, hogy a remote csapatoknak megvannak az <a href="{{ localizedRoute('blog.view', ['slug' => 'mi-az-a-remote-csapat-es-miert-imadjuk-a-furthernel']) }}">egyedi kihívásai.</a> Egy egységes csapat egyesülhet a céljaiban és eredményes lehet a projektekben.</p>
+                            <p>Egy egységes, erős csapat csodálatos dolgokat hozhat létre. Annak ellenére, hogy a remote csapatoknak megvannak az <a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-imadjuk-a-furthernel']) }}">egyedi kihívásai.</a> Egy egységes csapat egyesülhet a céljaiban és eredményes lehet a projektekben.</p>
                             <div class="has-text-centered has-margin-t60">
-                                <a href="{{ localizedRoute('blog.view', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}" class="btn is-pearl has-margin-b15">« 4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a>
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}" class="btn is-pearl has-margin-b15">« 4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
@@ -96,6 +96,8 @@
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.projects')
 @endsection
 
 
@@ -149,7 +151,7 @@
     "keywords": " Csapat, Remote csapat, Remote team, Távmunka, Távoli csapat, Kommunikáció, Céges távkapcsolat, Videóhívás, Team building, Csapatépítés, Munkavállaló",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}"
+        "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
     "name": "Áthidalható-e a földrajzi távolság egy remote csapat életében?",
     "publisher": {
@@ -190,7 +192,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('blog.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
                 "name": "Áthidalható-e a földrajzi távolság egy remote csapat életében?"
             }
         }

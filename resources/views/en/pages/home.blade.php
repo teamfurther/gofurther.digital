@@ -2,65 +2,60 @@
 
 @section('content')
     <section class="hero">
-        <h2 class="hero__tagline" data-texts='["be efficient", "get organized", "go Further"]'>We can help you<strong></strong></h2>
-        <a class="hero__cta" href="{{ url('#contact') }}">have an idea you want to discuss?<strong>Let's talk!</strong></a>
-        <a class="hero__scroll" href="{{ url('#services') }}"></a>
+        <h2 class="hero-heading">
+            <small>Software that helps you</small>
+            Be efficient. Get organized.<br />
+            <strong class="is-tangerine">Go Further.</strong>
+        </h2>
+        <a class="hero__cta" href="{{ localizedRoute('contact') }}">
+            Have an idea you want to discuss?<strong>Let's talk</strong>
+        </a>
+        <a class="hero__scroll" href="#partners"></a>
     </section>
 
-    <section class="section" id="services">
+    <section class="section is-dark has-padding-b30" id="partners">
         <div class="container">
             <div class="columns">
-                <div class="column">
-                    <h2 class="hero-heading">Your long-term<strong><span class="is-hidden-mobile">development </span>partners</strong></h2>
+                <div class="column is-10-tablet is-9-desktop">
+                    <h2 class="hero-heading">
+                        Having a tough time finding a <strong class="is-raspberry">reliable</strong> software agency?
+                    </h2>
                 </div>
             </div>
-            <div class="columns has-margin-b60 is-mobile">
-                <div class="column has-text-centered is-3-mobile is-2-tablet is-offset-2-tablet is-1-desktop is-offset-3-desktop">
-                    <img src="{{ asset('img/home-services-digital-transformation-icon.png') }}" alt="Digital transformation" />
-                </div>
-                <div class="column is-9-mobile is-6-tablet is-5-desktop">
-                    <h3 class="heading-4">Digital<br />transformation</h3>
-                    <p>
-                        The shift to digital will disrupt all industries. Let us help you understand how it can help your business and how you can embrace the opportunities it brings.
+            <div class="columns">
+                <div class="column is-5-tablet">
+                    <p class="has-margin-b30">
+                        You're looking for a partner, not a supplier. You want a company that goes beyond the brief. You want somebody to take you <span class="has-text-underlined">Further</span>.
                     </p>
-                    <a class="btn is-pearl" href="{{ localizedRoute('blog.view', ['slug' => 'digital-transformation-pt1-introduction']) }}">Read more</a>
-                </div>
-            </div>
-            <div class="columns has-margin-b60 is-mobile">
-                <div class="column has-text-centered is-3-mobile is-2-tablet is-offset-2-tablet is-1-desktop is-offset-3-desktop">
-                    <img src="{{ asset('img/home-services-custom-development-icon.png') }}" alt="Custom software development" />
-                </div>
-                <div class="column is-9-mobile is-6-tablet is-5-desktop">
-                    <h3 class="heading-4">Custom<br />software development</h3>
                     <p>
-                        We can take care of all your custom development needs, from business analysis, through design to implementation, all tailor-made for you.
+                        We are a team of developers, system architects, designers and business analysts. Our clients have been with us on average for {{ config('site.stats.avg_years') }} years, which we believe shows our commitment to creating quality products and building long-term partnerships with our customers.
                     </p>
-                    <a class="btn is-pearl" href="{{ localizedRoute('custom-development') }}">Read more</a>
                 </div>
-            </div>
-            <div class="columns is-mobile">
-                <div class="column has-text-centered is-3-mobile is-2-tablet is-offset-2-tablet is-1-desktop is-offset-3-desktop">
-                    <img src="{{ asset('img/home-services-mvp-development-icon.png') }}" alt="MVP development" />
-                </div>
-                <div class="column is-9-mobile is-6-tablet is-5-desktop">
-                    <h3 class="heading-4">MVP<br />development</h3>
-                    <p>
-                        By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.
-                    </p>
-                    <a class="btn is-pearl" href="{{ localizedRoute('solutions.mvp') }}">Read more</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="cta cta--projects">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="container">
-                            <div class="heading-2">Take a look at our work</div>
-                            <a class="btn is-large is-pearl" href="{{ localizedRoute('projects') }}">Read our case studies</a>
+                <div class="column is-6-tablet is-offset-1-tablet">
+                    <div class="columns is-mobile is-multiline">
+                        <div class="column is-6 has-margin-b60">
+                            <img src="{{ asset('media/partners/png.png') }}" alt="Procter & Gamble" />
+                        </div>
+                        <div class="column is-6 has-margin-b60">
+                            <img src="{{ asset('media/partners/njoy.png') }}" alt="nJoy" />
+                        </div>
+                        <div class="column is-6 has-margin-b60">
+                            <img src="{{ asset('media/partners/msd.png') }}" alt="MSD Pharma" />
+                        </div>
+                        <div class="column is-6 has-margin-b60">
+                            <img src="{{ asset('media/partners/praktiker.png') }}" alt="Praktiker Hungary" />
+                        </div>
+                        <div class="column is-6 has-margin-b60">
+                            <img src="{{ asset('media/partners/harborsz.png') }}" alt="Harborsz Logistic" />
+                        </div>
+                        <div class="column is-6 has-margin-b60">
+                            <img src="{{ asset('media/partners/ovsz.png') }}" alt="Hungarian National Blood Transfusion Service" />
+                        </div>
+                        <div class="column is-6">
+                            <img src="{{ asset('media/partners/onrobot.png') }}" alt="OnRobot" />
+                        </div>
+                        <div class="column is-6">
+                            <img src="{{ asset('media/partners/steiger.png') }}" alt="Steiger" />
                         </div>
                     </div>
                 </div>
@@ -68,37 +63,83 @@
         </div>
     </section>
 
+    <section class="section" id="services">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-12-tablet is-5-widescreen">
+                    <h2 class="hero-heading">
+                        We turn your ideas into digital products <strong class="is-pearl">that work.</strong>
+                    </h2>
+                </div>
+                <div class="column is-offset-1-widescreen">
+                    <div class="columns has-margin-b90 is-mobile">
+                        <div class="column is-3-mobile is-2-tablet is-offset-1-tablet is-offset-0-widescreen">
+                            <img src="{{ asset('img/home-services-digital-transformation-icon.png') }}" alt="Digital transformation" />
+                        </div>
+                        <div class="column is-8-tablet">
+                            <h3 class="heading-4">Digital<br />transformation</h3>
+                            <p>
+                                The shift to digital will disrupt all industries. Let us help you understand how it can help your business and how you can embrace the opportunities it brings.
+                            </p>
+                            <a class="btn is-pearl" href="{{ localizedRoute('services.digital-transformation') }}">Read more</a>
+                        </div>
+                    </div>
+                    <div class="columns has-margin-b90 is-mobile">
+                        <div class="column is-3-mobile is-2-tablet is-offset-1-tablet is-offset-0-widescreen">
+                            <img src="{{ asset('img/home-services-custom-development-icon.png') }}" alt="Custom software development" />
+                        </div>
+                        <div class="column is-8-tablet">
+                            <h3 class="heading-4">Custom<br />software development</h3>
+                            <p>
+                                We can take care of all your custom development needs, from business analysis, through design to implementation, all tailor-made for you.
+                            </p>
+                            <a class="btn is-pearl" href="{{ localizedRoute('services.custom-development') }}">Read more</a>
+                        </div>
+                    </div>
+                    <div class="columns is-mobile">
+                        <div class="column is-3-mobile is-2-tablet is-offset-1-tablet is-offset-0-widescreen">
+                            <img src="{{ asset('img/home-services-mvp-development-icon.png') }}" alt="MVP development" />
+                        </div>
+                        <div class="column is-8-tablet">
+                            <h3 class="heading-4">MVP<br />development</h3>
+                            <p>
+                                By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.
+                            </p>
+                            <a class="btn is-pearl" href="{{ localizedRoute('services.mvp-development') }}">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @include(getLang() . '.banners.projects')
+
     <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column">
-                    <h2 class="hero-heading">We're proficient in<strong>Laravel + Vue.js</strong></h2>
+                <div class="column is-10-tablet is-9-desktop">
+                    <h2 class="hero-heading">
+                        We're <strong class="is-raspberry">proficient</strong> in Laravel + Vue.js.
+                    </h2>
                 </div>
             </div>
             <div class="columns">
-                <div class="column has-margin-b0 is-5-tablet is-offset-1-tablet">
+                <div class="column is-8-tablet">
                     <p>We love frameworks like Laravel and Vue.js. Their rich set of features and community contributed packages allow us to reduce development times and costs. We also have a deep understanding of how these tools work, which helps us write clean, maintainable and scalable code.</p>
                     <p>Laravel is the most popular PHP framework, while Vue.js is quickly becoming a favourite among Javascript developers. They both have an outstanding community supporting them, and here at Further, we're making an effort to give back by contributing to code and community projects alike.</p>
                 </div>
-                <div class="column has-margin-b0 has-text-right is-5-tablet is-centered-vertical is-hidden-mobile">
+                <div class="column has-text-right is-4-tablet is-centered-vertical is-hidden-mobile">
                     <img src="{{ asset('img/home-laravel-vuejs.png') }}" alt="Laravel & Vue.js" />
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section">
-        <div class="cta cta--tech-stack">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="container">
-                            <div class="heading-2">Want to learn more about the tools and tech we use?</div>
-                            <a class="btn is-large is-pearl" href="{{ localizedRoute('tech-stack') }}">Explore the stack</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="section is-pearl has-padding-b0">
+        <div class="banner--laravel-meetup">
+            <div class="heading-3">We are proud organisers of the Laravel Hungary meetup!</div>
+            <img class="has-margin-l30" src="{{ asset('img/laravel-meetup.png') }}" alt="Laravel Hungary Meetup" />
         </div>
     </section>
 @endsection

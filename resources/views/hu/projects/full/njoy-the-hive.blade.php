@@ -260,7 +260,7 @@
                 "@type": "ListItem",
                 "position": "3",
                 "item": {
-                    "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                    "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                     "name": "The Hive - Termékéletciklus-kezelés"
                 }
             }
@@ -302,7 +302,7 @@
     },
     "inLanguage": "hu_HU",
     "keywords": "PLM, Termékéletciklus-kezelés, Codeigniter",
-    "mainEntityOfPage": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+    "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "The Hive - Termékéletciklus-kezelés",
     "publisher": {
         "@type": "Corporation",
@@ -358,7 +358,7 @@
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ localizedRoute('projects.view', ['slug' => $slug]) }}",
+                "@id": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
                 "name": "The Hive - Termékéletciklus-kezelés"
             }
         }

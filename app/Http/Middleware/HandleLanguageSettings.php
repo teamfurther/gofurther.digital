@@ -3,17 +3,17 @@
 namespace App\Http\Middleware;
 
 use Closure;
+use Illuminate\Http\Request;
 
 class HandleLanguageSettings
 {
+
     /**
      * Handle an incoming request.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
      * @return mixed
      */
-    public function handle($request, Closure $next)
+    public function handle(Request $request, Closure $next)
     {
         $prefix = $request->route()->getPrefix();
         if ($prefix) {
@@ -32,4 +32,5 @@ class HandleLanguageSettings
 
         return $next($request);
     }
+
 }
