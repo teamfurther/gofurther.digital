@@ -77,7 +77,7 @@
 
 .hero-heading {
     color: $grey-darker;
-    font: 700 30px / 1 $family-highlight;
+    font: 700 24px / 1 $family-highlight;
     margin: 0 auto 45px;
 
     @include tablet() {
@@ -92,7 +92,7 @@
 
     small {
         display: block;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
         margin-bottom: 5px;
 

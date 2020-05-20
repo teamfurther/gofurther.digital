@@ -33,28 +33,28 @@
                 </div>
                 <div class="column is-6-tablet is-offset-1-tablet">
                     <div class="columns is-mobile is-multiline">
-                        <div class="column is-6 has-margin-b60">
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
                             <img src="{{ asset('media/partners/png.png') }}" alt="Procter & Gamble" />
                         </div>
-                        <div class="column is-6 has-margin-b60">
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
                             <img src="{{ asset('media/partners/njoy.png') }}" alt="nJoy" />
                         </div>
-                        <div class="column is-6 has-margin-b60">
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
                             <img src="{{ asset('media/partners/msd.png') }}" alt="MSD Pharma" />
                         </div>
-                        <div class="column is-6 has-margin-b60">
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
                             <img src="{{ asset('media/partners/praktiker.png') }}" alt="Praktiker Hungary" />
                         </div>
-                        <div class="column is-6 has-margin-b60">
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
                             <img src="{{ asset('media/partners/harborsz.png') }}" alt="Harborsz Logistic" />
                         </div>
-                        <div class="column is-6 has-margin-b60">
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
                             <img src="{{ asset('media/partners/ovsz.png') }}" alt="Hungarian National Blood Transfusion Service" />
                         </div>
-                        <div class="column is-6">
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
                             <img src="{{ asset('media/partners/onrobot.png') }}" alt="OnRobot" />
                         </div>
-                        <div class="column is-6">
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
                             <img src="{{ asset('media/partners/steiger.png') }}" alt="Steiger" />
                         </div>
                     </div>
