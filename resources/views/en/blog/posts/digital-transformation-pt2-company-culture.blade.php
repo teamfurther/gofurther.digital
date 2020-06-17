@@ -1,10 +1,10 @@
 @section('title', 'Digital Transformation Series Pt. 2 - Company Culture')
 @section('description', 'In the first part of the series we saw how digital killed Kodak. But they made efforts to change their company culture and have risen from their ashes.')
-@section('preview_image', asset('media/blog/cover-digital-transformation-2-en.jpg'))
+@section('preview_image', asset('media/blog/cover-digital-transformation-2-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-digital-transformation-2-en.jpg') }}" srcset="{{ asset('media/blog/featured-digital-transformation-2-769w-en.jpg') }} 769w" sizes="100vw" alt="Digital Transformation Pt. 2 - Company Culture" />
+        <img src="{{ asset('media/blog/featured-digital-transformation.png') }}" srcset="{{ asset('media/blog/featured-digital-transformation-768w.png') }} 768w, {{ asset('media/blog/featured-digital-transformation-1000w.png') }} 1000w" sizes="100vw" alt="Digital Transformation Pt. 2 - Company Culture" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -112,7 +112,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-digital-transformation-2-en.jpg') }}"
+        "url": "{{ asset('media/blog/cover-digital-transformation-2-en.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Digital Transformation",

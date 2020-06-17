@@ -1,10 +1,10 @@
 @section('title', 'Digitális transzformáció sorozat 4. rész – Technológia')
 @section('description', 'Sorozatunk záró cikkében, a digitális transzformáció puzzle utolsó darabjával foglalkozunk és megnézzük hogyan használhatod ki a technológiában rejlő lehetőségeket, hogy előrelendítse vállalkozásodat.')
-@section('preview_image', asset('media/blog/cover-digital-transformation-4-hu.jpg'))
+@section('preview_image', asset('media/blog/cover-digital-transformation-4-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-digital-transformation-4-hu.jpg') }}" srcset="{{ asset('media/blog/featured-digital-transformation-4-769w-hu.jpg') }} 769w" sizes="100vw" alt="Digitális transzformáció sorozat 4. rész – Technológia" />
+        <img src="{{ asset('media/blog/featured-digital-transformation.png') }}" srcset="{{ asset('media/blog/featured-digital-transformation-768w.png') }} 768w, {{ asset('media/blog/featured-digital-transformation-1000w.png') }} 1000w" sizes="100vw" alt="Digitális transzformáció sorozat 4. rész – Technológia" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -124,7 +124,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-digital-transformation-4-hu.jpg') }}"
+        "url": "{{ asset('media/blog/cover-digital-transformation-4-hu.png') }}"
     },
     "inLanguage": "hu_HU",
     "keywords": "Digitális transzformáció, Digitális átalakulás",

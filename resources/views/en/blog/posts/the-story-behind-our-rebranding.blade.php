@@ -1,10 +1,10 @@
 @section('title', 'The story behind our rebranding')
 @section('description', 'We took the shot and decided to rebrand our company not only because change is necessary to grow, but the main reason behind the rebrand was that the old brand did not represent us well anymore.')
-@section('preview_image', asset('media/blog/cover-rebranding.jpg'))
+@section('preview_image', asset('media/blog/cover-rebranding.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-rebranding.jpg') }}" srcset="{{ asset('media/blog/featured-rebranding-769w.jpg') }} 769w" sizes="100vw" alt="The story behind our rebranding" />
+        <img src="{{ asset('media/blog/featured-rebranding.png') }}" srcset="{{ asset('media/blog/featured-rebranding-768w.png') }} 768w, {{ asset('media/blog/featured-rebranding-1000w.png') }} 1000w" sizes="100vw" alt="The story behind our rebranding" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -110,7 +110,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-rebranding.jpg') }}"
+        "url": "{{ asset('media/blog/cover-rebranding.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Further Digital Solutions, Further, Rebranding",

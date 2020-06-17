@@ -1,10 +1,10 @@
 @section('title', 'Digitális transzformáció sorozat 2. rész – Vállalati kultúra')
 @section('description', 'A sorozat első részében megtudhattuk, hogyan buktatta meg a digitális világ a Kodakot. De változtattak a vállalati kultúrájukon és feltámadtak hamvaikból.')
-@section('preview_image', asset('media/blog/cover-digital-transformation-2-hu.jpg'))
+@section('preview_image', asset('media/blog/cover-digital-transformation-2-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-digital-transformation-2-hu.jpg') }}" srcset="{{ asset('media/blog/featured-digital-transformation-2-769w-hu.jpg') }} 769w" sizes="100vw" alt="Digitális transzformáció sorozat 2. rész – Vállalati kultúra" />
+        <img src="{{ asset('media/blog/featured-digital-transformation.png') }}" srcset="{{ asset('media/blog/featured-digital-transformation-768w.png') }} 768w, {{ asset('media/blog/featured-digital-transformation-1000w.png') }} 1000w" sizes="100vw" alt="Digitális transzformáció sorozat 2. rész – Vállalati kultúra" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -112,7 +112,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-digital-transformation-2-hu.jpg') }}"
+        "url": "{{ asset('media/blog/cover-digital-transformation-2-hu.png') }}"
     },
     "inLanguage": "hu_HU",
     "keywords": "Digitális transzformáció, Digitális átalakulás",

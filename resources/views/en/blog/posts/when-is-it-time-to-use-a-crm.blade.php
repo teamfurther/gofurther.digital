@@ -1,10 +1,10 @@
 @section('title', 'When is it the right time to invest in a CRM software?')
 @section('description', 'Most companies go through the same stage regarding their customer management processes. But when is it the right time to finally invest in a CRM software?')
-@section('preview_image', asset('media/blog/cover-when-is-it-time-to-use-a-crm-en.jpg'))
+@section('preview_image', asset('media/blog/cover-when-is-it-time-to-use-a-crm-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm.jpg') }}" srcset="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-769w.jpg') }} 769w" sizes="100vw" alt="When is it time to use a CRM?" />
+        <img src="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm.png') }}" srcset="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-768w.png') }} 768w, {{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-1000w.png') }} 1000w" sizes="100vw" alt="When is it time to use a CRM?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -145,7 +145,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-when-is-it-time-to-use-a-crm-en.jpg') }}"
+        "url": "{{ asset('media/blog/cover-when-is-it-time-to-use-a-crm-en.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "CRM, Customer Relationship Management, Digital Business, Digital Transformation, ERP",

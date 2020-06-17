@@ -1,10 +1,10 @@
 @section('title', '5 things, every business owner should know')
 @section('description', 'In this article, we\'ll show you what information is a must know for business owners to be able to plan ahead, and how a software can help you keep track and analyse these numbers.')
-@section('preview_image', asset('media/blog/cover-5-things-every-business-owner-should-know-en.jpg'))
+@section('preview_image', asset('media/blog/cover-5-things-every-business-owner-should-know-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-5-things-every-business-owner-should-know.jpg') }}" srcset="{{ asset('media/blog/featured-5-things-every-business-owner-should-know-769w.jpg') }} 769w" sizes="100vw" alt="5 things, every business owner should know" />
+        <img src="{{ asset('media/blog/featured-5-things-every-business-owner-should-know.png') }}" srcset="{{ asset('media/blog/featured-5-things-every-business-owner-should-know-768w.png') }} 768w, {{ asset('media/blog/featured-5-things-every-business-owner-should-know-1000w.png') }} 1000w" sizes="100vw" alt="5 things, every business owner should know" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -161,7 +161,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-5-things-every-business-owner-should-know-en.jpg') }}"
+        "url": "{{ asset('media/blog/cover-5-things-every-business-owner-should-know-en.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "BI, Business Intelligence, Big Data, Analytics, ERP",

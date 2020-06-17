@@ -1,10 +1,10 @@
 @section('title', 'Digitális transzformáció sorozat 1. rész – Bevezető')
 @section('description', 'Üdvözlünk a digitális átalakulással kapcsolatos sorozatunk első részében. Merüljünk is el a témában, és kezdjük a digitális átalakulás valós jelentésével.')
-@section('preview_image', asset('media/blog/cover-digital-transformation-1-hu.jpg'))
+@section('preview_image', asset('media/blog/cover-digital-transformation-1-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-digital-transformation-1-hu.jpg') }}" srcset="{{ asset('media/blog/featured-digital-transformation-1-769w-hu.jpg') }} 769w" sizes="100vw" alt="Digitális transzformáció sorozat 1. rész – Bevezető" />
+        <img src="{{ asset('media/blog/featured-digital-transformation.png') }}" srcset="{{ asset('media/blog/featured-digital-transformation-768w.png') }} 768w, {{ asset('media/blog/featured-digital-transformation-1000w.png') }} 1000w" sizes="100vw" alt="Digitális transzformáció sorozat 1. rész – Bevezető" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">

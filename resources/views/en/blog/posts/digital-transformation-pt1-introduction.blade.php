@@ -1,10 +1,10 @@
 @section('title', 'Digital Transformation Series Pt. 1 - Introduction')
 @section('description', 'Welcome to the first part of our 4 part series on digital transformation. Let\'s dive in, and start with what digital transformation actually means.')
-@section('preview_image', asset('media/blog/cover-digital-transformation-1-en.jpg'))
+@section('preview_image', asset('media/blog/cover-digital-transformation-1-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-digital-transformation-1-en.jpg') }}" srcset="{{ asset('media/blog/featured-digital-transformation-1-769w-en.jpg') }} 769w" sizes="100vw" alt="Digital Transformation Pt. 1 - Introduction" />
+        <img src="{{ asset('media/blog/featured-digital-transformation.png') }}" srcset="{{ asset('media/blog/featured-digital-transformation-768w.png') }} 768w, {{ asset('media/blog/featured-digital-transformation-1000w.png') }} 1000w" sizes="100vw" alt="Digital Transformation Pt. 1 - Introduction" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -111,7 +111,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-digital-transformation-1-en.jpg') }}"
+        "url": "{{ asset('media/blog/cover-digital-transformation-1-en.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Digital Transformation",

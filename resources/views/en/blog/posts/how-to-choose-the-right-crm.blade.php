@@ -1,10 +1,10 @@
 @section('title', 'How to choose the right CRM for your business?')
 @section('description', 'In this article, we\'ll write about all the things you need to take into consideration when choosing the CRM for your business.')
-@section('preview_image', asset('media/blog/cover-how-to-choose-the-right-crm-en.jpg'))
+@section('preview_image', asset('media/blog/cover-how-to-choose-the-right-crm-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-how-to-choose-the-right-crm.jpg') }}" srcset="{{ asset('media/blog/featured-how-to-choose-the-right-crm-769w.jpg') }} 769w" sizes="100vw" alt="How to choose the right CRM for your business?" />
+        <img src="{{ asset('media/blog/featured-how-to-choose-the-right-crm.png') }}" srcset="{{ asset('media/blog/featured-how-to-choose-the-right-crm-768w.png') }} 768w, {{ asset('media/blog/featured-how-to-choose-the-right-crm-1000w.png') }} 1000w" sizes="100vw" alt="How to choose the right CRM for your business?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -151,7 +151,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-how-to-choose-the-right-crm-en.jpg') }}"
+        "url": "{{ asset('media/blog/cover-how-to-choose-the-right-crm-en.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "CRM, Customer Relationship Management, Digital Business, Digital Transformation, ERP",

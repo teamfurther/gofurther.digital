@@ -1,10 +1,10 @@
 @section('title', 'How does a software optimise your manufacturing processes?')
 @section('description', 'In today\'s article we\'d like to show you how a software can help optimise your product development, supply chain and manufacturing processes.')
-@section('preview_image', asset('media/blog/cover-manufacturing-software-en.jpg'))
+@section('preview_image', asset('media/blog/cover-manufacturing-software-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-manufacturing-software.jpg') }}" srcset="{{ asset('media/blog/featured-manufacturing-software-769w.jpg') }} 769w" sizes="100vw" alt="How does a software optimise your manufacturing processes?" />
+        <img src="{{ asset('media/blog/featured-manufacturing-software.png') }}" srcset="{{ asset('media/blog/featured-manufacturing-software-768w.png') }} 768w, {{ asset('media/blog/featured-manufacturing-software-1000w.png') }} 1000w" sizes="100vw" alt="How does a software optimise your manufacturing processes?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -134,7 +134,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-manufacturing-software-en.jpg') }}"
+        "url": "{{ asset('media/blog/cover-manufacturing-software-en.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "PLM, Product Lifecycle Management, MRP, Material Resource Planning, Resource Planning, Capacity Planning, Optimal Inventory, Quality Control, Digital Business, Digital Transformation, ERP",

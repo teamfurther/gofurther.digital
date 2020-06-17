@@ -1,10 +1,10 @@
 @section('title', 'Digital Transformation Series Pt. 4 - IT')
 @section('description', 'In this final part, we\'ll tackle the final piece of the puzzle and look at what technology you can leverage to take your business one step further.')
-@section('preview_image', asset('media/blog/cover-digital-transformation-4-en.jpg'))
+@section('preview_image', asset('media/blog/cover-digital-transformation-4-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-digital-transformation-4-en.jpg') }}" srcset="{{ asset('media/blog/featured-digital-transformation-4-769w-en.jpg') }} 769w" sizes="100vw" alt="Digital Transformation Pt. 4 - IT" />
+        <img src="{{ asset('media/blog/featured-digital-transformation.png') }}" srcset="{{ asset('media/blog/featured-digital-transformation-768w.png') }} 768w, {{ asset('media/blog/featured-digital-transformation-1000w.png') }} 1000w" sizes="100vw" alt="Digital Transformation Pt. 4 - IT" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -124,7 +124,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-digital-transformation-4-en.jpg') }}"
+        "url": "{{ asset('media/blog/cover-digital-transformation-4-en.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Digital Transformation",

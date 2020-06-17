@@ -1,10 +1,10 @@
 @section('title', 'Hogyan válasszuk ki a megfelelő CRM rendszert?')
 @section('description', 'Ha már eldöntöttük, hogy szükségünk van egy CRM-re, akkor hogyan válasszuk ki a megfelelőt? Cikkünkből megtudhatod melyek azok a szempontok amiket érdemes figyelembe venni.')
-@section('preview_image', asset('media/blog/cover-how-to-choose-the-right-crm-hu.jpg'))
+@section('preview_image', asset('media/blog/cover-how-to-choose-the-right-crm-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-how-to-choose-the-right-crm.jpg') }}" srcset="{{ asset('media/blog/featured-how-to-choose-the-right-crm-769w.jpg') }} 769w" sizes="100vw" alt="Hogyan válasszuk ki a megfelelő CRM rendszert?" />
+        <img src="{{ asset('media/blog/featured-how-to-choose-the-right-crm.png') }}" srcset="{{ asset('media/blog/featured-how-to-choose-the-right-crm-768w.png') }} 768w, {{ asset('media/blog/featured-how-to-choose-the-right-crm-1000w.png') }} 1000w" sizes="100vw" alt="Hogyan válasszuk ki a megfelelő CRM rendszert?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -154,7 +154,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-how-to-choose-the-right-crm-hu.jpg') }}"
+        "url": "{{ asset('media/blog/cover-how-to-choose-the-right-crm-hu.png') }}"
     },
     "inLanguage": "hu_HU",
     "keywords": "CRM, Customer Relationship Management, Ügyfélkezelés, Ügyfélkezelő-rendszer, Digitális Vállalkozás, Digitális Transzformáció, ERP, Vállalatirányítás",

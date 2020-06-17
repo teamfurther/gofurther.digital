@@ -1,10 +1,10 @@
 @section('title', 'A szoftverspecifikáció egy agilis környezetben')
 @section('description', 'A vízesés modell esetében egy szoftver minőségi és időben történő szállításának biztosítása érdekében ki kellett dolgozni a szoftverspecifikációt a legutolsó részletig. De mi a helyzet, ha agilis környezetben fejlesztünk?')
-@section('preview_image', asset('media/blog/cover-agile-software-specification-hu.jpg'))
+@section('preview_image', asset('media/blog/cover-agile-software-specification-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-agile-software-specification.jpg') }}" srcset="{{ asset('media/blog/featured-agile-software-specification-769w.jpg') }} 769w" sizes="100vw" alt="Hogyan írjunk egy jó agilis szoftver specifikációt?" />
+        <img src="{{ asset('media/blog/featured-agile-software-specification.png') }}" srcset="{{ asset('media/blog/featured-agile-software-specification-768w.png') }} 768w, {{ asset('media/blog/featured-agile-software-specification-1000w.png') }} 1000w" sizes="100vw" alt="Hogyan írjunk egy jó agilis szoftver specifikációt?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -122,7 +122,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-agile-software-specification.jpg') }}"
+        "url": "{{ asset('media/blog/cover-agile-software-specification-hu.png') }}"
     },
     "inLanguage": "hu_HU",
     "keywords": "Egyedi szoftverfejlesztés, Szoftverspecifikáció, Agilis szoftverfejlesztés",

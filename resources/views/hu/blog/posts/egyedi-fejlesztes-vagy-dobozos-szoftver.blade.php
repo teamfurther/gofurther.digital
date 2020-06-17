@@ -1,10 +1,10 @@
 @section('title', 'Egyedi fejlesztés vagy dobozos szoftver?')
 @section('description', 'Valamikor minden vállalat eléri azt a pontot, amikor a növekedés érdekében be kell fektetnie a szoftverinfrastruktúrájába. Megpróbálunk segíteni abban, hogy eldöntsd, hogy az egyedi fejlesztés vagy egy dobozos megoldás a megfelelő vállalatodnak.')
-@section('preview_image', asset('media/blog/cover-custom-development-vs-ootb-hu.jpg'))
+@section('preview_image', asset('media/blog/cover-custom-development-vs-ootb-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-custom-development-vs-ootb.jpg') }}" srcset="{{ asset('media/blog/featured-custom-development-vs-ootb-769w.jpg') }} 769w" sizes="100vw" alt="Egyedi fejlesztés vagy dobozos szoftver?" />
+        <img src="{{ asset('media/blog/featured-custom-development-vs-ootb.png') }}" srcset="{{ asset('media/blog/featured-custom-development-vs-ootb-768w.png') }} 768w, {{ asset('media/blog/featured-custom-development-vs-ootb-1000w.png') }} 1000w" sizes="100vw" alt="Egyedi fejlesztés vagy dobozos szoftver?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -142,7 +142,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-custom-development-vs-ootb.jpg') }}"
+        "url": "{{ asset('media/blog/cover-custom-development-vs-ootb-hu.png') }}"
     },
     "inLanguage": "hu_HU",
     "keywords": "Egyedi szoftverfejlesztés, Licenszes szoftver, Dobozos szoftver, Szolgáltatott szoftver, SaaP, SaaS",

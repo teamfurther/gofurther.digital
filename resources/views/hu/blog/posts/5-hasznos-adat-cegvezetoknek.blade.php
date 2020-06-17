@@ -1,10 +1,10 @@
 @section('title', '5 adat, amit ismerned kell cégvezetőként')
 @section('description', 'Ebben a cikkben megmutatjuk, melyek azok az adatok, amelyeket minden vezetőnek ismernie kell hogy stratégiát tudjon alkotni, és hogyan segít egy szoftver ezek megismerésében.')
-@section('preview_image', asset('media/blog/cover-5-things-every-business-owner-should-know-hu.jpg'))
+@section('preview_image', asset('media/blog/cover-5-things-every-business-owner-should-know-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-5-things-every-business-owner-should-know.jpg') }}" srcset="{{ asset('media/blog/featured-5-things-every-business-owner-should-know-769w.jpg') }} 769w" sizes="100vw" alt="5 adat, amit minden cégvezetőnek tudnia kell" />
+        <img src="{{ asset('media/blog/featured-5-things-every-business-owner-should-know.png') }}" srcset="{{ asset('media/blog/featured-5-things-every-business-owner-should-know-768w.png') }} 768w, {{ asset('media/blog/featured-5-things-every-business-owner-should-know-1000w.png') }} 1000w" sizes="100vw" alt="5 adat, amit minden cégvezetőnek tudnia kell" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -164,7 +164,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-5-things-every-business-owner-should-know-hu.jpg') }}"
+        "url": "{{ asset('media/blog/cover-5-things-every-business-owner-should-know-hu.png') }}"
     },
     "inLanguage": "hu_HU",
     "keywords": "BI, Business Intelligence, Üzleti Intelligencia, Big Data, Analytics, Analitika, ERP, Vállalatirányítás",

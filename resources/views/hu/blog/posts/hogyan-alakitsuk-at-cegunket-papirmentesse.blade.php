@@ -1,10 +1,10 @@
 @section('title', 'Digitális vállalkozás: hogyan legyünk papírmentesek?')
 @section('description', 'Sokat hallunk mostanában papírmentes vállalkozásokról. De miként tudjuk teljesen papírmentessé tenni a vállalkozásunkat?')
-@section('preview_image', asset('media/blog/cover-going-paperless-hu.jpg'))
+@section('preview_image', asset('media/blog/cover-going-paperless-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-going-paperless.jpg') }}" srcset="{{ asset('media/blog/featured-going-paperless-769w.jpg') }} 769w" sizes="100vw" alt="Hogyan alakítsuk át cégünket papírmentessé?" />
+        <img src="{{ asset('media/blog/featured-going-paperless.png') }}" srcset="{{ asset('media/blog/featured-going-paperless-768w.png') }} 768w, {{ asset('media/blog/featured-going-paperless-1000w.png') }} 1000w" sizes="100vw" alt="Hogyan alakítsuk át cégünket papírmentessé?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -136,7 +136,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-going-paperless-hu.jpg') }}"
+        "url": "{{ asset('media/blog/cover-going-paperless-hu.png') }}"
     },
     "inLanguage": "hu_HU",
     "keywords": "DMS, Document Management System, Dokumentumkezelés, Dokumentumkezelő-rendszer, CRM, Customer Relationship Management, Ügyfélkezelés, Ügyfélkezelő-rendszer, Digitális Vállalkozás, Digitális Transzformáció, ERP, Vállalatirányítás",

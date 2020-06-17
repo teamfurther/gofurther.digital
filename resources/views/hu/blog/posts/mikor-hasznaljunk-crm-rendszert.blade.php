@@ -1,10 +1,10 @@
 @section('title', 'Mikor érdemes bevezetni egy CRM rendszert?')
 @section('description', 'Az ügyfélmenedzsment folyamatait illetően a legtöbb vállalkozás ugyanazokon a fázisokon megy keresztül. De mikortól érdemes bevezetni egy CRM rendszert?')
-@section('preview_image', asset('media/blog/cover-when-is-it-time-to-use-a-crm-hu.jpg'))
+@section('preview_image', asset('media/blog/cover-when-is-it-time-to-use-a-crm-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm.jpg') }}" srcset="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-769w.jpg') }} 769w" sizes="100vw" alt="Mikor használjunk CRM rendszert?" />
+        <img src="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm.png') }}" srcset="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-769w.png') }} 768w, {{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-1000w.png') }} 1000w" sizes="100vw" alt="Mikor használjunk CRM rendszert?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -148,7 +148,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-when-is-it-time-to-use-a-crm-hu.jpg') }}"
+        "url": "{{ asset('media/blog/cover-when-is-it-time-to-use-a-crm-hu.png') }}"
     },
     "inLanguage": "hu_HU",
     "keywords": "CRM, Customer Relationship Management, Ügyfélkezelés, Ügyfélkezelő-rendszer, Digitális Vállalkozás, Digitális Transzformáció, ERP, Vállalatirányítás",

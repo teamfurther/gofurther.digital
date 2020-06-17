@@ -1,10 +1,10 @@
 @section('title', 'Hogyan segíthet egy termelésirányítási szoftver?')
 @section('description', 'Mai cikkünkben megmutatjuk, hogy miként tudja egy szoftver optimalizálni a termékfejlesztést, a beszerzést és a gyártási folyamatokat.')
-@section('preview_image', asset('media/blog/cover-manufacturing-software-hu.jpg'))
+@section('preview_image', asset('media/blog/cover-manufacturing-software-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-manufacturing-software.jpg') }}" srcset="{{ asset('media/blog/featured-manufacturing-software-769w.jpg') }} 769w" sizes="100vw" alt="Hogyan segíthet egy szoftver a termelési folyamatok optimalizálásában?" />
+        <img src="{{ asset('media/blog/featured-manufacturing-software.png') }}" srcset="{{ asset('media/blog/featured-manufacturing-software-768w.png') }} 768w, {{ asset('media/blog/featured-manufacturing-software-1000w.png') }} 1000w" sizes="100vw" alt="Hogyan segíthet egy szoftver a termelési folyamatok optimalizálásában?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -138,7 +138,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-manufacturing-software-hu.jpg') }}"
+        "url": "{{ asset('media/blog/cover-manufacturing-software-hu.png') }}"
     },
     "inLanguage": "hu_HU",
     "keywords": "PLM, Product Lifecycle Management, Termékéletciklus-kezelés, MRP, Material Resource Planning, Erőforrástervezés, Kapacitástervezés, Optimális készlet, Minőségellenőrzés, Termelésirányítás, Digitális Vállalkozás, Digitális Transzformáció, ERP, Vállalatirányítás",

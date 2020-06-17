@@ -138,12 +138,20 @@
             height: 240px;
         }
 
+        @include desktop() {
+            height: 360px;
+        }
+
         & > img {
             object-fit: cover;
             width: 100%;
 
             @include tablet() {
                 height: 240px;
+            }
+
+            @include desktop() {
+                height: 360px;
             }
         }
     }

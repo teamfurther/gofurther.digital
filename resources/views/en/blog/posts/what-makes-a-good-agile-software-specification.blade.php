@@ -1,10 +1,10 @@
 @section('title', 'Software specifications in an agile environment')
 @section('description', 'In the waterfall model, to ensure the quality and timely delivery of a software product, you needed to create a detailed software specification. But what if we\'re using agile methodologies on our projects?')
-@section('preview_image', asset('media/blog/cover-agile-software-specification-en.jpg'))
+@section('preview_image', asset('media/blog/cover-agile-software-specification-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-agile-software-specification.jpg') }}" srcset="{{ asset('media/blog/featured-agile-software-specification-769w.jpg') }} 769w" sizes="100vw" alt="How to write a good agile software specification?" />
+        <img src="{{ asset('media/blog/featured-agile-software-specification.png') }}" srcset="{{ asset('media/blog/featured-agile-software-specification-768w.png') }} 768w, {{ asset('media/blog/featured-agile-software-specification-1000w.png') }} 1000w" sizes="100vw" alt="How to write a good agile software specification?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -122,7 +122,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-agile-software-specification.jpg') }}"
+        "url": "{{ asset('media/blog/cover-agile-software-specification-en.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Custom software development, Software specification, Agile software development",

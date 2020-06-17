@@ -1,10 +1,10 @@
 @section('title', 'Új köntösben köszöntjük a nyarat')
 @section('description', 'Nemcsak azért döntöttünk cégünk arculatváltása mellett, mert ez elengedhetetlen a növekedéshez, hanem főleg azért, mert a régi arculat már nem képviselt minket eléggé.')
-@section('preview_image', asset('media/blog/cover-rebranding.jpg'))
+@section('preview_image', asset('media/blog/cover-rebranding.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-rebranding.jpg') }}" srcset="{{ asset('media/blog/featured-rebranding-769w.jpg') }} 769w" sizes="100vw" alt="Új köntösben köszöntjük a nyarat" />
+        <img src="{{ asset('media/blog/featured-rebranding.png') }}" srcset="{{ asset('media/blog/featured-rebranding-768w.png') }} 768w, {{ asset('media/blog/featured-rebranding-1000w.png') }} 1000w" sizes="100vw" alt="Új köntösben köszöntjük a nyarat" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -110,7 +110,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-rebranding.jpg') }}"
+        "url": "{{ asset('media/blog/cover-rebranding.png') }}"
     },
     "inLanguage": "hu_HU",
     "keywords": "Further Digital Solutions, Further, Arculatváltás",

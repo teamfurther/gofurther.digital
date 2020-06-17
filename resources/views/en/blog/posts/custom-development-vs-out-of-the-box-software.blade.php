@@ -1,10 +1,10 @@
 @section('title', 'Custom Development vs. Out-of-the-Box Software')
 @section('description', 'At one stage, each company reaches a point when they need to invest in their software infrastructure in order to grow. We will try to help you decide if a custom-built solution or out-of-the-box software is right for you.')
-@section('preview_image', asset('media/blog/cover-custom-development-vs-ootb-en.jpg'))
+@section('preview_image', asset('media/blog/cover-custom-development-vs-ootb-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-custom-development-vs-ootb.jpg') }}" srcset="{{ asset('media/blog/featured-custom-development-vs-ootb-769w.jpg') }} 769w" sizes="100vw" alt="Custom Development vs. Out-of-the-Box Software" />
+        <img src="{{ asset('media/blog/featured-custom-development-vs-ootb.png') }}" srcset="{{ asset('media/blog/featured-custom-development-vs-ootb-768w.png') }} 768w, {{ asset('media/blog/featured-custom-development-vs-ootb-1000w.png') }} 1000w" sizes="100vw" alt="Custom Development vs. Out-of-the-Box Software" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -128,7 +128,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-custom-development-vs-ootb.jpg') }}"
+        "url": "{{ asset('media/blog/cover-custom-development-vs-ootb-en.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Custom software development, Licensed software, Out-of-the-box software, Packaged software, SaaP, SaaS",
