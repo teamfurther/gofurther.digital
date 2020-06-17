@@ -1,0 +1,64 @@
+body.project--steiger-erp {
+    .hero {
+        align-items: center;
+        background: linear-gradient(to bottom, #1d4345 0%, #1f353d 100%);
+        justify-content: flex-start;
+
+        &::after {
+            background: url(../img/projects/steiger-hero-background.png) center bottom no-repeat;
+            content: '';
+            display: block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+
+            @include tablet() {
+                background-image: url(../img/projects/steiger-hero-background-768w.png);
+            }
+
+            @include desktop() {
+                background-image: url(../img/projects/steiger-hero-background-1000w.png);
+                background-position: 50%  90%;
+            }
+        }
+
+        &.is-hu {
+            &::after {
+                @include desktop() {
+                    background-image: url(../img/projects/steiger-hero-background-1000w-hu.png);
+                }
+            }
+        }
+    }
+
+    .list-hero {
+        color: #1f353d;
+        text-shadow: 5px 5px 0 #3a9693;
+    }
+
+    .project {
+        &__contact {
+            background-color: #1d4345;
+        }
+
+        &__stat {
+            &::before {
+                background-image: url(../img/projects/steiger-stats.png);
+            }
+        }
+
+        &__summary {
+            background-image: url(../img/projects/steiger-summary-background.jpg);
+        }
+
+        &__text-emphasis {
+            color: #3a9693;
+        }
+    }
+}
+
+.project-list__featured--steiger-erp {
+    background: radial-gradient(at 10% 100%, #1d4345 0%, #1f353d 30%, #1d4345 100%);
+}

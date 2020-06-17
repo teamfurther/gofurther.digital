@@ -1,5 +1,4 @@
 .hero {
-    background-color: $cobalt;
     display: flex;
     flex-direction: column;
     height: 300px;
@@ -22,19 +21,26 @@
     }
 
     &::before {
-        background-image: url(../img/hero-background-cobalt.gif);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
-        content: '';
         display: block;
         height: 100%;
         left: 0;
-        opacity: .15;
         position: absolute;
         top: 0;
         width: 100%;
         z-index: 10;
+    }
+
+    &.is-cobalt {
+        background-color: $cobalt;
+
+        &::before {
+            background-image: url(../img/hero-background-cobalt.gif);
+            content: '';
+            opacity: .15;
+        }
     }
 
     &.is-pearl {
@@ -42,6 +48,7 @@
 
         &::before {
             background-image: url(../img/hero-background-pearl.gif);
+            content: '';
             opacity: .4;
         }
     }
@@ -51,6 +58,7 @@
 
         &::before {
             background-image: url(../img/hero-background-raspberry.gif);
+            content: '';
             opacity: .4;
         }
     }
@@ -60,6 +68,7 @@
 
         &::before {
             background-image: url(../img/hero-background-tangerine.gif);
+            content: '';
             opacity: .4;
         }
     }

@@ -32,18 +32,21 @@ if (!function_exists('getPublicIp')) {
      */
     function getPublicIp()
     {
-        if (
-            array_key_exists('HTTP_X_FORWARDED_FOR', $_SERVER)
-            && !$_SERVER['HTTP_X_FORWARDED_FOR']
-        ) {
-            if (strpos($_SERVER['HTTP_X_FORWARDED_FOR'], ',') > 0) {
-                $addr = explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']);
-                return trim($addr[0]);
-            }
+        if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) {
+            $_SERVER['REMOTE_ADDR'] = $_SERVER['HTTP_CF_CONNECTING_IP'];
+            $_SERVER['HTTP_CLIENT_IP'] = $_SERVER['HTTP_CF_CONNECTING_IP'];
+        }
+        $client  = @$_SERVER['HTTP_CLIENT_IP'];
+        $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
 
-            return $_SERVER['HTTP_X_FORWARDED_FOR'];
+        if (filter_var($client, FILTER_VALIDATE_IP)) {
+            $ip = $client;
+        } elseif (filter_var($forward, FILTER_VALIDATE_IP)) {
+            $ip = $forward;
+        } else {
+            $ip = $_SERVER['REMOTE_ADDR'];
         }
 
-        return $_SERVER['REMOTE_ADDR'];
+        return $ip;
     }
 }

@@ -1,7 +1,7 @@
 @extends('en.site', ['bodyClass' => 'has-hero'])
 
 @section('content')
-    <section class="hero">
+    <section class="hero is-cobalt">
         <h2 class="hero-heading">
             <small>Software that helps you</small>
             Be efficient. Get organized.<br />

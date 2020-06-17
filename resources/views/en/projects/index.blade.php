@@ -1,69 +1,151 @@
 @extends('en.site')
 
-@section('title', 'Our work')
+@section('title', 'Our projects')
 @section('description', 'Our projects are what define us. We are proud of our work and shared some of them as case studies for you to read. If you like what you see, let us know and we can show you more.')
 
 @section('content')
-    <section class="section">
+    <section class="section is-dark">
         <div class="container">
             <div class="columns">
+                <div class="column is-8-desktop is-offset-2-desktop">
+                    <h2 class="hero-heading">
+                        There's a story behind every <strong class="is-pearl">successful project&hellip;</strong>
+                    </h2>
+                </div>
+            </div>
+            <div class="columns">
                 <div class="column">
-                    <h1 class="heading">Our Work</h1>
-                    <div class="project-list">
-                        <div class="col is-full-mobile is-half-tablet is-half-desktop">
-                            <div class="project" style="background-image: url(/media/projects/cover-njoy-the-hive.jpg)">
-                                <a href="{{ localizedRoute('projects.show', ['slug' => 'njoy-the-hive']) }}"><h3 class="project__title">nJoy - The Hive</h3></a>
+                    <a class="project-list__featured project-list__featured--njoy-the-hive"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'njoy-the-hive']) }}"
+                    >
+                        <div class="project-list__featured__content">
+                            <h1 class="project-list__featured__title">nJoy - The Hive ERP</h1>
+                            <div class="project-list__featured__description">
+                                nJoy, a consumer electronics brand, quickly outgrew their existing software infrastructure and needed a custom-built integrated solution. They employed us to deliver a product lifecycle management tool, created from the ground up to fit their particular needs.
                             </div>
+                            <span class="btn is-white">Explore the case study</span>
                         </div>
-                        <div class="col is-hidden-mobile is-hidden-tablet-only is-one-quarter-desktop">
-                            <div class="project is-stat">
-                                <span class="project__stat__main">{{ config('site.stats.clients') }}</span>
-                                <span class="project__stat__sub">clients</span>
+
+                        <img class="project-list__featured__image" src="{{ asset('img/projects/njoy-project-list.png') }}" alt="nJoy - The Hive ERP system - Rapid Product Development" />
+                    </a>
+                    <a class="project-list__featured project-list__featured--steiger-erp is-reversed"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'steiger-erp']) }}"
+                    >
+                        <div class="project-list__featured__content">
+                            <h1 class="project-list__featured__title">Steiger ERP</h1>
+                            <div class="project-list__featured__description">
+                                At its core, Steiger is a family business, being involved in the metalworking industry for several generations. We were contacted by them to develop a system that would automate their workflow and improve the reliability of their processes.
                             </div>
+                            <span class="btn is-pearl">Explore the case study</span>
                         </div>
-                        <div class="col is-full-mobile is-half-tablet is-one-quarter-desktop">
-                            <div class="project" style="background-image: url(/media/projects/cover-cravcitech.jpg)">
-                                <a href="{{ localizedRoute('projects.show', ['slug' => 'cravcitech-website']) }}"><h3 class="project__title">Cravcitech</h3></a>
-                            </div>
+
+                        <img class="project-list__featured__image" src="{{ asset('img/projects/steiger-project-list.png') }}" alt="Steiger ERP - From Sales to Production" />
+                    </a>
+                </div>
+            </div>
+            <div class="columns is-mobile is-multiline">
+                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                    <a class="project-list__item"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'ovsz']) }}"
+                    >
+                        <img class="project-list__item__image" src="{{ asset('img/projects/ovsz-project-list.jpg') }}" alt="OVSZ - Online Cross-donation Register" />
+
+                        <h1 class="project-list__item__title">OVSZ - Online Cross-donation Register</h1>
+                        <div class="project-list__item__description">
+                            The online registry replaces the current paper-based systems and provides real-time communication and swift data synchronization between the OVSZ (National Blood Transfusion Service) and donation centers across Hungary.
                         </div>
-                        <div class="col is-full-mobile is-half-tablet is-one-quarter-desktop">
-                            <div class="project is-rowspan" style="background-image: url(/media/projects/cover-steiger.jpg)">
-                                <a href="{{ localizedRoute('projects.show', ['slug' => 'steiger-erp']) }}"><h3 class="project__title">Steiger ERP</h3></a>
-                            </div>
+                    </a>
+                </div>
+                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                    <a class="project-list__item"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'harborsz-logistic']) }}"
+                    >
+                        <img class="project-list__item__image" src="{{ asset('img/projects/harborsz-project-list.jpg') }}" alt="Harborsz Logistic - Integrated Business Management" />
+
+                        <h1 class="project-list__item__title">Harborsz Logistic</h1>
+                        <div class="project-list__item__description">
+                            Harborsz is a logistics company, whose main field of activity is the organisation of freight transfers by ferry, bridges or tunnels. Working closely with their team, we developed a system that helps them oversee all aspects of their operation.
                         </div>
-                        <div class="col is-hidden-mobile is-hidden-tablet-only is-one-quarter-desktop">
-                            <div class="project is-stat">
-                                <span class="project__stat__main">{{ config('site.stats.projects') }}+</span>
-                                <span class="project__stat__sub">projects</span>
-                            </div>
+                    </a>
+                </div>
+                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                    <a class="project-list__item"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
+                    >
+                        <img class="project-list__item__image" src="{{ asset('img/projects/centralized-project-list.jpg') }}" alt="Centralized.me - Artist Management From A to Z" />
+
+                        <h1 class="project-list__item__title">Centralized.me Artist Management Platform</h1>
+                        <div class="project-list__item__description">
+                            Centralized.me is the world's first web application for artist management. It includes video content, guides, workflow checklists, email and agreement templates and budgets for all aspects of managing the career of a music artist.
                         </div>
-                        <div class="col is-full-mobile is-half-tablet is-half-desktop">
-                            <div class="project" style="background-image: url(/media/projects/cover-mentorme.jpg)">
-                                <a href="{{ localizedRoute('projects.show', ['slug' => 'mentorme-live-video-tuition']) }}"><h3 class="project__title">mentor.me</h3></a>
-                            </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section has-padding-b30">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
+                    <h2 class="hero-heading">
+                        They already <strong class="is-raspberry">chose us:</strong>
+                    </h2>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
+                    <div class="columns is-mobile is-multiline">
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                            <img src="{{ asset('media/partners/png.png') }}" alt="Procter & Gamble" />
                         </div>
-                        <div class="col is-full-mobile is-half-tablet is-one-quarter-desktop">
-                            <div class="project" style="background-image: url(/media/projects/cover-idea.jpg)">
-                                <a href="{{ localizedRoute('projects.show', ['slug' => 'idea-elearning-software']) }}"><h3 class="project__title">IDEA</h3></a>
-                            </div>
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                            <img src="{{ asset('media/partners/njoy.png') }}" alt="nJoy" />
                         </div>
-                        <div class="col is-full-mobile is-half-tablet is-one-quarter-desktop">
-                            <div class="project" style="background-image: url(/media/projects/cover-profnet.jpg)">
-                                <a href="{{ localizedRoute('projects.show', ['slug' => 'profnet-elearning-platform']) }}"><h3 class="project__title">PROFNET</h3></a>
-                            </div>
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                            <img src="{{ asset('media/partners/msd.png') }}" alt="MSD Pharma" />
                         </div>
-                        <div class="col is-hidden-mobile is-hidden-tablet-only is-one-quarter-desktop">
-                            <div class="project is-stat">
-                                <span class="project__stat__sub">deployed in</span>
-                                <span class="project__stat__main">11</span>
-                                <span class="project__stat__sub">countries</span>
-                            </div>
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                            <img src="{{ asset('media/partners/praktiker.png') }}" alt="Praktiker Hungary" />
+                        </div>
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                            <img src="{{ asset('media/partners/harborsz.png') }}" alt="Harborsz Logistic" />
+                        </div>
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                            <img src="{{ asset('media/partners/ovsz.png') }}" alt="Hungarian National Blood Transfusion Service" />
+                        </div>
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                            <img src="{{ asset('media/partners/onrobot.png') }}" alt="OnRobot" />
+                        </div>
+                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                            <img src="{{ asset('media/partners/steiger.png') }}" alt="Steiger" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="section is-dark">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
+                    <img class="testimonial__picture" src="{{ asset('img/testimonials-adorian-demeter.png') }}" alt="nJoy - The Hive Adorian Demeter testimonial" />
+                    <blockquote class="testimonial__content">
+                        <p>
+                            I couldn't imagine how developing products would work without The Hive. Since its introduction, development of new products is 20% faster and all our data is organized and easy to manage.
+                        </p>
+                        <cite class="testimonial__author">Adorian DEMETER, nJoy</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @include(getLang() . '.banners.contact', [
+        'buttonText' => 'Let\'s build something',
+        'headingText' => 'We\'d love to help bring your product ideas to life'
+    ])
 @endsection
 
 
@@ -115,7 +197,7 @@
                 "position": "2",
                 "item": {
                     "@id": "{{ localizedRoute('projects') }}",
-                    "name": "Our work"
+                    "name": "Our Projects"
                 }
             }
         ]
@@ -147,7 +229,7 @@
         "url": "{{ config('app.url') }}"
     },
     "description": "Our projects are what define us. We are proud of our work and shared some of them as case studies for you to read. If you like what you see, let us know and we can show you more.",
-    "headline": "Our work",
+    "headline": "Our Projects",
     "image": {
         "@type": "ImageObject",
         "url": "{{ asset('img/logo.svg') }}",
@@ -157,7 +239,7 @@
     "inLanguage": "en_gb",
     "keywords": "Custom software development, Software development, Web development, MVP development, Digital transformation",
     "mainEntityOfPage": "{{ localizedRoute('projects') }}",
-    "name": "Our work",
+    "name": "Our Projects",
     "publisher": {
         "@type": "Corporation",
         "address": {
@@ -205,7 +287,7 @@
             "position": "2",
             "item": {
                 "@id": "{{ localizedRoute('projects') }}",
-                "name": "Our work"
+                "name": "Our Projects"
             }
         }
     ]

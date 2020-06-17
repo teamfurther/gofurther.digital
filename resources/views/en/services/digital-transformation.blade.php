@@ -149,26 +149,26 @@
             </div>
             <div class="columns has-margin-b60">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <img class="project__testimonial__picture" src="{{ asset('img/testimonials-adorian-demeter.png') }}" alt="nJoy - The Hive Adorian Demeter testimonial" />
-                    <blockquote class="project__testimonial__content">
+                    <img class="testimonial__picture" src="{{ asset('img/testimonials-adorian-demeter.png') }}" alt="nJoy - The Hive Adorian Demeter testimonial" />
+                    <blockquote class="testimonial__content">
                         <p>
                             I couldn't imagine how developing products would work without The Hive. Since its introduction, development of new products is 20% faster and all our data is organized and easy to manage.
                         </p>
-                        <cite class="project__testimonial__author">Adorian DEMETER, nJoy</cite>
+                        <cite class="testimonial__author">Adorian DEMETER, nJoy</cite>
                     </blockquote>
                 </div>
             </div>
             <div class="columns">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <img class="project__testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-edina-bakk.png') }}" alt="Harborsz Edina Bakk testimonial" />
-                    <blockquote class="project__testimonial__content">
+                    <img class="testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-edina-bakk.png') }}" alt="Harborsz Edina Bakk testimonial" />
+                    <blockquote class="testimonial__content">
                         <p>
-                            For us the greatest advantage of the Harborsz Logistics software is that it's a complete, integrated solution. We no longer have to carry-out our daily operations by switching between different systems and email.
+                            For us the greatest advantage of the Harborsz Logistic software is that it's a complete, integrated solution. We no longer have to carry-out our daily operations by switching between different systems and email.
                         </p>
                         <p>
                             This greatly reduced the frequency of errors and increased productivity.
                         </p>
-                        <cite class="project__testimonial__author">Edina BAKK, Harborsz Logistic</cite>
+                        <cite class="testimonial__author">Edina BAKK, Harborsz Logistic</cite>
                     </blockquote>
                 </div>
             </div>

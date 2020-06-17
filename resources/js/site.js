@@ -122,11 +122,13 @@ let modal = new function() {
             Array.prototype.forEach.call(modals, function (modal) {
                 // reset content
                 const content = modal.querySelector('.modal__content');
-                const contentHtml = content.innerHTML;
-                while (content.firstChild) {
-                    content.removeChild(content.firstChild);
+                if (content) {
+                    const contentHtml = content.innerHTML;
+                    while (content.firstChild) {
+                        content.removeChild(content.firstChild);
+                    }
+                    content.innerHTML = contentHtml;
                 }
-                content.innerHTML = contentHtml;
 
                 // remove class
                 modal.classList.remove('is-open');

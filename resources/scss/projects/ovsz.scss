@@ -1,0 +1,58 @@
+body.project--ovsz {
+    .hero {
+        align-items: center;
+        background: linear-gradient(to bottom, #d3223c 0%, #921225 100%);
+        justify-content: flex-start;
+
+        &::after {
+            background: url(../img/projects/ovsz-hero-background.png) center bottom no-repeat;
+            content: '';
+            display: block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+
+            @include tablet() {
+                background-image: url(../img/projects/ovsz-hero-background-768w.png);
+            }
+
+            @include desktop() {
+                background-image: url(../img/projects/ovsz-hero-background-1000w.png);
+                background-position: 50%  90%;
+            }
+        }
+
+        &.is-hu {
+            &::after {
+                @include tablet() {
+                    background-image: url(../img/projects/ovsz-hero-background-768w-hu.png);
+                }
+
+                @include desktop() {
+                    background-image: url(../img/projects/ovsz-hero-background-1000w-hu.png);
+                }
+            }
+        }
+    }
+
+    .list-hero {
+        color: #d3223c;
+        text-shadow: 5px 5px 0 $grey-light;
+    }
+
+    .project {
+        &__contact {
+            background-color: #d3223c;
+        }
+
+        &__summary {
+            background-image: url(../img/projects/ovsz-summary-background.jpg);
+        }
+
+        &__text-emphasis {
+            color: #d3223c;
+        }
+    }
+}

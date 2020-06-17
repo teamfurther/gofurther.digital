@@ -1,125 +1,111 @@
 .project-list {
-    font-size: 0;
-    overflow: hidden;
-
-    .col {
-        float: left;
-        padding-bottom: 30px;
-        vertical-align: top;
-        width: 100%;
-
-        @include tablet() {
-            padding: 0 15px 30px;
-        }
-
-        &.is-half-tablet {
-            @include tablet() {
-                width: 50%;
-            }
-        }
-
-        &.is-half-desktop {
-            @include desktop() {
-                width: 50%;
-            }
-        }
-
-        &.is-one-quarter-desktop {
-            @include desktop() {
-                width: 25%;
-            }
-        }
-
-        &.is-three-quarters-desktop {
-            @include desktop() {
-                width: 75%;
-            }
-        }
-    }
-
-    .project {
-        background-color: $grey;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 255px;
-        text-align: center;
+    &__featured {
+        color: $white;
+        display: block;
+        margin-bottom: 30px;
+        overflow: hidden;
+        padding: 30px 0 15px;
+        position: relative;
 
         @include desktop() {
-            height: 210px;
-        }
-
-        @include widescreen() {
-            height: 255px;
-        }
-
-        &.is-rowspan {
-            @include desktop() {
-                height: 450px;
-            }
-
-            @include widescreen() {
-                height: 540px;
-            }
-        }
-
-        &.is-stat {
             align-items: center;
-            background-color: $grey-lighter;
-            display: none;
-            flex-direction: column;
-            justify-content: center;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &:hover {
+            color: $white;
+        }
+
+        &.is-reversed {
+            flex-direction: row-reverse;
+
+            .project-list__featured__image {
+                float: none;
+            }
+        }
+
+        &__background {
+            height: 100%;
+            left: 0;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: -1;
+        }
+
+        &__content {
+            padding: 15px;
 
             @include desktop() {
-                display: flex;
+                padding: 60px;
+            }
+        }
+
+        &__description {
+            font-size: 16px;
+            margin-bottom: 30px;
+
+            @include desktop() {
+                font-size: 18px;
+                margin-bottom: 60px;
+            }
+        }
+
+        &__image {
+            float: right;
+            margin-top: 30px;
+            max-height: 200px;
+
+            @include tablet() {
+                max-height: 300px;
+            }
+
+            @include desktop() {
+                float: none;
+                margin-top: 0;
+                max-height: none;
             }
         }
 
         &__title {
-            color: $white;
-            font: 600 30px / 1 $family-highlight;
-            margin: 0;
-
-            &::after {
-                background-color: $white;
-                content: '';
-                display: block;
-                height: 1px;
-                left: 50%;
-                margin: 15px 0 0 -50px;
-                position: relative;
-                width: 100px;
-            }
+            font: 700 24px / 1 $family-highlight;
+            margin-bottom: 15px;
 
             @include desktop() {
-                display: none;
+                font-size: 36px;
             }
         }
+    }
 
-        & > a {
-            align-items: center;
-            background-color: rgba(0, 0, 0, .6);
-            bottom: 0;
-            display: flex;
-            height: 100%;
-            flex-direction: column;
-            justify-content: center;
-            transition: .4s all ease-in-out;
+    &__item {
+        background-color: $white;
+        box-shadow: 1px 1px 3px 0 rgba($black, .15);
+        color: $grey-darker;
+        display: block;
+        padding-bottom: 30px;
 
-            @include desktop() {
-                background-color: transparent;
+        &:hover {
+            color: $grey-darker;
+        }
 
-                &:hover {
-                    .project__title {
-                        display: block;
-                    }
-                }
-            }
+        &__description {
+            color: $grey-darker;
+            font-size: 16px;
+            padding: 0 30px;
+        }
 
-            &:hover {
-                background-color: rgba($pearl, .9);
-                text-decoration: none;
-            }
+        &__image {
+            margin-bottom: 30px;
+            width: 100%;
+        }
+
+        &__title {
+            font: 600 18px / 1 $family-highlight;
+            margin-bottom: 15px;
+            padding: 0 30px;
+            text-transform: uppercase;
         }
     }
 }

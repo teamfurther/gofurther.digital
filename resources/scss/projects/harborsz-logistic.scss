@@ -1,0 +1,45 @@
+body.project--harborsz-logistic {
+    .hero {
+        align-items: center;
+        background-color: #cf301b;
+        justify-content: flex-start;
+
+        &::after {
+            background: url(../img/projects/harborsz-hero-background.png) center bottom no-repeat;
+            content: '';
+            display: block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+
+            @include tablet() {
+                background-image: url(../img/projects/harborsz-hero-background-768w.png);
+            }
+
+            @include desktop() {
+                background-image: url(../img/projects/harborsz-hero-background-1000w.png);
+            }
+        }
+    }
+
+    .list-hero {
+        color: #cf301b;
+        text-shadow: 5px 5px 0 $grey-light;
+    }
+
+    .project {
+        &__contact {
+            background-color: #cf301b;
+        }
+
+        &__summary {
+            background-image: url(../img/projects/harborsz-summary-background.jpg);
+        }
+
+        &__text-emphasis {
+            color: #cf301b;
+        }
+    }
+}

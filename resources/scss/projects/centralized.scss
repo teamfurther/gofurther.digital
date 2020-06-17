@@ -1,0 +1,45 @@
+body.project--centralized {
+    .hero {
+        align-items: center;
+        background-color: #202226;
+        justify-content: flex-start;
+
+        &::after {
+            background: url(../img/projects/centralized-hero-background.png) center bottom no-repeat;
+            content: '';
+            display: block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+
+            @include tablet() {
+                background-image: url(../img/projects/centralized-hero-background-768w.png);
+            }
+
+            @include desktop() {
+                background-image: url(../img/projects/centralized-hero-background-1000w.png);
+            }
+        }
+    }
+
+    .list-hero {
+        color: #ea4f32;
+        text-shadow: 5px 5px 0 $grey-light;
+    }
+
+    .project {
+        &__contact {
+            background-color: #ea4f32;
+        }
+
+        &__summary {
+            background-image: url(../img/projects/centralized-summary-background.jpg);
+        }
+
+        &__text-emphasis {
+            color: #ea4f32;
+        }
+    }
+}

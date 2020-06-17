@@ -33,6 +33,22 @@
     }
 }
 
+.heading-1 {
+    color: $grey-darker;
+    font: 700 24px / 1 $family-highlight;
+    margin-bottom: 15px;
+
+    @include tablet() {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    @include desktop() {
+        font-size: 48px;
+        margin-bottom: 60px;
+    }
+}
+
 .heading-2 {
     color: $grey-darker;
     font: 700 20px / 1.5 $family-highlight;
@@ -63,6 +79,7 @@
 }
 
 .heading,
+.heading-1,
 .heading-2,
 .heading-3,
 .heading-4 {

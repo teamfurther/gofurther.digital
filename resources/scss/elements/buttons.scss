@@ -24,11 +24,35 @@
     }
 
     // Colors
+    &.is-cobalt {
+        background-color: $cobalt;
+
+        &:hover {
+            background-color: lighten($cobalt, 2.5%);
+        }
+    }
+
     &.is-pearl {
         background-color: $pearl;
 
         &:hover {
             background-color: lighten($pearl, 2.5%);
+        }
+    }
+
+    &.is-raspberry {
+        background-color: $raspberry;
+
+        &:hover {
+            background-color: lighten($raspberry, 2.5%);
+        }
+    }
+
+    &.is-tangerine {
+        background-color: $tangerine;
+
+        &:hover {
+            background-color: lighten($tangerine, 2.5%);
         }
     }
 

@@ -1,4 +1,0 @@
-<a href="{{ localizedRoute('projects.show', ['slug' => 'steiger-erp']) }}"><img class="has-margin-b30" src="{{ asset('media/projects/steiger-illustration-featured.jpg') }}" alt="Esettanulmányok: Steiger ERP" /></a>
-<h4 class="heading-3"><a href="{{ localizedRoute('projects.show', ['slug' => 'steiger-erp']) }}">Steiger ERP</a></h4>
-<p class="has-margin-b30">A Steiger képviselői felvették velünk a kapcsolatot, hogy egy olyan rendszert dolgozzunk ki, amely automatizálja munkafolyamatukat és javítja ezek megbízhatóságát. Ezt megelőzően a Steiger számos szoftverre és táblázatra alapozott a munkájuk nyomon követésére, és hamar rájöttek, hogy mindez kevésbe hatásos és sok hibalehetőséget jelent.</p>
-<a class="btn is-pearl" href="{{ localizedRoute('projects.show', ['slug' => 'steiger-erp']) }}">Olvasson tovább</a>

@@ -77,35 +77,4 @@ return [
         ]
     ],
 
-    'projects' => [
-        [
-            'en' => 'brewie-website',
-            'hu' => 'brewie-weboldal',
-        ],
-        [
-            'en' => 'cravcitech-website',
-            'hu' => 'cravcitech-weboldal',
-        ],
-        [
-            'en' => 'idea-elearning-software',
-            'hu' => 'idea-elearning-szoftver',
-        ],
-        [
-            'en' => 'mentorme-live-video-tuition',
-            'hu' => 'mentorme-elo-oktatovideo-szoftver',
-        ],
-        [
-            'en' => 'njoy-the-hive',
-            'hu' => 'njoy-the-hive',
-        ],
-        [
-            'en' => 'profnet-elearning-platform',
-            'hu' => 'profnet-elearning-platform',
-        ],
-        [
-            'en' => 'steiger-erp',
-            'hu' => 'steiger-erp',
-        ]
-    ]
-
 ];

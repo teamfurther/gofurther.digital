@@ -1,3 +1,3 @@
-@extends('hu.site')
+@extends('hu.site', ['bodyClass' => 'has-hero project project--' . $slug])
 
-@include(getLang() . '.projects.full.' . $slug)
+@include(getLang() . '.projects.projects.' . $slug)

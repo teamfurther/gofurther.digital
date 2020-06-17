@@ -153,21 +153,21 @@
             </div>
             <div class="columns has-margin-b60">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <img class="project__testimonial__picture" src="{{ asset('img/testimonials-attila-szegedi.png') }}" alt="Brewie Attila Szegedi testimonial" />
-                    <blockquote class="project__testimonial__content">
+                    <img class="testimonial__picture" src="{{ asset('img/testimonials-attila-szegedi.png') }}" alt="Brewie Attila Szegedi testimonial" />
+                    <blockquote class="testimonial__content">
                         <p>
                             A Further testreszabta a Chronos tartalommenedzsment rendszerüket, hogy megfeleljen a mi specifikus igényeinknek. Jelenleg a tudástárunk motorjaként üzemel. A rendszer tökéletesen bevált és lehetővé teszi számunkra, hogy nagymennyiségű információt tároljunk és osszunk meg a sörfőző gépunkről és a sörfőzésről.
                         </p>
-                        <cite class="project__testimonial__author">SZEGEDI Attila, Brewie</cite>
+                        <cite class="testimonial__author">SZEGEDI Attila, Brewie</cite>
                     </blockquote>
                 </div>
             </div>
             <div class="columns has-margin-b60">
                 <div class="column is-8-tablet is-offset-2-tablet">
-                    <img class="project__testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-adorian-demeter.png') }}" alt="nJoy - The Hive Adorian Demeter testimonial" />
-                    <blockquote class="project__testimonial__content">
+                    <img class="testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-adorian-demeter.png') }}" alt="nJoy - The Hive Adorian Demeter testimonial" />
+                    <blockquote class="testimonial__content">
                         <p>Nem tudnám elképzelni, hogyan működne a termékfejlesztésünk a Hive nélkül. Bevezetése óta az új termékek fejlesztésének ideje 20%-al csökkent, minden adatunk rendszerezett és könnyen utánkövethető.</p>
-                        <cite class="project__testimonial__author">DEMETER Adorian, nJoy</cite>
+                        <cite class="testimonial__author">DEMETER Adorian, nJoy</cite>
                     </blockquote>
                 </div>
             </div>

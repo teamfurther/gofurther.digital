@@ -159,23 +159,23 @@
             </div>
             <div class="columns has-margin-b60">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <img class="project__testimonial__picture" src="{{ asset('img/testimonials-attila-szegedi.png') }}" alt="Brewie Attila Szegedi testimonial" />
-                    <blockquote class="project__testimonial__content">
+                    <img class="testimonial__picture" src="{{ asset('img/testimonials-attila-szegedi.png') }}" alt="Brewie Attila Szegedi testimonial" />
+                    <blockquote class="testimonial__content">
                         <p>
                             Further customized their own CMS called Chronos to suit our needs. It now serves as the core of our knowledge platform. The platform is working perfectly, allowing us to store and share a huge amount of information about our machine and beer brewing.
                         </p>
-                        <cite class="project__testimonial__author">Attila SZEGEDI, Brewie</cite>
+                        <cite class="testimonial__author">Attila SZEGEDI, Brewie</cite>
                     </blockquote>
                 </div>
             </div>
             <div class="columns">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <img class="project__testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-adorian-demeter.png') }}" alt="nJoy - The Hive Adorian Demeter testimonial" />
-                    <blockquote class="project__testimonial__content">
+                    <img class="testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-adorian-demeter.png') }}" alt="nJoy - The Hive Adorian Demeter testimonial" />
+                    <blockquote class="testimonial__content">
                         <p>
                             I couldn't imagine how developing products would work without The Hive. Since its introduction, development of new products is 20% faster and all our data is organized and easy to manage.
                         </p>
-                        <cite class="project__testimonial__author">Adorian DEMETER, nJoy</cite>
+                        <cite class="testimonial__author">Adorian DEMETER, nJoy</cite>
                     </blockquote>
                 </div>
             </div>

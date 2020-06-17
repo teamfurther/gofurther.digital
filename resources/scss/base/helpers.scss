@@ -181,8 +181,10 @@ $displays: "block" "flex" "inline" "inline-block" "inline-flex";
 
 // Vertical alignment
 .is-centered-vertical {
-    align-items: center;
+    align-items: flex-start;
     display: flex !important;
+    justify-content: center;
+    flex-direction: column;
 }
 
 

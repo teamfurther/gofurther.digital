@@ -149,26 +149,26 @@
             </div>
             <div class="columns has-margin-b60">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <img class="project__testimonial__picture" src="{{ asset('img/testimonials-adorian-demeter.png') }}" alt="nJoy - The Hive Adorian Demeter testimonial" />
-                    <blockquote class="project__testimonial__content">
+                    <img class="testimonial__picture" src="{{ asset('img/testimonials-adorian-demeter.png') }}" alt="nJoy - The Hive Adorian Demeter testimonial" />
+                    <blockquote class="testimonial__content">
                         <p>
                             Nem tudnám elképzelni, hogyan működne a termékfejlesztésünk a Hive nélkül. Bevezetése óta az új termékek fejlesztésének ideje 20%-al csökkent, minden adatunk rendszerezett és könnyen utánkövethető.
                         </p>
-                        <cite class="project__testimonial__author">DEMETER Adorian, nJoy</cite>
+                        <cite class="testimonial__author">DEMETER Adorian, nJoy</cite>
                     </blockquote>
                 </div>
             </div>
             <div class="columns">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <img class="project__testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-edina-bakk.png') }}" alt="Harborsz Edina Bakk testimonial" />
-                    <blockquote class="project__testimonial__content">
+                    <img class="testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-edina-bakk.png') }}" alt="Harborsz Edina Bakk testimonial" />
+                    <blockquote class="testimonial__content">
                         <p>
-                            Számunkra a Harborsz Logistics szoftver legnagyobb előnye, hogy egy komplett, integrált rendszert kaptunk. Többé nem kell folyton különböző programok és emailek között váltogatva lebonyolítsuk a mindennapi ügyvitelt.
+                            Számunkra a Harborsz Logistic szoftver legnagyobb előnye, hogy egy komplett, integrált rendszert kaptunk. Többé nem kell folyton különböző programok és emailek között váltogatva lebonyolítsuk a mindennapi ügyvitelt.
                         </p>
                         <p>
                             Ez jelentősen csökkentette az emberi hibák lehetőségét és növelte a produktivitásunkat.
                         </p>
-                        <cite class="project__testimonial__author">BAKK Edina, Harborsz Logistic</cite>
+                        <cite class="testimonial__author">BAKK Edina, Harborsz Logistic</cite>
                     </blockquote>
                 </div>
             </div>

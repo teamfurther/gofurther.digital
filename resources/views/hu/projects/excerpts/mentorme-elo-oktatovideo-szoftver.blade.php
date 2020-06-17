@@ -1,4 +1,0 @@
-<a href="{{ localizedRoute('projects.show', ['slug' => 'mentorme-elo-oktatovideo-szoftver']) }}"><img class="has-margin-b30" src="{{ asset('media/projects/mentorme-illustration-featured.jpg') }}" alt="Esettanulmányok: mentor.me" /></a>
-<h4 class="heading-3"><a href="{{ localizedRoute('projects.show', ['slug' => 'mentorme-elo-oktatovideo-szoftver']) }}">mentor.me</a></h4>
-<p class="has-margin-b30">2016 elején megkaptuk a mentor.me oldal fejlesztési feladatát, egy olyan élő videó alapú oktatóplatform, amely a szabadúszó mentorokat összekapcsolja az érdeklődő diákokkal. Kihasználtuk az alkalmat, hogy egy más típusú projekten dolgozzunk, és modern technológiákkal játszadozhassunk.</p>
-<a class="btn is-pearl" href="{{ localizedRoute('projects.show', ['slug' => 'mentorme-elo-oktatovideo-szoftver']) }}">Olvasson tovább</a>

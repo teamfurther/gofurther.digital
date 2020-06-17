@@ -145,21 +145,21 @@
             </div>
             <div class="columns has-margin-b60">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <img class="project__testimonial__picture" src="{{ asset('img/testimonials-brian-dubb.png') }}" alt="Centralized Brian Dubb testimonial" />
-                    <blockquote class="project__testimonial__content">
+                    <img class="testimonial__picture" src="{{ asset('img/testimonials-brian-dubb.png') }}" alt="Centralized Brian Dubb testimonial" />
+                    <blockquote class="testimonial__content">
                         <p>A Further határidőn és költségvetésen belül fejlesztette le az MVP-t, ami sikeres béta teszteléshez, majd egy második kör befektetéshez vezetett. Örvendünk hogy az applikáció második verzióján is a Furtherrel együtt dolgozhatunk.</p>
-                        <cite class="project__testimonial__author">DUBB Brian, Centralized</cite>
+                        <cite class="testimonial__author">DUBB Brian, Centralized</cite>
                     </blockquote>
                 </div>
             </div>
             <div class="columns">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <img class="project__testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-attila-szegedi.png') }}" alt="Brewie Attila Szegedi testimonial" />
-                    <blockquote class="project__testimonial__content">
+                    <img class="testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-attila-szegedi.png') }}" alt="Brewie Attila Szegedi testimonial" />
+                    <blockquote class="testimonial__content">
                         <p>
                             A Further testreszabta a Chronos tartalommenedzsment rendszerüket, hogy megfeleljen a mi specifikus igényeinknek. Jelenleg a tudástárunk motorjaként üzemel. A rendszer tökéletesen bevált és lehetővé teszi számunkra, hogy nagymennyiségű információt tároljunk és osszunk meg a sörfőző gépunkről és a sörfőzésről.
                         </p>
-                        <cite class="project__testimonial__author">SZEGEDI Attila, Brewie</cite>
+                        <cite class="testimonial__author">SZEGEDI Attila, Brewie</cite>
                     </blockquote>
                 </div>
             </div>

@@ -1,0 +1,69 @@
+body.project--njoy-the-hive {
+    .hero {
+        align-items: center;
+        background: radial-gradient(at 90% 100%, #f7ad38 0%, #b33712 70%, #b33712 100%);
+        justify-content: flex-start;
+
+        &::after {
+            background: url(../img/projects/njoy-hero-background.png) center bottom no-repeat;
+            content: '';
+            display: block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+
+            @include tablet() {
+                background-image: url(../img/projects/njoy-hero-background-768w.png);
+            }
+
+            @include desktop() {
+                background-image: url(../img/projects/njoy-hero-background-1000w.png);
+            }
+        }
+
+        &.is-hu {
+            &::after {
+                background-image: url(../img/projects/njoy-hero-background-hu.png);
+
+                @include tablet() {
+                    background-image: url(../img/projects/njoy-hero-background-768w-hu.png);
+                }
+
+                @include desktop() {
+                    background-image: url(../img/projects/njoy-hero-background-1000w-hu.png);
+                }
+            }
+        }
+    }
+
+    .list-hero {
+        color: #f79428;
+        text-shadow: 5px 5px 0 $grey-light;
+    }
+
+    .project {
+        &__contact {
+            background-color: #f79428;
+        }
+
+        &__stat {
+            &::before {
+                background-image: url(../img/projects/njoy-stats.png);
+            }
+        }
+
+        &__summary {
+            background-image: url(../img/projects/njoy-summary-background.jpg);
+        }
+
+        &__text-emphasis {
+            color: #f79428;
+        }
+    }
+}
+
+.project-list__featured--njoy-the-hive {
+    background: radial-gradient(at 90% 100%, #e57523 0%, #e59a23 30%, #f7ad38 100%);
+}

@@ -51,10 +51,6 @@ if (!function_exists('handleSwitchLangExceptions')) {
                 $parameters['slug'] = routeMappingLookup('blog', $parameters['slug'], $lang);
 
                 break;
-            case 'projects.show':
-                $parameters['slug'] = routeMappingLookup('projects', $parameters['slug'], $lang);
-
-                break;
         }
 
         return $parameters;
