@@ -57,14 +57,14 @@
                         <h5 class="heading-3">Nem létezett egységes hozzáférési mód a donor információkhoz</h5>
                         <em class="project__text-emphasis">Probléma</em>
                         <p>
-                            A plazmaferezik állomásoknak nem állt módjukban a korábban kiszűrtnek nyilvánitott donorokat ellenőrízni.
+                            A plazmaferezik állomásoknak nem állt módjukban a korábban kiszűrtnek nyilvánított donorokat ellenőrízni.
                         </p>
                         <em class="project__text-emphasis">Megoldás</em>
                         <p>
                             Az OVSZ adatbázis mérnökeivel közreműködve, meghatároztunk egy szerződést amely leírja milyen feltételek mellett férhetnek hozzá és dolgozhatják fel a donor adatokat a plazmaferezis állomások.
                         </p>
                         <p>
-                            Ezek után lefejlesztettünk egy olyan adatcsere metódust, amely a laboreredményeket automatikusan elküldi a donor információkat a központi adatbázisba.
+                            Ezek után lefejlesztettünk egy olyan adatcsere metódust, amely a laboreredményeket és a donor információkat automatikusan elküldi a központi adatbázisba.
                         </p>
                     </div>
                     <div class="column">
@@ -76,7 +76,7 @@
                         <h5 class="heading-3">A donoradatok feltöltése körülményes és megbízhatatlan volt</h5>
                         <em class="project__text-emphasis">Probléma</em>
                         <p>
-                            A plazmaferezik állomások korábban papír alapon tudták beküldeni a laboreredményeket, amit később manuálisan rögzítettek a központi adatbázisba.
+                            A plazmaferezis állomások korábban papír alapon tudták beküldeni a laboreredményeket, amit később manuálisan rögzítettek a központi adatbázisba.
                         </p>
                         <p>
                             Ez egy meglehetősen körülményes folyamat volt mind az állomások, mind az OVZ számára. Az emberi faktor miatt, ráadásul nagyon magas volt a hibázási lehetőség is.
@@ -115,7 +115,7 @@
                         Az első dolog amit megtanultunk a projekt során az volt, hogy hogyan kezeljünk érzékeny egészségügyi adatokat.
                     </p>
                     <p>
-                        Az erre vonatkozó Magyar jogszabályok nem mindig egyértelműek, ezért a HIPAA standardokat és annak a különböző implementációit is vizsgáltuk. Ennek erdeményeként egy robusztus megoldást építettünk, ahol biztonságban vannak a donor információk.
+                        Az erre vonatkozó Magyar jogszabályok nem mindig egyértelműek, ezért a HIPAA standardokat és annak a különböző implementációit is vizsgáltuk. Ennek eredményeként egy robusztus megoldást építettünk, ahol biztonságban vannak a donor információk.
                     </p>
                 </div>
             </div>

@@ -58,18 +58,6 @@
                 </div>
                 <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
                     <a class="project-list__item"
-                       href="{{ route(getLang() . '.projects.show', ['slug' => 'harborsz-logistic']) }}"
-                    >
-                        <img class="project-list__item__image" src="{{ asset('img/projects/harborsz-project-list.jpg') }}" alt="Harborsz Logistic - Integrated Business Management" />
-
-                        <h1 class="project-list__item__title">Harborsz Logistic</h1>
-                        <div class="project-list__item__description">
-                            Harborsz is a logistics company, whose main field of activity is the organisation of freight transfers by ferry, bridges or tunnels. Working closely with their team, we developed a system that helps them oversee all aspects of their operation.
-                        </div>
-                    </a>
-                </div>
-                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
-                    <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
                     >
                         <img class="project-list__item__image" src="{{ asset('img/projects/centralized-project-list.jpg') }}" alt="Centralized.me - Artist Management From A to Z" />
@@ -77,6 +65,18 @@
                         <h1 class="project-list__item__title">Centralized.me Artist Management Platform</h1>
                         <div class="project-list__item__description">
                             Centralized.me is the world's first web application for artist management. It includes video content, guides, workflow checklists, email and agreement templates and budgets for all aspects of managing the career of a music artist.
+                        </div>
+                    </a>
+                </div>
+                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                    <a class="project-list__item"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'harborsz-logistic']) }}"
+                    >
+                        <img class="project-list__item__image" src="{{ asset('img/projects/harborsz-project-list.jpg') }}" alt="Harborsz Logistic - Integrated Business Management" />
+
+                        <h1 class="project-list__item__title">Harborsz Logistic</h1>
+                        <div class="project-list__item__description">
+                            Harborsz is a logistics company, whose main field of activity is the organisation of freight transfers by ferry, bridges or tunnels. Working closely with their team, we developed a system that helps them oversee all aspects of their operation.
                         </div>
                     </a>
                 </div>

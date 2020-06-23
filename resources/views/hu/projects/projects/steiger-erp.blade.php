@@ -17,7 +17,7 @@
                     <h4 class="heading-1">Összefoglaló</h4>
                     <p>
                         Alapjában véve a Steiger egy családi vállalkozás, amely 1994 óta több generáción át részt vett a fémfeldolgozó iparban.
-                        2015-ben felvették velünk a kapcsolatot, hogy egy olyan rendszert dolgozzunk ki, amely automatizálja munkafolyamatukat és javítja ezek megbízhatóságát
+                        2015-ben felvették velünk a kapcsolatot, hogy egy olyan rendszert dolgozzunk ki, amely automatizálja munkafolyamatukat és javítja ezek megbízhatóságát.
                     </p>
                     <div class="project__stats">
                         <div class="project__stat is-downward">
@@ -63,7 +63,7 @@
                         <h5 class="heading-3">Az árajánlatok összeállítása különösen időigényes volt</h5>
                         <em class="project__text-emphasis">Probléma</em>
                         <p>
-                            Egy árajánlat összállításához több mint 50 kritérium figyelembe vételére és komplex számításokra volt szükség. Korábban ezeket manuálisan, több Excel táblázat segítségével állították össze a Steiger munkatársai.
+                            Egy árajánlat összeállításához több mint 50 kritérium figyelembevételére és komplex számításokra volt szükség. Korábban ezeket manuálisan, több Excel táblázat segítségével állították össze a Steiger munkatársai.
                         </p>
                         <em class="project__text-emphasis">Megoldás</em>
                         <p>
@@ -82,7 +82,7 @@
                         <h5 class="heading-3">A raktárkészlet nem volt központosított</h5>
                         <em class="project__text-emphasis">Probléma</em>
                         <p>
-                            Észrevettük, hogy a Steigernek nem volt egy olyan rendszere amivel követni lehetett a gyártásból megmaradt anyagokat. Ezért sok anyag előbb vagy utóbb selejtezésre került. Ez egy óriási veszteségi forrás volt, amire sűrgősen megoldást kellett találni.
+                            Észrevettük, hogy a Steigernek nem volt egy olyan rendszere amivel követni lehetett a gyártásból megmaradt anyagokat. Ezért sok anyag előbb vagy utóbb selejtezésre került. Ez egy óriási veszteségforrás volt, amire sürgősen megoldást kellett találni.
                         </p>
                         <em class="project__text-emphasis">Megoldás</em>
                         <p>
@@ -134,10 +134,10 @@
                         Kérdd ki mindenki véleményét
                     </h5>
                     <p>
-                        Ez egyik fő kihívásunk az volt, hogy az ottdolgozók elzárkóztak egy új szoftver bevetésének ötletétől.
+                        Az egyik fő kihívásunk az volt, hogy az ott dolgozók elzárkóztak egy új szoftver bevezetésének ötletétől.
                     </p>
                     <p>
-                        Miután interjúztattuk őket és pontosan megállapítottuk mik a fájdalompontjaik, sokkal könnyebb lett egy olyan megoldási javaslattal előállni, amit ők is elfogadtak
+                        Miután interjúztattuk őket és pontosan megállapítottuk mik a fájdalompontjaik, sokkal könnyebb lett egy olyan megoldási javaslattal előállni, amit ők is elfogadtak.
                     </p>
                 </div>
             </div>
@@ -215,7 +215,7 @@
                             <h5 class="project__gallery-modal__title">Árajánlatok</h5>
                             <div class="project__gallery-modal__description">
                                 <p>
-                                    A Steiger legtöbb projekje hosszú és komplex. A projektek árkalkulációja pedig egy hasonlóan időigényes folyamat.
+                                    A Steiger legtöbb projektje hosszú és komplex. A projektek árkalkulációja pedig egy hasonlóan időigényes folyamat.
                                 </p>
                                 <p>
                                     Rengeteg szempontot kell figyelembe venni az árszámítás során: anyagszükségletek, többféle manuális és gépi megmunkálás, szállítás és helyszíni szerelés.
@@ -242,7 +242,7 @@
                                     A leltárrendszer nyomon követi a raktárkészleteket és előrejelzéseket gyárt az értékesítési csatornában lévő projektek alapján. Emellett jelzi a felhasználónak, ha egy projekthez felhasználható valamilyen raktáron lévő anyag.
                                 </p>
                                 <p>
-                                    A beszerzési rendszer automatizálja az anyagvásárlási folyamatot: kiküldi a bekérőket a beszállítóknak, megengedi hogy a beszállítók feltöltsék a saját árlistáikat és raktárkészleteiket, illetve kezeli a beszállítói minőségbiztosítást.
+                                    A beszerzési rendszer automatizálja az anyagvásárlási folyamatot: kiküldi az árajánlat bekérőket a beszállítóknak, megengedi hogy a beszállítók feltöltsék a saját árlistáikat és raktárkészleteiket, illetve kezeli a beszállítói minőségbiztosítást.
                                 </p>
                             </div>
                         </div>
@@ -257,10 +257,10 @@
                             <h5 class="project__gallery-modal__title">Időkövetés</h5>
                             <div class="project__gallery-modal__description">
                                 <p>
-                                    A gyártás megkezdésével több folyamat időkövetését meg kell oldanunk: kézi munkák, gépi munkák, anyagcserék és karbantartási idők.
+                                    A gyártás megkezdésével több folyamat időkövetését is meg kell oldanunk: a manuális munkák, gépi munkák, anyagcserék és karbantartási idők folyamatát.
                                 </p>
                                 <p>
-                                    A manuális munkák követésére egy QR kód alapú rendszer vezettünk be, aminek segítésével a munkások egyetlen csippantással tudják az időt mérni a különböző munkafolyamatokon.
+                                    A manuális munkák követésére egy QR kód alapú rendszert vezettünk be, aminek segítésével a munkások egyetlen szkenneléssel tudják az időt mérni a különböző munkafolyamatokon.
                                 </p>
                                 <p>
                                     Ezen kívül a gépekből is kinyerjük a gyártási adatokat, hogy kiszámoljuk az átlag anyagcsere időket és beidőzítsük a preventív karbantartást.
@@ -284,7 +284,7 @@
                                     Hogy csak egy párat említsünk: lead konverziós adatok, projekt határidők és költségvetések, gyártási adatok, HR riportok és pénzügyi előrejelzések.
                                 </p>
                                 <p>
-                                    Ugyanakkor itt kaptak helyet a vállalati kalendárium, az értesítések és a személyes feladatlisták is.
+                                    Ugyanakkor itt kaptak helyet az értesítések, a személyes feladatlisták és a vállalati kalendárium is.
                                 </p>
                             </div>
                         </div>

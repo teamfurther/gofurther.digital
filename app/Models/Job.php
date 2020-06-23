@@ -7,7 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Job extends Model
 {
-
     /**
      * The attributes that are mass assignable
      *
@@ -47,5 +46,4 @@ class Job extends Model
             $builder->orderBy('order', 'ASC')->orderBy('created_at', 'DESC');
         });
     }
-
 }

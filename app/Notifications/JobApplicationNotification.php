@@ -8,25 +8,14 @@ use Illuminate\View\Factory as View;
 
 class JobApplicationNotification extends Notification
 {
-
     /**
-     * Data for the notification.
-     *
      * @var array<string>
      */
-    protected $data;
+    protected array $data;
+
+    protected View $view;
 
     /**
-     * Reference to view object
-     * which will be injected.
-     *
-     * @var \Illuminate\View\Factory
-     */
-    protected $view;
-
-    /**
-     * Create a new notification instance.
-     *
      * @param array<string> $data
      */
     public function __construct(array $data, View $view)
@@ -35,19 +24,6 @@ class JobApplicationNotification extends Notification
         $this->view = $view;
     }
 
-    /**
-     * Get the notification's delivery channels.
-     *
-     * @return array<string>
-     */
-    public function via(): array
-    {
-        return ['mail'];
-    }
-
-    /**
-     * Get the mail representation of the notification.
-     */
     public function toMail(): MailMessage
     {
         $slot = $this->view->make('emails.job_application', [
@@ -64,4 +40,11 @@ class JobApplicationNotification extends Notification
         return $mail;
     }
 
+    /**
+     * @return array<string>
+     */
+    public function via(): array
+    {
+        return ['mail'];
+    }
 }

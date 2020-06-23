@@ -6,47 +6,48 @@ if (!function_exists('getGeolocation')) {
      */
     function getGeolocation(string $ip): ?string
     {
-        $url = config('services.ipapi.geo_endpoint')
-            . '/'
-            . $ip
-            . '?api-key='
-            . config('services.ipapi.secret');
+        try {
+            $client = new GuzzleHttp\Client([
+                'base_uri' => config('services.ipapi.geo_endpoint'),
+            ]);
 
-        $response = @file_get_contents($url);
+            $response = json_decode($client->request('GET', $ip, [
+                'query' => [
+                    'api-key' => config('services.ipapi.secret')
+                ],
+            ])->getBody());
 
-        if (!$response) {
+            return is_object($response) ? $response->country_code : null;
+        } catch (\GuzzleHttp\Exception\ClientException $exception) {
             return null;
         }
-
-        $response = json_decode($response);
-
-        return is_object($response) ? $response->country_code : null;
     }
 }
 
 if (!function_exists('getPublicIp')) {
     /**
      * Get public IP of user.
-     *
-     * @return mixed|string
      */
-    function getPublicIp()
+    function getPublicIp(): string
     {
-        if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) {
-            $_SERVER['REMOTE_ADDR'] = $_SERVER['HTTP_CF_CONNECTING_IP'];
-            $_SERVER['HTTP_CLIENT_IP'] = $_SERVER['HTTP_CF_CONNECTING_IP'];
+        $remoteAddr = request()->server('REMOTE_ADDR');
+        $httpClientIp = request()->server('HTTP_CLIENT_IP');
+        $httpCfConnectingIp = request()->server('HTTP_CF_CONNECTING_IP');
+
+        if ($httpCfConnectingIp) {
+            $remoteAddr = $httpCfConnectingIp;
+            $httpClientIp = $httpCfConnectingIp;
         }
-        $client  = @$_SERVER['HTTP_CLIENT_IP'];
-        $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
+
+        $client = $httpClientIp;
+        $forward = request()->server('HTTP_X_FORWARDED_FOR');
 
         if (filter_var($client, FILTER_VALIDATE_IP)) {
-            $ip = $client;
+            return $client;
         } elseif (filter_var($forward, FILTER_VALIDATE_IP)) {
-            $ip = $forward;
-        } else {
-            $ip = $_SERVER['REMOTE_ADDR'];
+            return $forward;
         }
 
-        return $ip;
+        return $remoteAddr;
     }
 }

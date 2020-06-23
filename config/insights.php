@@ -2,16 +2,19 @@
 
 declare(strict_types=1);
 
-use NunoMaduro\PhpInsights\Domain\Insights\ForbiddenDefineFunctions;
 use NunoMaduro\PhpInsights\Domain\Insights\ForbiddenFinalClasses;
 use NunoMaduro\PhpInsights\Domain\Insights\ForbiddenNormalClasses;
 use NunoMaduro\PhpInsights\Domain\Insights\ForbiddenPrivateMethods;
 use NunoMaduro\PhpInsights\Domain\Insights\ForbiddenTraits;
 use NunoMaduro\PhpInsights\Domain\Metrics\Architecture\Classes;
-use SlevomatCodingStandard\Sniffs\Namespaces\AlphabeticallySortedUsesSniff;
+use PHP_CodeSniffer\Standards\Generic\Sniffs\CodeAnalysis\UselessOverridingMethodSniff;
+use PHP_CodeSniffer\Standards\Generic\Sniffs\Formatting\SpaceAfterNotSniff;
+use PhpCsFixer\Fixer\ClassNotation\OrderedClassElementsFixer;
+use PhpCsFixer\Fixer\Comment\NoEmptyCommentFixer;
+use SlevomatCodingStandard\Sniffs\Functions\UnusedParameterSniff;
 use SlevomatCodingStandard\Sniffs\TypeHints\DeclareStrictTypesSniff;
-use SlevomatCodingStandard\Sniffs\TypeHints\DisallowMixedTypeHintSniff;
-use SlevomatCodingStandard\Sniffs\TypeHints\TypeHintDeclarationSniff;
+use SlevomatCodingStandard\Sniffs\TypeHints\ParameterTypeHintSniff;
+use SlevomatCodingStandard\Sniffs\TypeHints\PropertyTypeHintSniff;
 
 return [
 
@@ -52,18 +55,56 @@ return [
     ],
 
     'remove' => [
-        AlphabeticallySortedUsesSniff::class,
         DeclareStrictTypesSniff::class,
-        DisallowMixedTypeHintSniff::class,
-        ForbiddenDefineFunctions::class,
         ForbiddenNormalClasses::class,
         ForbiddenTraits::class,
-        TypeHintDeclarationSniff::class,
+        NoEmptyCommentFixer::class,
+        SpaceAfterNotSniff::class,
     ],
 
     'config' => [
         ForbiddenPrivateMethods::class => [
             'title' => 'The usage of private methods is not idiomatic in Laravel.',
+        ],
+        OrderedClassElementsFixer::class => [
+            'order' => [
+                'use_trait',
+                'constant',
+                'property',
+                'construct',
+                'destruct',
+                'magic',
+                'phpunit',
+                'method',
+            ],
+            'sortAlgorithm' => 'alpha'
+        ],
+        ParameterTypeHintSniff::class => [
+            'exclude' => [
+                'app/Exceptions/Handler.php',
+                'app/Http/Middleware',
+            ],
+        ],
+        PropertyTypeHintSniff::class => [
+            'exclude' => [
+                'app/Console/Kernel.php',
+                'app/Exceptions/Handler.php',
+                'app/Http/Kernel.php',
+                'app/Http/Middleware',
+                'app/Models',
+                'app/Providers',
+            ],
+        ],
+        UnusedParameterSniff::class => [
+            'exclude' => [
+                'app/Console/Kernel.php',
+            ],
+        ],
+        UselessOverridingMethodSniff::class => [
+            'exclude' => [
+                'app/Exceptions/Handler.php',
+                'app/Providers',
+            ],
         ],
     ],
 

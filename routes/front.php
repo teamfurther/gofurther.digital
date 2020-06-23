@@ -1,17 +1,10 @@
 <?php
 
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\JobsController;
+use App\Http\Controllers\ProjectsController;
 use Illuminate\Support\Facades\Route;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::get('/', function (): void {
     // this is empty, as lang middleware will take care of redirection
@@ -36,18 +29,18 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
     Route::view('mvp-development', 'en.services.mvp-development')
         ->name('services.mvp-development');
 
-    Route::get('blog', 'BlogController@index')->name('blog');
-    Route::get('blog/posts/{slug}', 'BlogController@show')->name('blog.show');
+    Route::get('blog', [BlogController::class, 'index'])->name('blog');
+    Route::get('blog/posts/{slug}', [BlogController::class, 'show'])->name('blog.show');
 
-    Route::get('careers', 'JobsController@index')->name('jobs');
-    Route::get('careers/{slug}', 'JobsController@show')->name('jobs.show');
-    Route::post('careers', 'JobsController@send')->name('jobs.send');
+    Route::get('careers', [JobsController::class, 'index'])->name('jobs');
+    Route::get('careers/{slug}', [JobsController::class, 'show'])->name('jobs.show');
+    Route::post('careers', [JobsController::class, 'send'])->name('jobs.send');
 
-    Route::get('contact', 'ContactController@show')->name('contact');
-    Route::post('contact', 'ContactController@send')->name('contact.send');
+    Route::get('contact', [ContactController::class, 'show'])->name('contact');
+    Route::post('contact', [ContactController::class, 'send'])->name('contact.send');
 
-    Route::get('projects', 'ProjectsController@index')->name('projects');
-    Route::get('projects/{slug}', 'ProjectsController@show')->name('projects.show');
+    Route::get('projects', [ProjectsController::class, 'index'])->name('projects');
+    Route::get('projects/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
 
     Route::view('solutions', 'en.solutions.index')
         ->name('solutions');
@@ -65,7 +58,7 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
         ->name('solutions.ecommerce');
     Route::view('solutions/human-resources', 'en.solutions.pages.hr')
         ->name('solutions.hr');
-    Route::view('solutions/knowledge-center', 'en.solutions.pages.wki')
+    Route::view('solutions/knowledge-center', 'en.solutions.pages.wiki')
         ->name('solutions.wiki');
     Route::view('solutions/mobile-apps', 'en.solutions.pages.mobile')
         ->name('solutions.mobile');
@@ -102,14 +95,14 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
     Route::view('mvp-fejlesztes', 'hu.services.mvp-development')
         ->name('services.mvp-development');
 
-    Route::get('blog', 'BlogController@index')->name('blog');
-    Route::get('blog/cikkek/{slug}', 'BlogController@show')->name('blog.show');
+    Route::get('blog', [BlogController::class, 'index'])->name('blog');
+    Route::get('blog/cikkek/{slug}', [BlogController::class, 'show'])->name('blog.show');
 
-    Route::get('kapcsolat', 'ContactController@show')->name('contact');
-    Route::post('kapcsolat', 'ContactController@send')->name('contact.send');
+    Route::get('kapcsolat', [ContactController::class, 'show'])->name('contact');
+    Route::post('kapcsolat', [ContactController::class, 'send'])->name('contact.send');
 
-    Route::get('projektek', 'ProjectsController@index')->name('projects');
-    Route::get('projektek/{slug}', 'ProjectsController@show')->name('projects.show');
+    Route::get('projektek', [ProjectsController::class, 'index'])->name('projects');
+    Route::get('projektek/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
 
     Route::view('megoldasaink', 'hu.solutions.index')
         ->name('solutions');
@@ -137,7 +130,7 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
         ->name('solutions.accounting');
     Route::view('megoldasaink/termekeletciklus-kezeles', 'hu.solutions.pages.plm')
         ->name('solutions.plm');
-    Route::view('megoldasaink/tudastar', 'hu.solutions.pages.wki')
+    Route::view('megoldasaink/tudastar', 'hu.solutions.pages.wiki')
         ->name('solutions.wiki');
     Route::view('megoldasaink/ugyfelkapcsolat-kezeles', 'hu.solutions.pages.crm')
         ->name('solutions.crm');
