@@ -13,29 +13,31 @@
                             Let's start something <strong class="is-tangerine">together!</strong>
                         </h2>
 
-                        <p class="has-text-centered">Do you have an idea, project or partnership proposal?<br />We're always willing and ready to listen to any request. So, if you like our work and you want to discuss, just grab your phone or keyboard and contact us.</p>
+                        <p class="has-text-centered">
+                            Do you have an idea, project or partnership proposal?<br />We're always willing and ready to listen to any request. So, if you like our work and you want to discuss, just grab your phone or keyboard and contact us.
+                        </p>
 
                         <form class="contact__form" id="contact-form" action="{{ localizedRoute('contact.send') }}" method="POST">
                             {{ csrf_field() }}
 
                             <div class="is-pulled-left">
-                                <div class="form-group {{ isset($errors) && $errors->has('contact_name') ? 'has-error' : '' }}">
-                                    <input class="form-control" name="contact_name" placeholder="Your name*" type="text" value="{{ old('contact_name') }}" autocomplete="name" tabindex="1" required />
+                                <div class="form-group {{ isset($errors) && $errors->has('name') ? 'has-error' : '' }}">
+                                    <input class="form-control" name="name" placeholder="Your name*" type="text" value="{{ old('name') }}" autocomplete="name" tabindex="1" required />
                                 </div>
-                                <div class="form-group {{ isset($errors) && $errors->has('contact_phone') ? 'has-error' : '' }}">
-                                    <input class="form-control" name="contact_phone" placeholder="Phone" type="text" value="{{ old('contact_phone') }}" autocomplete="tel" tabindex="3" />
+                                <div class="form-group {{ isset($errors) && $errors->has('email') ? 'has-error' : '' }}">
+                                    <input class="form-control" name="email" placeholder="Your email address*" type="email" value="{{ old('email') }}" autocomplete="email" tabindex="3" required />
                                 </div>
                             </div>
                             <div class="is-pulled-right">
-                                <div class="form-group {{ isset($errors) && $errors->has('contact_company') ? 'has-error' : '' }}">
-                                    <input class="form-control" name="contact_company" placeholder="Company" type="text" value="{{ old('contact_company') }}" autocomplete="organization" tabindex="2" />
+                                <div class="form-group {{ isset($errors) && $errors->has('company') ? 'has-error' : '' }}">
+                                    <input class="form-control" name="company" placeholder="Company name or website" type="text" value="{{ old('company') }}" autocomplete="organization" tabindex="2" />
                                 </div>
-                                <div class="form-group {{ isset($errors) && $errors->has('contact_email') ? 'has-error' : '' }}">
-                                    <input class="form-control" name="contact_email" placeholder="Email*" type="email" value="{{ old('contact_email') }}" autocomplete="email" tabindex="4" required />
+                                <div class="form-group {{ isset($errors) && $errors->has('phone') ? 'has-error' : '' }}">
+                                    <input class="form-control" name="phone" placeholder="Your phone number" type="text" value="{{ old('phone') }}" autocomplete="tel" tabindex="4" />
                                 </div>
                             </div>
-                            <div class="form-group {{ isset($errors) && $errors->has('contact_message') ? 'has-error' : '' }}">
-                                <textarea class="form-control" name="contact_message" placeholder="Message*" rows="5" tabindex="5" required>{{ old('contact_message') }}</textarea>
+                            <div class="form-group {{ isset($errors) && $errors->has('message') ? 'has-error' : '' }}">
+                                <textarea class="form-control" name="message" placeholder="Message*" rows="5" tabindex="5" required>{{ old('message') }}</textarea>
                             </div>
                             {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
                             <button class="btn is-large is-pearl" type="submit">Send</button>

@@ -25,11 +25,11 @@ class ContactController
     {
         $this->notifiable->route('mail', config('mail.to'))
             ->notify(new ContactNotification([
-                'company' => $request->get('contact_company'),
-                'email' => $request->get('contact_email'),
-                'message' => $request->get('contact_message'),
-                'name' => $request->get('contact_name'),
-                'phone' => $request->get('contact_phone'),
+                'company' => $request->get('company'),
+                'email' => $request->get('email'),
+                'message' => $request->get('message'),
+                'name' => $request->get('name'),
+                'phone' => $request->get('phone'),
             ], $this->view));
 
         return redirect()->back()->with('alert', [

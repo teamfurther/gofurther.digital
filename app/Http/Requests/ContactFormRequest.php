@@ -30,9 +30,9 @@ class ContactFormRequest extends Request
     public function rules(): array
     {
         return [
-            'contact_name' => 'required',
-            'contact_email' => 'required|email',
-            'contact_message' => 'required',
+            'name' => 'required',
+            'email' => 'required|email',
+            'message' => 'required',
             'honeypotname' => 'honeypot',
             'honeypottime' => 'required|honeytime:3',
         ];

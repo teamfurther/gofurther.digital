@@ -24,11 +24,11 @@ class ContactTest extends TestCase
         \Notification::fake();
 
         $this->data = [
-            'contact_company' => 'The Does Ltd.',
-            'contact_email' => 'john@doe.com',
-            'contact_name' => 'John Doe',
-            'contact_message' => 'Nulla porttitor accumsan tincidunt. Donec rutrum congue leo eget malesuada.',
-            'contact_phone' => '+00 10 111 222',
+            'company' => 'The Does Ltd.',
+            'email' => 'john@doe.com',
+            'name' => 'John Doe',
+            'message' => 'Nulla porttitor accumsan tincidunt. Donec rutrum congue leo eget malesuada.',
+            'phone' => '+00 10 111 222',
             'honeypotname' => '',
             'honeypottime' => 'required',
         ];
@@ -54,14 +54,14 @@ class ContactTest extends TestCase
     public function testContactShouldReturn422IfInvalidEmailGiven(): void
     {
         $data = $this->data;
-        $data['contact_email'] = 'thisisnotvalid';
+        $data['email'] = 'thisisnotvalid';
 
         $response = $this->json('POST', 'en/contact', $data);
 
         $response->assertStatus(422)
             ->assertJsonStructure([
                 'errors' => [
-                    'contact_email',
+                    'email',
                 ],
                 'message',
             ]);
@@ -70,14 +70,14 @@ class ContactTest extends TestCase
     public function testContactShouldReturn422IfNoEmailGiven(): void
     {
         $data = $this->data;
-        unset($data['contact_email']);
+        unset($data['email']);
 
         $response = $this->json('POST', 'en/contact', $data);
 
         $response->assertStatus(422)
             ->assertJsonStructure([
                 'errors' => [
-                    'contact_email',
+                    'email',
                 ],
                 'message',
             ]);
@@ -86,14 +86,14 @@ class ContactTest extends TestCase
     public function testContactShouldReturn422IfNoMessageGiven(): void
     {
         $data = $this->data;
-        unset($data['contact_message']);
+        unset($data['message']);
 
         $response = $this->json('POST', 'en/contact', $data);
 
         $response->assertStatus(422)
             ->assertJsonStructure([
                 'errors' => [
-                    'contact_message',
+                    'message',
                 ],
                 'message',
             ]);
@@ -102,14 +102,14 @@ class ContactTest extends TestCase
     public function testContactShouldReturn422IfNoNameGiven(): void
     {
         $data = $this->data;
-        unset($data['contact_name']);
+        unset($data['name']);
 
         $response = $this->json('POST', 'en/contact', $data);
 
         $response->assertStatus(422)
             ->assertJsonStructure([
                 'errors' => [
-                    'contact_name',
+                    'name',
                 ],
                 'message',
             ]);

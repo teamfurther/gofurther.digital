@@ -8,17 +8,19 @@ if (!function_exists('getGeolocation')) {
     {
         try {
             $client = new GuzzleHttp\Client([
-                'base_uri' => config('services.ipapi.geo_endpoint'),
+                'base_uri' => config('services.ipapi.geo_endpoint') . '/' . $ip,
             ]);
 
-            $response = json_decode($client->request('GET', $ip, [
+            $response = json_decode($client->request('GET', '', [
                 'query' => [
-                    'api-key' => config('services.ipapi.secret')
+                    'api-key' => config('services.ipapi.secret'),
                 ],
             ])->getBody());
 
             return is_object($response) ? $response->country_code : null;
-        } catch (\GuzzleHttp\Exception\ClientException $exception) {
+        } catch (\GuzzleHttp\Exception\GuzzleException $exception) {
+            logger()->error($exception->getMessage());
+
             return null;
         }
     }
@@ -44,7 +46,9 @@ if (!function_exists('getPublicIp')) {
 
         if (filter_var($client, FILTER_VALIDATE_IP)) {
             return $client;
-        } elseif (filter_var($forward, FILTER_VALIDATE_IP)) {
+        }
+
+        if (filter_var($forward, FILTER_VALIDATE_IP)) {
             return $forward;
         }
 
