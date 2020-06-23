@@ -13,29 +13,31 @@
                             Építsünk valamit <strong class="is-tangerine">együtt!</strong>
                         </h2>
 
-                        <p class="has-text-centered">Nyitottak vagyunk minden új kérdésre, felkérésre. Ha felkeltettük érdeklődésed, megtetszett a munkánk vagy van olyan projekted, amelyet meg szeretnél velünk beszélni, akkor vedd fel velünk a kapcsolatot telefonon vagy e-mailben.</p>
+                        <p class="has-text-centered">
+                            Nyitottak vagyunk minden új kérdésre, megkeresésre. Ha felkeltettük érdeklődésed, megtetszett a munkánk vagy van olyan projekted, amelyet meg szeretnél velünk beszélni, akkor vedd fel velünk a kapcsolatot telefonon vagy e-mailben.
+                        </p>
 
                         <form class="contact__form" id="contact-form" action="{{ localizedRoute('contact.send') }}" method="POST">
                             {{ csrf_field() }}
 
                             <div class="is-pulled-left">
-                                <div class="form-group {{ isset($errors) && $errors->has('contact_name') ? 'has-error' : '' }}">
-                                    <input class="form-control" name="contact_name" placeholder="Neved*" type="text" value="{{ old('contact_name') }}" autocomplete="name" tabindex="1" required />
+                                <div class="form-group {{ isset($errors) && $errors->has('name') ? 'has-error' : '' }}">
+                                    <input class="form-control" name="name" placeholder="Neved*" type="text" value="{{ old('name') }}" autocomplete="name" tabindex="1" required />
                                 </div>
-                                <div class="form-group {{ isset($errors) && $errors->has('contact_phone') ? 'has-error' : '' }}">
-                                    <input class="form-control" name="contact_phone" placeholder="Telefon" type="text" value="{{ old('contact_phone') }}" autocomplete="tel" tabindex="3" />
+                                <div class="form-group {{ isset($errors) && $errors->has('email') ? 'has-error' : '' }}">
+                                    <input class="form-control" name="email" placeholder="E-mail címed*" type="email" value="{{ old('email') }}" autocomplete="email" tabindex="3" required />
                                 </div>
                             </div>
                             <div class="is-pulled-right">
-                                <div class="form-group {{ isset($errors) && $errors->has('contact_company') ? 'has-error' : '' }}">
-                                    <input class="form-control" name="contact_company" placeholder="Céged neve" type="text" value="{{ old('contact_company') }}" autocomplete="organization" tabindex="2" />
+                                <div class="form-group {{ isset($errors) && $errors->has('company') ? 'has-error' : '' }}">
+                                    <input class="form-control" name="company" placeholder="Céged neve vagy weboldala" type="text" value="{{ old('company') }}" autocomplete="organization" tabindex="2" />
                                 </div>
-                                <div class="form-group {{ isset($errors) && $errors->has('contact_email') ? 'has-error' : '' }}">
-                                    <input class="form-control" name="contact_email" placeholder="E-mail*" type="email" value="{{ old('contact_email') }}" autocomplete="email" tabindex="4" required />
+                                <div class="form-group {{ isset($errors) && $errors->has('phone') ? 'has-error' : '' }}">
+                                    <input class="form-control" name="phone" placeholder="Telefonszámod" type="text" value="{{ old('phone') }}" autocomplete="tel" tabindex="4" />
                                 </div>
                             </div>
-                            <div class="form-group {{ isset($errors) && $errors->has('contact_message') ? 'has-error' : '' }}">
-                                <textarea class="form-control" name="contact_message" placeholder="Üzenet*" rows="5" tabindex="5" required>{{ old('contact_message') }}</textarea>
+                            <div class="form-group {{ isset($errors) && $errors->has('message') ? 'has-error' : '' }}">
+                                <textarea class="form-control" name="message" placeholder="Üzenet*" rows="5" tabindex="5" required>{{ old('message') }}</textarea>
                             </div>
                             {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
                             <button class="btn is-large is-pearl" type="submit">Küldés</button>

@@ -4,9 +4,6 @@ on:
     pull_request:
         branches:
           - master
-    push:
-        branches:
-          - master
 
 jobs:
     phpinsights:
@@ -15,7 +12,7 @@ jobs:
           fail-fast: true
           matrix:
             php: [7.4]
-            dependency-version: [prefer-lowest, prefer-stable]
+            dependency-version: [prefer-stable]
 
         name: PHP${{ matrix.php }} - ${{ matrix.dependency-version }}
 
