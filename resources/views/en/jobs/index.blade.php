@@ -81,7 +81,7 @@
                         <textarea class="form-control" name="message" placeholder="Message*" rows="5" tabindex="105" required>{{ old('message') }}</textarea>
                     </div>
                     <input name="job" type="hidden" value="" />
-                    {!! Honeypot::generate('potname', 'pottime') !!}
+                    {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
                     <button class="btn is-large is-pearl" type="submit">Send</button>
                 </form>
             </div><!-- /.modal__content -->

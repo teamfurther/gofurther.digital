@@ -119,7 +119,7 @@
                 </div>
                 <div class="column is-9-tablet is-7-widescreen">
                     <h5 class="heading-4">
-                        A start-up projektek és nagyvállalalati projektek nagyon különbözőek
+                        A start-up projektek és nagyvállalati projektek nagyon különbözőek
                     </h5>
                     <p>
                         A centralized.me előtt és után is dolgoztunk már start-up projekteken, de kevés projekt volt ennyire pörgős. A szokásos nagyvállalati projektjeinkhez képest, ahol legtöbb döntés lassú és bürokratikus, ennél a projekthez egy teljesen más gondolkodásmódra volt szükség.
@@ -201,7 +201,7 @@
                             <h5 class="project__gallery-modal__title">Útmutatók</h5>
                             <div class="project__gallery-modal__description">
                                 <p>
-                                    A felhasználó tervében minden lépés egy útmutató oldalra vezet. Ezek az útmutatók videó tartalmakat, checklisteket, email- és szerződéstervezeteket, illetve költségvetéseket tartalmaz.
+                                    A felhasználó tervében minden lépés egy útmutató oldalra vezet. Ezek az útmutatók videó tartalmakat, checklisteket, email- és szerződéstervezeteket, illetve költségvetéseket tartalmaznak.
                                 </p>
                             </div>
                         </div>

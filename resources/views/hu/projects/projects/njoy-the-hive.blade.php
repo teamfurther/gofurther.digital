@@ -16,10 +16,10 @@
                 <div class="column">
                     <h4 class="heading-1">Összefoglaló</h4>
                     <p>
-                        A DAI-TECH-et 2010 júniusában alapították abból a közös célból, hogy valami mást és jobbat nyújtsanak az akkor piaci kínálatnál. nJoy márkanév alatt olyan fogyasztói informatikai termékeket fejlesztenek ki, amelyeket önálló termékként értékesítenek a kiskereskedelmi láncok polcain. Jelenleg az nJoy 10 közép- és kelet-európai piacon van jelen.
+                        A DAI-TECH-et 2010 júniusában alapították abból a közös célból, hogy valami mást és jobbat nyújtsanak az akkori piaci kínálatnál. nJoy márkanév alatt olyan fogyasztói informatikai termékeket fejlesztenek ki, amelyeket önálló termékként értékesítenek a kiskereskedelmi láncok polcain. Jelenleg az nJoy 10 közép- és kelet-európai piacon van jelen.
                     </p>
                     <p>
-                        Minket a Hive nevű termékéletciklus-menedzsment (PLM) rendszer fejlesztésével bíztak meg. A Hive egy teljesen egyedire szabott PLM szoftver, ami számos ERP funckióval is bővült az idő elteltével.
+                        Minket a Hive nevű termékéletciklus-menedzsment (PLM) rendszer fejlesztésével bíztak meg. A Hive egy teljesen személyre szabott PLM szoftver, ami számos ERP funckióval is bővült az idő elteltével.
                     </p>
                     <div class="project__stats">
                         <div class="project__stat">
@@ -42,7 +42,7 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        A Hive eredetileg egy PLM modulból állt, amit 2011 második felében vezettünk be. A munka azóta sem állt le: az utóbbi {{ date('Y') - 2011 }} évben CRM, értékesítés, logisztika, előrejelzés (forecasting), szerviz és call center modulokkal bővűlt, teljesen digitalizálva az nJoy belső munkafolyamatait.
+                        A Hive eredetileg egy PLM modulból állt, amit 2011 második felében vezettünk be. A munka azóta sem állt le: az utóbbi {{ date('Y') - 2011 }} évben CRM, értékesítés, logisztika, előrejelzés (forecasting), szerviz és call center modulokkal bővült, teljesen digitalizálva az nJoy belső munkafolyamatait.
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                     <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
                         <h4 class="heading-1">Hogyan oldottuk meg az nJoy fő üzleti kihívásait</h4>
                         <p>
-                            Egyűttműködtünk az njoy vezetőséggel, valamint az IT és design csapatokkal annak érdekében, hogy megértsük a munkafolyamataikat, és lefordítsuk ezt az üzleti logikát egy könnyen használható és skálázható rendszerre. Ez a rendszer az nJoy, a beszállítók, a szervizközpontok és a forgalmazók együttműködési csomópontjaként működik.
+                            Eggyűttműködtünk az njoy vezetőségével, valamint az IT és design csapatokkal annak érdekében, hogy megértsük a munkafolyamataikat, és lefordítsuk ezt az üzleti logikát egy könnyen használható és skálázható rendszerre. Ez a rendszer az nJoy, a beszállítók, a szervizközpontok és a forgalmazók együttműködési csomópontjaként működik.
                         </p>
                     </div>
                 </div>
@@ -65,14 +65,14 @@
                         <h5 class="heading-3">A termékfejlesztés megbízhatatlan volt</h5>
                         <em class="project__text-emphasis">Probléma</em>
                         <p>
-                            A Hive bevezetése előtt, az nJoy több különböző rendszerre és Excel táblára hagyatkozott a termékmenedzsmentben. Ez a folyamat fölöslegesen időigényés volt és rengeteg hibára adott lehetőséget.
+                            A Hive bevezetése előtt, az nJoy több különböző rendszerre és Excel táblára hagyatkozott a termékmenedzsmentben. Ez a folyamat fölöslegesen időigényes volt és rengeteg hibára adott lehetőséget.
                         </p>
                         <em class="project__text-emphasis">Megoldás</em>
                         <p>
-                            A megoldást egy <strong>testreszabott termékéletciklus-menedzsment eszköz</strong> fejlesztése jelentette, amely lehetővé teszi az nJoy számára, hogy átlássa egy termék életének össze fontos lépését, fejlesztéstől gyártásig, disztribúción és logisztikán keresztül.
+                            A megoldást egy <strong>testreszabott termékéletciklus-menedzsment eszköz</strong> fejlesztése jelentette, amely lehetővé teszi az nJoy számára, hogy átlássa egy termék életének összes fontos lépését, a disztribúción és logisztikán keresztül, a fejlesztéstől a gyártásig.
                         </p>
                         <p>
-                            Az automatikus kontrollpontok, a jóváhagyási mechanizmusok, a folyamatok és feladatok egyértelmű riportálása, mind lényegesen megkönnyítik egy termék státuszának utánkövetését.
+                            Az automatikus kontrollpontok, a jóváhagyási mechanizmusok, a folyamatok és feladatok egyértelmű jelentése, mind lényegesen megkönnyítik egy termék státuszának utánkövetését.
                         </p>
                     </div>
                     <div class="column">
@@ -88,7 +88,7 @@
                         </p>
                         <em class="project__text-emphasis">Megoldás</em>
                         <p>
-                            A megoldásunk az volt, hogy a teljes <strong>beszállítói kommunikációt integráljuk</strong> a szoftverbe. A beszállítók mostantól aktívan résztvehetnek a folyamatban, hozzáférhetnek információhoz és megjegyzéseket tehetnek a termékekkel kapcsolatban. Mivel minden adat egyetlen szoftverben van, soha nem vesztődik el semmilyen információ!
+                            A megoldásunk az volt, hogy a teljes <strong>beszállítói kommunikációt integráljuk</strong> a szoftverbe. A beszállítók mostantól aktívan résztvehetnek a folyamatban, hozzáférhetnek az információkhoz és megjegyzéseket tehetnek a termékekkel kapcsolatban. Mivel minden adat egyetlen szoftverben van, így soha nem vész el semmilyen információ!
                         </p>
                     </div>
                     <div class="column">
@@ -97,7 +97,7 @@
                 </div>
                 <div class="columns is-reversed">
                     <div class="column is-centered-vertical">
-                        <h5 class="heading-3">A feladatmegosztás struktúrálatlan volt</h5>
+                        <h5 class="heading-3">A feladatmegosztás strukturálatlan volt</h5>
                         <em class="project__text-emphasis">Probléma</em>
                         <p>
                             A termékfejlesztésen kívül is rengeteg feladatot kell elvégezni. Az nJoy hamarosan szükségét érezte, hogy ezeket a feladatokat is nyomon tudja követni.
@@ -152,10 +152,10 @@
                 </div>
                 <div class="column is-10-mobile is-9-tablet is-7-widescreen">
                     <h5 class="heading-4">
-                        Mindig tervezz a jövőre
+                        Tervezz mindig előre
                     </h5>
                     <p>
-                        Tudtuk, hogy az IT igények arányosan fognak növekedni a céggel, ezért a rendszernek meg kell tudnia bírkózni a növekedő adatmennyiséggel és az új komponensek gyors bevezetésével.
+                        Tudtuk, hogy az IT igények arányosan fognak növekedni a céggel, ezért a rendszernek meg kell tudnia birkózni a növekvő adatmennyiséggel és az új komponensek gyors bevezetésével.
                     </p>
                     <p>
                         Ezért, a rendszert egy alaposan megtervezett moduláris architektúrán és egy olyan dedikált szerveren futtatjuk, amely lehetővé teszi a gyors skálázhatóságot.
@@ -168,7 +168,7 @@
                 </div>
                 <div class="column is-10-mobile is-9-tablet is-7-widescreen">
                     <h5 class="heading-4">
-                        Sose becsült alá az adatmigrációt
+                        Sose becsüld alá az adatmigrációt
                     </h5>
                     <p>
                         Az alapos igényfelmérésnek köszönhetően, kiderítettük mik az nJoy jövőbeli tervei a szoftverrel. Ennek köszönhetően azt is tudtuk, hogy nagy mennyiségű adat migrációjára lesz szükség a meglévő régi rendszerekből.
@@ -223,10 +223,10 @@
                                     Egy új termék (vagy Part Number) létrehozását segíti a kategória rendszer, amely a mellékelt képen látható.
                                 </p>
                                 <p>
-                                    Minden kategória esetében, az nJoy termékfejlesztők létre tudnak hozni atribútumokat a kategória szerkesztőben. Például, egy számítógép monitor esetében létrehozhatnak egy átmérő vagy rezolúció atribútumot. Az atribútomuk mellett, minden kategóriának van egy part number formázási szabálya is.
+                                    Minden kategória esetében, az nJoy termékfejlesztők létre tudnak hozni attribútumokat a kategória szerkesztőben. Például, egy számítógép monitor esetében létrehozhatnak egy átmérő vagy rezolúció attribútumot. Az attribútomuk mellett, minden kategóriának van egy part number formázási szabálya is.
                                 </p>
                                 <p>
-                                    Miután minden atribútum és szabály be lett állítva, egy új termék létrehozása csupán egy pár érték listából való kiválasztásával megoldható. A part number, illetve a feladatlisták és a termékfejlesztési folyamat automatikusan létrejönnek.
+                                    Miután minden attribútum és szabály be lett állítva, egy új termék létrehozása csupán egy pár érték listából való kiválasztásával megoldható. A part number, illetve a feladatlisták és a termékfejlesztési folyamat automatikusan létrejönnek.
                                 </p>
                             </div>
                         </div>
@@ -244,7 +244,7 @@
                                     A termék dashboard a Hive központja. Ezen a képernyőn található az összes fejlesztés alatt lévő termék és a hozzájuk tartozó feladatok.
                                 </p>
                                 <p>
-                                    A termékek státusza és állapota színkódolva van a könnyebb áttekintést segítve. Továbbá, lehetőséget kapunk a termékek szűrésére bármilyen termékatribútum alapján, így akár testreszabott riportokat is generálhatunk.
+                                    A termékek státusza és állapota színkódolva van a könnyebb áttekintést segítve. Továbbá, lehetőséget kapunk a termékek szűrésére bármilyen termékattribútum alapján, így akár testreszabott riportokat is generálhatunk.
                                 </p>
                             </div>
                         </div>

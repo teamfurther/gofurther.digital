@@ -4,7 +4,6 @@ namespace App\Http\Requests;
 
 class JobApplicationFormRequest extends Request
 {
-
     /**
      * Determine if the user is authorized to make this request.
      */
@@ -26,9 +25,8 @@ class JobApplicationFormRequest extends Request
             'git' => 'required|url',
             'cv' => 'required|url',
             'message' => 'required',
-            'potname' => 'honeypot',
-            'pottime' => 'required|honeytime:3',
+            'honeypotname' => 'honeypot',
+            'honeypottime' => 'required|honeytime:3',
         ];
     }
-
 }

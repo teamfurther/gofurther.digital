@@ -55,7 +55,6 @@ if (!function_exists('handleSwitchLangExceptions')) {
 
         return $parameters;
     }
-
 }
 
 if (!function_exists('isLang')) {
@@ -116,10 +115,8 @@ if (!function_exists('routeMappingLookup')) {
 if (!function_exists('switchLang')) {
     /**
      * Generates language locale switcher.
-     *
-     * @return mixed|null
      */
-    function switchLang(string $lang)
+    function switchLang(string $lang): ?string
     {
         if (!request()->route()) {
             return null;

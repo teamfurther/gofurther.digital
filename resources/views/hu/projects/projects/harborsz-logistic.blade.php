@@ -6,7 +6,7 @@
     <section class="hero is-{{ getLang() }}">
         <h2 class="project__title">Harborsz Logistic</h2>
         <h3 class="project__intro">
-            Együttdolgozva a Harborsz csapatával, egy olyan rendszert fejlesztettünk, amely lefedi a tevékenységük összes területét.
+            Együtt dolgozva a Harborsz csapatával, egy olyan rendszert fejlesztettünk, amely lefedi a tevékenységük összes területét.
         </h3>
     </section>
 
@@ -19,7 +19,7 @@
                         A Harborsz fő tevékenysége a teherszállítás megszervezése kompon, hidakon és alagutakon át. A jelenlegi rendszer fejlesztése előtt, a napi teendők elvégzéséhez több különböző szoftver és az email applikáció közötti folyamatos váltogatásra volt szükség.
                     </p>
                     <p>
-                        Az új integrált ügyviteli megoldásnak köszönhetően a Harborsznak sikerült teljes mértékben automatizálni a folyamataikat, redukálni az emberi hibákat és átlatni a működésük összes aspektusát.
+                        Az új integrált ügyviteli megoldásnak köszönhetően a Harborsznak sikerült teljes mértékben automatizálni a folyamataikat, redukálni az emberi hibákat és átlátni a működésük összes aspektusát.
                     </p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
@@ -34,7 +34,7 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        A szoftvert előszőr a romániai Harborsznál vezették be, de azóta már az összes nemzetközi fiók is elkezdte használni. Ez idő alatt több mint 127 000 foglalást dolgoztak fel.
+                        A szoftvert először a romániai Harborsznál vezették be, de azóta már az összes nemzetközi fiók is elkezdte használni. Ez idő alatt több mint 127 000 foglalást dolgoztak fel.
                     </div>
                 </div>
             </div>
@@ -173,7 +173,7 @@
                             <h5 class="project__gallery-modal__title">Foglalások</h5>
                             <div class="project__gallery-modal__description">
                                 <p>
-                                    A foglalások képernyőn történik az aktivitás legnagyobb része. Minden beérkező rendelés, a weboldalról vagy az API-któl, ide fut be.
+                                    A "Foglalások" képernyőn történik az aktivitás legnagyobb része. Minden beérkező rendelés, a weboldalról vagy az API-któl, ide fut be.
                                 </p>
                                 <p>
                                     A legtöbb foglalást a rendszer automatikusan feldolgozza: a díjszámítást és számlázást a rendszer automatikusan kezeli.
@@ -194,7 +194,7 @@
                             <h5 class="project__gallery-modal__title">Dinamikus árazás</h5>
                             <div class="project__gallery-modal__description">
                                 <p>
-                                    A teljes automatizáció elsősorban a dinamikus árazásnak köszönhető. Több tucat változót veszünk figyelembe, amikor egy utat árazunk: a jármű mérete és súlya, a szállítmámy típusa, sófőrök száma, út hossza, csúcsszezonok, kikötői díjak és beszállítói költségek.
+                                    A teljes automatizáció elsősorban a dinamikus árazásnak köszönhető. Több tucat változót veszünk figyelembe, amikor egy utat árazunk: a jármű mérete és súlya, a szállítmány típusa, sofőrök száma, az út hossza, a csúcsszezonok, a kikötői díjak és a beszállítói költségek.
                                 </p>
                                 <p>
                                     Előre meghatározott időszakokban részletes riportokat generálunk ezekről, hogy a Harborsz igazítani tudja a díjakat annak érdekében, hogy a költségeket fedezni és az árréseket növelni tudja.

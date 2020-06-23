@@ -3,15 +3,16 @@
 namespace App\Http\Middleware;
 
 use Closure;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Redirector;
 
 class HandleLanguageSettings
 {
-
     /**
      * Handle an incoming request.
      *
-     * @return mixed
+     * @return Closure|RedirectResponse|Redirector
      */
     public function handle(Request $request, Closure $next)
     {
@@ -32,5 +33,4 @@ class HandleLanguageSettings
 
         return $next($request);
     }
-
 }

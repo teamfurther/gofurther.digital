@@ -10,19 +10,7 @@ use Throwable;
 
 class Handler extends ExceptionHandler
 {
-
     /**
-     * A list of the exception types that are not reported.
-     *
-     * @var array<object>
-     */
-    protected $dontReport = [
-        //
-    ];
-
-    /**
-     * A list of the inputs that are never flashed for validation exceptions.
-     *
      * @var array<string>
      */
     protected $dontFlash = [
@@ -31,8 +19,13 @@ class Handler extends ExceptionHandler
     ];
 
     /**
-     * Render an exception into an HTTP response.
-     *
+     * @var array<object>
+     */
+    protected $dontReport = [
+        //
+    ];
+
+    /**
      * @param \Illuminate\Http\Request $request
      *
      * @throws \Throwable
@@ -43,8 +36,6 @@ class Handler extends ExceptionHandler
     }
 
     /**
-     * Render the given HttpException.
-     *
      * @return \Illuminate\Http\Response|Response
      */
     protected function renderHttpException(HttpExceptionInterface $exception)
@@ -69,15 +60,10 @@ class Handler extends ExceptionHandler
     }
 
     /**
-     * Report or log an exception.
-     *
-     * This is a great spot to send exceptions to Sentry, Bugsnag, etc.
-     *
      * @throws \Exception
      */
     public function report(Throwable $exception): void
     {
         parent::report($exception);
     }
-
 }

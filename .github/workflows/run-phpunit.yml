@@ -1,0 +1,48 @@
+name: PHPUnit
+
+on:
+    pull_request:
+        branches:
+          - master
+    push:
+        branches:
+          - master
+
+jobs:
+    phpinsights:
+        runs-on: ubuntu-latest
+        strategy:
+          fail-fast: true
+          matrix:
+            php: [7.4]
+            dependency-version: [prefer-lowest, prefer-stable]
+
+        name: PHP${{ matrix.php }} - ${{ matrix.dependency-version }}
+
+        steps:
+          - name: Checkout code
+            uses: actions/checkout@v2
+
+          - name: Cache dependencies
+            uses: actions/cache@v1
+            with:
+              path: ~/.composer/cache/files
+              key: dependencies-laravel-${{ matrix.laravel }}-php-${{ matrix.php }}-composer-${{ hashFiles('composer.json') }}
+
+          - name: Setup PHP
+            uses: shivammathur/setup-php@v2
+            with:
+              php-version: '7.4'
+              extensions: curl, gd, json, mbstring, mysql, xml
+              coverage: none
+
+          - name: Install dependencies
+            run: composer update --no-interaction --prefer-dist --${{ matrix.dependency-version }}
+
+          - name: Prepare Laravel Application
+            run: |
+                cp .env.example .env
+                php artisan key:generate
+
+          - name: PHPUnit
+            run: vendor/bin/phpunit

@@ -4,13 +4,22 @@ namespace App\Http\Requests;
 
 class ContactFormRequest extends Request
 {
-
     /**
      * Determine if the user is authorized to make this request.
      */
     public function authorize(): bool
     {
         return true;
+    }
+
+    /**
+     * Get the URL to redirect to on a validation error.
+     */
+    protected function getRedirectUrl(): string
+    {
+        $url = $this->redirector->getUrlGenerator();
+
+        return $url->previous() . '#contact-form';
     }
 
     /**
@@ -28,15 +37,4 @@ class ContactFormRequest extends Request
             'honeypottime' => 'required|honeytime:3',
         ];
     }
-
-    /**
-     * Get the URL to redirect to on a validation error.
-     */
-    protected function getRedirectUrl(): string
-    {
-        $url = $this->redirector->getUrlGenerator();
-
-        return $url->previous() . '#contact-form';
-    }
-
 }
