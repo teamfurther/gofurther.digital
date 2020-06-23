@@ -1,4 +1,4 @@
-name: PHP Insights
+name: PHPUnit
 
 on:
     pull_request:
@@ -17,7 +17,7 @@ jobs:
             php: [7.4]
             dependency-version: [prefer-lowest, prefer-stable]
 
-        name: PHP${{ matrix.os }} - ${{ matrix.dependency-version }}
+        name: PHP${{ matrix.php }} - ${{ matrix.dependency-version }}
 
         steps:
           - name: Checkout code
@@ -38,6 +38,11 @@ jobs:
 
           - name: Install dependencies
             run: composer update --no-interaction --prefer-dist --${{ matrix.dependency-version }}
+
+          - name: Prepare Laravel Application
+            run: |
+                cp .env.example .env
+                php artisan key:generate
 
           - name: PHPUnit
             run: vendor/bin/phpunit
