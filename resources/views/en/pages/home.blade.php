@@ -115,7 +115,7 @@
 
     @include(getLang() . '.banners.projects')
 
-    <section class="section">
+    <section class="section" id="laravel-vue">
         <div class="container">
             <div class="columns">
                 <div class="column is-10-tablet is-9-desktop">
