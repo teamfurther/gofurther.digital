@@ -37,7 +37,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/crm-illustration-data-sources.png') }}" alt="Különböző adatforrások integrálása" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/crm-illustration-data-sources.png') }}" alt="Különböző adatforrások integrálása" />
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/crm-illustration-sales-pipeline.png') }}" alt="Egyedi értékesítési csatornák" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/crm-illustration-sales-pipeline.png') }}" alt="Egyedi értékesítési csatornák" />
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/crm-illustration-reports.png') }}" alt="Személyre szabott jelentések" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/crm-illustration-reports.png') }}" alt="Személyre szabott jelentések" />
                     </div>
                 </div>
             </div>

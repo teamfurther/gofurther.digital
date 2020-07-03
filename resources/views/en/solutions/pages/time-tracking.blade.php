@@ -34,7 +34,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/time-tracking-illustration-track.png') }}" alt="Plan and track your time" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/time-tracking-illustration-track.png') }}" alt="Plan and track your time" />
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/time-tracking-illustration-timesheet.png') }}" alt="Create beautiful and informative timesheets" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/time-tracking-illustration-timesheet.png') }}" alt="Create beautiful and informative timesheets" />
                 </div>
             </div>
         </div>

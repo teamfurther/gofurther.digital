@@ -37,7 +37,7 @@
                             <p>In our experience, an <a href="{{ localizedRoute('services.custom-development') }}">integrated software system</a> has similar break-even points. Reports by our clients said they recovered their investments on average in a little over 2 years. Considering that an industrial robot has a service life of 12 years, one might argue that investing in software is even more profitable.</p>
                             <p><a href="https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages#part1" target="_blank">According to McKinsey</a>, as much as 30% of all worked hours globally, could be automated by 2030. Even today, about 50% of work activities are technically automatable, with 6 out of 10 jobs consisting of more than 30% automatable activities.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/digital-transformation-automatable-jobs.png') }}" alt="About 50% of work activities are technically automatable, with 6 out of 10 jobs consisting of more than 30% automatable activities" />
+                                <img src="{{ asset('media/blog/digital-transformation-automatable-jobs-en.png') }}" alt="About 50% of work activities are technically automatable, with 6 out of 10 jobs consisting of more than 30% automatable activities" />
                             </figure>
                             <h2 class="heading-3 has-margin-b30">Measure Everything</h2>
                             <p>Data and analytics is helping a companies gain a competitive edge. Collecting and evaluating information enables faster and larger-scale decision making based on actual evidence. Some companies not only improve their core operations, but even launch entirely new business models based on big data analytics.</p>
@@ -49,7 +49,7 @@
                             <p>The sheer volume of the data that has recently become available and the increase of computing capacity to parse this information has made machine learning one of the most exciting subjects in the tech sphere.</p>
                             <p>The best known examples of where machine learning has been employed is personal assistants like Amazon's Alexa or Apple's Siri, but ML is also the driver behind Google Translate and chatbots. But this is not all, in the coming years ML will be used to discover new consumer trends, optimize clinical trials or schedule preventive maintenance.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/digital-transformation-machine-learning-use-cases.png') }}" alt="Machine learning will be used to discover new consumer trends, optimize clinical trials or schedule preventive maintenance" />
+                                <img src="{{ asset('media/blog/digital-transformation-machine-learning-use-cases-en.png') }}" alt="Machine learning will be used to discover new consumer trends, optimize clinical trials or schedule preventive maintenance" />
                             </figure>
                             <h2 class="heading-3 has-margin-b30">Look Out for IoT and Industry 4.0 Opportunities</h2>
                             <p>IoT is all around us. It's in our pockets, it's in our homes and it's also in our businesses. Machines which are augmented with web connectivity are helping us automate work and gather data. In manufacturing they call it Industry 4.0.</p>

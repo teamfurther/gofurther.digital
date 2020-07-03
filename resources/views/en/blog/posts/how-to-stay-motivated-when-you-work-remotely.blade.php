@@ -35,9 +35,9 @@
                             <p>Nowadays, IT is one of the few sectors that gives you full freedom to work outside of the office. Whether it's your own apartment or a café, you can easily do your daily business anywhere, all you need is a laptop and internet access.</p>
                             <p>Aside from the <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">considerable benefits</a>, unfortunately, a home office has its own set of challenges. Perhaps one of the biggest challenges of working from home is losing or missing motivation. This can have a serious impact on our efficiency, it can make us unhappy and also affect our colleagues.</p>
                             <p>Sometimes there are moments in life when even the best work can drive you crazy. Commitment typically diminishes after a while, and we need to do our part to regain our initial enthusiasm, because every job is just as good as we make it.</p>
-                            <p class="has-margin-t60 heading-3">But what can you, as an employee do to boost your motivation a bit?</p>
+                            <p>But what can you, as an employee do to boost your motivation a bit?</p>
                             <figure>
-                                <img src="{{ asset('media/blog/stay-motivated.jpg') }}" alt="We need to think about what we can do to achieve self-realization?" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-4-stay-motivated.jpg') }}" alt="We need to think about what we can do to achieve self-realization?" />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Self-knowledge in the workplace</h3>
                             <p>The first and perhaps most important step in finding motivation is self-knowledge. You need to know your abilities, your personality and be aware of your strengths as well as your shortcomings. This is essential if you are to be driven not only as an employee, but also to have a serious career aspiration.</p>
@@ -46,7 +46,7 @@
                             <p>Yes, it may be tempting to set big goals, but start with a small one at first! Break down your daily tasks into blocks, set smaller goals. Small tasks that are achievable in a short period of time can easily motivate people because they get a sense of accomplishment.</p>
                             <p>At Further, we are committed to agile software development, which works on the same principle. A larger project is divided into smaller parts (sprints). At the end of each sprint, there is a "retrospective" where we review the completed and unfinished parts.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/positive-work-environment.jpg') }}" alt="A well-designed home work environment has a positive effect on our work." />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-4-positive-work-environment.jpg') }}" alt="A well-designed home work environment has a positive effect on our work." />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Create an appropriate work environment</h3>
                             <p class="has-margin-b30">If you regularly work from home, it is vital that you create the right working environment. If you are unable to have a separate room for an office, you should choose a spot and use it exclusively for work! With a comfortable office chair, a well-organized desk and proper lighting, it is important to create a nice working place, as you spend most of our day working.</p>
@@ -56,12 +56,12 @@
                             <p class="has-margin-b30">It can be a great opportunity to break out of your home and meet new people. In these types of offices, there are lots of people of different occupations and personalities who sooner or later start talking to each other. The brainstorming session will start, which can lead to new joint projects. Community agencies offer a sense of belonging that is definitely worth trying at least once.</p>
                             <h3 class="heading-4 has-margin-b15">Create a routine</h3>
                             <p>In a home office, your morning routine can slowly disappear and you suddenly notice that you're working in pajamas and reading your emails with a toothbrush in your mouth. Proper rituals can be extremely motivating. Determine when you get up and when you want to finish your work day! As you adapt to your daily routine, it is much easier to stay motivated and achieve your goals.</p>
-                            <figure>
-                                <img src="{{ asset('media/blog/get-up-early.jpg') }}" alt="There are many benefits of getting up early" />
-                            </figure>
                             <h3 class="heading-4 has-margin-b15">Get up earlier</h3>
                             <p>Getting up early is difficult enough when you need to get to the office every day. You'd rather just hit the snooze button. However, if you work from home and are not on a fixed schedule, you often feel too lazy to get out of bed. If you want to stay motivated, set a specific time and try to keep up with it every day!</p>
                             <p class="has-margin-b30">It is important to mention that we are not all the same, many are active in the morning and others are night owls. Find out when you are most productive, when you can focus best.</p>
+                            <figure>
+                                <img src="{{ asset('media/blog/remote-corporate-culture-4-work-life-balance.jpg') }}" alt="Try to distance yourself from your work" />
+                            </figure>
                             <h3 class="heading-4 has-margin-b15">Draw the line between work and private life</h3>
                             <p>The 8-hour working day can be easily extended in the home office. Often team leaders are unaware of the amount of work behind your performance, so it will be less impressive to see what kind of work you do.</p>
                             <p>Sometimes you may feel that you are not working enough, and in this case you lengthen your day by a couple of hours to finish a particular project. You are a perfectionist and you are afraid of making someone disappointed, so you often work hours in a row and notice that the whole day has passed.</p>

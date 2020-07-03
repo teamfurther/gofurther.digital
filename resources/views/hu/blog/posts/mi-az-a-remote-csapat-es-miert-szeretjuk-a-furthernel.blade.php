@@ -38,8 +38,7 @@
                             <p>De miért is annyira jó remote csapatként dolgozni? A távmunka nemcsak annyit jelent, hogy a tengerpart mellől, exotikus cocktailokat szürcsölgetve is lehet dolgozni. Ennél sokkal több előnnyel jár, amit két kategóriába lehet osztani.</p>
                             <p class="has-margin-b60">Egyfelől olyan előnyökről beszélhetünk, melyek elsősorban a vállalkozás számára jók, másfelől pedig olyan előnyökről, melyek drasztikusan javítanak az alkalmazottak életén. Valójában a legtöbb ezek közül mindkét felet segítik hosszútávon, hiszen a munkaadó és az alkalmazottak boldogsága szorosan összefügg.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/what-is-a-remote-team-handshake.jpg') }}" alt="A távmunka az alkalmazottak és a munkaadó számára is előnyökkel, de kihívásokkal is jár" />
-                                <figcaption>A távmunka az alkalmazottak és a munkaadó számára is előnyökkel, de kihívásokkal is jár</figcaption>
+                                <img src="{{ asset('media/blog/remote-corporate-culture-1-benefits-for-employees.jpg') }}" alt="A remote csapat előnyei egy alkalmazott számára" />
                             </figure>
                             <h2 class="heading-2 has-margin-b60 has-margin-t60">Előnyök az alkalmazottak számára</h2>
                             <h3 class="heading-4 has-margin-b15">Work-life balance</h3>
@@ -52,7 +51,7 @@
                             <p>Egy irodában dolgozva, nehéz megszakítani a munkát annak érdekében hogy mozogjunk vagy vigyázni arra, hogy egészségesen étkezzünk.</p>
                             <p>Otthonról dolgozva több időnk marad testmozgásra és mindig közel vagyunk egy jól felszerelt konyhához, így nem vagyunk rászorulva a sarki gyrosra.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/what-is-a-remote-team-benefits-for-employees.jpg') }}" alt="A remote csapat előnyei egy alkalmazott számára" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-1-benefits-for-employer.jpg') }}" alt="Egy remote csapat alkalmazásának előnyei a munkaadó számára" />
                             </figure>
                             <h2 class="heading-2 has-margin-b60">Előnyök a munkaadó számára</h2>
                             <h3 class="heading-4 has-margin-b15">Kevesebb költség</h3>
@@ -68,7 +67,7 @@
                             <h3 class="heading-4 has-margin-b15">Bizalom és hűség</h3>
                             <p>Ha munkaadóként biztosítod csapatodnak azt a szabadságot és flexibilitást, hogy bármivel foglalkozhassanak, amit az élethelyzetük megkíván, de közben megbízol bennük és feljogosítod őket arra, hogy időben és jól végezzék a munkájukat, hosszú távon növeli a lelkesedésüket és lojalitásukat a cégünk iránt.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/what-is-a-remote-team-benefits-for-a-leader.jpg') }}" alt="Egy remote csapat alkalmazásának előnyei a munkaadó számára" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-1-challenges.jpg') }}" alt="A távmunkának, számos előnye mellett, megvannak a sajátos kihívásai." />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">A kihívások</h2>
                             <p class="has-margin-b60">Eddig minden jónak hangzik, ugye? Igen, azonban egy pozitív vállalati kultúra kiépítése sok energiát követel…</p>
@@ -84,9 +83,6 @@
                             <p class="has-margin-b30">Irodában könnyű megosztani egy heuréka pillanatot. De távmunkában könnyebb ezeket magunknak megtartani. Munkaadóként fontos, hogy <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">olyan vállalati kultúrát alakítsunk ki, ami támogatja a tudás megosztását</a>.</p>
                             <h3 class="heading-4 has-margin-b15">Személyes kapcsolatok hiánya</h3>
                             <p>A személyes találkozások teljesen másféle interakciót alakítanak ki egy csapaton belül, amit virtuálisan nem lehet helyettesíteni. Ragadjunk meg minden alkalmat, hogy találkozzon a csapat.</p>
-                            <figure>
-                                <img src="{{ asset('media/blog/what-is-a-remote-team-challenges.jpg') }}" alt="A távmunkának, számos előnye mellett, megvannak a sajátos kihívásai." />
-                            </figure>
                             <p class="has-margin-t60">Bár láthatod, hogy a remote munkának vannak specifikus kihívásai, de szerintünk legalább ennyi kihívás van egy klasszikus munkahelyen is, irodai környezetben. Mi úgy érezzük, hogy mindent összevetve, a távmunka megoldást jelenthet sok cég számára – olyanok számára is, akik eddig nem merték megtenni ezt a lépést.</p>
                             <p class="has-margin-b60">Pontosan ebből az okból született cikksorozatunk, amelyben azt mutatjuk be, hogy mik az előnyei és hátrányai a távmunkának, mire érdemes odafigyelned, ha távmunkában gondolkozol, illetve azt, hogy mi magunk hogyan csináljuk!</p>
                             <div class="has-text-centered">

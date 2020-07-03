@@ -4,7 +4,7 @@
     >
         <div class="container">
             Go to next project
-            <img src="{{ asset('img/projects/centralized-logo-knockout.svg') }}" alt="Centralized" />
+            <img src="{{ asset('media/projects/centralized-logo-knockout.svg') }}" alt="Centralized" />
         </div>
     </a>
 </section>

@@ -37,7 +37,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/crm-illustration-data-sources.png') }}" alt="Integrate different data sources into your CRM" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/crm-illustration-data-sources.png') }}" alt="Integrate different data sources into your CRM" />
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/crm-illustration-sales-pipeline.png') }}" alt="Create custom sales pipelines" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/crm-illustration-sales-pipeline.png') }}" alt="Create custom sales pipelines" />
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/crm-illustration-reports.png') }}" alt="Generate personalised reports" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/crm-illustration-reports.png') }}" alt="Generate personalised reports" />
                     </div>
                 </div>
             </div>

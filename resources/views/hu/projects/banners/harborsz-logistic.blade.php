@@ -4,7 +4,7 @@
     >
         <div class="container">
             Következő esettanulmány
-            <img src="{{ asset('img/projects/harborsz-logo-knockout.svg') }}" alt="Harborsz Logistic" />
+            <img src="{{ asset('media/projects/harborsz-logo-knockout.svg') }}" alt="Harborsz Logistic" />
         </div>
     </a>
 </section>

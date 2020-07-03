@@ -35,9 +35,9 @@
                             <p>Napjainkban az IT szektor néhány olyan területek egyike, amely teljes szabadságot nyújt az irodán kívüli munkához. Legyen szó a saját lakásodról, vagy épp egy kávézóról, bárhonnan könnyedén elvégezheted a napi teendőideet, csak egy laptopra és internet hozzáférésre van szükséged.</p>
                             <p>A <a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">számottevő előnye mellett</a>, sajnos a home office-nak is megvannak a maga kihívásai, könnyen szembe találhatjuk magunkat a kényelem okozta hátráltató tényezőkkel. Az otthoni munka talán egyik legnagyobb kihívása a motiváció elvesztése vagy hiánya. Ez súlyos hatással lehet a hatékonyságunkra, boldogtalanokká válunk és ez a kollégákra is demotiválóan hathat.</p>
                             <p>Néha vannak olyan pillanatok az életben, amikor még a legjobb meló is képes szinte őrületbe kergetni. Az elhivatottság egy idő után jellemzően alábbhagy, és tennünk kell azért, hogy visszanyerjük a kezdeti lelkesedésünket, hisz minden munka annyira jó, amennyire mi azzá tesszük.</p>
-                            <p class="has-margin-t60 heading-3">De mit is tehetsz alkalmazottként ahhoz, hogy egy kicsit felturbózd a motivációdat?</p>
+                            <p>De mit tehetsz alkalmazottként ahhoz, hogy egy kicsit felturbózd a motivációdat?</p>
                             <figure>
-                                <img src="{{ asset('media/blog/stay-motivated.jpg') }}" alt="El kell gondolkoznunk azon, hogy mi magunk mit tehetünk az önmegvalósításunk érdekében?" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-4-stay-motivated.jpg') }}" alt="El kell gondolkoznunk azon, hogy mi magunk mit tehetünk az önmegvalósításunk érdekében?" />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Önismeret a munkahelyen</h3>
                             <p>Az első és talán a legfontosabb lépés a motiváció megtalálásához az önismeret. Ismerned kell önmagadat, képességeidet, személyiségedet, tisztában kell legyél erősségeiddel éppúgy, mint hiányosságaiddal. Ez nélkülözhetetlen, ha nem csupán munkavállalóként szeretnél dolgozni, hanem komoly karriervágy hajt.</p>
@@ -46,7 +46,7 @@
                             <p>Igen, klassznak tűnhet nagy célokat kitűzni, de először kezdj kisebbekkel! Bontsd blokkokra a napi feladatokat, tűzz ki kisebb célokat! A rövid idő alatt megoldható kisebb feladatok motiválják az embert, hiszen hamarabb lesz sikerérzetünk.</p>
                             <p>A Furthernél az agilis szoftverfejlesztés hívei vagyunk, ami hasonlóképpen működik. Egy nagyobb projektet kisebb részekre (sprintekre) osztunk fel. Minden sprint végén sor kerül a „retrospektívre”, ahol áttekintjük az elkészült és az el nem készült részeket.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/positive-work-environment.jpg') }}" alt="A megfelelően kialakított otthoni munkakörnyezet pozitívan hat a munkavégzésünkre." />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-4-positive-work-environment.jpg') }}" alt="A megfelelően kialakított otthoni munkakörnyezet pozitívan hat a munkavégzésünkre." />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Alakíts ki egy megfelelő munkakörnyezetet</h3>
                             <p class="has-margin-b30">Amennyiben rendszeresen dolgozol otthonról, létfontosságú, hogy megteremtsd a megfelelő munkakörnyezetet magadnak. Ha nincs lehetőséged egy külön szobát fenntartani irodának, akkor keríts el egy sarkot és azt kizárólag munkára használd! Egy kényelmes irodai szék, egy rendezett asztal és a megfelelő világítás mellett fontos, hogy szívesen legyél itt, hiszen napod legnagyobb részét munkával töltöd.</p>
@@ -56,12 +56,12 @@
                             <p class="has-margin-b30">Egy remek lehetőség lehet arra, hogy kitörj az otthon falai közül és hogy új emberekkel találkozz. Az ilyen típusú irodákban rengetegféle foglalkozású és személyiségű ember megfordul, akik előbb-utóbb elkezdenek beszélgetni egymással. Elindul az ötletbörze, amiből akár új közös projektek is születhetnek. A közösségi irodák életérzést kínálnak, amit mindenképp érdemes legalább egyszer kipróbálni.</p>
                             <h3 class="heading-4 has-margin-b15">Alakíts ki egy rutint</h3>
                             <p>A home office során a reggeli megszokott rutin lassan kikophat a mindennapokból, egyszer csak azon veszed észre magad, hogy pizsamában dolgozol és fogkefével a szádban olvasod az e-maileket. A megfelelő rítusok rendkívül motiválóak tudnak lenni. Határozd meg hánykor kelsz és nagyjából mikor szeretnéd zárni a munkanapot! Amint alkalmazkodsz a napi rutinhoz, sokkal könnyebb lesz motiváltnak maradnod és a kitűzött célokat elérned.</p>
-                            <figure>
-                                <img src="{{ asset('media/blog/get-up-early.jpg') }}" alt="A korán kelésnek igen is meg vannak a saját előnyei" />
-                            </figure>
                             <h3 class="heading-4 has-margin-b15">Kelj fel korábban!</h3>
                             <p>A korán kelés akkor is nehéz, amikor minden nap időre kell beérjél az irodába, legszívesebben csak kinyomnád az ébresztőt. Ha azonban otthonról dolgozol és nem vagy meghatározott ütemtervhez kötve, sokszor túl lustának érzed magad ahhoz, hogy felkelj az ágyból. Ha motivált szeretnél maradni, tűzz ki egy konkrét órát és próbáld meg magad ahhoz tartani minden nap!</p>
                             <p class="has-margin-b30">Fontos megemlíteni, hogy nem vagyunk egyformák, sokan a reggeli órákban a legaktívabbak, mások pedig éjjeli baglyok. Találd meg a számodra, hogy mikor vagy a legproduktívabb, mikor tudsz a legjobban összpontosítani!</p>
+                            <figure>
+                                <img src="{{ asset('media/blog/remote-corporate-culture-4-work-life-balance.jpg') }}" alt="Próbálj meg elhatárolódni a munkádtól" />
+                            </figure>
                             <h3 class="heading-4 has-margin-b15">Húzd meg a határt munka és magánélet között</h3>
                             <p>A 8 órás munkaidő home officeban meghosszabbodhat. Sokszor nem tudatosul a vezetőségben, mennyi munka áll a teljesítményed mögött, ezért kevésbé lesz látványos milyen munkát végzel.</p>
                             <p>Néha úgy érezheted, hogy nem dolgoztál eleget ilyenkor még egy-két órával kitolod a munkanapot, hogy be tudj fejezni egy adott projektet. Maximalista vagy és félsz csalódást okozni, ezért sokszor belefeledkezel a munkádba, és azt veszed észre, hogy eltelt az egész nap.</p>

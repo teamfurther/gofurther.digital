@@ -31,7 +31,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/dms-illustration-cloud.png') }}" alt="Store files in the cloud or on-premise" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/dms-illustration-cloud.png') }}" alt="Store files in the cloud or on-premise" />
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/dms-illustration-sources.png') }}" alt="Upload documents from Office 365 or Google Docs" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/dms-illustration-sources.png') }}" alt="Upload documents from Office 365 or Google Docs" />
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/dms-illustration-document-generation.png') }}" alt="Single-click document generation" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/dms-illustration-document-generation.png') }}" alt="Single-click document generation" />
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/dms-illustration-discuss-collaborate.png') }}" alt="Discuss and collaborate on documents" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/dms-illustration-discuss-collaborate.png') }}" alt="Discuss and collaborate on documents" />
                 </div>
             </div>
         </div>

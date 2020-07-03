@@ -36,7 +36,7 @@
                             <p>To enable digital transformation your company requires a clear strategy to identify gaps in the processes and find solutions on how to make them more efficient. This process is called business process management, or BPM for short.</p>
                             <p>The aim of BPM is to identify and optimise the repetitive, predictable processes needed for a business to function. In many ways BPM relates to philosophies like Kaizen, methods like Lean and tools like Six Sigma.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/digital-transformation-bpm.png') }}" alt="Business process management or BPM for short" />
+                                <img src="{{ asset('media/blog/digital-transformation-bpm-en.png') }}" alt="Business process management or BPM for short" />
                             </figure>
                             <p class="has-margin-b60">BPM used to be a one-off event in many companies, but digital leaders have made it a constant process. If your company has the <a href="{{ localizedRoute('blog.show', ['slug' => 'digital-transformation-pt2-company-culture']) }}">culture</a> part nailed down, it's going to be really easy for your team to get fully invested in BPM.</p>
                             <h2 class="heading-3 has-margin-b30">Be Nimble, Be Agile</h2>

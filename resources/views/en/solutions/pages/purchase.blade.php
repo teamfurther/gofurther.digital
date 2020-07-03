@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/purchase-illustration-suppliers.png') }}" alt="Give suppliers access to respond to RfQs directly" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/purchase-illustration-suppliers.png') }}" alt="Give suppliers access to respond to RfQs directly" />
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/purchase-illustration-compare-prices.png') }}" alt="Manage supplier price lists and compare the best prices" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/purchase-illustration-compare-prices.png') }}" alt="Manage supplier price lists and compare the best prices" />
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/purchase-illustration-track-inventory.png') }}" alt="Always know where your inventory is" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/purchase-illustration-track-inventory.png') }}" alt="Always know where your inventory is" />
                     </div>
                 </div>
             </div>

@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/wiki-illustration-information.png') }}" alt="Ossz meg linkeket, dokumentumokat vagy képeket" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/wiki-illustration-information.png') }}" alt="Ossz meg linkeket, dokumentumokat vagy képeket" />
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/wiki-illustration-partners.png') }}" alt="Oszd meg az információt az ügyfelekkel vagy a partnerekkel" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/wiki-illustration-partners.png') }}" alt="Oszd meg az információt az ügyfelekkel vagy a partnerekkel" />
                 </div>
             </div>
         </div>

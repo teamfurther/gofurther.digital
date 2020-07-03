@@ -29,13 +29,13 @@
                             <p>Previously we wrote about how software can help organise and automate your business processes. We wrote about <a href="{{ localizedRoute('blog.show', ['slug' => 'going-paperless-how-to-digitise-your-business']) }}">document management systems</a>, <a href="{{ localizedRoute('blog.show', ['slug' => 'how-does-a-software-optimise-your-manufacturing-processes']) }}">manufacturing software</a>, <a href="{{ localizedRoute('blog.show', ['slug' => 'when-is-it-time-to-use-a-crm']) }}">and about CRM's</a>, which help you with sales and customer relationships.</p>
                             <p>But there are other systems which can be used in a business, like financial software, supply chain software and HR software. If you connect these into an integrated system, then we can already talk about ERP software.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/erp-modules-en.png') }}" alt="An ERP is an integrated system, in which multiple other software modules work together" />
+                                <img src="{{ asset('media/blog/5-things-erp-modules-en.png') }}" alt="An ERP is an integrated system, in which multiple other software modules work together" />
                             </figure>
                             <p>An ERP system holds a huge amount of data. In charge of processing this data is the Business Intelligence module, or BI for short.</p>
                             <p>As you can probably tell from its name, a BI software is to make sense of our data and present you with reports and forecasts, from you or your analysts can make informed business decisions.</p>
                             <p>Our favourite definition for business intelligence is from Bill Cabiro. He said that "business intelligence is getting the right info to the right people, at the right time, in the right way"</p>
                             <figure>
-                                <img src="{{ asset('media/blog/bill-cabiro-bi-quote-en.png') }}" alt="Business intelligence is getting the right info to the right people, at the right time, in the right way" />
+                                <img src="{{ asset('media/blog/5-things-bill-cabiro-bi-quote-en.png') }}" alt="Business intelligence is getting the right info to the right people, at the right time, in the right way" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">But is it different from Big Data?</h2>
                             <p>There's a lot of talk nowadays about Big Data. BI and Big Data are often used interchangeably. No surprise there, as they're very similar, but they do serve different purposes.</p>
@@ -43,7 +43,7 @@
                             <p>Think of a giant pantry, with billions of ingredients. Big Data makes sure the ingredients never get lost and always stay organised. BI on the other hand, helps you create an easy-to-cook recipe from these ingredients.</p>
                             <p>A BI software doesn't necessarily need terabytes of data. But couple with Big Data they can generate reports that are much more precise. Enough talk, let's see what are the most important numbers you should know, which we can find out using a BI software.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/bigdata-vs-bi.jpg') }}" alt="Big Data vs Business Intelligence" />
+                                <img src="{{ asset('media/blog/5-things-bigdata-vs-bi.jpg') }}" alt="Big Data vs Business Intelligence" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">1. Know your financials</h2>
                             <p>The most important numbers you should know are your finances. And I'm not talking about the ones which you get in your P&L statement, but the ones you can use to create your long-term strategy.</p>

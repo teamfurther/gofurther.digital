@@ -1,6 +1,6 @@
 @section('title', 'nJoy esettanulmány')
 @section('description', 'A DAI-TECH, az nJoy márka mögött álló gyorsan növekvő vállalat nagyon rövid idő alatt felülmúlta a meglévő szoftverinfrastruktúráját és egyedi beépített megoldásra volt szüksége. Minket bíztak meg, hogy olyan termékéletciklus-kezelő eszközt fejlesszünk, amely megfelel sajátos igényeiknek.')
-@section('preview_image', asset('img/projects/njoy-facebook-cover.jpg'))
+@section('preview_image', asset('media/projects/njoy-facebook-cover.jpg'))
 
 @section('content')
     <section class="hero is-{{ getLang() }}">
@@ -31,7 +31,7 @@
                     </div>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
-                    <img class="project__logo" src="{{ asset('img/projects/njoy-logo.svg') }}" alt="nJoy" />
+                    <img class="project__logo" src="{{ asset('media/projects/njoy-logo.svg') }}" alt="nJoy" />
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img src="{{ asset('img/projects/njoy-overview-1-hu.gif') }}" alt="nJoy - The Hive - A termékfejlesztés megbízhatatlan volt" />
+                        <img src="{{ asset('media/projects/njoy-overview-1-hu.gif') }}" alt="nJoy - The Hive - A termékfejlesztés megbízhatatlan volt" />
                     </div>
                 </div>
                 <div class="columns">
@@ -92,7 +92,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img src="{{ asset('img/projects/njoy-overview-2-hu.gif') }}" alt="nJoy - The Hive - A beszállítókkal való kommunikáció több csatornán keresztül történt" />
+                        <img src="{{ asset('media/projects/njoy-overview-2-hu.gif') }}" alt="nJoy - The Hive - A beszállítókkal való kommunikáció több csatornán keresztül történt" />
                     </div>
                 </div>
                 <div class="columns is-reversed">
@@ -111,7 +111,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img src="{{ asset('img/projects/njoy-overview-3-hu.gif') }}" alt="nJoy - The Hive - A feladatmegosztás struktúrálatlan volt" />
+                        <img src="{{ asset('media/projects/njoy-overview-3-hu.gif') }}" alt="nJoy - The Hive - A feladatmegosztás struktúrálatlan volt" />
                     </div>
                 </div>
             </div>
@@ -183,7 +183,7 @@
 
     <section class="section">
         <a class="project__gallery" data-toggle="modal" data-target="#gallery-modal">
-            <img src="{{ asset('img/projects/njoy-gallery.jpg') }}" alt="Galéria megnyitása" />
+            <img src="{{ asset('media/projects/njoy-gallery.jpg') }}" alt="Galéria megnyitása" />
 
             <span class="btn is-large">Galéria megnyitása</span>
         </a>
@@ -213,7 +213,7 @@
             <div class="project__gallery-modal">
                 <div class="columns is-multiline">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/njoy-gallery-1.jpg') }}" alt="nJoy - The Hive" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/njoy-gallery-1.jpg') }}" alt="nJoy - The Hive" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes">
@@ -234,7 +234,7 @@
                 </div>
                 <div class="columns is-multiline is-reversed">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/njoy-gallery-2.jpg') }}" alt="nJoy - The Hive" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/njoy-gallery-2.jpg') }}" alt="nJoy - The Hive" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes is-reversed">
@@ -252,7 +252,7 @@
                 </div>
                 <div class="columns is-multiline">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/njoy-gallery-3.jpg') }}" alt="nJoy - The Hive" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/njoy-gallery-3.jpg') }}" alt="nJoy - The Hive" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes">
@@ -270,7 +270,7 @@
                 </div>
                 <div class="columns is-multiline is-reversed">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/njoy-gallery-4.jpg') }}" alt="nJoy - The Hive" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/njoy-gallery-4.jpg') }}" alt="nJoy - The Hive" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes is-reversed">
@@ -291,7 +291,7 @@
                 </div>
                 <div class="columns is-multiline">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/njoy-gallery-5.jpg') }}" alt="nJoy - The Hive" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/njoy-gallery-5.jpg') }}" alt="nJoy - The Hive" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes">
@@ -309,7 +309,7 @@
                 </div>
                 <div class="columns is-multiline is-reversed">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/njoy-gallery-6.jpg') }}" alt="nJoy - The Hive" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/njoy-gallery-6.jpg') }}" alt="nJoy - The Hive" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes is-reversed">

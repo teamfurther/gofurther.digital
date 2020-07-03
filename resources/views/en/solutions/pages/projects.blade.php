@@ -33,7 +33,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/projects-illustration-boards.png') }}" alt="Schedule and plan activities at a glance" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/projects-illustration-boards.png') }}" alt="Schedule and plan activities at a glance" />
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/projects-illustration-discuss-share.png') }}" alt="Discuss tasks and share files" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/projects-illustration-discuss-share.png') }}" alt="Discuss tasks and share files" />
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/projects-illustration-forecast.png') }}" alt="Plan-ahead by budgeting your resources" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/projects-illustration-forecast.png') }}" alt="Plan-ahead by budgeting your resources" />
                     </div>
                 </div>
             </div>

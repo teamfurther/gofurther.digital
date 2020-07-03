@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/sales-illustration-quotation.png') }}" alt="Küldj igényes és testreszabott árajánlatokat" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/sales-illustration-quotation.png') }}" alt="Küldj igényes és testreszabott árajánlatokat" />
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     </ul>
                 </div>
                 <div class="column is-one-third-tablet">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/sales-illustration-document-generation.png') }}" alt="Automatizált rendelés- és szerződésgenerálás" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/sales-illustration-document-generation.png') }}" alt="Automatizált rendelés- és szerződésgenerálás" />
                 </div>
             </div>
         </div>

@@ -33,7 +33,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/ecommerce-illustration-product-pages.png') }}" alt="Hozz létre elegáns termékoldalakat" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/ecommerce-illustration-product-pages.png') }}" alt="Hozz létre elegáns termékoldalakat" />
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/ecommerce-illustration-dynamic-pricing.png') }}" alt="Használj dinamikus árképzést a bevétel növelése érdekében" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/ecommerce-illustration-dynamic-pricing.png') }}" alt="Használj dinamikus árképzést a bevétel növelése érdekében" />
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/ecommerce-illustration-boost-sales.png') }}" alt="Növeld eladásaidat kereszt- és felülértékesítéssel" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/ecommerce-illustration-boost-sales.png') }}" alt="Növeld eladásaidat kereszt- és felülértékesítéssel" />
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/ecommerce-illustration-payment-gateways.png') }}" alt="Integráld harmadik felek fizetési szolgáltatásait" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/ecommerce-illustration-payment-gateways.png') }}" alt="Integráld harmadik felek fizetési szolgáltatásait" />
                 </div>
             </div>
         </div>
@@ -127,7 +127,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/ecommerce-illustration-shipping.png') }}" alt="Küld el bárhova a termékeket" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/ecommerce-illustration-shipping.png') }}" alt="Küld el bárhova a termékeket" />
                     </div>
                 </div>
             </div>

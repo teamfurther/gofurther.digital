@@ -1,6 +1,6 @@
 @section('title', 'OVSZ esettanulmány')
 @section('description', 'A regiszter kiváltja a jelenlegi papír alapú rendszereket és valós idejű kommunikációt, illetve gyors adatátvitelt tesz lehetővé országszerte, az OVSZ és a plazmaferezis állomások között.')
-@section('preview_image', asset('img/projects/ovsz-facebook-cover.jpg'))
+@section('preview_image', asset('media/projects/ovsz-facebook-cover.jpg'))
 
 @section('content')
     <section class="hero is-{{ getLang() }}">
@@ -26,7 +26,7 @@
                     </p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
-                    <img src="{{ asset('img/projects/ovsz-illustration.png') }}" alt="OVSZ - Online keresztdonációs regiszter" />
+                    <img src="{{ asset('media/projects/ovsz-illustration.png') }}" alt="OVSZ - Online keresztdonációs regiszter" />
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img src="{{ asset('img/projects/ovsz-overview-1.png') }}" alt="OVSZ - Nem létezett egységes hozzáférési mód a donor információkhoz" />
+                        <img src="{{ asset('media/projects/ovsz-overview-1.png') }}" alt="OVSZ - Nem létezett egységes hozzáférési mód a donor információkhoz" />
                     </div>
                 </div>
                 <div class="columns">
@@ -87,7 +87,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img src="{{ asset('img/projects/ovsz-overview-2.png') }}" alt="OVSZ - A donoradatok feltöltése körülményes és megbízhatatlan volt" />
+                        <img src="{{ asset('media/projects/ovsz-overview-2.png') }}" alt="OVSZ - A donoradatok feltöltése körülményes és megbízhatatlan volt" />
                     </div>
                 </div>
             </div>

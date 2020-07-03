@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/hr-illustration-leave-management.png') }}" alt="Leave management" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/hr-illustration-leave-management.png') }}" alt="Leave management" />
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/hr-illustration-expense-management.png') }}" alt="Expense management" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/hr-illustration-expense-management.png') }}" alt="Expense management" />
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/hr-illustration-employee-evaluation.png') }}" alt="Employee evaluation" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/hr-illustration-employee-evaluation.png') }}" alt="Employee evaluation" />
                     </div>
                 </div>
             </div>

@@ -38,8 +38,7 @@
                             <p>But why is it that great to work as a remote team? Working remotely means more than just working seaside, while sipping margaritas by the pool. It brings a lot of other advantages as well, which can be mostly split into two categories.</p>
                             <p class="has-margin-b60">On the one hand, there are advantages for the business. On the other hand, we can talk about conveniences, which improve the employees' lives. If you think about it, they all help both parties, as the employers' and employees' happiness is closely related.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/what-is-a-remote-team-handshake.jpg') }}" alt="Working remotely has a lot of advantages for both employee and employer, but it also has a lot of challenges" />
-                                <figcaption>Working remotely has a lot of advantages for both employee and employer, but it also has a lot of challenges</figcaption>
+                                <img src="{{ asset('media/blog/remote-corporate-culture-1-benefits-for-employees.jpg') }}" alt="Benefits of working in a remote team for employees" />
                             </figure>
                             <h2 class="heading-2 has-margin-b60 has-margin-t60">Advantages for the employee</h2>
                             <h3 class="heading-4 has-margin-b15">Work-life balance</h3>
@@ -52,7 +51,7 @@
                             <p>Working from an office means it's less likely we would interrupt work to exercise or to eat healthy.</p>
                             <p>Working from home means more time to work out. Additionally, we're always close to a well-equipped kitchen, so we don't have to turn to the hot-dog stand on the corner.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/what-is-a-remote-team-benefits-for-employees.jpg') }}" alt="Benefits of working in a remote team for employees" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-1-benefits-for-employer.jpg') }}" alt="Benefits for the employer" />
                             </figure>
                             <h2 class="heading-2 has-margin-b60">Advantages for the employer</h2>
                             <h3 class="heading-4 has-margin-b15">Less overhead</h3>
@@ -68,7 +67,7 @@
                             <h3 class="heading-4 has-margin-b15">Trust and loyalty</h3>
                             <p>If as an employer, you give your team the freedom and flexibility to handle whatever life throws at them, while also trusting and empowering them to do their jobs well and in a timely manner, their affection and loyalty towards the company will increase over time.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/what-is-a-remote-team-benefits-for-a-leader.jpg') }}" alt="Benefits for the employer" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-1-challenges.jpg') }}" alt="Apart from its many benefits, remote work has its specific challenges." />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">The challenges</h2>
                             <p class="has-margin-b60">Based on the above you might be thinking of jumping right on board the remote train. Although it all sounds good, building a positive remote culture also has a lot of challenges.</p>
@@ -84,9 +83,6 @@
                             <p class="has-margin-b30">In an office it's easy to share that eureka moment. But when working remotely, it's easier to keep these moments to ourselves. As an employer it is important to <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">build a company culture that encourages knowledge sharing</a>.</p>
                             <h3 class="heading-4 has-margin-b15">Personal relationships</h3>
                             <p>Meeting in person gives a whole other dimension to interactions within a team, that cannot be replaced virtually. We make sure to grab any opportunity to meet.</p>
-                            <figure>
-                                <img src="{{ asset('media/blog/what-is-a-remote-team-challenges.jpg') }}" alt="Apart from its many benefits, remote work has its specific challenges." />
-                            </figure>
                             <p class="has-margin-t60">It's obvious that remote work has its challenges, but we believe that working from an office provides just as many. Taking everything into account, we believe that building remote teams could be the way forward for many businesses – even for those that were hesitant to take this step for now.</p>
                             <p>That is the reason why we started this series of articles. We wish to present you with the pros and cons of remote work, what to look out for when working remotely and of course, show you how we do it!</p>
                             <div class="has-text-centered">

@@ -35,12 +35,12 @@
                             <p>In our <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">previous article,</a> we have outlined the many benefits and pitfalls of remote work. Now, let's see what makes a remote team, a truly cohesive team.</p>
                             <p>A strong corporate culture is often ignored, whether it is a physical or virtual office. A company is made up of people who work for greater goals and good. The greater the consistency between colleagues, the easier it is to work together.</p>
                             <p>There is no business that can grow without strong employee commitment and <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">internal culture. </a> Employees need to feel comfortable and confident in building a positive corporate culture.</p>
-                            <p class="has-margin-t60 has-margin-b60 heading-3">Here are some tips for building successful remote company connections:</p>
+                            <p class="has-margin-b60">Here are some tips for building successful remote company connections:</p>
                             <h3 class="heading-4 has-margin-b15">Nothing replaces face-to-face communication</h3>
                             <p>One of the drawbacks of home office is the lack of personal meetings. face-to-face conversations are replaced by e-mails, phone calls, and chat conversations, where messages are more difficult to interpret due to the lack of nonverbal signals. The messages we send to others do not always reach the destination we want. The recipient often encodes the information in a different way, so misunderstandings are very common.</p>
                             <p>Personal meetings and quality time with the team are invaluable to us. The bonds that come from personal conversations are strong and we work hard to develop them throughout the year. In face-to-face conversations, we understand the other person's thinking better. This time spent together is going to prove extremely useful in cyberspace later on.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/stand-up-meeting.jpg') }}" alt="The morning meetings are built into the everyday life of our company" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-5-stand-up-meeting.jpg') }}" alt="The morning meetings are built into the everyday life of our company" />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Stand-up meetings</h3>
                             <p>Meetings are essential in the life of a remote team. Stand-up meetings are common practice in the IT sector, but can be used with similar efficiency in many other areas. It's called a stand-up meeting because everyone in the team is standing. Why should they stand? There is a psychological explanation, that simply by standing up, everyone is short on what they have to say.</p>
@@ -48,13 +48,13 @@
                             <p>At Further, we start the day with a 10-minute video call each day, telling each other how much progress we've made the day before, what tasks are planned for today, and whether we're stuck with something.</p>
                             <p>In addition, at the conclusion of each project, we hold a so-called retrospective meeting to evaluate the project. We sum up what we have done well and what could be improved so that we can be even more efficient next time.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/video-calls.jpg') }}" alt="A videohívások kitűnően szolgálják a kollégák között együttműködést." />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-5-video-calls.jpg') }}" alt="A videohívások kitűnően szolgálják a kollégák között együttműködést." />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Video calls</h3>
                             <p>Video calls can be a great way to bridge the gap created by distance. This form of communication makes the flow of information between colleagues much more personal. Seeing our colleagues frequently helps to build relationships and make conversations more personal.</p>
                             <p class="has-margin-b30">In addition, video calls help us focus on each other. When we know that others are seeing us, we think twice about scrolling the Facebook feed or not.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/1-on-1-conversations.jpg') }}" alt="We encourage 1:1 participants to regularly share their thoughts" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-5-1-on-1-conversations.jpg') }}" alt="We encourage 1:1 participants to regularly share their thoughts" />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">1-on-1 conversations</h3>
                             <p class="has-margin-b30">Make sure to have at least one video call or voice call per month where team members can talk 1-on-1 with your company manager or supervisor. This allows them to ask questions that they were not able to ask via email or group chat. This is also a great chance for team members to suggest improvements that they were afraid to express in front of others.</p>
@@ -68,7 +68,7 @@
                             <p>It often happens in a remote team that we work in multiple time zones, so it can sometimes be <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">a challenge</a> to keep everyone up to date with shared projects. However, with virtual to-do lists, our team will have a much more transparent list of all the tasks along with their status, making it easy to share work and keep everyone informed.</p>
                             <p>We use <a href="https://productive.io/" target="_blank">productive.io, </a>which allows you to send files, share notes and talk about them. Anyone can see what workflows are going on and who is working on that specific project.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/to-meet-in-person.jpg') }}" alt="Face-to-face meetings are important in the life of a remote team." />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-5-meet-in-person.jpg') }}" alt="Face-to-face meetings are important in the life of a remote team." />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Personal encounters</h3>
                             <p>Multiple face-to-face meetings are essential to building a healthy and strong team. Annual team buildings are a great opportunity to strengthen the already established collegiate relationships.</p>

@@ -34,7 +34,7 @@
                             </ul>
                             <p class="has-margin-b30">Company culture is much more than a couple of foosball tables in the office. Company culture is about how you work, how you communicate with your clients, but also about how you connect with the rest of the team.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/the-right-communication.jpg') }}" alt="Good communication is the key to success" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-3-communication.jpg') }}" alt="Good communication is the key to success" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Communication</h2>
                             <p>In a <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">remote team</a> it is imperative to constantly and openly communicate about the above issues. Without this, everything is going to fall apart.</p>
@@ -43,7 +43,7 @@
                             <p>Grab every opportunity of a face-to-face meeting to discuss these topics. If this cannot be achieved, set aside time when you can discuss them online. We like to use Friday afternoons for these non-project related discussions.</p>
                             <p class="has-margin-b30">Of course, meeting in person is much more efficient. Virtual meetings are missing non-verbal cues and are harder to decipher. Because of this, we made every call a video call, to help understand each other better.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/alari-aho-toggl-quote-en.png') }}" alt="„You need to actively work on defining the culture. It is a constant effort, and should not be left self-organizing. It's so important to keep people communicating, making sure they talk about their plans, achievements and also problems.” Alari Aho, Toggl" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-3-alari-aho-toggl-quote-en.png') }}" alt="„You need to actively work on defining the culture. It is a constant effort, and should not be left self-organizing. It's so important to keep people communicating, making sure they talk about their plans, achievements and also problems.” Alari Aho, Toggl" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Knowledge sharing</h2>
                             <h3 class="heading-4 has-margin-b15">Write down everything</h3>
@@ -60,7 +60,7 @@
                             <p>Stand-up meetings are very important. They're common in IT, but they can be applied to any industry. We already heard of examples of stand-up meetings being applied successfully in finance or manufacturing companies as well.</p>
                             <p class="has-margin-b30">These meetings take place every morning and they give us the opportunity to share what we're working on and ask for help if we're stuck on an issue.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/self-discipline-is-a-key-to-success.jpg') }}" alt="Discipline is essential to achieving your goals" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-3-self-discipline.jpg') }}" alt="Discipline is essential to achieving your goals" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Self-discipline</h2>
                             <p>Working remotely requires good self-discipline. As a team leader, one of your most important responsibilities is to make sure everyone has a sense of ownership and understands that their actions influence other people's work and the long-term strategies of the company as well.</p>
@@ -75,7 +75,7 @@
                             <p>Get out of your pijamas when working! Furthermore, develop a morning routine, just the same as if you were actually going to work.</p>
                             <p>If you're working from home, it's important to have a dedicated working area. This helps to mentally separate work from home issues and family. It might be tempting to work from the couch (something I am often at fault myself), but our brain tends to associate this with a state of relaxation making us inefficient.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/trust-is-important-in-a-workplace.jpg') }}" alt="Everyone likes to work in a workplace that is based on mutual trust" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-3-trust.jpg') }}" alt="Everyone likes to work in a workplace that is based on mutual trust" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Trust</h2>
                             <h3 class="heading-4 has-margin-b15">The art of letting go</h3>
@@ -91,7 +91,7 @@
                             <p>When they're asking you for feedback, be brutally honest, even though the truth can sometimes be painful. But make sure you can support your opinions with facts! Also prepare suggestions on how they can improve and encourage them to take the necessary steps.</p>
                             <p class="has-margin-b30">Don't forget to pinpoint the positives as well. If possible, use the criticism sandwich: 1 positive - 1 negative - 1 positive.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/teambuilding-create-bonds-amongst-team-members.jpg') }}" alt="Everyone likes to work in a workplace that is based on mutual trust" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-3-teambuilding.jpg') }}" alt="Everyone likes to work in a workplace that is based on mutual trust" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Team building activities</h2>
                             <p>No matter how mature culture is in a remote company, face-to-face meetings are always going to be necessary. Team building events offer a completely new layer of connections and interactions within the team, which you'll be able to translate to the virtual communication later on.</p>

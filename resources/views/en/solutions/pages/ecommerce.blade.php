@@ -33,7 +33,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/ecommerce-illustration-product-pages.png') }}" alt="Create beautiful product pages" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/ecommerce-illustration-product-pages.png') }}" alt="Create beautiful product pages" />
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/ecommerce-illustration-dynamic-pricing.png') }}" alt="Use dynamic pricing to increase revenue" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/ecommerce-illustration-dynamic-pricing.png') }}" alt="Use dynamic pricing to increase revenue" />
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/ecommerce-illustration-boost-sales.png') }}" alt="Boost your sales with cart recovery, cross sells and upsells" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/ecommerce-illustration-boost-sales.png') }}" alt="Boost your sales with cart recovery, cross sells and upsells" />
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/ecommerce-illustration-payment-gateways.png') }}" alt="Integrate with 3rd party payment gateways" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/ecommerce-illustration-payment-gateways.png') }}" alt="Integrate with 3rd party payment gateways" />
                 </div>
             </div>
         </div>
@@ -127,7 +127,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/ecommerce-illustration-shipping.png') }}" alt="Ship your products anywhere" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/ecommerce-illustration-shipping.png') }}" alt="Ship your products anywhere" />
                     </div>
                 </div>
             </div>

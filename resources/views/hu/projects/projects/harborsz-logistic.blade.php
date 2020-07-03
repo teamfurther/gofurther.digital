@@ -1,6 +1,6 @@
 @section('title', 'Harborsz Logistic esettanulmány')
 @section('description', 'Együttdolgozva a Harborsz csapatával, egy olyan rendszert fejlesztettünk, amely lefedi a tevékenységük összes területét.')
-@section('preview_image', asset('img/projects/harborsz-facebook-cover.jpg'))
+@section('preview_image', asset('media/projects/harborsz-facebook-cover.jpg'))
 
 @section('content')
     <section class="hero is-{{ getLang() }}">
@@ -23,7 +23,7 @@
                     </p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
-                    <img src="{{ asset('img/projects/harborsz-illustration.gif') }}" alt="Harborsz Logistic" />
+                    <img src="{{ asset('media/projects/harborsz-illustration.gif') }}" alt="Harborsz Logistic" />
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img src="{{ asset('img/projects/harborsz-overview-1.png') }}" alt="Harborsz - Az útdíjak és kompjegyek foglalása egy manuális folyamat volt" />
+                        <img src="{{ asset('media/projects/harborsz-overview-1.png') }}" alt="Harborsz - Az útdíjak és kompjegyek foglalása egy manuális folyamat volt" />
                     </div>
                 </div>
                 <div class="columns">
@@ -78,7 +78,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img src="{{ asset('img/projects/harborsz-overview-2.png') }}" alt="Harborsz - Az ügyfelek csak közvetlenül a Harborszon keresztül tudtak foglalni" />
+                        <img src="{{ asset('media/projects/harborsz-overview-2.png') }}" alt="Harborsz - Az ügyfelek csak közvetlenül a Harborszon keresztül tudtak foglalni" />
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@
 
     <section class="section">
         <a class="project__gallery" data-toggle="modal" data-target="#gallery-modal">
-            <img src="{{ asset('img/projects/harborsz-gallery.jpg') }}" alt="Galéria megnyitása" />
+            <img src="{{ asset('media/projects/harborsz-gallery.jpg') }}" alt="Galéria megnyitása" />
 
             <span class="btn is-large">Galéria megnyitása</span>
         </a>
@@ -166,7 +166,7 @@
             <div class="project__gallery-modal">
                 <div class="columns is-multiline">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/harborsz-gallery-1.jpg') }}" alt="Harborsz Logistic" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/harborsz-gallery-1.jpg') }}" alt="Harborsz Logistic" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes">
@@ -187,7 +187,7 @@
                 </div>
                 <div class="columns is-multiline is-reversed">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/harborsz-gallery-2.jpg') }}" alt="Harborsz Logistic" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/harborsz-gallery-2.jpg') }}" alt="Harborsz Logistic" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes is-reversed">

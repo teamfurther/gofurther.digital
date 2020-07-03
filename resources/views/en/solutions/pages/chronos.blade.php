@@ -35,7 +35,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/web-illustration-build-websites.png') }}" alt="Manage your content on a simple an intuitive interface" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/web-illustration-build-websites.png') }}" alt="Manage your content on a simple an intuitive interface" />
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/web-illustration-analytics.png') }}" alt="Track click-through and conversion rates" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/web-illustration-analytics.png') }}" alt="Track click-through and conversion rates" />
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet">
-                    <img class="is-centered-mobile is-pulled-right" src="{{ asset('img/solutions/web-illustration-multilingual.png') }}" alt="Add as many languages as you wish for your website" />
+                    <img class="is-centered-mobile is-pulled-right" src="{{ asset('media/solutions/web-illustration-multilingual.png') }}" alt="Add as many languages as you wish for your website" />
                 </div>
             </div>
         </div>
@@ -104,7 +104,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile" src="{{ asset('img/solutions/web-illustration-headless.png') }}" alt="Take advantage of the decoupled architecture" />
+                        <img class="is-centered-mobile" src="{{ asset('media/solutions/web-illustration-headless.png') }}" alt="Take advantage of the decoupled architecture" />
                     </div>
                 </div>
             </div>
