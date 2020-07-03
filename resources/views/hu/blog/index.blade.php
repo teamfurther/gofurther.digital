@@ -15,6 +15,26 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'milyen-hosszu-egy-fejlesztesi-projekt']) }}">
+                                <img src="{{ asset('media/blog/thumb-how-long-is-a-development-project.png') }}" alt="Milyen hosszú egy fejlesztési projekt?" />
+                            </a>
+                            <div class="post__content">
+                                <h3 class="post__title">
+                                    <a href="{{ localizedRoute('blog.show', ['slug' => 'milyen-hosszu-egy-fejlesztesi-projekt']) }}">
+                                        Milyen hosszú egy fejlesztési projekt?
+                                    </a>
+                                </h3>
+                                <p class="post__excerpt">
+                                    Ma egy gyakran feltett kérdést próbálunk körbejárni, mégpedig azt, hogy milyen hosszú ideig tart majd a fejlesztés? Megnézzük azt is, hogy buktatókra érdemes odafigyelni, hogy ne húzódjon el nagyon egy projekt.
+                                </p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'milyen-hosszu-egy-fejlesztesi-projekt']) }}">
+                                    Tovább &raquo;
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'szabaduszokat-sajat-it-csapatot-vagy-kulso-fejleszto-partnert-valasszunk']) }}">
                                 <img src="{{ asset('media/blog/thumb-freelancer-vs-development-company-vs-build-your-own-team.png') }}" alt="Szabadúszókat, saját IT csapatot vagy külsős fejlesztő partnert válasszunk?" />
                             </a>

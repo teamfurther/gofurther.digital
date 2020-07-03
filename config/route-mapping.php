@@ -44,6 +44,10 @@ return [
             'hu' => 'hogyan-segit-egy-szoftver-a-termelesi-folyamatok-optimalizalasaban',
         ],
         [
+            'en' => 'how-long-is-a-development-project',
+            'hu' => 'milyen-hosszu-egy-fejlesztesi-projekt',
+        ],
+        [
             'en' => 'how-to-choose-the-right-crm',
             'hu' => 'hogyan-valasszuk-ki-a-megfelelo-crm-rendszert',
         ],

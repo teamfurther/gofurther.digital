@@ -24,6 +24,9 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
+                            <div class="post__video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/UD3ppls2ttw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                             <p>Egy <a href="{{ localizedRoute('blog.show', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">régebbi cikkben</a> górcső alá vettük az egyik leggyakoribb kérdést, amit ügyfeleink fel szoktak tenni: dobozos terméket válasszanak vagy egyedi fejlesztést?</p>
                             <p>Ha meggyőződtél az egyedi fejlesztés előnyeiről és ezt az utat választanád, joggal teheted fel a kérdést, hogy hogyan kezdj neki?</p>
                             <p>Az első opciód, hogy különböző szabadúszókkal próbálod megvalósítani a szoftvert. A második lehetőség, hogy felépítesz egy belső fejlesztői csapatot, hogy ők kivitelezzék a projektet. Az utolsó variánsod pedig az, hogy megbízz egy külsős fejlesztő partnert.</p>

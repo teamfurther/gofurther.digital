@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm.png') }}" srcset="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-769w.png') }} 768w, {{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-1000w.png') }} 1000w" sizes="100vw" alt="Mikor használjunk CRM rendszert?" />
+        <img src="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm.png') }}" srcset="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-768w.png') }} 768w, {{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-1000w.png') }} 1000w" sizes="100vw" alt="Mikor használjunk CRM rendszert?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
