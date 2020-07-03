@@ -35,7 +35,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/accounting-illustration-invoice.png') }}" alt="Create and send professional invoices" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/accounting-illustration-invoice.png') }}" alt="Create and send professional invoices" />
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/accounting-illustration-bills-expenses.png') }}" alt="Manage bills and expenses" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/accounting-illustration-bills-expenses.png') }}" alt="Manage bills and expenses" />
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/accounting-illustration-cash-flow.png') }}" alt="Create elegant financial statements" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/accounting-illustration-cash-flow.png') }}" alt="Create elegant financial statements" />
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/accounting-illustration-integrations.png') }}" alt="Integrate with 3rd party software" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/accounting-illustration-integrations.png') }}" alt="Integrate with 3rd party software" />
                 </div>
             </div>
         </div>

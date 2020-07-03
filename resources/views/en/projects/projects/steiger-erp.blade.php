@@ -1,6 +1,6 @@
 @section('title', 'Steiger ERP case study')
 @section('description', 'We were contacted by the management representatives of Steiger, to develop a system that would automate their workflow and improve the reliability of their processes.')
-@section('preview_image', asset('img/projects/steiger-facebook-cover.jpg'))
+@section('preview_image', asset('media/projects/steiger-facebook-cover.jpg'))
 
 @section('content')
     <section class="hero is-{{ getLang() }}">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
-                    <img class="project__logo" src="{{ asset('img/projects/steiger-logo.svg') }}" alt="Steiger" />
+                    <img class="project__logo" src="{{ asset('media/projects/steiger-logo.svg') }}" alt="Steiger" />
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img src="{{ asset('img/projects/steiger-overview-1.gif') }}" alt="Steiger - Creating offers was time-consuming and error-prone" />
+                        <img src="{{ asset('media/projects/steiger-overview-1.gif') }}" alt="Steiger - Creating offers was time-consuming and error-prone" />
                     </div>
                 </div>
                 <div class="columns">
@@ -90,7 +90,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img src="{{ asset('img/projects/steiger-overview-2.gif') }}" alt="Steiger - Stock levels were unavailable" />
+                        <img src="{{ asset('media/projects/steiger-overview-2.gif') }}" alt="Steiger - Stock levels were unavailable" />
                     </div>
                 </div>
                 <div class="columns is-reversed">
@@ -106,7 +106,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img src="{{ asset('img/projects/steiger-overview-3.gif') }}" alt="Steiger - Manufacturing times were not measured" />
+                        <img src="{{ asset('media/projects/steiger-overview-3.gif') }}" alt="Steiger - Manufacturing times were not measured" />
                     </div>
                 </div>
             </div>
@@ -175,7 +175,7 @@
 
     <section class="section is-dark">
         <a class="project__gallery" data-toggle="modal" data-target="#gallery-modal">
-            <img src="{{ asset('img/projects/steiger-gallery.jpg') }}" alt="Open gallery" />
+            <img src="{{ asset('media/projects/steiger-gallery.jpg') }}" alt="Open gallery" />
 
             <span class="btn is-large">Expand gallery</span>
         </a>
@@ -205,7 +205,7 @@
             <div class="project__gallery-modal">
                 <div class="columns is-multiline">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/steiger-gallery-1.jpg') }}" alt="Steiger ERP" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/steiger-gallery-1.jpg') }}" alt="Steiger ERP" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes">
@@ -226,7 +226,7 @@
                 </div>
                 <div class="columns is-multiline is-reversed">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/steiger-gallery-2.jpg') }}" alt="Steiger ERP" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/steiger-gallery-2.jpg') }}" alt="Steiger ERP" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes is-reversed">
@@ -247,7 +247,7 @@
                 </div>
                 <div class="columns is-multiline">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/steiger-gallery-3.jpg') }}" alt="Steiger ERP" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/steiger-gallery-3.jpg') }}" alt="Steiger ERP" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes">
@@ -268,7 +268,7 @@
                 </div>
                 <div class="columns is-multiline is-reversed">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/steiger-gallery-4.jpg') }}" alt="Steiger ERP" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/steiger-gallery-4.jpg') }}" alt="Steiger ERP" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes is-reversed">

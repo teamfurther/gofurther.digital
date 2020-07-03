@@ -36,7 +36,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/communication-illustration-chat.png') }}" alt="Vegyél részt a párbeszédben" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/communication-illustration-chat.png') }}" alt="Vegyél részt a párbeszédben" />
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/communication-illustration-announcements.png') }}" alt="Használd ki az e-mail erejét" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/communication-illustration-announcements.png') }}" alt="Használd ki az e-mail erejét" />
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/communication-illustration-newsletter.png') }}" alt="Hozz létre vonzó e-mailes marketingkampányokat" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/communication-illustration-newsletter.png') }}" alt="Hozz létre vonzó e-mailes marketingkampányokat" />
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/communication-illustration-todos.png') }}" alt="Szervezd meg munkádat jegyzetekkel és feladatlistákkal" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/communication-illustration-todos.png') }}" alt="Szervezd meg munkádat jegyzetekkel és feladatlistákkal" />
                 </div>
             </div>
         </div>

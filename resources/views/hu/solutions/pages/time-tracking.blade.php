@@ -34,7 +34,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/time-tracking-illustration-track.png') }}" alt="Tervezd meg és kövesd nyomon idődet" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/time-tracking-illustration-track.png') }}" alt="Tervezd meg és kövesd nyomon idődet" />
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/time-tracking-illustration-timesheet.png') }}" alt="Elegáns és tájékoztató munkaidő-kimutatások" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/time-tracking-illustration-timesheet.png') }}" alt="Elegáns és tájékoztató munkaidő-kimutatások" />
                 </div>
             </div>
         </div>

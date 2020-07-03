@@ -36,7 +36,7 @@
                             <p>A digitális átalakulás lehetővé tétele érdekében a vállalatnak világos stratégiát kell követnie a folyamatok hiányosságainak azonosítására, és megoldásokat kell találnia ezek hatékonyabbá tétele érdekében. Ezt a lépést üzleti folyamatkezelésnek nevezik (angolul business process management, rövidítve BPM).</p>
                             <p>A BPM célja, hogy azonosítsa és optimalizálja az ismétlődő, kiszámítható folyamatokat, amelyek a vállalat működéséhez szükségesek. A BPM sok tekintetben kapcsolódik olyan filozófiákhoz, mint a Kaizen, olyan módszerekhez, mint a Lean vagy olyan eszközökhöz, mint a Six Sigma.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/digitalis-transzformacio-uzletifolyamat-kezeles.png') }}" alt="Üzletifolyamat-kezelés, angolul Business Process Management (BPM)" />
+                                <img src="{{ asset('media/blog/digital-transformation-bpm-hu.png') }}" alt="Üzletifolyamat-kezelés, angolul Business Process Management (BPM)" />
                             </figure>
                             <p class="has-margin-b60">A BPM egyszeri esemény volt sok cégnél, de a digitális piacvezetők állandó folyamattá tették. Ha a vállalat már rendelkezik a szükséges <a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-2-resz-vallalati-kultura']) }}">kulturális oldallal</a>, akkor nagyon könnyű lesz a csapatnak teljes mértékben alkalmazni a BPM-et.</p>
                             <h2 class="heading-3 has-margin-b30">Legyél gyors, legyél agilis</h2>

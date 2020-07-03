@@ -1,6 +1,6 @@
 @section('title', 'Centralized case study')
 @section('description', 'Centralized is the world\'s first web application for artist management, for self-managed artists and new-era managers.')
-@section('preview_image', asset('img/projects/centralized-facebook-cover.jpg'))
+@section('preview_image', asset('media/projects/centralized-facebook-cover.jpg'))
 
 @section('content')
     <section class="hero is-{{ getLang() }}">
@@ -23,7 +23,7 @@
                     </p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
-                    <img class="project__logo" src="{{ asset('img/projects/centralized-logo.svg') }}" alt="Centralized" />
+                    <img class="project__logo" src="{{ asset('media/projects/centralized-logo.svg') }}" alt="Centralized" />
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img src="{{ asset('img/projects/centralized-overview-1.png') }}" alt="Centralized - The platform had to be scalable" />
+                        <img src="{{ asset('media/projects/centralized-overview-1.png') }}" alt="Centralized - The platform had to be scalable" />
                     </div>
                 </div>
                 <div class="columns">
@@ -78,7 +78,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img class="is-pulled-right" src="{{ asset('img/projects/centralized-overview-2.png') }}" alt="Centralized - We needed to gather insights" />
+                        <img class="is-pulled-right" src="{{ asset('media/projects/centralized-overview-2.png') }}" alt="Centralized - We needed to gather insights" />
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@
 
     <section class="section">
         <a class="project__gallery" data-toggle="modal" data-target="#gallery-modal">
-            <img src="{{ asset('img/projects/centralized-gallery.jpg') }}" alt="Open gallery" />
+            <img src="{{ asset('media/projects/centralized-gallery.jpg') }}" alt="Open gallery" />
 
             <span class="btn is-large">Expand gallery</span>
         </a>
@@ -164,7 +164,7 @@
             <div class="project__gallery-modal">
                 <div class="columns is-multiline">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/centralized-gallery-1.jpg') }}" alt="Centralized" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/centralized-gallery-1.jpg') }}" alt="Centralized" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes">
@@ -179,7 +179,7 @@
                 </div>
                 <div class="columns is-multiline is-reversed">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/centralized-gallery-2.jpg') }}" alt="Centralized" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/centralized-gallery-2.jpg') }}" alt="Centralized" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes is-reversed">
@@ -194,7 +194,7 @@
                 </div>
                 <div class="columns is-multiline">
                     <div class="column is-12-tablet is-8-desktop">
-                        <img class="project__gallery-modal__image" src="{{ asset('img/projects/centralized-gallery-3.jpg') }}" alt="Centralized" />
+                        <img class="project__gallery-modal__image" src="{{ asset('media/projects/centralized-gallery-3.jpg') }}" alt="Centralized" />
                     </div>
                     <div class="column is-12-tablet is-4-desktop">
                         <div class="project__gallery-modal__notes">

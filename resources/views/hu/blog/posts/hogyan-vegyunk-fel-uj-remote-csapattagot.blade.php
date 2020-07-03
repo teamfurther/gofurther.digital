@@ -37,7 +37,7 @@
                             <p>A személyes kapcsolat hiánya miatt kiemelten jó kommunikációs készségekre is szüksége van azoknak a csapattagoknak, akik remote dolgoznak. Bár manapság rengeteg jó kommunikációs segédeszköz és szoftver létezik, a non-verbális kommunikációba kódolt információ gyakran elveszik a virtuális térben.</p>
                             <p>Számunkra ez a két szempont a legfontosabb. Viszont ilyen tulajdonságokkal megáldott munkavállalók, akik emellett még jó szakemberek is, nem jönnek velünk szembe túl gyakran. Éppen ezért szerencse, hogy távmunkában keressük a csapattagokat, így (legtöbbször) nincsenek földrajzi megkötéseink és sokkal nagyobb halmazból válogathatunk.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/job-advertisement.jpg') }}" alt="Az álláshirdetés" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-2-job-advertisement.jpg') }}" alt="Az álláshirdetés" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Az álláshirdetés</h2>
                             <p class="has-margin-b60">Ami az álláshirdetést illeti, nem sokban különbözik egy klasszikus álláshirdetéstől. 2-3 szempont van, amire érdemes odafigyelned, mert ezek nem szoktak egyértelműek lenni legtöbb távmunkás álláshirdetésnél.</p>
@@ -57,13 +57,13 @@
                             <p>Amikor megfogalmazzátok az álláshirdetést, fontos, hogy a fentieket mind megemlítsétek. De a hirdetés nagyrészét szenteljétek inkább a vállalati kultúrának. Ne arról írjatok, milyen tudással kell rendelkeznie a jelentkezőnek vagy mik az elvárások. Ezeket írjátok meg egy külön oldalon vagy rakjátok csatolmányba.</p>
                             <p>Inkább mutassátok meg azt, hogy milyenek vagytok ti. Milyen értékeket képviseltek? Egy remote állás esetén ezek segítenek eloszlatni a távmunka iránti félelmet a jelentkezőkben.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/job-interview.jpg') }}" alt="Az interjú" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-2-job-interview.jpg') }}" alt="Az interjú" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30 has-margin-t60">Az interjú</h2>
                             <p>Egy interjú során mindig arra koncentrálunk, hogy kiderítsük, hogyan illeszkedni a jelölt a csapatunkba. Ugyanaz motiválja? Ugyanazokat az értékeket képviseli? Tudnánk-e vele kommunikálni és nap-mint-nap együtt dolgozni? Ezek a kérdések sokkal inkább foglalkoztatnak minket, mint hogy milyen képesítései és diplomái vannak.</p>
                             <p>Mint már említettem, számunkra bizonyos soft skillek, mint a kommunikáció készségek vagy az önfegyelem, igazán fontosak. A technikai tudás csak másodlagos, hiszen ezeket meg lehet tanítani.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/ambition-and-teamwork-quote-hu.jpg') }}" alt="Az ambíció és csapatba illeszkedés fontosabbak, mint a képesítések és diplomák." />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-2-ambition-and-teamwork-quote-hu.jpg') }}" alt="Az ambíció és csapatba illeszkedés fontosabbak, mint a képesítések és diplomák." />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Hogyan teszteld az önfegyelmet?</h3>
                             <p>Bár ezeket nehéz tesztelni, egy pár jól célzott kérdéssel fényt deríthetsz olyan tulajdonságokra, melyek árulkodóak lehetnek:</p>
@@ -85,7 +85,7 @@
                             <p>Figyelj oda, mennyire nyitott, mennyire kommunikatív a jelölt. Az interjú egyirányú kérdezés részetekről, vagy inkább egy kétirányú társalgás (persze ebben neked is szereped van!)?</p>
                             <p>Mennyire figyelmes a jelölt? Érdemes időnként visszakérdezni. Mindig adj lehetőséget neki, hogy ő is kérdezzen. Az ő kérdéseiből mindig többet meg lehet tudni a jelentkezőről.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/the-right-candidate-quote-hu.jpg') }}" alt="Ha egy jelölt nem ó igen, akkor inkább ó nem! " />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-2-the-right-candidate-quote-hu.jpg') }}" alt="Ha egy jelölt nem ó igen, akkor inkább ó nem! " />
                             </figure>
                             <p>Mielőtt felvennétek egy új csapattagot, érdemes egy külön beszélgetés tartani az egész csapattal. Figyeld meg, hogyan kommunikál a többiekkel, érzel-e valamiféle súrlódást az emberek között.</p>
                             <p class="has-margin-b30">Mindenesetre bízz a megérzéseidben. Nem kell felvenned fel az első embert, aki valamennyire megfelelő. Mi azt valljuk, hogy ha egy jelölt nem „ó igen”, akkor inkább „ó nem!”</p>
@@ -100,7 +100,7 @@
                             <p>Nálunk például preferáltak a klasszikus hivatali órák, de nem kötelező ezek betartása ameddig ez nem befolyásolja a projekt határidőket. Kötelező viszont a reggeli stand-up meetingen való részvétel.</p>
                             <p>Ami a szabadnapokat illeti, nincs megkötés, hogy hány szabadnapot vehet ki valaki és mikor. Hosszabb vakációk esetében viszont elvárás, hogy a kolléga legalább 1 hónappal előtte jelezze. Ezeket a részleteket mi legtöbbször már az első interjúkor tisztázni szoktuk.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/onboarding-a-new-team-member.jpg') }}" alt="Fontos az új kollégák felzárkóztatása" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-2-onboarding-a-new-team-member.jpg') }}" alt="Fontos az új kollégák felzárkóztatása" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Onboarding</h2>
                             <p>Szuper, megvoltak az interjúk és felvettünk egy új kollégát. De a folyamat még nem ér itt véget. Egy remote csapat esetén az onboarding folyamatnak sokkal fontosabb szerepe van, mint irodai környezetben.</p>

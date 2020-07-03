@@ -35,7 +35,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/accounting-illustration-invoice.png') }}" alt="Hozz létre és küldjél igényes számlákat" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/accounting-illustration-invoice.png') }}" alt="Hozz létre és küldjél igényes számlákat" />
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/accounting-illustration-bills-expenses.png') }}" alt="Kezeld a számlákat és a költségeket" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/accounting-illustration-bills-expenses.png') }}" alt="Kezeld a számlákat és a költségeket" />
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/accounting-illustration-cash-flow.png') }}" alt="Hozz létre elegáns pénzügyi nyilatkozatokat" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/accounting-illustration-cash-flow.png') }}" alt="Hozz létre elegáns pénzügyi nyilatkozatokat" />
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/accounting-illustration-integrations.png') }}" alt="Integráld harmadik felek szoftvereivel" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/accounting-illustration-integrations.png') }}" alt="Integráld harmadik felek szoftvereivel" />
                 </div>
             </div>
         </div>

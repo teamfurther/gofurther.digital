@@ -33,7 +33,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/projects-illustration-boards.png') }}" alt="Ütemezd és tervezd tevékenységeit egy pillanat alatt" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/projects-illustration-boards.png') }}" alt="Ütemezd és tervezd tevékenységeit egy pillanat alatt" />
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/projects-illustration-discuss-share.png') }}" alt="Beszéld meg a feladatokat és ossz meg fájlokat" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/projects-illustration-discuss-share.png') }}" alt="Beszéld meg a feladatokat és ossz meg fájlokat" />
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/projects-illustration-forecast.png') }}" alt="Tervezz előre az erőforrások beosztásával" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/projects-illustration-forecast.png') }}" alt="Tervezz előre az erőforrások beosztásával" />
                     </div>
                 </div>
             </div>

@@ -138,7 +138,7 @@
 
     <section class="section has-padding-b0">
         <div class="banner--laravel-meetup">
-            <img src="{{ asset('img/laravel-meetup.png') }}" alt="Laravel Hungary Meetup" />
+            <img src="{{ asset('img/laravel-meetup.png?v2') }}" alt="Laravel Hungary Meetup" />
             <div class="heading-3">A Further a Laravel Hungary meetup szervezője!</div>
         </div>
     </section>

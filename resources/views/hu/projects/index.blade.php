@@ -26,7 +26,7 @@
                             <span class="btn is-white">Olvasd el az esettanulmányt</span>
                         </div>
 
-                        <img class="project-list__featured__image" src="{{ asset('img/projects/njoy-project-list.png') }}" alt="nJoy - The Hive ERP - Termékfejlesztés felturbózva" />
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/njoy-project-list.png') }}" alt="nJoy - The Hive ERP - Termékfejlesztés felturbózva" />
                     </a>
                     <a class="project-list__featured project-list__featured--steiger-erp is-reversed"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'steiger-erp']) }}"
@@ -39,7 +39,7 @@
                             <span class="btn is-pearl">Olvasd el az esettanulmányt</span>
                         </div>
 
-                        <img class="project-list__featured__image" src="{{ asset('img/projects/steiger-project-list.png') }}" alt="Steiger ERP - Ajánlatkészítéstől gyártásig" />
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/steiger-project-list.png') }}" alt="Steiger ERP - Ajánlatkészítéstől gyártásig" />
                     </a>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'ovsz']) }}"
                     >
-                        <img class="project-list__item__image" src="{{ asset('img/projects/ovsz-project-list.jpg') }}" alt="OVSZ - Online keresztdonációs regiszter" />
+                        <img class="project-list__item__image" src="{{ asset('media/projects/ovsz-project-list.jpg') }}" alt="OVSZ - Online keresztdonációs regiszter" />
 
                         <h1 class="project-list__item__title">OVSZ - Online keresztdonációs regiszter</h1>
                         <div class="project-list__item__description">
@@ -60,7 +60,7 @@
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
                     >
-                        <img class="project-list__item__image" src="{{ asset('img/projects/centralized-project-list.jpg') }}" alt="Centralized.me - Artist Management From A to Z" />
+                        <img class="project-list__item__image" src="{{ asset('media/projects/centralized-project-list.jpg') }}" alt="Centralized.me - Artist Management From A to Z" />
 
                         <h1 class="project-list__item__title">Centralized.me Artist Management Platform</h1>
                         <div class="project-list__item__description">
@@ -73,7 +73,7 @@
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'harborsz-logistic']) }}"
                     >
-                        <img class="project-list__item__image" src="{{ asset('img/projects/harborsz-project-list.jpg') }}" alt="Harborsz Logistic - Integrált ügyvitel" />
+                        <img class="project-list__item__image" src="{{ asset('media/projects/harborsz-project-list.jpg') }}" alt="Harborsz Logistic - Integrált ügyvitel" />
 
                         <h1 class="project-list__item__title">Harborsz Logistic</h1>
                         <div class="project-list__item__description">

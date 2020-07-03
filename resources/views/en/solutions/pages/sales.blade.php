@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/sales-illustration-quotation.png') }}" alt="Send beautiful and clear branded quotations" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/sales-illustration-quotation.png') }}" alt="Send beautiful and clear branded quotations" />
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     </ul>
                 </div>
                 <div class="column is-one-third-tablet">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/sales-illustration-document-generation.png') }}" alt="Generate orders and contracts with a single click" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/sales-illustration-document-generation.png') }}" alt="Generate orders and contracts with a single click" />
                 </div>
             </div>
         </div>

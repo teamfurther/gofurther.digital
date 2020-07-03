@@ -33,7 +33,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/mobile-illustration-native.png') }}" alt="Native development" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/mobile-illustration-native.png') }}" alt="Native development" />
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/mobile-illustration-hybrid.png') }}" alt="Hybrid development" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/mobile-illustration-hybrid.png') }}" alt="Hybrid development" />
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/mobile-illustration-ux.png') }}" alt="Mobile UX" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/mobile-illustration-ux.png') }}" alt="Mobile UX" />
                     </div>
                 </div>
             </div>

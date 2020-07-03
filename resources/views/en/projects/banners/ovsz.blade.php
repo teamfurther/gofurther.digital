@@ -4,7 +4,7 @@
     >
         <div class="container">
             Go to next project
-            <img src="{{ asset('img/projects/ovsz-logo-knockout.svg') }}" alt="OVSZ - OCDR" />
+            <img src="{{ asset('media/projects/ovsz-logo-knockout.svg') }}" alt="OVSZ - OCDR" />
         </div>
     </a>
 </section>

@@ -33,7 +33,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/mobile-illustration-native.png') }}" alt="Natív fejlesztés" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/mobile-illustration-native.png') }}" alt="Natív fejlesztés" />
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/mobile-illustration-hybrid.png') }}" alt="Hibrid fejlesztés" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/mobile-illustration-hybrid.png') }}" alt="Hibrid fejlesztés" />
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/mobile-illustration-ux.png') }}" alt="Mobil felhasználói élmény" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/mobile-illustration-ux.png') }}" alt="Mobil felhasználói élmény" />
                     </div>
                 </div>
             </div>

@@ -83,6 +83,8 @@ return [
             'exclude' => [
                 'app/Exceptions/Handler.php',
                 'app/Http/Middleware',
+                'app/Rules',
+                'app/Filters',
             ],
         ],
         PropertyTypeHintSniff::class => [
@@ -98,6 +100,10 @@ return [
         UnusedParameterSniff::class => [
             'exclude' => [
                 'app/Console/Kernel.php',
+                'app/Filters',
+                'app/Sorts',
+                'app/Notifications',
+                'app/Rules',
             ],
         ],
         UselessOverridingMethodSniff::class => [

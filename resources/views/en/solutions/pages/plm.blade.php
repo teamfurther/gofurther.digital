@@ -34,7 +34,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/plm-illustration-centralised.png') }}" alt="Manage all product information in one place" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/plm-illustration-centralised.png') }}" alt="Manage all product information in one place" />
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/plm-illustration-partners.png') }}" alt="All your partners in one place" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/plm-illustration-partners.png') }}" alt="All your partners in one place" />
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/plm-illustration-barcodes.png') }}" alt="Use barcodes to speed up operations" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/plm-illustration-barcodes.png') }}" alt="Use barcodes to speed up operations" />
                     </div>
                 </div>
             </div>

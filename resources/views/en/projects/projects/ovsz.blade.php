@@ -1,6 +1,6 @@
 @section('title', 'OVSZ case study')
 @section('description', 'The online registry replaces the current paper-based systems and provides real-time communication and data synchronization between the OVSZ (National Blood Transfusion Service) and donation centers across Hungary.')
-@section('preview_image', asset('img/projects/ovsz-facebook-cover.jpg'))
+@section('preview_image', asset('media/projects/ovsz-facebook-cover.jpg'))
 
 @section('content')
     <section class="hero is-{{ getLang() }}">
@@ -26,7 +26,7 @@
                     </p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
-                    <img src="{{ asset('img/projects/ovsz-illustration.png') }}" alt="OVSZ - Online Cross-Donation Register" />
+                    <img src="{{ asset('media/projects/ovsz-illustration.png') }}" alt="OVSZ - Online Cross-Donation Register" />
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img src="{{ asset('img/projects/ovsz-overview-1.png') }}" alt="OVSZ - There was no standard way to access donor information" />
+                        <img src="{{ asset('media/projects/ovsz-overview-1.png') }}" alt="OVSZ - There was no standard way to access donor information" />
                     </div>
                 </div>
                 <div class="columns">
@@ -87,7 +87,7 @@
                         </p>
                     </div>
                     <div class="column">
-                        <img src="{{ asset('img/projects/ovsz-overview-2.png') }}" alt="OVSZ - Uploading donor information was tedious and unreliable" />
+                        <img src="{{ asset('media/projects/ovsz-overview-2.png') }}" alt="OVSZ - Uploading donor information was tedious and unreliable" />
                     </div>
                 </div>
             </div>

@@ -15,6 +15,26 @@
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
                         <div class="post">
+                            <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'szabaduszokat-sajat-it-csapatot-vagy-kulso-fejleszto-partnert-valasszunk']) }}">
+                                <img src="{{ asset('media/blog/thumb-freelancer-vs-development-company-vs-build-your-own-team.png') }}" alt="Szabadúszókat, saját IT csapatot vagy külsős fejlesztő partnert válasszunk?" />
+                            </a>
+                            <div class="post__content">
+                                <h3 class="post__title">
+                                    <a href="{{ localizedRoute('blog.show', ['slug' => 'szabaduszokat-sajat-it-csapatot-vagy-kulso-fejleszto-partnert-valasszunk']) }}">
+                                        Szabadúszókat, saját IT csapatot vagy külsős fejlesztő partnert válasszunk?
+                                    </a>
+                                </h3>
+                                <p class="post__excerpt">
+                                    Egy egyedi szoftvert sokféleképpen le lehet fejleszteni. De melyik opció a legmegfelelőbb számodra?
+                                </p>
+                                <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'szabaduszokat-sajat-it-csapatot-vagy-kulso-fejleszto-partnert-valasszunk']) }}">
+                                    Tovább &raquo;
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-full-tablet is-half-widescreen">
+                        <div class="post">
                             <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">
                                 <img src="{{ asset('media/blog/thumb-remote-corporate-culture-5-hu.png') }}" alt="Működhet-e sikeres távkapcsolat céges környezetben?" />
                             </a>

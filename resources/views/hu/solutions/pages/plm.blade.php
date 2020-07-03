@@ -34,7 +34,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/plm-illustration-centralised.png') }}" alt="Minden termékinformáció egy helyen" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/plm-illustration-centralised.png') }}" alt="Minden termékinformáció egy helyen" />
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/plm-illustration-partners.png') }}" alt="Minden partner egy helyen" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/plm-illustration-partners.png') }}" alt="Minden partner egy helyen" />
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/plm-illustration-barcodes.png') }}" alt="Gyorsítsd fel a műveleteket vonalkódokkal" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/plm-illustration-barcodes.png') }}" alt="Gyorsítsd fel a műveleteket vonalkódokkal" />
                     </div>
                 </div>
             </div>

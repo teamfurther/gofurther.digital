@@ -32,13 +32,13 @@
                             <p>Korábban írtunk már arról, hogyan segítenek különböző szoftverek a céges folyamatok rendszerezésében és automatizálásában. Szó esett már <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-alakitsuk-at-cegunket-papirmentesse']) }}">a dokumentumkezelő rendszerről</a>, <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-segit-egy-szoftver-a-termelesi-folyamatok-optimalizalasaban']) }}">a termelésirányító szoftverekről</a>, valamint <a href="{{ localizedRoute('blog.show', ['slug' => 'mikor-hasznaljunk-crm-rendszert']) }}">a CRM-ről</a>, amely segít az ügyfélkapcsolat-kezelésben.</p>
                             <p>Ezek mellett több különböző szoftver működhet még egy vállalkozáson belül, mint például a pénzügyi szoftverek, beszerzési szoftverek, készletkezelők vagy HR szoftverek. Ha ezek nem elszigetelve működnek, hanem együttesen alkotnak egy integrált rendszert, akkor már egy vállalatirányítási rendszerről vagy ERP-ről beszélhetünk.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/erp-modules-hu.png') }}" alt="Az ERP egy integrrált rendszer amiben több különböző más szoftvermodul működik együtt" />
+                                <img src="{{ asset('media/blog/5-things-erp-modules-hu.png') }}" alt="Az ERP egy integrrált rendszer amiben több különböző más szoftvermodul működik együtt" />
                             </figure>
                             <p>Egy ERP rendszerben rengeteg adat van jelen, ezek feldolgozására az üzleti intelligencia modul szolgál. Angolul business intelligence software-nek, vagy BI-nak szoktuk nevezni.</p>
                             <p>Mint az talán a nevéből is kiderül, egy üzleti intelligencia szoftver feladata az, hogy az adatainkból olyan beszámolókat és előrejelzéseket gyártson, melyekből cégvezetőként vagy adatelemzőként könnyen tudunk döntéseket hozni.</p>
                             <p>Kedvenc meghatározásunk az üzleti intelligenciára egy Bill Cabiró nevű úriembertől származik. Ő egyszerűen azt mondja: "az üzleti intelligencia azt jelenti, hogy a megfelelő információt eljuttassuk a megfelelő emberekhez, a megfelelő időben."</p>
                             <figure>
-                                <img src="{{ asset('media/blog/bill-cabiro-bi-quote-hu.png') }}" alt="Az üzleti intelligencia azt jelenti, hogy a megfelelő információt eljuttassuk a megfelelő emberekhez, a megfelelő időben." />
+                                <img src="{{ asset('media/blog/5-things-bill-cabiro-bi-quote-hu.png') }}" alt="Az üzleti intelligencia azt jelenti, hogy a megfelelő információt eljuttassuk a megfelelő emberekhez, a megfelelő időben." />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">És miben más a BI mint a Big Data?</h2>
                             <p>Manapság sokat hallunk a Big Datáról. A Big Data kifejezést gyakran felváltva használjuk az üzleti intelligenciával. Nem csoda, hiszen Big Data és a BI között sok a hasonlóság, de alapvetően más-más a céljuk.</p>
@@ -46,7 +46,7 @@
                             <p>Vegyünk példának egy éléskamrát, amelyben milliárdnyi hozzávaló van. A Big Data feladata az, hogy a hozzávalók ne vesszenek el és mindig rendszerezve maradjanak. A BI feladata az, hogy ezekből az alapanyagokból egy könnyen elkészíthető receptet készítsen nekünk.</p>
                             <p>A BI-nak alapjában véve nincs szüksége több ezer terabyte-nyi adatra. Viszont a Big Datával együttesen használva a BI eszközök sokkal több adatot tudnak felhasználni, így pontosabb elemzéseket kapunk. De lássuk is akkor, mi is az a legfontosabb 5 adat, melyet megtudhatunk egy BI szoftver segítségével.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/bigdata-vs-bi.jpg') }}" alt="Big Data vs Business Intelligence" />
+                                <img src="{{ asset('media/blog/5-things-bigdata-vs-bi.jpg') }}" alt="Big Data vs Business Intelligence" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">1. Ismerd a pénzügyi adataid</h2>
                             <p>Az első és legfontosabb, amit cégvezetőként ismerned kell, azok a pénzügyi adatok. És most nem azokról az adatokról beszélünk, melyek az éves mérleghez szükségesek, hanem azokról amik alapján hosszú távon lehet tervezni.</p>
@@ -158,7 +158,7 @@
     },
     "datePublished": "2019-11-02T12:00:00",
     "dateModified": "2019-11-02T12:00:00",
-    "description": "Mai cikkünkben megmutatjuk, hogy miként tudja egy szoftver optimalizálni a termékfejlesztést, a beszerzést és a gyártási folyamatokat.",
+    "description": "Ebben a cikkben megmutatjuk, melyek azok az adatok, amelyeket minden vezetőnek ismernie kell hogy stratégiát tudjon alkotni, és hogyan segít egy szoftver ezek megismerésében.",
     "headline": "5 adat, amit ismerned kell cégvezetőként",
     "image": {
         "@type": "ImageObject",

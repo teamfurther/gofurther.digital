@@ -28,6 +28,10 @@ return [
             'hu' => 'digitalis-transzformacio-4-resz-technologia',
         ],
         [
+            'en' => 'freelancer-vs-development-company-vs-build-your-own-team',
+            'hu' => 'szabaduszokat-sajat-it-csapatot-vagy-kulso-fejleszto-partnert-valasszunk',
+        ],
+        [
             'en' => 'going-paperless-how-to-digitise-your-business',
             'hu' => 'hogyan-alakitsuk-at-cegunket-papirmentesse',
         ],

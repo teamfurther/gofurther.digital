@@ -34,7 +34,7 @@
                             </ul>
                             <p>A céges kultúra sokkal többet jelent, mint egy pár csocsó asztal az irodában. A céges kultúra jelenti azt, hogy hogyan dolgozunk, ahogy az ügyfelekkel kommunikálunk, de azt is ahogy egymással kapcsolódunk.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/the-right-communication.jpg') }}" alt="A jó kommunikáció a siker kulcsa" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-3-communication.jpg') }}" alt="A jó kommunikáció a siker kulcsa" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Kommunikáció</h2>
                             <p><a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">Egy remote csapatban</a> kiemelten fontos, hogy ezekről a témákról nyíltan és hatékonyan kommunikáljunk. Enélkül minden könnyen széteshet.</p>
@@ -43,7 +43,7 @@
                             <p>Használjatok ki minden alkalmat, személyes találkozást, hogy erről beszélgessetek. Ha erre nincs lehetőség, akkor jelöljetek ki olyan időpontokat, amikor online tudtok beszélni. Mi például erre szoktuk használni a péntek délutánokat.</p>
                             <p>Természetesen a személyes beszélgetések sokkal hatékonyabbak lennének. A virtuális megbeszélésekből hiányzik a non-verbális aspektus, ezért nehezebb megfejteni őket. A Furthernél ezért minden egyes csoportos hívás egyben videóhívás is, ezzel is segítve a kommunikációt.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/alari-aho-toggl-quote-hu.png') }}" alt="A céges kultúrán aktívan dolgozni kell. Ez egy folyamatos törekvés és nem szabad engedni, hogy önszerveződővé váljon. Fontos, hogy a csapat folyamatosan kommunikáljon a tervekről, sikerekrőI, de a problémákról is." />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-3-alari-aho-toggl-quote-hu.png') }}" alt="A céges kultúrán aktívan dolgozni kell. Ez egy folyamatos törekvés és nem szabad engedni, hogy önszerveződővé váljon. Fontos, hogy a csapat folyamatosan kommunikáljon a tervekről, sikerekrőI, de a problémákról is." />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Tudásmegosztás</h2>
                             <h3 class="heading-4 has-margin-b15">Írjatok le mindent!</h3>
@@ -60,7 +60,7 @@
                             <p>A Stand-up meetingek kiemelten fontosak. Az IT-ben mára már bevett szokás, de bármilyen területen alkalmazható. Hallottunk már stand-up meetingekről pénzügyi környezetben és termelési vállalatoknál is.</p>
                             <p class="has-margin-b30">Minden reggel tartunk ilyen stand-up meetingeket, melyek lehetőséget adnak számunkra, hogy megosszuk min dolgozunk éppen és segítséget kérjünk, ha valahol elakadtunk.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/self-discipline-is-a-key-to-success.jpg') }}" alt="A fegyelem elengedhetetlen a céljaid elérésében" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-3-self-discipline.jpg') }}" alt="A fegyelem elengedhetetlen a céljaid elérésében" />
                             </figure>
                             <h2 class="heading-2 has-margin-b60">Fegyelem</h2>
                             <p>Távmunkában dolgozni különleges önfegyelemre van szükség. Cégvezetőként a legfontosabb dolog, amit tehetsz, hogy világossá teszed a csapatod számára, hogy milyen felelőséggel bírnak, hogyan befolyásolja a munkájuk a cég hosszútávú stratégiáját és mások munkáját.</p>
@@ -75,7 +75,7 @@
                             <p>Másszunk ki a pizsamánkból, amikor dolgozunk! Sőt, alakítsunk ki egy reggeli rutint, pont úgy, mint ha munkába mennénk.</p>
                             <p>Ha otthonról dolgozunk, fontos, hogy legyen egy külön dolgozó helyiségünk. Ez mentálisan is segít elválasztani a munkát és az otthont, a családot. Csábító lehet a kanapéról dolgozni (ebbe a csapdába magam is beleesek sokszor), de az agyunk ezt inkább a relaxációval azonosítja, így nem leszünk hatékonyak.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/trust-is-important-in-a-workplace.jpg') }}" alt="A kölcsönös bizalomra épülő munkahelyi légkörben mindenki szívesebben dolgozik" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-3-trust.jpg') }}" alt="A kölcsönös bizalomra épülő munkahelyi légkörben mindenki szívesebben dolgozik" />
                             </figure>
                             <h2 class="heading-2 has-margin-b60">Bizalom</h2>
                             <h3 class="heading-4 has-margin-b15">Elengedés</h3>
@@ -91,7 +91,7 @@
                             <p>Amikor ők kérnek tőled visszajelzést, mindig legyél maximálisan őszinte, még akkor is, ha az igazság néha fáj. A véleményedet mindig támaszd alá tényekkel is! Készülj fel javaslatokkal, hogy miként tudnak fejlődni és bátorítsd őket, hogy tegyék meg a megfelelő lépéseket!</p>
                             <p class="has-margin-b30">Ne feledd mindig kiemelni a pozitívumokat is, amennyiben lehetséges, használd a kritika szendvicset: egy pozitívum – 1 negatívum – 1 pozitívum.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/teambuilding-create-bonds-amongst-team-members.jpg') }}" alt="A kölcsönös bizalomra épülő munkahelyi légkörben mindenki szívesebben dolgozik" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-3-teambuilding.jpg') }}" alt="A kölcsönös bizalomra épülő munkahelyi légkörben mindenki szívesebben dolgozik" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Csapatépítők</h2>
                             <p>Bármennyire érett is a vállalati kultúra egy remote cégben, a személyes kapcsolatokra akkor is szükség lesz. A csapatépítők során teljesen új kapcsolódási pontok és interakciók alakulnak ki a csapaton belül, amit később át lehet ültetni a virtuális kommunikációba.</p>

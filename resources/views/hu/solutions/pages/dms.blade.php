@@ -31,7 +31,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/dms-illustration-cloud.png') }}" alt="Tárold a fájlokat a felhőben vagy helyben" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/dms-illustration-cloud.png') }}" alt="Tárold a fájlokat a felhőben vagy helyben" />
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/dms-illustration-sources.png') }}" alt="Tölts fel dokumentumokat Office 365-ből vagy Google Docsból" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/dms-illustration-sources.png') }}" alt="Tölts fel dokumentumokat Office 365-ből vagy Google Docsból" />
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/dms-illustration-document-generation.png') }}" alt="Dokumentumgenerálás egyetlen kattintással" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/dms-illustration-document-generation.png') }}" alt="Dokumentumgenerálás egyetlen kattintással" />
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/dms-illustration-discuss-collaborate.png') }}" alt="Beszéljétek meg a dokumentumokat és működjetek együtt" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/dms-illustration-discuss-collaborate.png') }}" alt="Beszéljétek meg a dokumentumokat és működjetek együtt" />
                 </div>
             </div>
         </div>

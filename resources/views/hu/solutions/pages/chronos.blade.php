@@ -34,7 +34,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/web-illustration-build-websites.png') }}" alt="Kezeld a tartalmat egy intuitív grafikus felületen" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/web-illustration-build-websites.png') }}" alt="Kezeld a tartalmat egy intuitív grafikus felületen" />
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/web-illustration-analytics.png') }}" alt="Kövesd nyomon a kattintási és konverziós arányokat" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/web-illustration-analytics.png') }}" alt="Kövesd nyomon a kattintási és konverziós arányokat" />
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet">
-                    <img class="is-centered-mobile is-pulled-right" src="{{ asset('img/solutions/web-illustration-multilingual.png') }}" alt="Alapértelmezetten többnyelvű" />
+                    <img class="is-centered-mobile is-pulled-right" src="{{ asset('media/solutions/web-illustration-multilingual.png') }}" alt="Alapértelmezetten többnyelvű" />
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile" src="{{ asset('img/solutions/web-illustration-headless.png') }}" alt="Leválasztott architektúra" />
+                        <img class="is-centered-mobile" src="{{ asset('media/solutions/web-illustration-headless.png') }}" alt="Leválasztott architektúra" />
                     </div>
                 </div>
             </div>

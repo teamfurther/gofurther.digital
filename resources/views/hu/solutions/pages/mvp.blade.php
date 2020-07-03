@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/mvp-illustration-discovery.png') }}" alt="MVP megismerés" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/mvp-illustration-discovery.png') }}" alt="MVP megismerés" />
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/mvp-illustration-prototyping.png') }}" alt="MVP prototípus" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/mvp-illustration-prototyping.png') }}" alt="MVP prototípus" />
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/mvp-illustration-design-develop.png') }}" alt="MVP UI tervezés és fejlesztés" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/mvp-illustration-design-develop.png') }}" alt="MVP UI tervezés és fejlesztés" />
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/mvp-illustration-analyse-evolve.png') }}" alt="MVP evolution" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/mvp-illustration-analyse-evolve.png') }}" alt="MVP evolution" />
                 </div>
             </div>
         </div>

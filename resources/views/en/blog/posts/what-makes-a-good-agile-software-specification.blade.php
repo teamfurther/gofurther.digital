@@ -38,14 +38,14 @@
                             <p>But what if we're using agile methodologies on our projects? A lot of people believe that agile teams are working without a specification. That's not entirely true. An agile project still needs structure, so nobody makes critical assumptions. This structure is given by the <strong>users stories</strong>, which are natural language descriptions of one or more features of a system, written from the perspective of the end user.</p>
                             <p>Agile is built around the principle that project <strong>scope can and should change</strong> during the project. All user stories will be placed in a backlog at the beginning of the project, but will not be drafted out in detail. Instead they will be shaped throughout the development process.</p>
                             <figure class="has-margin-b60">
-                                <img src="{{ asset('media/blog/agile-user-story-1.jpg') }}" alt="User stories should always be written from an end user perspective" />
+                                <img src="{{ asset('media/blog/agile-specs-user-story-1.jpg') }}" alt="User stories should always be written from an end user perspective" />
                                 <figcaption>User stories should always be written from an end user perspective</figcaption>
                             </figure>
                             <h2 class="heading-3 has-margin-b30">The agile process</h2>
                             <p>Agile teams work in short (1 or 2 week) iterations, called <strong>sprints</strong>. At the beginning of each sprint, a small set of user stories will be picked from the backlog (usually those which add the most business value), and are drafted out.</p>
                             <p>Contrary to the traditional method, the responsibility of drafting out the details is shared by the client (through his product owner) and the development team. For this to work, everybody involved needs to have a shared understanding and empathy of the target customer. Because of that shared understanding, the product owner can focus on high-level requirements and business goals and leave all implementation details to the development team.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/agile-user-story-2.jpg') }}" alt="Example of a detailed user story" />
+                                <img src="{{ asset('media/blog/agile-specs-user-story-2.jpg') }}" alt="Example of a detailed user story" />
                                 <figcaption>Example of a detailed user story</figcaption>
                             </figure>
                             <p>At the end of the sprint, feedback is given on actual working software, not just specifications. This allows the client to see if the product is aligned with his expectations, without having to wait (months) until the whole software is developed. If at this point, the client has change requests, they can be introduced as new user stories into the backlog, and planned into one of the next sprints.</p>

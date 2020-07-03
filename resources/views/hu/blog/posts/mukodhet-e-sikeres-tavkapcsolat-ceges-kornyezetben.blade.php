@@ -35,12 +35,12 @@
                             <p>Egy <a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">előző cikkben</a> bemutattuk a remote munka számos előnyét és a buktatóit is. Most lássuk mitől válik egy remote csapat igazán összetartó csapattá.</p>
                             <p>Az erős vállalati kultúrát gyakran figyelmen kívül hagyják, függetlenül attól, hogy fizikai vagy virtuális irodáról van szó. Egy cég olyan emberek egységéből tevődik össze, akik nagyobb célok-javak érdekében dolgoznak. Minél nagyobb a kollégák közötti összhang, annál könnyebben megy a közös munka.</p>
                             <p>Nincs olyan vállalkozás, amely erős munkavállalói elkötelezettség és <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">belső kultúra alapja</a> nélkül növekedni tudna. Az alkalmazottaknak kényelmesen és magabiztosan kell érezniük magukat a pozitív vállalati kultúra kialakulásához.</p>
-                            <p class="has-margin-t60 has-margin-b60 heading-3">Íme néhány tipp a sikeres céges távkapcsolat kialakításához:</p>
+                            <p class="has-margin-b60">Íme néhány tipp a sikeres céges távkapcsolat kialakításához:</p>
                             <h3 class="heading-4 has-margin-b15">Semmi nem helyettesíti a személyes találkozást</h3>
                             <p>A home office egyik hátulütője a személyes találkozók hiánya. A négyszemközti beszélgetéseket felváltják az e-mailek, telefonhívások, chat beszélgetések, ahol a nonverbális jelek hiánya miatt nehezebben értelmezhetőek az üzenetek. A levelek amiket mások felé küldünk nem mindig érnek úgy célba ahogy azt mi szeretnénk. A befogadó sokszor máshogy kódolja az információkat így rendkívül gyakoriak a kommunikációs félreértések.</p>
                             <p>A személyes találkozások és a minőségi idő eltöltése a csapattal felbecsülhetetlen értékű számunkra. A kötelékek, amelyeket a személyes beszélgetések során jönnek létre, erősek és tudatosan dolgozunk a fejlesztésükön egész évben. A szemtől szembeni beszélgetések során jobban megértjük a másik személy gondolkodását. Ezek a személyesen eltöltött időszakok rendkívül hasznosnak bizonyulnak majd a virtuális térben is.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/stand-up-meeting.jpg') }}" alt="A reggeli meetingek beépültek a cégünk mindennapjaiba" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-5-stand-up-meeting.jpg') }}" alt="A reggeli meetingek beépültek a cégünk mindennapjaiba" />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Stand-up meetingek</h3>
                             <p>A meetingek elengedhetetlenek egy remote csapat életében. A stand-up meeting mára már bevett szokás az IT szektorban, de sok más területen is hasonló hatékonysággal lehet alkalmazni. Azért nevezik stand-up meetingnek, mert közben minden csapattag áll. Hogy miért kell álljanak? Pszichológiai magyarázata van, egyszerűen állás közben mindenki rövidebbre fogja a mondanivalóját.</p>
@@ -48,13 +48,13 @@
                             <p>A Furthernél minden nap egy 10 perces videó hívással indítjuk a napot, amiben elmondjuk, hogy meddig sikerült haladnunk a munkánkkal előző nap, milyen feladatok vannak betervezve mára és elakadtunk-e valamivel.</p>
                             <p>Ezen felül, minden projekt lezárásaként tartunk egy úgynevezett retrospektív meetinget, ahol kiértékeljük az adott projektet. Összegezzük, hogy mivel haladtunk jól és miben lehetne javítani, hogy legközelebb még hatékonyabbak legyünk.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/video-calls.jpg') }}" alt="A videohívások kitűnően szolgálják a kollégák között együttműködést." />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-5-video-calls.jpg') }}" alt="A videohívások kitűnően szolgálják a kollégák között együttműködést." />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Videóhívások</h3>
                             <p>A videóhívás remek lehetőség lehet arra, hogy áthidaljuk a távolság által létrejött szakadékot. Ez a fajta kommunikációs forma sokkal személyesebbé teszi a kollégák közötti információáramlást. Ha gyakran látjuk a kollégáinkat, az elősegíti a kapcsolatépítést és személyesebbé teszi a beszélgetéseket.</p>
                             <p class="has-margin-b30">Emellett abban is segít a videó hívás, hogy egymásra összpontosítsunk. Ha tudjuk, hogy a többiek is látnak minket, kétszer meggondoljuk, hogy közben a Facebook hírfolyamot görgetjük-e vagy sem.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/1-on-1-conversations.jpg') }}" alt="Arra biztatjuk a beszélgetés résztvevőit, hogy rendszeresen osszák meg gondolataikat" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-5-1-on-1-conversations.jpg') }}" alt="Arra biztatjuk a beszélgetés résztvevőit, hogy rendszeresen osszák meg gondolataikat" />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">1-on-1 beszélgetések</h3>
                             <p class="has-margin-b30">Ügyeljetek arra, hogy havonta legalább egy olyan videohívást vagy hanghívást biztosítsatok, ahol a csapat tagjai négyszemközt beszélhetnek a cégvezetővel vagy felettesünkkel. Ez lehetővé teszi számukra, hogy feltegyék azokat a kérdéseket, amelyeket e-mailben vagy csoportos beszélgetésekben nem volt lehetőségünk feltenni. Ez egy nagyszerű esély arra is, hogy a csapat tagjai olyan fejlesztéseket javasoljanak, amelyeket féltek mások előtt megfogalmazni.</p>
@@ -68,7 +68,7 @@
                             <p>Egy remote csapatban gyakran megesik, hogy több időzónában is dolgozunk, így néha <a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-imadjuk-a-furthernel']) }}">kihívást jelenthet,</a> hogy mindenki naprakész legyen a megosztott projektekkel. A virtuális feladatlistákkal azonban csapatunk számára sokkal átláthatóbb lesz az összes feladat listája az állapotukkal együtt, ami egyszerűvé teszi a munka megosztását és mindenki tájékoztatását.</p>
                             <p>Mi a <a href="https://productive.io/" target="_blank">productive.io-ot</a> használjuk ami lehetővé teszik a fájlok küldését, a jegyzetek megosztását és a róluk folytatott beszélgetéseket. Bárki láthatja, hogy milyen munkafolyamatok zajlanak és hogy ki min dolgozik.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/to-meet-in-person.jpg') }}" alt="A személyes találkozás kiemelten fontos egy remote csapat számára." />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-5-meet-in-person.jpg') }}" alt="A személyes találkozás kiemelten fontos egy remote csapat számára." />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Személyes találkozások</h3>
                             <p>A többszöri személyes találkozások elengedhetetlenek egy egészséges és erős csapat épitéséhez. Az éves csapatépítések nagyszerű alkalmak a már kialakult kollegiális kapcsolatok megerősítésére.</p>

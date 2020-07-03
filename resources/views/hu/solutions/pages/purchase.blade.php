@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/purchase-illustration-suppliers.png') }}" alt="Engedd meg a beszállítóknak hogy válaszoljanak az ajánlatkérésekre" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/purchase-illustration-suppliers.png') }}" alt="Engedd meg a beszállítóknak hogy válaszoljanak az ajánlatkérésekre" />
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/purchase-illustration-compare-prices.png') }}" alt="Hasonlítsd össze a beszállítói árakat" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/purchase-illustration-compare-prices.png') }}" alt="Hasonlítsd össze a beszállítói árakat" />
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/purchase-illustration-track-inventory.png') }}" alt="Mindig kövesd nyomon a készleted" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/purchase-illustration-track-inventory.png') }}" alt="Mindig kövesd nyomon a készleted" />
                     </div>
                 </div>
             </div>

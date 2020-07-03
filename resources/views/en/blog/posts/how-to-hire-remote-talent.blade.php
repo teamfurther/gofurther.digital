@@ -37,7 +37,7 @@
                             <p>The lack of in-person contact requires especially good communication skills to be able to be efficient outside an office. Although there's an abundance of great tools that help you communicate online, the information coded into non-verbal signs is often lost in the virtual space.</p>
                             <p>For us, these are the most important traits in a team member. But employees blessed with these qualities, who are also good professionals, don't come around too often. Fortunately, (most of the time) when operating a remote team, you're not limited by geography and can access a much broader pool of talent.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/job-advertisement.jpg') }}" alt="The job listing" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-2-job-advertisement.jpg') }}" alt="The job listing" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">The job listing</h2>
                             <p class="has-margin-b60">When it comes to the job listing, it doesn't differ all that much from a classic job advert. Here's a couple of things you should be aware of though, as these are usually not as clear as they need be with most remote job listings.</p>
@@ -58,13 +58,13 @@
                             <p>Instead, write about yourselves. How are you working? What values does your company represent? In the case of a remote job advert, these can help alleviate the fear towards working remotely in candidates.</p>
 
                             <figure>
-                                <img src="{{ asset('media/blog/job-interview.jpg') }}" alt="The interview" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-2-job-interview.jpg') }}" alt="The interview" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30 has-margin-t60">The interview</h2>
                             <p>During an interview, we always concentrate on finding out how the interviewee is going to fit into our team. Does he have the same motivation? Does he represent the same values? Can we communicate with him and are we going to be able to work with him on a daily basis? For us, these are much more important questions than what skills and qualifications they have.</p>
                             <p>As we already mentioned, soft skills like communication and self-discipline are really important. Technical skills less so, as these can be taught.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/ambition-and-teamwork-quote-en.jpg') }}" alt="Ambition and culture fit are more important than qualifications and degrees." />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-2-ambition-and-teamwork-quote-en.jpg') }}" alt="Ambition and culture fit are more important than qualifications and degrees." />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">How to test self-discipline?</h3>
                             <p>Soft skills are hard to test, but a couple of accurate questions can shed light on some traits, that tell you a lot about the person:</p>
@@ -86,7 +86,7 @@
                             <p>Instead, we pay attention to how openly the interviewee is communicating. Is the interview one-sided, or do they also participate (don't forget, you also have a role on how an interview is channelled!)?</p>
                             <p>How much attention do they pay to what you're saying? It's worthwhile asking follow-up questions. Also, give them the opportunity to ask questions. You can always learn more from their questions.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/the-right-candidate-quote-en.jpg') }}" alt="If it's not a hell yeah, then it's a hell no." />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-2-the-right-candidate-quote-en.jpg') }}" alt="If it's not a hell yeah, then it's a hell no." />
                             </figure>
                             <p>Before making the decision to hire a new team member, it's worth having a meeting between the candidate and the rest of the team. Observe how they communicate, or if you feel any friction between the people.</p>
                             <p class="has-margin-b30">Trust your gut instincts. Remember, you don't have to hire the first adequate candidate. We believe that if the reaction to a candidate is not a hell yeah, then it's rather a hell no.</p>
@@ -101,7 +101,7 @@
                             <p>At Further, we prefer regular business hours, but you don't have to stick to these if it doesn't influence your work. Nevertheless, it is mandatory to participate in the morning stand-up meetings.</p>
                             <p>As for holidays, we don't have a limit on how many holidays a person can take. In case of longer vacations though, it is expected that the rest of the team is notified at least 1 month in advance, to allow time for preparations. We make sure to explain these details as early as the first interview.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/onboarding-a-new-team-member.jpg') }}" alt="It is important to catch up with new colleagues" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-2-onboarding-a-new-team-member.jpg') }}" alt="It is important to catch up with new colleagues" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Onboarding</h2>
                             <p>Awesome! You are done with the interviews, and hired your new colleague. But the process doesn't end there. In a remote working environment, the onboarding process is even more important than in the office.</p>

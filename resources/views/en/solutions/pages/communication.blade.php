@@ -36,7 +36,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/communication-illustration-chat.png') }}" alt="Engage in conversation" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/communication-illustration-chat.png') }}" alt="Engage in conversation" />
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/communication-illustration-announcements.png') }}" alt="Send company announcements" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/communication-illustration-announcements.png') }}" alt="Send company announcements" />
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@
                         </ul>
                     </div>
                     <div class="column is-half-tablet is-one-third-desktop">
-                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('img/solutions/communication-illustration-newsletter.png') }}" alt="Create email marketing campaigns" />
+                        <img class="is-centered-mobile is-pulled-right-tablet" src="{{ asset('media/solutions/communication-illustration-newsletter.png') }}" alt="Create email marketing campaigns" />
                     </div>
                 </div>
             </div>
@@ -112,7 +112,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-tablet is-one-third-desktop">
-                    <img class="is-centered-mobile" src="{{ asset('img/solutions/communication-illustration-todos.png') }}" alt="Organise your work with notes and to-do lists" />
+                    <img class="is-centered-mobile" src="{{ asset('media/solutions/communication-illustration-todos.png') }}" alt="Organise your work with notes and to-do lists" />
                 </div>
             </div>
         </div>
