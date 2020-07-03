@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-remote-corporate-culture-2-en.png') }}" srcset="{{ asset('media/blog/featured-remote-corporate-culture-2-769w-en.png') }} 769w" sizes="100vw" alt="How to hire people in a remote team?" />
+        <img src="{{ asset('media/blog/featured-remote-corporate-culture-2-en.png') }}" srcset="{{ asset('media/blog/featured-remote-corporate-culture-2-768w-en.png') }} 768w, {{ asset('media/blog/featured-remote-corporate-culture-2-1000w-en.png') }} 1000w" sizes="100vw" alt="How to hire people in a remote team?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
