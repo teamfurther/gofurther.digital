@@ -1,40 +1,61 @@
-@extends('hu.site')
+@extends('en.site')
 
-@section('title', 'Blog')
-@section('description', 'Gondolatok és írások a Further csapatától. Blogunkban osztunk meg híreket és pillanatokat mindennapjainkról, technológiáról, designról, innovációról és kultúráról.')
+@section('title', 'Blog articles')
+@section('description', 'Thoughts and insights from the Further team. This is where we share news and moments from our life and across technology, design, innovation and culture.')
 
 @section('content')
     <section class="section">
         <div class="container">
             <div class="columns">
                 <div class="column">
+                    <h1 class="heading">{{ $tag->name }}</h1>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <p class="blog__tag__description">{!! $tag->description !!}</p>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
                     <nav class="blog__tag-selector">
-                        <a class="is-active" href="{{ route(getLang() . '.blog') }}">
-                            Összes
+                        <a href="{{ route(getLang() . '.blog') }}">
+                            All
                         </a>
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
-                            Digitális transzformáció
+                        <a @if ($tag->slug === 'digital-transformation') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}"
+                        >
+                            Digital Transformation
                         </a>
-                        <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
+                        <!-- <a @if ($tag->slug === 'start-up') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
                             Start-up
                         </a> -->
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
-                            Elmagyarázva
+                        <a @if ($tag->slug === 'explained') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
+                            Explained
                         </a>
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}">
-                            Távmunka
+                        <a @if ($tag->slug === 'remote-work') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
+                            Remote work
                         </a>
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
+                        <a @if ($tag->slug === 'agile') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
                             Agile
                         </a>
-                        <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
-                            Fejlesztés
+                        <!-- <a @if ($tag->slug === 'development') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
+                            Development
                         </a> -->
-                        <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                        <!-- <a @if ($tag->slug === 'ux') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
                             UX
                         </a> -->
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}">
-                            Élet a Furthernél
+                        <a @if ($tag->slug === 'life-at-further') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
+                            Life at Further
                         </a>
                     </nav>
                 </div>
@@ -71,7 +92,7 @@
             "streetAddress": "{{ config('site.company.address.street_address') }}"
         },
         "alternateName": "{{ config('site.company.name') }}",
-        "description": "{{ config('site.description.' . getLang()) }}",
+        "description": "{{ config('site.description.' . config('app.locale')) }}",
         "email": "{{ config('site.contact.email') }}",
         "founder": "Peter Illés and Norbert Zsombori",
         "foundingDate": "2013",
@@ -83,7 +104,7 @@
             "width": "185"
         },
         "name": "Further Digital Solutions",
-        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.google') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.twitter') }}"],
+        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.twitter') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.instagram') }}","{{ config('site.social.medium') }}"],
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
@@ -95,7 +116,7 @@
                 "position": "1",
                 "item": {
                     "@id": "{{ localizedRoute('home') }}",
-                    "name": "Főoldal"
+                    "name": "Homepage"
                 }
             },
             {
@@ -118,7 +139,7 @@
             "streetAddress": "{{ config('site.company.address.street_address') }}"
         },
         "alternateName": "{{ config('site.company.name') }}",
-        "description": "{{ config('site.description.' . getLang()) }}",
+        "description": "{{ config('site.description.' . config('app.locale')) }}",
         "email": "{{ config('site.contact.email') }}",
         "founder": "Peter Illés and Norbert Zsombori",
         "foundingDate": "2013",
@@ -130,11 +151,11 @@
             "width": "185"
         },
         "name": "Further Digital Solutions",
-        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.google') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.twitter') }}"],
+        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.twitter') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.instagram') }}","{{ config('site.social.medium') }}"],
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "Gondolatok és írások a Further csapatától. Blogunkban osztunk meg híreket és pillanatokat mindennapjainkról, technológiáról, designról, innovációról és kultúráról.",
+    "description": "Thoughts and insights from the Further team. This is where we share news and moments from our life and across technology, design, innovation and culture.",
     "headline": "Blog",
     "image": {
         "@type": "ImageObject",
@@ -142,8 +163,8 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
-    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, MVP fejlesztés, Digitális transzformáció",
+    "inLanguage": "en_gb",
+    "keywords": "Custom software development, Software development, Web development, MVP development, Digital transformation, Technology, Design, Company culture",
     "mainEntityOfPage": "{{ localizedRoute('blog') }}",
     "name": "Blog",
     "publisher": {
@@ -156,7 +177,7 @@
             "streetAddress": "{{ config('site.company.address.street_address') }}"
         },
         "alternateName": "{{ config('site.company.name') }}",
-        "description": "{{ config('site.description.' . getLang()) }}",
+        "description": "{{ config('site.description.' . config('app.locale')) }}",
         "email": "{{ config('site.contact.email') }}",
         "founder": "Peter Illés and Norbert Zsombori",
         "foundingDate": "2013",
@@ -168,7 +189,7 @@
             "width": "185"
         },
         "name": "Further Digital Solutions",
-        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.google') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.twitter') }}"],
+        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.twitter') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.instagram') }}","{{ config('site.social.medium') }}"],
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     }
@@ -185,7 +206,7 @@
             "position": "1",
             "item": {
                 "@id": "{{ localizedRoute('home') }}",
-                "name": "Főoldal"
+                "name": "Homepage"
             }
         },
         {

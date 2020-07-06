@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\BlogTagsController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\JobsController;
 use App\Http\Controllers\ProjectsController;
@@ -31,6 +32,7 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
 
     Route::get('blog', [BlogController::class, 'index'])->name('blog');
     Route::get('blog/posts/{slug}', [BlogController::class, 'show'])->name('blog.show');
+    Route::get('blog/tagged/{slug}', [BlogTagsController::class, 'show'])->name('blog.tags.show');
 
     Route::get('careers', [JobsController::class, 'index'])->name('jobs');
     Route::get('careers/{slug}', [JobsController::class, 'show'])->name('jobs.show');
@@ -97,6 +99,7 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
 
     Route::get('blog', [BlogController::class, 'index'])->name('blog');
     Route::get('blog/cikkek/{slug}', [BlogController::class, 'show'])->name('blog.show');
+    Route::get('blog/cimkek/{slug}', [BlogTagsController::class, 'show'])->name('blog.tags.show');
 
     Route::get('kapcsolat', [ContactController::class, 'show'])->name('contact');
     Route::post('kapcsolat', [ContactController::class, 'send'])->name('contact.send');

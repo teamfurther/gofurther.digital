@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
 
 if (!function_exists('getLang')) {
@@ -48,7 +49,11 @@ if (!function_exists('handleSwitchLangExceptions')) {
 
         switch ($route) {
             case 'blog.show':
-                $parameters['slug'] = routeMappingLookup('blog', $parameters['slug'], $lang);
+                $parameters['slug'] = routeMappingLookup('blog.posts', $parameters['slug'], $lang);
+
+                break;
+            case 'blog.tags.show':
+                $parameters['slug'] = routeMappingLookup('blog.tags', $parameters['slug'], $lang);
 
                 break;
         }
@@ -103,12 +108,12 @@ if (!function_exists('routeMappingLookup')) {
      */
     function routeMappingLookup(string $key, string $slug, string $targetLang): string
     {
-        $array = config('route-mapping.' . $key);
+        $array = config($key);
         $currentLang = app()->getLocale();
 
-        $resultKey = array_search($slug, array_column($array, $currentLang));
+        $resultKey = array_search($slug, Arr::pluck($array, $currentLang . '.slug'));
 
-        return $resultKey !== false ? $array[$resultKey][$targetLang] : null;
+        return $resultKey !== false ? $array[$resultKey][$targetLang]['slug'] : null;
     }
 }
 

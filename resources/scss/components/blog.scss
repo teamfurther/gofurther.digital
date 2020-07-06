@@ -1,3 +1,45 @@
+.blog {
+    &__tag {
+        &__description {
+            color: $grey-darker;
+            font-size: 16px;
+            font-style: italic;
+            margin-bottom: 60px;
+            margin-top: -15px;
+            text-align: center;
+
+            @include desktop() {
+                font-size: 20px;
+                margin-top: -45px;
+            }
+        }
+    }
+
+    &__tag-selector {
+        border-bottom: 1px solid $grey;
+        border-top: 1px solid $grey;
+        display: flex;
+        margin-bottom: 45px;
+        padding: 10px 0;
+
+        a {
+            color: $grey-dark;
+            font-size: 13px;
+            margin-right: 15px;
+            text-transform: uppercase;
+            transition: all .2s ease-out;
+
+            &:hover {
+                color: $cobalt;
+            }
+
+            &.is-active {
+                color: $cobalt;
+            }
+        }
+    }
+}
+
 .post {
     background-color: $grey-lighter;
     overflow: hidden;
@@ -223,6 +265,32 @@
                 position: fixed;
                 top: 95px;
             }
+        }
+    }
+
+    &__tag {
+        color: $grey-darker;
+        display: table;
+        font-size: 12px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        transition: all .2s ease-out;
+
+        &:hover {
+            color: $black;
+
+            &::after {
+                width: 40px;
+            }
+        }
+
+        &::after {
+            background-color: $pearl;
+            content: '';
+            display: block;
+            height: 2px;
+            transition: all .2s ease-out;
+            width: 30px;
         }
     }
 

@@ -8,32 +8,52 @@
         <div class="container">
             <div class="columns">
                 <div class="column">
+                    <h1 class="heading">{{ $tag->name }}</h1>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <p class="blog__tag__description">{!! $tag->description !!}</p>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
                     <nav class="blog__tag-selector">
-                        <a class="is-active" href="{{ route(getLang() . '.blog') }}">
+                        <a href="{{ route(getLang() . '.blog') }}">
                             Összes
                         </a>
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
+                        <a @if ($tag->slug === 'digitalis-transzformacio') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
                             Digitális transzformáció
                         </a>
-                        <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
+                        <!-- <a @if ($tag->slug === 'start-up') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
                             Start-up
                         </a> -->
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
+                        <a @if ($tag->slug === 'elmagyarazva') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
                             Elmagyarázva
                         </a>
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}">
+                        <a @if ($tag->slug === 'tavmunka') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}">
                             Távmunka
                         </a>
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
+                        <a @if ($tag->slug === 'agile') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
                             Agile
                         </a>
-                        <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
+                        <!-- <a @if ($tag->slug === 'fejlesztes') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
                             Fejlesztés
                         </a> -->
-                        <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                        <!-- <a @if ($tag->slug === 'ux') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
                             UX
                         </a> -->
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}">
+                        <a @if ($tag->slug === 'elet-a-furthernel') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}">
                             Élet a Furthernél
                         </a>
                     </nav>
