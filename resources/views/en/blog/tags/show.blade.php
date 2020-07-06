@@ -1,7 +1,7 @@
 @extends('en.site')
 
-@section('title', 'Blog articles')
-@section('description', 'Thoughts and insights from the Further team. This is where we share news and moments from our life and across technology, design, innovation and culture.')
+@section('title', $tag->name . ' Articles')
+@section('description', $tag->description)
 
 @section('content')
     <section class="section">
@@ -20,44 +20,94 @@
 
             <div class="columns">
                 <div class="column">
-                    <nav class="blog__tag-selector">
-                        <a href="{{ route(getLang() . '.blog') }}">
-                            All
-                        </a>
-                        <a @if ($tag->slug === 'digital-transformation') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}"
-                        >
-                            Digital Transformation
-                        </a>
-                        <!-- <a @if ($tag->slug === 'start-up') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
-                            Start-up
-                        </a> -->
-                        <a @if ($tag->slug === 'explained') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
-                            Explained
-                        </a>
-                        <a @if ($tag->slug === 'remote-work') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
-                            Remote work
-                        </a>
-                        <a @if ($tag->slug === 'agile') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
-                            Agile
-                        </a>
-                        <!-- <a @if ($tag->slug === 'development') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
-                            Development
-                        </a> -->
-                        <!-- <a @if ($tag->slug === 'ux') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
-                            UX
-                        </a> -->
-                        <a @if ($tag->slug === 'life-at-further') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
-                            Life at Further
-                        </a>
-                    </nav>
+                    <div class="blog__tag-selector">
+                        <nav>
+                            <a href="{{ route(getLang() . '.blog') }}">
+                                All
+                            </a>
+                            <a @if ($tag->slug === 'digital-transformation') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}"
+                            >
+                                Digital Transformation
+                            </a>
+                            <!-- <a @if ($tag->slug === 'start-up') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
+                                Start-up
+                            </a> -->
+                            <a @if ($tag->slug === 'explained') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
+                                Explained
+                            </a>
+                            <a @if ($tag->slug === 'remote-work') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
+                                Remote work
+                            </a>
+                            <a @if ($tag->slug === 'agile') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
+                                Agile
+                            </a>
+                            <!-- <a @if ($tag->slug === 'development') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
+                                Development
+                            </a> -->
+                            <!-- <a @if ($tag->slug === 'ux') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                                UX
+                            </a> -->
+                            <a @if ($tag->slug === 'life-at-further') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
+                                Life at Further
+                            </a>
+                        </nav>
+                        <select>
+                            <option value="{{ route(getLang() . '.blog') }}">
+                                Filter by category
+                            </option>
+                            <option value="{{ route(getLang() . '.blog') }}">
+                                All
+                            </option>
+                            <option @if ($tag->slug === 'digital-transformation') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}"
+                            >
+                                Digital Transformation
+                            </option>
+                            <!-- <option @if ($tag->slug === 'start-up') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}"
+                            >
+                                Start-up
+                            </option> -->
+                            <option @if ($tag->slug === 'explained') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}"
+                            >
+                                Explained
+                            </option>
+                            <option @if ($tag->slug === 'remote-work') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}"
+                            >
+                                Remote work
+                            </option>
+                            <option @if ($tag->slug === 'agile') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}"
+                            >
+                                Agile
+                            </option>
+                            <!-- <option @if ($tag->slug === 'development') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}"
+                            >
+                                Development
+                            </option> -->
+                            <!-- <option @if ($tag->slug === 'ux') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}"
+                            >
+                                UX
+                            </option> -->
+                            <option @if ($tag->slug === 'life-at-further') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}"
+                            >
+                                Life at Further
+                            </option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <div class="posts">
@@ -74,6 +124,16 @@
 
     @include(getLang() . '.banners.projects')
 @endsection
+
+
+
+@push('content-scripts')
+<script>
+    document.querySelector('.blog__tag-selector select').onchange = function (e) {
+        window.location = e.target.value;
+    };
+</script>
+@endpush
 
 
 

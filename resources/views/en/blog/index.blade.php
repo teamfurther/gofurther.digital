@@ -1,6 +1,6 @@
 @extends('en.site')
 
-@section('title', 'Blog articles')
+@section('title', 'Blog Articles')
 @section('description', 'Thoughts and insights from the Further team. This is where we share news and moments from our life and across technology, design, innovation and culture.')
 
 @section('content')
@@ -8,35 +8,69 @@
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <nav class="blog__tag-selector">
-                        <a class="is-active" href="{{ route(getLang() . '.blog') }}">
-                            All
-                        </a>
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}">
-                            Digital Transformation
-                        </a>
-                        <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
-                            Start-up
-                        </a> -->
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
-                            Explained
-                        </a>
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
-                            Remote work
-                        </a>
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
-                            Agile
-                        </a>
-                        <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
-                            Development
-                        </a> -->
-                        <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
-                            UX
-                        </a> -->
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
-                            Life at Further
-                        </a>
-                    </nav>
+                    <div class="blog__tag-selector">
+                        <nav>
+                            <a class="is-active" href="{{ route(getLang() . '.blog') }}">
+                                All
+                            </a>
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}">
+                                Digital Transformation
+                            </a>
+                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
+                                Start-up
+                            </a> -->
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
+                                Explained
+                            </a>
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
+                                Remote work
+                            </a>
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
+                                Agile
+                            </a>
+                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
+                                Development
+                            </a> -->
+                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                                UX
+                            </a> -->
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
+                                Life at Further
+                            </a>
+                        </nav>
+                        <select>
+                            <option selected value="{{ route(getLang() . '.blog') }}">
+                                Filter by category
+                            </option>
+                            <option value="{{ route(getLang() . '.blog') }}">
+                                All
+                            </option>
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}">
+                                Digital Transformation
+                            </option>
+                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
+                                Start-up
+                            </option> -->
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
+                                Explained
+                            </option>
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
+                                Remote work
+                            </option>
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
+                                Agile
+                            </option>
+                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
+                                Development
+                            </option> -->
+                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                                UX
+                            </option> -->
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
+                                Life at Further
+                            </option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <div class="posts">
@@ -53,6 +87,16 @@
 
     @include(getLang() . '.banners.projects')
 @endsection
+
+
+
+@push('content-scripts')
+<script>
+    document.querySelector('.blog__tag-selector select').onchange = function (e) {
+        window.location = e.target.value;
+    };
+</script>
+@endpush
 
 
 

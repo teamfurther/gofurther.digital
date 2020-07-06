@@ -8,35 +8,69 @@
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <nav class="blog__tag-selector">
-                        <a class="is-active" href="{{ route(getLang() . '.blog') }}">
-                            Összes
-                        </a>
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
-                            Digitális transzformáció
-                        </a>
-                        <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
-                            Start-up
-                        </a> -->
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
-                            Elmagyarázva
-                        </a>
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}">
-                            Távmunka
-                        </a>
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
-                            Agile
-                        </a>
-                        <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
-                            Fejlesztés
-                        </a> -->
-                        <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
-                            UX
-                        </a> -->
-                        <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}">
-                            Élet a Furthernél
-                        </a>
-                    </nav>
+                    <div class="blog__tag-selector">
+                        <nav>
+                            <a class="is-active" href="{{ route(getLang() . '.blog') }}">
+                                Összes
+                            </a>
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
+                                Digitális transzformáció
+                            </a>
+                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
+                                Start-up
+                            </a> -->
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
+                                Elmagyarázva
+                            </a>
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}">
+                                Távmunka
+                            </a>
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
+                                Agile
+                            </a>
+                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
+                                Fejlesztés
+                            </a> -->
+                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                                UX
+                            </a> -->
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}">
+                                Élet a Furthernél
+                            </a>
+                        </nav>
+                        <select>
+                            <option selected value="{{ route(getLang() . '.blog') }}">
+                                Szűrés címke szerint
+                            </option>
+                            <option selected value="{{ route(getLang() . '.blog') }}">
+                                Összes
+                            </option>
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
+                                Digitális transzformáció
+                            </option>
+                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
+                                Start-up
+                            </option> -->
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
+                                Elmagyarázva
+                            </option>
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}">
+                                Távmunka
+                            </option>
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
+                                Agile
+                            </option>
+                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
+                                Fejlesztés
+                            </option> -->
+                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                                UX
+                            </option> -->
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}">
+                                Élet a Furthernél
+                            </option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <div class="posts">
@@ -53,6 +87,16 @@
 
     @include(getLang() . '.banners.projects')
 @endsection
+
+
+
+@push('content-scripts')
+<script>
+    document.querySelector('.blog__tag-selector select').onchange = function (e) {
+        window.location = e.target.value;
+    };
+</script>
+@endpush
 
 
 

@@ -1,7 +1,7 @@
 @extends('hu.site')
 
-@section('title', 'Blog')
-@section('description', 'Gondolatok és írások a Further csapatától. Blogunkban osztunk meg híreket és pillanatokat mindennapjainkról, technológiáról, designról, innovációról és kultúráról.')
+@section('title', $tag->name . ' cikkek')
+@section('description', $tag->description)
 
 @section('content')
     <section class="section">
@@ -20,43 +20,93 @@
 
             <div class="columns">
                 <div class="column">
-                    <nav class="blog__tag-selector">
-                        <a href="{{ route(getLang() . '.blog') }}">
-                            Összes
-                        </a>
-                        <a @if ($tag->slug === 'digitalis-transzformacio') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
-                            Digitális transzformáció
-                        </a>
-                        <!-- <a @if ($tag->slug === 'start-up') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
-                            Start-up
-                        </a> -->
-                        <a @if ($tag->slug === 'elmagyarazva') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
-                            Elmagyarázva
-                        </a>
-                        <a @if ($tag->slug === 'tavmunka') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}">
-                            Távmunka
-                        </a>
-                        <a @if ($tag->slug === 'agile') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
-                            Agile
-                        </a>
-                        <!-- <a @if ($tag->slug === 'fejlesztes') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
-                            Fejlesztés
-                        </a> -->
-                        <!-- <a @if ($tag->slug === 'ux') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
-                            UX
-                        </a> -->
-                        <a @if ($tag->slug === 'elet-a-furthernel') class="is-active" @endif
-                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}">
-                            Élet a Furthernél
-                        </a>
-                    </nav>
+                    <div class="blog__tag-selector">
+                        <nav>
+                            <a href="{{ route(getLang() . '.blog') }}">
+                                Összes
+                            </a>
+                            <a @if ($tag->slug === 'digitalis-transzformacio') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
+                                Digitális transzformáció
+                            </a>
+                            <!-- <a @if ($tag->slug === 'start-up') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
+                                Start-up
+                            </a> -->
+                            <a @if ($tag->slug === 'elmagyarazva') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
+                                Elmagyarázva
+                            </a>
+                            <a @if ($tag->slug === 'tavmunka') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}">
+                                Távmunka
+                            </a>
+                            <a @if ($tag->slug === 'agile') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
+                                Agile
+                            </a>
+                            <!-- <a @if ($tag->slug === 'fejlesztes') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
+                                Fejlesztés
+                            </a> -->
+                            <!-- <a @if ($tag->slug === 'ux') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                                UX
+                            </a> -->
+                            <a @if ($tag->slug === 'elet-a-furthernel') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}">
+                                Élet a Furthernél
+                            </a>
+                        </nav>
+                        <select>
+                            <option value="{{ route(getLang() . '.blog') }}">
+                                Szűrés címke szerint
+                            </option>
+                            <option value="{{ route(getLang() . '.blog') }}">
+                                Összes
+                            </option>
+                            <option @if ($tag->slug === 'digitalis-transzformacio') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}"
+                            >
+                                Digitális transzformáció
+                            </option>
+                            <!-- <option @if ($tag->slug === 'start-up') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}"
+                            >
+                                Start-up
+                            </option> -->
+                            <option @if ($tag->slug === 'elmagyarazva') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}"
+                            >
+                                Elmagyarázva
+                            </option>
+                            <option @if ($tag->slug === 'tavmunka') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}"
+                            >
+                                Távmunka
+                            </option>
+                            <option @if ($tag->slug === 'agile') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}"
+                            >
+                                Agile
+                            </option>
+                            <!-- <option @if ($tag->slug === 'fejlesztes') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}"
+                            >
+                                Fejlesztés
+                            </option> -->
+                            <!-- <option @if ($tag->slug === 'ux') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}"
+                            >
+                                UX
+                            </option> -->
+                            <option @if ($tag->slug === 'elet-a-furthernel') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}"
+                            >
+                                Élet a Furthernél
+                            </option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <div class="posts">
@@ -73,6 +123,16 @@
 
     @include(getLang() . '.banners.projects')
 @endsection
+
+
+
+@push('content-scripts')
+<script>
+    document.querySelector('.blog__tag-selector select').onchange = function (e) {
+        window.location = e.target.value;
+    };
+</script>
+@endpush
 
 
 
