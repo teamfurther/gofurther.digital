@@ -1,73 +1,109 @@
-@extends('en.site')
+@extends('hu.site')
 
-@section('title', 'Blog Articles')
-@section('description', 'Thoughts and insights from the Further team. This is where we share news and moments from our life and across technology, design, innovation and culture.')
+@section('title', $tag->name . ' cikkek')
+@section('description', $tag->description)
 
 @section('content')
     <section class="section">
         <div class="container">
             <div class="columns">
                 <div class="column">
+                    <h1 class="heading">{{ $tag->name }}</h1>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <p class="blog__tag__description">{!! $tag->description !!}</p>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
                     <div class="blog__tag-selector">
                         <nav>
-                            <a class="is-active" href="{{ route(getLang() . '.blog') }}">
-                                All
+                            <a href="{{ route(getLang() . '.blog') }}">
+                                Összes
                             </a>
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}">
-                                Digital Transformation
+                            <a @if ($tag->slug === 'digitalis-transzformacio') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
+                                Digitális transzformáció
                             </a>
-                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
+                            <!-- <a @if ($tag->slug === 'start-up') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
                                 Start-up
                             </a> -->
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
-                                Explained
+                            <a @if ($tag->slug === 'elmagyarazva') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
+                                Elmagyarázva
                             </a>
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
-                                Remote work
+                            <a @if ($tag->slug === 'tavmunka') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}">
+                                Távmunka
                             </a>
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
+                            <a @if ($tag->slug === 'agile') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
                                 Agile
                             </a>
-                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
-                                Development
+                            <!-- <a @if ($tag->slug === 'fejlesztes') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
+                                Fejlesztés
                             </a> -->
-                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                            <!-- <a @if ($tag->slug === 'ux') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
                                 UX
                             </a> -->
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
-                                Life at Further
+                            <a @if ($tag->slug === 'elet-a-furthernel') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}">
+                                Élet a Furthernél
                             </a>
                         </nav>
                         <select>
-                            <option selected value="{{ route(getLang() . '.blog') }}">
-                                Filter by category
+                            <option value="{{ route(getLang() . '.blog') }}">
+                                Szűrés címke szerint
                             </option>
                             <option value="{{ route(getLang() . '.blog') }}">
-                                All
+                                Összes
                             </option>
-                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}">
-                                Digital Transformation
+                            <option @if ($tag->slug === 'digitalis-transzformacio') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}"
+                            >
+                                Digitális transzformáció
                             </option>
-                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
+                            <!-- <option @if ($tag->slug === 'start-up') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}"
+                            >
                                 Start-up
                             </option> -->
-                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
-                                Explained
+                            <option @if ($tag->slug === 'elmagyarazva') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}"
+                            >
+                                Elmagyarázva
                             </option>
-                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
-                                Remote work
+                            <option @if ($tag->slug === 'tavmunka') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}"
+                            >
+                                Távmunka
                             </option>
-                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
+                            <option @if ($tag->slug === 'agile') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}"
+                            >
                                 Agile
                             </option>
-                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
-                                Development
+                            <!-- <option @if ($tag->slug === 'fejlesztes') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}"
+                            >
+                                Fejlesztés
                             </option> -->
-                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                            <!-- <option @if ($tag->slug === 'ux') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}"
+                            >
                                 UX
                             </option> -->
-                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
-                                Life at Further
+                            <option @if ($tag->slug === 'elet-a-furthernel') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}"
+                            >
+                                Élet a Furthernél
                             </option>
                         </select>
                     </div>
@@ -85,9 +121,9 @@
             <div class="columns">
                 <div class="column">
                     <div class="blog__pagination">
-                        You are viewing <span class="blog__pagination__current"></span> out of <span class="blog__pagination__total"></span> posts
+                        <span class="blog__pagination__current"></span> / <span class="blog__pagination__total"></span> cikk
                         <div class="blog__pagination__bar"><span></span></div>
-                        <a class="blog__pagination__btn btn is-cobalt">Load more&hellip;</a>
+                        <a class="blog__pagination__btn btn is-cobalt">További cikkek betöltése&hellip;</a>
                     </div>
                 </div>
             </div>
@@ -114,7 +150,7 @@
             "streetAddress": "{{ config('site.company.address.street_address') }}"
         },
         "alternateName": "{{ config('site.company.name') }}",
-        "description": "{{ config('site.description.' . config('app.locale')) }}",
+        "description": "{{ config('site.description.' . getLang()) }}",
         "email": "{{ config('site.contact.email') }}",
         "founder": "Peter Illés and Norbert Zsombori",
         "foundingDate": "2013",
@@ -126,7 +162,7 @@
             "width": "185"
         },
         "name": "Further Digital Solutions",
-        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.twitter') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.instagram') }}","{{ config('site.social.medium') }}"],
+        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.google') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.twitter') }}"],
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
@@ -138,7 +174,7 @@
                 "position": "1",
                 "item": {
                     "@id": "{{ localizedRoute('home') }}",
-                    "name": "Homepage"
+                    "name": "Főoldal"
                 }
             },
             {
@@ -161,7 +197,7 @@
             "streetAddress": "{{ config('site.company.address.street_address') }}"
         },
         "alternateName": "{{ config('site.company.name') }}",
-        "description": "{{ config('site.description.' . config('app.locale')) }}",
+        "description": "{{ config('site.description.' . getLang()) }}",
         "email": "{{ config('site.contact.email') }}",
         "founder": "Peter Illés and Norbert Zsombori",
         "foundingDate": "2013",
@@ -173,11 +209,11 @@
             "width": "185"
         },
         "name": "Further Digital Solutions",
-        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.twitter') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.instagram') }}","{{ config('site.social.medium') }}"],
+        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.google') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.twitter') }}"],
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "Thoughts and insights from the Further team. This is where we share news and moments from our life and across technology, design, innovation and culture.",
+    "description": "Gondolatok és írások a Further csapatától. Blogunkban osztunk meg híreket és pillanatokat mindennapjainkról, technológiáról, designról, innovációról és kultúráról.",
     "headline": "Blog",
     "image": {
         "@type": "ImageObject",
@@ -185,8 +221,8 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "en_gb",
-    "keywords": "Custom software development, Software development, Web development, MVP development, Digital transformation, Technology, Design, Company culture",
+    "inLanguage": "hu_HU",
+    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, MVP fejlesztés, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('blog') }}",
     "name": "Blog",
     "publisher": {
@@ -199,7 +235,7 @@
             "streetAddress": "{{ config('site.company.address.street_address') }}"
         },
         "alternateName": "{{ config('site.company.name') }}",
-        "description": "{{ config('site.description.' . config('app.locale')) }}",
+        "description": "{{ config('site.description.' . getLang()) }}",
         "email": "{{ config('site.contact.email') }}",
         "founder": "Peter Illés and Norbert Zsombori",
         "foundingDate": "2013",
@@ -211,7 +247,7 @@
             "width": "185"
         },
         "name": "Further Digital Solutions",
-        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.twitter') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.instagram') }}","{{ config('site.social.medium') }}"],
+        "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.google') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.twitter') }}"],
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     }
@@ -228,7 +264,7 @@
             "position": "1",
             "item": {
                 "@id": "{{ localizedRoute('home') }}",
-                "name": "Homepage"
+                "name": "Főoldal"
             }
         },
         {

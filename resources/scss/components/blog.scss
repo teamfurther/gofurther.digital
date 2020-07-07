@@ -1,3 +1,102 @@
+.blog {
+    &__pagination {
+        display: block;
+        font-size: 13px;
+        margin-top: 30px;
+        text-align: center;
+
+        &__bar {
+            background-color: $grey-light;
+            display: table;
+            height: 5px;
+            margin: 10px auto;
+            width: 250px;
+
+            span {
+                background-color: $pearl;
+                display: block;
+                height: 5px;
+            }
+        }
+
+        &__btn {
+            display: table;
+            margin: 0 auto;
+        }
+    }
+
+    &__tag {
+        &__description {
+            color: $grey-darker;
+            font-size: 16px;
+            font-style: italic;
+            margin-bottom: 60px;
+            margin-top: -15px;
+            text-align: center;
+
+            @include desktop() {
+                font-size: 20px;
+                margin-top: -45px;
+            }
+        }
+    }
+
+    &__tag-selector {
+        border-bottom: 1px solid $grey;
+        border-top: 1px solid $grey;
+        margin-bottom: 45px;
+        padding: 10px 0;
+
+        a {
+            color: $grey-dark;
+            display: block;
+            font-size: 12px;
+            text-transform: uppercase;
+            transition: all .2s ease-out;
+
+            @include tablet() {
+                margin-right: 15px;
+            }
+
+            @include desktop() {
+                font-size: 13px;
+            }
+
+            &:hover {
+                color: $cobalt;
+            }
+
+            &.is-active {
+                color: $cobalt;
+            }
+        }
+
+        nav {
+            display: none;
+
+            @include tablet() {
+                display: flex;
+            }
+        }
+
+        select {
+            background-color: transparent;
+            border: none;
+            border-radius: 0;
+            display: block;
+            padding: 0;
+
+            @include tablet() {
+                display: none;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
 .post {
     background-color: $grey-lighter;
     overflow: hidden;
@@ -223,6 +322,32 @@
                 position: fixed;
                 top: 95px;
             }
+        }
+    }
+
+    &__tag {
+        color: $grey-darker;
+        display: table;
+        font-size: 12px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        transition: all .2s ease-out;
+
+        &:hover {
+            color: $black;
+
+            &::after {
+                width: 40px;
+            }
+        }
+
+        &::after {
+            background-color: $pearl;
+            content: '';
+            display: block;
+            height: 2px;
+            transition: all .2s ease-out;
+            width: 30px;
         }
     }
 

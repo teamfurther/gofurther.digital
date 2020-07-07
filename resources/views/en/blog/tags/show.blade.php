@@ -1,72 +1,109 @@
 @extends('en.site')
 
-@section('title', 'Blog Articles')
-@section('description', 'Thoughts and insights from the Further team. This is where we share news and moments from our life and across technology, design, innovation and culture.')
+@section('title', $tag->name . ' Articles')
+@section('description', $tag->description)
 
 @section('content')
     <section class="section">
         <div class="container">
             <div class="columns">
                 <div class="column">
+                    <h1 class="heading">{{ $tag->name }}</h1>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <p class="blog__tag__description">{!! $tag->description !!}</p>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
                     <div class="blog__tag-selector">
                         <nav>
-                            <a class="is-active" href="{{ route(getLang() . '.blog') }}">
+                            <a href="{{ route(getLang() . '.blog') }}">
                                 All
                             </a>
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}">
+                            <a @if ($tag->slug === 'digital-transformation') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}"
+                            >
                                 Digital Transformation
                             </a>
-                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
+                            <!-- <a @if ($tag->slug === 'start-up') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
                                 Start-up
                             </a> -->
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
+                            <a @if ($tag->slug === 'explained') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
                                 Explained
                             </a>
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
+                            <a @if ($tag->slug === 'remote-work') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
                                 Remote work
                             </a>
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
+                            <a @if ($tag->slug === 'agile') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
                                 Agile
                             </a>
-                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
+                            <!-- <a @if ($tag->slug === 'development') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
                                 Development
                             </a> -->
-                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                            <!-- <a @if ($tag->slug === 'ux') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
                                 UX
                             </a> -->
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
+                            <a @if ($tag->slug === 'life-at-further') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
                                 Life at Further
                             </a>
                         </nav>
                         <select>
-                            <option selected value="{{ route(getLang() . '.blog') }}">
+                            <option value="{{ route(getLang() . '.blog') }}">
                                 Filter by category
                             </option>
                             <option value="{{ route(getLang() . '.blog') }}">
                                 All
                             </option>
-                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}">
+                            <option @if ($tag->slug === 'digital-transformation') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}"
+                            >
                                 Digital Transformation
                             </option>
-                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
+                            <!-- <option @if ($tag->slug === 'start-up') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}"
+                            >
                                 Start-up
                             </option> -->
-                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
+                            <option @if ($tag->slug === 'explained') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}"
+                            >
                                 Explained
                             </option>
-                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
+                            <option @if ($tag->slug === 'remote-work') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}"
+                            >
                                 Remote work
                             </option>
-                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
+                            <option @if ($tag->slug === 'agile') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}"
+                            >
                                 Agile
                             </option>
-                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
+                            <!-- <option @if ($tag->slug === 'development') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}"
+                            >
                                 Development
                             </option> -->
-                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                            <!-- <option @if ($tag->slug === 'ux') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}"
+                            >
                                 UX
                             </option> -->
-                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
+                            <option @if ($tag->slug === 'life-at-further') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}"
+                            >
                                 Life at Further
                             </option>
                         </select>

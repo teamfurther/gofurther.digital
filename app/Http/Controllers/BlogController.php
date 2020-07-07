@@ -2,13 +2,22 @@
 
 namespace App\Http\Controllers;
 
+use App\Actions\GetBlogPostsAction;
 use Illuminate\View\View;
 
 class BlogController
 {
-    public function index(): View
+    public function index(GetBlogPostsAction $getBlogPostsAction): View
     {
-        return view(getLang() . '.blog.index');
+        $posts = $getBlogPostsAction->execute();
+
+        if (!$posts) {
+            abort(404);
+        }
+
+        return view(getLang() . '.blog.index')->with([
+            'posts' => $posts
+        ]);
     }
 
     public function show(string $slug): View

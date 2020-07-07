@@ -82,6 +82,7 @@
 @endpush
 
 
+
 @push('content-scripts')
 <script>
     // read more
