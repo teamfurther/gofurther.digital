@@ -76,10 +76,19 @@
             <div class="posts">
                 <div class="columns is-multiline">
                     @foreach($posts as $post)
-                    <div class="column is-full-tablet is-half-widescreen">
+                    <div class="column is-full-tablet is-half-widescreen is-hidden">
                         @include(getLang() . '.blog.excerpts.' . $post['slug'])
                     </div>
                     @endforeach
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div class="blog__pagination">
+                        <span class="blog__pagination__current"></span> / <span class="blog__pagination__total"></span> cikk
+                        <div class="blog__pagination__bar"><span></span></div>
+                        <a class="blog__pagination__btn btn is-cobalt">További cikkek betöltése&hellip;</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -87,16 +96,6 @@
 
     @include(getLang() . '.banners.projects')
 @endsection
-
-
-
-@push('content-scripts')
-<script>
-    document.querySelector('.blog__tag-selector select').onchange = function (e) {
-        window.location = e.target.value;
-    };
-</script>
-@endpush
 
 
 

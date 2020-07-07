@@ -1,7 +1,7 @@
 /*
  * BREAKPOINTS
  */
-let breakpoints = new function() {
+let breakpoints = new function () {
     this.deviceWidth = window.screen.width;
 
     function calculateWindowWidth() {
@@ -20,27 +20,27 @@ let breakpoints = new function() {
     this.widescreen = 1192;
     this.fullhd = 1384;
 
-    this.isMobile = function() {
+    this.isMobile = function () {
         return this.windowWidth < this.tablet;
     };
 
-    this.isTouch = function() {
+    this.isTouch = function () {
         return this.windowWidth < this.desktop;
     };
 
-    this.fromTablet = function() {
+    this.fromTablet = function () {
         return this.windowWidth >= this.tablet;
     };
 
-    this.fromDesktop = function() {
+    this.fromDesktop = function () {
         return this.windowWidth >= this.desktop;
     };
 
-    this.fromWidescreen = function() {
+    this.fromWidescreen = function () {
         return this.windowWidth >= this.widescreen;
     };
 
-    this.fromFullhd = function() {
+    this.fromFullhd = function () {
         return this.windowWidth >= this.fullhd;
     };
 };
@@ -48,7 +48,7 @@ let breakpoints = new function() {
 /*
  * ALERT
  */
-let alert = new function() {
+let alert = new function () {
     this.alert = document.querySelector('.alert');
 
     if (this.alert) {
@@ -58,23 +58,67 @@ let alert = new function() {
         function closeAlert() {
             alert.alert.classList.remove('is-open');
 
-            setTimeout(function() {
+            setTimeout(function () {
                 alert.alert.remove();
             }, 1000);
         }
         this.alertClose.addEventListener('click', closeAlert);
 
         // open alert
-        setTimeout(function() {
+        setTimeout(function () {
             alert.alert.classList.add('is-open');
         }, 500);
     }
 };
 
 /*
+ * BLOG
+ */
+let blog = new function () {
+    if (document.querySelector('.blog__pagination')) {
+        let currentPage = 0;
+        const itemsPerPage = 10;
+        const totalItems = document.querySelectorAll('.posts > .columns > .column').length;
+
+        document.querySelector('.blog__pagination__total').innerHTML = totalItems;
+
+        loadPosts();
+
+        function loadPosts() {
+            currentPage++;
+
+            let currentItems = currentPage * itemsPerPage;
+
+            if (currentItems >= totalItems) {
+                currentItems = totalItems;
+
+                document.querySelector('.blog__pagination__btn').classList.add('is-hidden');
+            }
+
+            document.querySelectorAll('.posts > .columns > .column:nth-child(-n+' + currentItems + ')').forEach((el) => {
+                el.classList.remove('is-hidden');
+            });
+
+            document.querySelector('.blog__pagination__bar span').style.width = (currentItems / totalItems * 100) + '%';
+            document.querySelector('.blog__pagination__current').innerHTML = currentItems;
+        }
+
+        document.querySelector('.blog__pagination__btn').onclick = function () {
+            loadPosts();
+        };
+    }
+
+    if (document.querySelector('.blog__tag-selector')) {
+        document.querySelector('.blog__tag-selector select').onchange = function (event) {
+            window.location = event.target.value;
+        };
+    }
+};
+
+/*
  * HERO
  */
-let heroContainer = new function() {
+let heroContainer = new function () {
     this.hero = document.querySelector('.hero');
 
     function adjustHero() {
@@ -95,7 +139,7 @@ let heroContainer = new function() {
 /*
  * MODAL
  */
-let modal = new function() {
+let modal = new function () {
     this.backdrop = document.querySelector('.modal__backdrop');
     this.closeTriggers = document.querySelectorAll('[data-dismiss="modal"]');
     this.triggers = document.querySelectorAll('[data-toggle="modal"]');
@@ -138,7 +182,7 @@ let modal = new function() {
     [
         ...this.closeTriggers,
         ...document.querySelectorAll('.modal')
-    ].forEach(function(trigger) {
+    ].forEach(function (trigger) {
         trigger.addEventListener('click', closeModal);
     }.bind(this));
 
@@ -160,7 +204,7 @@ let modal = new function() {
 /*
  * NAVBAR
  */
-let navbar = new function() {
+let navbar = new function () {
     this.body = document.querySelector('body');
     this.header = document.querySelector('.header');
     this.navbar = document.querySelector('.navbar');
@@ -206,7 +250,7 @@ let navbar = new function() {
             navbar.header.classList.toggle('is-open');
         }
     }
-    Array.prototype.forEach.call(this.subnavToggle, function(subnavToggle) {
+    Array.prototype.forEach.call(this.subnavToggle, function (subnavToggle) {
         subnavToggle.addEventListener('click', toggleSubnav);
     }.bind(this));
 
@@ -225,7 +269,7 @@ let navbar = new function() {
 /*
  * SMOOTH SCROLL
  */
-window.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', function () {
     let links = document.getElementsByTagName('a');
     for (let i = 0; i < links.length; i++) {
         if (!links[i].hash)
@@ -234,8 +278,8 @@ window.addEventListener('DOMContentLoaded', function() {
         if (links[i].origin + links[i].pathname !== self.location.href)
             continue;
 
-        (function(anchorPoint) {
-            links[i].addEventListener('click', function(e) {
+        (function (anchorPoint) {
+            links[i].addEventListener('click', function (e) {
                 anchorPoint.scrollIntoView({
                     behavior: 'smooth',
                     block: 'start'
@@ -250,7 +294,7 @@ window.addEventListener('DOMContentLoaded', function() {
 /*
  * SOCIAL SHARER
  */
-let social = new function() {
+let social = new function () {
     this.icons = document.querySelectorAll('.social-sharer .icon');
 
     function openShareWindow(e) {
@@ -266,7 +310,7 @@ let social = new function() {
         window.open(url, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + winWidth + ',height=' + winHeight);
 
     }
-    Array.prototype.forEach.call(this.icons, function(icon) {
+    Array.prototype.forEach.call(this.icons, function (icon) {
         icon.addEventListener('click', openShareWindow);
     });
 };

@@ -1,4 +1,30 @@
 .blog {
+    &__pagination {
+        display: block;
+        font-size: 13px;
+        margin-top: 30px;
+        text-align: center;
+
+        &__bar {
+            background-color: $grey-light;
+            display: table;
+            height: 5px;
+            margin: 10px auto;
+            width: 250px;
+
+            span {
+                background-color: $pearl;
+                display: block;
+                height: 5px;
+            }
+        }
+
+        &__btn {
+            display: table;
+            margin: 0 auto;
+        }
+    }
+
     &__tag {
         &__description {
             color: $grey-darker;
