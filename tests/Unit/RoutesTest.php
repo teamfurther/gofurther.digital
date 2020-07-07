@@ -24,11 +24,17 @@ class RoutesTest extends TestCase
         'en/blog/posts/{slug}' => [
             'slug' => 'custom-development-vs-out-of-the-box-software',
         ],
+        'en/blog/tagged/{slug}' => [
+            'slug' => 'digital-transformation',
+        ],
         'en/projects/{slug}' => [
             'slug' => 'njoy-the-hive',
         ],
         'hu/blog/cikkek/{slug}' => [
             'slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver',
+        ],
+        'hu/blog/cimkek/{slug}' => [
+            'slug' => 'digitalis-transzformacio',
         ],
         'hu/projektek/{slug}' => [
             'slug' => 'njoy-the-hive',
