@@ -46,6 +46,7 @@ class JobsTest extends TestCase
 
         $response->assertStatus(302)
             ->assertSessionHas('alert', [
+                'gtm' => '{ "success": { "event_category": "form", "event_label": "send" } }',
                 'message' => __('jobs.success.message'),
                 'title' => __('jobs.success.title'),
                 'type' => 'success',
