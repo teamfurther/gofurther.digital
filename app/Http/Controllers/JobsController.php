@@ -42,6 +42,7 @@ class JobsController
             ], $this->view));
 
         return redirect()->back()->with('alert', [
+            'gtm' => '{ "success": { "event_category": "form", "event_label": "send" } }',
             'message' => __('jobs.success.message'),
             'title' => __('jobs.success.title'),
             'type' => 'success',

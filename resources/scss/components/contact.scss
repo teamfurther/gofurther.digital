@@ -17,7 +17,7 @@
     }
 
     &__homepage {
-        background: url(../img/banner-bg.png) center center mix($cobalt, $black, 50%);
+        background-color: $tangerine;
         color: $white;
         margin: -30px -15px;
         padding: 50px 30px 60px;
@@ -53,6 +53,7 @@
         }
 
         a {
+            color: $grey-darker;
             font: 400 18px / 1.5 $family-highlight;
             line-height: 1.5;
 
@@ -63,6 +64,10 @@
             @include desktop() {
                 font-size: 24px;
             }
+        }
+
+        p {
+            font-size: 18px;
         }
 
         .tel a {

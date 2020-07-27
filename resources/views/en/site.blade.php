@@ -159,7 +159,13 @@
                 </nav>
             </div>
             <div class="navbar__item"><a href="{{ localizedRoute('blog') }}">Blog</a></div>
-            <div class="navbar__item navbar__item--cta"><a href="{{ localizedRoute('contact') }}">Work with us</a></div>
+            <div class="navbar__item navbar__item--cta">
+                <a href="{{ localizedRoute('contact') }}"
+                   data-gtm-click='{ "click": { "event_category": "contact", "event_label": "click" } }'
+                >
+                    Work with us
+                </a>
+            </div>
         </nav> <!-- /.navbar -->
         <nav class="navbar--mobile">
             <a class="navbar--mobile__logo" href="{{ localizedRoute('home') }}">
@@ -183,7 +189,9 @@
             <a class="navbar--mobile__item" href="{{ localizedRoute('blog') }}">
                 Blog
             </a>
-            <a class="navbar--mobile__cta" href="{{ localizedRoute('contact') }}">
+            <a class="navbar--mobile__cta" href="{{ localizedRoute('contact') }}"
+               data-gtm-click='{ "click": { "event_category": "contact", "event_label": "click" } }'
+            >
                 Contact us
             </a>
         </nav> <!-- /.navbar -->
@@ -245,7 +253,9 @@
 
 
 @if (session()->has('alert'))
-    <div class="alert is-{{ session('alert.type') }}">
+    <div class="alert is-{{ session('alert.type') }}"
+         @if (session('alert.gtm') && session('alert.gtm') !== '') data-gtm-show="{{ session('alert.gtm') }}" @endif
+    >
         <strong>{{ session('alert.title') }}</strong>
         <span>{!! session('alert.message') !!}</span>
         <a class="alert__close">&times;</a>
