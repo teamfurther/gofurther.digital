@@ -45,6 +45,7 @@ class ContactTest extends TestCase
 
         $response->assertStatus(302)
             ->assertSessionHas('alert', [
+                'gtm' => '{ "success": { "event_category": "form", "event_label": "send" } }',
                 'message' => __('contact.success.message'),
                 'title' => __('contact.success.title'),
                 'type' => 'success',
