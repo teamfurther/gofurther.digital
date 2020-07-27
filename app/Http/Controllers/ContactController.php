@@ -33,6 +33,7 @@ class ContactController
             ], $this->view));
 
         return redirect()->back()->with('alert', [
+            'gtm' => '{ "success": { "event_category": "form", "event_label": "send" } }',
             'message' => __('contact.success.message'),
             'title' => __('contact.success.title'),
             'type' => 'success',

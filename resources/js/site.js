@@ -68,6 +68,14 @@ let alert = new function () {
         setTimeout(function () {
             alert.alert.classList.add('is-open');
         }, 500);
+
+        // push GTM
+        if (this.alert.getAttribute('data-gtm-show')) {
+            const values = JSON.parse(this.alert.getAttribute('data-gtm-show'));
+            for (let key in values) {
+                gtag('event', key, values[key]);
+            }
+        }
     }
 };
 
@@ -112,6 +120,22 @@ let blog = new function () {
         document.querySelector('.blog__tag-selector select').onchange = function (event) {
             window.location = event.target.value;
         };
+    }
+};
+
+/*
+ * GTM
+ */
+let gtm = new function () {
+    if (document.querySelector('[data-gtm-click]')) {
+        document.querySelectorAll('[data-gtm-click]').forEach((el) => {
+            el.onclick = function () {
+                const values = JSON.parse(el.getAttribute('data-gtm-click'));
+                for (let key in values) {
+                    gtag('event', key, values[key]);
+                }
+            };
+        });
     }
 };
 

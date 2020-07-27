@@ -7,7 +7,9 @@
                         <div class="heading-2">
                             {{ $headingText ?? 'Want to discuss an idea us or just say hi?' }}
                         </div>
-                        <a class="btn is-large is-pearl" href="{{ localizedRoute('contact') }}">
+                        <a class="btn is-large is-pearl" href="{{ localizedRoute('contact') }}"
+                           data-gtm-click='{ "click": { "event_category": "contact", "event_label": "click" } }'
+                        >
                             {{ $buttonText ?? 'Get in touch now' }}
                         </a>
                     </div>

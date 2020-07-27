@@ -124,6 +124,9 @@
     }
 
     strong {
+        &.is-black {
+            color: $grey-darker;
+        }
         &.is-cobalt {
             color: $cobalt;
         }
