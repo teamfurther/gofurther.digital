@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'why-you-cant-afford-to-delay-digital-transformation',
+                'tags' => [
+                    'remote-work' => 'Digital Transformation',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'miert-ne-halogasd-a-digitalis-transzformaciot',
+                'tags' => [
+                    'tavmunka' => 'Digitális transzformáció',
+                ],
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'how-long-is-a-development-project',
                 'tags' => [
                     'explained' => 'Explained',
@@ -285,6 +299,7 @@ return [
                 ],
             ],
         ],
+
     ],
 
     'tags' => [
