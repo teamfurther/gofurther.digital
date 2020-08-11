@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-why-you-cant-afford-to-delay-digital-transformation.png') }}" srcset="{{ asset('media/blog/featured-why-you-cant-afford-to-delay-digital-transformation-768w.png') }} 768w, {{ asset('media/blog/featured-why-you-cant-afford-to-delay-digital-transformation-1000w.png') }} 1000w" sizes="100vw" alt="Consequences of the delayed implementation of the digital transformation" />
+        <img src="{{ asset('media/blog/featured-why-you-cant-afford-to-delay-digital-transformation.png') }}" srcset="{{ asset('media/blog/featured-why-you-cant-afford-to-delay-digital-transformation-768w.png') }} 768w, {{ asset('media/blog/featured-why-you-cant-afford-to-delay-digital-transformation-1000w.png') }} 1000w" sizes="100vw" alt="The Cost of Doing Nothing: Why You Can’t Afford to Delay Digital Transformation?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -29,7 +29,7 @@
                             <p>But not making a decision, is a decision by itself! And that decision is to continue to use antiquated systems or spreadsheets and waste valuable time on day-to-day operations. This will undoubtedly have an effect on our productivity and bottom line.</p>
                             <p>Most CEO’s and decision makers know how important it is to continuously improve their company’s efficiency, but they still delay their decision when it comes to greenlighting a DX project. But why?</p>
                             <figure>
-                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-communication.jpg') }}" alt="A jó kommunikáció a siker kulcsa" />
+                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-out-of-time.jpg') }}" alt="Leaders must start implementing their digital strategies now" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Reasons for delaying</h2>
                             <h3 class="heading-4 has-margin-b15">The arguments for change are not strong enough</h3>
@@ -38,7 +38,7 @@
                             <p>26% of the respondents said that they were effective in the past, but are planning on using an ERP in the future. More interesting is that 23% think that they won’t even need an ERP in the foreseeable future.</p>
                             <p>These ventures probably don’t realize how their current systems and tech stack are severely limiting their growth. This can be deduced from the fact that most of the respondents face some kind of a business challenge in their day-to-day operations:</p>
                             <figure>
-                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-figure-1-en.jpg') }}" alt="Why you shouldn't delay the digital transformation - Figure 1" />
+                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-figure-1-en.png') }}" alt="Why you shouldn't delay the digital transformation - Figure 1" />
                             </figure>
                             <p>Another type of organisation is one that already uses some kind of business software, but their business needs have changed and the software didn’t keep pace.</p>
                             <p class="has-margin-b30">Switching an ERP system to another one is a complicated and resource intensive process. Because of this, most decision makers prolong their decisions as long as possible. Unfortunately, they most often don’t calculate with the fact that the longer the delay, the higher the costs of change are going to be:</p>
@@ -49,7 +49,7 @@
                             </ul>
                             <p>But when does a solution become obsolete and when will it need to be replaced or updated? The research from Aberdeen Group also tells us what makes organisations change:</p>
                             <figure>
-                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-figure-2-hu.jpg') }}" alt="Why you shouldn't delay the digital transformation - Figure 2" />
+                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-figure-2-en.png') }}" alt="Why you shouldn't delay the digital transformation - Figure 2" />
                             </figure>
                             <p>I would like to mention at this moment in time that the adoption of an ERP system is in no way the same as embarking on a digital transformation journey. Although the implementation of an ERP is often part of a DX project, the latter delves much deeper into the core business functions and company culture. That being said, the reasons for delaying are often the same, which is well illustrated in by the above figures.</p>
                             <h3 class="heading-4 has-margin-b15 has-margin-t60">They lack the necessary capabilities to take on project</h3>
@@ -91,14 +91,14 @@
                             <p class="has-margin-b30">The cost of doing nothing can actually be calculated as the difference of 2 factors.</p>
                             <p>The first thing we need to consider is the ROI of the new systems, which we already mentioned before. Thankfully, there is a formula to calculate ROI:</p>
                             <figure>
-                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-formula-1-en.jpg') }}" alt="Miért ne halogasd a digitális transzformációt -1. képlet" />
+                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-formula-1-en.jpg') }}" alt="Why you shouldn't delay the digital transformation - Formula 1" />
                             </figure>
                             <p>TCO stands for total cost of ownership, which is basically the total cost of the DX project, including all the expected costs incurred during the lifetime of the project. This involves the time invested by the team, consultancy fees, training programmes and the cost of implementation of different systems.</p>
                             <p>It’s crucial to not only include upfront costs, but also recurring costs such as the maintenance and support of IT systems.</p>
                             <p>Gains are somewhat harder to quantify. We can take into account the amount of man hours saved through automation, increased production capacity, elimination of waste or increased sales.</p>
                             <p>Let’s take another look at the aforementioned report by the Aberdeen Group. Those companies, which invested in their ERP systems performed better than those who did not, on several criteria: lower days sales outstanding (DSO), on-time delivery, inventory accuracy and customer satisfaction. Thanks to better access to information, they were also able to make better informed decisions.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-figure-1-en.jpg') }}" alt="A jó kommunikáció a siker kulcsa" />
+                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-statistics-1-en.jpg') }}" alt="Why you shouldn't delay the digital transformation - Statistics 1" />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Time for some math!</h3>
                             <p class="has-margin-b30">Let’s assume the total gains we expect to achieve through digital transformation is $500k. If the TCO projected for a single year is $200k, we’re going to achieve a ROI of 1.5x, meaning we save 1.5 times the amount we invested in a year.</p>
@@ -107,7 +107,7 @@
                             <p>Another thing to consider is the yearly upkeep costs of the current systems. How many resources do we need to keep these systems going? We should also factor in the amount of technical debt we accumulate over a year or how much data we collect in a year, which we will have to migrate to new systems later on.</p>
                             <p>Based on the ROI and upkeep costs of current systems, we can calculate the:</p>
                             <figure>
-                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-statistics-1-en.jpg') }}" alt="Miért ne halogasd a digitális transzformációt -1. képlet" />
+                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-formula-2-en.jpg') }}" alt="Why you shouldn't delay the digital transformation - Formula 2" />
                             </figure>
                             <p>Let’s look at our example above. Let’s suppose the upkeep costs of our current systems are $50k yearly. Adding the ROI to this amount results in the total dollar value of delaying digital transformation: $350k yearly.</p>
                             <h2 class="heading-2 has-margin-b30 has-margin-t60">Key takeaways</h2>
@@ -119,7 +119,7 @@
                             </ul>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'A semmittevés ára: miért ne halogasd a digitális transzformációt?'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The Cost of Doing Nothing: Why You Can’t Afford to Delay Digital Transformation?'])
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@
         "url": "{{ asset('media/blog/cover-why-you-cant-afford-to-delay-digital-transformation-en.png') }}"
     },
     "inLanguage": "en_gb",
-    "keywords": "BI, Business Intelligence, Big Data, Analytics, ERP",
+    "keywords": "Digital Transformation",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"

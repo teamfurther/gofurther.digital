@@ -29,7 +29,7 @@
                             <p>Abba viszont nem gondolunk bele, hogy a döntés elhalasztása önmagában is már egy döntés amit meghoztunk. Ez a döntés pedig az, hogy továbbra is idejétmúlt rendszerek, Excel táblázatok és elpazarolt munkaórák árán oldjuk meg a mindennapi ügyvitelt. Ez pedig egyenesen arányosan befolyásolja a cégünk hatékonyságát és nyereségességét.</p>
                             <p>Legtöbb cégvezető és döntéshozó tudja, hogy mennyire fontos a cége hatékonyságának a növelése. Mégis éveken keresztül tudják a digitális transzformációt halogatni: legyen az egy vállalatirányítási rendszer, de ugyanez igaz egy CRM szoftverre vagy akár a vásárlók viselkedésének követése IoT rendszerek segítésével. De miért is?</p>
                             <figure>
-                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-communication.jpg') }}" alt="A jó kommunikáció a siker kulcsa" />
+                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-out-of-time.jpg') }}" alt="A vezetőknek el kell kezdeniük digitális stratégiáik végrehajtását" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">A halogatás okai</h2>
                             <h3 class="heading-4 has-margin-b15">A váltás melletti érvek nem elég meggyőzőek</h3>
@@ -98,7 +98,7 @@
                             <p>A hasznot már egy fokkal nehezebb számszerűsíteni. Ebben belekalkulálhatjuk az automatizmusoknak köszönhetően megtakarított munkaórákat, a megnövekedett gyártási kapacitást, az alacsonyabb selejt arányt vagy a jobb ügyfélélménynek köszönhetően magasabb eládásokat.</p>
                             <p>Térjünk vissza a cikk elején említett Aberdeen Group által végzett felmérésre. Azok a cégek, akik meglépték az ERP bevezetést vagy frissítést, számos területen jobb számokat értek el mint azok, akik nem tettek semmit. Csökkent a vevők forgási ideje, nőtt az időben átadott projektek száma, leltár pontossága és az ügyfélelégedettség is. Az adatokhoz való hozzáférés pedig segítették a csapatokat, hogy informált döntéseket tudjanak hozni.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-figure-1-hu.jpg') }}" alt="A jó kommunikáció a siker kulcsa" />
+                                <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-statistics-1-hu.jpg') }}" alt="A jó kommunikáció a siker kulcsa" />
                             </figure>
                             <h3 class="heading-4 has-margin-b15">Most pedig egy kis matek!</h3>
                             <p class="has-margin-b30">Tegyük fel, hogy a digitális transzformációs folyamattól 50 millió Ft hasznot remélünk évente. Ha az 1 évre levetített TCO 20 millió Ft., akkor az ROI 1.5x lesz. Azaz az egy év alatt befektetett összeg másfélszeresét tudjuk megtakarítani.</p>
@@ -185,7 +185,7 @@
         "url": "{{ asset('media/blog/cover-why-you-cant-afford-to-delay-digital-transformation-hu.png') }}"
     },
     "inLanguage": "hu_HU",
-    "keywords": "Csapat, Remote csapat, Remote team, Távmunka, Távoli csapat, Kommunikáció, Céges távkapcsolat, Videóhívás, Team building, Csapatépítés, Munkavállaló, Motiváció, Remote vállalati kultúra",
+    "keywords": "Digital Transformation",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
