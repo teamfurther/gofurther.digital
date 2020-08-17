@@ -9,21 +9,21 @@
                         <div class="h-card vcard">
                             <div class="p-tel tel">
                                 <a href="tel:{{ str_replace(' ', '', config('site.contact.phone-1')) }}" class="value"
-                                   data-gtm-click='{ "show": { "event_category": "email", "event_label": "send" } }'
+                                   data-gtm-click='{ "show": { "event_category": "number", "event_label": "call" } }'
                                 >
                                     HU: {{ config('site.contact.phone-1') }}
                                 </a>
                             </div>
                             <div class="p-tel tel">
                                 <a href="tel:{{ str_replace(' ', '', config('site.contact.phone-2')) }}" class="value"
-                                   data-gtm-click='{ "click": { "event_category": "number", "event_label": "call" } }'
+                                   data-gtm-click='{ "show": { "event_category": "number", "event_label": "call" } }'
                                 >
                                     RO: {{ config('site.contact.phone-2') }}
                                 </a>
                             </div>
                             <div class="u-email email">
                                 <a href="mailto:{{ config('site.contact.email') }}" class="value"
-                                   data-gtm-click='{ "click": { "event_category": "number", "event_label": "call" } }'
+                                   data-gtm-click='{ "show": { "event_category": "email", "event_label": "send" } }'
                                 >
                                     {{ config('site.contact.email') }}
                                 </a>
