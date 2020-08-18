@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'dont-try-to-build-the-perfect-product',
+                'tags' => [
+                    'explained' => 'Explained',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'ne-probalj-tokeletes-termeket-fejleszteni',
+                'tags' => [
+                    'elmagyarazva' => 'Elmagyarázva',
+                ],
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'how-long-is-a-development-project',
                 'tags' => [
                     'explained' => 'Explained',
