@@ -1,10 +1,10 @@
-@section('title', '5 things, every business owner should know')
+@section('title', '5 Things Every Business Owner Should Know')
 @section('description', 'In this article, we\'ll show you what information is a must know for business owners to be able to plan ahead, and how a software can help you keep track and analyse these numbers.')
 @section('preview_image', asset('media/blog/cover-5-things-every-business-owner-should-know-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-5-things-every-business-owner-should-know.png') }}" srcset="{{ asset('media/blog/featured-5-things-every-business-owner-should-know-768w.png') }} 768w, {{ asset('media/blog/featured-5-things-every-business-owner-should-know-1000w.png') }} 1000w" sizes="100vw" alt="5 things, every business owner should know" />
+        <img src="{{ asset('media/blog/featured-5-things-every-business-owner-should-know.png') }}" srcset="{{ asset('media/blog/featured-5-things-every-business-owner-should-know-768w.png') }} 768w, {{ asset('media/blog/featured-5-things-every-business-owner-should-know-1000w.png') }} 1000w" sizes="100vw" alt="5 Things Every Business Owner Should Know" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">5 things, every business owner should know</h1>
+                            <h1 class="post__title p-name">5 Things Every Business Owner Should Know</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2019-11-02 12:00:00">Nov 2nd, 2019</time> &middot; 9 min read
                             </div>
@@ -98,7 +98,7 @@
                             <p>We hope this article helped you understand how a business intelligence software can help you organise and analyse your data. If you'd like to find out more about how a BI software can be used in your business, reach out to us and we'll gladly talk it through with you.</p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => '5 things, every business owner should know'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => '5 Things Every Business Owner Should Know'])
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
     "datePublished": "2019-11-02T12:00:00",
     "dateModified": "2019-11-02T12:00:00",
     "description": "In this article, we'll show you what information is a must know for business owners to be able to plan ahead, and how a software can help you keep track and analyse these numbers.",
-    "headline": "5 things, every business owner should know",
+    "headline": "5 Things Every Business Owner Should Know",
     "image": {
         "@type": "ImageObject",
         "height": 630,
@@ -169,7 +169,7 @@
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "5 things, every business owner should know",
+    "name": "5 Things Every Business Owner Should Know",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -209,7 +209,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "5 things, every business owner should know"
+                "name": "5 Things Every Business Owner Should Know"
             }
         }
     ]

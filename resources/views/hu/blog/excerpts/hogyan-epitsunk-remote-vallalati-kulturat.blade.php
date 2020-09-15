@@ -12,7 +12,7 @@
             </a>
         </h3>
         <p class="post__excerpt">
-            Miért olyan fontos a jó vállalati kultúra és hogyan alakíthatod ki ezt egy remote vállalat keretein belül? Ismerd meg milyen trükköket és technikákat alkalmazunk a Furthernél céges kultúra építésre.
+            Miért olyan fontos a jó vállalati kultúra és hogyan alakíthatod ki ezt egy remote csapat keretein belül? Ismerd meg milyen trükköket alkalmazunk a Furthernél céges kultúra építésre.
         </p>
         <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">
             Tovább &raquo;

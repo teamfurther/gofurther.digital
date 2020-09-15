@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-going-paperless.png') }}" srcset="{{ asset('media/blog/featured-going-paperless-768w.png') }} 768w, {{ asset('media/blog/featured-going-paperless-1000w.png') }} 1000w" sizes="100vw" alt="Going paperless: how to digitise your business?" />
+        <img src="{{ asset('media/blog/featured-going-paperless.png') }}" srcset="{{ asset('media/blog/featured-going-paperless-768w.png') }} 768w, {{ asset('media/blog/featured-going-paperless-1000w.png') }} 1000w" sizes="100vw" alt="Going Paperless: How to Digitise Your Business?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">Going paperless: how to digitise your business?</h1>
+                            <h1 class="post__title p-name">Going Paperless: How to Digitise Your Business?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2019-10-15 12:00:00">Oct 15th, 2019</time> &middot; 6 min read
                             </div>

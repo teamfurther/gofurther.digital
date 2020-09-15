@@ -12,7 +12,7 @@
             </a>
         </h3>
         <p class="post__excerpt">
-            A vízesés modell esetében egy szoftver minőségi és időben történő szállításának biztosítása érdekében ki kellett dolgozni a szoftverspecifikációt a legutolsó részletig. De mi a helyzet ha agilis környezetben fejlesztünk?
+            A vízesés modell esetében a minőségi és határidők biztosítása érdekében ki kellett dolgozni a szoftverspecifikációt a legutolsó részletig. De mi a helyzet ha agilis környezetben fejlesztünk?
         </p>
         <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'mitol-lesz-jo-egy-agilis-szoftverspecifikacio']) }}">
             Tovább &raquo;

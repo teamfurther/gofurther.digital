@@ -1,10 +1,10 @@
-@section('title', 'How to build a remote company culture')
+@section('title', 'How to Build a Remote Company Culture')
 @section('description', 'Why is a good corporate culture so important and how you can achieve it within a remote company?')
 @section('preview_image', asset('media/blog/cover-remote-corporate-culture-3-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-remote-corporate-culture-3-en.png') }}" srcset="{{ asset('media/blog/featured-remote-corporate-culture-3-768w-en.png') }} 768w, {{ asset('media/blog/featured-remote-corporate-culture-3-1000w-en.png') }} 1000w" sizes="100vw" alt="How to build a remote company culture" />
+        <img src="{{ asset('media/blog/featured-remote-corporate-culture-3-en.png') }}" srcset="{{ asset('media/blog/featured-remote-corporate-culture-3-768w-en.png') }} 768w, {{ asset('media/blog/featured-remote-corporate-culture-3-1000w-en.png') }} 1000w" sizes="100vw" alt="How to Build a Remote Company Culture" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">How to build a remote company culture?</h1>
+                            <h1 class="post__title p-name">How to Build a Remote Company Culture?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2019-12-28 12:00:00">2019 december 28</time> &middot; 6 min read
                             </div>
@@ -27,10 +27,10 @@
                             <p>We hope you liked this article about remote work. Browse the other articles of the series:</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
-                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
-                                <li><strong>Pt. 3 – How to build a remote company culture?</strong></li>
-                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
-                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a long-distance relationship work in a corporate environment?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to Hire Remote Talent?</a></li>
+                                <li><strong>Pt. 3 – How to Build a Remote Company Culture?</strong></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to Stay Motivated When You Work Remotely?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a Long-distance Relationship Work in a Corporate Environment?</a></li>
                             </ul>
                             <p class="has-margin-b30">Company culture is much more than a couple of foosball tables in the office. Company culture is about how you work, how you communicate with your clients, but also about how you connect with the rest of the team.</p>
                             <figure>
@@ -97,12 +97,12 @@
                             <p>No matter how mature culture is in a remote company, face-to-face meetings are always going to be necessary. Team building events offer a completely new layer of connections and interactions within the team, which you'll be able to translate to the virtual communication later on.</p>
                             <p>Team building activities help you get to know each other better, what excites and motivates you each in part. Grab every opportunity to meet in person. Apart from team buildings, a good way to meet is attending conferences and meetups.</p>
                             <div class="has-text-centered has-margin-t60">
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}" class="btn is-pearl has-margin-b15">« Pt. 2 – How to hire remote talent?</a>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}" class="btn is-pearl has-margin-b15">Pt. 4 – How to stay motivated when you work remotely? &raquo;</a>
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}" class="btn is-pearl has-margin-b15">« Pt. 2 – How to Hire Remote Talent?</a>
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}" class="btn is-pearl has-margin-b15">Pt. 4 – How to Stay Motivated When You Work Remotely? &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'How to build a remote company culture?'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'How to Build a Remote Company Culture?'])
                         </div>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
     "datePublished": "2019-12-28T12:00:00",
     "dateModified": "2019-12-28T12:00:00",
     "description": "Why is a good corporate culture so important and how you can achieve it within a remote company?",
-    "headline": "How to build a remote company culture",
+    "headline": "How to Build a Remote Company Culture",
     "image": {
         "@type": "ImageObject",
         "height": 630,
@@ -173,7 +173,7 @@
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "How to build a remote company culture",
+    "name": "How to Build a Remote Company Culture",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -213,7 +213,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "How to build a remote company culture"
+                "name": "How to Build a Remote Company Culture"
             }
         }
     ]

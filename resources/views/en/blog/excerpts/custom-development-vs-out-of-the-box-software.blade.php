@@ -12,7 +12,7 @@
             </a>
         </h3>
         <p class="post__excerpt">
-            At one stage, each company reaches a point when they need to invest in their software infrastructure in order to grow. We will try to help you decide if a custom-built solution or out-of-the-box software is right for you.
+            We will try to help you decide if a custom-built solution or out-of-the-box software is right for you when the time comes to invest in your software infrastructure.
         </p>
         <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'custom-development-vs-out-of-the-box-software']) }}">
             Read on &raquo;

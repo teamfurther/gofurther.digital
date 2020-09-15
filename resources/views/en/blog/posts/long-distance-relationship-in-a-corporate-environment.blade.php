@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">Can a long-distance relationship work in a corporate environment?</h1>
+                            <h1 class="post__title p-name">Can a Long-distance Relationship Work in a Corporate Environment?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2020-01-27 12:00:00">2020 january 27</time> &middot; 4 min read
                             </div>
@@ -27,10 +27,10 @@
                             <p>We hope you liked this article about remote work. Browse the other articles of the series:</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
-                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
-                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
-                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
-                                <li><strong>Pt. 5 – Can a long-distance relationship work in a corporate environment?</strong></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to Hire Remote Talent?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to Build a Remote Company Culture?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to Stay Motivated When You Work Remotely?</a></li>
+                                <li><strong>Pt. 5 – Can a Long-distance Relationship Work in a Corporate Environment?</strong></li>
                             </ul>
                             <p>In our <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">previous article,</a> we have outlined the many benefits and pitfalls of remote work. Now, let's see what makes a remote team, a truly cohesive team.</p>
                             <p>A strong corporate culture is often ignored, whether it is a physical or virtual office. A company is made up of people who work for greater goals and good. The greater the consistency between colleagues, the easier it is to work together.</p>
@@ -78,11 +78,11 @@
                             <p class="has-margin-t60">One of the keys to building trust is focusing on quality communication and properly interpreting feedback from employees.</p>
                             <p>A united, strong team can create wonderful things. Even though remote teams have their <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">own unique challenges.</a> A united team can unite in its goals and be successful in projects.</p>
                             <div class="has-text-centered has-margin-t60">
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}" class="btn is-pearl has-margin-b15">« Pt. 4 – How to stay motivated when you work remotely?</a>
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}" class="btn is-pearl has-margin-b15">« Pt. 4 – How to Stay Motivated When You Work Remotely?</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Can a long-distance relationship work in a corporate environment?'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Can a Long-distance Relationship Work in a Corporate Environment?'])
                         </div>
                     </div>
                 </div>

@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'why-you-cant-afford-to-delay-digital-transformation',
+                'tags' => [
+                    'digital-transformation' => 'Digital Transformation',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'miert-ne-halogasd-a-digitalis-transzformaciot',
+                'tags' => [
+                    'digitalis-transzformacio' => 'Digitális transzformáció',
+                ],
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'technical-debt-how-to-build-future-proof-it-systems',
                 'tags' => [
                     'explained' => 'Explained',
@@ -299,6 +313,7 @@ return [
                 ],
             ],
         ],
+
     ],
 
     'tags' => [

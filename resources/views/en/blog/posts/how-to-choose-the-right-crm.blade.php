@@ -1,10 +1,10 @@
-@section('title', 'How to choose the right CRM for your business?')
+@section('title', 'How to Choose the Right CRM for Your Business?')
 @section('description', 'In this article, we\'ll write about all the things you need to take into consideration when choosing the CRM for your business.')
 @section('preview_image', asset('media/blog/cover-how-to-choose-the-right-crm-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-how-to-choose-the-right-crm.png') }}" srcset="{{ asset('media/blog/featured-how-to-choose-the-right-crm-768w.png') }} 768w, {{ asset('media/blog/featured-how-to-choose-the-right-crm-1000w.png') }} 1000w" sizes="100vw" alt="How to choose the right CRM for your business?" />
+        <img src="{{ asset('media/blog/featured-how-to-choose-the-right-crm.png') }}" srcset="{{ asset('media/blog/featured-how-to-choose-the-right-crm-768w.png') }} 768w, {{ asset('media/blog/featured-how-to-choose-the-right-crm-1000w.png') }} 1000w" sizes="100vw" alt="How to Choose the Right CRM for Your Business?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">How to choose the right CRM for your business?</h1>
+                            <h1 class="post__title p-name">How to Choose the Right CRM for Your Business?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2019-10-01 12:00:00">Oct 1st, 2019</time> &middot; 7 min read
                             </div>
@@ -88,7 +88,7 @@
                             <p>If you still feel overwhelmed by the choices out there, get in touch, and we'll gladly share our experience and help you find the right CRM!</p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'How to choose the right CRM for your business?'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'How to Choose the Right CRM for Your Business?'])
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
     "datePublished": "2019-10-01T12:00:00",
     "dateModified": "2019-10-01T12:00:00",
     "description": "In this article, we'll write about all the things you need to take into consideration when choosing the CRM for your business.",
-    "headline": "How to choose the right CRM for your business?",
+    "headline": "How to Choose the Right CRM for Your Business?",
     "image": {
         "@type": "ImageObject",
         "height": 630,
@@ -159,7 +159,7 @@
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "How to choose the right CRM for your business?",
+    "name": "How to Choose the Right CRM for Your Business?",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -199,7 +199,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "How to choose the right CRM for your business?"
+                "name": "How to Choose the Right CRM for Your Business?"
             }
         }
     ]

@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">What makes a good (agile) software specification?</h1>
+                            <h1 class="post__title p-name">What Makes a Good (Agile) Software Specification?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2018-09-17 12:00:00">Sep 17th, 2018</time> &middot; 6 min read
                             </div>

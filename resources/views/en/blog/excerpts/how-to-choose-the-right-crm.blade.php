@@ -1,6 +1,6 @@
 <div class="post">
     <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'how-to-choose-the-right-crm']) }}">
-        <img src="{{ asset('media/blog/thumb-how-to-choose-the-right-crm.png') }}" alt="How to choose the right CRM for your business?" />
+        <img src="{{ asset('media/blog/thumb-how-to-choose-the-right-crm.png') }}" alt="How to Choose the Right CRM for Your Business?" />
     </a>
     <div class="post__content">
         <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
@@ -8,7 +8,7 @@
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-choose-the-right-crm']) }}">
-                How to choose the right CRM for your business?
+                How to Choose the Right CRM for Your Business?
             </a>
         </h3>
         <p class="post__excerpt">

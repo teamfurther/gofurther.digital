@@ -12,7 +12,7 @@
             </a>
         </h3>
         <p class="post__excerpt">
-            The 23rd of May was a special day for us, as we attended our first Laracon in Madrid. Laracon has always been high up on our conferences bucket list, but it just didn't work out for us. Until now.
+            Laracon has always been high up on our conferences bucket list, but it just didn't work out for us. Until now.
         </p>
         <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'laraconeu-madrid-2019']) }}">
             Read on &raquo;

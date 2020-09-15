@@ -1,6 +1,6 @@
 <div class="post">
     <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">
-        <img src="{{ asset('media/blog/thumb-remote-corporate-culture-4-en.png') }}" alt="How to stay motivated when you work remotely?" />
+        <img src="{{ asset('media/blog/thumb-remote-corporate-culture-4-en.png') }}" alt="How to Stay Motivated When You Work Remotely?" />
     </a>
     <div class="post__content">
         <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
@@ -8,7 +8,7 @@
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">
-                How to stay motivated when you work remotely?
+                How to Stay Motivated When You Work Remotely?
             </a>
         </h3>
         <p class="post__excerpt">

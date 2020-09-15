@@ -12,7 +12,7 @@
             </a>
         </h3>
         <p class="post__excerpt">
-            Valamikor minden vállalat eléri azt a pontot, amikor a növekedés érdekében be kell fektetnie a szoftveres infrastruktúrájába. Megpróbálunk segíteni abban, hogy eldöntsd, hogy az egyedi fejlesztés vagy egy dobozos megoldás a megfelelő számodra.
+            Megpróbálunk segíteni abban, hogy eldöntsd, hogy az egyedi fejlesztés vagy egy dobozos megoldás a megfelelő számodra ha szoftveres infrastruktúrába szeretnél fektetni.
         </p>
         <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">
             Tovább &raquo;

@@ -1,10 +1,10 @@
-@section('title', 'How long does it take to build a custom software?')
-@section('description', 'We\'re going to try and answer a question we frequently face: how long does it take to build a custom software?')
+@section('title', 'How Long Does It Take to Build a Custom Software?')
+@section('description', 'We\'re going to try and answer a question we frequently face: How Long Does It Take to Build a Custom Software?')
 @section('preview_image', asset('media/blog/cover-how-long-is-a-development-project-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-how-long-is-a-development-project.png') }}" srcset="{{ asset('media/blog/featured-how-long-is-a-development-project-768w.png') }} 768w, {{ asset('media/blog/featured-how-long-is-a-development-project-1000w.png') }} 1000w" sizes="100vw" alt="How long does it take to build a custom software?" />
+        <img src="{{ asset('media/blog/featured-how-long-is-a-development-project.png') }}" srcset="{{ asset('media/blog/featured-how-long-is-a-development-project-768w.png') }} 768w, {{ asset('media/blog/featured-how-long-is-a-development-project-1000w.png') }} 1000w" sizes="100vw" alt="How Long Does It Take to Build a Custom Software?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">How long does it take to build a custom software?</h1>
+                            <h1 class="post__title p-name">How Long Does It Take to Build a Custom Software?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2020-02-17 12:00:00">Feb 17th, 2020</time> &middot; 7 min read
                             </div>
@@ -82,7 +82,7 @@
                             <p>Although the development project is over, a new project will be launched immediately after, during which the software will need to be maintained and software upgrades will need to be performed. Moreover, our experience is that the development itself does not stop here, as the software needs to be constantly modified and new modules need to be added to meet the ever-evolving needs of the customers.</p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'How long does it take to build a custom software?'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'How Long Does It Take to Build a Custom Software?'])
                         </div>
                     </div>
                 </div>
@@ -139,8 +139,8 @@
     },
     "datePublished": "2019-02-17T12:00:00",
     "dateModified": "2019-02-17T12:00:00",
-    "description": "We're going to try and answer a question we frequently face: how long does it take to build a custom software?",
-    "headline": "How long does it take to build a custom software?",
+    "description": "We're going to try and answer a question we frequently face: How Long Does It Take to Build a Custom Software?",
+    "headline": "How Long Does It Take to Build a Custom Software?",
     "image": {
         "@type": "ImageObject",
         "height": 630,
@@ -153,7 +153,7 @@
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "How long does it take to build a custom software?",
+    "name": "How Long Does It Take to Build a Custom Software?",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -193,7 +193,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "How long does it take to build a custom software?"
+                "name": "How Long Does It Take to Build a Custom Software?"
             }
         }
     ]

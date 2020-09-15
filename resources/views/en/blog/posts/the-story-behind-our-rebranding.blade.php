@@ -1,10 +1,10 @@
-@section('title', 'The story behind our rebranding')
+@section('title', 'The Story Behind Our Rebranding')
 @section('description', 'We took the shot and decided to rebrand our company not only because change is necessary to grow, but the main reason behind the rebrand was that the old brand did not represent us well anymore.')
 @section('preview_image', asset('media/blog/cover-rebranding.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-rebranding.png') }}" srcset="{{ asset('media/blog/featured-rebranding-768w.png') }} 768w, {{ asset('media/blog/featured-rebranding-1000w.png') }} 1000w" sizes="100vw" alt="The story behind our rebranding" />
+        <img src="{{ asset('media/blog/featured-rebranding.png') }}" srcset="{{ asset('media/blog/featured-rebranding-768w.png') }} 768w, {{ asset('media/blog/featured-rebranding-1000w.png') }} 1000w" sizes="100vw" alt="The Story Behind Our Rebranding" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">The story behind our rebranding</h1>
+                            <h1 class="post__title p-name">The Story Behind Our Rebranding</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2019-05-13 12:00:00">May 13th, 2019</time> &middot; 4 min read
                             </div>
@@ -47,7 +47,7 @@
                             <p><em>Special thanks to <a href="https://www.behance.net/zsoltik" target="_blank"><strong>Zsolt</strong></a> and <a href="https://madebybalu.com" target="_blank"><strong>Balu</strong></a> for assisting us throughout the rebranding process. Next beer is on us!</em></p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The story behind our rebranding'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The Story Behind Our Rebranding'])
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
     "datePublished": "2019-05-13T12:00:00",
     "dateModified": "2019-05-13T12:00:00",
     "description": "We took the shot and decided to rebrand our company not only because change is necessary to grow, but the main reason behind the rebrand was that the old brand did not represent us well anymore.",
-    "headline": "The story behind our rebranding",
+    "headline": "The Story Behind Our Rebranding",
     "image": {
         "@type": "ImageObject",
         "height": 630,
@@ -118,7 +118,7 @@
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "The story behind our rebranding",
+    "name": "The Story Behind Our Rebranding",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -158,7 +158,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "The story behind our rebranding"
+                "name": "The Story Behind Our Rebranding"
             }
         }
     ]
