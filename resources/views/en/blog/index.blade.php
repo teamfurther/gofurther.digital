@@ -16,9 +16,9 @@
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}">
                                 Digital Transformation
                             </a>
-                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
                                 Start-up
-                            </a> -->
+                            </a>
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
                                 Explained
                             </a>
