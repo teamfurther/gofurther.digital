@@ -1,6 +1,6 @@
 <div class="post">
     <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'going-paperless-how-to-digitise-your-business']) }}">
-        <img src="{{ asset('media/blog/thumb-going-paperless.png') }}" alt="Going paperless: how to digitise your business?" />
+        <img src="{{ asset('media/blog/thumb-going-paperless.png') }}" alt="Going Paperless: How to Digitise Your Business?" />
     </a>
     <div class="post__content">
         <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
@@ -8,7 +8,7 @@
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => 'going-paperless-how-to-digitise-your-business']) }}">
-                Going paperless: how to digitise your business?
+                Going Paperless: How to Digitise Your Business?
             </a>
         </h3>
         <p class="post__excerpt">

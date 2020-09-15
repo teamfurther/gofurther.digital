@@ -12,7 +12,7 @@
             </a>
         </h3>
         <p class="post__excerpt">
-            Az ügyfélmenedzsment folyamatait illetően a legtöbb vállalkozás ugyanazokon a fázisokon megy keresztül. Cikkünkben arra derítünk fényt, hogy mikortól érdemes bevezetni egy CRM rendszert.
+            Az ügyfélmenedzsment folyamatait illetően a legtöbb vállalkozás ugyanazokon a fázisokon megy keresztül. De mikortól érdemes bevezetni egy CRM rendszert?
         </p>
         <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'mikor-hasznaljunk-crm-rendszert']) }}">
             Tovább &raquo;

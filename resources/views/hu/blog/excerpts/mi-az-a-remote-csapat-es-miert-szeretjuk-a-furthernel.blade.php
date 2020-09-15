@@ -12,7 +12,7 @@
             </a>
         </h3>
         <p class="post__excerpt">
-            Mik az előnyei és hátrányai a távmunkának? Mire érdemes odafigyelned, ha távmunkában gondolkozol? Mi hogyan csináljuk a Furtherél? Mindezt megtudhatod cikkünkből.
+            Mire érdemes odafigyelned, ha távmunkában gondolkozol? Mik az előnyei és hátrányai? Mi hogyan csináljuk a Furtherél? Mindezt megtudhatod cikkünkből.
         </p>
         <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">
             Tovább &raquo;

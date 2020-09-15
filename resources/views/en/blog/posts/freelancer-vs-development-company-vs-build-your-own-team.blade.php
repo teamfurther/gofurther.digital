@@ -1,10 +1,10 @@
-@section('title', 'Should you hire a freelancer, a development company or build your own team?')
+@section('title', 'Should You Hire a Freelancer, a Development Company or Build Your Own Team?')
 @section('description', 'There are several ways to go about implementing a custom software solution. But which option would suit you best?')
 @section('preview_image', asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-freelancer-vs-development-company-vs-build-your-own-team.png') }}" srcset="{{ asset('media/blog/featured-freelancer-vs-development-company-vs-build-your-own-team-768w.png') }} 768w, {{ asset('media/blog/featured-freelancer-vs-development-company-vs-build-your-own-team-1000w.png') }} 1000w" sizes="100vw" alt="Should you hire a freelancer, a development company or build your own team?" />
+        <img src="{{ asset('media/blog/featured-freelancer-vs-development-company-vs-build-your-own-team.png') }}" srcset="{{ asset('media/blog/featured-freelancer-vs-development-company-vs-build-your-own-team-768w.png') }} 768w, {{ asset('media/blog/featured-freelancer-vs-development-company-vs-build-your-own-team-1000w.png') }} 1000w" sizes="100vw" alt="Should You Hire a Freelancer, a Development Company or Build Your Own Team?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">Should you hire a freelancer, a development company or build your own team?</h1>
+                            <h1 class="post__title p-name">Should You Hire a Freelancer, a Development Company or Build Your Own Team?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2020-02-17 12:00:00">Feb 17th, 2020</time> &middot; 7 min read
                             </div>
@@ -91,7 +91,7 @@
                             <p>If you decided to outsource, drop us a line, we'd love to talk about your next project.</p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Should you hire a freelancer, a development company or build your own team?'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Should You Hire a Freelancer, a Development Company or Build Your Own Team?'])
                         </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
     "datePublished": "2019-02-17T12:00:00",
     "dateModified": "2019-02-17T12:00:00",
     "description": "There are several ways to go about implementing a custom software solution. But which option would suit you best?",
-    "headline": "Should you hire a freelancer, a development company or build your own team?",
+    "headline": "Should You Hire a Freelancer, a Development Company or Build Your Own Team?",
     "image": {
         "@type": "ImageObject",
         "height": 630,
@@ -162,7 +162,7 @@
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "Should you hire a freelancer, a development company or build your own team?",
+    "name": "Should You Hire a Freelancer, a Development Company or Build Your Own Team?",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -202,7 +202,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "Should you hire a freelancer, a development company or build your own team?"
+                "name": "Should You Hire a Freelancer, a Development Company or Build Your Own Team?"
             }
         }
     ]

@@ -12,7 +12,7 @@
             </a>
         </h3>
         <p class="post__excerpt">
-            Ma egy gyakran feltett kérdést próbálunk körbejárni, mégpedig azt, hogy milyen hosszú ideig tart majd a fejlesztés? Megnézzük azt is, hogy buktatókra érdemes odafigyelni, hogy ne húzódjon el nagyon egy projekt.
+            Ma egy gyakran feltett kérdést próbálunk körbejárni: milyen hosszú ideig tart egy fejlesztés és milyen buktatókra érdemes odafigyelni, hogy ne húzódjon el a projekt?
         </p>
         <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'milyen-hosszu-egy-fejlesztesi-projekt']) }}">
             Tovább &raquo;

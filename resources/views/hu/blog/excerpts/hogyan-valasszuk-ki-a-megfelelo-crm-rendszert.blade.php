@@ -12,7 +12,7 @@
             </a>
         </h3>
         <p class="post__excerpt">
-            Ha már eldöntöttük, hogy szükségünk van egy CRM-re, akkor hogyan válasszuk ki a megfelelőt? Cikkünkből megtudhatod melyek azok a szempontok amiket érdemes figyelembe venni.
+            Ha már eldöntöttük, hogy szükségünk van egy CRM-re, akkor hogyan válasszuk ki a megfelelőt?
         </p>
         <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-valasszuk-ki-a-megfelelo-crm-rendszert']) }}">
             Tovább &raquo;

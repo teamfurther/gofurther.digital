@@ -12,7 +12,7 @@
             </a>
         </h3>
         <p class="post__excerpt">
-            Ebben a cikkben bemutatjuk, mi a technikai adósság, mit tehetünk annak minimalizálása érdekében, és hogyan kezeljük a már felhalmozódott technikai adósságot.
+            Mi az a technikai adósság, mit tehetünk annak minimalizálása érdekében, és hogyan kezeljük a már felhalmozódott technikai adósságot?
         </p>
         <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'technikai-adossag-hogyan-legyenek-idotallo-it-rendszereink']) }}">
             Tovább &raquo;

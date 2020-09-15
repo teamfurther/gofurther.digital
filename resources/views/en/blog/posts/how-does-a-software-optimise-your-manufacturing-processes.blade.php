@@ -1,10 +1,10 @@
-@section('title', 'How does a software optimise your manufacturing processes?')
+@section('title', 'How Does a Software Optimise Your Manufacturing Processes?')
 @section('description', 'In today\'s article we\'d like to show you how a software can help optimise your product development, supply chain and manufacturing processes.')
 @section('preview_image', asset('media/blog/cover-manufacturing-software-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-manufacturing-software.png') }}" srcset="{{ asset('media/blog/featured-manufacturing-software-768w.png') }} 768w, {{ asset('media/blog/featured-manufacturing-software-1000w.png') }} 1000w" sizes="100vw" alt="How does a software optimise your manufacturing processes?" />
+        <img src="{{ asset('media/blog/featured-manufacturing-software.png') }}" srcset="{{ asset('media/blog/featured-manufacturing-software-768w.png') }} 768w, {{ asset('media/blog/featured-manufacturing-software-1000w.png') }} 1000w" sizes="100vw" alt="How Does a Software Optimise Your Manufacturing Processes?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">How does a software optimise your manufacturing processes?</h1>
+                            <h1 class="post__title p-name">How Does a Software Optimise Your Manufacturing Processes?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2019-10-26 12:00:00">Oct 26th, 2019</time> &middot; 6 min read
                             </div>
@@ -71,7 +71,7 @@
                             <p>If this article was interesting to you, and you'd like to learn more about how a software can help your manufacturing efforts, get in touch with us!</p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'How does a software optimise your manufacturing processes?'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'How Does a Software Optimise Your Manufacturing Processes?'])
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
     "datePublished": "2019-10-26T12:00:00",
     "dateModified": "2019-10-26T12:00:00",
     "description": "In today's article we'd like to show you how a software can help optimise your product development, supply chain and manufacturing processes.",
-    "headline": "How does a software optimise your manufacturing processes?",
+    "headline": "How Does a Software Optimise Your Manufacturing Processes?",
     "image": {
         "@type": "ImageObject",
         "height": 630,
@@ -142,7 +142,7 @@
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "How does a software optimise your manufacturing processes?",
+    "name": "How Does a Software Optimise Your Manufacturing Processes?",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -182,7 +182,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "How does a software optimise your manufacturing processes?"
+                "name": "How Does a Software Optimise Your Manufacturing Processes?"
             }
         }
     ]

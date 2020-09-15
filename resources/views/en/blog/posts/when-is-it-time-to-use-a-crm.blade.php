@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm.png') }}" srcset="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-768w.png') }} 768w, {{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-1000w.png') }} 1000w" sizes="100vw" alt="When is it time to use a CRM?" />
+        <img src="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm.png') }}" srcset="{{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-768w.png') }} 768w, {{ asset('media/blog/featured-when-is-it-time-to-use-a-crm-1000w.png') }} 1000w" sizes="100vw" alt="When is It Time to Use a CRM?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">When is it time to use a CRM?</h1>
+                            <h1 class="post__title p-name">When is It Time to Use a CRM?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2019-09-11 12:00:00">Sep 11th, 2019</time> &middot; 6 min read
                             </div>

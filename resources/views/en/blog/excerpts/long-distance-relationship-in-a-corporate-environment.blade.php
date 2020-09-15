@@ -1,6 +1,6 @@
 <div class="post">
     <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">
-        <img src="{{ asset('media/blog/thumb-remote-corporate-culture-5-en.png') }}" alt="Can a long-distance relationship work in a corporate environment?" />
+        <img src="{{ asset('media/blog/thumb-remote-corporate-culture-5-en.png') }}" alt="Can a Long-distance Relationship Work in a Corporate Environment?" />
     </a>
     <div class="post__content">
         <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
@@ -8,7 +8,7 @@
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">
-                Can a long-distance relationship work in a corporate environment?
+                Can a Long-distance Relationship Work in a Corporate Environment?
             </a>
         </h3>
         <p class="post__excerpt">

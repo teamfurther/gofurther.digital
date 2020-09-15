@@ -3,7 +3,7 @@
         <img src="{{ asset('media/blog/thumb-digital-transformation-1-hu.png') }}" alt="Digitális transzformáció 1. rész - Bevezető" />
     </a>
     <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformáció']) }}">
+        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
             Digitális transzformáció
         </a>
         <h3 class="post__title">

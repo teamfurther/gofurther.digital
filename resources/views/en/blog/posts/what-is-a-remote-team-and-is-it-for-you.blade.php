@@ -27,10 +27,10 @@
                             <p>This is the first part of our series on remote company culture. If you're looking for a specific article in the series, here are the links to each post::</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li><strong>Pt. 1 – What is a remote team (and is it for you)?</strong></li>
-                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent?</a></li>
-                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
-                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
-                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a long-distance relationship work in a corporate environment?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to Hire Remote Talent?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to Build a Remote Company Culture?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to Stay Motivated When You Work Remotely?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a Long-distance Relationship Work in a Corporate Environment?</a></li>
                             </ul>
                             <p>At Further we are working as a fully remote team. And we love it.</p>
                             <p>The IT sector sets the trend when it comes to remote work. Start-ups and digital companies often employ remote teams. In our case, we employ 10 people from 7 different cities. But remote work for large companies as well: <a href="https://www.invisionapp.com/" target="_blank">Invision</a> employs 700 people, but doesn't have one office.</p>
@@ -86,7 +86,7 @@
                             <p class="has-margin-t60">It's obvious that remote work has its challenges, but we believe that working from an office provides just as many. Taking everything into account, we believe that building remote teams could be the way forward for many businesses – even for those that were hesitant to take this step for now.</p>
                             <p>That is the reason why we started this series of articles. We wish to present you with the pros and cons of remote work, what to look out for when working remotely and of course, show you how we do it!</p>
                             <div class="has-text-centered">
-                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to hire remote talent? &raquo;</a>
+                                <a class="btn is-pearl has-margin-b15" href="{{ localizedRoute('blog.show', ['slug' => 'how-to-hire-remote-talent']) }}">Pt. 2 – How to Hire Remote Talent? &raquo;</a>
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">

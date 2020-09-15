@@ -1,6 +1,6 @@
 <div class="post">
     <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">
-        <img src="{{ asset('media/blog/thumb-remote-corporate-culture-3-en.png') }}" alt="How to build a remote company culture?" />
+        <img src="{{ asset('media/blog/thumb-remote-corporate-culture-3-en.png') }}" alt="How to Build a Remote Company Culture?" />
     </a>
     <div class="post__content">
         <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
@@ -8,7 +8,7 @@
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">
-                How to build a remote company culture?
+                How to Build a Remote Company Culture?
             </a>
         </h3>
         <p class="post__excerpt">

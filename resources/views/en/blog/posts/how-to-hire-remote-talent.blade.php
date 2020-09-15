@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">How to hire remote talent?</h1>
+                            <h1 class="post__title p-name">How to Hire Remote Talent?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2019-12-12 12:00:00">2019 december 12</time> &middot; 6 min read
                             </div>
@@ -27,10 +27,10 @@
                             <p>If you liked this article, read the rest of our series on remote work:</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">Pt. 1 – What is a remote team (and is it for you)?</a></li>
-                                <li><strong>Pt. 2 – How to hire remote talent?</strong></li>
-                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to build a remote company culture?</a></li>
-                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to stay motivated when you work remotely?</a></li>
-                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a long-distance relationship work in a corporate environment?</a></li>
+                                <li><strong>Pt. 2 – How to Hire Remote Talent?</strong></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to Build a Remote Company Culture?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to Stay Motivated When You Work Remotely?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a Long-distance Relationship Work in a Corporate Environment?</a></li>
                             </ul>
                             <p>In our previous article, we spoke about <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">the advantages and challenges</a> of working as a remote team. At Further we are 100% remote, and couldn't even imagine working in a different way.</p>
                             <p>Although working remotely is great, it's also true that it is not suitable for everyone. In an office, the proximity of your colleagues can be motivating on it's own. You don't have that when working remotely. So your team will need to be extremely self-disciplined to resist the temptation to binge-watch all 30+ seasons of The Simpsons.</p>
@@ -121,7 +121,7 @@
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'How to hire remote talent?'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'How to Hire Remote Talent?'])
                         </div>
                     </div>
                 </div>

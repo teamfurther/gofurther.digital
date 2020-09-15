@@ -8,7 +8,7 @@
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => 'szabaduszokat-sajat-it-csapatot-vagy-kulso-fejleszto-partnert-valasszunk']) }}">
-                Szabadúszókat, saját IT csapatot vagy külsős fejlesztő partnert válasszunk?
+                Szabadúszókat, saját IT csapatot vagy külsős partnert válasszunk?
             </a>
         </h3>
         <p class="post__excerpt">

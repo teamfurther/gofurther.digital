@@ -12,7 +12,7 @@
             </a>
         </h3>
         <p class="post__excerpt">
-            Május 23-a különleges nap volt számunkra, mivel részt vettünk az első Laracon találkozónkon Madridban. A Laracon mindig is ott volt a konferenciák bakancslistánkon, de nem sikerült eljutnunk&hellip; egészen mostanáig.
+            A Laracon mindig is ott volt a konferenciák bakancslistánkon, de nem sikerült eljutnunk&hellip; egészen mostanáig.
         </p>
         <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'laraconeu-madrid-2019']) }}">
             Tovább &raquo;
