@@ -1,10 +1,10 @@
 @section('title', 'Technical debt: how to build future-proof IT systems?')
-@section('description', 'In this article, we show what technical debt is, what we can do to minimize it, and how we can manage the technical debt that has already been accumulated.')
-@section('preview_image', asset('media/blog/cover-how-to-build-future-proof-it-systems-en.png'))
+@section('description', 'In this article, we show you what technical debt is, what we can do to minimize it, and how we can manage the technical debt that has already been accumulated.')
+@section('preview_image', asset('media/blog/cover-technical-debt-how-to-build-future-proof-it-systems-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-how-to-build-future-proof-it-systems.png') }}" srcset="{{ asset('media/blog/featured-how-to-build-future-proof-it-systems-768w.png') }} 768w, {{ asset('media/blog/featured-how-to-build-future-proof-it-systems-1000w.png') }} 1000w" sizes="100vw" alt="Technical debt: how to build future-proof IT systems?" />
+        <img src="{{ asset('media/blog/featured-technical-debt-how-to-build-future-proof-it-systems.png') }}" srcset="{{ asset('media/blog/featured-technical-debt-how-to-build-future-proof-it-systems-768w.png') }} 768w, {{ asset('media/blog/featured-technical-debt-how-to-build-future-proof-it-systems-1000w.png') }} 1000w" sizes="100vw" alt="Technical debt: how to build future-proof IT systems?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -24,21 +24,21 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p>$517 billion dollars. We rarely see an amount that large, so I’m going to type it out in digits as well: $517 000 000 000. That’s nine 0’s there. This sum represents the technical debt of the US in 2018, according to CISQ (Consortium for IT Software Quality) <a href="https://www.it-cisq.org/the-cost-of-poor-quality-software-in-the-us-a-2018-report/The-Cost-of-Poor-Quality-Software-in-the-US-2018-Report.pdf" target="_blank"><sup>1.</sup></a></p>
+                            <p>$517 billion dollars. We rarely see an amount that large, so I’m going to type it out in digits as well: $517 000 000 000. That’s nine 0’s there. This sum represents the technical debt of the US in 2018, according to CISQ (Consortium for IT Software Quality) <a href="https://www.it-cisq.org/the-cost-of-poor-quality-software-in-the-us-a-2018-report/The-Cost-of-Poor-Quality-Software-in-the-US-2018-Report.pdf" target="_blank"><sup>1</sup></a>.</p>
                             <p>Based on the above, we can undoubtedly state that having technical debt is costly. It’s also important, the tech industry writes a lot on the topic. We already mentioned it ourselves on a couple of occasions, right here on our own blog (like <a href="{{ localizedRoute('blog.show', ['slug' => 'custom-development-vs-out-of-the-box-software']) }}">here</a> or here). In spite of this, there are just a handful of people who are in the know about technical debt outside the tech industry. This article is geared towards them.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/how-to-build-future-proof-it-systems-technical-debt.jpg') }}" alt="Having technical debt is costly" />
+                                <img src="{{ asset('media/blog/technical-debt-how-to-build-future-proof-it-systems-technical-debt.jpg') }}" alt="Having technical debt is costly" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">What is technical debt?</h2>
                             <p>It’s not nice to be indebted to someone. The more debt we accumulate, the bigger the pressure on our shoulders. If you ever spoke to someone who managed to repay all his debts, they will most probably describe the feeling as “liberating”.</p>
                             <p>Technical debt is very similar to financial debt (hence the name). Just as with financial debt, technical debt also requires you to pay an interest. This interest can come in many shapes or forms: high maintenance, support or legal costs, the extreme costs of migrating from a legacy system or unmotivated staff.</p>
                             <p>If we don’t repay our debt before taking on new developments, we will constantly incur obstacles which will require us to take out another loan, increasing our debt. The higher the debt, the slower we will be able to progress. At some point, our development will be completely crippled by technical debt.</p>
-                            <p>This crippling effect is called software entropy. The second law of thermodynamics states that a closed system’s disorder cannot be reduced, it can only remain constant or increase. The measure of this disorder is entropy. Ivar Jacobson <a href="https://archive.org/details/objectorientedso00jaco/page/69/mode/2up" target="_blank"><sup>2</sup> </a> was the first who drew a parallel with software development: if we make constant changes to a software, without performing the necessary maintenance and upkeep, it’s disorder (or entropy) will increase.</p>
+                            <p>This crippling effect is called software entropy. The second law of thermodynamics states that a closed system’s disorder cannot be reduced, it can only remain constant or increase. The measure of this disorder is entropy. Ivar Jacobson<a href="https://archive.org/details/objectorientedso00jaco/page/69/mode/2up" target="_blank"><sup>2</sup></a> was the first who drew a parallel with software development: if we make constant changes to a software, without performing the necessary maintenance and upkeep, it’s disorder (or entropy) will increase.</p>
                             <p>A good example for this would be an ERP software. Such a system is constantly changing because of the changing business environment. If you don’t keep the documentation up-to-date, don’t maintain the code or do not perform the necessary technological updates, then we fall into a vicious circle: we need to perform these change in order for the software to be efficient and make us money, but to do so would require so much time and money that it’s just not worth it anymore. In cases such as this, our only option is to “rip and replace” the complete system.</p>
                             <p>Technical debt is a forward-looking metric that represents the incremental cost to a company as a result of prior decisions that were made to save time or money when implementing new systems or maintaining existing ones.</p>
                             <p>Imagine your existing IT systems… Now imagine how these systems would look like, if you would start an ideal system from scratch today. How much would it cost to modify the current systems, to achieve the same ideal system? This sum is your technical debt.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/how-to-build-future-proof-it-systems-what-leads-to-technical-debt.jpg') }}" alt="What causes technical debt" />
+                                <img src="{{ asset('media/blog/technical-debt-how-to-build-future-proof-it-systems-what-leads-to-technical-debt.jpg') }}" alt="What causes technical debt" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">What leads to technical debt?</h2>
                             <p>What leads to the accumulation of technical debt is usually a compromised decision. This compromise may stem from a lack of time or lack of money.</p>
@@ -52,7 +52,7 @@
                             </ul>
                             <p>Technical debt is unavoidable. Software and hardware is being developed at unprecedented speeds, with new updates and security fixes every day, that the passing time alone results in technical debt.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/how-to-build-future-proof-it-systems-the-cost-of-technical-debt.jpg') }}" alt="Technical debt echoes the impact of financial debt" />
+                                <img src="{{ asset('media/blog/technical-debt-how-to-build-future-proof-it-systems-the-cost-of-technical-debt.jpg') }}" alt="Technical debt echoes the impact of financial debt" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">The cost of technical debt</h2>
                             <p>Technical debt is inherently part of existing software products. But because the reduction of technical debt is not really quantifiable, IT has a hard time explaining to business, why resources are necessary to combat debt.</p>
@@ -70,7 +70,7 @@
                             <p>The activity to discover and correct latent defects, before they become effective defects is called preventive maintenance. These activities include performing software updates, security updates, code refactoring, but also keeping the documentation updated.</p>
                             <p>Preventive maintenance accounts for only 5% of the total costs, however, if neglected, it can significantly increase the costs of corrective, adaptive and perfective maintenance. This can be see on the below figure.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/how-to-build-future-proof-it-systems-statistic-en.png') }}" alt="How to build future-proof IT systems - 1. statistics" />
+                                <img src="{{ asset('media/blog/technical-debt-how-to-build-future-proof-it-systems-statistic-en.png') }}" alt="How to build future-proof IT systems - 1. statistics" />
                             </figure>
                             <p>Apart from the direct increase in costs, technical debt also has indirect effects, such as:</p>
                             <ul class="list has-bullets">
@@ -154,16 +154,16 @@
     },
     "datePublished": "2020-07-21T12:00:00",
     "dateModified": "2020-07-21T12:00:00",
-    "description": "In this article, we show what technical debt is, what we can do to minimize it, and how we can manage the technical debt that has already been accumulated.",
+    "description": "In this article, we show you what technical debt is, what we can do to minimize it, and how we can manage the technical debt that has already been accumulated.",
     "headline": "Technical debt: how to build future-proof IT systems?",
     "image": {
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-how-to-build-future-proof-it-systems-en.png') }}"
+        "url": "{{ asset('media/blog/cover-technical-debt-how-to-build-future-proof-it-systems-en.png') }}"
     },
     "inLanguage": "en_gb",
-    "keywords": "BI, Business Intelligence, Technical debt ",
+    "keywords": "IT, ERP, Software, Technical debt",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"

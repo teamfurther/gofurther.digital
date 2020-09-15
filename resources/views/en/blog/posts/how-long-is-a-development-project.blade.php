@@ -1,6 +1,6 @@
 @section('title', 'How long does it take to build a custom software?')
 @section('description', 'We\'re going to try and answer a question we frequently face: how long does it take to build a custom software?')
-@section('preview_image', asset('media/blog/cover-how-long-is-a-development-project.png'))
+@section('preview_image', asset('media/blog/cover-how-long-is-a-development-project-en.png'))
 
 @section('content')
     <div class="post__featured-image">
@@ -145,7 +145,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-how-long-is-a-development-project.png') }}"
+        "url": "{{ asset('media/blog/cover-how-long-is-a-development-project-en.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Freelancer, Outsourcing",

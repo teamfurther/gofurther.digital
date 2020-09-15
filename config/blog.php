@@ -5,13 +5,13 @@ return [
     'posts' => [
         [
             'en' => [
-                'slug' => 'how-to-build-future-proof-it-systems',
+                'slug' => 'technical-debt-how-to-build-future-proof-it-systems',
                 'tags' => [
                     'explained' => 'Explained',
                 ],
             ],
             'hu' => [
-                'slug' => 'hogyan-legyenek-idotallo-it-rendszereink',
+                'slug' => 'technikai-adossag-hogyan-legyenek-idotallo-it-rendszereink',
                 'tags' => [
                     'elmagyarazva' => 'Elmagyarázva',
                 ],

@@ -1,10 +1,10 @@
-@section('title', 'Hogyan legyenek időtálló IT rendszereink?')
-@section('description', 'Ebben a cikkben megmutatjuk, melyek azok az adatok, amelyeket minden vezetőnek ismernie kell hogy stratégiát tudjon alkotni, és hogyan segít egy szoftver ezek megismerésében.')
-@section('preview_image', asset('media/blog/cover-how-to-build-future-proof-it-systems-hu.png'))
+@section('title', 'Technikai adósság avagy hogyan legyenek időtálló IT rendszereink?')
+@section('description', 'Ebben a cikkben bemutatjuk, mi a technikai adósság, mit tehetünk annak minimalizálása érdekében, és hogyan kezeljük a már felhalmozódott technikai adósságot.')
+@section('preview_image', asset('media/blog/cover-technical-debt-how-to-build-future-proof-it-systems-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-how-to-build-future-proof-it-systems.png') }}" srcset="{{ asset('media/blog/featured-how-to-build-future-proof-it-systems-768w.png') }} 768w, {{ asset('media/blog/featured-how-to-build-future-proof-it-systems-1000w.png') }} 1000w" sizes="100vw" alt="Technikai adósság avagy hogyan legyenek időtálló IT rendszereink?" />
+        <img src="{{ asset('media/blog/featured-technical-debt-how-to-build-future-proof-it-systems.png') }}" srcset="{{ asset('media/blog/featured-technical-debt-how-to-build-future-proof-it-systems-768w.png') }} 768w, {{ asset('media/blog/featured-technical-debt-how-to-build-future-proof-it-systems-1000w.png') }} 1000w" sizes="100vw" alt="Technikai adósság avagy hogyan legyenek időtálló IT rendszereink?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -24,10 +24,10 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p>517 milliárd dollár. Ritkán látunk ekkora összeget, ezért leírom számjegyekkel is: $517 000 000 000. Az ott 9 darab 0-ás. Ekkora volt a CISQ (Consortium for IT Software Quality) szerint<a href="https://www.it-cisq.org/the-cost-of-poor-quality-software-in-the-us-a-2018-report/The-Cost-of-Poor-Quality-Software-in-the-US-2018-Report.pdf" target="_blank"><sup>1.</sup></a>a technikai adóssága az USA-nak, 2018-ban.</p>
+                            <p>517 milliárd dollár. Ritkán látunk ekkora összeget, ezért leírom számjegyekkel is: $517 000 000 000. Az ott 9 darab 0-ás. Ekkora volt a CISQ (Consortium for IT Software Quality) szerint<a href="https://www.it-cisq.org/the-cost-of-poor-quality-software-in-the-us-a-2018-report/The-Cost-of-Poor-Quality-Software-in-the-US-2018-Report.pdf" target="_blank"><sup>1</sup></a> a technikai adóssága az USA-nak, 2018-ban.</p>
                             <p>A fentiek alapján nyugodtan megállapíthatjuk, hogy a technikai adósság drága mulatság. Ugyanakkor fontos is, a technológiai ipar nagyon sokat foglalkozik a témával. Sőt, már mi is érintettük párszor a blogunkon (pld. <a href="{{ localizedRoute('blog.show', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">itt</a> vagy itt). Ennek ellenére az iparágon kívül kevesen tudják mi is az a technikai adósság. Ez a cikk nekik szól.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/how-to-build-future-proof-it-systems-technical-debt.jpg') }}" alt="A technikai adósság drága mulatság" />
+                                <img src="{{ asset('media/blog/technical-debt-how-to-build-future-proof-it-systems-technical-debt.jpg') }}" alt="A technikai adósság drága mulatság" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Mi az a technikai adósság?</h2>
                             <p>Valaki adósának lenni nem jó érzés. Minél inkább eladósodunk, annál nagyobb rajtunk a nyomás. Ha beszéltél már valakivel, akinek sikerült törlesztenie az adósságát, akkor nagy valószínűséggel felszabadító érzésként élte ezt meg.</p>
@@ -38,7 +38,7 @@
                             <p>A technikai adósság egy előremutató mérőszám, amely segítségével számszerűsíthető azoknak a döntéseknek a hatása, amikor egy gyorsabb vagy olcsóbb megoldást választottuk egy rendszer bevezetésénél vagy karbantartásánál.</p>
                             <p>Képzeljük el a meglévő IT rendszereinket… most pedig képzeljük el, hogy néznének ki azok a rendszerek, ha most kezdenénk el 0-ról felépíteni egy ideális rendszert. Mennyibe kerülne nekünk a meglévő rendszereinket úgy átalakítani, hogy az ideális rendszerhez jussunk? Ez a költség a technikai adósság.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/how-to-build-future-proof-it-systems-what-leads-to-technical-debt.jpg') }}" alt="Mi okozza a technikai adósságot?" />
+                                <img src="{{ asset('media/blog/technical-debt-how-to-build-future-proof-it-systems-what-leads-to-technical-debt.jpg') }}" alt="Mi okozza a technikai adósságot?" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Mi vezet a technikai adósság felhalmozásához?</h2>
                             <p>A technikai adósság felhalmozásához általában egy kompromisszumos döntés meghozatala vezet. Ez a kompromisszum fakadhat időhiány vagy költségcsökkentés miatt.</p>
@@ -52,7 +52,7 @@
                             </ul>
                             <p>A technikai adósság elkerülhetetlen. A szoftver és hardver is rohamtempóban fejlődik, naponta új funkcionális és biztonsági frissítések jelennek meg, ezért már csak pusztán az idő elteltével nő a technikai adósságunk.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/how-to-build-future-proof-it-systems-the-cost-of-technical-debt.jpg') }}" alt="A technikai adósság visszatükrözi a pénzügyi adósság hatását" />
+                                <img src="{{ asset('media/blog/technical-debt-how-to-build-future-proof-it-systems-the-cost-of-technical-debt.jpg') }}" alt="A technikai adósság visszatükrözi a pénzügyi adósság hatását" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">A technikai adósság költsége</h2>
                             <p>A technikai adósság eredendően része a szoftvereknek. Az adósság csökkentése viszont nem igazán számszerűsíthető, ezért az IT-nak nehéz feladata van, amikor be kell mutassa a vezetőségnek, hogy miért szükséges mégis erre erőforrásokat fordítani.</p>
@@ -70,7 +70,7 @@
                             <p>Preventív karbantartásnak nevezzük az alvó hibák felderítését és javítását, még mielőtt ezek effektív hibákká válnának. Ilyen feladat például a szoftverfrissítés, a biztonsági frissítés vagy a refaktorálás is, de ide sorolhatjuk akár a dokumentáció naprakészen tartását is.</p>
                             <p>A preventív karbantartás csupán 5%-át teszi ki a teljes karbantartási költségnek, de ha elhanyagoljuk, akkor jelentősen megnövelheti a korrektív, az adaptív és a perfektív karbantartások idejét és költségét. Ez látható az alábbi grafikonon.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/how-to-build-future-proof-it-systems-statistic-hu.png') }}" alt="Hogyan legyenek időtálló IT rendszereink - 1. statisztika" />
+                                <img src="{{ asset('media/blog/technical-debt-how-to-build-future-proof-it-systems-statistic-hu.png') }}" alt="Hogyan legyenek időtálló IT rendszereink - 1. statisztika" />
                             </figure>
                             <p>A fenti direkt költségnövekedésen a technikai adósságnak egyéb, közvetett hatásai is vannak, mint például:</p>
                             <ul class="list has-bullets">
@@ -154,21 +154,21 @@
     },
     "datePublished": "2020-07-21T12:00:00",
     "dateModified": "2020-07-21T12:00:00",
-    "description": "Ebben a cikkben megmutatjuk, melyek azok az adatok, amelyeket minden vezetőnek ismernie kell hogy stratégiát tudjon alkotni, és hogyan segít egy szoftver ezek megismerésében.",
-    "headline": "Hogyan legyenek időtálló IT rendszereink?",
+    "description": "Ebben a cikkben bemutatjuk, mi a technikai adósság, mit tehetünk annak minimalizálása érdekében, és hogyan kezeljük a már felhalmozódott technikai adósságot.",
+    "headline": "Technikai adósság avagy hogyan legyenek időtálló IT rendszereink?",
     "image": {
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-how-to-build-future-proof-it-systems-hu.png') }}"
+        "url": "{{ asset('media/blog/cover-technical-debt-how-to-build-future-proof-it-systems-hu.png') }}"
     },
     "inLanguage": "hu_HU",
-    "keywords": "BI, Business Intelligence, Üzleti Intelligencia, Vállalatirányítás, Technical debt, Technikai adósság ",
+    "keywords": "IT, ERP, Vállalatirányítási rendszer, Szoftver, Technikai adósság",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "Hogyan legyenek időtálló IT rendszereink?",
+    "name": "Technikai adósság avagy hogyan legyenek időtálló IT rendszereink?",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -208,7 +208,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "Hogyan legyenek időtálló IT rendszereink?"
+                "name": "Technikai adósság avagy hogyan legyenek időtálló IT rendszereink?"
             }
         }
     ]

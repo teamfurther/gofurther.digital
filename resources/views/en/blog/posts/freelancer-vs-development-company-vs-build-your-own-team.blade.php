@@ -1,6 +1,6 @@
 @section('title', 'Should you hire a freelancer, a development company or build your own team?')
 @section('description', 'There are several ways to go about implementing a custom software solution. But which option would suit you best?')
-@section('preview_image', asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team.png'))
+@section('preview_image', asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team-en.png'))
 
 @section('content')
     <div class="post__featured-image">
@@ -154,7 +154,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team.png') }}"
+        "url": "{{ asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team-en.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Freelancer, Outsourcing",
