@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'technical-debt-how-to-build-future-proof-it-systems',
+                'tags' => [
+                    'explained' => 'Explained',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'technikai-adossag-hogyan-legyenek-idotallo-it-rendszereink',
+                'tags' => [
+                    'elmagyarazva' => 'Elmagyarázva',
+                ],
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'how-long-is-a-development-project',
                 'tags' => [
                     'explained' => 'Explained',

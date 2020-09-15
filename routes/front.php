@@ -44,6 +44,8 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
     Route::get('projects', [ProjectsController::class, 'index'])->name('projects');
     Route::get('projects/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
 
+    Route::view('newsletter/why', 'en.newsletter.why')->name('newsletter.why');
+
     Route::view('solutions', 'en.solutions.index')
         ->name('solutions');
     Route::view('solutions/accounting', 'en.solutions.pages.accounting')
@@ -106,6 +108,8 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
 
     Route::get('projektek', [ProjectsController::class, 'index'])->name('projects');
     Route::get('projektek/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
+
+    Route::view('hirlevel/miert', 'hu.newsletter.why')->name('newsletter.why');
 
     Route::view('megoldasaink', 'hu.solutions.index')
         ->name('solutions');

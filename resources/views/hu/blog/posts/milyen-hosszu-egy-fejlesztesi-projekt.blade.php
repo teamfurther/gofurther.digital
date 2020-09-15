@@ -1,6 +1,6 @@
 @section('title', 'Milyen hosszú egy fejlesztési projekt?')
 @section('description', 'Megpróbálunk egy gyakran feltett kérdést próbálunk körbejárni: milyen hosszú ideig tart majd a fejlesztés?')
-@section('preview_image', asset('media/blog/cover-how-long-is-a-development-project.png'))
+@section('preview_image', asset('media/blog/cover-how-long-is-a-development-project-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
@@ -148,7 +148,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-how-long-is-a-development-project.png') }}"
+        "url": "{{ asset('media/blog/cover-how-long-is-a-development-project-hu.png') }}"
     },
     "inLanguage": "hu_HU",
     "keywords": "Szabadúszó, Freelancer, Outsourcing",

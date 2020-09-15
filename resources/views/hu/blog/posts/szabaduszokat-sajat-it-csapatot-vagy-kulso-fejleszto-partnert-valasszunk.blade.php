@@ -1,6 +1,6 @@
 @section('title', 'Szabadúszókat, saját IT csapatot vagy külsős fejlesztő partnert válasszunk?')
 @section('description', 'Egy egyedi szoftvert sokféleképpen le lehet fejleszteni. De melyik opció a legmegfelelőbb számodra?')
-@section('preview_image', asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team.png'))
+@section('preview_image', asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
@@ -157,7 +157,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team.png') }}"
+        "url": "{{ asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team-hu.png') }}"
     },
     "inLanguage": "hu_HU",
     "keywords": "Szabadúszó, Freelancer, Outsourcing",
