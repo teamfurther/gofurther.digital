@@ -151,7 +151,7 @@
         "url": "{{ asset('media/blog/cover-dont-try-to-build-the-perfect-product-hu.png') }}"
     },
     "inLanguage": "hu_HU",
-    "keywords": "MVP, Minimum Viable Product, Start-up, ",
+    "keywords": "MVP, Minimum Viable Product, Start-up, Ötletvalidáció",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
