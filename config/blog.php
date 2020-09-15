@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'dont-try-to-build-the-perfect-product',
+                'tags' => [
+                    'start-up' => 'Start-up',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'ne-probalj-tokeletes-termeket-fejleszteni',
+                'tags' => [
+                    'start-up' => 'Start-up',
+                ],
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'why-you-cant-afford-to-delay-digital-transformation',
                 'tags' => [
                     'digital-transformation' => 'Digital Transformation',
