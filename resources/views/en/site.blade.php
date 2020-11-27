@@ -224,12 +224,13 @@
             <nav class="footer__nav">
                 <span class="footer__nav__title">Links</span>
                 {{--<a href="{{ localizedRoute('events') }}">Events</a>--}}
-                <a href="{{ localizedRoute('jobs') }}">Careers</a>
                 <a href="{{ localizedRoute('about') }}">About</a>
-                <a href="{{ localizedRoute('tech-stack') }}">Tech stack</a>
+                <a href="{{ localizedRoute('jobs') }}">Careers</a>
                 <a href="{{ localizedRoute('contact') }}">Contact</a>
+                <a href="{{ localizedRoute('newsletter') }}">Newsletters</a>
+                <a href="{{ localizedRoute('tech-stack') }}">Tech stack</a>
                 @if (switchLang('hu'))
-                <a class="footer__lang" href="{{ switchLang('hu') }}">Magyar</a>
+                    <a class="footer__lang" href="{{ switchLang('hu') }}">Magyar</a>
                 @endif
             </nav>
             <nav class="social-icons is-small">

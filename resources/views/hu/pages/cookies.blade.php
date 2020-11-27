@@ -58,7 +58,7 @@
                         <li><a href="https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy" target="_blank">Cookie-beállítások Edge-ben</a></li>
                         <li><a href="https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies" target="_blank">Cookie-beállítások Internet Explorerben</a></li>
                     </ul>
-                    <p>Ha közvetlenül kapcsolatba szeretnél lépni velünk a cookie-k felhasználásával kapcsolatban, kérjük, írjál nekünk a következő címre: <a href="mailto:hello@gofurther.digital">hello@gofurther.digital</a>.</p>
+                    <p>Ha közvetlenül kapcsolatba szeretnél lépni velünk a cookie-k felhasználásával kapcsolatban, kérjük, írjál nekünk a következő címre: <a href="mailto:{{ config('mail.to') }}">{{ config('mail.to') }}</a>.</p>
                 </div>
             </div>
         </div>

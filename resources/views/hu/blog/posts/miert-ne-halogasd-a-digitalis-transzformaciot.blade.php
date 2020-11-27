@@ -27,7 +27,7 @@
                             <p>Mikor felmerül a digitális transzformáció (DX) szükségessége, az egyik első kérdés az szokott lenni, hogy mekkora lesz a bevezetéshez szükséges befektetés? Amit viszont ennél sokkal ritkábban teszünk fel magunkban az, hogy mennyibe kerül minden egyes nap, hét vagy hónap, amit a döntés halogatásával töltünk el?</p>
                             <p>A halogatásnak különböző okai lehetnek: úgy érezzük a jelenlegi rendszereink elegendőek a működéshez, félünk a változástól vagy egyszerűen nem tudunk dönteni a lehetőségek között.</p>
                             <p>Abba viszont nem gondolunk bele, hogy a döntés elhalasztása önmagában is már egy döntés amit meghoztunk. Ez a döntés pedig az, hogy továbbra is idejétmúlt rendszerek, Excel táblázatok és elpazarolt munkaórák árán oldjuk meg a mindennapi ügyvitelt. Ez pedig egyenesen arányosan befolyásolja a cégünk hatékonyságát és nyereségességét.</p>
-                            <p>Legtöbb cégvezető és döntéshozó tudja, hogy mennyire fontos a cége hatékonyságának a növelése. Mégis éveken keresztül tudják a digitális transzformációt halogatni: legyen az egy vállalatirányítási rendszer, de ugyanez igaz egy CRM szoftverre vagy akár a vásárlók viselkedésének követése IoT rendszerek segítésével. De miért is?</p>
+                            <p>Legtöbb cégvezető és döntéshozó tudja, hogy mennyire fontos a cége hatékonyságának a növelése. Mégis éveken keresztül tudják a digitális transzformációt halogatni: legyen az egy vállalatirányítási rendszer, de ugyanez igaz egy CRM szoftverre vagy akár a vásárlók viselkedésének követésére IoT rendszerek segítségével. De miért is?</p>
                             <figure>
                                 <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-out-of-time.jpg') }}" alt="A vezetőknek el kell kezdeniük digitális stratégiáik végrehajtását" />
                             </figure>
@@ -134,7 +134,7 @@
         </div>
     </section>
 
-    @include(getLang() . '.banners.projects')
+    @include(getLang() . '.banners.newsletter-subscription')
 @endsection
 
 

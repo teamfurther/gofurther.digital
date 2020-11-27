@@ -22,10 +22,10 @@
 
                             <div class="is-pulled-left">
                                 <div class="form-group {{ isset($errors) && $errors->has('name') ? 'has-error' : '' }}">
-                                    <input class="form-control" name="name" placeholder="Neved*" type="text" value="{{ old('name') }}" autocomplete="name" tabindex="1" required />
+                                    <input class="form-control" name="name" placeholder="Neved *" type="text" value="{{ old('name') }}" autocomplete="name" tabindex="1" required />
                                 </div>
                                 <div class="form-group {{ isset($errors) && $errors->has('email') ? 'has-error' : '' }}">
-                                    <input class="form-control" name="email" placeholder="E-mail címed*" type="email" value="{{ old('email') }}" autocomplete="email" tabindex="3" required />
+                                    <input class="form-control" name="email" placeholder="E-mail címed *" type="email" value="{{ old('email') }}" autocomplete="email" tabindex="3" required />
                                 </div>
                             </div>
                             <div class="is-pulled-right">
@@ -37,7 +37,7 @@
                                 </div>
                             </div>
                             <div class="form-group {{ isset($errors) && $errors->has('message') ? 'has-error' : '' }}">
-                                <textarea class="form-control" name="message" placeholder="Üzenet*" rows="5" tabindex="5" required>{{ old('message') }}</textarea>
+                                <textarea class="form-control" name="message" placeholder="Üzenet *" rows="5" tabindex="5" required>{{ old('message') }}</textarea>
                             </div>
                             {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
                             <button class="btn is-large is-pearl" type="submit">Küldés</button>

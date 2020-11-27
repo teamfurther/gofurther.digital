@@ -16,7 +16,8 @@
         "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
-        "msurguy/honeypot": "^1.1.4"
+        "msurguy/honeypot": "^1.1.4",
+        "sendinblue/api-v3-sdk": "^7.2"
     },
     "require-dev": {
         "facade/ignition": "^2.0",

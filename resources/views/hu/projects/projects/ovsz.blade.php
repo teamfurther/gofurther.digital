@@ -24,6 +24,9 @@
                     <p>
                         Mivel nem létezett kétirányú adatcsere, a plazmaferezis állomások nem tudták felmérni, ha egy donor már kiszűrtnek lett minősítve egy másik állomás által.
                     </p>
+                    <p>
+                        <small>A projekt a <a href="https://www.happymed.hu" target="_blank">Happymed-el</a> és a <a href="http://popcode.hu" target="_blank">Popcode-al</a> közreműködésben készült.</small>
+                    </p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
                     <img src="{{ asset('media/projects/ovsz-illustration.png') }}" alt="OVSZ - Online keresztdonációs regiszter" />

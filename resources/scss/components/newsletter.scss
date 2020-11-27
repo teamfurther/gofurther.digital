@@ -1,0 +1,171 @@
+.newsletter-box {
+    background-color: $cobalt;
+    color: $white;
+    margin: 60px -15px;
+    padding: 50px 30px 15px;
+
+    @include tablet() {
+        margin-top: 0;
+    }
+
+    @include desktop() {
+        margin: -60px -15px;
+        padding-bottom: 30px;
+    }
+
+    .hero-heading {
+        color: $black;
+        margin-bottom: 30px;
+
+        strong {
+            color: $tangerine;
+        }
+    }
+
+    &__form {
+        background-color: $white;
+        border-radius: 3px;
+        box-shadow: 0 0 30px 0 rgba($black, .5);
+        margin-top: -100px;
+        padding: 15px;
+
+        @include tablet() {
+            padding: 30px;
+        }
+
+        @include desktop() {
+            padding: 60px 30px;
+        }
+
+        label {
+            color: $grey-text;
+        }
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+.newsletter-timeline {
+    padding: 0 15px;
+
+    @include tablet() {
+        padding: 0 30px;
+    }
+
+    &__image {
+        visibility: hidden;
+        max-width: calc(50% - 60px);
+
+        @include tablet() {
+            visibility: visible;
+        }
+    }
+
+    &__issue {
+        color: $grey-darker;
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+
+        &:hover {
+            color: $grey-darker;
+        }
+    }
+
+    &__title {
+        color: $cobalt;
+        display: none;
+        font-size: 18px;
+
+        @include tablet() {
+            display: block;
+        }
+
+        &:hover {
+            color: $cobalt;
+            text-decoration: underline;
+        }
+    }
+
+    &__tree {
+        display: flex;
+        flex-direction: column;
+
+        li {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0;
+            position: relative;
+            width: 100%;
+
+            @include tablet() {
+                padding: 30px 0;
+            }
+
+            & > div {
+                width: 50%;
+            }
+
+            &::after {
+                background-color: $cobalt;
+                border-radius: 100%;
+                content: '';
+                display: block;
+                height: 9px;
+                left: 50%;
+                position: absolute;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                width: 9px;
+            }
+
+            &::before {
+                background-color: $cobalt;
+                content: '';
+                display: block;
+                height: 100%;
+                left: 50%;
+                position: absolute;
+                transform: translate(-50%, 0);
+                width: 2px;
+            }
+
+            &:nth-child(odd) {
+                align-self: flex-start;
+                flex-direction: row;
+
+                & > div {
+                    padding-left: 30px;
+
+                    @include tablet() {
+                        padding-left: 60px;
+                    }
+                }
+            }
+
+            &:nth-child(even) {
+                align-self: flex-end;
+                flex-direction: row-reverse;
+
+                & > div {
+                    padding-right: 30px;
+                    text-align: right;
+
+                    @include tablet() {
+                        padding-right: 60px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__year {
+        display: block;
+        font-size: 32px;
+        margin: 30px 0;
+        text-align: center;
+    }
+}

@@ -100,7 +100,7 @@
         </div>
     </section>
 
-    @include(getLang() . '.banners.projects')
+    @include(getLang() . '.banners.newsletter-subscription')
 @endsection
 
 

@@ -58,7 +58,7 @@
                             <p>Fontos szempont lehet az is, hogy a szoftverfejlesztő cégnek legyen tapasztalata a piacodon, hiszen egy nagykernek teljesen más funkciókra van szüksége, mint egy gyártó-termelő cégnek. Éppen ezért jó, ha a CRM-et fejlesztő cég tud neked segíteni a funkciók kiválasztásában, vagy javaslatokat tenni, hogy mire lehet még szükséged.</p>
                             <p>Bármilyen CRM-et is választasz, egy dobozos szoftver sosem lesz annyira flexibilis, hogy az összes folyamatot rendszerezze és automatizálja. Ezért különösen figyelj oda arra, hogy lehet-e integrálni egyéb szoftverekkel, mondjuk a weboldallal, a számlázó programmal vagy a vállalatirányítási rendszerrel.</p>
                             <p>A legfontosabb ilyen integráció a levelezőprogrammal lesz. Ugyanis az ügyfélkommunikáció túlnyomó része ott történik, ezt mind manuálisan bevezetni a szoftverbe komoly munka lenne.</p>
-                            <p>Te is azt szeretnéd, hogy az értékesítőid adatbevitel helyett azzal foglalkozzanak, hogy új ügyfeleket szerződtessenek, ezért elengedhetetlen, hogy a levelező klienssel való adatcsere, mondjuk pld. a Google Suite-al vagy az Outlookkal, a kiválasztott CRM-en belül legyen megoldva.</p>
+                            <p>Te is azt szeretnéd, hogy az értékesítőid adatbevitel helyett azzal foglalkozzanak, hogy új ügyfeleket szerződtessenek, ezért elengedhetetlen, hogy a levelező klienssel való adatcsere, mondjuk pl. a Google Suite-al vagy az Outlookkal, a kiválasztott CRM-en belül legyen megoldva.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/how-to-choose-the-right-crm-integrations-hu.png') }}" alt="Figyeld meg milyen könnyen köthető össze a CRM egyéb szoftverekkel" />
                             </figure>
@@ -106,7 +106,7 @@
         </div>
     </section>
 
-    @include(getLang() . '.banners.projects')
+    @include(getLang() . '.banners.newsletter-subscription')
 @endsection
 
 

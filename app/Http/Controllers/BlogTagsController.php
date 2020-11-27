@@ -23,7 +23,7 @@ class BlogTagsController
 
         return view(getLang() . '.blog.tags.show')->with([
             'posts' => $posts,
-            'tag' => $tag
+            'tag' => $tag,
         ]);
     }
 }

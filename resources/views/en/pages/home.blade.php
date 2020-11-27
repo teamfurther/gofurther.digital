@@ -139,7 +139,7 @@
     <section class="section has-padding-b0">
         <div class="banner--laravel-meetup">
             <img src="{{ asset('img/laravel-meetup.png?v2') }}" alt="Laravel Hungary Meetup" />
-            <div class="heading-3">We are proud organisers of the Laravel Hungary meetup!</div>
+            <div class="heading-3">We are proud organisers of <br class="is-hidden-touch is-hidden-fullhd" />the Laravel Hungary meetup!</div>
         </div>
     </section>
 
@@ -185,14 +185,14 @@
                             {{ csrf_field() }}
 
                             <div class="form-group {{ isset($errors) && $errors->has('name') ? 'has-error' : '' }}">
-                                <input class="form-control" name="name" placeholder="Your name*" type="text" value="{{ old('name') }}" autocomplete="name" tabindex="1" required />
+                                <input class="form-control" name="name" placeholder="Your name *" type="text" value="{{ old('name') }}" autocomplete="name" tabindex="1" required />
                             </div>
                             <div class="form-group {{ isset($errors) && $errors->has('company') ? 'has-error' : '' }}">
                                 <input class="form-control" name="company" placeholder="Company name or website" type="text" value="{{ old('company') }}" autocomplete="organization" tabindex="2" />
                             </div>
                             <div class="is-pulled-left">
                                 <div class="form-group {{ isset($errors) && $errors->has('email') ? 'has-error' : '' }}">
-                                    <input class="form-control" name="email" placeholder="Your email address*" type="email" value="{{ old('email') }}" autocomplete="email" tabindex="3" required />
+                                    <input class="form-control" name="email" placeholder="Your email address *" type="email" value="{{ old('email') }}" autocomplete="email" tabindex="3" required />
                                 </div>
                             </div>
                             <div class="is-pulled-right">
@@ -201,7 +201,7 @@
                                 </div>
                             </div>
                             <div class="form-group {{ isset($errors) && $errors->has('message') ? 'has-error' : '' }}">
-                                <textarea class="form-control" name="message" placeholder="Message*" rows="5" tabindex="5" required>{{ old('message') }}</textarea>
+                                <textarea class="form-control" name="message" placeholder="Message *" rows="5" tabindex="5" required>{{ old('message') }}</textarea>
                             </div>
                             {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
                             <button class="btn is-large is-tangerine" type="submit">Send</button>

@@ -54,22 +54,22 @@
                 {{ csrf_field() }}
                 <div class="is-pulled-left">
                     <div class="form-group {{ isset($errors) && $errors->has('name') ? 'has-error' : '' }}">
-                        <input class="form-control" name="name" placeholder="Your name*" type="text" value="{{ old('name') }}" autocomplete="name" tabindex="101" required />
+                        <input class="form-control" name="name" placeholder="Your name *" type="text" value="{{ old('name') }}" autocomplete="name" tabindex="101" required />
                     </div>
                     <div class="form-group {{ isset($errors) && $errors->has('git') ? 'has-error' : '' }}">
-                        <input class="form-control" name="git" placeholder="Public GIT URL (GitHub or similar)*" type="url" value="{{ old('git') }}" tabindex="103" required />
+                        <input class="form-control" name="git" placeholder="Public GIT URL (GitHub or similar) *" type="url" value="{{ old('git') }}" tabindex="103" required />
                     </div>
                 </div>
                 <div class="is-pulled-right">
                     <div class="form-group {{ isset($errors) && $errors->has('email') ? 'has-error' : '' }}">
-                        <input class="form-control" name="email" placeholder="Email*" type="email" value="{{ old('email') }}" autocomplete="email" tabindex="102" required />
+                        <input class="form-control" name="email" placeholder="Email *" type="email" value="{{ old('email') }}" autocomplete="email" tabindex="102" required />
                     </div>
                     <div class="form-group {{ isset($errors) && $errors->has('cv') ? 'has-error' : '' }}">
-                        <input class="form-control" name="cv" placeholder="LinkedIn (or CV) URL*" type="url" value="{{ old('cv') }}" tabindex="104" required />
+                        <input class="form-control" name="cv" placeholder="LinkedIn (or CV) URL *" type="url" value="{{ old('cv') }}" tabindex="104" required />
                     </div>
                 </div>
                 <div class="form-group {{ isset($errors) && $errors->has('message') ? 'has-error' : '' }}">
-                    <textarea class="form-control" name="message" placeholder="Message*" rows="5" tabindex="105" required>{{ old('message') }}</textarea>
+                    <textarea class="form-control" name="message" placeholder="Message *" rows="5" tabindex="105" required>{{ old('message') }}</textarea>
                 </div>
                 <input name="job" type="hidden" value="{{ $job->slug }}" />
                 {!! Honeypot::generate('honeypotname', 'honeypottime') !!}

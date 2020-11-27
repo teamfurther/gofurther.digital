@@ -58,7 +58,7 @@
                         <li><a href="https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy" target="_blank">Cookie settings in Edge</a></li>
                         <li><a href="https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies" target="_blank">Cookie settings in Internet Explorer</a></li>
                     </ul>
-                    <p>If you would like to contact us directly about our use of cookies, please email us at <a href="mailto:hello@gofurther.digital">hello@gofurther.digital</a>.</p>
+                    <p>If you would like to contact us directly about our use of cookies, please email us at <a href="mailto:{{ config('mail.to') }}">{{ config('mail.to') }}</a>.</p>
                 </div>
             </div>
         </div>

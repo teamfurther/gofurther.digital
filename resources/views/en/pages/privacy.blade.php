@@ -37,14 +37,14 @@
                         <li>request to transfer your data;</li>
                         <li>express any concern you have about our use of your data.</li>
                     </ul>
-                    <p>If, at any time, you have a request listed above, you may simply email your request to <a href="mailto:hello@gofurther.digital">hello@gofurther.digital</a>.</p>
+                    <p>If, at any time, you have a request listed above, you may simply email your request to <a href="mailto:{{ config('mail.to') }}">{{ config('mail.to') }}</a>.</p>
                     <p class="has-margin-b60">Verification, updating or amendment of personal data takes place within 40 days of receipt of the request.</p>
                     <h2 class="heading-2 has-margin-b30">Links to Third Party Websites</h2>
                     <p>This privacy policy applies solely to the personal data collected by Further Digital Solutions and does not apply to third party websites users may access from this website.</p>
                     <p class="has-margin-b60">Further Digital Solutions is not responsible for the privacy policies of third party websites. Further Digital Solutions advises users to read the privacy policies of other websites before registering any personal data.</p>
                     <h2 class="heading-2 has-margin-b30">Notification of Changes</h2>
                     <p>Further Digital Solutions will notify all members of any changes it makes to its privacy policy. If Further Digital Solutions decides to change its privacy policy, it will post such changes on this page so that you are always aware of how Further Digital Solutions uses your personal data.</p>
-                    <p>If you would like to contact us directly about our privacy policy, please email us at <a href="mailto:hello@gofurther.digital">hello@gofurther.digital</a>.</p>
+                    <p>If you would like to contact us directly about our privacy policy, please email us at <a href="mailto:{{ config('mail.to') }}">{{ config('mail.to') }}</a>.</p>
                 </div>
             </div>
         </div>

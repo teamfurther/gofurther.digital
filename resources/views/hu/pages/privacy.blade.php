@@ -37,14 +37,14 @@
                         <li>adatátviteli kérelmet tenni;</li>
                         <li>kifejezni bármilyen aggodalmat az adatai használatával kapcsolatban.</li>
                     </ul>
-                    <p>Ha bármikor kérdésed van a fentiekkel kapcsolatban, akkor egyszerűen küldd el a kérést e-mailben a következő címre: <a href="mailto:hello@gofurther.digital">hello@gofurther.digital</a>.</p>
+                    <p>Ha bármikor kérdésed van a fentiekkel kapcsolatban, akkor egyszerűen küldd el a kérést e-mailben a következő címre: <a href="mailto:{{ config('mail.to') }}">{{ config('mail.to') }}</a>.</p>
                     <p class="has-margin-b60">A személyes adatok ellenőrzése, frissítése vagy módosítása a kérelem megérkezésétől számított 40 napon belül történik.</p>
                     <h2 class="heading-2 has-margin-b30">Linkek harmadik felek honlapjaira</h2>
                     <p>A jelen adatvédelmi szabályzat kizárólag a Further Digital Solutions által gyűjtött személyes adatokra vonatkozik, és nem vonatkozik harmadik felek honlapjaira, amelyekhez a felhasználók hozzáférhetnek a jelen honlapról.</p>
                     <p class="has-margin-b60">A Further Digital Solutions nem vállal felelősséget harmadik felek honlapjainak adatvédelmi szabályzataiért. A Further Digital Solutions azt tanácsolja a felhasználóknak, hogy a személyes adatok regisztrálása előtt olvassák el a honlapok adatvédelmi szabályzatait.</p>
                     <h2 class="heading-2 has-margin-b30">Értesítés a változásokról</h2>
                     <p>A Further Digital Solutions értesíti az összes tagot az adatvédelmi szabályzat összes változásáról. Ha a Further Digital Solutions úgy dönt, hogy megváltoztatja az adatvédelmi szabályzatát, akkor ezeket a változásokat a jelen oldalon közli annak érdekében, hogy a felhasználó mindig tudja, hogyan kerülnek felhasználásra személyes adatai a Further Digital Solutions által.</p>
-                    <p>Ha közvetlenül kapcsolatba szeretnél lépni velünk az adatvédelmi szabályzattal kapcsolatban, kérjük, írjál nekünk a következő címre: <a href="mailto:hello@gofurther.digital">hello@gofurther.digital</a>.</p>
+                    <p>Ha közvetlenül kapcsolatba szeretnél lépni velünk az adatvédelmi szabályzattal kapcsolatban, kérjük, írjál nekünk a következő címre: <a href="mailto:{{ config('mail.to') }}">{{ config('mail.to') }}</a>.</p>
                 </div>
             </div>
         </div>

@@ -29,6 +29,14 @@ return [
         'token' => env('POSTMARK_TOKEN'),
     ],
 
+    'sendinblue' => [
+        'key' => env('SENDINBLUE_API_KEY'),
+        'list_ids' => [
+            'en' => 10,
+            'hu' => 9,
+        ],
+    ],
+
     'ses' => [
         'key' => env('AWS_ACCESS_KEY_ID'),
         'secret' => env('AWS_SECRET_ACCESS_KEY'),

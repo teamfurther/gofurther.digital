@@ -83,58 +83,72 @@
                 <div class="columns is-mobile is-multiline">
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
+                            <img class="about__team__member__picture" src="{{ asset('img/team-eszter-balla.png') }}" alt="Eszter Balla" />
+                            <h4 class="about__team__member__name">Eszter Balla</h4>
+                            <div class="about__team__member__title">Head of Client Relationships</div>
+                        </div>
+                    </div>
+                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                        <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Péter Illés" />
                             <h4 class="about__team__member__name">Péter Illés</h4>
-                            <div class="about__team__member__title">Founder, <br class="visible-md-block" />Managing Partner</div>
+                            <div class="about__team__member__title">Head of Strategy</div>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-norbert-zsombori.png') }}" alt="Norbert Zsombori" />
                             <h4 class="about__team__member__name">Norbert Zsombori</h4>
-                            <div class="about__team__member__title">Co-Founder, <br class="visible-md-block" />Lead Developer</div>
-                        </div>
-                    </div>
-                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                        <div class="about__team__member">
-                            <img class="about__team__member__picture" src="{{ asset('img/team-csongor-ur.png') }}" alt="Csongor Ur" />
-                            <h4 class="about__team__member__name">Csongor Ur</h4>
-                            <div class="about__team__member__title">Developer<br class="visible-md-block" /><br class="visible-md-block" /></div>
-                        </div>
-                    </div>
-                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                        <div class="about__team__member">
-                            <img class="about__team__member__picture" src="{{ asset('img/team-eszter-balla.png') }}" alt="Eszter Balla" />
-                            <h4 class="about__team__member__name">Eszter Balla</h4>
-                            <div class="about__team__member__title">Project Manager<br class="visible-md-block" /><br class="visible-md-block" /></div>
+                            <div class="about__team__member__title">Head of Development</div>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-noemi-varga.png') }}" alt="Noémi Varga" />
                             <h4 class="about__team__member__name">Noémi Varga</h4>
-                            <div class="about__team__member__title">Marketing<br class="visible-md-block" /><br class="visible-md-block" /></div>
+                            <div class="about__team__member__title">Marketing Coordinator</div>
+                        </div>
+                    </div>
+                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                        <div class="about__team__member">
+                            <img class="about__team__member__picture" src="{{ asset('img/team-csongor-ur.png') }}" alt="Csongor Ur" />
+                            <h4 class="about__team__member__name">Csongor Ur</h4>
+                            <div class="about__team__member__title">Software Engineer</div>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-zsolt-kalman.png') }}" alt="Zsolt Kálmán" />
                             <h4 class="about__team__member__name">Zsolt Kálmán</h4>
-                            <div class="about__team__member__title">UX Designer<br class="visible-md-block" /><br class="visible-md-block" /></div>
+                            <div class="about__team__member__title">Solution Designer</div>
+                        </div>
+                    </div>
+                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                        <div class="about__team__member">
+                            <img class="about__team__member__picture" src="{{ asset('img/team-csaba-barabas.png') }}" alt="Csaba Barabás" />
+                            <h4 class="about__team__member__name">Csaba Barabás</h4>
+                            <div class="about__team__member__title">Software Engineer</div>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-zoltan-sarosi.png') }}" alt="Zoltán Sárosi" />
                             <h4 class="about__team__member__name">Zoltán Sárosi</h4>
-                            <div class="about__team__member__title">Developer<br class="visible-md-block" /><br class="visible-md-block" /></div>
+                            <div class="about__team__member__title">Software Engineer</div>
+                        </div>
+                    </div>
+                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                        <div class="about__team__member">
+                            <img class="about__team__member__picture" src="{{ asset('img/team-zsolt-janes.png') }}" alt="Zsolt Janes" />
+                            <h4 class="about__team__member__name">Zsolt Janes</h4>
+                            <div class="about__team__member__title">Software Engineer</div>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-david-simon.png') }}" alt="Dávid Simon" />
                             <h4 class="about__team__member__name">Dávid Simon</h4>
-                            <div class="about__team__member__title">Developer<br class="visible-md-block" /><br class="visible-md-block" /></div>
+                            <div class="about__team__member__title">Software Engineer</div>
                         </div>
                     </div>
                 </div>

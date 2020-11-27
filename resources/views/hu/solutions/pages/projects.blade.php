@@ -69,7 +69,7 @@
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet">
-                        <p>Segíthetünk a következő projektek pontosabb felmérésében, olyan adatok elemzésével, mint amilyen a múltbeli projektek valós munkaidő-kimutatása, vagy az erőforrások rendelkezésre állása (pld. az alkalmazottak szabadsága). A legjobb eredmények érdekében használd együtt az <a href={{ localizedRoute('solutions.time-tracking') }}>időkövetési</a> és a <a href={{ localizedRoute('solutions.hr') }}>humán erőforrások</a> moduljainkkal.</p>
+                        <p>Segíthetünk a következő projektek pontosabb felmérésében, olyan adatok elemzésével, mint amilyen a múltbeli projektek valós munkaidő-kimutatása, vagy az erőforrások rendelkezésre állása (pl. az alkalmazottak szabadsága). A legjobb eredmények érdekében használd együtt az <a href={{ localizedRoute('solutions.time-tracking') }}>időkövetési</a> és a <a href={{ localizedRoute('solutions.hr') }}>humán erőforrások</a> moduljainkkal.</p>
                         <ul class="list has-bullets">
                             <li>készítsd becsléseket a korábbi projektek és munkaidő-kimutatások alapján</li>
                             <li>kapj pontos erőforrás előrejelzéseket</li>

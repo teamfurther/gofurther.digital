@@ -48,9 +48,9 @@
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'ovsz']) }}"
                     >
-                        <img class="project-list__item__image" src="{{ asset('media/projects/ovsz-project-list.jpg') }}" alt="OVSZ - Online Cross-donation Register" />
+                        <img class="project-list__item__image" src="{{ asset('media/projects/ovsz-project-list.jpg') }}" alt="OVSZ - Online Cross-donation Registry" />
 
-                        <h1 class="project-list__item__title">OVSZ - Online Cross-donation Register</h1>
+                        <h1 class="project-list__item__title">OVSZ - Online Cross-donation Registry</h1>
                         <div class="project-list__item__description">
                             The online registry replaces the current paper-based systems and provides real-time communication and swift data synchronization between the OVSZ (National Blood Transfusion Service) and donation centers across Hungary.
                         </div>

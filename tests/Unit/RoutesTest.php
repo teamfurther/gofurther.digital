@@ -27,6 +27,9 @@ class RoutesTest extends TestCase
         'en/blog/tagged/{slug}' => [
             'slug' => 'digital-transformation',
         ],
+        'en/newsletter/{issue}' => [
+            'issue' => 'no1',
+        ],
         'en/projects/{slug}' => [
             'slug' => 'njoy-the-hive',
         ],
@@ -35,6 +38,9 @@ class RoutesTest extends TestCase
         ],
         'hu/blog/cimkek/{slug}' => [
             'slug' => 'digitalis-transzformacio',
+        ],
+        'hu/hirlevel/{issue}' => [
+            'issue' => 'no1',
         ],
         'hu/projektek/{slug}' => [
             'slug' => 'njoy-the-hive',

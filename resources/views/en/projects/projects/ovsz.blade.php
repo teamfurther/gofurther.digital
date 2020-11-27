@@ -4,7 +4,7 @@
 
 @section('content')
     <section class="hero is-{{ getLang() }}">
-        <h2 class="project__title">OVSZ - Online Cross-Donation Register</h2>
+        <h2 class="project__title">OVSZ - Online Cross-Donation Registry</h2>
         <h3 class="project__intro">
             The online registry provides real-time <span class="is-hidden-tablet">communication and </span>data synchronization between the OVSZ and donation centers across Hungary.
         </h3>
@@ -24,9 +24,12 @@
                     <p>
                         Because two-way data synchronization didn't exist, donation centers had no knowledge if a donor has already been marked as ineligible to give blood by another donation center.
                     </p>
+                    <p>
+                        <small>The project was developed in collaboration with <a href="https://www.happymed.hu" target="_blank">Happymed</a> and <a href="http://popcode.hu" target="_blank">Popcode</a>.</small>
+                    </p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
-                    <img src="{{ asset('media/projects/ovsz-illustration.png') }}" alt="OVSZ - Online Cross-Donation Register" />
+                    <img src="{{ asset('media/projects/ovsz-illustration.png') }}" alt="OVSZ - Online Cross-Donation Registry" />
                 </div>
             </div>
         </div>
@@ -37,7 +40,7 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        The online cross-donation register is currently being tested by a selected number of donation centers across the country. We are pleased to hear the feedback has been overwhelmingly positive, and that donation centers are finding it useful and actually requesting additional features.
+                        The online cross-donation registry is currently being tested by a selected number of donation centers across the country. We are pleased to hear the feedback has been overwhelmingly positive, and that donation centers are finding it useful and actually requesting additional features.
                     </div>
                 </div>
             </div>

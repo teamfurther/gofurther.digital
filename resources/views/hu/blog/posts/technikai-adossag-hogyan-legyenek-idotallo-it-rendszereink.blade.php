@@ -25,7 +25,7 @@
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>517 milliárd dollár. Ritkán látunk ekkora összeget, ezért leírom számjegyekkel is: $517 000 000 000. Az ott 9 darab 0-ás. Ekkora volt a CISQ (Consortium for IT Software Quality) szerint<a href="https://www.it-cisq.org/the-cost-of-poor-quality-software-in-the-us-a-2018-report/The-Cost-of-Poor-Quality-Software-in-the-US-2018-Report.pdf" target="_blank"><sup>1</sup></a> a technikai adóssága az USA-nak, 2018-ban.</p>
-                            <p>A fentiek alapján nyugodtan megállapíthatjuk, hogy a technikai adósság drága mulatság. Ugyanakkor fontos is, a technológiai ipar nagyon sokat foglalkozik a témával. Sőt, már mi is érintettük párszor a blogunkon (pld. <a href="{{ localizedRoute('blog.show', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">itt</a> vagy <a href="{{ localizedRoute('blog.show', ['slug' => 'miert-ne-halogasd-a-digitalis-transzformaciot']) }}">itt</a>). Ennek ellenére az iparágon kívül kevesen tudják mi is az a technikai adósság. Ez a cikk nekik szól.</p>
+                            <p>A fentiek alapján nyugodtan megállapíthatjuk, hogy a technikai adósság drága mulatság. Ugyanakkor fontos is, a technológiai ipar nagyon sokat foglalkozik a témával. Sőt, már mi is érintettük párszor a blogunkon (pl. <a href="{{ localizedRoute('blog.show', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">itt</a> vagy <a href="{{ localizedRoute('blog.show', ['slug' => 'miert-ne-halogasd-a-digitalis-transzformaciot']) }}">itt</a>). Ennek ellenére az iparágon kívül kevesen tudják mi is az a technikai adósság. Ez a cikk nekik szól.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/technical-debt-how-to-build-future-proof-it-systems-technical-debt.jpg') }}" alt="A technikai adósság drága mulatság" />
                             </figure>
@@ -112,7 +112,7 @@
         </div>
     </section>
 
-    @include(getLang() . '.banners.projects')
+    @include(getLang() . '.banners.newsletter-subscription')
 @endsection
 
 

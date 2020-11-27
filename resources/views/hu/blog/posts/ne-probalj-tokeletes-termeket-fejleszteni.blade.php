@@ -24,7 +24,7 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p>Ne próbálj tökéletes terméket építeni – gyakran szoktam ezt a tanácsot adni az új ügyfeleinknek. Bátran dobjál piacra egy olyan terméket amiben vannak még hibák és főként ne izgulj amiatt ha csak egy 1-2 funkció került bele. Mielőtt meglincselnétek, hallgassatok végig.</p>
+                            <p>Ne próbálj tökéletes terméket építeni – gyakran szoktam ezt a tanácsot adni az új ügyfeleinknek. Bátran dobjál piacra egy olyan terméket amiben vannak még hibák és főként ne izgulj amiatt ha csak 1-2 funkció került bele. Mielőtt meglincselnétek, hallgassatok végig.</p>
                             <p>Nemrég ebédeltem egy ismerőssel, nevezzük a történet kedvéért Hubának. Huba azért hívott meg ebédelni, mert volt egy nagyszerű termékötlete és segítségemet kérte a megvalósításban. Egy digitális ajándékról volt szó, ami nagyon egyedi és örökké megmarad kellemes emlékként. Ő oda volt az ötletért, a feleségének könnybe lábadt a szeme amikor egy ilyennel ajándékozták meg és őszintén bevallom, hogy nekem is kimondottan tetszett az ötlet.</p>
                             <p>Ilyen ötletei nem mindennap vannak Hubának, ezért nagy elánnal beleásta magát a megvalósításba. Tartalomgyártás, szoftverfejlesztés, marketingterv, a teljes csomag. Csak azt nem értette, hogy én miért nem lelkesedek annyira, hogy máris belevágjunk? Hiszen ő több havi fejlesztési munkát hozna a csapatunknak!</p>
                             <p>– Nincs rá kapacitásunk? – Éppen akad. – Nem tudjuk megvalósítani? – Dehogynem. – Mégsem tetszik az ötlet? – De igen. – Hát akkor?</p>
@@ -100,7 +100,7 @@
         </div>
     </section>
 
-    @include(getLang() . '.banners.projects')
+    @include(getLang() . '.banners.newsletter-subscription')
 @endsection
 
 

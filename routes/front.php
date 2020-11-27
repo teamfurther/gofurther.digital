@@ -4,6 +4,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\BlogTagsController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\JobsController;
+use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\ProjectsController;
 use Illuminate\Support\Facades\Route;
 
@@ -44,7 +45,10 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
     Route::get('projects', [ProjectsController::class, 'index'])->name('projects');
     Route::get('projects/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
 
+    Route::view('newsletter', 'en.newsletter.index')->name('newsletter');
     Route::view('newsletter/why', 'en.newsletter.why')->name('newsletter.why');
+    Route::get('newsletter/{issue}', [NewsletterController::class, 'show'])->name('newsletter.show');
+    Route::post('newsletter', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');
 
     Route::view('solutions', 'en.solutions.index')
         ->name('solutions');
@@ -109,7 +113,10 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
     Route::get('projektek', [ProjectsController::class, 'index'])->name('projects');
     Route::get('projektek/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
 
+    Route::view('hirlevel', 'hu.newsletter.index')->name('newsletter');
     Route::view('hirlevel/miert', 'hu.newsletter.why')->name('newsletter.why');
+    Route::get('hirlevel/{issue}', [NewsletterController::class, 'show'])->name('newsletter.show');
+    Route::post('hirlevel', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');
 
     Route::view('megoldasaink', 'hu.solutions.index')
         ->name('solutions');

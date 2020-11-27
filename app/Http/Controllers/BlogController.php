@@ -16,7 +16,7 @@ class BlogController
         }
 
         return view(getLang() . '.blog.index')->with([
-            'posts' => $posts
+            'posts' => $posts,
         ]);
     }
 

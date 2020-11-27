@@ -227,6 +227,7 @@
                 <a href="{{ localizedRoute('about') }}">Rólunk</a>
                 <a href="{{ localizedRoute('tech-stack') }}">Eszköztár</a>
                 <a href="{{ localizedRoute('contact') }}">Kapcsolat</a>
+                <a href="{{ localizedRoute('newsletter') }}">Hírlevelek</a>
                 @if (switchLang('en'))
                     <a class="footer__lang" href="{{ switchLang('en') }}">English</a>
                 @endif

@@ -84,16 +84,30 @@
                 <div class="columns is-mobile is-multiline">
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
+                            <img class="about__team__member__picture" src="{{ asset('img/team-eszter-balla.png') }}" alt="Eszter Balla" />
+                            <h4 class="about__team__member__name">Balla Eszter</h4>
+                            <div class="about__team__member__title">Ügyfélkapcsolati vezető<br class="visible-md-block" /><br class="visible-md-block" /></div>
+                        </div>
+                    </div>
+                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                        <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Péter Illés" />
                             <h4 class="about__team__member__name">Illés Péter</h4>
-                            <div class="about__team__member__title">Társtulajdonos, <br class="visible-md-block" />ügyvezető</div>
+                            <div class="about__team__member__title">Stratégiai vezető</div>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-norbert-zsombori.png') }}" alt="Norbert Zsombori" />
                             <h4 class="about__team__member__name">Zsombori Norbert</h4>
-                            <div class="about__team__member__title">Társtulajdonos, <br class="visible-md-block" />vezető fejlesztő</div>
+                            <div class="about__team__member__title">Fejlesztési vezető</div>
+                        </div>
+                    </div>
+                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                        <div class="about__team__member">
+                            <img class="about__team__member__picture" src="{{ asset('img/team-noemi-varga.png') }}" alt="Noémi Varga" />
+                            <h4 class="about__team__member__name">Varga Noémi</h4>
+                            <div class="about__team__member__title">Marketing koordinátor<br class="visible-md-block" /><br class="visible-md-block" /></div>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
@@ -105,29 +119,29 @@
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
-                            <img class="about__team__member__picture" src="{{ asset('img/team-eszter-balla.png') }}" alt="Eszter Balla" />
-                            <h4 class="about__team__member__name">Balla Eszter</h4>
-                            <div class="about__team__member__title">Projektmenedzser<br class="visible-md-block" /><br class="visible-md-block" /></div>
-                        </div>
-                    </div>
-                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                        <div class="about__team__member">
-                            <img class="about__team__member__picture" src="{{ asset('img/team-noemi-varga.png') }}" alt="Noémi Varga" />
-                            <h4 class="about__team__member__name">Varga Noémi</h4>
-                            <div class="about__team__member__title">Marketing<br class="visible-md-block" /><br class="visible-md-block" /></div>
-                        </div>
-                    </div>
-                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                        <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-zsolt-kalman.png') }}" alt="Zsolt Kálmán" />
                             <h4 class="about__team__member__name">Kálmán Zsolt</h4>
-                            <div class="about__team__member__title">UX tervező<br class="visible-md-block" /><br class="visible-md-block" /></div>
+                            <div class="about__team__member__title">Solution designer<br class="visible-md-block" /><br class="visible-md-block" /></div>
+                        </div>
+                    </div>
+                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                        <div class="about__team__member">
+                            <img class="about__team__member__picture" src="{{ asset('img/team-csaba-barabas.png') }}" alt="Barabás Csaba" />
+                            <h4 class="about__team__member__name">Barabás Csaba</h4>
+                            <div class="about__team__member__title">Fejlesztő<br class="visible-md-block" /><br class="visible-md-block" /></div>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-zoltan-sarosi.png') }}" alt="Zoltán Sárosi" />
                             <h4 class="about__team__member__name">Sárosi Zoltán</h4>
+                            <div class="about__team__member__title">Fejlesztő<br class="visible-md-block" /><br class="visible-md-block" /></div>
+                        </div>
+                    </div>
+                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                        <div class="about__team__member">
+                            <img class="about__team__member__picture" src="{{ asset('img/team-zsolt-janes.png') }}" alt="Janes Zsolt" />
+                            <h4 class="about__team__member__name">Janes Zsolt</h4>
                             <div class="about__team__member__title">Fejlesztő<br class="visible-md-block" /><br class="visible-md-block" /></div>
                         </div>
                     </div>

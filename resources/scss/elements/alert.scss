@@ -19,6 +19,10 @@
         max-width: 600px;
     }
 
+    &.is-error {
+        background: url(../img/alert-error-bg.png) -30px 50% no-repeat $coral; // https://thenounproject.com/goldenroof/collection/mood-smiles
+    }
+
     &.is-success {
         background: url(../img/alert-success-bg.png) -30px 50% no-repeat $pearl; // https://thenounproject.com/goldenroof/collection/mood-smiles
     }
@@ -37,10 +41,18 @@
         line-height: 1;
         position: absolute;
         right: 15px;
+        text-decoration: none;
         top: 10px;
 
         &:hover {
             color: rgba($black, .5);
+        }
+    }
+
+    span {
+        a {
+            color: $white;
+            text-decoration: underline;
         }
     }
 
