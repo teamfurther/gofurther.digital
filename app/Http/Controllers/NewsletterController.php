@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Actions\CreateNewsletterSubscriberAction;
+use App\Actions\GetNewsletterIssuesAction;
+use App\Actions\GetNewsletterIssueViewAction;
 use App\Http\Requests\NewsletterSubscriptionFormRequest;
 use App\Notifications\NewsletterSubscribedNotification;
 use Illuminate\Http\RedirectResponse;
@@ -21,13 +23,33 @@ class NewsletterController
         $this->notifiable = $notifiable;
         $this->view = $view;
     }
-    public function show(string $issue): View
+
+    public function index(GetNewsletterIssuesAction $getNewsletterIssuesActionAction): View
     {
-        if (!view()->exists(getLang() . '.newsletter.issues.' . $issue)) {
+        $issuesByYear = $getNewsletterIssuesActionAction->execute();
+
+        if (!$issuesByYear) {
             abort(404);
         }
 
-        return view(getLang() . '.newsletter.issues.' . $issue);
+        return view(getLang() . '.newsletter.index')->with([
+            'issuesByYear' => $issuesByYear,
+        ]);
+    }
+
+    public function show(
+        GetNewsletterIssueViewAction $getNewsletterIssueViewAction,
+        string $year,
+        string $issue
+    ): View
+    {
+        $view = $getNewsletterIssueViewAction->execute($year, $issue);
+
+        if (!view()->exists($view)) {
+            abort(404);
+        }
+
+        return view($view);
     }
 
     public function subscribe(
