@@ -163,7 +163,7 @@
                 <a href="{{ localizedRoute('contact') }}"
                    data-gtm-click='{ "click": { "event_category": "contact", "event_label": "click" } }'
                 >
-                    Work with us
+                    Get in touch
                 </a>
             </div>
         </nav> <!-- /.navbar -->

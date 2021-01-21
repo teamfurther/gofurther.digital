@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\JobApplicationFormRequest;
+use App\Http\UTMBag;
 use App\Models\Job;
 use App\Notifications\JobApplicationNotification;
 use Illuminate\Http\RedirectResponse;
@@ -39,6 +40,7 @@ class JobsController
                 'job' => $request->get('job'),
                 'message' => $request->get('message'),
                 'name' => $request->get('name'),
+                'utm' => app(UTMBag::class)->get(),
             ], $this->view));
 
         return redirect()->back()->with('alert', [

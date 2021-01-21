@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ContactFormRequest;
+use App\Http\UTMBag;
 use App\Notifications\ContactNotification;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Notifications\AnonymousNotifiable;
@@ -30,6 +31,7 @@ class ContactController
                 'message' => $request->get('message'),
                 'name' => $request->get('name'),
                 'phone' => $request->get('phone'),
+                'utm' => app(UTMBag::class)->get(),
             ], $this->view));
 
         return redirect()->back()->with('alert', [

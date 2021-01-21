@@ -7,7 +7,7 @@
 <body>
 <style>
     /* Base */
-    body, body *:not(html):not(style):not(br):not(tr):not(code) {
+    body, body *:not(html):not(style):not(br):not(tr):not(td):not(code) {
         box-sizing: border-box;
         font-family: Helvetica, Arial, sans-serif;
         font-size: 14px;

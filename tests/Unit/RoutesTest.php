@@ -27,7 +27,8 @@ class RoutesTest extends TestCase
         'en/blog/tagged/{slug}' => [
             'slug' => 'digital-transformation',
         ],
-        'en/newsletter/{issue}' => [
+        'en/newsletter/{year}/{issue}' => [
+            'year' => '2020',
             'issue' => 'no1',
         ],
         'en/projects/{slug}' => [
@@ -39,7 +40,8 @@ class RoutesTest extends TestCase
         'hu/blog/cimkek/{slug}' => [
             'slug' => 'digitalis-transzformacio',
         ],
-        'hu/hirlevel/{issue}' => [
+        'hu/hirlevel/{year}/{issue}' => [
+            'year' => '2020',
             'issue' => 'no1',
         ],
         'hu/projektek/{slug}' => [

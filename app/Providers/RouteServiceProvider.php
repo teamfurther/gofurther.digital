@@ -25,7 +25,7 @@ class RouteServiceProvider extends ServiceProvider
 
     protected function mapFrontRoutes(): void
     {
-        Route::middleware(['lang', 'web'])
+        Route::middleware(['utm', 'lang', 'web'])
             ->group(base_path('routes/front.php'));
     }
 

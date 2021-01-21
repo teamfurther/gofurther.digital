@@ -6,6 +6,7 @@ use App\Actions\CreateNewsletterSubscriberAction;
 use App\Actions\GetNewsletterIssuesAction;
 use App\Actions\GetNewsletterIssueViewAction;
 use App\Http\Requests\NewsletterSubscriptionFormRequest;
+use App\Http\UTMBag;
 use App\Notifications\NewsletterSubscribedNotification;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Notifications\AnonymousNotifiable;
@@ -67,6 +68,7 @@ class NewsletterController
                 ->notify(new NewsletterSubscribedNotification([
                     'email' => $request->get('email'),
                     'name' => $request->get('name'),
+                    'utm' => app(UTMBag::class)->get(),
                 ], $this->view));
 
             return redirect()->back()->with('alert', [
