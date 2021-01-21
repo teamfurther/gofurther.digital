@@ -5,6 +5,7 @@ use App\Http\Controllers\BlogTagsController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\JobsController;
 use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\PrivateContentController;
 use App\Http\Controllers\ProjectsController;
 use Illuminate\Support\Facades\Route;
 
@@ -49,6 +50,9 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
     Route::get('newsletter/{year}/{issue}', [NewsletterController::class, 'show'])->name('newsletter.show');
     Route::post('newsletter', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');
     Route::view('newsletter/why', 'en.newsletter.why')->name('newsletter.why');
+
+    Route::get('private-content', [PrivateContentController::class, 'show'])->name('private-content');
+    Route::post('private-content', [PrivateContentController::class, 'verify'])->name('private-content.verify');
 
     Route::view('solutions', 'en.solutions.index')
         ->name('solutions');
@@ -150,4 +154,7 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
         ->name('solutions.crm');
     Route::view('megoldasaink/webaruhaz', 'hu.solutions.pages.ecommerce')
         ->name('solutions.ecommerce');
+
+    Route::get('zart-tartalom', [PrivateContentController::class, 'show'])->name('private-content');
+    Route::post('zart-tartalom', [PrivateContentController::class, 'verify'])->name('private-content.verify');
 });

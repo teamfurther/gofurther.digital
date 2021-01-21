@@ -5,7 +5,7 @@ body.project--njoy-the-hive {
         justify-content: flex-start;
 
         &::after {
-            background: url(../img/projects/njoy-hero-background.png) center bottom no-repeat;
+            background: url(../media/projects/njoy-hero-background.png) center bottom no-repeat;
             content: '';
             display: block;
             height: 100%;
@@ -15,24 +15,32 @@ body.project--njoy-the-hive {
             width: 100%;
 
             @include tablet() {
-                background-image: url(../img/projects/njoy-hero-background-768w.png);
+                background-image: url(../media/projects/njoy-hero-background-768w.png);
             }
 
             @include desktop() {
-                background-image: url(../img/projects/njoy-hero-background-1000w.png);
+                background-image: url(../media/projects/njoy-hero-background-1000w.png);
+            }
+
+            @include fullhd() {
+                background-image: url(../media/projects/njoy-hero-background-1384w.png);
             }
         }
 
         &.is-hu {
             &::after {
-                background-image: url(../img/projects/njoy-hero-background-hu.png);
+                background-image: url(../media/projects/njoy-hero-background-hu.png);
 
                 @include tablet() {
-                    background-image: url(../img/projects/njoy-hero-background-768w-hu.png);
+                    background-image: url(../media/projects/njoy-hero-background-768w-hu.png);
                 }
 
                 @include desktop() {
-                    background-image: url(../img/projects/njoy-hero-background-1000w-hu.png);
+                    background-image: url(../media/projects/njoy-hero-background-1000w-hu.png);
+                }
+
+                @include fullhd() {
+                    background-image: url(../media/projects/njoy-hero-background-1384w-hu.png);
                 }
             }
         }
@@ -50,12 +58,12 @@ body.project--njoy-the-hive {
 
         &__stat {
             &::before {
-                background-image: url(../img/projects/njoy-stats.png);
+                background-image: url(../media/projects/njoy-stats.png);
             }
         }
 
         &__summary {
-            background-image: url(../img/projects/njoy-summary-background.jpg);
+            background-image: url(../media/projects/njoy-summary-background.jpg);
         }
 
         &__text-emphasis {

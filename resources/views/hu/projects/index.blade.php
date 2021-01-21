@@ -46,18 +46,6 @@
             <div class="columns is-mobile is-multiline">
                 <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
                     <a class="project-list__item"
-                       href="{{ route(getLang() . '.projects.show', ['slug' => 'ovsz']) }}"
-                    >
-                        <img class="project-list__item__image" src="{{ asset('media/projects/ovsz-project-list.jpg') }}" alt="OVSZ - Online keresztdonációs regiszter" />
-
-                        <h1 class="project-list__item__title">OVSZ - Online keresztdonációs regiszter</h1>
-                        <div class="project-list__item__description">
-                            A regiszter kiváltja a jelenlegi papír alapú rendszereket és valós idejű kommunikációt, illetve gyors adatátvitelt tesz lehetővé országszerte, az OVSZ és a plazmaferezis állomások között.
-                        </div>
-                    </a>
-                </div>
-                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
-                    <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
                     >
                         <img class="project-list__item__image" src="{{ asset('media/projects/centralized-project-list.jpg') }}" alt="Centralized.me - Artist Management From A to Z" />

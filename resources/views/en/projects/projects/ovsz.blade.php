@@ -6,7 +6,7 @@
     <section class="hero is-{{ getLang() }}">
         <h2 class="project__title">OVSZ - Online Cross-Donation Registry</h2>
         <h3 class="project__intro">
-            The online registry provides real-time <span class="is-hidden-tablet">communication and </span>data synchronization between the OVSZ and donation centers across Hungary.
+            The online registry provides real-time <span class="is-hidden-tablet">communication and </span>data sync between the OVSZ and donation centers across Hungary.
         </h3>
     </section>
 

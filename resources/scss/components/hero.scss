@@ -13,6 +13,16 @@
     @include desktop() {
         left: 0;
         margin-top: 0;
+        height: 625px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 5;
+    }
+
+    @include fullhd() {
+        left: 0;
+        margin-top: 0;
         height: 800px;
         position: fixed;
         top: 0;
@@ -114,6 +124,42 @@
         }
     }
 
+    &__form {
+        bottom: 15px;
+        color: $white;
+        font: 600 12px / 1.5 $family-highlight;
+        left: 50%;
+        max-width: 600px;
+        padding: 15px 0;
+        position: absolute;
+        text-align: center;
+        transform: translateX(-50%);
+        width: calc(100% - 60px);
+        z-index: 15;
+
+        @include tablet() {
+            bottom: 30px;
+            font-size: 14px;
+        }
+
+        @include desktop() {
+            bottom: 20%;
+            font-size: 16px;
+        }
+
+        .form-control {
+            font-size: 24px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .form-group.has-error {
+            .form-control {
+                background-color: rgba($white, .75);
+            }
+        }
+    }
+
     &__scroll {
         border: 2px solid $white;
         border-radius: 30px;
@@ -209,6 +255,10 @@
         }
 
         @include desktop() {
+            margin-top: 625px;
+        }
+
+        @include fullhd() {
             margin-top: 800px;
         }
     }

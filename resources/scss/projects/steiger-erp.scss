@@ -5,7 +5,7 @@ body.project--steiger-erp {
         justify-content: flex-start;
 
         &::after {
-            background: url(../img/projects/steiger-hero-background.png) center bottom no-repeat;
+            background: url(../media/projects/steiger-hero-background.png) center bottom no-repeat;
             content: '';
             display: block;
             height: 100%;
@@ -15,19 +15,27 @@ body.project--steiger-erp {
             width: 100%;
 
             @include tablet() {
-                background-image: url(../img/projects/steiger-hero-background-768w.png);
+                background-image: url(../media/projects/steiger-hero-background-768w.png);
             }
 
             @include desktop() {
-                background-image: url(../img/projects/steiger-hero-background-1000w.png);
+                background-image: url(../media/projects/steiger-hero-background-1000w.png);
                 background-position: 50%  90%;
+            }
+
+            @include fullhd() {
+                background-image: url(../media/projects/steiger-hero-background-1384w.png);
             }
         }
 
         &.is-hu {
             &::after {
                 @include desktop() {
-                    background-image: url(../img/projects/steiger-hero-background-1000w-hu.png);
+                    background-image: url(../media/projects/steiger-hero-background-1000w-hu.png);
+                }
+
+                @include fullhd() {
+                    background-image: url(../media/projects/steiger-hero-background-1384w-hu.png);
                 }
             }
         }
@@ -45,12 +53,12 @@ body.project--steiger-erp {
 
         &__stat {
             &::before {
-                background-image: url(../img/projects/steiger-stats.png);
+                background-image: url(../media/projects/steiger-stats.png);
             }
         }
 
         &__summary {
-            background-image: url(../img/projects/steiger-summary-background.jpg);
+            background-image: url(../media/projects/steiger-summary-background.jpg);
         }
 
         &__text-emphasis {

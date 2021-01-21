@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Actions\GetRandomBannerAction;
 use Illuminate\View\View;
+use Illuminate\Routing\Controller;
 
-class ProjectsController
+class ProjectsController extends Controller
 {
     protected GetRandomBannerAction $getRandomBannerAction;
 
