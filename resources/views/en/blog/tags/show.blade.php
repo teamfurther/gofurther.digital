@@ -30,10 +30,10 @@
                             >
                                 Digital Transformation
                             </a>
-                            <!-- <a @if ($tag->slug === 'start-up') class="is-active" @endif
+                            <a @if ($tag->slug === 'start-up') class="is-active" @endif
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
                                 Start-up
-                            </a> -->
+                            </a>
                             <a @if ($tag->slug === 'explained') class="is-active" @endif
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
                                 Explained
@@ -46,10 +46,10 @@
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
                                 Agile
                             </a>
-                            <!-- <a @if ($tag->slug === 'development') class="is-active" @endif
+                            <a @if ($tag->slug === 'development') class="is-active" @endif
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
                                 Development
-                            </a> -->
+                            </a>
                             <!-- <a @if ($tag->slug === 'ux') class="is-active" @endif
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
                                 UX

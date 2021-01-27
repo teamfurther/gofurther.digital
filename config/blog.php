@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'improve-how-you-code-by-using-a-rubber-duck',
+                'tags' => [
+                    'development' => 'Development',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'irjunk-jobb-kodot-egy-gumikacsa-segitsegevel',
+                'tags' => [
+                    'fejlesztes' => 'Fejlesztés',
+                ],
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'dont-try-to-build-the-perfect-product',
                 'tags' => [
                     'start-up' => 'Start-up',

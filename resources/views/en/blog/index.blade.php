@@ -28,9 +28,9 @@
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
                                 Agile
                             </a>
-                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
                                 Development
-                            </a> -->
+                            </a>
                             <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
                                 UX
                             </a> -->

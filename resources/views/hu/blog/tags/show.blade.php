@@ -29,10 +29,10 @@
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
                                 Digitális transzformáció
                             </a>
-                            <!-- <a @if ($tag->slug === 'start-up') class="is-active" @endif
+                            <a @if ($tag->slug === 'start-up') class="is-active" @endif
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
                                 Start-up
-                            </a> -->
+                            </a>
                             <a @if ($tag->slug === 'elmagyarazva') class="is-active" @endif
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
                                 Elmagyarázva
@@ -45,10 +45,10 @@
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
                                 Agile
                             </a>
-                            <!-- <a @if ($tag->slug === 'fejlesztes') class="is-active" @endif
+                            <a @if ($tag->slug === 'fejlesztes') class="is-active" @endif
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
                                 Fejlesztés
-                            </a> -->
+                            </a>
                             <!-- <a @if ($tag->slug === 'ux') class="is-active" @endif
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
                                 UX
