@@ -14,6 +14,20 @@ return [
                 'slug' => 'irjunk-jobb-kodot-egy-gumikacsa-segitsegevel',
                 'tags' => [
                     'fejlesztes' => 'Fejlesztés',
+                ]
+            ],
+        ],
+        [
+            'en' => [
+                'slug' => 'how-does-digitalization-change-workplaces',
+                'tags' => [
+                    'digital-transformation' => 'Digital Transformation',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'hogyan-valtoztatja-meg-a-digitalizacio-a-munkahelyeinket',
+                'tags' => [
+                    'digitalis-transzformacio' => 'Digitális transzformáció',
                 ],
             ],
         ],
