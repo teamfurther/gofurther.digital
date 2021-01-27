@@ -28,6 +28,20 @@ return [
                 'slug' => 'hogyan-valtoztatja-meg-a-digitalizacio-a-munkahelyeinket',
                 'tags' => [
                     'digitalis-transzformacio' => 'Digitális transzformáció',
+                ]
+            ],
+        ],
+        [
+            'en' => [
+                'slug' => 'protect-your-software',
+                'tags' => [
+                    'explained' => 'Explained',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'vedd-meg-a-szoftvered',
+                'tags' => [
+                    'elmagyarazva' => 'Elmagyarazva',
                 ],
             ],
         ],
