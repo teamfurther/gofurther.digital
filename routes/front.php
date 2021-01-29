@@ -3,6 +3,7 @@
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\BlogTagsController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\FreebiesController;
 use App\Http\Controllers\JobsController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\PrivateContentController;
@@ -29,8 +30,8 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
         ->name('services.digital-transformation');
     Route::view('custom-software-development', 'en.services.custom-development')
         ->name('services.custom-development');
-    Route::view('mvp-development', 'en.services.mvp-development')
-        ->name('services.mvp-development');
+    Route::view('digital-product-development', 'en.services.digital-product-development')
+        ->name('services.digital-product-development');
 
     Route::get('blog', [BlogController::class, 'index'])->name('blog');
     Route::get('blog/posts/{slug}', [BlogController::class, 'show'])->name('blog.show');
@@ -42,6 +43,10 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
 
     Route::get('contact', [ContactController::class, 'show'])->name('contact');
     Route::post('contact', [ContactController::class, 'send'])->name('contact.send');
+
+    Route::view('lean-validation-cheat-sheet', 'en.freebies.lean-validation-cheat-sheet')->name('freebies.lean-validation-cheat-sheet');
+    Route::get('freebies', [FreebiesController::class, 'download'])->name('freebies.download');
+    Route::post('freebies', [FreebiesController::class, 'get'])->name('freebies.get');
 
     Route::get('projects', [ProjectsController::class, 'index'])->name('projects');
     Route::get('projects/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
@@ -104,12 +109,16 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
         ->name('services.digital-transformation');
     Route::view('egyedi-szoftverfejlesztes', 'hu.services.custom-development')
         ->name('services.custom-development');
-    Route::view('mvp-fejlesztes', 'hu.services.mvp-development')
-        ->name('services.mvp-development');
+    Route::view('digitalis-termekfejlesztes', 'hu.services.digital-product-development')
+        ->name('services.digital-product-development');
 
     Route::get('blog', [BlogController::class, 'index'])->name('blog');
     Route::get('blog/cikkek/{slug}', [BlogController::class, 'show'])->name('blog.show');
     Route::get('blog/cimkek/{slug}', [BlogTagsController::class, 'show'])->name('blog.tags.show');
+
+    Route::view('a-lean-validacio-lepesei', 'hu.freebies.a-lean-validacio-lepesei')->name('freebies.lean-validation-cheat-sheet');
+    Route::get('ingyenes-anyagok', [FreebiesController::class, 'download'])->name('freebies.download');
+    Route::post('ingyenes-anyagok', [FreebiesController::class, 'get'])->name('freebies.get');
 
     Route::get('kapcsolat', [ContactController::class, 'show'])->name('contact');
     Route::post('kapcsolat', [ContactController::class, 'send'])->name('contact.send');

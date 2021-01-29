@@ -98,14 +98,14 @@
                     </div>
                     <div class="columns is-mobile">
                         <div class="column is-3-mobile is-2-tablet is-offset-1-tablet is-offset-0-widescreen">
-                            <img src="{{ asset('img/home-services-mvp-development-icon.png') }}" alt="MVP development" />
+                            <img src="{{ asset('img/home-services-digital-product-development-icon.png') }}" alt="Digital product development" />
                         </div>
                         <div class="column is-8-tablet">
-                            <h3 class="heading-4">MVP<br />development</h3>
+                            <h3 class="heading-4">Digital product<br />development</h3>
                             <p>
                                 By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.
                             </p>
-                            <a class="btn is-pearl" href="{{ localizedRoute('services.mvp-development') }}">Read more</a>
+                            <a class="btn is-pearl" href="{{ localizedRoute('services.digital-product-development') }}">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -325,7 +325,7 @@
         "width": "185"
     },
     "inLanguage": "en_gb",
-    "keywords": "Custom software development, Software development, Web development, MVP development, Digital transformation",
+    "keywords": "Custom software development, Software development, Web development, Digital product development, MVP development, Digital transformation",
     "mainEntityOfPage": "{{ localizedRoute('home') }}",
     "name": "{{ config('site.name') }} | {{ config('site.title.' . config('app.locale')) }}",
     "publisher": {

@@ -82,6 +82,7 @@
 
 <div id="app">
 
+@if (!isset($showHeader) || $showHeader)
 <header class="header">
     <div class="container">
         <div class="header__brand">
@@ -91,6 +92,7 @@
                 </a>
             </h1>
         </div> <!-- /.header__brand -->
+        @if (!isset($showNav) || $showNav)
         <nav class="navbar">
             <div class="navbar__item"><a href="{{ localizedRoute('projects') }}">Case Studies</a></div>
             <div class="navbar__item has-subnav">
@@ -180,8 +182,8 @@
             <a class="navbar--mobile__item" href="{{ localizedRoute('services.custom-development') }}">
                 Software Development
             </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('services.mvp-development') }}">
-                MVP Development
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-product-development') }}">
+                Digital Product Development
             </a>
             <a class="navbar--mobile__item" href="{{ localizedRoute('solutions') }}">
                 Our Solutions
@@ -200,11 +202,15 @@
             <span></span>
             <span></span>
         </a>
+        @endif
     </div>
 </header> <!-- /.header -->
+@endif
 
 @yield('content')
 
+
+@if (!isset($showFooter) || $showFooter)
 <footer class="footer">
     <div class="container">
         <img class="footer__logo" src="{{ asset('img/logo.svg') }}" alt="Further Digital Solutions" />
@@ -217,8 +223,8 @@
                 <a href="{{ localizedRoute('services.custom-development') }}">
                     Custom Software Development
                 </a>
-                <a href="{{ localizedRoute('services.mvp-development') }}">
-                    MVP Development
+                <a href="{{ localizedRoute('services.digital-product-development') }}">
+                    Digital Product Development
                 </a>
             </nav>
             <nav class="footer__nav">
@@ -232,6 +238,10 @@
                 @if (switchLang('hu'))
                     <a class="footer__lang" href="{{ switchLang('hu') }}">Magyar</a>
                 @endif
+            </nav>
+            <nav class="footer__nav">
+                <span class="footer__nav__title">Free resources</span>
+                <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">Lean validation cheat sheet</a>
             </nav>
             <nav class="social-icons is-small">
                 <a href="{{ config('site.social.facebook') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--facebook"></span></a>
@@ -250,6 +260,7 @@
         </div>
     </div>
 </footer>
+@endif
 
 
 

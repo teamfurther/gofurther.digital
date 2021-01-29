@@ -27,7 +27,7 @@ class CreateNewsletterSubscriberAction
         $this->log = $log;
     }
 
-    public function execute(string $email, string $fname, string $source): ?CreateUpdateContactModel
+    public function execute(string $email, string $fname, string $source): int
     {
         $contact = new CreateContact([
             'email' => $email,
@@ -40,11 +40,17 @@ class CreateNewsletterSubscriberAction
         ]);
 
         try {
-            return $this->apiInstance->createContact($contact);
+            $this->apiInstance->createContact($contact);
+
+            return 1;
         } catch (\Exception $e) {
+            if (str_contains($e->getMessage(), 'Contact already exist')) {
+                return 2;
+            }
+
             $this->log->error($e->getMessage());
 
-            return null;
+            return 0;
         }
     }
 }

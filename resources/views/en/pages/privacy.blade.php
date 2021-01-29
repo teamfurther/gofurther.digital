@@ -141,7 +141,7 @@
         "width": "185"
     },
     "inLanguage": "en_gb",
-    "keywords": "Custom software development, Software development, Web development, MVP development, Digital transformation",
+    "keywords": "Custom software development, Software development, Web development, Digital product development, MVP development, Digital transformation",
     "mainEntityOfPage": "{{ localizedRoute('privacy') }}",
     "name": "Privacy Policy",
     "publisher": {

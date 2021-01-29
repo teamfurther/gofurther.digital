@@ -26,7 +26,7 @@ class NewsletterSubscribedNotification extends Notification
 
     public function toMail(): MailMessage
     {
-        $slot = $this->view->make('emails.newsletter_subscriber', [
+        $slot = $this->view->make('emails.newsletter-subscriber', [
             'data' => $this->data,
         ]);
 

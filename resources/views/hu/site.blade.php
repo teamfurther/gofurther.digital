@@ -180,8 +180,8 @@
             <a class="navbar--mobile__item" href="{{ localizedRoute('services.custom-development') }}">
                 Egyedi szoftverfejlesztés
             </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('services.mvp-development') }}">
-                MVP fejlesztés
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-product-development') }}">
+                Digitális termékfejlesztés
             </a>
             <a class="navbar--mobile__item" href="{{ localizedRoute('solutions') }}">
                 Megoldásaink
@@ -217,8 +217,8 @@
                 <a href="{{ localizedRoute('services.custom-development') }}">
                     Egyedi szoftverfejlesztés
                 </a>
-                <a href="{{ localizedRoute('services.mvp-development') }}">
-                    MVP fejlesztés
+                <a href="{{ localizedRoute('services.digital-product-development') }}">
+                    Digitális termékfejlesztés
                 </a>
             </nav>
             <nav class="footer__nav">
@@ -231,6 +231,10 @@
                 @if (switchLang('en'))
                     <a class="footer__lang" href="{{ switchLang('en') }}">English</a>
                 @endif
+            </nav>
+            <nav class="footer__nav">
+                <span class="footer__nav__title">Ingyenes anyagok</span>
+                <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">A lean validáció lépései</a>
             </nav>
             <nav class="social-icons is-small">
                 <a href="{{ config('site.social.facebook') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--facebook"></span></a>

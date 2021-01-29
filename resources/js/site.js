@@ -229,64 +229,71 @@ let modal = new function () {
  * NAVBAR
  */
 let navbar = new function () {
-    this.body = document.querySelector('body');
-    this.header = document.querySelector('.header');
     this.navbar = document.querySelector('.navbar');
-    this.navbarMobile = document.querySelector('.navbar--mobile');
-    this.navbarItems = document.querySelectorAll('.navbar__item');
-    this.navbarToggle = document.querySelector('.navbar__toggle');
-    this.nextSection = document.querySelector('.section:not(.hero)');
-    if (!this.nextSection) {
-        this.nextSection = document.querySelector('.footer');
-    }
-    this.subnavToggle = document.querySelectorAll('.navbar__item.has-subnav > a, .navbar__item__caret, .navbar__subnav__overlay');
 
-    // toggle fixed navbar
-    function toggleFixed() {
-        let scrollTop = navbar.nextSection.getBoundingClientRect();
-
-        if (scrollTop.top <= 80) {
-            navbar.header.classList.add('is-fixed');
-        } else {
-            navbar.header.classList.remove('is-fixed');
+    if (this.navbar) {
+        this.body = document.querySelector('body');
+        this.header = document.querySelector('.header');
+        this.navbarMobile = document.querySelector('.navbar--mobile');
+        this.navbarItems = document.querySelectorAll('.navbar__item');
+        this.navbarToggle = document.querySelector('.navbar__toggle');
+        this.nextSection = document.querySelector('.section:not(.hero)');
+        if (!this.nextSection) {
+            this.nextSection = document.querySelector('.footer');
         }
-    }
-    window.addEventListener('load', toggleFixed);
-    window.addEventListener('scroll', toggleFixed);
+        this.subnavToggle = document.querySelectorAll('.navbar__item.has-subnav > a, .navbar__item__caret, .navbar__subnav__overlay');
 
-    // toggle mobile navbar
-    function toggle() {
-        navbar.body.classList.toggle('has-disabled-scroll');
-        navbar.navbarToggle.classList.toggle('is-active');
-        navbar.navbarMobile.classList.toggle('is-active');
-    }
-    this.navbarToggle.addEventListener('click', toggle);
+        // toggle fixed navbar
+        function toggleFixed() {
+            let scrollTop = navbar.nextSection.getBoundingClientRect();
 
-    // toggle subnav
-    function toggleSubnav(e) {
-        if (breakpoints.fromDesktop()) {
-            e.preventDefault();
-
-            if (e.target !== e.currentTarget)
-                return false;
-
-            e.currentTarget.closest('.navbar__item').classList.toggle('is-open');
-            navbar.header.classList.toggle('is-open');
+            if (scrollTop.top <= 80) {
+                navbar.header.classList.add('is-fixed');
+            } else {
+                navbar.header.classList.remove('is-fixed');
+            }
         }
-    }
-    Array.prototype.forEach.call(this.subnavToggle, function (subnavToggle) {
-        subnavToggle.addEventListener('click', toggleSubnav);
-    }.bind(this));
 
-    // close navbar if item clicked
-    function close() {
-        navbar.navbarToggle.classList.remove('is-active');
-        navbar.navbar.classList.remove('is-active');
-    }
-    if (this.navbarItems && this.navbarItems.length > 0) {
-        Array.prototype.forEach.call(this.navbarItems, function (item) {
-            item.addEventListener('click', close);
+        window.addEventListener('load', toggleFixed);
+        window.addEventListener('scroll', toggleFixed);
+
+        // toggle mobile navbar
+        function toggle() {
+            navbar.body.classList.toggle('has-disabled-scroll');
+            navbar.navbarToggle.classList.toggle('is-active');
+            navbar.navbarMobile.classList.toggle('is-active');
+        }
+
+        this.navbarToggle.addEventListener('click', toggle);
+
+        // toggle subnav
+        function toggleSubnav(e) {
+            if (breakpoints.fromDesktop()) {
+                e.preventDefault();
+
+                if (e.target !== e.currentTarget)
+                    return false;
+
+                e.currentTarget.closest('.navbar__item').classList.toggle('is-open');
+                navbar.header.classList.toggle('is-open');
+            }
+        }
+
+        Array.prototype.forEach.call(this.subnavToggle, function (subnavToggle) {
+            subnavToggle.addEventListener('click', toggleSubnav);
         }.bind(this));
+
+        // close navbar if item clicked
+        function close() {
+            navbar.navbarToggle.classList.remove('is-active');
+            navbar.navbar.classList.remove('is-active');
+        }
+
+        if (this.navbarItems && this.navbarItems.length > 0) {
+            Array.prototype.forEach.call(this.navbarItems, function (item) {
+                item.addEventListener('click', close);
+            }.bind(this));
+        }
     }
 };
 

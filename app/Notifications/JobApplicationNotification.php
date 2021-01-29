@@ -26,7 +26,7 @@ class JobApplicationNotification extends Notification
 
     public function toMail(): MailMessage
     {
-        $slot = $this->view->make('emails.job_application', [
+        $slot = $this->view->make('emails.job-application', [
             'data' => $this->data,
         ]);
 

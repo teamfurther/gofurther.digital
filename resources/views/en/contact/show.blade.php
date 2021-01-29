@@ -18,6 +18,7 @@
                         </p>
 
                         <form class="contact__form" id="contact-form" action="{{ localizedRoute('contact.send') }}" method="POST">
+
                             {{ csrf_field() }}
 
                             <div class="is-pulled-left">
@@ -140,7 +141,7 @@
         "width": "185"
     },
     "inLanguage": "en_gb",
-    "keywords": "Custom software development, Software development, Web development, MVP development, Digital transformation",
+    "keywords": "Custom software development, Software development, Web development, Digital product development, MVP development, Digital transformation",
     "mainEntityOfPage": "{{ localizedRoute('contact') }}",
     "name": "Discuss your idea, project or partnership",
     "publisher": {

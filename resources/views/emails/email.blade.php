@@ -260,8 +260,6 @@
                             <tr>
                                 <td class="content-cell">
                                     {{ Illuminate\Mail\Markdown::parse($slot) }}
-                                    <br /><br /><br />
-                                    <p>Regards,<br />{{ config('app.name') }}</p>
                                 </td>
                             </tr>
                         </table>

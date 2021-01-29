@@ -11,6 +11,10 @@
         <td>Email:</td>
         <td>{!! $data['email'] !!}</td>
     </tr>
+    <tr>
+        <td>Source:</td>
+        <td>{!! $data['source'] !!}</td>
+    </tr>
 </table>
 <table style="margin-top: 30px;">
     <tbody style="font-size: 9px;">

@@ -19,7 +19,7 @@
                         <div class="form-group {{ isset($errors) && $errors->has('privacy') ? 'has-error' : '' }} has-margin-b30">
                             <label class="form-label">
                                 <span class="form-checkbox">
-                                    <input name="privacy" type="checkbox" value="1" required />
+                                    <input name="privacy" type="checkbox" value="1" />
                                     <span></span>
                                 </span>
                                 {!! sprintf($privacyText ?? 'I agree to the <a href="%s" target="_blank">privacy policy</a>.', localizedRoute('privacy')) !!}

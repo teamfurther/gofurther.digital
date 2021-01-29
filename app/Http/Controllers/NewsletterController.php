@@ -58,18 +58,21 @@ class NewsletterController
         CreateNewsletterSubscriberAction $createNewsletterSubscriberAction
     ): RedirectResponse
     {
-        if ($createNewsletterSubscriberAction->execute(
+        $subscriptionResult = $createNewsletterSubscriberAction->execute(
             $request->get('email'),
             $request->get('name'),
             $request->get('source')
-        )) {
+        );
 
-            $this->notifiable->route('mail', config('mail.to'))
-                ->notify(new NewsletterSubscribedNotification([
-                    'email' => $request->get('email'),
-                    'name' => $request->get('name'),
-                    'utm' => app(UTMBag::class)->get(),
-                ], $this->view));
+        if ($subscriptionResult) {
+            if ($subscriptionResult === 1) {
+                $this->notifiable->route('mail', config('mail.to'))
+                    ->notify(new NewsletterSubscribedNotification([
+                        'email' => $request->get('email'),
+                        'name' => $request->get('name'),
+                        'utm' => app(UTMBag::class)->get(),
+                    ], $this->view));
+            }
 
             return redirect()->back()->with('alert', [
                 'gtm' => '{ "success": { "event_category": "newsletter", "event_label": "subscribe" } }',

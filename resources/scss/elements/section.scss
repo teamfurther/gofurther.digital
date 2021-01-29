@@ -15,4 +15,24 @@
     &.is-dark {
         background-color: $grey-lighter;
     }
+
+    &.is-cobalt {
+        background-color: $cobalt;
+        color: $white;
+    }
+
+    &.is-pearl {
+        background-color: $pearl;
+        color: $white;
+    }
+
+    &.is-raspberry {
+        background-color: $raspberry;
+        color: $white;
+    }
+
+    &.is-tangerine {
+        background-color: $tangerine;
+        color: $white;
+    }
 }

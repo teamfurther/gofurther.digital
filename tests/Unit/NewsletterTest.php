@@ -44,7 +44,7 @@ class NewsletterTest extends TestCase
     {
         $mock = $this->mock(CreateNewsletterSubscriberAction::class);
         $mock->shouldReceive('execute')
-            ->andReturn(new CreateUpdateContactModel());
+            ->andReturn(true);
 
         $response = $this->json('POST', 'en/newsletter', $this->data);
 
@@ -61,7 +61,7 @@ class NewsletterTest extends TestCase
     {
         $mock = $this->mock(CreateNewsletterSubscriberAction::class);
         $mock->shouldReceive('execute')
-            ->andReturn(null);
+            ->andReturn(false);
 
         $response = $this->json('POST', 'en/newsletter', $this->data);
 
@@ -157,10 +157,21 @@ class NewsletterTest extends TestCase
     {
         $mock = $this->mock(CreateNewsletterSubscriberAction::class);
         $mock->shouldReceive('execute')
-            ->andReturn(new CreateUpdateContactModel());
+            ->andReturn(1);
 
         $this->json('POST', 'en/newsletter', $this->data);
 
         \Notification::assertSentTo(new AnonymousNotifiable(), NewsletterSubscribedNotification::class);
+    }
+
+    public function testNewsletterSubscriptionShouldNotSendNotificationIfSuccessButContactExisted(): void
+    {
+        $mock = $this->mock(CreateNewsletterSubscriberAction::class);
+        $mock->shouldReceive('execute')
+            ->andReturn(2);
+
+        $this->json('POST', 'en/newsletter', $this->data);
+
+        \Notification::assertNotSentTo(new AnonymousNotifiable(), NewsletterSubscribedNotification::class);
     }
 }

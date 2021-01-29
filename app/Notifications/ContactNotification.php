@@ -26,7 +26,7 @@ class ContactNotification extends Notification
 
     public function toMail(): MailMessage
     {
-        $slot = $this->view->make('emails.contact_message', [
+        $slot = $this->view->make('emails.contact-message', [
             'data' => $this->data,
         ]);
 

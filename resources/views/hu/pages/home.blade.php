@@ -98,14 +98,14 @@
                     </div>
                     <div class="columns is-mobile">
                         <div class="column is-3-mobile is-2-tablet is-offset-1-tablet is-offset-0-widescreen">
-                            <img src="{{ asset('img/home-services-mvp-development-icon.png') }}" alt="MVP fejlesztés" />
+                            <img src="{{ asset('img/home-services-digital-product-development-icon.png') }}" alt="Digitális termékfejlesztés" />
                         </div>
                         <div class="column is-8-tablet">
-                            <h3 class="heading-4">MVP<br />fejlesztés</h3>
+                            <h3 class="heading-4">Digitális<br />termékfejlesztés</h3>
                             <p>
                                 Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, amelyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.
                             </p>
-                            <a class="btn is-pearl" href="{{ localizedRoute('services.mvp-development') }}">Tovább</a>
+                            <a class="btn is-pearl" href="{{ localizedRoute('services.digital-product-development') }}">Tovább</a>
                         </div>
                     </div>
                 </div>
@@ -325,7 +325,7 @@
         "width": "185"
     },
     "inLanguage": "hu_HU",
-    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, MVP fejlesztés, Digitális transzformáció",
+    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, Digitális termékfejlesztés, MVP fejlesztés, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('home') }}",
     "name": "{{ config('site.name') }} | {{ config('site.title.' . getLang()) }}",
     "publisher": {

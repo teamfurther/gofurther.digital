@@ -42,6 +42,20 @@ return [
                 'slug' => 'vedd-meg-a-szoftvered',
                 'tags' => [
                     'elmagyarazva' => 'Elmagyarazva',
+                ]
+            ],
+        ],
+        [
+            'en' => [
+                'slug' => 'validation-in-product-development',
+                'tags' => [
+                    'start-up' => 'Start-up',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'validacio-a-termekfejlesztesben',
+                'tags' => [
+                    'start-up' => 'Start-up',
                 ],
             ],
         ],
