@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Actions\GetRandomBannerAction;
-use Illuminate\View\View;
 use Illuminate\Routing\Controller;
+use Illuminate\View\View;
 
 class ProjectsController extends Controller
 {

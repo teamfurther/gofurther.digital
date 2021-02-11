@@ -21,6 +21,20 @@ class PrivateContentMiddleware
     }
 
     /**
+     * @return array<string>
+     */
+    private function buildPrivateContentUrls(array $routes): array
+    {
+        $privateContent = [];
+
+        foreach ($routes as $name => $parameters) {
+            $privateContent[] = localizedRoute($name, $parameters);
+        }
+
+        return $privateContent;
+    }
+
+    /**
      * Handle an incoming request.
      *
      * @return Closure|RedirectResponse|Redirector
@@ -34,19 +48,5 @@ class PrivateContentMiddleware
         }
 
         return $next($request);
-    }
-
-    /**
-     * @return array<string>
-     */
-    private function buildPrivateContentUrls(array $routes): array
-    {
-        $privateContent = [];
-
-        foreach ($routes as $name => $parameters) {
-            $privateContent[] = localizedRoute($name, $parameters);
-        }
-
-        return $privateContent;
     }
 }

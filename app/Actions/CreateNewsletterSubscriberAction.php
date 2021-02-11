@@ -7,7 +7,6 @@ use Illuminate\Log\LogManager;
 use SendinBlue\Client\Api\ContactsApi;
 use SendinBlue\Client\Configuration;
 use SendinBlue\Client\Model\CreateContact;
-use SendinBlue\Client\Model\CreateUpdateContactModel;
 
 class CreateNewsletterSubscriberAction
 {
@@ -43,12 +42,13 @@ class CreateNewsletterSubscriberAction
             $this->apiInstance->createContact($contact);
 
             return 1;
-        } catch (\Exception $e) {
-            if (str_contains($e->getMessage(), 'Contact already exist')) {
+        } catch (\Exception $exception) {
+            if (str_contains($exception->getMessage(), 'Contact already exist')) {
                 return 2;
             }
 
-            $this->log->error($e->getMessage());
+            $this->log->error($exception->getMessage());
+            $this->log->error($exception->getMessage());
 
             return 0;
         }

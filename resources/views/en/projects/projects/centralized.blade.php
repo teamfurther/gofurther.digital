@@ -304,7 +304,7 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "The online registry replaces the current paper-based systems and provides real-time communication and swift data synchronization between the OVSZ (National Blood Transfusion Service) and donation centers across Hungary.",
+    "description": "Centralized.me is the world's first automated digital manager for emerging musicians and managers, providing them with guidance, control over their careers and connection to the music industry.",
     "headline": "Centralized case study",
     "image": {
         "@type": "ImageObject",

@@ -304,7 +304,7 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "The online registry replaces the current paper-based systems and provides real-time communication and swift data synchronization between the OVSZ (National Blood Transfusion Service) and donation centers across Hungary.",
+    "description": "A centralized.me a világ első automatizált digitális menedzsere feltörekvő zenészek számára. Számukra biztosít útmutatást, kontrollt a karrierjük fölött és kapcsolatokat az iparággal.",
     "headline": "Centralized esettanulmány",
     "image": {
         "@type": "ImageObject",

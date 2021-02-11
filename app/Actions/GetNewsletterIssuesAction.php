@@ -28,7 +28,7 @@ class GetNewsletterIssuesAction
             [
                 $issues[$dirName][$fileName]['number'],
                 $issues[$dirName][$fileName]['issue'],
-                $issues[$dirName][$fileName]['title']
+                $issues[$dirName][$fileName]['title'],
             ] = explode('---', $fileName);
         }
 

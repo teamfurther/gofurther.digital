@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class UTMBag
 {
-    protected $determineUTMParametersFromRequestAction;
+    protected DetermineUTMParametersFromRequestAction $determineUTMParametersFromRequestAction;
 
     protected Session $session;
 

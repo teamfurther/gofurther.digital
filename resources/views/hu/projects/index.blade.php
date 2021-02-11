@@ -101,7 +101,7 @@
                             <img src="{{ asset('media/partners/harborsz.png') }}" alt="Harborsz Logistic" />
                         </div>
                         <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
-                            <img src="{{ asset('media/partners/ovsz.png') }}" alt="Hungarian National Blood Transfusion Service" />
+                            <img src="{{ asset('media/partners/corvinus.png') }}" alt="Corvinus University of Budapest" />
                         </div>
                         <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
                             <img src="{{ asset('media/partners/onrobot.png') }}" alt="OnRobot" />

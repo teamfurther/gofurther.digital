@@ -13,14 +13,15 @@ class GetNewsletterIssueViewAction
         $this->file = $file;
     }
 
-    public function execute($year, $issue): ?string
+    public function execute(string $year, string $issue): ?string
     {
         $path = resource_path('views/' . getLang() . '/newsletter/issues/' . $year . '/');
 
         [$search] = $this->file->glob($path . $issue . '*');
 
-        if (!$search)
+        if (!$search) {
             return null;
+        }
 
         $view = getLang() . '.newsletter.issues.' . $year . '.';
         $view .= str_replace('.blade.php', '', pathinfo($search, PATHINFO_BASENAME));

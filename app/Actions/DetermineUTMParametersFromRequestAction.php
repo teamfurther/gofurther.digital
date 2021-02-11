@@ -31,6 +31,6 @@ class DetermineUTMParametersFromRequestAction
 
     private function makeHost(string $url): ?string
     {
-        return parse_url($url,  PHP_URL_HOST);
+        return parse_url($url, PHP_URL_HOST);
     }
 }
