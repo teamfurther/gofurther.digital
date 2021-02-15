@@ -16,10 +16,10 @@
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:locale" content="hu_HU" />
-    <meta property="og:see_also" content="{{ config('site.social.facebook') }}" />
-    <meta property="og:see_also" content="{{ config('site.social.twitter') }}" />
     <meta property="og:see_also" content="{{ config('site.social.linkedin') }}" />
     <meta property="og:see_also" content="{{ config('site.social.instagram') }}" />
+    <meta property="og:see_also" content="{{ config('site.social.facebook') }}" />
+    <meta property="og:see_also" content="{{ config('site.social.twitter') }}" />
     <meta property="og:see_also" content="{{ config('site.social.medium') }}" />
     <meta property="og:site_name" content="{{ config('site.name') }}" />
     <meta property="og:title" content="@yield('title', config('site.title.' . getLang())) | {{ config('site.name') }}" />
@@ -237,10 +237,11 @@
                 <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">A lean validáció lépései</a>
             </nav>
             <nav class="social-icons is-small">
-                <a href="{{ config('site.social.facebook') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--facebook"></span></a>
                 <a href="{{ config('site.social.linkedin') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--linkedin"></span></a>
-                <a href="{{ config('site.social.twitter') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--twitter"></span></a>
                 <a href="{{ config('site.social.instagram') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--instagram"></span></a>
+                <a href="{{ config('site.social.facebook') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--facebook"></span></a>
+                <a href="{{ config('site.social.twitter') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--twitter"></span></a>
+                <a href="{{ config('site.social.github') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--github"></span></a>
             </nav>
         </div>
         <div class="footer__bottom">

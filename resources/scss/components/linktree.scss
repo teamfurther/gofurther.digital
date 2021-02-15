@@ -1,0 +1,65 @@
+.linktree {
+    margin-bottom: 30px;
+
+    @include desktop() {
+        margin-bottom: 60px;
+    }
+
+    &.is-cobalt {
+        a {
+            background-color: rgba($cobalt, .75);
+            color: $white;
+
+            &:hover {
+                background-color: $cobalt;
+            }
+        }
+    }
+
+    &.is-pearl {
+        a {
+            background-color: rgba($pearl, .75);
+            color: $white;
+
+            &:hover {
+                background-color: $pearl;
+            }
+        }
+    }
+
+    &.is-raspberry {
+        a {
+            background-color: rgba($raspberry, .75);
+            color: $white;
+
+            &:hover {
+                background-color: $raspberry;
+            }
+        }
+    }
+
+    &.is-tangerine {
+        a {
+            background-color: rgba($tangerine, .9);
+            color: $white;
+
+            &:hover {
+                background-color: $tangerine;
+            }
+        }
+    }
+
+    a {
+        background-color: rgba($grey, .25);
+        border-radius: 5px;
+        color: $grey-text;
+        display: block;
+        margin-bottom: 10px;
+        padding: 15px;
+        transition: all .4s ease-out;
+
+        &:hover {
+            background-color: rgba($grey, .5);
+        }
+    }
+}

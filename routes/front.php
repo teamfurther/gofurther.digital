@@ -22,6 +22,7 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
     Route::view('about', 'en.pages.about')->name('about');
     Route::view('coming-soon', 'en.pages.coming-soon')->name('coming-soon');
     Route::view('cookies-policy', 'en.pages.cookies')->name('cookies');
+    Route::view('linktree', 'en.pages.linktree')->name('linktree');
     Route::view('privacy-policy', 'en.pages.privacy')->name('privacy');
     Route::view('tech-stack', 'en.pages.tech-stack')->name('tech-stack');
     Route::view('terms-of-use', 'en.pages.terms')->name('terms');
@@ -103,6 +104,7 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
     Route::view('eszkoztar', 'hu.pages.tech-stack')->name('tech-stack');
     Route::view('felhasznalasi-feltetelek', 'hu.pages.terms')->name('terms');
     Route::view('hamarosan', 'hu.pages.coming-soon')->name('coming-soon');
+    Route::view('linktree', 'hu.pages.linktree')->name('linktree');
     Route::view('rolunk', 'hu.pages.about')->name('about');
 
     Route::view('digitalis-transzformacio', 'hu.services.digital-transformation')
