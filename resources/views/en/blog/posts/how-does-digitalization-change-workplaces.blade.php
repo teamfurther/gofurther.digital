@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-how-does-digitalization-change-workplaces.png') }}" srcset="{{ asset('media/blog/featured-how-does-digitalization-change-workplaces-768w.png') }} 768w, {{ asset('media/blog/featured-how-does-digitalization-change-workplaces-1000w.png') }} 1000w" sizes="100vw" alt="The transformation of people: how does digitalization change workplaces" />
+        <img src="{{ asset('media/blog/featured-how-does-digitalization-change-workplaces.png') }}" srcset="{{ asset('media/blog/featured-how-does-digitalization-change-workplaces-768w.png') }} 768w, {{ asset('media/blog/featured-how-does-digitalization-change-workplaces-1000w.png') }} 1000w" sizes="100vw" alt="The transformation of people: how does digitalization change workplaces?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">The transformation of people: how does digitalization change workplaces</h1>
+                            <h1 class="post__title p-name">The transformation of people: how does digitalization change workplaces?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2020-09-20 12:00:00">Sept 20, 2019</time> &middot; 11 min read
                             </div>
@@ -97,7 +97,7 @@
                             <p>In cases such as this, change management should become the number one priority of management. They should replace these jobs with new positions that add value to the organisation, and retrain people to acquire the necessary new skills. An open and transparent communication between management and employees is vital to keeping valuable workforce during such a transformation project.</p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The transformation of people: how does digitalization change workplaces'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The transformation of people: how does digitalization change workplaces?'])
                         </div>
                     </div>
                 </div>
@@ -208,7 +208,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "The transformation of people: how does digitalization change workplaces"
+                "name": "The transformation of people: how does digitalization change workplaces?"
             }
         }
     ]

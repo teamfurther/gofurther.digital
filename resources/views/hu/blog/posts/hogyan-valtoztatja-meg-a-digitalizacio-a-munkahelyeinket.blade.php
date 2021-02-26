@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-how-does-digitalization-change-workplaces.png') }}" srcset="{{ asset('media/blog/featured-how-does-digitalization-change-workplaces-768w.png') }} 768w, {{ asset('media/blog/featured-how-does-digitalization-change-workplaces-1000w.png') }} 1000w" sizes="100vw" alt="Az emberek transzformációja: hogyan változtatja meg az digitalizáció a munkahelyeinket" />
+        <img src="{{ asset('media/blog/featured-how-does-digitalization-change-workplaces.png') }}" srcset="{{ asset('media/blog/featured-how-does-digitalization-change-workplaces-768w.png') }} 768w, {{ asset('media/blog/featured-how-does-digitalization-change-workplaces-1000w.png') }} 1000w" sizes="100vw" alt="Az emberek transzformációja: hogyan változtatja meg a digitalizáció a munkahelyeinket" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">Az emberek transzformációja: hogyan változtatja meg az digitalizáció a munkahelyeinket</h1>
+                            <h1 class="post__title p-name">Az emberek transzformációja: hogyan változtatja meg a digitalizáció a munkahelyeinket</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2020-09-20 12:00:00">2020 szeptember 20</time> &middot; 11 perces olvasás
                             </div>
@@ -97,7 +97,7 @@
                             <p>Ezekben az esetekben a vezetőség felelőssége a változásmenedzsment, hogy az így felszabadult munkahelyek helyett új értékteremtő pozíciókat és átképzési programokat létesítsenek. A munkaerő megtartásának feltétele ez alatt az átalakulási projekt során, hogy folyamatosan fenntartsunk egy nyílt kommunikációs csatornát a vezetőség és az alkalmazottak között, az érintetteket értesítsünk a projekt minden lépéséről.</p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The transformation of people: how does digitalization change workplaces'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The transformation of people: how does digitalization change workplaces?'])
                         </div>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
     "datePublished": "2020-09-20T12:00:00",
     "dateModified": "2020-09-20T12:00:00",
     "description": "Ebben a cikkben megmutatjuk, hogy a digitális technológiák hogyan változtatják meg a munkaerőt, és a vállalkozások hogyan tudnak ehez alkalmazkodni és fejlődni.",
-    "headline": "Az emberek transzformációja: hogyan változtatja meg az digitalizáció a munkahelyeinket",
+    "headline": "Az emberek transzformációja: hogyan változtatja meg a digitalizáció a munkahelyeinket",
     "image": {
         "@type": "ImageObject",
         "height": 630,

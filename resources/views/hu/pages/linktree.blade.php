@@ -21,7 +21,7 @@
                         </li>
                         <li>
                             <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-valtoztatja-meg-a-digitalizacio-a-munkahelyeinket']) }}" target="_blank">
-                                Hogyan változtatja meg az digitalizáció a munkahelyeinket?
+                                Hogyan változtatja meg a digitalizáció a munkahelyeinket?
                             </a>
                         </li>
                     </ul>
