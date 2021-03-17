@@ -46,6 +46,18 @@
             <div class="columns is-mobile is-multiline">
                 <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
                     <a class="project-list__item"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'procter-and-gamble-cycle-inventory-counting']) }}"
+                    >
+                        <img class="project-list__item__image" src="{{ asset('media/projects/pg-project-list.jpg') }}" alt="Procter & Gamble - Cycle Inventory Counting" />
+
+                        <h1 class="project-list__item__title">P&G Cycle Inventory Counting</h1>
+                        <div class="project-list__item__description">
+                            A P&G megbízott minket, hogy fejlesszünk számukra egy leltározó applikációt az állótőke nyílvántartasának segítésére. Az applikáció segítségével a P&G a leltárciklusát 3 évről, egyetlen 1 évre sikerült csökkentse!
+                        </div>
+                    </a>
+                </div>
+                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                    <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
                     >
                         <img class="project-list__item__image" src="{{ asset('media/projects/centralized-project-list.jpg') }}" alt="Centralized.me - Artist Management From A to Z" />
@@ -225,7 +237,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, Digitális termékfejlesztés, MVP fejlesztés, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('projects') }}",
     "name": "Projektjeink",

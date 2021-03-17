@@ -1,0 +1,58 @@
+body.project--procter-and-gamble-cycle-inventory-counting {
+    .hero {
+        align-items: center;
+        background: linear-gradient(to bottom, #1b5eaa 0%, #0e37b1 100%);
+        justify-content: flex-start;
+
+        &::after {
+            background: url(../media/projects/pg-hero-background.png) center bottom / contain no-repeat;
+            content: '';
+            display: block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+
+            @include tablet() {
+                background-image: url(../media/projects/pg-hero-background-768w.png);
+                background-position: 50%  95%;
+                background-size: auto;
+            }
+
+            @include desktop() {
+                background-image: url(../media/projects/pg-hero-background-1000w.png);
+                background-position: 50%  90%;
+            }
+
+            @include fullhd() {
+                background-image: url(../media/projects/pg-hero-background-1384w.png);
+            }
+        }
+    }
+
+    .list-hero {
+        color: #041f44;
+        text-shadow: 5px 5px 0 #1b5eaa;
+    }
+
+    .project {
+        &__contact {
+            background-color: #1b5eaa;
+        }
+
+        &__stat {
+            &::before {
+                background-image: url(../media/projects/pg-stats.png);
+            }
+        }
+
+        &__summary {
+            background-image: url(../media/projects/pg-summary-background.jpg);
+        }
+
+        &__text-emphasis {
+            color: #1b5eaa;
+        }
+    }
+}

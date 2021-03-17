@@ -167,7 +167,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, Digitális termékfejlesztés, MVP fejlesztés, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('tech-stack') }}",
     "name": "Eszköztárunk",

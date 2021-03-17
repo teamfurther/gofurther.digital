@@ -242,7 +242,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "CRM",
     "mainEntityOfPage": "{{ localizedRoute('solutions.crm') }}",
     "name": "Testreszabott ügyfélkapcsolat-kezelési megoldások kis- és középvállalkozásoknak",

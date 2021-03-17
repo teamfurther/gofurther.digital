@@ -143,7 +143,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-protect-your-software-hu.png') }}"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Szoftver szerzői jog, Szoftver szerzői jogi törvény, Szerzői jogi törvény, Szoftver szabadalom",
     "mainEntityOfPage": {
         "@type": "WebPage",

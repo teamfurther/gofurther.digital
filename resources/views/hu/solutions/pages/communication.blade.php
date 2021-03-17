@@ -262,7 +262,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Chat, Üzenetküldés, E-mail marketing",
     "mainEntityOfPage": "{{ localizedRoute('solutions.communication') }}",
     "name": "Beszéljétek és osszátok meg ötleteiteket",

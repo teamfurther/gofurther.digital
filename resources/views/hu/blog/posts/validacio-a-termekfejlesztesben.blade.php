@@ -156,7 +156,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-validation-in-product-development-hu.png') }}"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Start-up, Validáció, Lean validáció, Lean termékfejlesztés, Üzleti modell, Termékfejlesztés",
     "mainEntityOfPage": {
         "@type": "WebPage",

@@ -233,7 +233,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Termékéletciklus-menedzsment, PLM",
     "mainEntityOfPage": "{{ localizedRoute('solutions.plm') }}",
     "name": "Testreszabott termékéletciklus-menedzsment szoftver",

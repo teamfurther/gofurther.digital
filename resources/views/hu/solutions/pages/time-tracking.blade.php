@@ -205,7 +205,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Időkövetés",
     "mainEntityOfPage": "{{ localizedRoute('solutions.time-tracking') }}",
     "name": "Időkövetési és jelentéskészítő szoftver",

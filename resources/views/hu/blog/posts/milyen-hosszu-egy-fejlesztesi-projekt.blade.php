@@ -150,7 +150,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-how-long-is-a-development-project-hu.png') }}"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Szabadúszó, Freelancer, Outsourcing",
     "mainEntityOfPage": {
         "@type": "WebPage",

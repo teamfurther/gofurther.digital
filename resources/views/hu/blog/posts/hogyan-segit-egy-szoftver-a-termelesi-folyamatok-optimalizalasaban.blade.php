@@ -140,7 +140,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-manufacturing-software-hu.png') }}"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "PLM, Product Lifecycle Management, Termékéletciklus-kezelés, MRP, Material Resource Planning, Erőforrástervezés, Kapacitástervezés, Optimális készlet, Minőségellenőrzés, Termelésirányítás, Digitális Vállalkozás, Digitális Transzformáció, ERP, Vállalatirányítás",
     "mainEntityOfPage": {
         "@type": "WebPage",

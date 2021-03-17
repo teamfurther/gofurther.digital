@@ -120,7 +120,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-rebranding.jpg') }}"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Further Digital Solutions, Further, Rebranding",
     "mainEntityOfPage": {
         "@type": "WebPage",

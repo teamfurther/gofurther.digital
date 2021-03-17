@@ -159,7 +159,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team-hu.png') }}"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Szabadúszó, Freelancer, Outsourcing",
     "mainEntityOfPage": {
         "@type": "WebPage",

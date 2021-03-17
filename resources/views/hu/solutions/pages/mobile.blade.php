@@ -188,7 +188,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "iOs fejlesztés, Android fejlesztés, Hibrid fejlesztés, Mobilfejlesztés",
     "mainEntityOfPage": "{{ localizedRoute('solutions.mobile') }}",
     "name": "iOS és Android fejlesztés",

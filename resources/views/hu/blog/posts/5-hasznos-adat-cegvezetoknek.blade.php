@@ -166,7 +166,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-5-things-every-business-owner-should-know-hu.png') }}"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "BI, Business Intelligence, Üzleti Intelligencia, Big Data, Analytics, Analitika, ERP, Vállalatirányítás",
     "mainEntityOfPage": {
         "@type": "WebPage",

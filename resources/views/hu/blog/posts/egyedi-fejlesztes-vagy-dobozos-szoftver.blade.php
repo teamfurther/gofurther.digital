@@ -144,7 +144,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-custom-development-vs-ootb-hu.png') }}"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Egyedi szoftverfejlesztés, Licenszes szoftver, Dobozos szoftver, Szolgáltatott szoftver, SaaP, SaaS",
     "mainEntityOfPage": {
         "@type": "WebPage",

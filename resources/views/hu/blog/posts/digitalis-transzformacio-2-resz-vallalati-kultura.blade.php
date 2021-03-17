@@ -114,7 +114,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-digital-transformation-2-hu.png') }}"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Digitális transzformáció, Digitális átalakulás",
     "mainEntityOfPage": {
         "@type": "WebPage",

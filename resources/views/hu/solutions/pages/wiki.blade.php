@@ -204,7 +204,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Wiki szoftver, Wiki, Tudásközpont, Tudástár, Tudásbázis",
     "mainEntityOfPage": "{{ localizedRoute('solutions.wiki') }}",
     "name": "Egyedi wiki szoftver,

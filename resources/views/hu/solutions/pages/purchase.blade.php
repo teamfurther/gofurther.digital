@@ -234,7 +234,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Ellátási lánc, Beszerzés, Leltár, Leltározás, Leltárkezelés, Raktármenedzsment",
     "mainEntityOfPage": "{{ localizedRoute('solutions.purchase') }}",
     "name": "Testreszabott ellátási lánc- és leltárkezelés",

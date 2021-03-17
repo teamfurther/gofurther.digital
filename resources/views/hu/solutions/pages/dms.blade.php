@@ -239,7 +239,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Dokumentumkezelés, Dokumentumtár, Dokumentummenedzsment, DMS",
     "mainEntityOfPage": "{{ localizedRoute('solutions.dms') }}",
     "name": "Testreszabott dokumentumkezelő rendszerek",

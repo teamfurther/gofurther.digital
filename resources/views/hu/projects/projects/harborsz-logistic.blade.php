@@ -308,7 +308,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "en_gb",
+    "inLanguage": "hu_hu",
     "keywords": "ERP, Logistics",
     "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "Harborsz Logistic esettanulmány",

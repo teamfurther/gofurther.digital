@@ -138,7 +138,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-going-paperless-hu.png') }}"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "DMS, Document Management System, Dokumentumkezelés, Dokumentumkezelő-rendszer, CRM, Customer Relationship Management, Ügyfélkezelés, Ügyfélkezelő-rendszer, Digitális Vállalkozás, Digitális Transzformáció, ERP, Vállalatirányítás",
     "mainEntityOfPage": {
         "@type": "WebPage",

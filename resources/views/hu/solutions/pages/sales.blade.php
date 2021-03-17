@@ -206,7 +206,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Értékesítési szoftver, Árajánlatadási szoftver",
     "mainEntityOfPage": "{{ localizedRoute('solutions.sales') }}",
     "name": "Online értékesítési szoftver",

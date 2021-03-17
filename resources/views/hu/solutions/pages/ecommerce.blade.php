@@ -236,7 +236,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "E-Commerce, E-Kereskedelem, Webáruház, Chronos CMS",
     "mainEntityOfPage": "{{ localizedRoute('solutions.ecommerce') }}",
     "name": "Online áruház a Chronos segítségével",

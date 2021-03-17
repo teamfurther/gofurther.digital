@@ -117,7 +117,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-improve-how-you-code-by-using-a-rubber-duck-hu.png') }}"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Rubber duck debugging, Debugging method, Debugging, Debugging method names, ",
     "mainEntityOfPage": {
         "@type": "WebPage",

@@ -212,7 +212,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Chronos, CMS, Chronos CMS",
     "mainEntityOfPage": "{{ localizedRoute('solutions.chronos') }}",
     "name": "Chronos CMS",

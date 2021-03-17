@@ -49,7 +49,7 @@
                         <h4 class="heading-1">Key problems that we needed to address</h4>
                     </div>
                 </div>
-                <div class="columns is-reversed">
+                <div class="columns has-margin-b90 is-reversed">
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">The platform had to be scalable</h5>
                         <em class="project__text-emphasis">Problem</em>

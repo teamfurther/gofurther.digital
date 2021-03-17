@@ -184,7 +184,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-why-you-cant-afford-to-delay-digital-transformation-hu.png') }}"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Digital Transformation",
     "mainEntityOfPage": {
         "@type": "WebPage",

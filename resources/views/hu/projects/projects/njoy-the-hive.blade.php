@@ -433,7 +433,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "en_gb",
+    "inLanguage": "hu_hu",
     "keywords": "PLM, Product lifecycle management, ERP, Codeigniter",
     "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "nJoy esettanulmány",

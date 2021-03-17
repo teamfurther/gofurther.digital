@@ -1,0 +1,10 @@
+<section class="section">
+    <a class="project__banner project__banner--pg"
+       href="{{ route(getLang() . '.projects.show', ['slug' => 'procter-and-gamble-cycle-inventory-counting']) }}"
+    >
+        <div class="container">
+            Következő esettanulmány
+            <img src="{{ asset('media/projects/pg-logo-knockout.svg') }}" alt="Procter & Gamble - Cycle Inventory Counting" />
+        </div>
+    </a>
+</section>

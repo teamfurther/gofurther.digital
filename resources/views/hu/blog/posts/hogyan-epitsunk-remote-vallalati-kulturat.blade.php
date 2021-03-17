@@ -167,7 +167,7 @@
         "width": 1200,
         "url": "{{ asset('media/blog/cover-remote-corporate-culture-3-hu.png') }}"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Csapat, Remote csapat, Remote team, Távmunka, Távoli csapat, Kommunikáció, Céges távkapcsolat, Videóhívás, Team building, Csapatépítés, Munkavállaló, Motiváció, Remote vállalati kultúra",
     "mainEntityOfPage": {
         "@type": "WebPage",

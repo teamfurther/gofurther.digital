@@ -49,7 +49,7 @@
                         <h4 class="heading-1">Kulcsproblémák és megoldások</h4>
                     </div>
                 </div>
-                <div class="columns is-reversed has-margin-b90">
+                <div class="columns has-margin-b90 is-reversed">
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">A rendszer könnyen skálázható kell legyen</h5>
                         <em class="project__text-emphasis">Probléma</em>
@@ -312,7 +312,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "en_gb",
+    "inLanguage": "hu_hu",
     "keywords": "MVP, Start-up, Laravel, Vue",
     "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "Centralized esettanulmány",

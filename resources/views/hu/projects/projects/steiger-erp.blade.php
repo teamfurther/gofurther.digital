@@ -395,7 +395,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "en_gb",
+    "inLanguage": "hu_hu",
     "keywords": "ERP, Laravel",
     "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "Steiger ERP esettanulmány",

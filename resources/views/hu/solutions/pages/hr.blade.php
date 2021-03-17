@@ -227,7 +227,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Human erőforrások, Emberi erőforrások, HR szoftver",
     "mainEntityOfPage": "{{ localizedRoute('solutions.hr') }}",
     "name": "Testreszabott emberi erőforrások-menedzsment",

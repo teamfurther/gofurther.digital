@@ -254,7 +254,7 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "hu_HU",
+    "inLanguage": "hu_hu",
     "keywords": "Számvitel, Számviteli szoftver",
     "mainEntityOfPage": "{{ localizedRoute('solutions.accounting') }}",
     "name": "Egyedi online számviteli megoldások",
