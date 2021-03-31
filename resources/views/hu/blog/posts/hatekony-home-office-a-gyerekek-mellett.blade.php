@@ -24,6 +24,15 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
+                            <p>Olvasd el sorozatunk többi cikkét:</p>
+                            <ul class="list has-bullets has-margin-b60">
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">1. rész – Mi az a remote csapat (és miért imádjuk a Furthernél)?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-vegyunk-fel-uj-remote-csapattagot']) }}">2. rész – Hogyan vegyünk fel új remote csapattagot?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Hogyan építsünk remote vállalati kultúrát?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">5. rész – Működhet-e sikeres távkapcsolat egy céges környezetben?</a></li>
+                                <li><strong>6. rész – Hatékony home office a gyerekek mellett? Mutatjuk, hogyan!</strong></li>
+                            </ul>
                             <p>Amint az előző bejegyzésekben is láthattátok, <a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">a távmunka egy rendkívül megosztó téma.</a> Ez különösen igaz, ha szülőként esik a választás erre az életformára.</p>
                             <p>Roppantul csábító lehet a kanapéról dolgozni és közben a gyerekekre felügyelni, viszont a valóság nem ilyen egyszerű. A munkaidő kereteit nehéz lehet betartani, ráadásul az otthonunkban megannyi kísértés vesz körül minket. A gyerekek sok esetben éjjel-nappali figyelmet igényelnek és ez könnyen a produktivitás rovására mehet.</p>
                             <p>Mivel napjainkban sok szülő kénytelen kipróbálni magát ebben a szerepben, mi olyanokat kérdeztünk, akik már nem újak a műfajban.</p>

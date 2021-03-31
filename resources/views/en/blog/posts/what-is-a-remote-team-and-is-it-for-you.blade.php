@@ -31,6 +31,7 @@
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to Build a Remote Company Culture?</a></li>
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to Stay Motivated When You Work Remotely?</a></li>
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a Long-distance Relationship Work in a Corporate Environment?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'effective-home-office-with-kids']) }}">Pt. 6 – Effective home office with kids? We'll show you how!</a></li>
                             </ul>
                             <p>At Further we are working as a fully remote team. And we love it.</p>
                             <p>The IT sector sets the trend when it comes to remote work. Start-ups and digital companies often employ remote teams. In our case, we employ 10 people from 7 different cities. But remote work for large companies as well: <a href="https://www.invisionapp.com/" target="_blank">Invision</a> employs 700 people, but doesn't have one office.</p>

@@ -31,6 +31,7 @@
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to Build a Remote Company Culture?</a></li>
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to Stay Motivated When You Work Remotely?</a></li>
                                 <li><strong>Pt. 5 – Can a Long-distance Relationship Work in a Corporate Environment?</strong></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'effective-home-office-with-kids']) }}">Pt. 6 – Effective home office with kids? We'll show you how!</a></li>
                             </ul>
                             <p>In our <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">previous article,</a> we have outlined the many benefits and pitfalls of remote work. Now, let's see what makes a remote team, a truly cohesive team.</p>
                             <p>A strong corporate culture is often ignored, whether it is a physical or virtual office. A company is made up of people who work for greater goals and good. The greater the consistency between colleagues, the easier it is to work together.</p>

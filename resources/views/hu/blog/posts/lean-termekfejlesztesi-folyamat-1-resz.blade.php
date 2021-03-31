@@ -14,7 +14,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">A lean termékfejlesztési folyamat: 1. Értsük meg a felhasználóinkat</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2021-03-05 12:00:00">2021 március 5</time> &middot; 7 perces olvasás
+                                <time class="dt-published" datetime="2021-03-05 12:00:00">2021 március 5</time> &middot; 12 perces olvasás
                             </div>
                         </div>
                     </div>

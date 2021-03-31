@@ -31,6 +31,7 @@
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-epitsunk-remote-vallalati-kulturat']) }}">3. rész – Hogyan építsünk remote vállalati kultúrát?</a></li>
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
                                 <li><strong>5. rész – Működhet-e sikeres távkapcsolat egy céges környezetben?</strong></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hatekony-home-office-a-gyerekek-mellett']) }}">6. rész – Hatékony home office a gyerekek mellett? Mutatjuk, hogyan!</a></li>
                             </ul>
                             <p>Egy <a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">előző cikkben</a> bemutattuk a remote munka számos előnyét és a buktatóit is. Most lássuk mitől válik egy remote csapat igazán összetartó csapattá.</p>
                             <p>Az erős vállalati kultúrát gyakran figyelmen kívül hagyják, függetlenül attól, hogy fizikai vagy virtuális irodáról van szó. Egy cég olyan emberek egységéből tevődik össze, akik nagyobb célok-javak érdekében dolgoznak. Minél nagyobb a kollégák közötti összhang, annál könnyebben megy a közös munka.</p>

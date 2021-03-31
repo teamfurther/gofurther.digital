@@ -31,6 +31,7 @@
                                 <li><strong>Pt. 3 – How to Build a Remote Company Culture?</strong></li>
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-stay-motivated-when-you-work-remotely']) }}">Pt. 4 – How to Stay Motivated When You Work Remotely?</a></li>
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a Long-distance Relationship Work in a Corporate Environment?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'effective-home-office-with-kids']) }}">Pt. 6 – Effective home office with kids? We'll show you how!</a></li>
                             </ul>
                             <p class="has-margin-b30">Company culture is much more than a couple of foosball tables in the office. Company culture is about how you work, how you communicate with your clients, but also about how you connect with the rest of the team.</p>
                             <figure>

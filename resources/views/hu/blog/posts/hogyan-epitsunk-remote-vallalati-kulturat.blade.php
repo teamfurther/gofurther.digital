@@ -31,6 +31,7 @@
                                 <li><strong>3. rész – Hogyan építsünk remote vállalati kultúrát?</strong></li>
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk']) }}">4. rész – Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?</a></li>
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'mukodhet-e-sikeres-tavkapcsolat-ceges-kornyezetben']) }}">5. rész – Működhet-e sikeres távkapcsolat egy céges környezetben?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'hatekony-home-office-a-gyerekek-mellett']) }}">6. rész – Hatékony home office a gyerekek mellett? Mutatjuk, hogyan!</a></li>
                             </ul>
                             <p>A céges kultúra sokkal többet jelent, mint egy pár csocsó asztal az irodában. A céges kultúra jelenti azt, hogy hogyan dolgozunk, ahogy az ügyfelekkel kommunikálunk, de azt is ahogy egymással kapcsolódunk.</p>
                             <figure>

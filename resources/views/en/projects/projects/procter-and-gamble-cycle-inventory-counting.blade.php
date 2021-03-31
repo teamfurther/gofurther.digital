@@ -133,7 +133,7 @@
                         Although we have worked with corporate clients before and since, we remember being amazed at how thorough the selection process was to become a P&G supplier. We had to go through a background check and put forward our information and physical security policies, business continuity plan and incident management processes.
                     </p>
                     <p>
-                        Most companies our size don’t even have these in place, so we were more than pleased that everything was found in order, and we didn’t even have to make any revisions to the aforementioned policies.
+                        Most companies our size don't even have these in place, so we were more than pleased that everything was found in order, and we didn't even have to make any revisions to the aforementioned policies.
                     </p>
                 </div>
             </div>
@@ -146,7 +146,7 @@
                         The gears of an enterprise grind slowly
                     </h5>
                     <p>
-                        Another aspect that we had to prepare for was the slow decision making process. This isn’t specific to this client, it’s just the nature of the enterprise world. Every choice or solution had to be approved on several levels, both by IT and the business side, and we had to make sure this is taken into account when submitting timelines.
+                        Another aspect that we had to prepare for was the slow decision making process. This isn't specific to this client, it's just the nature of the enterprise world. Every choice or solution had to be approved on several levels, both by IT and the business side, and we had to make sure this is taken into account when submitting timelines.
                     </p>
                 </div>
             </div>

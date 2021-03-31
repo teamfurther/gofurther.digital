@@ -31,6 +31,7 @@
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-build-a-remote-company-culture']) }}">Pt. 3 – How to Build a Remote Company Culture?</a></li>
                                 <li><strong>Pt. 4 – How to Stay Motivated When You Work Remotely?</strong></li>
                                 <li><a href="{{ localizedRoute('blog.show', ['slug' => 'long-distance-relationship-in-a-corporate-environment']) }}">Pt. 5 – Can a Long-distance Relationship Work in a Corporate Environment?</a></li>
+                                <li><a href="{{ localizedRoute('blog.show', ['slug' => 'effective-home-office-with-kids']) }}">Pt. 6 – Effective home office with kids? We'll show you how!</a></li>
                             </ul>
                             <p>Nowadays, IT is one of the few sectors that gives you full freedom to work outside of the office. Whether it's your own apartment or a café, you can easily do your daily business anywhere, all you need is a laptop and internet access.</p>
                             <p>Aside from the <a href="{{ localizedRoute('blog.show', ['slug' => 'what-is-a-remote-team-and-is-it-for-you']) }}">considerable benefits</a>, unfortunately, a home office has its own set of challenges. Perhaps one of the biggest challenges of working from home is losing or missing motivation. This can have a serious impact on our efficiency, it can make us unhappy and also affect our colleagues.</p>
