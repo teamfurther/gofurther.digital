@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'effective-home-office-with-kids',
+                'tags' => [
+                    'remote-work' => 'Remote Work',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'hatekony-home-office-a-gyerekek-mellett',
+                'tags' => [
+                    'tavmunka' => 'Távmunka',
+                ],
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'improve-how-you-code-by-using-a-rubber-duck',
                 'tags' => [
                     'development' => 'Development',
@@ -15,6 +29,20 @@ return [
                 'tags' => [
                     'fejlesztes' => 'Fejlesztés',
                 ]
+            ],
+        ],
+        [
+            'en' => [
+                'slug' => 'validation-in-product-development',
+                'tags' => [
+                    'start-up' => 'Start-up',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'validacio-a-termekfejlesztesben',
+                'tags' => [
+                    'start-up' => 'Start-up',
+                ],
             ],
         ],
         [
@@ -43,20 +71,6 @@ return [
                 'tags' => [
                     'elmagyarazva' => 'Elmagyarazva',
                 ]
-            ],
-        ],
-        [
-            'en' => [
-                'slug' => 'validation-in-product-development',
-                'tags' => [
-                    'start-up' => 'Start-up',
-                ],
-            ],
-            'hu' => [
-                'slug' => 'validacio-a-termekfejlesztesben',
-                'tags' => [
-                    'start-up' => 'Start-up',
-                ],
             ],
         ],
         [

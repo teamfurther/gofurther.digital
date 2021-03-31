@@ -3,7 +3,7 @@
     <div class="post__author__info">
         <h3 class="post__author__name p-name">Varga Noémi</h3>
         <div class="post__author__description">
-            A Further marketingese. Szereti a múvészeteket, a könyveket és az utazást. Szenvedélyesen foglalkozik a közösségi médiával és a legújabb dizájn trendekkel.
+            A Further Marketing Koordinátora. Szereti a múvészeteket, a könyveket és az utazást. Szenvedélyesen foglalkozik a közösségi médiával és a legújabb dizájn trendekkel.
         </div>
         <div class="social-icons is-small">
             <a href="https://www.linkedin.com/in/varga-noemi-53403b197/" class="u-url url" target="_blank"><span class="icon icon--linkedin"></span></a>
