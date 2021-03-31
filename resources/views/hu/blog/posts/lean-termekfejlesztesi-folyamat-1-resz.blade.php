@@ -80,7 +80,7 @@
                             <p>Szintén fontos megjegyeznem, hogy a felhasználó nem minden esetben egyezik meg a vevővel. A fenti termék esetében egy potenciális vásárló lehet egy aggódó anyuka (vagy apuka), aki a gyereke iránti gondviselése miatt lehet célcsoportunk. Ebben az esetben a felhasználó továbbra is a gyerek lesz.</p>
                             <p>De akár egy elektromobilitási eszközöket gyártó üzem technológiai vagy gyártási vezetője is lehet potenciális vásárló, aki beépítené az eszközünket a saját termékébe. Az ő igényeik mások lesznek mint egy felhasználóé. Ebben az esetben érdemes lehet a felhasználói perszónák mellé vásárlói perszónákat is felállítani.</p>
                             <p>A vízió és a perszónák meghatározásával meg is tettük a legfontosabb lépéseket a tanulási ciklus Építs szakaszában.</p>
-                            <i>Töltsd le az ingyenes start-up eszköz sablonjainkat, amelyben kitölthető perszóna sablon is találsz.</i>
+{{--                            <p><i>Töltsd le az ingyenes start-up eszköz sablonjainkat, amelyben kitölthető perszóna sablon is találsz.</i></p>--}}
                             <h2 class="heading-2 has-margin-b30 has-margin-t60">Értsük meg a felhasználóinkat</h2>
                             <p>Most, hogy már meghatároztuk milyen kérdésekre keressünk a választ (feltevések) és szerintünk kik lehetnek a potenciális felhasználóink, elérkeztünk az Építs-Mérj-Ciklus utolsó, Mérj szakaszába.</p>
                             <p>Ne tévesszen meg a megnevezés: bár a Tanulj szerepel az utolsó helyen, mint láttuk tulajdonképpen a teljes tanulási ciklus azzal kezdődött, hogy felállítottuk a hipotéziseinket, vagyis azt, hogy mit szeretnénk megtanulni. A Mérj szakasz után már csak tényleges tanulás marad, vagyis az, hogy levonjuk a megfelelő következtetéseket.</p>
@@ -105,7 +105,7 @@
                             <p>Végül pedig minden színtér esetében határozzuk meg az akciókat (mit cselekszik a perszóna), a reakciókat (milyen felfogható változás következett be) és következő lépést (milyen opciókkal vagy nehézségekkel néz most szembe a perszóna).</p>
                             <p>Az élménytérkép illusztrálhat egy jelenlegi utat, vagy egy elképzelt (vágyott) utat. Utóbbi inkább a probléma-megoldás illeszkedés termékfejlesztési fázisban lesz hasznos.</p>
                             <p>Tapasztalatom azt mutatja, hogy az élménytérkép akkor vezet a legjobb eredményhez, ha ezt közösen készítjük el a potenciális felhasználókkal. Ez egy kitűnő lehetőséget ad arra, hogy megfigyeljük a reakciójukat az út egy-egy pontján. Ezeket akár illusztrálhatjuk is az élménytérképen egy érzelem-diagram formájában, ahol a csúcsok jelölik a pozitív reakciókat, a völgyek pedig a negatívakat.</p>
-                            <i>Töltsd le az ingyenes start-up eszköz sablonjainkat, amelyben kitölthető élménytérkép sablont is találsz.</i>
+{{--                            <p><i>Töltsd le az ingyenes start-up eszköz sablonjainkat, amelyben kitölthető élménytérkép sablont is találsz.</i></p>--}}
                             <figure>
                                 <img src="{{ asset('media/blog/the-lean-product-process-1-flow-workshop.jpg') }}" alt="Egy ügyfelünkkel közösen készített élménytérkép" />
                                 <figcaption>Egy ügyfelünkkel közösen készített élménytérkép</figcaption>
