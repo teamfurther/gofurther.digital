@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'the-lean-product-process-pt2',
+                'tags' => [
+                    'start-up' => 'Start-up',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'lean-termekfejlesztesi-folyamat-2-resz',
+                'tags' => [
+                    'start-up' => 'Start-up',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'the-lean-product-process-pt1',
                 'tags' => [
                     'start-up' => 'Start-up',

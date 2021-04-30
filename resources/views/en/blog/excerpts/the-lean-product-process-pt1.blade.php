@@ -1,5 +1,5 @@
 <div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-1']) }}">
+    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt1']) }}">
         <img src="{{ asset('media/blog/thumb-the-lean-product-process-1-en.png') }}" alt="The Lean Product Process: #1 Understanding Your Customers" />
     </a>
     <div class="post__content">
