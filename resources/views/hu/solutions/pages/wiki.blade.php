@@ -207,7 +207,7 @@
     "inLanguage": "hu_hu",
     "keywords": "Wiki szoftver, Wiki, Tudásközpont, Tudástár, Tudásbázis",
     "mainEntityOfPage": "{{ localizedRoute('solutions.wiki') }}",
-    "name": "Egyedi wiki szoftver,
+    "name": "Egyedi wiki szoftver",
     "publisher": {
         "@type": "Corporation",
         "address": {
