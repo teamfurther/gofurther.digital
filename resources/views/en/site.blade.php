@@ -228,13 +228,14 @@
                 </a>
             </nav>
             <nav class="footer__nav">
-                <span class="footer__nav__title">Links</span>
+                <span class="footer__nav__title">Meet Further</span>
                 {{--<a href="{{ localizedRoute('events') }}">Events</a>--}}
-                <a href="{{ localizedRoute('about') }}">About</a>
+                <a href="{{ localizedRoute('about.team') }}">Team</a>
+                <a href="{{ localizedRoute('about.how-we-work') }}">How we work</a>
+                <a href="{{ localizedRoute('about.remote-culture') }}">Remote culture</a>
+                <a href="{{ localizedRoute('about.outsourcing') }}">Outsourcing</a>
                 <a href="{{ localizedRoute('jobs') }}">Careers</a>
                 <a href="{{ localizedRoute('contact') }}">Contact</a>
-                <a href="{{ localizedRoute('newsletter') }}">Newsletters</a>
-                <a href="{{ localizedRoute('tech-stack') }}">Tech stack</a>
                 @if (switchLang('hu'))
                     <a class="footer__lang" href="{{ switchLang('hu') }}">Magyar</a>
                 @endif
@@ -242,6 +243,7 @@
             <nav class="footer__nav">
                 <span class="footer__nav__title">Free resources</span>
                 <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">Lean validation cheat sheet</a>
+                <a href="{{ localizedRoute('newsletter') }}">Newsletters</a>
             </nav>
             <nav class="social-icons is-small">
                 <a href="{{ config('site.social.linkedin') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--linkedin"></span></a>

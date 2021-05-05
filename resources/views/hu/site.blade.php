@@ -222,12 +222,12 @@
                 </a>
             </nav>
             <nav class="footer__nav">
-                <span class="footer__nav__title">Linkek</span>
+                <span class="footer__nav__title">Kik vagyunk?</span>
                 {{--<a href="{{ localizedRoute('events') }}">Eseményeink</a>--}}
-                <a href="{{ localizedRoute('about') }}">Rólunk</a>
-                <a href="{{ localizedRoute('tech-stack') }}">Eszköztár</a>
+                <a href="{{ localizedRoute('about.team') }}">Csapatunk</a>
+                <a href="{{ localizedRoute('about.how-we-work') }}">Hogyan dolgozunk?</a>
+                <a href="{{ localizedRoute('about.remote-culture') }}">Remote kultúra</a>
                 <a href="{{ localizedRoute('contact') }}">Kapcsolat</a>
-                <a href="{{ localizedRoute('newsletter') }}">Hírlevelek</a>
                 @if (switchLang('en'))
                     <a class="footer__lang" href="{{ switchLang('en') }}">English</a>
                 @endif
@@ -235,6 +235,7 @@
             <nav class="footer__nav">
                 <span class="footer__nav__title">Ingyenes anyagok</span>
                 <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">A lean validáció lépései</a>
+                <a href="{{ localizedRoute('newsletter') }}">Hírlevelek</a>
             </nav>
             <nav class="social-icons is-small">
                 <a href="{{ config('site.social.linkedin') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--linkedin"></span></a>

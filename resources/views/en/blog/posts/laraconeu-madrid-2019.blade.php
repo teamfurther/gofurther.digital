@@ -24,7 +24,7 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p>The 23rd of May was a special day for us, as we attended our first Laracon in Madrid. We've been using Laravel since 2014 (version 4.2), and since it is part of our main <a href="{{ localizedRoute('tech-stack') }}">tech stack</a> and we're also trying to take active part in the local community, Laracon has always been high up on our conferences bucket list, but it just didn't work out for us until now.</p>
+                            <p>The 23rd of May was a special day for us, as we attended our first Laracon in Madrid. We've been using Laravel since 2014 (version 4.2), and since it is part of our main <a href="{{ localizedRoute('about.how-we-work') }}#laravel-vue">tech stack</a> and we're also trying to take active part in the local community, Laracon has always been high up on our conferences bucket list, but it just didn't work out for us until now.</p>
                             <p>We arrived early on the 22nd, and after a long walk exploring Madrid and some awesome paella, we dropped by Teatros Luchana for an evening of networking, drinks and tapas, sponsored by <a href="https://twitter.com/Cyberduck_uk" target="_blank">Cyber Duck</a>. It was great to meet new people who think alike and are all excited about Laravel, the same way we are.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/laraconeu-madrid-2019-teatros-luchana.jpg') }}" alt="Teatros Luchana was an awesome venue, with a really cool industrial design" />

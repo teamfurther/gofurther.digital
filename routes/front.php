@@ -19,12 +19,10 @@ Route::get('/', function (): void {
  */
 Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function (): void {
     Route::view('/', 'en.pages.home')->name('home');
-    Route::view('about', 'en.pages.about')->name('about');
     Route::view('coming-soon', 'en.pages.coming-soon')->name('coming-soon');
     Route::view('cookies-policy', 'en.pages.cookies')->name('cookies');
     Route::view('linktree', 'en.pages.linktree')->name('linktree');
     Route::view('privacy-policy', 'en.pages.privacy')->name('privacy');
-    Route::view('tech-stack', 'en.pages.tech-stack')->name('tech-stack');
     Route::view('terms-of-use', 'en.pages.terms')->name('terms');
 
     Route::view('digital-transformation', 'en.services.digital-transformation')
@@ -34,13 +32,14 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
     Route::view('digital-product-development', 'en.services.digital-product-development')
         ->name('services.digital-product-development');
 
+    Route::view('about/how-we-work', 'en.about.how-we-work')->name('about.how-we-work');
+    Route::view('about/remote-culture', 'en.about.remote-culture')->name('about.remote-culture');
+    Route::view('about/outsourcing', 'en.about.outsourcing')->name('about.outsourcing');
+    Route::view('about/team', 'en.about.team')->name('about.team');
+
     Route::get('blog', [BlogController::class, 'index'])->name('blog');
     Route::get('blog/posts/{slug}', [BlogController::class, 'show'])->name('blog.show');
     Route::get('blog/tagged/{slug}', [BlogTagsController::class, 'show'])->name('blog.tags.show');
-
-    Route::get('careers', [JobsController::class, 'index'])->name('jobs');
-    Route::get('careers/{slug}', [JobsController::class, 'show'])->name('jobs.show');
-    Route::post('careers', [JobsController::class, 'send'])->name('jobs.send');
 
     Route::get('contact', [ContactController::class, 'show'])->name('contact');
     Route::post('contact', [ContactController::class, 'send'])->name('contact.send');
@@ -49,8 +48,9 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
     Route::get('freebies', [FreebiesController::class, 'download'])->name('freebies.download');
     Route::post('freebies', [FreebiesController::class, 'get'])->name('freebies.get');
 
-    Route::get('projects', [ProjectsController::class, 'index'])->name('projects');
-    Route::get('projects/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
+    Route::get('careers', [JobsController::class, 'index'])->name('jobs');
+    Route::get('careers/{slug}', [JobsController::class, 'show'])->name('jobs.show');
+    Route::post('careers', [JobsController::class, 'send'])->name('jobs.send');
 
     Route::get('newsletter', [NewsletterController::class, 'index'])->name('newsletter');
     Route::get('newsletter/{year}/{issue}', [NewsletterController::class, 'show'])->name('newsletter.show');
@@ -59,6 +59,9 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
 
     Route::get('private-content', [PrivateContentController::class, 'show'])->name('private-content');
     Route::post('private-content', [PrivateContentController::class, 'verify'])->name('private-content.verify');
+
+    Route::get('projects', [ProjectsController::class, 'index'])->name('projects');
+    Route::get('projects/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
 
     Route::view('solutions', 'en.solutions.index')
         ->name('solutions');
@@ -101,11 +104,35 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
     Route::view('/', 'hu.pages.home')->name('home');
     Route::view('adatvedelmi-szabalyzat', 'hu.pages.privacy')->name('privacy');
     Route::view('cookies-szabalyzat', 'hu.pages.cookies')->name('cookies');
-    Route::view('eszkoztar', 'hu.pages.tech-stack')->name('tech-stack');
     Route::view('felhasznalasi-feltetelek', 'hu.pages.terms')->name('terms');
     Route::view('hamarosan', 'hu.pages.coming-soon')->name('coming-soon');
     Route::view('linktree', 'hu.pages.linktree')->name('linktree');
-    Route::view('rolunk', 'hu.pages.about')->name('about');
+
+    Route::view('rolunk/hogyan-dolgozunk', 'hu.about.how-we-work')->name('about.how-we-work');
+    Route::view('rolunk/remote-kultura', 'hu.about.remote-culture')->name('about.remote-culture');
+    Route::view('rolunk/csapatunk', 'hu.about.team')->name('about.team');
+
+    Route::get('blog', [BlogController::class, 'index'])->name('blog');
+    Route::get('blog/cikkek/{slug}', [BlogController::class, 'show'])->name('blog.show');
+    Route::get('blog/cimkek/{slug}', [BlogTagsController::class, 'show'])->name('blog.tags.show');
+
+    Route::get('kapcsolat', [ContactController::class, 'show'])->name('contact');
+    Route::post('kapcsolat', [ContactController::class, 'send'])->name('contact.send');
+
+    Route::view('a-lean-validacio-lepesei', 'hu.freebies.a-lean-validacio-lepesei')->name('freebies.lean-validation-cheat-sheet');
+    Route::get('ingyenes-anyagok', [FreebiesController::class, 'download'])->name('freebies.download');
+    Route::post('ingyenes-anyagok', [FreebiesController::class, 'get'])->name('freebies.get');
+
+    Route::get('hirlevel', [NewsletterController::class, 'index'])->name('newsletter');
+    Route::get('hirlevel/{year}/{issue}', [NewsletterController::class, 'show'])->name('newsletter.show');
+    Route::post('hirlevel', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');
+    Route::view('hirlevel/miert', 'hu.newsletter.why')->name('newsletter.why');
+
+    Route::get('zart-tartalom', [PrivateContentController::class, 'show'])->name('private-content');
+    Route::post('zart-tartalom', [PrivateContentController::class, 'verify'])->name('private-content.verify');
+
+    Route::get('projektek', [ProjectsController::class, 'index'])->name('projects');
+    Route::get('projektek/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
 
     Route::view('digitalis-transzformacio', 'hu.services.digital-transformation')
         ->name('services.digital-transformation');
@@ -113,25 +140,6 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
         ->name('services.custom-development');
     Route::view('digitalis-termekfejlesztes', 'hu.services.digital-product-development')
         ->name('services.digital-product-development');
-
-    Route::get('blog', [BlogController::class, 'index'])->name('blog');
-    Route::get('blog/cikkek/{slug}', [BlogController::class, 'show'])->name('blog.show');
-    Route::get('blog/cimkek/{slug}', [BlogTagsController::class, 'show'])->name('blog.tags.show');
-
-    Route::view('a-lean-validacio-lepesei', 'hu.freebies.a-lean-validacio-lepesei')->name('freebies.lean-validation-cheat-sheet');
-    Route::get('ingyenes-anyagok', [FreebiesController::class, 'download'])->name('freebies.download');
-    Route::post('ingyenes-anyagok', [FreebiesController::class, 'get'])->name('freebies.get');
-
-    Route::get('kapcsolat', [ContactController::class, 'show'])->name('contact');
-    Route::post('kapcsolat', [ContactController::class, 'send'])->name('contact.send');
-
-    Route::get('projektek', [ProjectsController::class, 'index'])->name('projects');
-    Route::get('projektek/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
-
-    Route::get('hirlevel', [NewsletterController::class, 'index'])->name('newsletter');
-    Route::get('hirlevel/{year}/{issue}', [NewsletterController::class, 'show'])->name('newsletter.show');
-    Route::post('hirlevel', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');
-    Route::view('hirlevel/miert', 'hu.newsletter.why')->name('newsletter.why');
 
     Route::view('megoldasaink', 'hu.solutions.index')
         ->name('solutions');
@@ -165,7 +173,4 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
         ->name('solutions.crm');
     Route::view('megoldasaink/webaruhaz', 'hu.solutions.pages.ecommerce')
         ->name('solutions.ecommerce');
-
-    Route::get('zart-tartalom', [PrivateContentController::class, 'show'])->name('private-content');
-    Route::post('zart-tartalom', [PrivateContentController::class, 'verify'])->name('private-content.verify');
 });
