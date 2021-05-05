@@ -16,6 +16,7 @@
                     <ul class="list has-bullets has-margin-b30">
                         <li>Laravel</li>
                         <li>Lumen</li>
+                        <li>Statamic</li>
                         <li>Symfony</li>
                         <li>Drupal</li>
                     </ul>
@@ -30,7 +31,7 @@
                 <div class="column has-margin-b0 is-half-tablet is-one-quarter-desktop">
                     <h2 class="heading-4 has-margin-b0">Kliensoldali JS</h2>
                     <ul class="list has-bullets has-margin-b30">
-                        <li>Vue.js</li>
+                        <li>Vue</li>
                         <li>React</li>
                     </ul>
                     <h2 class="heading-4 has-margin-b0">Szerveroldali JS</h2>
@@ -38,25 +39,24 @@
                         <li>Node.js</li>
                         <li>socket.io</li>
                     </ul>
+                    <h2 class="heading-4 has-margin-b0">Python</h2>
+                    <ul class="list has-bullets has-margin-b30">
+                        <li>Django</li>
+                    </ul>
                     <h2 class="heading-4 has-margin-b0">Java</h2>
                     <ul class="list has-bullets has-margin-b30">
                         <li>Spring</li>
                     </ul>
                 </div>
                 <div class="column has-margin-b0 is-half-tablet is-one-quarter-desktop">
-                    <h2 class="heading-4 has-margin-b0">Cross-platform mobil</h2>
+                    <h2 class="heading-4 has-margin-b0">Mobilfejlesztés</h2>
                     <ul class="list has-bullets has-margin-b30">
                         <li>Flutter</li>
                         <li>ReactNative</li>
+                        <li>Swift</li>
+                        <li>Kotlin</li>
                         <li>Cordova</li>
                         <li>Electron</li>
-                    </ul>
-                    <h2 class="heading-4 has-margin-b0">Natív mobil</h2>
-                    <ul class="list has-bullets has-margin-b30">
-                        <li>Swift</li>
-                        <li>Objective C</li>
-                        <li>Kotlin</li>
-                        <li>Java</li>
                     </ul>
                 </div>
                 <div class="column has-margin-b0 is-half-tablet is-one-quarter-desktop">
@@ -64,10 +64,9 @@
                     <ul class="list has-bullets has-margin-b30">
                         <li>GIT</li>
                         <li>CI/CD</li>
-                        <li>nginx</li>
-                        <li>Apache</li>
-                        <li>Docker</li>
-                        <li>Amazon AWS</li>
+                        <li>nginx, Apache</li>
+                        <li>Docker, Kubernetes</li>
+                        <li>Amazon AWS, Microsoft Azure</li>
                         <li>Linode, DigitalOcean</li>
                         <li>Cloudflare</li>
                     </ul>
