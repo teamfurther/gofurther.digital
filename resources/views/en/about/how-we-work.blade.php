@@ -1,8 +1,40 @@
 @extends('en.site')
 
 @section('title', 'Our work methods and tech stack')
+@section('description', 'Our goal is to help our customer\'s business grow by offering innovative solutions and providing top quality software. Constant communication, passion and friendliness are the values we believe in and which make us ideal long-term partners.')
 
 @section('content')
+    <section class="section" id="our-mission">
+        <div class="about">
+         <div class="container">
+                <div class="columns">
+                    <div class="column is-8-desktop is-offset-2-desktop">
+                        <h1 class="hero-heading">
+                            Get to know<br /><strong class="is-tangerine">how we work</strong>
+                        </h1>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-6-tablet is-5-desktop is-offset-2-desktop">
+                        <p>
+                            At Further we are focused on providing customer-centric digital solutions: we take our time to better understand your business, which in turn allows us to build software solutions that are tailored specifically to your needs.
+                        </p>
+                        <p>
+                            Our goal is to help our customer's business grow by offering innovative solutions and providing top quality software. Constant communication, passion and friendliness are the values we believe in and which make us ideal long-term partners.
+                        </p>
+                    </div>
+                    <div class="about__stats">
+                        <span class="about__stat about__stat--1"><strong>{{ config('site.stats.projects') }}+</strong>projects</span>
+                        <span class="about__stat about__stat--2"><strong>{{ config('site.stats.clients') }}</strong>clients</span>
+                        <span class="about__stat about__stat--3"><strong>{{ config('site.stats.countries') }}</strong>countries</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            @include(getLang() . '.banners.booklet')
+
     <section class="section" id="our-approach">
         <div class="container">
             <div class="columns">
@@ -12,7 +44,9 @@
             </div>
             <div class="columns">
                 <div class="column is-8-tablet is-offset-2-tablet">
-                    <p>By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.</p>
+                    <p class="has-margin-b60">
+                        By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.
+                    </p>
                 </div>
             </div>
             <div class="columns">
@@ -44,22 +78,22 @@
         </div>
     </section>
 
-    <section class="section" id="laravel-vue">
+    <section class="section is-dark" id="laravel-vue">
         <div class="container">
             <div class="columns">
                 <div class="column is-10-tablet is-9-desktop">
                     <h2 class="hero-heading">
-                        We're <strong class="is-raspberry">proficient</strong> in Laravel + Vue.js.
+                        We're <strong class="is-raspberry">proficient</strong> in Laravel + Vue.
                     </h2>
                 </div>
             </div>
             <div class="columns">
                 <div class="column is-8-tablet">
-                    <p>We love frameworks like Laravel and Vue.js. Their rich set of features and community contributed packages allow us to reduce development times and costs. We also have a deep understanding of how these tools work, which helps us write clean, maintainable and scalable code.</p>
-                    <p>Laravel is the most popular PHP framework, while Vue.js is quickly becoming a favourite among Javascript developers. They both have an outstanding community supporting them, and here at Further, we're making an effort to give back by contributing to code and community projects alike.</p>
+                    <p>We love frameworks like Laravel and Vue. Their rich set of features and community contributed packages allow us to reduce development times and costs. We also have a deep understanding of how these tools work, which helps us write clean, maintainable and scalable code.</p>
+                    <p>Laravel is the most popular PHP framework, while Vue is quickly becoming a favourite among Javascript developers. They both have an outstanding community supporting them, and here at Further, we're making an effort to give back by contributing to code and community projects alike.</p>
                 </div>
                 <div class="column has-text-right is-4-tablet is-centered-vertical is-hidden-mobile">
-                    <img src="{{ asset('img/home-laravel-vuejs.png') }}" alt="Laravel & Vue.js" />
+                    <img src="{{ asset('img/home-laravel-vuejs.png') }}" alt="Laravel & Vue" />
                 </div>
             </div>
         </div>
@@ -69,7 +103,7 @@
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <h1 class="heading">How we work</h1>
+                    <h1 class="heading">Our tools of the trade</h1>
                 </div>
             </div>
             <div class="columns">
@@ -137,7 +171,7 @@
         </div>
     </section>
 
-    @include(getLang() . '.banners.solutions')
+    @include(getLang() . '.banners.contact')
 @endsection
 
 

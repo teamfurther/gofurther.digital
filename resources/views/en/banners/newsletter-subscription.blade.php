@@ -5,7 +5,7 @@
                 <div class="column is-12-tablet is-7-desktop">
                     <form class="newsletter-box__form" id="newsletter-subscribe-form" action="{{ localizedRoute('newsletter.subscribe') }}" method="POST">
                         <h2 class="hero-heading">
-                            {!! $headingText ?? 'Never miss the<br /><strong class="is-black">latest updates!</strong>' !!}
+                            {!! $headingText ?? 'Never miss the<br /><strong>latest updates!</strong>' !!}
                         </h2>
 
                         {{ csrf_field() }}

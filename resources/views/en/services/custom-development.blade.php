@@ -143,10 +143,7 @@
         </div>
     </section>
 
-    @include(getLang() . '.banners.contact', [
-        'buttonText' => 'We can help',
-        'headingText' => 'Want to kickstart you business?'
-    ])
+    @include(getLang() . '.banners.solutions')
 
     <section class="section">
         <div class="container">

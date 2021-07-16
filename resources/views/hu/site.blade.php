@@ -175,13 +175,13 @@
             <a class="navbar--mobile__item" href="{{ localizedRoute('projects') }}">
                 Projektjeink
             </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-transformation') }}">Digitális transzformáció
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-product-development') }}">
+                Digitális termékfejlesztés
             </a>
             <a class="navbar--mobile__item" href="{{ localizedRoute('services.custom-development') }}">
                 Egyedi szoftverfejlesztés
             </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-product-development') }}">
-                Digitális termékfejlesztés
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-transformation') }}">Digitális transzformáció
             </a>
             <a class="navbar--mobile__item" href="{{ localizedRoute('solutions') }}">
                 Megoldásaink
@@ -211,22 +211,22 @@
         <div class="footer__top">
             <nav class="footer__nav">
                 <span class="footer__nav__title">Szolgáltatásaink</span>
-                <a href="{{ localizedRoute('services.digital-transformation') }}">
-                    Digitális transzformáció
+                <a href="{{ localizedRoute('services.digital-product-development') }}">
+                    Digitális termékfejlesztés
                 </a>
                 <a href="{{ localizedRoute('services.custom-development') }}">
                     Egyedi szoftverfejlesztés
                 </a>
-                <a href="{{ localizedRoute('services.digital-product-development') }}">
-                    Digitális termékfejlesztés
+                <a href="{{ localizedRoute('services.digital-transformation') }}">
+                    Digitális transzformáció
                 </a>
             </nav>
             <nav class="footer__nav">
                 <span class="footer__nav__title">Kik vagyunk?</span>
                 {{--<a href="{{ localizedRoute('events') }}">Eseményeink</a>--}}
-                <a href="{{ localizedRoute('about.team') }}">Csapatunk</a>
                 <a href="{{ localizedRoute('about.how-we-work') }}">Hogyan dolgozunk?</a>
                 <a href="{{ localizedRoute('about.remote-culture') }}">Remote kultúra</a>
+                <a href="{{ localizedRoute('about.team') }}">Csapatunk</a>
                 <a href="{{ localizedRoute('contact') }}">Kapcsolat</a>
                 @if (switchLang('en'))
                     <a class="footer__lang" href="{{ switchLang('en') }}">English</a>

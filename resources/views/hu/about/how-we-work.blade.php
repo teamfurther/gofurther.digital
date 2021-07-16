@@ -1,8 +1,40 @@
 @extends('hu.site')
 
 @section('title', 'Módszereink és eszköztárunk')
+@section('description', 'Célunk ügyfeleink üzleti növekedésének segítése innovatív megoldások és kiváló minőségű szoftverek szolgáltatásával. Az állandó kommunikáció, a szenvedély és a közvetlenség olyan értékek, melyekben hiszünk, és amelyek ideális hosszú távú partnerekké tesznek minket.')
 
 @section('content')
+    <section class="section">
+        <div class="about">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-8-desktop is-offset-2-desktop">
+                        <h1 class="hero-heading">
+                            Ismerd meg<br /><strong class="is-tangerine">hogyan dolgozunk</strong>
+                        </h1>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-6-tablet is-5-desktop is-offset-2-desktop">
+                        <p>
+                            A Further Digital Solutionsnél ügyfélközpontú megoldások kidolgozására fókuszálunk: időt szakítunk arra, hogy megismerjük a vállalkozásod, így olyan testreszabott szoftvereket fejlesztünk, melyek a Te konkrét igényeid szolgálják ki.
+                        </p>
+                        <p>
+                            Célunk ügyfeleink üzleti növekedésének segítése innovatív megoldások és kiváló minőségű szoftverek szolgáltatásával. Az állandó kommunikáció, a szenvedély és a közvetlenség olyan értékek, melyekben hiszünk, és amelyek ideális hosszú távú partnerekké tesznek minket.
+                        </p>
+                    </div>
+                    <div class="about__stats is-hu">
+                        <span class="about__stat about__stat--1"><strong>{{ config('site.stats.projects') }}+</strong>projekt</span>
+                        <span class="about__stat about__stat--2"><strong>{{ config('site.stats.clients') }}</strong>ügyfél</span>
+                        <span class="about__stat about__stat--3"><strong>{{ config('site.stats.countries') }}</strong>országban</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @include(getLang() . '.banners.booklet')
+
     <section class="section" id="hogyan-dolgozunk">
         <div class="container">
             <div class="columns">
@@ -12,7 +44,9 @@
             </div>
             <div class="columns">
                 <div class="column is-8-tablet is-offset-2-tablet">
-                    <p>Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, melyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.</p>
+                    <p class="has-margin-b60">
+                        Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, melyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.
+                    </p>
                 </div>
             </div>
             <div class="columns">
@@ -44,22 +78,22 @@
         </div>
     </section>
 
-    <section class="section" id="laravel-vue">
+    <section class="section is-dark" id="laravel-vue">
         <div class="container">
             <div class="columns">
                 <div class="column is-10-tablet is-9-desktop">
                     <h2 class="hero-heading">
-                        Further <strong class="is-raspberry">❤</strong> Laravel + Vue.js.
+                        Further <strong class="is-raspberry">❤</strong> Laravel + Vue.
                     </h2>
                 </div>
             </div>
             <div class="columns">
                 <div class="column is-8-tablet">
-                    <p>Imádjuk az olyan keretrendszereket mint a Laravel és a Vue.js. A gazdag funkcionalitásuknak köszönhetően lehetőve teszik számunkra, hogy csökkentsük a fejlesztési időket és költségeket. Komoly tudással és tapasztalattal rendelkezünk ezeknek az eszközöknek a használatában, ami segít a letisztult, karbantartható és skálázható kód írásában.</p>
-                    <p>A Laravel a legnépszerűbb PHP keretrendszer, de a Vue.js is egyre kedveltebb a Javascript fejlesztők körében. Mindkettő hátterében egy fantasztikus közösség áll, amit mi is próbálunk támogatni, hozzájárulva a kódbázis fejlesztéséhez és közösségi projektekhez.</p>
+                    <p>Imádjuk az olyan keretrendszereket mint a Laravel és a Vue. A gazdag funkcionalitásuknak köszönhetően lehetőve teszik számunkra, hogy csökkentsük a fejlesztési időket és költségeket. Komoly tudással és tapasztalattal rendelkezünk ezeknek az eszközöknek a használatában, ami segít a letisztult, karbantartható és skálázható kód írásában.</p>
+                    <p>A Laravel a legnépszerűbb PHP keretrendszer, de a Vue is egyre kedveltebb a Javascript fejlesztők körében. Mindkettő hátterében egy fantasztikus közösség áll, amit mi is próbálunk támogatni, hozzájárulva a kódbázis fejlesztéséhez és közösségi projektekhez.</p>
                 </div>
                 <div class="column has-text-right is-4-tablet is-centered-vertical is-hidden-mobile">
-                    <img src="{{ asset('img/home-laravel-vuejs.png') }}" alt="Laravel & Vue.js" />
+                    <img src="{{ asset('img/home-laravel-vuejs.png') }}" alt="Laravel & Vue" />
                 </div>
             </div>
         </div>
@@ -137,7 +171,7 @@
         </div>
     </section>
 
-    @include(getLang() . '.banners.solutions')
+    @include(getLang() . '.banners.contact')
 @endsection
 
 

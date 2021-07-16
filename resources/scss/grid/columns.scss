@@ -501,6 +501,13 @@
         justify-content: flex-end;
     }
 
+    @include tablet() {
+        &.is-reversed-tablet {
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+    }
+
     &.is-vcentered {
         align-items: center;
     }

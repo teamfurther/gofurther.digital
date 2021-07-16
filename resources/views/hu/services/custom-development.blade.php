@@ -137,10 +137,7 @@
         </div>
     </section>
 
-    @include(getLang() . '.banners.contact', [
-        'buttonText' => 'Kérj egy ingyenes konzultációt',
-        'headingText' => 'Szeretnéd felpörgetni a vállakozásod?'
-    ])
+    @include(getLang() . '.banners.solutions')
 
     <section class="section">
         <div class="container">

@@ -256,11 +256,10 @@
     }
 
     &__image {
-        display: block;
-        height: 150px;
-        width: 100%;
+        display: none;
 
         @include tablet() {
+            display: block;
             float: left;
             height: 200px;
             width: 200px;
@@ -272,10 +271,6 @@
         }
 
         & > img {
-            height: 150px;
-            object-fit: cover;
-            width: 100%;
-
             @include tablet() {
                 height: auto;
                 width: auto;

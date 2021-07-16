@@ -120,17 +120,17 @@
             <div class="columns">
                 <div class="column is-10-tablet is-9-desktop">
                     <h2 class="hero-heading">
-                        Further <strong class="is-raspberry">❤</strong> Laravel + Vue.js.
+                        Further <strong class="is-raspberry">❤</strong> Laravel + Vue.
                     </h2>
                 </div>
             </div>
             <div class="columns">
                 <div class="column is-8-tablet">
-                    <p>Imádjuk az olyan keretrendszereket mint a Laravel és a Vue.js. A gazdag funkcionalitásuknak köszönhetően lehetőve teszik számunkra, hogy csökkentsük a fejlesztési időket és költségeket. Komoly tudással és tapasztalattal rendelkezünk ezeknek az eszközöknek a használatában, ami segít a letisztult, karbantartható és skálázható kód írásában.</p>
-                    <p>A Laravel a legnépszerűbb PHP keretrendszer, de a Vue.js is egyre kedveltebb a Javascript fejlesztők körében. Mindkettő hátterében egy fantasztikus közösség áll, amit mi is próbálunk támogatni, hozzájárulva a kódbázis fejlesztéséhez és közösségi projektekhez.</p>
+                    <p>Imádjuk az olyan keretrendszereket mint a Laravel és a Vue. A gazdag funkcionalitásuknak köszönhetően lehetőve teszik számunkra, hogy csökkentsük a fejlesztési időket és költségeket. Komoly tudással és tapasztalattal rendelkezünk ezeknek az eszközöknek a használatában, ami segít a letisztult, karbantartható és skálázható kód írásában.</p>
+                    <p>A Laravel a legnépszerűbb PHP keretrendszer, de a Vue is egyre kedveltebb a Javascript fejlesztők körében. Mindkettő hátterében egy fantasztikus közösség áll, amit mi is próbálunk támogatni, hozzájárulva a kódbázis fejlesztéséhez és közösségi projektekhez.</p>
                 </div>
                 <div class="column has-text-right is-4-tablet is-centered-vertical is-hidden-mobile">
-                    <img src="{{ asset('img/home-laravel-vuejs.png') }}" alt="Laravel & Vue.js" />
+                    <img src="{{ asset('img/home-laravel-vuejs.png') }}" alt="Laravel & Vue" />
                 </div>
             </div>
         </div>

@@ -1,42 +1,36 @@
 @extends('hu.site')
 
 @section('title', 'Csapatunk')
-@section('description', 'Célunk ügyfeleink üzleti növekedésének segítése innovatív megoldások és kiváló minőségű szoftverek szolgáltatásával. Az állandó kommunikáció, a szenvedély és a rugalmasság olyan értékek, melyekben hiszünk, és amelyek ideális hosszú távú partnerekké tesznek minket.')
+@section('description', 'Ismerd meg a mosolygós embereket a Further mögött.')
 
 @section('content')
     <section class="section">
-        <div class="about">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <h1 class="heading">Rólunk</h1>
-                    </div>
+        <div class="container">
+            <div class="columns">
+                <div class="column is-10-tablet is-offset-1-tablet">
+                    <h2 class="hero-heading">
+                        <strong class="is-raspberry">Örvendünk</strong>, hogy megismerhetünk!
+                    </h2>
                 </div>
-                <div class="columns">
-                    <div class="column is-7-tablet is-half-desktop is-offset-2-desktop">
-                        <p>A Further Digital Solutionsnél ügyfélközpontú megoldások kidolgozására fókuszálunk: időt szakítunk arra, hogy megismerjük a vállalkozásod, így olyan testreszabott szoftvereket fejlesztünk, melyek a Te konkrét igényeid szolgálják ki.</p>
-                        <p>Célunk ügyfeleink üzleti növekedésének segítése innovatív megoldások és kiváló minőségű szoftverek szolgáltatásával. Az állandó kommunikáció, a szenvedély és a rugalmasság olyan értékek, melyekben hiszünk, és amelyek ideális hosszú távú partnerekké tesznek minket.</p>
-                    </div>
-                    <div class="about__stats is-hu">
-                        <span class="about__stat about__stat--1"><strong>{{ config('site.stats.projects') }}+</strong>projekt</span>
-                        <span class="about__stat about__stat--2"><strong>{{ config('site.stats.clients') }}</strong>ügyfél</span>
-                        <span class="about__stat about__stat--3"><strong>{{ config('site.stats.countries') }}</strong>országban</span>
-                    </div>
+            </div>
+            <div class="columns">
+                <div class="column is-6-tablet is-5-desktop is-offset-1-tablet">
+                    <p>
+                        Szia! Bármelyik kollégánkkal beszélsz majd, biztos lehetsz abban, hogy egy széles mosollyal megfűszerezett sziával köszönt majd. Ez a fajta közvetlenség és barátságosság olyan érték, amely a teljes csapatunkat jellemzi.
+                    </p>
+                    <p>
+                        Görgess tovább és ismerd meg azokat, akikkel együtt dolgozol majd a következő projekteden!
+                    </p>
+                </div>
+                <div class="column is-hidden-mobile is-4-tablet is-offset-1-desktop has-text-centered">
+                    <img src="{{ asset('img/about-szia.png') }}" alt="Örvendünk, hogy megismerhetünk" />
                 </div>
             </div>
         </div>
     </section>
 
-    @include(getLang() . '.banners.booklet')
-
-    <section class="section">
-        <div class="about__team">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <h2 class="heading">Csapatunk</h2>
-                    </div>
-                </div>
+    <section class="section is-dark">
+        <div class="container">
                 <div class="columns is-mobile is-multiline">
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
@@ -75,9 +69,16 @@
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
-                            <img class="about__team__member__picture" src="{{ asset('img/team-zsolt-kalman.png') }}" alt="Zsolt Kálmán" />
-                            <h4 class="about__team__member__name">Kálmán Zsolt</h4>
-                            <div class="about__team__member__title">Solution designer<br class="visible-md-block" /><br class="visible-md-block" /></div>
+                            <img class="about__team__member__picture" src="{{ asset('img/team-istvan-farkas.png') }}" alt="István Farkas" />
+                            <h4 class="about__team__member__name">Farkas István</h4>
+                            <div class="about__team__member__title">Fejlesztő<br class="visible-md-block" /><br class="visible-md-block" /></div>
+                        </div>
+                    </div>
+                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                        <div class="about__team__member">
+                            <img class="about__team__member__picture" src="{{ asset('img/team-szabolcs-benedek.png') }}" alt="Szabolcs Benedek" />
+                            <h4 class="about__team__member__name">Benedek Szabolcs</h4>
+                            <div class="about__team__member__title">Fejlesztő<br class="visible-md-block" /><br class="visible-md-block" /></div>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
@@ -101,33 +102,27 @@
                             <div class="about__team__member__title">Fejlesztő<br class="visible-md-block" /><br class="visible-md-block" /></div>
                         </div>
                     </div>
-                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                        <div class="about__team__member">
-                            <img class="about__team__member__picture" src="{{ asset('img/team-david-simon.png') }}" alt="Dávid Simon" />
-                            <h4 class="about__team__member__name">Simon Dávid</h4>
-                            <div class="about__team__member__title">Fejlesztő<br class="visible-md-block" /><br class="visible-md-block" /></div>
-                        </div>
-                    </div>
                 </div>
-            </div>
         </div>
     </section>
 
-    <section class="section is-dark">
+    <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column">
-                    <h3 class="heading">Csatlakozz csapatunkhoz</h3>
+                <div class="column is-10-tablet is-offset-1-tablet">
+                    <h2 class="hero-heading">
+                        <strong class="is-pearl">Csatlakozz</strong> csapatunkhoz
+                    </h2>
                 </div>
             </div>
             <div class="columns">
-                <div class="column is-5-desktop is-offset-2-desktop">
+                <div class="column is-7-tablet is-offset-1-tablet is-6-desktop">
                     <p>Szenvedélyes, kreatív és világot hódítani akaró munkatársakat keresünk.</p>
                     <p>Úgy gondoljuk, hogy a tapasztalatot és a tudást meg kell osztani, ezért ösztönözzük a csapat tagjai közötti kommunikációt, konferenciákra járunk és workshopokat tartunk.</p>
                     <p><a href="{{ localizedRoute('contact') }}">Ismerkedj meg velünk</a>, tudd meg hogyan pörgünk munka közben, és mit szeretünk a munkánkban.</p>
                     <p>Oklevelek helyett inkább a fejlődni akarást és az ambíciót vesszük figyelembe. Ezért ha úgy gondolod, hogy rendelkezel ezekkel a tulajdonságokkal, akkor keresd fel az <a href="https://gofurther.digital/en/careers" target="_blank">https://gofurther.digital/en/careers</a> oldalt.</p>
                 </div>
-                <div class="column is-hidden-mobile is-3-desktop">
+                <div class="column is-hidden-mobile is-3-tablet">
                     <img class="is-pulled-right" src="{{ asset('img/join-our-team-illustration.png') }}" alt="Csatlakozz csapatunkhoz" />
                 </div>
             </div>

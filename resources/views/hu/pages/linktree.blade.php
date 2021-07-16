@@ -76,6 +76,6 @@
     </section>
 
     @include(getLang() . '.banners.newsletter-subscription', [
-        'headingText' => 'Többet szeretnél?<br /><strong class="is-black">Iratkozz fel most!</strong>'
+        'headingText' => 'Többet szeretnél?<br /><strong>Iratkozz fel most!</strong>'
     ])
 @endsection

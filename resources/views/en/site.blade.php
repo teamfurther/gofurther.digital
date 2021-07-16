@@ -176,14 +176,14 @@
             <a class="navbar--mobile__item" href="{{ localizedRoute('projects') }}">
                 Case Studies
             </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-transformation') }}">
-                Digital Transformation
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-product-development') }}">
+                Digital Product Development
             </a>
             <a class="navbar--mobile__item" href="{{ localizedRoute('services.custom-development') }}">
                 Software Development
             </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-product-development') }}">
-                Digital Product Development
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-transformation') }}">
+                Digital Transformation
             </a>
             <a class="navbar--mobile__item" href="{{ localizedRoute('solutions') }}">
                 Our Solutions
@@ -217,22 +217,22 @@
         <div class="footer__top">
             <nav class="footer__nav">
                 <span class="footer__nav__title">Services</span>
-                <a href="{{ localizedRoute('services.digital-transformation') }}">
-                    Digital Transformation
+                <a href="{{ localizedRoute('services.digital-product-development') }}">
+                    Digital Product Development
                 </a>
                 <a href="{{ localizedRoute('services.custom-development') }}">
                     Custom Software Development
                 </a>
-                <a href="{{ localizedRoute('services.digital-product-development') }}">
-                    Digital Product Development
+                <a href="{{ localizedRoute('services.digital-transformation') }}">
+                    Digital Transformation
                 </a>
             </nav>
             <nav class="footer__nav">
                 <span class="footer__nav__title">Meet Further</span>
                 {{--<a href="{{ localizedRoute('events') }}">Events</a>--}}
-                <a href="{{ localizedRoute('about.team') }}">Team</a>
                 <a href="{{ localizedRoute('about.how-we-work') }}">How we work</a>
                 <a href="{{ localizedRoute('about.remote-culture') }}">Remote culture</a>
+                <a href="{{ localizedRoute('about.team') }}">The team</a>
                 <a href="{{ localizedRoute('about.outsourcing') }}">Outsourcing</a>
                 <a href="{{ localizedRoute('jobs') }}">Careers</a>
                 <a href="{{ localizedRoute('contact') }}">Contact</a>

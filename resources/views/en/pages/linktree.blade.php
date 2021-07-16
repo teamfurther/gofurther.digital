@@ -76,6 +76,6 @@
     </section>
 
     @include(getLang() . '.banners.newsletter-subscription', [
-        'headingText' => 'Want more?<br /><strong class="is-black">Subscribe now!</strong>'
+        'headingText' => 'Want more?<br /><strong>Subscribe now!</strong>'
     ])
 @endsection

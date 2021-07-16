@@ -120,17 +120,17 @@
             <div class="columns">
                 <div class="column is-10-tablet is-9-desktop">
                     <h2 class="hero-heading">
-                        We're <strong class="is-raspberry">proficient</strong> in Laravel + Vue.js.
+                        We're <strong class="is-raspberry">proficient</strong> in Laravel + Vue.
                     </h2>
                 </div>
             </div>
             <div class="columns">
                 <div class="column is-8-tablet">
-                    <p>We love frameworks like Laravel and Vue.js. Their rich set of features and community contributed packages allow us to reduce development times and costs. We also have a deep understanding of how these tools work, which helps us write clean, maintainable and scalable code.</p>
-                    <p>Laravel is the most popular PHP framework, while Vue.js is quickly becoming a favourite among Javascript developers. They both have an outstanding community supporting them, and here at Further, we're making an effort to give back by contributing to code and community projects alike.</p>
+                    <p>We love frameworks like Laravel and Vue. Their rich set of features and community contributed packages allow us to reduce development times and costs. We also have a deep understanding of how these tools work, which helps us write clean, maintainable and scalable code.</p>
+                    <p>Laravel is the most popular PHP framework, while Vue is quickly becoming a favourite among Javascript developers. They both have an outstanding community supporting them, and here at Further, we're making an effort to give back by contributing to code and community projects alike.</p>
                 </div>
                 <div class="column has-text-right is-4-tablet is-centered-vertical is-hidden-mobile">
-                    <img src="{{ asset('img/home-laravel-vuejs.png') }}" alt="Laravel & Vue.js" />
+                    <img src="{{ asset('img/home-laravel-vuejs.png') }}" alt="Laravel & Vue" />
                 </div>
             </div>
         </div>
