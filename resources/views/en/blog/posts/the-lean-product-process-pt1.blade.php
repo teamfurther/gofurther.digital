@@ -40,9 +40,11 @@
                                 <li>users of micromobility vehicles are not happy with the current safety solutions</li>
                                 <li>our product helps user be safer when travelling</li>
                                 <li>our product improves the sense of safety of users in such a way, that would incentivise them to use the gadget regularly</li>
-                                <li>our product is easy to user</li>
+                                <li>our product is easy to use</li>
                                 <li>our users trust the product</li>
-                                <li>our users like the product enough, to recommend it to others</li>
+                                <li>users are still willing to pay or exchange value for our product or service</li>
+                                <li>we are able to keep our existing users, maybe even sell the additional products or services</li>
+                                <li>our users like the product enough to recommend it to others</li>
                             </ul>
                             <p>Those of you who are experienced in lean product development, have probably already noticed that some of these hypotheses are a bit lamish. That's on purpose. I tried to formulate our assumptions in a way that a product development team who are at their first rodeo would do. My goal is to show a path to a successful product, but also show you ways to treat the inevitable bumps and obstacles on that path.</p>
                             <p>In the Learn phase (of our build-measure-learn loop) of the first stage of product development, the problem validation stage, we're going to concentrate on the first three of the above assumptions. These are what we call problem hypotheses.</p>

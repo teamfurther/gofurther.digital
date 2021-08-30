@@ -17,6 +17,7 @@ class DetermineUTMParametersFromRequestAction
             'utm_campaign' => $request->get('utm_campaign'),
             'utm_term' => $request->get('utm_term'),
             'utm_content' => $request->get('utm_content'),
+            'gclid' => $request->get('gclid'),
             'entry' => $request->getUri(),
             'referer' => $this->isCrossOrigin($request) ? $request->header('referer') : null,
         ];

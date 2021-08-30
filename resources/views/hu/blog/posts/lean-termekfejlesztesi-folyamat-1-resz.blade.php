@@ -34,13 +34,15 @@
                             <p>Egy olyan termék amit a kerékpárra, elektromos rollerre vagy akár Segwayre szerelhetünk és kismillió szenzornak köszönhetően egy fokozatosan erősödő rezgéssel és sípolással jelez ha akadályt vagy veszélyt érzékel (gyalogos átjáró, gépjármű, stb.). Nem tudom létezik-e már ilyen termék. Azt sem tudom, hogy egyáltalán technikailag kivitelezhető-e egy ilyen termék. De a gyakorlat kedvéért tegyük fel, hogy nem létezik és minden technikai alapfeltétel is adott.</p>
                             <p>Ahhoz, hogy a termék sikeres legyen, különböző feltevéseknek kell beigazolódniuk. Bontsuk fel a víziónkat a következő feltevésekre:</p>
                             <ul class="list has-bullets has-margin-b60">
-                                <li>az összes (motorizált és nem motorizált) mikromobilitási eszközt használó ember érinti a probléma</li>
+                                <li>az összes (motorizált és nem motorizált) mikromobilitási eszközt használó embert érinti a probléma</li>
                                 <li>a mikromobilitást használók nem érzik biztonságban magukat utazás közben és szeretnének nagyobb biztonságban utazni</li>
                                 <li>a mikromobilitást használók nem elégedettek a jelenlegi biztonsági megoldásokkal</li>
                                 <li>az eszközünk hozzájárul ahhoz, hogy a felhasználók nagyobb biztonságban legyenek utazás közben</li>
                                 <li>az eszközünk olyan jelentős mértékben megnöveli a felhasználók biztonsági érzetét, hogy emiatt rendszeresen használják</li>
                                 <li>a termék könnyen használható</li>
                                 <li>a felhasználók megbíznak az eszközben</li>
+                                <li>a felhasználók hajlandóak továbbra is pénzt vagy értéket adni a termékünkért vagy szolgáltatásunkért cserébe</li>
+                                <li>meg tudjuk tartani a meglévő vásárlóinkat, esetleg el tudunk nekik kiegészítő terméket vagy szolgáltatást adni</li>
                                 <li>a felhasználók szeretik annyira a terméket, hogy másoknak is ajánlják</li>
                             </ul>
                             <p>Akik már tapasztaltabbak a lean termékfejlesztésben, biztosan kiszúrták már, hogy a fenti feltevések kicsit sántítanak. Nem véletlenül fogalmaztam meg így őket, hanem próbáltam olyan módon felállítani a hipotéziseinket, ahogy azt egy olyan termékfejlesztő csapat tenné, aki az első termékét fejleszti. Az a célom, hogy megmutassam az utat egy sikeres termék felé, de közben kezeljük a biztosan bekövetkező buktatókat és akadályokat us.</p>

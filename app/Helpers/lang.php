@@ -128,9 +128,8 @@ if (!function_exists('switchLang')) {
         }
 
         $route = substr(request()->route()->getName(), 3);
-
         $parameters = handleRouteMappingExceptions($route, $lang);
-        unset($parameters['view']);
+        unset($parameters['status'], $parameters['view']);
 
         return Route::has($lang . '.' . $route)
             ? localizedRoute($route, $parameters, true, $lang)

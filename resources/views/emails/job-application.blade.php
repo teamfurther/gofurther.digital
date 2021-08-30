@@ -62,6 +62,12 @@
             <td>{!! $data['utm']['utm_content'] !!}</td>
         </tr>
     @endif
+    @if ($data['utm']['gclid'])
+        <tr>
+            <td>utm_content:</td>
+            <td>{!! $data['utm']['gclid'] !!}</td>
+        </tr>
+    @endif
     @if ($data['utm']['entry'])
         <tr>
             <td>entry_url:</td>
