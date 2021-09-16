@@ -109,7 +109,7 @@
                             </ul>
                             <p>Our first step was to define our value proposition. This can be done by (co-)creating a value proposition canvas. A user-centered business canvas can help visualise the user needs and possible solutions.</p>
                             <p>These tools help us define, structure and visualize, but they are not enough to prove our assumptions. To do that, we can use surveys or a concierge experiment, if the nature of our product allows it.</p>
-                            <p>Once we manage to prove our assumptions, we can proceed to our solution-product fit stage, otherwise we can always pivot.</p>
+                            <p>Once we manage to prove our assumptions, we can proceed to our <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt3']) }}">solution-product fit stage</a>, otherwise we can always pivot.</p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
                             @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The Lean Product Process: 2. Formulating Your Value Proposition'])
@@ -178,7 +178,7 @@
         "url": "{{ asset('media/blog/cover-the-lean-product-process-2-en.png') }}"
     },
     "inLanguage": "en_gb",
-    "keywords": "Product Development, Lean Product Development Process, User, User Persona, User interview",
+    "keywords": "Product Development, Lean Product Development Process, Value proposition, Value Proposition Canvas, User Centered Business Canvas",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"

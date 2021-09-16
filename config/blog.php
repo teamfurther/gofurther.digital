@@ -5,6 +5,48 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'what-are-hypothesis-in-product-development',
+                'tags' => [
+                    'start-up' => 'Start-up',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'hipotezisek-a-termekfejlesztesben',
+                'tags' => [
+                    'start-up' => 'Start-up',
+                ]
+            ],
+        ],
+        [
+            'en' => [
+                'slug' => 'the-lean-product-process-pt4',
+                'tags' => [
+                    'start-up' => 'Start-up',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'lean-termekfejlesztesi-folyamat-4-resz',
+                'tags' => [
+                    'start-up' => 'Start-up',
+                ]
+            ],
+        ],
+        [
+            'en' => [
+                'slug' => 'the-lean-product-process-pt3',
+                'tags' => [
+                    'start-up' => 'Start-up',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'lean-termekfejlesztesi-folyamat-3-resz',
+                'tags' => [
+                    'start-up' => 'Start-up',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'the-lean-product-process-pt2',
                 'tags' => [
                     'start-up' => 'Start-up',

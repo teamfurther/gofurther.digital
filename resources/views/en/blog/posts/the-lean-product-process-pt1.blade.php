@@ -33,7 +33,7 @@
                             <h2 class="heading-2 has-margin-b30">The vision</h2>
                             <p>It all starts with a vision. A product, which is going to solve one or more problems, for one or more target groups. For the purpose of illustration, let's make up our own product: a gadget that makes travelling safer for users of <a href="https://en.wikipedia.org/wiki/Micromobility" target="_blank">micromobility vehicles,</a> both motorized and non-motorized.</p>
                             <p>A product, which can be attached to a bike, electric scooter or even a Segway and gives us audible and tactile (through vibration) alerts if it senses an obstacle (pedestrian, crossing, vehicle, etc.) thanks to its hundreds of sensors. Now, I don't know if such a product already exists or not. I also don't know if building such a product is feasible at this point in time. But for the sake of this exercise, let's assume that it doesn't exist and all the technical prerequisites are given.</p>
-                            <p>For the product to be successful, several hypotheses must prove to be true. Let's break up our vision into the following hypotheses:</p>
+                            <p>For the product to be successful, <a href="{{ localizedRoute('blog.show', ['slug' => 'what-are-hypothesis-in-product-development']) }}">several hypotheses</a> must prove to be true. Let's break up our vision into the following hypotheses:</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li>each (motorized and non-motorized) micromobility user faces this (safety) problem</li>
                                 <li>users of micromobility vehicles do not feel safe when travelling and would like to be able to travel in a safer way</li>
@@ -106,7 +106,7 @@
                             <p>We should start by delimiting our starting and end points. How does the journey begin? How does it end and how does it lead into the next journey?</p>
                             <p>We should continue by setting our scenes. This is the context, physical or logical, where the interaction will happen. In case of an ecommerce website for example, it could be the website itself, the mobile app, the call center or the brick and mortar shop. In our case (since there is no product yet) we can use scenes like the city street, a public square or the skate park.</p>
                             <p>Finally, we will define the user actions (what the persona does), their reactions (what perceivable change happens as a result) and the next steps (what options or challenges does the persona face now).</p>
-                            <p>The customer journey map can represent an actual journey, or an envisioned (coveted) journey. The latter will be more useful in the problem-solution fit stage of product development.</p>
+                            <p>The customer journey map can represent an actual journey, or an envisioned (coveted) journey. The latter will be more useful in the <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}">problem-solution fit stage</a> of product development.</p>
                             <p> In my experience, a customer journey map works best, when it is co-created with potential customers. It gives us an outstanding opportunity to gauge their reactions at certain points in the journey. We can even illustrate these emotions on an emotion-diagram, where peaks mark positive reactions, while valleys mark negative reactions.</p>
 {{--                            <p><i>Download our free product development tool bundle, in which you can find a template for customer journey maps.</i></p>--}}
                             <figure>
@@ -121,7 +121,7 @@
                                 <li>users of micromobility vehicles do not feel safe when travelling and would like to be able to travel in a safer way</li>
                                 <li>users of micromobility vehicles are not happy with the current safety solutions</li>
                             </ul>
-                            <p>If we manage to verify the validity of each assumption, we can progress to the next stage of product development. This will however, rarely be the case. When one or more of our assumptions prove invalid, we should pivot. During a pivot, we adjust our assumptions based on our learnings so far, and start the build-measure-learn loop again.</p>
+                            <p>If we manage to verify the validity of each assumption, we can progress to the <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}">next stage of product development</a>. This will however, rarely be the case. When one or more of our assumptions prove invalid, we should pivot. During a pivot, we adjust our assumptions based on our learnings so far, and start the build-measure-learn loop again.</p>
                             <p>In our case, there's a high chance that not even the first assumption will survive the scrutiny of validation. How we should pivot though, is something I will reflect upon later. For now, let's focus on how to validate our solution.
                             </p>
                         </div>
