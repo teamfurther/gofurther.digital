@@ -1,6 +1,6 @@
 <div class="post">
     <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'what-are-hypothesis-in-product-development']) }}">
-        <img src="{{ asset('media/blog/thumb-what-are-hypothesis-in-product-development.png') }}" alt="What Are Hypotheses in Product Development?" />
+        <img src="{{ asset('media/blog/thumb-what-are-hypotheses-in-product-development.png') }}" alt="What Are Hypotheses in Product Development?" />
     </a>
     <div class="post__content">
         <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
