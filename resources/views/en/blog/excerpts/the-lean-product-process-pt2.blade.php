@@ -1,6 +1,6 @@
 <div class="post">
     <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}">
-        <img src="{{ asset('media/blog/thumb-the-lean-product-process-2-en.png') }}" alt="The Lean Product Process: 2. Formulating Your Value Proposition" />
+        <img src="{{ asset('media/blog/thumb-the-lean-product-process-2-en.png') }}" alt="The Lean Product Process: #2 Formulating Your Value Proposition" />
     </a>
     <div class="post__content">
         <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
@@ -8,7 +8,7 @@
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}">
-                The Lean Product Process: 2. Formulating Your Value Proposition
+                The Lean Product Process: #2 Formulating Your Value Proposition
             </a>
         </h3>
         <p class="post__excerpt">

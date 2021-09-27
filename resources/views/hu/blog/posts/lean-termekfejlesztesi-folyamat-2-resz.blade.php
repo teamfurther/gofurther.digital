@@ -34,7 +34,7 @@
                             </ul>
                             <p>Ezeket nevezzük érték feltevésnek, vagy érték hipotézisnek. Ahogy az a nevéből is következik, ez érték feltevés az állapítja meg, hogy a megoldásunk értéket fog teremteni a felhasználóink számára.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-2-hu.png') }}" alt="Validáció a termékfejlesztésben-Segédlet-2" />
+                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-2-hu.png') }}" alt="Validáció a termékfejlesztésben - Probléma-megoldás illeszkedés" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Fogalmazzuk meg az értékajánlatunkat</h2>
                             <p class="has-margin-b60">A probléma validációs fázisban az interjúk során jó eséllyel sok felhasználói fájdalompontot fedeztünk fel, de ugyanakkor lehetőségeket is, hogy miként tudunk a felhasználók mindennapjain segíteni, jobbítani. Ha a termékünk enyhíti ezeket a fájdalompontokat és szállítja a jobbításokat, akkor az érték hipotéziseink valósak és ekkor beszélhetünk probléma-megoldás megfelelésről. De lássuk azt, hogy a gyakorlatban milyen lépéseket tudunk megtenni ennek érdekében.</p>
@@ -109,7 +109,7 @@
                             </ul>
                             <p>Első lépésünk az értékajánlatunk meghatározása lesz. Ezt egy (felhasználókkal közösen készített) value proposition canvas segítségével tudjuk megvalósítani. A user-centered business canvas segít a felhasználói igények és a megoldásunk vizualizációjában.</p>
                             <p>Ez a két eszköz segít a meghatározásban, struktúrálásban és megjelenítésben, de nem elegendőek az érték feltevések megerősítéséhez. Erre használhatunk kérdőíveket, vagy ha olyan a termékünk, akkor egy concierge kísérlet egy izgalmas és hatékony módja lehet a probléma-megoldás megfelelés bizonyításának.</p>
-                            <p>Ha sikerül a bizonyítás, akkor irány a megoldás-termék megfelelési szakasz, különben pedig jöhet a már többször emlegetett fókuszváltás. más nevén a pivot!</p>
+                            <p>Ha sikerül a bizonyítás, akkor irány <a href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-3-resz']) }}">a megoldás-termék megfelelési szakasz</a>, különben pedig jöhet a már többször emlegetett fókuszváltás. más nevén a pivot!</p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
                             @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'A lean termékfejlesztési folyamat: 2. Fogalmazzuk meg az értékajánlatunkat'])
@@ -178,7 +178,7 @@
         "url": "{{ asset('media/blog/cover-the-lean-product-process-2-hu.png') }}"
     },
     "inLanguage": "hu_hu",
-    "keywords": "Termékfejlesztés, Lean termékfejlesztési folyamat, Felhasználó, User Persona, User interview, ",
+    "keywords": "Termékfejlesztés, Lean termékfejlesztési folyamat, User Persona, Felhasználói interjú",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"

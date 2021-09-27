@@ -89,7 +89,7 @@
                                 <img src="{{ asset('media/blog/remote-corporate-culture-2-the-right-candidate-quote-hu.jpg') }}" alt="Ha egy jelölt nem ó igen, akkor inkább ó nem! " />
                             </figure>
                             <p>Mielőtt felvennétek egy új csapattagot, érdemes egy külön beszélgetés tartani az egész csapattal. Figyeld meg, hogyan kommunikál a többiekkel, érzel-e valamiféle súrlódást az emberek között.</p>
-                            <p class="has-margin-b30">Mindenesetre bízz a megérzéseidben. Nem kell felvenned fel az első embert, aki valamennyire megfelelő. Mi azt valljuk, hogy ha egy jelölt nem „ó igen”, akkor inkább „ó nem!”</p>
+                            <p class="has-margin-b30">Mindenesetre bízz a megérzéseidben. Nem kell felvenned fel az első embert, aki valamennyire megfelelő. Mi azt valljuk, hogy ha egy jelölt nem „ó igen", akkor inkább „ó nem!"</p>
                             <h3 class="heading-4 has-margin-b15">Mi másra figyelj oda interjúztatáskor?</h3>
                             <p>Bár a soft skillek távmunka esetében fontosabbak, mondanunk sem kell, hogy a szakmai tudás felmérését nem szabad teljesen elfelejteni. Szintén érdemes egy fizetett próbaidőt beiktatni. Ez rengeteg fejfájástól megóvhat majd a későbbiekben.</p>
                             <p class="has-margin-b60">Már az interjú folyamat alatt mondd el világosan, mik az elvárások, mi a csapatstruktúrátok, milyen projekteken fog dolgozni és hogy milyen lesz a bérezés. Távmunkában nem mindig világos a szabadnapok és a munkaidő kérdése, hiszen ezek gyakran nem kötöttek. De ha mégis azok, akkor ezekre mindenképpen térj ki az interjúk alatt.</p>
