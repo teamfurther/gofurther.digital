@@ -1,10 +1,10 @@
-@section('title', 'A lean termékfejlesztési folyamat: 2. Fogalmazzuk meg az értékajánlatunkat')
-@section('description', 'Ebben a cikkben bemutatjuk, hogyan fogalmazz meg egy értékajánlatot a probléma-megoldás megfelelés keresésében.')
-@section('preview_image', asset('media/blog/cover-the-lean-product-process-2-hu.png'))
+@section('title', 'Hipotézisek a termékfejlesztésben')
+@section('description', 'Ebben a cikkben megismerjük a különböző hipotézis típusokat, illetve azt, hogy hogyan érdemes őket megfogalmazni és tesztelni.')
+@section('preview_image', asset('media/blog/cover-what-are-hypotheses-in-product-development-hu.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-the-lean-product-process-2-hu.png') }}" srcset="{{ asset('media/blog/featured-the-lean-product-process-2-769w-hu.png') }} 769w, {{ asset('media/blog/featured-the-lean-product-process-2-1000w-hu.png') }} 1000w" sizes="100vw" alt="A lean termékfejlesztési folyamat: 2. Fogalmazzuk meg az értékajánlatunkat" />
+        <img src="{{ asset('media/blog/featured-what-are-hypotheses-in-product-development.png') }}" srcset="{{ asset('media/blog/featured-what-are-hypotheses-in-product-development-769w.png') }} 769w, {{ asset('media/blog/featured-what-are-hypothesis-in-product-development-1000w.png') }} 1000w" sizes="100vw" alt="Hipotézisek a termékfejlesztésben" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,9 +12,9 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">A lean termékfejlesztési folyamat: 2. Fogalmazzuk meg az értékajánlatunkat</h1>
+                            <h1 class="post__title p-name">Hipotézisek a termékfejlesztésben</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2021-03-17 10:00:00">2021 március 17</time> &middot; 10 perces olvasás
+                                <time class="dt-published" datetime="2021-06-14 10:00:00">2021 június 14</time> &middot; 11 perces olvasás
                             </div>
                         </div>
                     </div>
@@ -24,95 +24,95 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p>Aki nem olvasta a <a href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-1-resz']) }}" target="_blank">korábbi cikkemet</a>, annak szólok: terméket építünk. Nem valósat, hanem egy elképzelt terméket, aminek a segítségével a lean termékfejlesztés különböző fázisait illusztrálom.</p>
-                            <p>Ez a termék egy különböző szenzorokkal felszerelt eszköz, ami mikromobilitási eszközökre lehet szerelni. Például kerékpárra, elektromos rollerre vagy akár gördeszkára. Akadályhoz közeledve, vagy egyéb veszélyt érzékelve (gépjármű, gyalogos, átjáró, stb.) eszközünk hang- és rezgésjeleket adva figyelmeztet minket, ezáltal növelve a biztonsági faktort közlekedés közben.</p>
-                            <p>Megtudtuk, hogy a probléma validációs fázisban milyen feltevésekre (probléma hipotézisek) kell választ keressünk és milyen eszközeink vannak ezeknek a megválaszolására.</p>
-                            <p class="has-margin-b30">A termékfejlesztés következő fázisa a probléma-megoldás megfelelés lesz. Ebbe a fázisba érve, a Tanulj szakaszban a következő feltevéseket szeretnénk bizonyítani:</p>
+                            <p>Minden ötlethez, termékfejlesztéshez vagy üzleti tervhez társul egy vízió. Az IKEA víziója az volt, hogy "jól megtervezett, funkcionális lakberendezési termékek széles skáláját kínálja olyan alacsony áron, hogy a lehető legtöbben megengedhessék maguknak.".</p>
+                            <p>A Prezi, prezentációs szoftver és egyben az egyik legsikeresebb magyar start-up alapítói pedig azt a víziót fogalmazták meg, hogy egy olyan szoftvert szeretnének fejleszteni, ami átalakítja a prezentációs élményt, "megreformálja azt, ahogyan az emberek megosztják a tudásukat, történeteket mesélnek, és cselekvésre ösztönzik közönségüket".</p>
+                            <p>A mai modern technológiáknak köszönhetően már nem az a kérdés, hogy ezek a víziók megvalósíthatóak-e, hanem az, hogy érdemes-e őket megvalósítani? Ha járatos vagy olyan innovációs módszerekben, mint a lean termékfejlesztés vagy a design thinking, akkor nem lesz idegen számodra ez a gondolkodásmód.</p>
+                            <p>De honnan tudhatjuk meg, hogy érdemes-e belevágni a megvalósításba vagy sem? Ebben segít nekünk a lean termékfejlesztési keretrendszer, amely kimondja, hogy a víziónkat érdemes elemeire bontani. Ezeket az elemeket hipotézisek, vagyis feltételezések formájában érdemes megfogalmazni, majd kisebb, iteratív szakaszokban tesztelni őket.</p>
+                            <p class="has-margin-b60">"Minden üzleti terv egy sor feltevésből áll. Mivel a feltételezések még nem bizonyítottan igazak (nem is lehetnek, hiszen feltételezések), sőt gyakran tévesek, egy startup korai tevékenysége arra kell összpontosuljon, hogy minél hamarabb tesztelje ezeket." (Eric Ries – The Lean Startup, 2011)</p>
+                            <h2 class="heading-2 has-margin-b30">Milyen feltételezéseket érdemes tesztelni?</h2>
+                            <p>Ok. Fel kell bontsuk a víziót egy sor feltevésre. De hogyan kezdjünk neki? Milyen feltevéseket fogalmazzunk meg?</p>
+                            <p>Egy üzleti stratégia sok olyan feltételezésekből áll, amit nem érdemes tesztelni. Ezek általában egyértelműek, vagy közvetlen módon következtethetőek iparági megfigyelésekből és tapasztalatokból.</p>
+                            <p>Az IKEA esetében például egyértelmű volt, hogy a vásárlók hajlandóak lesznek jól megtervezett és olcsó bútort vásárolni. Az, hogy hajlandóak lesznek saját maguknak összeszerelni, az annakidején már sokkal kevésbé volt egyértelmű.</p>
+                            <figure>
+                                <img src="{{ asset('media/blog/what-are-hypothesis-in-product-development-lofa-hu.png') }}" alt="LOFA feltevések" />
+                            </figure>
+                            <p class="has-margin-b60">Ezeket a legrizikósabb feltételezéseket Leap of Faith Assumption (LOFA) név alatt népszerűsítette Eric Ries a szakirodalomban.</p>
+                            <h2 class="heading-2 has-margin-b30">A feltételezések típusai</h2>
+                            <p class="has-margin-b60">Annak függvényében, hogy <a href="{{ localizedRoute('blog.show', ['slug' => 'validacio-a-termekfejlesztesben']) }}" target="_blank">a termékfejlesztésünk melyik szakaszában vagyunk</a>, más-más típusú feltételezéseket érdemes felállítanunk.</p>
+                            <h3 class="heading-3 has-margin-b30">Perszóna és probléma hipotézisek</h3>
+                            <p>Minden vízió egy elképzelt vásárló, egy feltételezett felhasználó köré épül. Hogy pontosan kicsoda ő, hogyan viselkedik és milyen szükségei vannak, az mind a perszóna hipotézisünk része lesz.</p>
+                            <p>A perszóna hipotézishez szorosan kötődik a probléma hipotézis, ami nem jelent mást mint, hogy szerintünk a felhasználó milyen kihívásokkal néz szembe és mi az ami fontos számára. Érdemes-e ezekkel a problémákkal foglalkozni? Ezzel a két típusú feltételezéssel találkozhatunk a termékfejlesztés probléma validációs szakaszában.</p>
+                            <p>A <a href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-1-resz']) }}" target="_blank">probléma validációról szóló cikkemben</a> bedobtam egy elképzelt termék ötletét és az ehhez tartozó víziót. A példa kedvéért egy olyan eszközt fejlesztünk, amit mikromobilitási eszközökre szerelhetünk és szenzoroknak köszönhetően egy fokozatosan erősödő rezgéssel és sípolással jelez ha akadályt vagy veszélyt érzékel (gyalogos átjáró, gépjármű, stb.), ezáltal növelve a felhasználók biztonságát.</p>
+                            <p>Ha megnézzük a fenti víziót, akkor a perszóna hipotézisünket úgy fogalmazhatnánk meg, hogy "a (motorizált és nem motorizált) mikromobilitási eszközöket használó emberek lesznek a vásárlóink". Később, ahogy a probléma validációs szakaszban felhasználói interjúkat végzünk, valószínüleg szembesülni fogunk azzal, hogy a fenti feltételezésünk részben, vagy egészében hamis. Ebben az esetben iterálunk, vagyis átfogalmazzuk a feltevésünket.</p>
+                            <p>Például ha rájövünk, hogy csak a gyors járművek felhasználóit érdekli egy ilyen eszköz, akkor átfogalmazhatjuk a perszóna hipotézist úgy, hogy "a 25 km/h sebességet meghaladó mikromobilitási eszközt (kerékpár, elektromos kerékpár, elektromos roller) használó emberek lesznek a vásárlóink".</p>
+                            <p>Az is kiderülhet az interjúkból, hogy a kikapcsolódási célból utazó felhasználók nem igényelnek extra biztonságot, viszont azok, akik rendszeresen városban használják munkába járásra és ügyintézésre, azok igen. Perszóna feltevésünk ebben az esetben lehetne az, hogy "a 25 km/h sebességet meghaladó mikromobilitási eszközt (kerékpár, elektromos kerékpár, elektromos roller) városban, napi rendszerességgel használó emberek lesznek a vásárlóink".</p>
+                            <p>A példának felhozott vízió alapján a probléma hipotézist is megfogalmazhatjuk, például úgy, hogy "a mikromobilitást használók nem érzik biztonságban magukat utazás közben és szeretnének nagyobb biztonságban utazni". Vagy úgy, hogy "a mikromobilitást használók nem elégedettek a jelenlegi biztonsági megoldásokkal".</p>
+                            <p>Ez a második megfogalmazás nagyon jól működik olyan esetekben, amikor már léteznek piaci szereplők, akik ugyanaz a problémát oldják meg, de mi feltételezzük, hogy mi ezt jobb minőségben is meg tudjuk tenni. Jó példa erre a Prezi.</p>
+                            <p class="has-margin-b60">A Prezi előtt is léteztek már prezentációs szoftverek, de mindegyik nagyjából ugyanazt az élményt nyújtotta. Ezért, a Prezi probléma hipotézisa valahogy így hangozhatott: a prezentációs szoftvereket használók nem elégedettek a jelenlegi slide alapú megoldásokkal (PowerPoint, Google Slides, Keynote), mert azok nem segítik a storytellinget.</p>
+                            <h3 class="heading-3 has-margin-b30">Érték és usability hipotézisek</h3>
+                            <p class="has-margin-b30">Az érték hipotézis vagy érték feltevés egyszerűen arról szól, hogy a megoldásunk értéket teremt-e a felhasználó számára. A példánknál maradva, a következő érték feltételezéseket fogalmazhatnánk meg:</p>
                             <ul class="list has-bullets has-margin-b30">
                                 <li>az eszközünk hozzájárul ahhoz, hogy a felhasználók nagyobb biztonságban legyenek utazás közben</li>
                                 <li>az eszközünk olyan jelentős mértékben megnöveli a felhasználók biztonsági érzetét, hogy emiatt rendszeresen használják</li>
                             </ul>
-                            <p>Ezeket nevezzük érték feltevésnek, vagy érték hipotézisnek. Ahogy az a nevéből is következik, ez érték feltevés az állapítja meg, hogy a megoldásunk értéket fog teremteni a felhasználóink számára.</p>
-                            <figure>
-                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-2-hu.png') }}" alt="Validáció a termékfejlesztésben-Segédlet-2" />
-                            </figure>
-                            <h2 class="heading-2 has-margin-b30">Fogalmazzuk meg az értékajánlatunkat</h2>
-                            <p class="has-margin-b60">A probléma validációs fázisban az interjúk során jó eséllyel sok felhasználói fájdalompontot fedeztünk fel, de ugyanakkor lehetőségeket is, hogy miként tudunk a felhasználók mindennapjain segíteni, jobbítani. Ha a termékünk enyhíti ezeket a fájdalompontokat és szállítja a jobbításokat, akkor az érték hipotéziseink valósak és ekkor beszélhetünk probléma-megoldás megfelelésről. De lássuk azt, hogy a gyakorlatban milyen lépéseket tudunk megtenni ennek érdekében.</p>
-                            <h3 class="heading-3 has-margin-b30">Value proposition canvas</h3>
-                            <p>Az egyik leghasznosabb eszköz az probléma-megoldás megfelelés megállapítására a value proposition canvas, amit Alex Osterwalder és társai, Value Proposition Design c. könyvéből ismerhetünk. A canvas pofon egyszerű: csupán egy négyzetből és egy körből áll.</p>
-                            <figure>
-                                <img src="{{ asset('media/blog/the-lean-product-process-value-proposition-canvas-hu.png') }}" alt="Value proposition canvas" />
-                            </figure>
-                            <p class="has-margin-b30">A körrel kezdünk, ide a célcsoportunkkal kapcsolatos megfigyeléseinket kell beírnunk. A kör (felhasználó profil) 3 részre van osztva:</p>
-                            <ul class="list has-bullets has-margin-b30">
-                                <li>Ügyfél tevékenységek (Customer jobs) - olyan funkcionális (pld. el akarok jutni A-ból B-be), érzelmi (nyugodt vagyok, mert biztonságban érzem magam) és társadalmi (jól nézek ki közben) tevékenységek amit a felhasználóink cselekednek.</li>
-                                <li>Fájdalompontok (Pains) - azok az akadályok, negatívumok vagy frusztrációk, amiket a felhasználó legszívesebben elkerülne.</li>
-                                <li>Hasznok (Gains) - olyan pozitív eredmények, hozzáadott értékek vagy akár vágyak, amiket a felhasználó szeretné ha megvalósulnának.</li>
+                            <p>Az érték hipotézissel elsősorban a <a href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-2-resz']) }}" target="_blank">probléma-megoldás illeszkedés</a> szakaszban fogunk találkozni. </p>
+                            <p>Szorosan kapcsolódik az érték hipotézishez a usability hipotézis. Annyira szorosan, hogy a szakirodalom gyakran meg sem említi külön. Pedig ha a termékfejlesztés 4 szakaszát nézzük jól látszik, hogy a usability hipotézissel inkább a harmadik, <a href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-3-resz']) }}" target="_blank">megoldás-termék illeszkedés</a> szakaszban találkozunk.</p>
+                            <p class="has-margin-b30">A usability hipotéziseink azt feltételezik, hogy a termékünk hatékonyan tudja szállítani az értékajánlatunkat. Azt, hogy a termék könnyen használható és az elvárt felhasználói élményt nyújtja. A mi példánk esetében a következő usability feltevéseket fogalmazhatnánk meg:</p>
+                            <ul class="list has-bullets has-margin-b60">
+                                <li>a termék könnyen használható</li>
+                                <li>a felhasználók megbíznak az eszközben</li>
                             </ul>
-                            <p>Ezeket az információkat nyugodtan kivehetjük az előző fázisból ismert perszónákból, hiszen a perszónák készítésekor feltételezett hipotéziseket már megerősítették (vagy megcáfolták) az interjúk. Az interjú sorozat után frissítettétek a perszónákat, ugye?</p>
-                            <p>
-                                Ha több perszónánk van, akkor több value proposition canvas-ünk is lesz, hiszen minden egyes felhasználó csoportnak számára értelemszerűen más-más lesz az értékajánlatunk. Minden egyes tevékenységet, fájdalompontot és hasznot írjunk fel egy post-itra és ragasszuk be a megfelelő helyre. Ha digitálisan szeretnénk value proposition canvas-t kitölteni, akkor a <a href="https://miro.com/" target="_blank">Miro</a> szoftvert ajánlom.
-                            </p>
-                            <p class="has-margin-b30">
-                                Ha megvagyunk a körrel, akkor következhet a négyzet, amit értéktérképnek neveznek Osterwalderék a könyvben. A változatosság kedvéért a négyzet is háromba van osztva:
-                            </p>
-                            <ul class="list has-bullets has-margin-b30">
-                                <li>Termékek és szolgáltatások (Products and services) - azok a szolgáltatások és termékek, amikre az értékajánlatunk épül. A mi esetünkben ez lehet maga a kütyü amit a mikromobilitási eszközre kell szerelni, a hozzá tartozó mobil applikáció (merthogy ilyen is lesz), de akár az ügyfélszolgálat is lehet.</li>
-                                <li>Fájdalomcsillapítók (Pain relievers) - a fenti termékek, szolgáltatások és funkciók milyen fájdalompontokat enyhítenek, hogyan teszik a felhasználók életét könnyebbé.</li>
-                                <li>Értékteremtők (Gain creators) - a fenti termékek, szolgáltatások és funkciók hogyan teremtenek hasznot vagy hogyan növelik az eredményességet a felhasználó számára</li>
+                            <h3 class="heading-3 has-margin-b30">Növekedési hipotézis</h3>
+                            <p>Ha a növekedési hipotézisekig eljutottunk, akkor nagy valószínűséggel egy jó termékünk van fejlesztés alatt, ami egy valós felhasználói problémát oldd meg. De ez még korántsem jelenti azt, hogy a termék piacképes is lesz. A növekedési hipotézisek segítségével pontosan erre keressük a választ: fenntartható-e az üzleti modellünk.</p>
+                            <p class="has-margin-b30">A biztonsági kütyünk esetében az üzleti modellel kapcsolatban a következő feltevéseket fogalmazhatjuk meg:</p>
+                            <ul class="list has-bullets has-margin-b60">
+                                <li>a felhasználók hajlandó továbbra is pénzt vagy értéket adni a termékünkért vagy szolgáltatásunkért cserébe</li>
+                                <li>meg tudjuk tartani a meglévő vásárlóinkat, esetleg el tudunk nekik kiegészítő terméket vagy szolgáltatást adni</li>
+                                <li>a vásárlók szeretik annyira a terméket, hogy másoknak is ajánlják</li>
                             </ul>
-                            <p>Írjuk fel ezeket is post-itokra, majd dobjuk fel a canvas-ra. Hasonlítsuk össze az ügyfél profil alatt megtalálható fájdalompontokat és hasznokat, az értéktérkép alatt megtalálható fájdalomcsillapítókkal és értékteremtőkkel. Megfelelnek egymásnak? Szuper, akkor (valószínüleg) megvan a probléma-megoldás megfelelés (fit).</p>
-                            <p>Ha nincs, akkor nézzük meg egy kicsit tüzetesebben a canvas-t. Az olyan fájdalomcsillapítók és értékteremtők, amiknek nincs megfelelője az ügyfél profil alatt, azok valószínüleg nem létező ügyféligényekre adnak választ, tehát felesleges funkciók.</p>
-                            <p>Ellenben, ha egyes fájdalompontoknak vagy hasznoknak nincs megfelelője az érték térképen, akkor az egy jó indikátora annak, hogy ott bővíteni vagy átgondolni érdemes a terméket vagy szolgáltatást.</p>
-                            <p>A fájdalompontoknak és hasznoknak adhatunk egy prioritást is. Az interjúkból elég jó elképzelésünk kéne már legyen, melyek igazán fontosak a felhasználóknak. Ha több felhasználó csoport (perszóna) esetében is ismétlődnek egy fájdalompontok vagy elvárt hasznok, akkor az jó ok lehet arra, hogy magasabb prioritási számot kapjon. Koncentráljunk csak az esszenciálisakra és iteráljunk egészen addig, amíg nem tudjuk az ügyfélprofil (kör) és értéktérkép (négyzet) között a korrelációt bizonyítani.</p>
-                            <p>A value proposition canvas-t kitölthetjük magunkban, a csapatunkkal közösen, de a legizgalmasabb kísérlet talán az, amikor ezt is potenciális felhasználókkal közösen állítjuk össze.</p>
-                            {{--<p><a href="" target="_blank">Töltsd le az ingyenes start-up eszköz sablonjainkat, amelyben kitölthető value proposition canvas sablont is találsz.</a></p>--}}
-                            <h3 class="heading-3 has-margin-b30 has-margin-t60">User-centered business canvas</h3>
-                            <p>Uff, még egy canvas. Szerintem kezd gyanússá válni, hogy mennyire szeretem a canvas-eket.</p>
-                            <p>A user-centered business canvas-el Házi Csaba <a href="https://csabahazi.com/ux-kitchen-podcast/007" target="_blank">UX Kitchen</a> podcastjában ismerkedtem meg és 1-2 finomítással rögtön elkezdtem használni. Struktúrája nagyon hasonlít Alex Osterwalder másik híres canvas-ára, a business model canvas-ra és Ash Maurya lean canvas-ára. Nem véletlen, hiszen ebből inspirálódott. De míg az előbbi fókuszában az üzleti tervezés, az utóbbi esetében pedig a probléma és a termék áll, az UCBC sokkal inkább a felhasználói igények és a megoldás kapcsolatára fókuszál.</p>
+                            <p class="has-margin-b60">A növekedési hipotézissel a <a href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-4-resz']) }}" target="_blank">termék-piac illeszkedési</a> (product-market fit) szakaszban találkozunk, amikor egy sor kísérlet során teszteljünk hogyan tudunk több felhasználót elérni és megtartani. Erre nem létezik egy konzerv megoldás. Az, hogy ezt hogyan érjük el nagyban függ attól is, hogy milyen növekedési motor(oka)t alkalmazunk.</p>
+                            <h2 class="heading-2 has-margin-b30">Hogyan fogalmazzuk meg a feltévéseinket</h2>
+                            <h3 class="heading-3 has-margin-b30">Egyetlen dolgot teszteljünk egyszerre</h3>
+                            <p>Fontos, hogy amikor ezeket a feltételezéseket megfogalmazzuk, akkor kerüljük el az olyan hipotéziseket, amelyek a termékünk vagy szolgáltatásunk egyszerre több aspektusára vonatkoznak. Könnyű ebbe a csapdába esni, hiszen úgy tűnhet, hogy ezzel időt takarítunk meg. A valóság viszont az, hogy nem fogjuk tudni pontosan eldönteni, hogy a kísérletünk milyen oknál fogva hiúsult meg.</p>
+                            <p>Például az érték feltevésünket a következő módon is megfogalmazhattuk volna: "az eszközünk hozzájárul ahhoz, hogy a felhasználók nagyobb biztonságban legyenek utazás közben és emiatt rendszeresen használják majd".</p>
+                            <p>A kísérletünk könnyen megcáfolhatja a fenti feltevést, amiből mi azt a következtetést vonjuk le, hibásan, hogy a felhasználóink úgy érzik a termék nem segíti elő a biztonságos utazást, ezért kukázzuk az ötletünket. A valóság viszont az, hogy biztonságban voltak, csak éppen a termék nem nyújt megfelelő felhasználói élményt és emiatt felhasználóink nem hajlandóak rendszeresen használni azt.</p>
+                            <p class="has-margin-b60">Így lehet egy könnyen orvosolható probléma miatt mellékvágányra kerülni a termékfejlesztésben. Éppen ezért, mindig úgy fogalmazzunk meg a hipotéziseinket, hogy azok mindig a termék egyetlen egy aspektusát teszteljék.</p>
+                            <h3 class="heading-3 has-margin-b30">Alapozzunk az eddigi ismereteinkre</h3>
+                            <p>A feltevéseink mindig könnyen tesztelhetőek kell legyenek. Tehát tudjunk olyan kísérletet tervezni amivel a felhasználókról eddig alkotott képünket meg tudjuk erősíteni vagy cáfolni. Ezért, a feltevések megfogalmazásakor alapozzunk az eddig ismereteinkre. Ebben segíthet ha a a következő sablont használjuk:</p>
                             <figure>
-                                <img src="{{ asset('media/blog/the-lean-product-process-user-centered-business-canvas.png') }}" alt="User centered business canvas" />
+                                <img src="{{ asset('media/blog/what-are-hypothesis-in-product-development-template-hu.png') }}" alt="Mivel tudjuk, hogy [eddigi ismeret], ezért ha [valamit csinálunk] akkor [tesztelhető kimenet]." />
                             </figure>
-                            <p>De lássuk miből is áll ez a canvas. 11 rovatot láthatunk, 3 részre osztva. A bal oldali 2 rovat a canvas probléma része, a 6 középső rovat a felhasználó és a megoldás kapcsolatát írja le, míg a jobb oldali 3 oszlop az üzleti aspektusokat. Ez a három rész gyönyörűen végigköveti a termékfejlesztést a problémától, egészen a piaci megfelelésig.</p>
-                            <p>Az első rész rovataira a válaszokat már ismerjük a probléma validációs fázis interjúiból. Felülre a felhasználók problémáit, fájdalompontjait és kihívásait írjuk be, az alsó rovatba pedig a meglévő megoldásokat. Ezek lehetnek versenytársak is, de olyan módszerek is, amit a felhasználóink jelenleg használnak a probléma megoldására. A mi esetünkben ezek az egyéb biztonsági kütyük.</p>
-                            <p>A középső rész rovatait szintén ismerősek lehetnek már. A felhasználó típusok lényegében a perszónáink. A felhasználó szükségletei/céljai és a felhasználó félelmei rovatok szintén megtalálhatóak a perszónákban.</p>
-                            <p>Az early adopter-ekre, vagyis a korai alkalmazókra érdemes azért röviden kitérnem. Az early adopter kifejezés Geoffrey Moore Crossing the Chasm könyvéből ismert. Moore 5 különböző felhasználó típust különböztetett meg, annak függvényében, hogy mennyire könnyen kezdenek el alkalmazni új technológiákat (vagy termékeket).</p>
-                            <p>Ezek az innovátorok, a korai alkalmazók (early adopters), korai többség (early majority), kései többség (late majority) és a szkeptikusok (laggards). Moore megfigyelte, hogy legtöbb új technológia (főként a diszruptív technológiák) esetében, kifejezetten nehéz a korai többséget elérni a korai alkalmazókhoz képest. A két csoport között keletkezik egy szakadék (chasm), ami megmagyarázza a könyv címét is.</p>
-                            <p>Ahhoz, hogy tesztelni tudjuk majd a termékünket, előszőr a korai alkalmazókat kell meggyőzzük. Ők lesznek a kulcs a többség felé majd. Éppen ezért foglalnak el fontos szerepet a canvas-ünkön.</p>
-                            <p>Tovább haladva a canvas-en, elérünk a megoldások és az értékajánlat rovatokhoz. Ezeket is szerencsénkre már a value proposition canvas-ben kitöltöttük.</p>
-                            <p>Az utolsó rész, 3 rovattal pedig már üzleti szempontokat jelenít meg. Ezekkel a probléma-megoldás fázisban nem foglalkozunk, ezért nem is részletezem őket, de amúgy is elég egyértelműek.</p>
-                            <p class="has-margin-b60">Az UCBC, csakúgy mint a perszónák vagy a felhasználói interjúk egy olyan eszköz amit a termékfejlesztés összes fázisában hasonló eredményességgel tudunk használni. Van, amikor az UCBC-vel kezdek és ennek alapján dolgozom ki részletesebben a perszónákat és az értékajánlatot. Van, amikor csak UCBC-t használok, főleg egyszerűbb projektet esetében. De legtöbbször a probléma-megoldás megfelelés szakaszban szoktam először ajánlani a használatát.</p>
-                            {{--<p><a href="" target="_blank">Töltsd le az ingyenes start-up eszköz sablonjainkat, amelyben kitölthető user-centered business canvas sablont is találsz.</a></p>--}}
-                            <h2 class="heading-2 has-margin-b30">Teszteljük az értékajánlatunkat</h2>
-                            <p>Azzal, hogy addig csiszoltuk az értékajánlatunkat, amíg az ügyfélprofil (kör) és értéktérkép (négyzet) között megtaláltuk a korrelációt, még nem bizonyítottuk a érték feltevéseinket. Tehát itt még nem beszélhetünk probléma-megoldás megfelelésről. Ezt a korrelációt bizonyítanunk kell (bár ha közösen készítettük a value proposition canvas a potenciális felhasználókkal, az már egy aprócska lépés a megfelelő irányba).</p>
-                            <p class="has-margin-b60">Joggal tehetítek fel magatokban a kérdést, hogy hogyan teszteljünk, amíg nincs még termékünk? Szerencsére erre is megvannak az eszközök.</p>
-                            <h3 class="heading-3 has-margin-b30">Kérdőívek</h3>
-                            <p>Talán a legelterjedtebb validációs eszköz a kérdőív. Az interjúkkal szemben, ami egy kvalitatív eszköz, a kérdőív egy kvantitatív módszer.</p>
-                            <p>Sokan már a probléma validációs fázisban helytelenül, kérdőívvel próbálják helyettesíteni a felhasználói interjúkat. A kérdőívek azt feltételezik, hogy tudjuk mit kérdezzünk a felhasználóktól sőt, mivel sok esetben válasz opciókat is meg kell adjunk, a válaszlehetőségek ismeretét is feltételezi. Mint az a <a href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-1-resz']) }}" target="_blank">múltkori cikkből</a> megtanultuk, a probléma validációs fázisban az ismeretlen megismerésén van a hangsúly. Arra pedig az interjúk sokkal célszerűbb eszközök, hiszen mindig lehetőségünk van visszakérdezni és mélyebbre ásni.</p>
-                            <p>Bár a kérdőívek nem alkalmasak a kezdeti szakaszokban, annál hatékonyabbak az interjúk során tanultak megerősítésében. Dan Olsen a The Lean Product Playbook c. könyvében ezt úgy nevezi, hogy quant on qual. Vagyis kvantitatív felmérés kvalitatív adatokon.</p>
-                            <p>Készítsünk egy kérdőívet, amivel le tudjuk tesztelni a value proposition canvas-ban foglaltakat. A fájdalomcsillapítók enyhítik-e a megkérdezett szerint a fájdalompontot? Az értéknövelők meghozzák-e az elvárt hasznot?</p>
-                            <p>A mi termékünk esetén megkérdezhetjük például a kitöltőket, hogy egy 5-ös skálán jelöljék meg, hogy mennyire bíznának meg egy ilyen eszközben vagy, hogy mennyire fontos a saját biztonságuk a mások (gyalogosok) biztonságához képet. Akár arra is rákérdezhetnénk, hogy melyik funkciókat tartják annyira fontosnak, hogy a készülék gombjaival/érintő képernyőjével kezeljenek és melyikek azok, amiket elrejthetünk a mobil applikációba.</p>
-                            <p>A kérdőívek összeállításának rejtélyei meghaladják ennek a cikknek a körét, de ha egy dolgot ki kéne most emeljek, az az, hogy a kérdőívek elejére mindig építsünk be szűrő kérdéseket. Ezek a szűrő kérdések arra jók, hogy ki tudjuk zárni a számunkra nem releváns válaszadókat.</p>
-                            <p>A mi esetünkben, például nem relevánsak azok a kitöltők akik nem használnak mikromobilitási eszközöket. Azok sem relevánsak, akik csak kontrollált környezetben vagy olyan helyeken használják ezeket az eszközöket, ahol nem kiemelten fontos a biztonság. Kérdezzük meg, hogy milyen gyakran használnak mikromobilitási eszközt? Milyen mikromobilitási eszközöket használnak? Hol használják elsősorban mikromobilitási eszközt?</p>
-                            <p class="has-margin-b60">A szűrő kérdések összeállításakor segítenek a perszónák (mondtam én, hogy még később is hasznos lesz). Ha több különböző perszónánk van, akkor megfontolandó, hogy több, perszónára szabott kérdőívet állítsunk össze.</p>
-                            <h3 class="heading-3 has-margin-b30">Concierge kísérlet</h3>
-                            <p>Egy másik technika az értékajánlat tesztelésére a concierge kísérlet. A concierge kísérlet esetében kiválasztunk egy pár felhasználót, akinek megpróbálunk a végtermékhez hasonló felhasználói élményt nyújtani úgy, hogy a termék összes funkcióját kézileg valósítjuk meg. Tehát, kiváltunk egy komplikált technikai megoldást emberekkel.</p>
-                            <p>Ez a módszer értelemszerűen nem minden termék esetében működik. A mi esetünkben is nehezen megvalósítható, hacsak nem szeretnénk egy elektromos rollert mögött futva kiabálni ha veszély észlelünk. Ez nemcsak nehezen megvalósítható, hanem meglehetősen messze is áll az elvárt felhasználói élménytől.</p>
-                            <p>Talán a leghíresebb concierge típusú kísérlet, Manuel Rosso és a Food on the Table projektje, amit Eric Ries is felhozott példaként a The Lean Startup könyvében. Manuel víziója egy olyan digitális termék volt, ami a felhasználók étkezési preferenciái alapján személyre szabott heti étkezési tervet és bevásárló listát állít össze. </p>
-                            <p>Ahelyett, hogy Manuel belevágott volna a szoftver fejlesztésébe, inkább egy kísérletbe kezdett. Kiválasztott 1 (!) ügyfelet, akinek megismerte az étkezési szokásait és kedvenc receptjeit. Ezt követően hetente bekopogtatott az éppen árleszállított termékek listájával és az ezekből elkészíthető, releváns receptekkel. Kikérte a hölgy véleményét, ami alapján javítani tudott az összeállításokon és ami a legfontosabb, minden héten begyűjtött egy csekket $9.95 dollárért.</p>
-                            <p class="has-margin-b60">Ez közel sem volt kifizetődő, hatékony és messze nem egy skálázható üzlet. Viszont minden héten újabb és újabb információhoz jutottak. Rövidesen további pár ügyféllel bővítették a vásárlók körét. Azáltal, hogy az ügyfelek hétről hétre kinyitották nekik az ajtót, sőt fizettek a szolgáltatásért, Manuel-ék bizonyították, hogy az értékajánlatuk megállja a helyét.</p>
-                            <h2 class="heading-2 has-margin-b30">Összegzés</h2>
-                            <p class="has-margin-b30">A mi esetünkben, a következő kérdésekre kerestük a választ a probléma-megoldás megfelelés szakaszában:</p>
-                            <ul class="list has-bullets has-margin-b30">
-                                <li>az eszközünk hozzájárul ahhoz, hogy a felhasználók nagyobb biztonságban legyenek utazás közben</li>
-                                <li>az eszközünk olyan jelentős mértékben megnöveli a felhasználók biztonsági érzetét, hogy emiatt rendszeresen használják</li>
-                            </ul>
-                            <p>Első lépésünk az értékajánlatunk meghatározása lesz. Ezt egy (felhasználókkal közösen készített) value proposition canvas segítségével tudjuk megvalósítani. A user-centered business canvas segít a felhasználói igények és a megoldásunk vizualizációjában.</p>
-                            <p>Ez a két eszköz segít a meghatározásban, struktúrálásban és megjelenítésben, de nem elegendőek az érték feltevések megerősítéséhez. Erre használhatunk kérdőíveket, vagy ha olyan a termékünk, akkor egy concierge kísérlet egy izgalmas és hatékony módja lehet a probléma-megoldás megfelelés bizonyításának.</p>
-                            <p>Ha sikerül a bizonyítás, akkor irány a megoldás-termék megfelelési szakasz, különben pedig jöhet a már többször emlegetett fókuszváltás. más nevén a pivot!</p>
+                            <p>A fenti sablont felhasználva, az értékfeltevésünket a következő módon javíthatjuk:</p>
+                            <p class="has-margin-b60">Mivel tudjuk, hogy <span class="has-text-underlined">a 25 km/h sebességet meghaladó mikromobilitási eszközt (kerékpár, elektromos kerékpár, elektromos roller) városban, napi rendszerességgel használó emberek nem érzik magukat biztonságban utazás közben</span>, ezért ha <span class="has-text-underlined">fejlesztünk egy olyan eszközt ami hang- és rezgés jelzésekkel riaszt az akadályokhoz közeledve</span>, akkor <span class="has-text-underlined">a felhasználók nagyobb biztonságban lesznek utazás közben</span>.</p>
+                            <h3 class="heading-3 has-margin-b30">Légy SMART</h3>
+                            <p>A SMART kritériumok alapján való célok meghatározása valószínüleg sokaknak ismerős már. A jó hír az, hogy ha ezeket a SMART kritériumokat használjuk a hipotéziseink meghatározásakor is, akkor azok sokkal könnyebben tesztelhetőek lesznek.</p>
+                            <p class="has-margin-b30">A SMART egy betűszó, az angol Specific, Measurable, Achievable, Relevant és Time-bound szavakból áll össze. Magyarul specifikus, mérhető, elérhető, releváns és időben határolt.</p>
+                            <h4 class="heading-4 has-margin-b30">Specifikus</h4>
+                            <p>Emlékezzünk vissza, hogyan szólt a probléma hipotézisünk: "a mikromobilitást használók nem elégedettek a jelenlegi biztonsági megoldásokkal". Ez a feltevés sem elég specifikus. Javíthatnánk rajta például úgy, hogy pontosabban megjelöljük melyik jelenlegi biztonsági megoldásokkal nem elégedettek.</p>
+                            <p class="has-margin-b30">Az érték hipotézisünk tesztelhető kimenetét pedig úgy fogalmaztunk fentebb meg, hogy "a felhasználók nagyobb biztonságban lesznek utazás közben". Ez a megfogalmazás is lehetne azért specifikusabb. Például, mondhatnánk azt, hogy "a felhasználók nagyobb mértékben észreveszik a mozgó (gépjármű, gyalogos, egyéb mikromobilitási eszköz) és statikus akadályokat (oszlop, útburkolati hibák) akadályokat".</p>
+                            <h4 class="heading-4 has-margin-b30">Mérhető</h4>
+                            <p class="has-margin-b30">Már közelebb vagyunk egy kicsit egy SMART érték hipotézishez, de ha jól megnézzük, akkor a fenti feltevés egyáltalán nem mérhető. Ahhoz, hogy mérhető is legyen, határozzuk meg mi a számunkra minimálisan elvárt javulás mértéke: "a felhasználók 80%-ban nagyobb mértékben észreveszik a mozgó (gépjármű, gyalogos, egyéb mikromobilitási eszköz) és 40%-ban nagyobb mértékben a statikus akadályokat (oszlop, útburkolati hibák) akadályokat".</p>
+                            <h4 class="heading-4 has-margin-b30">Elérhető (Teljesíthető)</h4>
+                            <p>Ennek a kritériumnak a fontosságát talán az eredetileg meghatározott perszóna feltevésünk mutatja meg legjobban, amely így szólt: "az összes (motorizált és nem motorizált) mikromobilitási eszközt használó embert érinti a probléma".</p>
+                            <p>Kevésbé tapasztaltak is könnyen kiszúrják, hogy ez azért ebben a formában nehezen támasztható alá. De mivel ezt a feltételezést még a legelején fogalmaztuk meg, amikor nem voltak még előző ismereteink a felhasználókról, ezért ez könnyen megbocsátható.</p>
+                            <p>Ahogy haladtunk előre a felhasználói interjúkkal, annák elérhetőbb lett ez a feltevésünk is. "A 25 km/h sebességet meghaladó mikromobilitási eszközt (kerékpár, elektromos kerékpár, elektromos roller) városban, napi rendszerességgel használó emberek lesznek a vásárlóink" feltevés már reálisan elérhető.</p>
+                            <p class="has-margin-b30">A feltételezések átfogalmazása, részletezése egy természetes, kötelező velejárója a tanulási folyamatnak. Minden ilyen változást fókuszváltásnak, vagy pivotnak nevezünk.</p>
+                            <h4 class="heading-4 has-margin-b30">Releváns</h4>
+                            <p>Ha a feltételezésünk nem releváns, akkor fontos időt tölthetünk el ennek tesztelésével, sőt könnyen rossz irányba is terelheti a termékfejlesztést. Egy releváns feltételezés mindig hozzájárul ahhoz, hogy közelebb kerüljünk a víziónk megvalósításához.</p>
+                            <p class="has-margin-b30">A mi esetünkben egy nem releváns feltételezés lehetne az, hogy "a biztonsági kütyünk helyettesíti majd a bukósisakot". Ez több szempontból sem releváns. Elsősorban, nem is célunk a bukósisakot helyettesíteni, mivel más-más problémát old a két eszköz meg. Másodsorban, sok országban kötelező a bukósisak használata, ezért a jogszabályok miatt nem is valósítható meg.</p>
+                            <h4 class="heading-4 has-margin-b30">Időben határolt</h4>
+                            <p>Ezt a kritériumot talán a növekedési hipotéziseink segítségével lehet érzékeltetni. Egyik feltételezésünk úgy szólt, hogy "a vásárlók szeretik annyira a terméket, hogy másoknak is ajánlják". Ez a feltételezés nem mérhető, ezért kezdetnek orvosoljuk ezt a problémát: "a vásárlók szeretik annyira a terméket, hogy legalább 1 másik embernek is ajánlják".</p>
+                            <p>Elég-e mérhetőnek lennie a feltételezésnek? Tegyük fel, hogy egy felhasználó a vásárlás utáni 1 hónap alatt 3 embernek ajánlja a terméket, de utána soha. Egy másik pedig csak 1 embernek ajánlja termékünket, viszont ezt megteszi havonta. Egyértelműen más lesz mindkettő esetében a növekedési arányunk. Ezért fontos, hogy a feltételezésünket időben is határoljuk. Fogalmazhatnánk például úgy, hogy "a vásárlók szeretik annyira a terméket, hogy átlagban havonta legalább 1 másik embernek is ajánlják".</p>
+                            <figure>
+                                <img src="{{ asset('media/blog/what-are-hypothesis-in-product-development-smart.png') }}" alt="Formulate hypothesis according to SMART principles" />
+                            </figure>
+                            <h2 class="heading-2 has-margin-b30">Utószó</h2>
+                            <p>Remélem a fenti sorok segítenek abban, hogy a termékfejlesztés különböző fázisaiban, hogyan érdemes a feltételezéseket meghatároznod. Nem könnyű feladat jól megfogalmazni a hipotéziseket, de megéri a befektetett energiát.</p>
+                            <p>Az itt leírtakat csupán egy útmutatónak szántam, nem egy kötelező szabályrendszernek. Nem gond, ha nem használod a "mivel tudjuk, hogy [eddigi ismeret], ezért ha [valamit csinálunk] akkor [tesztelhető kimenet]" sablont, hanem helyettesíted valamivel, ami számodra kézenfekvőbbel. Az sem gond, ha nem minden feltételezés kötelezően időben határolt vagy akár mérhető.</p>
+                            <p>Mint mindig, a cél az, hogy minden egyes feltételezés tesztelésével többet tudjál meg a felhasználóidról és ezt empirikus adatokkal alá is tudjad támasztani.</p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'A lean termékfejlesztési folyamat: 2. Fogalmazzuk meg az értékajánlatunkat'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Hipotézisek a termékfejlesztésben'])
                         </div>
                     </div>
                 </div>
@@ -167,23 +167,23 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "datePublished": "2021-03-17T12:00:00",
-    "dateModified": "2021-03-17T12:00:00",
-    "description": "Ebben a cikkben bemutatjuk, hogyan fogalmazz meg egy értékajánlatot a probléma-megoldás megfelelés keresésében.",
-    "headline": "A lean termékfejlesztési folyamat: 2. Fogalmazzuk meg az értékajánlatunkat",
+    "datePublished": "2021-06-14T12:00:00",
+    "dateModified": "2021-06-14T12:00:00",
+    "description": "Ebben a cikkben megismerjük a különböző hipotézis típusokat, illetve azt, hogy hogyan érdemes őket megfogalmazni és tesztelni.",
+    "headline": "Hipotézisek a termékfejlesztésben",
     "image": {
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-the-lean-product-process-2-hu.png') }}"
+        "url": "{{ asset('media/blog/cover-what-are-hypotheses-in-product-development.png') }}"
     },
     "inLanguage": "hu_hu",
-    "keywords": "Termékfejlesztés, Lean termékfejlesztési folyamat, Felhasználó, User Persona, User interview, ",
+    "keywords": "Termékfejlesztés, Lean termékfejlesztési folyamat, Érték hipotézis, Növekedési hipotézis",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "A lean termékfejlesztési folyamat: 2. Fogalmazzuk meg az értékajánlatunkat",
+    "name": "Hipotézisek a termékfejlesztésben",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -223,7 +223,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "A lean termékfejlesztési folyamat: 2. Fogalmazzuk meg az értékajánlatunkat"
+                "name": "Hipotézisek a termékfejlesztésben"
             }
         }
     ]

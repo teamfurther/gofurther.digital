@@ -1,10 +1,10 @@
-@section('title', 'The Lean Product Process: 2. Formulating Your Value Proposition')
-@section('description', 'In this article, we\'ll show you how to formulate your value proposition in the search for problem-solution fit.')
-@section('preview_image', asset('media/blog/cover-the-lean-product-process-2-en.png'))
+@section('title', 'The Lean Product Process: #4 Achieving Product-Market Fit')
+@section('description', 'Finally we arrive at the end of the product development process, where we test how the buyers react to our product and if our business plan is sustainable.')
+@section('preview_image', asset('media/blog/cover-the-lean-product-process-4-en.png'))
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-the-lean-product-process-2-en.png') }}" srcset="{{ asset('media/blog/featured-the-lean-product-process-2-769w-en.png') }} 769w, {{ asset('media/blog/featured-the-lean-product-process-2-1000w-en.png') }} 1000w" sizes="100vw" alt="The Lean Product Process: 2. Formulating Your Value Proposition" />
+        <img src="{{ asset('media/blog/featured-the-lean-product-process-4-en.png') }}" srcset="{{ asset('media/blog/featured-the-lean-product-process-4-769w-en.png') }} 769w, {{ asset('media/blog/featured-the-lean-product-process-4-1000w-en.png') }} 1000w" sizes="100vw" alt="The Lean Product Process: #4 Achieving Product-Market Fit" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -12,9 +12,9 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">The Lean Product Process: 2. Formulating Your Value Proposition</h1>
+                            <h1 class="post__title p-name">The Lean Product Process: #4 Achieving Product-Market Fit</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2021-03-17 10:00:00">Mar 17th, 2021</time> &middot; 10 min read
+                                <time class="dt-published" datetime="2021-05-10 10:00:00">May 10th, 2021</time> &middot; 10 min read
                             </div>
                         </div>
                     </div>
@@ -24,95 +24,83 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p>Those of you, who did not read my <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt1']) }}" target="_blank">previous article</a>, should know that we are building a product. Well, a hypothetical one, to illustrate the different stages of lean product development.</p>
-                            <p>This product is a gadget equipped with different sensors, which can be mounted on micromobility devices, like a bicycle, an e-scooter or even a skateboard. When approaching an obstacle or when detecting danger (such as a vehicle, pedestrian, crossing, etc.), our gadget will emit sound and vibration alerts, helping us travel in safety.</p>
-                            <p>In the previous article, we already determined what assumptions (problem hypothesis) we need to answer in the problem validation stage and I also showed you the available tools to test these assumptions.</p>
-                            <p class="has-margin-b30">Our next step will be proving the problem-solution fit. When entering this stage, in the Learn phase of our loop we’ll be looking to prove the following assumptions:</p>
+                            <p>In the previous articles of this series, we already took a look at how to <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt1']) }}" target="_blank">validate the core problem</a> of our start-up, how to <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}" target="_blank">test if our proposed solution actually solves the problem</a> or <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt3']) }}" target="_blank">if our product delivers the solution</a>.</p>
+                            <p>With this article, we have arrived at the last stage of the lean product development process: the product-market fit stage. But what does this actually mean? Simply put, when in the product-market fit stage, we are looking to prove that our business model will be sustainable.</p>
+                            <p class="has-margin-b30">If we break up this core question, we should be looking to prove the following assumptions:</p>
                             <ul class="list has-bullets has-margin-b30">
-                                <li>our product helps user be safer when travelling</li>
-                                <li>our product improves the sense of safety of users in such a way, that would incentivise them to use the gadget regularly</li>
+                                <li>users are still willing to pay or exchange value for our product or service</li>
+                                <li>we are able to keep our existing users, maybe even sell the additional products or services</li>
+                                <li>users like our product so much, they are willing to refer it to others</li>
                             </ul>
-                            <p>We call these assumption value hypotheses. As the name implies, the value hypothesis proved that our solution brings added value for our users.</p>
+                            <p>These assumptions are called growth hypotheses.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-2-en.png') }}" alt="Validation in product development-Cheat-sheet-2" />
+                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-4-en.png') }}" alt="Validation in product development - Product-market fit" />
                             </figure>
-                            <h2 class="heading-2 has-margin-b30">Formulating our value proposition</h2>
-                            <p class="has-margin-b60">In the problem validation stage we probably discovered lots of user pain points, and hopefully just as many opportunities to improve the daily lives of our users. If our product manages to soothe these pain points and deliver these improvements, then our value propositions will be valid, and our problem-solution fit proven. Let us see what steps we can take to achieve this.</p>
-                            <h3 class="heading-3 has-margin-b30">Value proposition canvas</h3>
-                            <p>One of the most useful tools to prove problem-solution fit is the value proposition canvas, introduced by Alex Osterwalder and co., in their book titled Value Proposition Design. The canvas is as simple as it gets: it’s made of 1 square and 1 circle.</p>
+                            <p>At the beginning of each stage of the lean product process, my less experienced clients always eagerly ask me if they can start building the polished product already. As we have already <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt1']) }}" target="_blank">proved that others face the same problem as us</a>, which <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt1']) }}" target="_blank">our product does in fact solve</a>, while <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt1']) }}" target="_blank">providing the expected user experience</a>, they are easily forgiven for thinking we need an actual product to investigate if our customer acquisition and retention strategy is sustainable.</p>
+                            <p>Those who are more experienced though, already know by now that my answer is going to be the same. No, you still shouldn't invest resources and energy into building a product. Luckily, we do have tools at our disposal, which we can use to test our business model prior to launching ourselves into costly product manufacturing or software development.</p>
+                            <p class="has-margin-b60">Naturally, there are some metrics we can only access once we start selling the actual product. Hence, I am going to divide this article into two parts: pre-product and post-product tools and metrics.</p>
+                            <h2 class="heading-2 has-margin-b30">Tools to test product-market fit, before building your product</h2>
+                            <h3 class="heading-3 has-margin-b30">Landing pages</h3>
+                            <p>A landing page is a cost-effective method to gauge interest among our target audience. There are many ways to build a landing page, the easiest is to use a drag and drop website builder such as <a href="https://www.squarespace.com" target="_blank">Squarespace</a>, <a href="https://www.wix.com" target="_blank">Wix</a> or <a href="https://www.strikingly.com" target="_blank">Strikingly</a>. If we wish to have more control and customisation, we could use a Wordpress theme. Anything more than that, would be overkill.</p>
+                            <p>We have to make sure to show our value proposition, key advantages and functions of our product. What is even more important is to display the price of our product and a buy button. Yes, a buy button. Even if we don't have a product yet.</p>
+                            <p>Of course, there won't be any financial transaction happening. After clicking the buy button, we are going to explain to our users that the product doesn't exist yet, and this is a test. But the fact that they are clicking an actual buy button is the strongest commitment feedback we can get of their intent to purchase.</p>
+                            <p>When we do finalize the product later on, we shouldn't of course forget to notify them that the product is now available to buy. To alleviate the disappointment of not being able to get their hands on our product, we could offer an early-bird coupon to users who return and buy later on.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/the-lean-product-process-value-proposition-canvas-en.png') }}" alt="Value proposition canvas" />
+                                <img src="{{ asset('media/blog/prototype-landing-page-mvp-buffer.png') }}" alt="Landing page MVP" />
+                                <figcaption><a href="https://buffer.com/resources/idea-to-paying-customers-in-7-weeks-how-we-did-it/" target="_blank">Buffer's landing page prototype</a> is probably the most famous of it's kind. Clicking the "Plans and pricing" button on the left, takes you to the explanation page on the right.</figcaption>
                             </figure>
-                            <p class="has-margin-b30">We begin filling our canvas with the circle, which contains our observations of our target audience. The circle (user profile) is sliced into 3 subsections:</p>
+                            <h3 class="heading-3 has-margin-b30">Coming soon page</h3>
+                            <p class="has-margin-b60">If you find the above method too aggressive, we could use a coming soon page instead. In this case, we make it clear to the user from the start, that the product is not available yet. If they're interested in buying they can sign up for a newsletter, through which we will announce developments regarding the product. But one does feel that this isn't as strong a commitment as clicking a buy button.</p>
+                            <h3 class="heading-3 has-margin-b30">Pre-purchase</h3>
+                            <p>An in-between solution could be to provide a pre-purchase option on the landing page or coming soon page. We make it clear to the user that the product is only going to be available at a later time, but in this case a financial transaction is going to happen. This is a very strong commitment from the user.</p>
+                            <p class="has-margin-b60">This could prove to be an interesting option from a cash-flow perspective as well, since we can use this money to finance manufacturing or software development. But this solution is the one which carries the most risk as well. If we fail to prove product-market fit or face obstacles during production, we will be forced to refund our customers.</p>
+                            <h3 class="heading-3 has-margin-b30">Product demo video</h3>
+                            <p>Another option would be to use a product demo video instead of a landing or coming soon page. Or even better, use them together. Combine the product video with a sign up, pre-purchase or buy button, so we can measure the intent to purchase. This is the method Dropbox used in 2007:</p>
+                            <div class="post__video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/iAnJjXriIcw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <h3 class="heading-3 has-margin-b30">Crowdfunding campaigns</h3>
+                            <p>When talking about crowdfunding campaign services, such as <a href="https://www.kickstarter.com" target="_blank">Kickstarter</a> or <a href="https://www.indiegogo.com" target="_blank">Indiegogo</a>, most don't think of them as a tool for validation. In reality, in addition to being a great way to get funding, they are an excellent way of gauging interest toward our product. If people are willing to back our project with money, that is a great indication they would be interested in buying the product later on.</p>
+                            <p class="has-margin-b60">More cunning start-ups are often not even in need for funding, instead they leverage these platforms to validate their product-market fit.</p>
+                            <h2 class="heading-2 has-margin-b30">Metrics to determine product-market fit, after launching a product</h2>
+                            <p>If the above tools deliver the expected numbers regarding customer interest, we can finally proceed to the long-awaited phase: starting to build our product. This however, still doesn't prove actual product-market fit. If against all our efforts up till now, our business model proves to be unsuccessful, we still have time to pivot.</p>
+                            <p>We have closed the development phase, and entered the growth phase. If we correctly used the tools I showed you above, the intent to buy is likely to transform into actual purchases.</p>
+                            <p class="has-margin-b30">With this, we have successfully proven our first assumption (users are still willing to pay or exchange value for our product or service). But what about the other two? Let's which two we're talking about:</p>
                             <ul class="list has-bullets has-margin-b30">
-                                <li>Customer jobs - functional (I want to get from A to B), emotional (I feel safe) and social (I look good while travelling) actions that our users perform.</li>
-                                <li>Pains - obstacles, negatives and frustrations that our user would rather avoid.</li>
-                                <li>Gains - positive outcomes, added value or desired that our user longs for.</li>
+                                <li>we are able to keep our existing users, maybe even sell the additional products or services</li>
+                                <li>users like our product so much, they are willing to refer it to others</li>
                             </ul>
-                            <p>We can source this information from the user personas we created in the problem validation stage, as the assumptions we set when creating the personas have been already confirmed (or contradicted) by the user interviews. You did update your personas after the interviews, did you?</p>
-                            <p>
-                                If we have several personas, we are going to have multiple value proposition canvases since, naturally, we have a different value proposition for each user group. Write down each job, pain point and gain on a post-it note and stick it in the correct space on the canvas. If you wish to create a digital canvas, I would recommend using <a href="https://miro.com/" target="_blank">Miro</a>.
-                            </p>
-                            <p class="has-margin-b30">When done with the circle, we can move on to the square, called the value map in the Value Proposition Design, which is also split into 3 subsections:</p>
-                            <ul class="list has-bullets has-margin-b30">
-                                <li>Products and services - the services and product that deliver our value proposition. In our case, this can be the gadget itself, the companion mobile app (because you must have one, don’t you?), or even customer support.</li>
-                                <li>Pain relievers - the pain points that the above services or products relieve or how they are improving the lives of the users.</li>
-                                <li>Gain creators - the gains delivered by the above services or products or how they improve results for users.</li>
-                            </ul>
-                            <p>Scribble them on a post-it and paste them onto the canvas. Compare the pain points and gains under the user profile (circle) with the pain relievers and gain creators under the value map (square). Do they match? If so, then we (probably) have a product-solution fit.</p>
-                            <p>If they don’t match, then we should look at the canvas more closely. Pain relievers and gain creators that don’t have a corresponding item under user profile, are probably answers to user needs that don’t exist, hence they are superfluous.</p>
-                            <p>On the other hand, if some pain points or gains don’t have any correlation on the value map, then it’s a good indicator that the service or product needs more thought.</p>
-                            <p>Pain points and gains can also be prioritised. We should by now, based on the interviews, have a pretty good understanding of which are the most important to our users. If some pains or gains are repeated across multiple user groups (personas), then that is a good reason to give them a higher priority. Concentrating on the essentials and we should iterate until a correlation is achieved between the user profile and value map.</p>
-                            <p class="has-margin-b60">A value proposition canvas can be filled by us, as a team, but as with journey maps, it’s much more exciting to co-create it together with potential users.</p>
-                            {{--<a href="" target="_blank">Download our free product development tool bundle, in which you can find a template for a value proposition canvas.</a>--}}
-                            <h3 class="heading-3 has-margin-b30">User-centered business canvas</h3>
-                            <p>Another canvas… I think it’s getting pretty obvious by now, that I love canvases.</p>
-                            <p>I first learned of the user-centered business canvas from Csaba Házi’s <a href="https://csabahazi.com/ux-kitchen-podcast/007" target="_blank">UX Kitchen</a> podcast, and immediately started using it, albeit with a couple of tweaks. The structure of the canvas closely resembles that of Alex Osterwalder’s other famous canvas, the business model canvas, and Ash Maurya’s lean canvas. This isn’t by accident, as the UCBC was heavily influenced by them. But while the former is much more business focused, and the latter problem and product focused, the UCBC puts the relation between user needs and solution front and center.</p>
+                            <p>What metrics can we use to validate these? I will dedicate a separate article to metrics, but let's take a quick look at the most important ones right now. Before jumping in though, I would like to point out one of the major mistakes start-ups make: they fail to resist the temptation of metrics magic.</p>
+                            <p>What metrics can we use to validate these? I will dedicate a separate article to metrics, but let's take a quick look at the most important ones right now. Before jumping in though, I would like to point out one of the major mistakes start-ups make: they fail to resist the temptation of metrics magic.</p>
+                            <p>Eric Ries, in his book titled The Lean Startup, told two distinct types of metrics apart. Vanity metrics and actionable analytics. Vanity metrics are great to make you feel good, but are awful to base your decisions and strategy on. Inexperience start-ups however, do however often commit this mistake.</p>
+                            <p>The number of website visitors or social media followers is, for example, such a vanity metric. They look good, but unless they turn into buying customers, they are of no use to us. Ok, this is pretty obvious you might think.</p>
+                            <p>Less obvious, but equally vain is the number of users. There's no use having lots of users, unless they are active. If they don't spend money or add value in a different way (for example, most Facebook users do not spend money on the platform, but their real value is in the information they generate for the social media giant).</p>
+                            <p>Even less obvious, but monthly revenue is also a vanity metric. Why, you could ask? If we do have revenue, we must have sales. True. But it doesn't say how much it costs us to acquire sales. For example, how much we spend on marketing to bring in a new buying customer. A manufacturer doesn't look at the price they're selling a product either. Instead they focus on their margin on each sale.</p>
+                            <p>Actionable analytics on the other hand are the ones which we should use to base our decisions on and use when planning long-term. I like to call these clarity metrics. Let's see a couple of examples.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/the-lean-product-process-user-centered-business-canvas.png') }}" alt="User centered business canvas" />
+                                <img src="{{ asset('media/blog/metrics-vanity-vs-actionable-en.png') }}" alt="Vanity metrics vs actionable analytics" />
                             </figure>
-                            <p>But let us see what this canvas is all about. We can see 11 cells, split into 3 distinct sections. The leftmost 2 cells describe our problem, the middle 6 describe the relationship between user and solution, while the rightmost 3 are all about the business aspects. These 3 sections create an easy to follow product development curve, all the way from problem validation to product-market fit.</p>
-                            <p>
-                                We already know the answers to the problem section from the user interviews in the problem validation stage. We input the user problems, pain points and challenges in the top cell, and the existing solutions in the bottom cell. These can be competitors, but also methods our users currently employ to solve their problems. In our case, these will be the other safety gadgets on the market.
-                            </p>
-                            <p>The middle section will also be familiar. The user types are basically our personas. The user needs/goals and user fears cells can also be found in our personas.</p>
-                            <p>I must however talk a bit about early adopters. The term early adopter was popularized by Geoffrey Moore, in his book title Crossing the Chasm. Moore identified 5 distinct user types, based on how likely they are to start using new technologies (or products).</p>
-                            <p>These are the innovators, early adopters, early majority, late majority and the laggards. Moore observed, that for most new technologies (especially disruptive technologies) it’s exponentially harder to reach (or to market to) the early majority compared to the early adopters. Hence the chasm.</p>
-                            <p>To be able to test our product, we must first convince our early adopters. They are going to be the key to reaching the majority, and that is the reason why they have an important space on our canvas.</p>
-                            <p>Going forward with our canvas, we reach the solutions and value proposition cells. Luckily, we already have these filled in our value proposition canvas!</p>
-                            <p>The final 3 cells describe business aspects, which we won’t cover in the problem-solution stage. But they should be pretty self-explanatory.</p>
-                            <p class="has-margin-b60">The UCBC, just as the personas or the user interviews, is a tool that can be used throughout the different stages of product development. Sometimes I start with the UCBC and use it to build my personas and value proposition. But most often, I first use it in the problem-solution fit stage.</p>
-                            {{--<a href="" target="_blank">Download our free product development tool bundle, in which you can find a template for a user-centered business canvas.</a>--}}
-                            <h2 class="heading-2 has-margin-b30">Testing our value proposition</h2>
-                            <p>By tinkering with our value proposition until we correlate the user profile and value map, we haven’t yet proven our value hypothesis, and we cannot yet talk about a problem-solution fit. We have to test this correlation. Note that, if we co-created the value proposition with potential users, we have already made a small step in the right direction.</p>
-                            <p class="has-margin-b60">You could ask yourself the question, and rightly so, how we can test our assumptions, without a product? Luckily enough, there are some more tools in our arsenal, that can help.</p>
-                            <h3 class="heading-3 has-margin-b30">Surveys</h3>
-                            <p>Probably the most widely used validation tool is the survey. While the user interviews count as a qualitative tool, surveys and quantitative.</p>
-                            <p>Lots of product teams wrongly use surveys in the problem validation stage, as a substitute for interviews. The problem with this is that it assumes we know the questions we need to ask of our users. Furthermore, because you also need to offer response options, it assumes we already know the answers. As we learned from the <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt1']) }}" target="_blank">last article</a>, the problem validation stage focuses on discovering about the unbeknown. And for that purpose, interviews are a much more suitable tool since we can ask follow up questions and dig deeper.</p>
-                            <p>But while surveys are not suitable in the early stages, they are much more effective in confirming the knowledge we have already acquired. Dan Olsen, in his book titled The Lean Product Playbook, calls this doing quant on qual, that is doing quantitative research and qualitative data.</p>
-                            <p>Let’s create a survey which tests our value proposition. Do our pain relievers really soothe the pain points? Do the gain creators deliver the expected results?</p>
-                            <p>In the case of our product, we might ask respondents to rate on a scale of 5, how likely they would be to trust such a gadget, or how important they consider they’re safety to be in relation to that of others (like pedestrians). We could even ask which functions would they rather control via the gadget’s touch screen or buttons, and which could be hidden inside the companion app.</p>
-                            <p>Debunking all the secrets of the art of surveying is beyond the scope of this article, but if I had to point out the one thing everyone should take into consideration, is including filter questions at the beginning of your survey. These questions allow us to filter out non-relevant responders.</p>
-                            <p>In the case of our product, responders who never use micromobility devices, will not be relevant to us. Similarly, opinions of those who only use them in controlled, safe environments like skate parks, will be less applicable. We should ask them preliminary questions like how often do they use micromobility devices? Where do they use them (in what context)?</p>
-                            <p class="has-margin-b60">When compiling preliminary questions, we can turn to personas again (I told you they’ll become useful later on as well). If we have multiple personas, consider creating several personalized surveys.</p>
-                            <h3 class="heading-3 has-margin-b30">Concierge experiment</h3>
-                            <p>Another technique to test our value proposition is the concierge experiment. This experiment involves selecting a couple of users, for whom we provide a similar user experience as the end product would do, while implementing the functions manually in the background. Basically, we replace a complex technical solution with humans.</p>
-                            <p>Obviously, this experiment doesn’t work for every type of product. Let’s take our product idea for example. Unless we want to run after an electric scooter, shouting at the operator when we spot some danger, it’s hard to see how this experiment can be implemented. More importantly, it’s also pretty far from the expected user experience.</p>
-                            <p>Probably the best known concierge experiment is that of Manuel Rosso and his Food on the Table project, which Eric Ries also mentioned in his The Lean Startup book. Manuel’s vision was a digital product  that would take into account the eating habits of users and the different discounts at local stores, and compile a weekly meal plan and grocery list.</p>
-                            <p>Instead of jumping in and starting to develop the software, Manuel chose to experiment first. He picked 1 user (!) and spent some time understanding her eating habits and favourite recipes. After this, he delivered her every week with the groceries and a recipe list which can be created from those groceries. He asked the lady’s opinion of the recipes which allowed him to improve his service, and more importantly he took a check for $9.95.</p>
-                            <p class="has-margin-b60">Of course this was not profitable and nowhere near a scalable business. But Manuel did gain valuable new information week in, week out. Soon, he expanded his customer base with a couple of new users. The simple fact, that these users were willing to pay for this service every time they knocked on their door, proved their value proposition.</p>
+                            <h3 class="heading-3 has-margin-b30">Customer acquisition cost</h3>
+                            <p>Customer acquisition cost or CAC, is the average spend to get a new customer. If for example, we spend 800 EUR on Google Ads, which gets us 100 customers, our CAC is going to be 8 EUR.</p>
+                            <p class="has-margin-b60">In order to grow, most start-ups should focus on decreasing their CAC. If CAC doesn't decrease in time, it's a good sign that our business model will not be sustainable long term. In some cases though, especially when employing a paid growth engine, it can be acceptable for the CAC to remain consistent with the early values, but even then, a downwards trend is desirable.</p>
+                            <h3 class="heading-3 has-margin-b30">Conversion rate</h3>
+                            <p>As I already mentioned, the number of website visitors or social media followers are vanity metrics. But the rate they become paying customers is going to be one of our most important clarity metrics.</p>
+                            <p>Acquiring each visitor or follower (lead) costs us money, be it from a PPC advertising campaign or a PR appearance. The higher our conversion rate, the less we have to spend on marketing to acquire the same amount of users, thus our CAC is going to be lower.</p>
+                            <p class="has-margin-b60">To increase conversion rate, we could run A/B tests or multivariate tests. This means that we take our landing pages and our ads and we basically create multiple versions of it. These variations may differ in copy, design or layout. We then show these variations to our users in equal proportions. The ones which perform better and generate superior conversion rates, are the ones we should concentrate on and polish further.</p>
+                            <h3 class="heading-3 has-margin-b30">Churn rate</h3>
+                            <p>Churn rate is the metric which shows us our ability to hold on to users in the long run. It's important for the same reasons the conversion rate is important. The better we can keep our active users, the less we have to pay to replace them with new users.</p>
+                            <p class="has-margin-b60">Moreover, it's always cheaper to upsell products or services to existing customers than it is to cold leads, since we have already established a rapport with them. The churn rate is going to be one of our foremost metrics when employing a sticky engine of growth.</p>
+                            <h3 class="heading-3 has-margin-b30">Net promoter score and referral rate</h3>
+                            <p>Net promoter score is a widely used marketing metric, which indicates the likelihood of active users recommending our product to other people. It most often takes the form of a survey question.</p>
+                            <p class="has-margin-b60">The referral rate or RR, is closely related to NPS. RR is the % of total sales, which come from the referral of active users. The better our NPS, the more likely it is that we are going to have a high RR. RR is going to be our most important metric if using a viral growth engine.</p>
+                            <h3 class="heading-3 has-margin-b30">Customer lifetime value</h3>
+                            <p>Customer lifetime value, often abbreviated CLV, CLTV or LTV, is the sum, which a single customer spends on average throughout their lifetime. If we have 1000 users, who spent a total of 10 000 EUR, our CLV is going to be 10 EUR.</p>
+                            <p class="has-margin-b60">If our CLV > CAC, we have a good indication that our business model is sustainable and we have achieved product-market fit.</p>
                             <h2 class="heading-2 has-margin-b30">Conclusions</h2>
-                            <p class="has-margin-b30">When starting our search for the problem-solution fit, we were looking to prove the following assumptions:</p>
-                            <ul class="list has-bullets has-margin-b30">
-                                <li>our product helps user be safer when travelling</li>
-                                <li>our product improves the sense of safety of users in such a way, that would incentivise them to use the gadget regularly</li>
-                            </ul>
-                            <p>Our first step was to define our value proposition. This can be done by (co-)creating a value proposition canvas. A user-centered business canvas can help visualise the user needs and possible solutions.</p>
-                            <p>These tools help us define, structure and visualize, but they are not enough to prove our assumptions. To do that, we can use surveys or a concierge experiment, if the nature of our product allows it.</p>
-                            <p>Once we manage to prove our assumptions, we can proceed to our solution-product fit stage, otherwise we can always pivot.</p>
+                            <p>It was a long journey, but we have reached the end of our product development process. The article series however, does not end here. In the upcoming articles, I am going to elaborate on a couple of already mentioned notions. We're also going to take a look at scaling our product or service further, and also answer some start-up related questions beyond product development. Bear with me!</p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The Lean Product Process: 2. Formulating Your Value Proposition'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The Lean Product Process: #4 Achieving Product-Market Fit'])
                         </div>
                     </div>
                 </div>
@@ -167,23 +155,23 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "datePublished": "2021-03-17T12:00:00",
-    "dateModified": "2021-03-17T12:00:00",
-    "description": "In this article, we'll show you how to formulate your value proposition in the search for problem-solution fit.",
-    "headline": "The Lean Product Process: 2. Formulating Your Value Proposition",
+    "datePublished": "2021-05-10T12:00:00",
+    "dateModified": "2021-05-10T12:00:00",
+    "description": "Finally we arrive at the end of the product development process, where we test how the buyers react to our product and if our business plan is sustainable.",
+    "headline": "The Lean Product Process: #4 Achieving Product-Market Fit",
     "image": {
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-the-lean-product-process-2-en.png') }}"
+        "url": "{{ asset('media/blog/cover-the-lean-product-process-4-en.png') }}"
     },
     "inLanguage": "en_gb",
-    "keywords": "Product Development, Lean Product Development Process, User, User Persona, User interview",
+    "keywords": "Product Development, Lean Product Development Process, Product-market Fit",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "The Lean Product Process: 2. Formulating Your Value Proposition",
+    "name": "The Lean Product Process: #4 Achieving Product-Market Fit",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -223,7 +211,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "The Lean Product Process: 2. Formulating Your Value Proposition"
+                "name": "The Lean Product Process: #4 Achieving Product-Market Fit"
             }
         }
     ]

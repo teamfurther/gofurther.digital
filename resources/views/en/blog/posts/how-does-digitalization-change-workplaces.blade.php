@@ -33,7 +33,7 @@
                             <p>If we're dealing with rational, analytical people, it's worth persuading them with numbers. How much will this increase their productivity, how many hours of work will they save in the long run, how can we improve margins, which new market segments can we reach, etc.</p>
                             <p>On the other hand, if our team consists of people who make decisions on an emotional level, it might be purposeful to explain to them, how this change influences the long-term vision of the company or how it can lead to better customer experience.</p>
                             <p>You could even use both methods. It's always a sign of a healthy culture when the whole team has a clear understanding of both number and goals.</p>
-                            <p>One thing is for certain: using the power of management to dissolve resistance by “brute force” is a recipe for disaster. The team will become unmotivated and will often try to impede the success of the project.</p>
+                            <p>One thing is for certain: using the power of management to dissolve resistance by "brute force" is a recipe for disaster. The team will become unmotivated and will often try to impede the success of the project.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/how-does-digitalization-change-workplaces-say-no.jpg') }}" alt="The success of a DX project often hinges on peoples resistance to change and how management handles the issue." />
                                 <figcaption>The success of a DX project often hinges on peoples resistance to change and how management handles the issue.</figcaption>

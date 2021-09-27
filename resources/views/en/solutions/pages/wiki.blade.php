@@ -19,12 +19,12 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">“Wiki” access to information</h3>
+                        <h3 class="heading-3">"Wiki" access to information</h3>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column is-half-tablet is-two-thirds-desktop">
-                        <p>“Wiki” means quick in Hawaiian. And that's exactly what our wiki software can do for your company: it provides quick access to information. Organise your links and files in categories or labels making them easy to locate. A well-maintained knowledge center accelerates onboarding of new team members and promotes a culture of knowledge sharing within your company.</p>
+                        <p>"Wiki" means quick in Hawaiian. And that's exactly what our wiki software can do for your company: it provides quick access to information. Organise your links and files in categories or labels making them easy to locate. A well-maintained knowledge center accelerates onboarding of new team members and promotes a culture of knowledge sharing within your company.</p>
                         <ul class="list has-bullets">
                             <li>share links, documents or images</li>
                             <li>create FAQs</li>

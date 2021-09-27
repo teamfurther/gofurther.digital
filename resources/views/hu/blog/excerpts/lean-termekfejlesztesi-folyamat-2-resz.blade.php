@@ -1,6 +1,6 @@
 <div class="post">
     <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-2-resz']) }}">
-        <img src="{{ asset('media/blog/thumb-the-lean-product-process-2-hu.png') }}" alt="A lean termékfejlesztési folyamat: 1. Értsük meg a felhasználóinkat" />
+        <img src="{{ asset('media/blog/thumb-the-lean-product-process-2-hu.png') }}" alt="A lean termékfejlesztési folyamat: 2. Fogalmazzuk meg az értékajánlatunkat" />
     </a>
     <div class="post__content">
         <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">

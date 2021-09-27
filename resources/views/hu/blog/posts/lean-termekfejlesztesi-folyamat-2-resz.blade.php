@@ -34,7 +34,7 @@
                             </ul>
                             <p>Ezeket nevezzük érték feltevésnek, vagy érték hipotézisnek. Ahogy az a nevéből is következik, ez érték feltevés az állapítja meg, hogy a megoldásunk értéket fog teremteni a felhasználóink számára.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-2-hu.png') }}" alt="Validáció a termékfejlesztésben-Segédlet-2" />
+                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-2-hu.png') }}" alt="Validáció a termékfejlesztésben - Probléma-megoldás illeszkedés" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Fogalmazzuk meg az értékajánlatunkat</h2>
                             <p class="has-margin-b60">A probléma validációs fázisban az interjúk során jó eséllyel sok felhasználói fájdalompontot fedeztünk fel, de ugyanakkor lehetőségeket is, hogy miként tudunk a felhasználók mindennapjain segíteni, jobbítani. Ha a termékünk enyhíti ezeket a fájdalompontokat és szállítja a jobbításokat, akkor az érték hipotéziseink valósak és ekkor beszélhetünk probléma-megoldás megfelelésről. De lássuk azt, hogy a gyakorlatban milyen lépéseket tudunk megtenni ennek érdekében.</p>
@@ -178,7 +178,7 @@
         "url": "{{ asset('media/blog/cover-the-lean-product-process-2-hu.png') }}"
     },
     "inLanguage": "hu_hu",
-    "keywords": "Termékfejlesztés, Lean termékfejlesztési folyamat, Felhasználó, User Persona, User interview, ",
+    "keywords": "Termékfejlesztés, Lean termékfejlesztési folyamat, User Persona, Felhasználói interjú",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"

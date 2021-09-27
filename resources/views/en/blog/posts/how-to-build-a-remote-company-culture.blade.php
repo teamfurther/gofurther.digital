@@ -44,7 +44,7 @@
                             <p>Grab every opportunity of a face-to-face meeting to discuss these topics. If this cannot be achieved, set aside time when you can discuss them online. We like to use Friday afternoons for these non-project related discussions.</p>
                             <p class="has-margin-b30">Of course, meeting in person is much more efficient. Virtual meetings are missing non-verbal cues and are harder to decipher. Because of this, we made every call a video call, to help understand each other better.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/remote-corporate-culture-3-alari-aho-toggl-quote-en.png') }}" alt="„You need to actively work on defining the culture. It is a constant effort, and should not be left self-organizing. It's so important to keep people communicating, making sure they talk about their plans, achievements and also problems.” Alari Aho, Toggl" />
+                                <img src="{{ asset('media/blog/remote-corporate-culture-3-alari-aho-toggl-quote-en.png') }}" alt="„You need to actively work on defining the culture. It is a constant effort, and should not be left self-organizing. It's so important to keep people communicating, making sure they talk about their plans, achievements and also problems." Alari Aho, Toggl" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Knowledge sharing</h2>
                             <h3 class="heading-4 has-margin-b15">Write down everything</h3>

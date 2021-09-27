@@ -45,7 +45,7 @@
                             <p class="has-margin-b30">Ismerned kell önmagadat, tudnod kell, miért ezt a szakmát választottad, mit szeretnél elérni a munkád által és ez egyáltalán lehetséges-e ebben a szakmában?</p>
                             <h3 class="heading-4 has-margin-b15">Tűzz ki kisebb napi célokat</h3>
                             <p>Igen, klassznak tűnhet nagy célokat kitűzni, de először kezdj kisebbekkel! Bontsd blokkokra a napi feladatokat, tűzz ki kisebb célokat! A rövid idő alatt megoldható kisebb feladatok motiválják az embert, hiszen hamarabb lesz sikerérzetünk.</p>
-                            <p>A Furthernél az agilis szoftverfejlesztés hívei vagyunk, ami hasonlóképpen működik. Egy nagyobb projektet kisebb részekre (sprintekre) osztunk fel. Minden sprint végén sor kerül a „retrospektívre”, ahol áttekintjük az elkészült és az el nem készült részeket.</p>
+                            <p>A Furthernél az agilis szoftverfejlesztés hívei vagyunk, ami hasonlóképpen működik. Egy nagyobb projektet kisebb részekre (sprintekre) osztunk fel. Minden sprint végén sor kerül a „retrospektívre", ahol áttekintjük az elkészült és az el nem készült részeket.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/remote-corporate-culture-4-positive-work-environment.jpg') }}" alt="A megfelelően kialakított otthoni munkakörnyezet pozitívan hat a munkavégzésünkre." />
                             </figure>

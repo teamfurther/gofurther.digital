@@ -33,7 +33,7 @@
                             </figure>
                             <h2 class="heading-2 has-margin-b30">A halogatás okai</h2>
                             <h3 class="heading-4 has-margin-b15">A váltás melletti érvek nem elég meggyőzőek</h3>
-                            <p class="has-margin-b30">Meglepően sok kicsi, de növekvő vállalkozás úgy gondolja, hogy nem érettek meg még egy ilyen lépésre. Az <a href="https://www.pcbennett.com/wp-content/uploads/2019/07/The-Cost-of-Doing-Nothing-Aberdeen.pdf" target="_blank">Aberdeen Group</a> kutatása szerint, a növekvő vállalkozások 49%-a például úgy gondolja, hogy “túl kicsik” egy ERP rendszerhez.</p>
+                            <p class="has-margin-b30">Meglepően sok kicsi, de növekvő vállalkozás úgy gondolja, hogy nem érettek meg még egy ilyen lépésre. Az <a href="https://www.pcbennett.com/wp-content/uploads/2019/07/The-Cost-of-Doing-Nothing-Aberdeen.pdf" target="_blank">Aberdeen Group</a> kutatása szerint, a növekvő vállalkozások 49%-a például úgy gondolja, hogy "túl kicsik" egy ERP rendszerhez.</p>
                             <p>Bár kétségkívül létezik egy olyan szint, ahol egy ERP rendszer bevezetése több erőfeszítéssel jár, mint haszonnal, ez a réteg egyre szűkül. Manapság egyre több ERP szolgáltató ajánlatában megtalálhatóak olyan megoldások amik a KKV-k igényeire vannak szabva.</p>
                             <p>A válaszadók 26%-a úgy gondolja, hogy ERP rendszer nélkül is hatékonyak voltak a múltban, de a jövőben már terveznek egy bevezetést. Érdekesebb adat viszont az, hogy 23%, úgy gondolja, hogy a közeljövőben sem lesz szükségük egy vállalatirányítási rendszerre.</p>
                             <p>Ezek a vállalkozások nagy valószínűséggel nem látják, hogyan korlátozzák őket a jelenlegi rendszereik és a technológiai felkészültségük. Ez jól látszik abból, hogy a válaszadók többsége valamilyen üzleti kihívással küszködik:</p>
@@ -45,7 +45,7 @@
                             <ul class="list has-bullets">
                                 <li>Egyre nagyobb mennyiségű adat halmozódik fel, amit át kell emelni az új rendszerbe;</li>
                                 <li>A technológia egyre inkább elavul, nehezebb lesz szakembereket találni akik a rendszer átvilágítását elvégzik;</li>
-                                <li>Változnak az üzleti igények is, amiket a rendszer nem tud leképezni, ezért ad-hoc megoldások születnek. Ezek idővel berögzülnek, az “elfelejtésük” és helyes folyamatok betanítása pedig egy hosszú folyamat.</li>
+                                <li>Változnak az üzleti igények is, amiket a rendszer nem tud leképezni, ezért ad-hoc megoldások születnek. Ezek idővel berögzülnek, az "elfelejtésük" és helyes folyamatok betanítása pedig egy hosszú folyamat.</li>
                             </ul>
                             <p>De mikor lesz egy rendszer idejétmúlt és mikor érik meg egy cserére vagy frissítésre? Az Aberdeen Group kutatásából az is kiderül, mi készteti a vállalkozásokat a váltásra:</p>
                             <figure>
@@ -68,7 +68,7 @@
                             <p class="has-margin-b30">Ha szembesültünk már ilyen helyzettel, akkor a megoldás az, hogy elérjük, hogy a leendő felhasználók érzelmileg is elköteleződjenek a projekt iránt. Tekintsünk rájuk úgy, mint bármelyik másik stakeholderre:</p>
                             <ul class="list has-bullets">
                                 <li><u>Kérjük ki a véleményüket a döntéshozási és tervezési szakaszban:</u> bizonyosodjunk meg arról, hogy minden felhasználói csoportnak a képviselője részt vesz a tárgyalásokon. Tartsunk velük is stakeholder interjúkat, derítsük ki mik a fájdalompontjaik és nyomógombjaik.</li>
-                                <li><u>Tegyük világossá mi a vízió:</u> magyarázzuk el minden érintettnek, hogy mi a “nagy terv” és mi az ő szerepük a stratégia kivitelezésében. A felelősségtudat erősítésével elérhetjük, hogy a munkatársak egyszerű elszenvedőkből a projekt szószólóivá váljanak a szervezeti struktúra minden szintjén.</li>
+                                <li><u>Tegyük világossá mi a vízió:</u> magyarázzuk el minden érintettnek, hogy mi a "nagy terv" és mi az ő szerepük a stratégia kivitelezésében. A felelősségtudat erősítésével elérhetjük, hogy a munkatársak egyszerű elszenvedőkből a projekt szószólóivá váljanak a szervezeti struktúra minden szintjén.</li>
                             </ul>
                             <h3 class="heading-4 has-margin-b15 has-margin-t60">Időigényesség</h3>
                             <p class="has-margin-b30">Hosszútávon kétségkívül rengeteg időt tudunk megtakarítani cégünk digitális transzformációjával. De egy ilyen projekt kezdeti fázisai számottevő időt igényelnek minden résztvevőtől.</p>
@@ -78,7 +78,7 @@
                             <h3 class="heading-4 has-margin-b15 has-margin-t60">Magas költségek</h3>
                             <p class="has-margin-b30">Kétségkívül egy DX projekt összköltsége az egyik legjelentősebb kiadás lesz egy cég életében. Ezért már eleve a kezdeti költségek hallatán sok döntéshozó megnyomja a STOP gombot.</p>
                             <p>Ez még mindig egy jobb eset, mintha valaki mégis belevág egy ilyen projektbe, csupán a kezdeti befektetést mérlegelve. Egy DX projektre nem tekinthetünk egyszeri befektetésként, hiszen ennek egy folyamatos törekvésnek kell lennie. A továbbképzések és szervezetfejlesztés, illetve az IT infrastruktúra karbantartása és frissítése mind tipikus visszatérő költségek.</p>
-                            <p>Erre a legjobb megoldás az, ha az elején készítünk egy átfogó költség-haszon elemzést. Határozzuk meg mik azok a pontok ahol a legmagasabb hatékonyságnövekedést tudjuk elérni és ezekre koncentráljuk. Ne engedjük, hogy számunkra fölösleges “presztízs funkciókra” költekezzünk.</p>
+                            <p>Erre a legjobb megoldás az, ha az elején készítünk egy átfogó költség-haszon elemzést. Határozzuk meg mik azok a pontok ahol a legmagasabb hatékonyságnövekedést tudjuk elérni és ezekre koncentráljuk. Ne engedjük, hogy számunkra fölösleges "presztízs funkciókra" költekezzünk.</p>
                             <p>Mások számára inkább a nehezen kiszámítható megtérülés okoz fejfájást. Egy új gyártósor telepítése esetén például pontosan ki tudjuk számolni annak a megtérülését időben, hiszen tudjuk, hogy mennyivel több terméket tudunk egy nap alatt legyártani.</p>
                             <p>Mivel egy DX projekt sokkal absztraktabb ennél, a megtérülést is sokkal nehezebb kiszámolni. Elsősorban azért, mert a kvalitatív megtérülés, gyakran sokkal nagyobb a kvantitatív megtérülésnél. Várjunk… micsoda a minél?</p>
                             <p class="has-margin-t60">Digitális transzformáció esetén fontos megkülönböztetni két megtérülést:</p>

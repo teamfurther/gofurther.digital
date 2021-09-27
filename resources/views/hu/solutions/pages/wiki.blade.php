@@ -19,7 +19,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <h3 class="heading-3">“Wiki” – hozzáférés az információkhoz</h3>
+                        <h3 class="heading-3">"Wiki" – hozzáférés az információkhoz</h3>
                     </div>
                 </div>
                 <div class="columns">
