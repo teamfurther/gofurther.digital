@@ -1,6 +1,6 @@
 <div class="post">
     <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'hipotezisek-a-termekfejlesztesben']) }}">
-        <img src="{{ asset('media/blog/thumb-what-are-hypothesis-in-product-development.png') }}" alt="Hipotézisek a termékfejlesztésben" />
+        <img src="{{ asset('media/blog/thumb-what-are-hypotheses-in-product-development.png') }}" alt="Hipotézisek a termékfejlesztésben" />
     </a>
     <div class="post__content">
         <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">

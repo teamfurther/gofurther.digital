@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-what-are-hypotheses-in-product-development.png') }}" srcset="{{ asset('media/blog/featured-what-are-hypotheses-in-product-development-769w.png') }} 769w, {{ asset('media/blog/featured-what-are-hypothesis-in-product-development-1000w.png') }} 1000w" sizes="100vw" alt="Hipotézisek a termékfejlesztésben" />
+        <img src="{{ asset('media/blog/featured-what-are-hypotheses-in-product-development.png') }}" srcset="{{ asset('media/blog/featured-what-are-hypotheses-in-product-development-769w.png') }} 769w, {{ asset('media/blog/featured-what-are-hypotheses-in-product-development-1000w.png') }} 1000w" sizes="100vw" alt="Hipotézisek a termékfejlesztésben" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
@@ -34,7 +34,7 @@
                             <p>Egy üzleti stratégia sok olyan feltételezésekből áll, amit nem érdemes tesztelni. Ezek általában egyértelműek, vagy közvetlen módon következtethetőek iparági megfigyelésekből és tapasztalatokból.</p>
                             <p>Az IKEA esetében például egyértelmű volt, hogy a vásárlók hajlandóak lesznek jól megtervezett és olcsó bútort vásárolni. Az, hogy hajlandóak lesznek saját maguknak összeszerelni, az annakidején már sokkal kevésbé volt egyértelmű.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/what-are-hypothesis-in-product-development-lofa-hu.png') }}" alt="LOFA feltevések" />
+                                <img src="{{ asset('media/blog/what-are-hypotheses-in-product-development-lofa-hu.png') }}" alt="LOFA feltevések" />
                             </figure>
                             <p class="has-margin-b60">Ezeket a legrizikósabb feltételezéseket Leap of Faith Assumption (LOFA) név alatt népszerűsítette Eric Ries a szakirodalomban.</p>
                             <h2 class="heading-2 has-margin-b30">A feltételezések típusai</h2>
@@ -80,7 +80,7 @@
                             <h3 class="heading-3 has-margin-b30">Alapozzunk az eddigi ismereteinkre</h3>
                             <p>A feltevéseink mindig könnyen tesztelhetőek kell legyenek. Tehát tudjunk olyan kísérletet tervezni amivel a felhasználókról eddig alkotott képünket meg tudjuk erősíteni vagy cáfolni. Ezért, a feltevések megfogalmazásakor alapozzunk az eddig ismereteinkre. Ebben segíthet ha a a következő sablont használjuk:</p>
                             <figure>
-                                <img src="{{ asset('media/blog/what-are-hypothesis-in-product-development-template-hu.png') }}" alt="Mivel tudjuk, hogy [eddigi ismeret], ezért ha [valamit csinálunk] akkor [tesztelhető kimenet]." />
+                                <img src="{{ asset('media/blog/what-are-hypotheses-in-product-development-template-hu.png') }}" alt="Mivel tudjuk, hogy [eddigi ismeret], ezért ha [valamit csinálunk] akkor [tesztelhető kimenet]." />
                             </figure>
                             <p>A fenti sablont felhasználva, az értékfeltevésünket a következő módon javíthatjuk:</p>
                             <p class="has-margin-b60">Mivel tudjuk, hogy <span class="has-text-underlined">a 25 km/h sebességet meghaladó mikromobilitási eszközt (kerékpár, elektromos kerékpár, elektromos roller) városban, napi rendszerességgel használó emberek nem érzik magukat biztonságban utazás közben</span>, ezért ha <span class="has-text-underlined">fejlesztünk egy olyan eszközt ami hang- és rezgés jelzésekkel riaszt az akadályokhoz közeledve</span>, akkor <span class="has-text-underlined">a felhasználók nagyobb biztonságban lesznek utazás közben</span>.</p>
@@ -104,7 +104,7 @@
                             <p>Ezt a kritériumot talán a növekedési hipotéziseink segítségével lehet érzékeltetni. Egyik feltételezésünk úgy szólt, hogy "a vásárlók szeretik annyira a terméket, hogy másoknak is ajánlják". Ez a feltételezés nem mérhető, ezért kezdetnek orvosoljuk ezt a problémát: "a vásárlók szeretik annyira a terméket, hogy legalább 1 másik embernek is ajánlják".</p>
                             <p>Elég-e mérhetőnek lennie a feltételezésnek? Tegyük fel, hogy egy felhasználó a vásárlás utáni 1 hónap alatt 3 embernek ajánlja a terméket, de utána soha. Egy másik pedig csak 1 embernek ajánlja termékünket, viszont ezt megteszi havonta. Egyértelműen más lesz mindkettő esetében a növekedési arányunk. Ezért fontos, hogy a feltételezésünket időben is határoljuk. Fogalmazhatnánk például úgy, hogy "a vásárlók szeretik annyira a terméket, hogy átlagban havonta legalább 1 másik embernek is ajánlják".</p>
                             <figure>
-                                <img src="{{ asset('media/blog/what-are-hypothesis-in-product-development-smart.png') }}" alt="Formulate hypothesis according to SMART principles" />
+                                <img src="{{ asset('media/blog/what-are-hypotheses-in-product-development-smart.png') }}" alt="Formulate hypothesis according to SMART principles" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Utószó</h2>
                             <p>Remélem a fenti sorok segítenek abban, hogy a termékfejlesztés különböző fázisaiban, hogyan érdemes a feltételezéseket meghatároznod. Nem könnyű feladat jól megfogalmazni a hipotéziseket, de megéri a befektetett energiát.</p>
