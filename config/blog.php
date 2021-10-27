@@ -5,7 +5,7 @@ return [
     'posts' => [
         [
             'en' => [
-                'slug' => 'what-are-hypothesis-in-product-development',
+                'slug' => 'what-are-hypotheses-in-product-development',
                 'tags' => [
                     'start-up' => 'Start-up',
                 ],
