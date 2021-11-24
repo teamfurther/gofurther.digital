@@ -1,4 +1,4 @@
-@extends('en.site')
+@extends('hu.site')
 
 @section('content')
     <section class="section">

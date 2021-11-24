@@ -1,4 +1,4 @@
-@extends('en.site', ['showFooter' => false, 'showNav' => false])
+@extends('hu.site', ['showFooter' => false, 'showNav' => false])
 
 @section('title', 'A lean termékvalidáció lépesei')
 @section('description', 'Ez az ingyenes anyag hasznos tervezési és kutatási módszereket mutat be, amelyek segítségével eligazodhatsz a termékfejlesztés különböző fázisaiban.')

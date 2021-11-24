@@ -1,4 +1,4 @@
-@extends('en.site', ['showFooter' => false, 'showNav' => false])
+@extends('hu.site', ['showFooter' => false, 'showNav' => false])
 
 @section('title', 'Linkek')
 
