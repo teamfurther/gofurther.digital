@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-remote-corporate-culture-6-hu.png') }}" srcset="{{ asset('media/blog/featured-remote-corporate-culture-6-769w-hu.png') }} 768w, {{ asset('media/blog/featured-remote-corporate-culture-6-1000w-hu.png') }} 1000w" sizes="100vw" alt="Hatékony home office a gyerekek mellett? Mutatjuk, hogyan!" />
+        <img src="{{ asset('media/blog/featured-remote-corporate-culture-6-hu.png') }}" srcset="{{ asset('media/blog/featured-remote-corporate-culture-6-768w-hu.png') }} 768w, {{ asset('media/blog/featured-remote-corporate-culture-6-1000w-hu.png') }} 1000w" sizes="100vw" alt="Hatékony home office a gyerekek mellett? Mutatjuk, hogyan!" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">

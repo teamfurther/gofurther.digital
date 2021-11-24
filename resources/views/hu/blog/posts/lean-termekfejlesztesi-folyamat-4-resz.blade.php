@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-the-lean-product-process-4-hu.png') }}" srcset="{{ asset('media/blog/featured-the-lean-product-process-4-769w-hu.png') }} 769w, {{ asset('media/blog/featured-the-lean-product-process-4-1000w-hu.png') }} 1000w" sizes="100vw" alt="A lean termékfejlesztési folyamat: 4. Hogyan érjük el a product-market fit-et?" />
+        <img src="{{ asset('media/blog/featured-the-lean-product-process-4-hu.png') }}" srcset="{{ asset('media/blog/featured-the-lean-product-process-4-768w-hu.png') }} 768w, {{ asset('media/blog/featured-the-lean-product-process-4-1000w-hu.png') }} 1000w" sizes="100vw" alt="A lean termékfejlesztési folyamat: 4. Hogyan érjük el a product-market fit-et?" />
     </div>
     <section class="section">
         <div class="post is-single h-entry">
