@@ -1,5 +1,4 @@
 const mix = require('laravel-mix');
-const fs = require('fs');
 
 /*
  |--------------------------------------------------------------------------
@@ -14,13 +13,8 @@ const fs = require('fs');
 
 mix.js('resources/js/site.js', 'public/js').sourceMaps()
     .sass('resources/scss/site.scss', 'public/css').options({
-     processCssUrls: false
+        processCssUrls: false
     }).sourceMaps()
     .copyDirectory('resources/fonts', 'public/fonts', false)
     .copyDirectory('resources/img', 'public/img', false)
     .copyDirectory('resources/media', 'public/media', false);
-
-// Only do cache-busting in production
-if (mix.inProduction()) {
- mix.version();
-}
