@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => '11-ways-to-build-an-mvp-pt1',
+                'tags' => [
+                    'startup' => 'Startup',
+                ],
+            ],
+            'hu' => [
+                'slug' => '11-mod-hogy-mvp-t-epitsunk-1-resz',
+                'tags' => [
+                    'startup' => 'Startup',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'what-are-hypotheses-in-product-development',
                 'tags' => [
                     'startup' => 'Startup',

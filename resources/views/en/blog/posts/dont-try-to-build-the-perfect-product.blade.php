@@ -71,7 +71,7 @@
                             <p>If some of our assumptions are proven to be false, we should consider a pivot. A pivot means planning a new strategy in order to achieve our vision.</p>
                             <p>"Although we write the feedback loop as Build-Measure-Learn because the activities happen in that order, our planning really works in the reverse order: we figure out what we need to learn, (...) figure out what we need to measure to know if we are gaining validated learning, and then figure out what product we need to build to run that experiment and get that measurement."</p>
                             <figure>
-                                <img src="{{ asset('media/blog/dont-try-to-build-the-perfect-product-making-sense-of-mvp-en.png') }}" alt="You need to consider having an experiment because it gives you the opportunity to test your product with actual users in the real market." />
+                                <img src="{{ asset('media/blog/henrik-kniberg-mvp-en.png') }}" alt="You need to consider having an experiment because it gives you the opportunity to test your product with actual users in the real market." />
                                 <figcaption>Building an experiment in order to validate how we can get from point A to point B</figcaption>
                             </figure>
                             <p>Archie's situation is quite simple, because he already has a finished product he can use to validate his assumptions: the gift he gave to his wife. He could show this product to potential customers and gauge if they like it or not and if and how much they would be actually willing to pay for it.</p>

@@ -71,7 +71,7 @@
                             <p>Ha nem, akkor bekövetkezik az ú.n. pivot, vagyis új stratégiát kell kidolgoznunk a célok megvalósításának érdekében.</p>
                             <p>Bár a ciklust Építs-Mérj-Tanulj ciklusnak nevezzük, mivel az aktivitások ebben a sorrendben történnek, a valóságban ezt pont fordítva kell megterveznünk: definiáljuk, hogy mit kell megtanuljunk (feltételezések), gondoljuk végig, hogy milyen mérőszámokra van szükségünk, hogy alátámasszuk ezeket a feltételezéseket, majd találjuk ki, hogy milyen prototípustt kell építsünk, hogy lefusson a kísérlet és megszerezzük a megfelelő mérőszámokat.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/dont-try-to-build-the-perfect-product-making-sense-of-mvp-hu.png') }}" alt="Tanácsos megfontolni egy prototípus kidolgozását, mert ez lehetőséget ad arra, hogy kipróbáld a termékedet a valós piacon lévő tényleges felhasználókkal." />
+                                <img src="{{ asset('media/blog/henrik-kniberg-mvp-hu.png') }}" alt="Tanácsos megfontolni egy prototípus kidolgozását, mert ez lehetőséget ad arra, hogy kipróbáld a termékedet a valós piacon lévő tényleges felhasználókkal." />
                                 <figcaption>Építsünk prototípust, hogy validáljuk hogyan juthatunk el A-ból B-be</figcaption>
                             </figure>
                             <p>Huba esete azért nagyon egyszerű, mert a kezében volt már egy termék, amit a feleségének készített és amivel le tudja tesztelni az alapfeltételezéseit. Például azt, hogy az embereknek tetszik-e a termék, tényleg hajlandóak-e fizetni érte és tulajdonképpen mennyit hajlandóak fizetni.</p>

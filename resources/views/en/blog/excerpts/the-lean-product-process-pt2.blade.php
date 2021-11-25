@@ -4,7 +4,7 @@
     </a>
     <div class="post__content">
         <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
-            startup
+            Startup
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}">
