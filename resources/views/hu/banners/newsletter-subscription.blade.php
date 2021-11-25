@@ -33,7 +33,7 @@
                     </form>
                 </div>
                 <div class="column is-12-tablet is-4-desktop is-offset-1-desktop">
-                    {!! $bodyText ?? '<p>Havonta  eredeti tartalmakat és híreket osztunk meg digitális transzformációról, új technológiákról, szoftverfejlesztésről és start-upokról.</p><p class="has-margin-b30">Iratkozz fel, hogy ne maradj le a friss tartalmakról!</p>' !!}
+                    {!! $bodyText ?? '<p>Havonta  eredeti tartalmakat és híreket osztunk meg digitális transzformációról, új technológiákról, szoftverfejlesztésről és startupokról.</p><p class="has-margin-b30">Iratkozz fel, hogy ne maradj le a friss tartalmakról!</p>' !!}
                 </div>
             </div>
         </div>

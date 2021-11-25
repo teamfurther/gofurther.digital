@@ -54,7 +54,7 @@
                         <h5 class="heading-3">The platform had to be scalable</h5>
                         <em class="project__text-emphasis">Problem</em>
                         <p>
-                            Being a start-up project we were hoping lots of people to start using the platform at some point in time. And based on the marketing plan, we were expecting them to start using it in huge waves.
+                            Being a startup project we were hoping lots of people to start using the platform at some point in time. And based on the marketing plan, we were expecting them to start using it in huge waves.
                         </p>
                         <em class="project__text-emphasis">Solution</em>
                         <p>
@@ -119,13 +119,13 @@
                 </div>
                 <div class="column is-9-tablet is-7-widescreen">
                     <h5 class="heading-4">
-                        Start-up projects and corporate project are very different
+                        Startup projects and corporate project are very different
                     </h5>
                     <p>
-                        Although we have worked on start-up projects before and after centralized.me, few have been as fast paced. Compared to our usual corporate projects, where many decisions are slow and often fall victim to bureaucracy, this project required a completely different mindset.
+                        Although we have worked on startup projects before and after centralized.me, few have been as fast paced. Compared to our usual corporate projects, where many decisions are slow and often fall victim to bureaucracy, this project required a completely different mindset.
                     </p>
                     <p>
-                        We had to adjust some of our project management workflows to allow for the flexibility and quick decision making demanded by a start-up project.
+                        We had to adjust some of our project management workflows to allow for the flexibility and quick decision making demanded by a startup project.
                     </p>
                 </div>
             </div>
@@ -313,7 +313,7 @@
         "width": "185"
     },
     "inLanguage": "en_gb",
-    "keywords": "MVP, Start-up, Laravel, Vue",
+    "keywords": "MVP, Startup, Laravel, Vue",
     "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "Centralized case study",
     "publisher": {

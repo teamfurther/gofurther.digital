@@ -7,7 +7,7 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-8-tablet is-offset-2-tablet is-6-widescreen is-offset-3-widescreen">
-                    <h1 class="heading-3 has-text-centered">For start-ups & product developers</h1>
+                    <h1 class="heading-3 has-text-centered">For startups & product developers</h1>
                     <ul class="linktree is-pearl">
                         <li>
                             <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}" target="_blank">

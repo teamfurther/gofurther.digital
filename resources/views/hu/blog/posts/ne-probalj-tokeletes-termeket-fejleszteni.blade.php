@@ -49,7 +49,7 @@
                             <h2 class="heading-2 has-margin-b30">Validált tanulás: egy nem hagyományos termékfejlesztési módszer</h2>
                             <p>Huba nehezen tudta feldolgozni ezt. Ez a gondolkodásmód teljesen ellentmond a hagyományos termékfejlesztési módszereknek. Egyszerűen elképzelhetetlennek tartják, hogy egy új termék ne legyen az utolsó részletig kidolgozva (Big Bang delivery). Vagy, hogy ne legyen átfogó piackutatásunk és egy biztos piacra lépési stratégiánk.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/dont-try-to-build-the-perfect-product-eric-ries-quote-hu.png') }}" alt="Hagyományosan, ennek a megléte egy jó indikátor arra, hogy egy projekt sikeres lesz-e vagy sem. Nagy a kísértés, hogy ugyanezeket a módszereket alkalmazzuk start-up projektek esetén is, azonban ez nem fog működni, mert egy start-up esetében túl sok a bizonytalan tényező. Egy start-up nem tudja még kik a vevői vagy, hogy hogyan fog kinézni a végső termék. — The Lean Startup, Eric Ries 2011" />
+                                <img src="{{ asset('media/blog/dont-try-to-build-the-perfect-product-eric-ries-quote-hu.png') }}" alt="Hagyományosan, ennek a megléte egy jó indikátor arra, hogy egy projekt sikeres lesz-e vagy sem. Nagy a kísértés, hogy ugyanezeket a módszereket alkalmazzuk startup projektek esetén is, azonban ez nem fog működni, mert egy startup esetében túl sok a bizonytalan tényező. Egy startup nem tudja még kik a vevői vagy, hogy hogyan fog kinézni a végső termék. — The Lean Startup, Eric Ries 2011" />
                             </figure>
                             <p>Megkérdezhetjük viszont, hogy akkor mi történik a sok energiával és pénzzel ami a termék fejlesztésébe fektetünk, ha a vevőktől negatív visszajelzéseket kapunk, mert nem tökéletes a termék? Szerintem ez egy jogos felvetés.</p>
                             <p>De mi történik akkor, ha ennél sokszorosan több energiát és pénzt fektetünk egy olyan termék fejlesztésébe, amiről később kiderül, hogy nem kell senkinek?</p>
@@ -59,7 +59,7 @@
                                 <figcaption>A validált tanulást az Építs-Mérj-Tanulj ciklus segítségével tudjuk megvalósítani</figcaption>
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Építs. Mérj. Tanulj!</h2>
-                            <p>Mint láttuk, a validált tanulásra azért van szükség, hogy a bizonytalan tényezőket eloszlassunk és ezáltal csökkentsük egy start-up projektben jelenlévő, természeténél fogva adott kockázatokat. A validált tanulást gyakorlatban pedig az Építs-Mérj-Tanulj visszacsatolási ciklus segítségével lehet elérni.</p>
+                            <p>Mint láttuk, a validált tanulásra azért van szükség, hogy a bizonytalan tényezőket eloszlassunk és ezáltal csökkentsük egy startup projektben jelenlévő, természeténél fogva adott kockázatokat. A validált tanulást gyakorlatban pedig az Építs-Mérj-Tanulj visszacsatolási ciklus segítségével lehet elérni.</p>
                             <p>Az Építs-Mérj-Tanulj ciklus segít abban, hogy a különböző feltételezéseinkre választ kapjunk. Bár egy termék életciklusában a feltételezések megválaszolásával <a href="{{ localizedRoute('blog.show', ['slug' => 'validacio-a-termekfejlesztesben']) }}">más-más központi kérdésekre keressük a megoldást</a>, egy dolog biztosan kijelenthető: a legfontosabb feladatunk, hogy minél rövidebb idő alatt új, beépíthető tudást szerezzünk.</p>
                             <p>Ezt pedig úgy tudjuk elérni, hogy minden feltételezés validálására kísérleteket dolgozunk ki. Különböző feltételezéseket, különböző módon lehet validálni, leggyakrabban egy prototípus segítségével.</p>
                             <p>Egy prototípus egy olyan termék vagy kísérlet amit minimális erőfeszítéssel (szoftver esetében fejlesztéssel) létre tudunk hozni. Egyetlen célja, hogy a feltételezéseinket le tudjuk tesztelni, azaz validálni. Éppen ezért sokszor olyan funkciók és hiányoznak belőle, amiket elengedhetetlennek tartunk a termék sikeressége szempontjából.</p>
@@ -80,7 +80,7 @@
                             <p class="has-margin-b60">Ezzel viszont már kicsiben teszteli azt a feltételezést, hogy lesz-e elég vásárló és mennyi ezek közül a visszatérő vásárló. Továbbá visszajelzést kap arról, hogy mit változtatnának a vevők a terméken, amit Huba később majd figyelembe vesz a tartalom gyártásánál. Ha a tartalmakat mint előre legyártotta volna, akkor nem lenne erre lehetősége.</p>
                             <h2 class="heading-2 has-margin-b30">De mi lett végül Hubával?</h2>
                             <p>Sajnos Huba úgy döntött, hogy belevág a tökéletes termék fejlesztésébe. Szeretném ezt betudni annak, hogy Huba olyan iparágban edződött, ahol bevett szokás a Big Bang delivery, de könnyen meglehet, hogy nekem kell az érvelési technikámon javítanom. Idővel mindenesetre eldől majd, hogy mi lesz a projekt sorsa.</p>
-                            <p>A tapasztalatunk az, hogy legtöbb start-up projekt elbukik azon, hogy az ötletgazda szerelmes lesz a projektjébe és mindenképpen egy tökéletes, szemet kápráztató terméket akar piacra dobni. Legtöbb sikeres start-up ötletgazda már 1-2 ilyen projektet elbukott és tanult a hibájából.</p>
+                            <p>A tapasztalatunk az, hogy legtöbb startup projekt elbukik azon, hogy az ötletgazda szerelmes lesz a projektjébe és mindenképpen egy tökéletes, szemet kápráztató terméket akar piacra dobni. Legtöbb sikeres startup ötletgazda már 1-2 ilyen projektet elbukott és tanult a hibájából.</p>
                             <p>Ők is, mint Huba, egyből a Csillagrombolót akarták megépíteni. Te ne legyél olyan mint Huba!</p>
 
                         </div>
@@ -151,7 +151,7 @@
         "url": "{{ asset('media/blog/cover-dont-try-to-build-the-perfect-product-hu.png') }}"
     },
     "inLanguage": "hu_hu",
-    "keywords": "MVP, Minimum Viable Product, Start-up, Ötletvalidáció",
+    "keywords": "MVP, Minimum Viable Product, Startup, Ötletvalidáció",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"

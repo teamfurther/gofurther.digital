@@ -7,13 +7,13 @@ return [
             'en' => [
                 'slug' => 'what-are-hypotheses-in-product-development',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ],
             ],
             'hu' => [
                 'slug' => 'hipotezisek-a-termekfejlesztesben',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ]
             ],
         ],
@@ -21,13 +21,13 @@ return [
             'en' => [
                 'slug' => 'the-lean-product-process-pt4',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ],
             ],
             'hu' => [
                 'slug' => 'lean-termekfejlesztesi-folyamat-4-resz',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ]
             ],
         ],
@@ -35,13 +35,13 @@ return [
             'en' => [
                 'slug' => 'the-lean-product-process-pt3',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ],
             ],
             'hu' => [
                 'slug' => 'lean-termekfejlesztesi-folyamat-3-resz',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ]
             ],
         ],
@@ -49,13 +49,13 @@ return [
             'en' => [
                 'slug' => 'the-lean-product-process-pt2',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ],
             ],
             'hu' => [
                 'slug' => 'lean-termekfejlesztesi-folyamat-2-resz',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ]
             ],
         ],
@@ -63,13 +63,13 @@ return [
             'en' => [
                 'slug' => 'the-lean-product-process-pt1',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ],
             ],
             'hu' => [
                 'slug' => 'lean-termekfejlesztesi-folyamat-1-resz',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ]
             ],
         ],
@@ -105,13 +105,13 @@ return [
             'en' => [
                 'slug' => 'validation-in-product-development',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ],
             ],
             'hu' => [
                 'slug' => 'validacio-a-termekfejlesztesben',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ],
             ],
         ],
@@ -147,13 +147,13 @@ return [
             'en' => [
                 'slug' => 'dont-try-to-build-the-perfect-product',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ],
             ],
             'hu' => [
                 'slug' => 'ne-probalj-tokeletes-termeket-fejleszteni',
                 'tags' => [
-                    'start-up' => 'Start-up',
+                    'startup' => 'Startup',
                 ],
             ],
         ],
@@ -545,14 +545,14 @@ return [
         ],
         [
             'en' => [
-                'description' => 'What we learned as development partners on over a dozen start-up projects.',
-                'name' => 'Start-up',
-                'slug' => 'start-up',
+                'description' => 'What we learned as development partners on over a dozen startup projects.',
+                'name' => 'Startup',
+                'slug' => 'startup',
             ],
             'hu' => [
-                'description' => 'Amit fejlesztőpartnerként megtanultunk több mint egy tucat start-up projekt alatt.',
-                'name' => 'Start-up',
-                'slug' => 'start-up',
+                'description' => 'Amit fejlesztőpartnerként megtanultunk több mint egy tucat startup projekt alatt.',
+                'name' => 'Startup',
+                'slug' => 'startup',
             ],
         ],
         [

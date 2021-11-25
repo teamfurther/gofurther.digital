@@ -24,16 +24,16 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p class="has-margin-b60">Last time I told you about my story about Archie, <a href="{{ localizedRoute('blog.show', ['slug' => 'dont-try-to-build-the-perfect-product']) }}">who had a start-up idea.</a> Unfortunately, he decided to jump into developing the product without previously validating his ideas. Today, I would like to show you what he should've done and how he could've validated his idea. But first, let's see what validation actually means.</p>
-                            <h2 class="heading-2 has-margin-b30">Start-ups are inherently uncertain</h2>
-                            <p>In his 2011 book, The Lean Startup, Eric Ries defines a start-up as "a human institution designed to create a new product or service under conditions of extreme uncertainty".</p>
-                            <p>According to Ries, the most important part of this definition is what it omits. It doesn't say anything about the size of the organisation, the industry or sector of economy it operates in. Anyone who does product development under conditions of extreme uncertainty is a start-up.</p>
-                            <p>Of course, another important part of the definition is that a start-up should create a new product or service. In other words, they should always innovate. Innovation should be understood broadly. It doesn't have to be a revolutionary change or new technology. It can also be the repurposing of an existing technology, a new business model or a new way to interact with customers.</p>
-                            <p>The context in which the innovation happens is also important. If it's not done in an uncertain environment, then it is not a start-up.</p>
-                            <p>Most enterprises are excluded based on this context. It might be a sound investment to create a company which is an exact clone of an existing company, including the business model, pricing, target demographic and product offering, but this will not be a start-up. The success of these businesses depends solely on execution, so much so that their success and the size of success can be modelled with high precision.</p>
-                            <p class="has-margin-b60">The future is uncertain for a start-up. There is no way to know how sustainable their business model will be, if their proposed solution will solve the problem they set out to solve, or if this problem is even perceived as a problem by others.</p>
+                            <p class="has-margin-b60">Last time I told you about my story about Archie, <a href="{{ localizedRoute('blog.show', ['slug' => 'dont-try-to-build-the-perfect-product']) }}">who had a startup idea.</a> Unfortunately, he decided to jump into developing the product without previously validating his ideas. Today, I would like to show you what he should've done and how he could've validated his idea. But first, let's see what validation actually means.</p>
+                            <h2 class="heading-2 has-margin-b30">Startups are inherently uncertain</h2>
+                            <p>In his 2011 book, The Lean Startup, Eric Ries defines a startup as "a human institution designed to create a new product or service under conditions of extreme uncertainty".</p>
+                            <p>According to Ries, the most important part of this definition is what it omits. It doesn't say anything about the size of the organisation, the industry or sector of economy it operates in. Anyone who does product development under conditions of extreme uncertainty is a startup.</p>
+                            <p>Of course, another important part of the definition is that a startup should create a new product or service. In other words, they should always innovate. Innovation should be understood broadly. It doesn't have to be a revolutionary change or new technology. It can also be the repurposing of an existing technology, a new business model or a new way to interact with customers.</p>
+                            <p>The context in which the innovation happens is also important. If it's not done in an uncertain environment, then it is not a startup.</p>
+                            <p>Most enterprises are excluded based on this context. It might be a sound investment to create a company which is an exact clone of an existing company, including the business model, pricing, target demographic and product offering, but this will not be a startup. The success of these businesses depends solely on execution, so much so that their success and the size of success can be modelled with high precision.</p>
+                            <p class="has-margin-b60">The future is uncertain for a startup. There is no way to know how sustainable their business model will be, if their proposed solution will solve the problem they set out to solve, or if this problem is even perceived as a problem by others.</p>
                             <h2 class="heading-2 has-margin-b30">Validated learning</h2>
-                            <p>To ease uncertainty, the start-up world uses validated learning. Validated learning is a process which aims to empirically demonstrate that we are getting closer to our goals.</p>
+                            <p>To ease uncertainty, the startup world uses validated learning. Validated learning is a process which aims to empirically demonstrate that we are getting closer to our goals.</p>
                             <p>In practice, validated learning is achieved through the Build-Measure-Learn loop. In the Build phase we strive to create a minimal product or experiment which helps us test one or more assumptions.</p>
                             <p>The goal of these experiments is to show them as soon as possible to potential users and receive feedback and information which can be used in the next experiment. Gathering this data will be our Measure phase.</p>
                             <p>Based on the data collected, we will decide if we are closer to our goals or not. If we are, the loop starts over with a new Build phase in which we fine-tune or create new experiments to test further assumptions.</p>
@@ -77,7 +77,7 @@
                                 <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-4-en.png') }}" alt="Validation in product development" />
                             </figure>
                             <p>Whichever stage we're in, when we arrive at the end of our experiments we have to decide based on the things we learned and our measurements if our developments are getting us closer to our goals and we should persevere, or pivot instead. If we reach the end of the product development process, we can repeat these steps to further improve our product or introduce new features.</p>
-                            <p class="has-margin-b90">The beauty of validated learning is that it can be applied outside the start-up world as well, in enterprise or industrial settings as well.</p>
+                            <p class="has-margin-b90">The beauty of validated learning is that it can be applied outside the startup world as well, in enterprise or industrial settings as well.</p>
                             <div class="columns">
                                 <div class="column is-6-desktop">
                                     <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">
@@ -157,7 +157,7 @@
         "url": "{{ asset('media/blog/cover-validation-in-product-development-en-en.png') }}"
     },
     "inLanguage": "en_gb",
-    "keywords": "Start-up, Lean Validation, Lean product development, Business model, Product development",
+    "keywords": "Startup, Lean Validation, Lean product development, Business model, Product development",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"

@@ -13,11 +13,11 @@
                             <a class="is-active" href="{{ route(getLang() . '.blog') }}">
                                 All
                             </a>
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
+                                Startup
+                            </a>
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}">
                                 Digital Transformation
-                            </a>
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
-                                Start-up
                             </a>
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
                                 Explained
@@ -48,8 +48,8 @@
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}">
                                 Digital Transformation
                             </option>
-                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
-                                Start-up
+                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
+                                startup
                             </option> -->
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
                                 Explained

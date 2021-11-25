@@ -30,9 +30,9 @@
                             >
                                 Digital Transformation
                             </a>
-                            <a @if ($tag->slug === 'start-up') class="is-active" @endif
-                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
-                                Start-up
+                            <a @if ($tag->slug === 'startup') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
+                                startup
                             </a>
                             <a @if ($tag->slug === 'explained') class="is-active" @endif
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
@@ -71,10 +71,10 @@
                             >
                                 Digital Transformation
                             </option>
-                            <!-- <option @if ($tag->slug === 'start-up') selected @endif
-                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}"
+                            <!-- <option @if ($tag->slug === 'startup') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}"
                             >
-                                Start-up
+                                startup
                             </option> -->
                             <option @if ($tag->slug === 'explained') selected @endif
                                 value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}"

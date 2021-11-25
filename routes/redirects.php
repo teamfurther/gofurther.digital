@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 Route::group(['prefix' => 'en'], function (): void {
     Route::redirect('mvp-development', '/en/digital-product-development', 301);
 
+    Route::redirect('blog/tagged/start-up', '/en/blog/tagged/startup', 301);
+
     Route::redirect('projects/brewie-website', '/en/projects', 301);
     Route::redirect('projects/cravcitech-website', '/en/projects', 301);
     Route::redirect('projects/idea-elearning-software', '/en/projects', 301);
@@ -16,6 +18,8 @@ Route::group(['prefix' => 'en'], function (): void {
 
 Route::group(['prefix' => 'hu'], function (): void {
     Route::redirect('mvp-fejlesztes', '/hu/digitalis-termekfejlesztes', 301);
+
+    Route::redirect('blog/cimkek/start-up', '/hu/blog/cimkek/startup', 301);
 
     Route::redirect('projektek/brewie-weboldal', '/hu/projektek', 301);
     Route::redirect('projects/cravcitech-weboldal.blade.php', '/hu/projects', 301);

@@ -54,7 +54,7 @@
                         <h5 class="heading-3">A rendszer könnyen skálázható kell legyen</h5>
                         <em class="project__text-emphasis">Probléma</em>
                         <p>
-                            Mivel egy start-up projektről van szó, azt reméltük, hogy egy adott ponton rengeteg felhasználója lesz a platformnak. A marketing terv alapján pedig arra számítottunk, hogy óriási hullámokban fognak érkezni.
+                            Mivel egy startup projektről van szó, azt reméltük, hogy egy adott ponton rengeteg felhasználója lesz a platformnak. A marketing terv alapján pedig arra számítottunk, hogy óriási hullámokban fognak érkezni.
                         </p>
                         <em class="project__text-emphasis">Megoldás</em>
                         <p>
@@ -119,13 +119,13 @@
                 </div>
                 <div class="column is-9-tablet is-7-widescreen">
                     <h5 class="heading-4">
-                        A start-up projektek és nagyvállalati projektek nagyon különbözőek
+                        A startup projektek és nagyvállalati projektek nagyon különbözőek
                     </h5>
                     <p>
-                        A centralized.me előtt és után is dolgoztunk már start-up projekteken, de kevés projekt volt ennyire pörgős. A szokásos nagyvállalati projektjeinkhez képest, ahol legtöbb döntés lassú és bürokratikus, ennél a projekthez egy teljesen más gondolkodásmódra volt szükség.
+                        A centralized.me előtt és után is dolgoztunk már startup projekteken, de kevés projekt volt ennyire pörgős. A szokásos nagyvállalati projektjeinkhez képest, ahol legtöbb döntés lassú és bürokratikus, ennél a projekthez egy teljesen más gondolkodásmódra volt szükség.
                     </p>
                     <p>
-                        Ahhoz, hogy flexibilisek maradjunk és tartani tudjuk a lépést a gyors döntéshozásokkal amit egy start-up projekt igényel, apró változtatásokat kellett eszközöljünk a projektmenedzsment folyamatainkban.
+                        Ahhoz, hogy flexibilisek maradjunk és tartani tudjuk a lépést a gyors döntéshozásokkal amit egy startup projekt igényel, apró változtatásokat kellett eszközöljünk a projektmenedzsment folyamatainkban.
                     </p>
                 </div>
             </div>
@@ -313,7 +313,7 @@
         "width": "185"
     },
     "inLanguage": "hu_hu",
-    "keywords": "MVP, Start-up, Laravel, Vue",
+    "keywords": "MVP, Startup, Laravel, Vue",
     "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
     "name": "Centralized esettanulmány",
     "publisher": {

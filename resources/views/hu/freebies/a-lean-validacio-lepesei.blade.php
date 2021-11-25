@@ -84,7 +84,7 @@
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="face face--3"></div>
                     <h4 class="heading-4">Ötletgazdáknak</h4>
-                    <p>Akik jobban megszeretnék ismerni a célközönségüket, továbbá minimalizálni szeretnék a start-upokkal járó kockázatot.</p>
+                    <p>Akik jobban megszeretnék ismerni a célközönségüket, továbbá minimalizálni szeretnék a startupokkal járó kockázatot.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="face face--1"></div>
@@ -132,7 +132,7 @@
 
                     <h4 class="heading-3">Hasznos volt az anyag, de továbbra is vannak kérdéseim…</h4>
                     <p class="has-margin-b30">
-                        <small>Ezt az anyagot csupán egy "puskának" szántuk, semmiképp nem egy kimerítő anyagnak. Ha szeretnél többet megtudni nézz bele a <a href="{{ localizedRoute('blog.tags.show', ['slug' => 'start-up']) }}">blogunkba</a> részletesebb cikkekért, vagy <a href="{{ localizedRoute('contact') }}">kérj</a> egy ingyenes konzultációt.</small>
+                        <small>Ezt az anyagot csupán egy "puskának" szántuk, semmiképp nem egy kimerítő anyagnak. Ha szeretnél többet megtudni nézz bele a <a href="{{ localizedRoute('blog.tags.show', ['slug' => 'startup']) }}">blogunkba</a> részletesebb cikkekért, vagy <a href="{{ localizedRoute('contact') }}">kérj</a> egy ingyenes konzultációt.</small>
                     </p>
 
                     <h4 class="heading-3">Miért kell megadni személyes adatokat a letöltéshez?</h4>

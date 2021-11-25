@@ -1,6 +1,6 @@
 @extends('hu.site', ['bodyClass' => 'has-hero'])
 
-@section('title', 'Digitális termékfejlesztés start-upoknak')
+@section('title', 'Digitális termékfejlesztés startupoknak')
 @section('description', 'Van egy jó ötleted és szeretnéd gyorsan és profin piacra vinni a termékedet? A Further segít a prototípusok elkészítésében és a növekedésben.')
 
 @section('content')
@@ -26,7 +26,7 @@
                 </div>
                 <div class="column is-offset-1-widescreen">
                     <p>
-                        Van egy nagyszerű start-up ötleted, amiről meg vagy győződve, hogy megváltoztatja a világot, de nem tudod, hogyan kezdjél neki. Esetleg hiányzik a megépítéséhez szükséges technikai tudásod?
+                        Van egy nagyszerű startup ötleted, amiről meg vagy győződve, hogy megváltoztatja a világot, de nem tudod, hogyan kezdjél neki. Esetleg hiányzik a megépítéséhez szükséges technikai tudásod?
                     </p>
                     <p>
                         Itt jövünk mi a képbe. Átvezetünk a teljes folyamaton, az ötletvalidálástól egészen a termék piacra dobásáig és a növekedésig.
@@ -35,7 +35,7 @@
                         Design sprintek keretén belül válaszokat találunk a kritikus üzleti kérdésekre, mint amilyen a piaci igények felkutatása vagy a piacra jutási stratégia. Ha ezekre a kérdésekre válaszokat kaptunk, produkciós sprintek keretén belül elkészítjük a prototípusokat, amikkel a piacot tesztelheted.
                     </p>
                     <p>
-                        Természetesen mi sem érthetünk mindenhez. Egy sikeres start-uphoz különböző területekről van szükség szakértőkre. Éppen azért partneri kapcsolatokat alakítottunk ki a helyi start-up ökoszisztéma legjobb szakembereivel. Marketing szakértő? Service designer? Inkubátorok? Nevezd meg, mi ismerjük őket!
+                        Természetesen mi sem érthetünk mindenhez. Egy sikeres startuphoz különböző területekről van szükség szakértőkre. Éppen azért partneri kapcsolatokat alakítottunk ki a helyi startup ökoszisztéma legjobb szakembereivel. Marketing szakértő? Service designer? Inkubátorok? Nevezd meg, mi ismerjük őket!
                     </p>
                 </div>
             </div>
@@ -259,7 +259,7 @@
         "width": "185"
     },
     "inLanguage": "hu_hu",
-    "keywords": "Digitális termékfejlesztés, MVP, Minimum Viable Product, MLP, Minimum Lovable Product, Start-up, Startup",
+    "keywords": "Digitális termékfejlesztés, MVP, Minimum Viable Product, MLP, Minimum Lovable Product, Startup",
     "mainEntityOfPage": "{{ localizedRoute('services.digital-product-development') }}",
     "name": "{{ config('site.name') }} | {{ config('site.title.' . config('app.locale')) }}",
     "publisher": {

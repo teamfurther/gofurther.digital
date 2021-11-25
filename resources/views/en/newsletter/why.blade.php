@@ -17,7 +17,7 @@
                         <li>you subscribed to our mailing list</li>
                     </ul>
                     <p>
-                        The Further newsletter is where we sharing original content, insights and news about digital transformation, emerging technologies, software development and start-ups. 1x a month, we don't want to bother you.
+                        The Further newsletter is where we sharing original content, insights and news about digital transformation, emerging technologies, software development and startups. 1x a month, we don't want to bother you.
                     </p>
                 </div>
             </div>

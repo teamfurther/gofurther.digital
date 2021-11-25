@@ -1,6 +1,6 @@
 @extends('en.site', ['bodyClass' => 'has-hero'])
 
-@section('title', 'Digital product development for start-ups')
+@section('title', 'Digital product development for startups')
 @section('description', 'You have a great idea and want to get to market fast and right? Further will help you build your prototypes and grow into the next big thing.')
 
 @section('content')
@@ -26,16 +26,16 @@
                 </div>
                 <div class="column is-offset-1-widescreen">
                     <p>
-                        You have a great start-up idea that you believe will be the next big thing, but you don't know where to start. Or, you might be missing some of the necessary capabilities to see the project through.
+                        You have a great startup idea that you believe will be the next big thing, but you don't know where to start. Or, you might be missing some of the necessary capabilities to see the project through.
                     </p>
                     <p>
-                        This is where we come in. We can guide you through the whole process, end-to-end, from concept validation to growing your start-up into a household name.
+                        This is where we come in. We can guide you through the whole process, end-to-end, from concept validation to growing your startup into a household name.
                     </p>
                     <p>
                         We can organize design sprints to find answers to your critical business questions like product-market fit and go-to market strategies, or production sprints where we build working prototypes in short, fast-paced deliveries.
                     </p>
                     <p>
-                        Of course, we're not jack of all trades. We can't be experts of every field necessary to make a start-up successful. This is why we partnered up with some of the best people in the local start-up eco-system: marketing experts, service designers, accelerators. You name it, we know them!
+                        Of course, we're not jack of all trades. We can't be experts of every field necessary to make a startup successful. This is why we partnered up with some of the best people in the local startup eco-system: marketing experts, service designers, accelerators. You name it, we know them!
                     </p>
                 </div>
             </div>
@@ -261,7 +261,7 @@
         "width": "185"
     },
     "inLanguage": "en_gb",
-    "keywords": "Digital product development, MVP, Minimum Viable Product, MLP, Minimum Lovable Product, Start-up, Startup",
+    "keywords": "Digital product development, MVP, Minimum Viable Product, MLP, Minimum Lovable Product, Startup",
     "mainEntityOfPage": "{{ localizedRoute('services.digital-product-development') }}",
     "name": "{{ config('site.name') }} | {{ config('site.title.' . config('app.locale')) }}",
     "publisher": {

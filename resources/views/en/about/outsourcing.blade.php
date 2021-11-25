@@ -30,7 +30,7 @@
                         Because that's where you can meet up with our friendly team, of course!
                     </p>
                     <p>
-                        But also because they are top destination for start-ups and businesses as well, when looking to outsource their tech demands. Here's why…
+                        But also because they are top destination for startups and businesses as well, when looking to outsource their tech demands. Here's why…
                     </p>
                     <h3 class="heading-4 has-margin-t60">Lower costs</h3>
                     <p>

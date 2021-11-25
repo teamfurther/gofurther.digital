@@ -59,7 +59,7 @@
                                 <figcaption>Validated learning is easiest to achieve through the Build-Measure-Learn feedback loop</figcaption>
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Build. Measure. Learn!</h2>
-                            <p>Validated learning exists to disperse uncertainty and therefore minimize the inherent risk in a start-up project. In practice, validated learning is easiest to achieve through the Build-Measure-Learn feedback loop.</p>
+                            <p>Validated learning exists to disperse uncertainty and therefore minimize the inherent risk in a startup project. In practice, validated learning is easiest to achieve through the Build-Measure-Learn feedback loop.</p>
                             <p>The Build-Measure-Learn loop helps us to find answers to our assumptions or hypothesis. Although at different stages of product development we will be looking for <a href="{{ localizedRoute('blog.show', ['slug' => 'validation-in-product-development']) }}">different answers to core assumptions</a>, one thing will be certain: our most important task is to gather as much actionable knowledge as possible, in the shortest time possible.</p>
                             <p>This is done by developing experiments to validate our hypothesis. There are various ways to test different hypothesis, most often with the help of an experiment.</p>
                             <p>These experiments should be built with minimal effort (or development time in case of a software). Their sole purpose is to test (validate) our assumptions. Most often, features that are otherwise considered essential to the final product are left out because of this.</p>
@@ -151,7 +151,7 @@
         "url": "{{ asset('media/blog/cover-dont-try-to-build-the-perfect-product-en.png') }}"
     },
     "inLanguage": "en_gb",
-    "keywords": "MVP, Minimum Viable Product, Start-up, Idea Validation",
+    "keywords": "MVP, Minimum Viable Product, Startup, Idea Validation",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"

@@ -16,8 +16,8 @@
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
                                 Digitális transzformáció
                             </a>
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
-                                Start-up
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
+                                startup
                             </a>
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
                                 Elmagyarázva
@@ -48,8 +48,8 @@
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
                                 Digitális transzformáció
                             </option>
-                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'start-up']) }}">
-                                Start-up
+                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
+                                startup
                             </option> -->
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
                                 Elmagyarázva

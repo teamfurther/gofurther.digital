@@ -84,7 +84,7 @@
             <div class="columns">
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="face face--3"></div>
-                    <h4 class="heading-4">Start-up founders</h4>
+                    <h4 class="heading-4">Startup founders</h4>
                     <p>Founders who wish to better understand their target market and minimize inherent risk.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
@@ -133,7 +133,7 @@
 
                     <h4 class="heading-3">The cheat sheet was helpful, but I still have questions…</h4>
                     <p class="has-margin-b30">
-                        <small>This resource was by no means meant to be exhaustive. Check out <a href="{{ localizedRoute('blog.tags.show', ['slug' => 'start-up']) }}">our blog</a> for more in-depth articles, or <a href="{{ localizedRoute('contact') }}">get in touch</a> for a free consultation.</small>
+                        <small>This resource was by no means meant to be exhaustive. Check out <a href="{{ localizedRoute('blog.tags.show', ['slug' => 'startup']) }}">our blog</a> for more in-depth articles, or <a href="{{ localizedRoute('contact') }}">get in touch</a> for a free consultation.</small>
                     </p>
 
                     <h4 class="heading-3">Why do I have to provide personal information to download resources?</h4>

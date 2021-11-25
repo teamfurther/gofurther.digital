@@ -24,16 +24,16 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p class="has-margin-b60">A múltkor meséltem Hubáról,<a href="{{ localizedRoute('blog.show', ['slug' => 'ne-probalj-tokeletes-termeket-fejleszteni']) }}"> akinek volt egy start-up ötlete.</a> Ő akkor úgy döntött, hogy egyből belevág a termékfejlesztésbe anélkül, hogy az ötletet előzetesen validálta volna. Most meg szeretném mutatni, hogy miként lehet egy start-up ötletet validálni. De ehhez előbb meg kell értenünk, hogy egyáltalán miért is szükséges a validáció.</p>
-                            <h2 class="heading-2 has-margin-b30">A bizonytalanság a start-up része</h2>
-                            <p>Eric Ries, 2011-es The Lean Startup könyvében úgy határozza meg a start-up fogalmát, mint egy "intézmény, amelynek célja, hogy egy új terméket vagy szolgáltatást hozzon létre szélsőségesen bizonytalan körülmények között".</p>
-                            <p>Az egyik legfontosabb része ennek a meghatározásnak Ries szerint pont az, ami hiányzik belőle. Semmit nem mond arról, hogy mekkora a vállalkozás vagy milyen iparágban tevékenykedik. Bárki aki bizonytalan körülmények között új, innovatív terméket hoz létre, az egy start-up.</p>
-                            <p>Értelemszerűen a meghatározás másik fontos része az, hogy a start-up célja egy új termék vagy szolgáltatás, egy innováció létrehozása. Az innovációt érdemes tágan értelmezni. Nem szükséges egy forradalmi újítást hozni, ugyanúgy innováció egy régi technológia újszerű felhasználása, egy új üzleti modell vagy akár egy új módja a vásárlókkal való interakciónak.</p>
-                            <p>Fontos az a kontextus is amiben az innováció történik. Ha nem egy bizonytalan környezetben alkalmazzuk az innovációt, akkor nem beszélhetünk start-upról.</p>
-                            <p>Legtöbb vállalkozás pontosan ezért nem tekinthető start-upnak. Ha egy olyan vállalkozást indítunk, ami egy tökéletes másolata egy már létező vállalkozásnak, beleértve az üzleti modellt, árazást, célcsoportot és termékkínálatot, az lehet üzletileg jó befektetés, de attól még nem egy start-up. Ezeknek a vállalkozásoknak a sikere kizárólag a végrehajtáson múlik. Olyannyira, hogy a sikert és annak mértéket elég magas pontossággal lehet modellezni.</p>
-                            <p class="has-margin-b60">Egy start-up esetében a jövő kiszámíthatatlan. Nem tudjuk, hogy mennyire fenntartható az üzleti modellünk, hogy a termékünk tényleg megoldást jelent-e a problémára, vagy hogy egyáltalán mások számára is létező az a probléma amit meg szeretnénk oldani. Egy start-up esetén ezeket nem kezelhetjük tényként, legfeljebb feltételezéseink vannak.</p>
+                            <p class="has-margin-b60">A múltkor meséltem Hubáról,<a href="{{ localizedRoute('blog.show', ['slug' => 'ne-probalj-tokeletes-termeket-fejleszteni']) }}"> akinek volt egy startup ötlete.</a> Ő akkor úgy döntött, hogy egyből belevág a termékfejlesztésbe anélkül, hogy az ötletet előzetesen validálta volna. Most meg szeretném mutatni, hogy miként lehet egy startup ötletet validálni. De ehhez előbb meg kell értenünk, hogy egyáltalán miért is szükséges a validáció.</p>
+                            <h2 class="heading-2 has-margin-b30">A bizonytalanság a startup része</h2>
+                            <p>Eric Ries, 2011-es The Lean Startup könyvében úgy határozza meg a startup fogalmát, mint egy "intézmény, amelynek célja, hogy egy új terméket vagy szolgáltatást hozzon létre szélsőségesen bizonytalan körülmények között".</p>
+                            <p>Az egyik legfontosabb része ennek a meghatározásnak Ries szerint pont az, ami hiányzik belőle. Semmit nem mond arról, hogy mekkora a vállalkozás vagy milyen iparágban tevékenykedik. Bárki aki bizonytalan körülmények között új, innovatív terméket hoz létre, az egy startup.</p>
+                            <p>Értelemszerűen a meghatározás másik fontos része az, hogy a startup célja egy új termék vagy szolgáltatás, egy innováció létrehozása. Az innovációt érdemes tágan értelmezni. Nem szükséges egy forradalmi újítást hozni, ugyanúgy innováció egy régi technológia újszerű felhasználása, egy új üzleti modell vagy akár egy új módja a vásárlókkal való interakciónak.</p>
+                            <p>Fontos az a kontextus is amiben az innováció történik. Ha nem egy bizonytalan környezetben alkalmazzuk az innovációt, akkor nem beszélhetünk startupról.</p>
+                            <p>Legtöbb vállalkozás pontosan ezért nem tekinthető startupnak. Ha egy olyan vállalkozást indítunk, ami egy tökéletes másolata egy már létező vállalkozásnak, beleértve az üzleti modellt, árazást, célcsoportot és termékkínálatot, az lehet üzletileg jó befektetés, de attól még nem egy startup. Ezeknek a vállalkozásoknak a sikere kizárólag a végrehajtáson múlik. Olyannyira, hogy a sikert és annak mértéket elég magas pontossággal lehet modellezni.</p>
+                            <p class="has-margin-b60">Egy startup esetében a jövő kiszámíthatatlan. Nem tudjuk, hogy mennyire fenntartható az üzleti modellünk, hogy a termékünk tényleg megoldást jelent-e a problémára, vagy hogy egyáltalán mások számára is létező az a probléma amit meg szeretnénk oldani. Egy startup esetén ezeket nem kezelhetjük tényként, legfeljebb feltételezéseink vannak.</p>
                             <h2 class="heading-2 has-margin-b30">Validált tanulás</h2>
-                            <p>A bizonytalanság eloszlatására a start-up világban bevett módszer a validált tanulás. A validált tanulás egy olyan folyamat amelynek a lényege, hogy empirikusan bebizonyítsuk, hogy közelebb kerültünk a kitűzött céljainkhoz.</p>
+                            <p>A bizonytalanság eloszlatására a startup világban bevett módszer a validált tanulás. A validált tanulás egy olyan folyamat amelynek a lényege, hogy empirikusan bebizonyítsuk, hogy közelebb kerültünk a kitűzött céljainkhoz.</p>
                             <p>A validált tanulást gyakorlatban pedig az Építs-Mérj-Tanulj visszacsatolási ciklus segítségével lehet elérni. Az Építs szakaszban egy olyan minimális terméket vagy kísérletet építünk aminek a segítségével egy vagy több feltételezést tesztelni tudunk.</p>
                             <p>Az Építs szakaszban fejlesztett kísérletek célja, hogy minél hamarabb be tudjuk mutatni a potenciális felhasználóknak és kapjunk olyan visszacsatolást és információt amit bele tudunk építeni a következő kísérletbe. Ez lesz a Mérj szakaszunk.</p>
                             <p>Ha a mérés alapján úgy döntünk, hogy közelebb állunk a végső célokhoz, akkor a ciklus elölről kezdődik egy újabb Építs szakasszal, amiben finomhangolunk vagy új kísérleteket fejlesztünk újabb feltételezések tesztelésére.</p>
@@ -77,7 +77,7 @@
                                 <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-4-hu.png') }}" alt="Validáció a termékfejlesztésben-Segédlet-4" />
                             </figure>
                             <p>Bármelyik szakaszban vagyunk, a végén mindig el kell döntenünk a megszerzett tudás és a mérések alapján, hogy kitartunk mert jó irányban történnek a fejlesztéseink, vagy egy pivotra kerül sor. Ha a termékfejlesztési folyamat végére érünk, ismételjük meg a lépéseket a termék továbbfejlesztésére vagy akár egy új funkcióra is.</p>
-                            <p class="has-margin-b90">A validált tanulás alapú termékfejlesztési módszer szépsége, hogy nem csak start-up projektek esetén megvalósítható, hanem bármilyen, akár nagyvállalati- vagy ipari környezetben is.</p>
+                            <p class="has-margin-b90">A validált tanulás alapú termékfejlesztési módszer szépsége, hogy nem csak startup projektek esetén megvalósítható, hanem bármilyen, akár nagyvállalati- vagy ipari környezetben is.</p>
                             <div class="columns">
                                 <div class="column is-6-desktop">
                                     <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">
@@ -157,7 +157,7 @@
         "url": "{{ asset('media/blog/cover-validation-in-product-development-hu.png') }}"
     },
     "inLanguage": "hu_hu",
-    "keywords": "Start-up, Validáció, Lean validáció, Lean termékfejlesztés, Üzleti modell, Termékfejlesztés",
+    "keywords": "Startup, Validáció, Lean validáció, Lean termékfejlesztés, Üzleti modell, Termékfejlesztés",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"

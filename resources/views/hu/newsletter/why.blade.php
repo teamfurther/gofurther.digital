@@ -17,7 +17,7 @@
                         <li>feliratkoztál a levelezőlistánkra</li>
                     </ul>
                     <p>
-                        A Further hírlevél az a hely, ahol eredeti tartalmakat fogunk megosztani, betekintéseket a mindennapjainkba, híreket digitális transzformációról, új technológiákról, szoftverfejlesztésről és start-upokról. Legfeljebb havonta 1x, mert nem szeretnénk zavarni téged.
+                        A Further hírlevél az a hely, ahol eredeti tartalmakat fogunk megosztani, betekintéseket a mindennapjainkba, híreket digitális transzformációról, új technológiákról, szoftverfejlesztésről és startupokról. Legfeljebb havonta 1x, mert nem szeretnénk zavarni téged.
                     </p>
                 </div>
             </div>

@@ -26,7 +26,7 @@
                         </li>
                     </ul>
 
-                    <h1 class="heading-3 has-text-centered">Start-upoknak és termékfejlesztőknek</h1>
+                    <h1 class="heading-3 has-text-centered">Startupoknak és termékfejlesztőknek</h1>
                     <ul class="linktree is-pearl">
                         <li>
                             <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}" target="_blank">
