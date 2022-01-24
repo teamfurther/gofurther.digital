@@ -8,7 +8,7 @@
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => '11-ways-to-build-an-mvp-pt1']) }}">
-                11 Ways to Build an MVP
+                11 Ways to Build an MVP #1
             </a>
         </h3>
         <p class="post__excerpt">

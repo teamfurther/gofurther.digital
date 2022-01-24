@@ -21,7 +21,7 @@ class HandleLanguageSettings
             $prefix = trim($prefix, '/');
         }
 
-        $lang = $prefix ?? getPreferredLang();
+        $lang = $prefix ?: getPreferredLang();
 
         if (!isLang($lang)) {
             setLang($lang);

@@ -8,7 +8,7 @@
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => '11-mod-hogy-mvp-t-epitsunk-1-resz']) }}">
-                11 mód, hogy MVP-t építsünk
+                11 mód, hogy MVP-t építsünk - 1. rész
             </a>
         </h3>
         <p class="post__excerpt">
