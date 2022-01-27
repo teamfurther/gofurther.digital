@@ -2,15 +2,15 @@
 
 namespace App\Actions;
 
-use Illuminate\Filesystem\Filesystem;
+use Symfony\Component\Finder\Finder;
 
 class GetNewsletterIssuesAction
 {
-    protected Filesystem $file;
+    protected Finder $finder;
 
-    public function __construct(Filesystem $file)
+    public function __construct(Finder $finder)
     {
-        $this->file = $file;
+        $this->finder = $finder;
     }
 
     /**
@@ -21,7 +21,7 @@ class GetNewsletterIssuesAction
         $path = resource_path('views/' . getLang() . '/newsletter/issues');
         $issues = [];
 
-        foreach (array_reverse($this->file->allFiles($path)) as $issue) {
+        foreach (array_reverse($this->allFiles($path)) as $issue) {
             $dirName = basename($issue->getPath());
             $fileName = str_replace('.blade.php', '', $issue->getFilename());
 
@@ -33,5 +33,13 @@ class GetNewsletterIssuesAction
         }
 
         return $issues;
+    }
+
+    private function allFiles($directory)
+    {
+        return iterator_to_array(
+            $this->finder->create()->files()->ignoreDotFiles(true)->in($directory)->sortByName(true),
+            false
+        );
     }
 }
