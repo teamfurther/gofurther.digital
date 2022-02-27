@@ -1,6 +1,6 @@
 @section('title', 'How to successfully validate your idea in product development?')
 @section('description', 'In this article, we\'ll show you which design & research techniques are most useful for validating assumptions in the different phases of product innovation.')
-@section('preview_image', asset('media/blog/cover-validation-in-product-development-en-en.png'))
+@section('preview_image', asset('media/blog/cover-validation-in-product-development-en.png'))
 
 @section('content')
     <div class="post__featured-image">
@@ -154,7 +154,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-validation-in-product-development-en-en.png') }}"
+        "url": "{{ asset('media/blog/cover-validation-in-product-development-en.png') }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Startup, Lean Validation, Lean product development, Business model, Product development",

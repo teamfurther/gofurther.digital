@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'how-to-measure-the-success-of-your-startup',
+                'tags' => [
+                    'startup' => 'Startup',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'hogyan-merjuk-a-termekunk-sikeresseget',
+                'tags' => [
+                    'startup' => 'Startup',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => '11-ways-to-build-an-mvp-pt2',
                 'tags' => [
                     'startup' => 'Startup',
