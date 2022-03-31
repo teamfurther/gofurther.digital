@@ -55,9 +55,16 @@
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                     <div class="about__team__member">
-                        <img class="about__team__member__picture" src="{{ asset('img/team-noemi-varga.png') }}" alt="Noémi Varga" />
-                        <h4 class="about__team__member__name">Noémi Varga</h4>
-                        <div class="about__team__member__title">Marketing Coordinator</div>
+                        <img class="about__team__member__picture" src="{{ asset('img/team-veronika-danos.png') }}" alt="Veronika Dános" />
+                        <h4 class="about__team__member__name">Veronika Dános</h4>
+                        <div class="about__team__member__title">Business Development</div>
+                    </div>
+                </div>
+                <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                    <div class="about__team__member">
+                        <img class="about__team__member__picture" src="{{ asset('img/team-noci-pal.png') }}" alt="Nóci Pál" />
+                        <h4 class="about__team__member__name">Nóci Pál</h4>
+                        <div class="about__team__member__title">UX Designer</div>
                     </div>
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
@@ -69,8 +76,8 @@
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                     <div class="about__team__member">
-                        <img class="about__team__member__picture" src="{{ asset('img/team-istvan-farkas.png') }}" alt="István Farkas" />
-                        <h4 class="about__team__member__name">István Farkas</h4>
+                        <img class="about__team__member__picture" src="{{ asset('img/team-zsolt-janes.png') }}" alt="Zsolt Janes" />
+                        <h4 class="about__team__member__name">Zsolt Janes</h4>
                         <div class="about__team__member__title">Software Developer</div>
                     </div>
                 </div>
@@ -83,13 +90,6 @@
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                     <div class="about__team__member">
-                        <img class="about__team__member__picture" src="{{ asset('img/team-csaba-barabas.png') }}" alt="Csaba Barabás" />
-                        <h4 class="about__team__member__name">Csaba Barabás</h4>
-                        <div class="about__team__member__title">Software Developer</div>
-                    </div>
-                </div>
-                <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                    <div class="about__team__member">
                         <img class="about__team__member__picture" src="{{ asset('img/team-zoltan-sarosi.png') }}" alt="Zoltán Sárosi" />
                         <h4 class="about__team__member__name">Zoltán Sárosi</h4>
                         <div class="about__team__member__title">Software Developer</div>
@@ -97,9 +97,9 @@
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                     <div class="about__team__member">
-                        <img class="about__team__member__picture" src="{{ asset('img/team-zsolt-janes.png') }}" alt="Zsolt Janes" />
-                        <h4 class="about__team__member__name">Zsolt Janes</h4>
-                        <div class="about__team__member__title">Software Developer</div>
+                        <img class="about__team__member__picture" src="{{ asset('img/team-gergely-fenyvesi.png') }}" alt="Gergő Fenyvesi" />
+                        <h4 class="about__team__member__name">Gergő Fenyvesi</h4>
+                        <div class="about__team__member__title">Marketing Coordinator</div>
                     </div>
                 </div>
             </div>
