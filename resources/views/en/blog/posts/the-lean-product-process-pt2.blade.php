@@ -49,7 +49,7 @@
                                 <li>Pains - obstacles, negatives and frustrations that our user would rather avoid.</li>
                                 <li>Gains - positive outcomes, added value, or desires that our user longs for.</li>
                             </ul>
-                            <p>We can source this information from the user personas we created in the problem validation stage, as the assumptions we set when creating the personas have been already confirmed (or contradicted) by the user interviews. You did update your personas after the interviews, did you?</p>
+                            <p>We can source this information from the user personas we created in the problem validation stage, as the assumptions we set when <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-use-personas-in-product-development']) }}" target="_blank">creating the personas</a> have been already confirmed (or contradicted) by the user interviews. You did update your personas after the interviews, did you?</p>
                             <p>If we have several personas, we will have multiple value proposition canvases since we have a different value proposition for each user group. Write down each job, pain point and gain on a post-it note and stick it in the correct space on the canvas. If you wish to create a digital canvas, I recommend using <a href="https://miro.com/" target="_blank">Miro</a>.</p>
                             <p class="has-margin-b30">When done with the circle, we can move on to the square, called the value map in the Value Proposition Design, which is also split into 3 subsections:</p>
                             <ul class="list has-bullets has-margin-b30">

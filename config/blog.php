@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'how-to-use-personas-in-product-development',
+                'tags' => [
+                    'startup' => 'Startup',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'perszonak-a-termekfejlesztesben',
+                'tags' => [
+                    'startup' => 'Startup',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'how-to-measure-the-success-of-your-startup',
                 'tags' => [
                     'startup' => 'Startup',

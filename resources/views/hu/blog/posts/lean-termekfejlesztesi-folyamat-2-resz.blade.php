@@ -49,7 +49,7 @@
                                 <li>Fájdalompontok (Pains) - azok az akadályok, negatívumok vagy frusztrációk, amiket a felhasználó legszívesebben elkerülne.</li>
                                 <li>Hasznok (Gains) - olyan pozitív eredmények, hozzáadott értékek vagy akár vágyak, amiket a felhasználó szeretné ha megvalósulnának.</li>
                             </ul>
-                            <p>Ezeket az információkat nyugodtan kivehetjük az előző fázisból ismert perszónákból, hiszen a perszónák készítésekor feltételezett hipotéziseket már megerősítették (vagy megcáfolták) az interjúk. Az interjú sorozat után frissítettétek a perszónákat, ugye?</p>
+                            <p>Ezeket az információkat nyugodtan kivehetjük az előző fázisból ismert perszónákból, hiszen a <a href="{{ localizedRoute('blog.show', ['slug' => 'perszonak-a-termekfejlesztesben']) }}" target="_blank">perszónák készítésekor</a> feltételezett hipotéziseket már megerősítették (vagy megcáfolták) az interjúk. Az interjú sorozat után frissítettétek a perszónákat, ugye?</p>
                             <p>
                                 Ha több perszónánk van, akkor több value proposition canvas-ünk is lesz, hiszen minden egyes felhasználó csoportnak számára értelemszerűen más-más lesz az értékajánlatunk. Minden egyes tevékenységet, fájdalompontot és hasznot írjunk fel egy post-itra és ragasszuk be a megfelelő helyre. Ha digitálisan szeretnénk value proposition canvas-t kitölteni, akkor a <a href="https://miro.com/" target="_blank">Miro</a> szoftvert ajánlom.
                             </p>

@@ -59,7 +59,7 @@
                             <p>As you can see, it's crucial to precisely define whose opinions we are interested in before talking to people. About which problems do we want to learn more? The best tool for this job is the user persona.</p>
                             <h3 class="heading-3 has-margin-b30 has-margin-t60">Personas</h3>
                             <p>Creating personas is something you might have already seen in other fields, such as UX design (user personas) or marketing (buyer personas). These fields use personas at a later planning phase. In product development, they proved to be a valuable tool in testing our assumptions about our target market in a much earlier stage.</p>
-                            <p>I'll detail personas in a later article. For now, let's take a look at what a persona has to contain:</p>
+                            <p>I'll detail personas in a <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-use-personas-in-product-development']) }}" target="_blank">later article</a>. For now, let's take a look at what a persona has to contain:</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li>Name</li>
                                 <li>Representative photo</li>

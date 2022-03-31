@@ -59,7 +59,7 @@
                             <p>Éppen ezért nagyon fontos, hogy mielőtt elkezdünk emberekkel beszélgetni, pontosan határozzuk meg, hogy kinek a véleményére vagyunk kíváncsiak. Ki az, akinek a problémáját meg szeretnénk határozni? Erre a legjobb módszer az úgynevezett perszónák felépítése.</p>
                             <h3 class="heading-3 has-margin-b30 has-margin-t60">Perszónák</h3>
                             <p>A perszónák készítésével mint eszközzel találkozhattunk már más területeken is, mint pld. a UX design (felhasználói perszónák / user personas) vagy a marketing (vásárlói perszónák / buyer personas). Ezeken a területeken a perszónákat egy későbbi, tervezési fázisban használják, de termékfejlesztésben egy sokkal koraibb szakaszban is kiváló eszköznek bizonyulnak, hogy felvázoljuk a célcsoportunkról alkotott feltevéseinket.</p>
-                            <p>Egy későbbi cikkben jobban körbejárom majd hogyan is érdemes perszónákkal dolgozni. Egyelőre nézzük meg, mit kell egy perszóna tartalmazzon:</p>
+                            <p>Egy <a href="{{ localizedRoute('blog.show', ['slug' => 'perszonak-a-termekfejlesztesben']) }}" target="_blank">későbbi cikkben</a> jobban körbejárom majd hogyan is érdemes perszónákkal dolgozni. Egyelőre nézzük meg, mit kell egy perszóna tartalmazzon:</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li>Név</li>
                                 <li>Reprezentatív fotó</li>
