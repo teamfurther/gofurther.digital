@@ -82,6 +82,7 @@
 
 <div id="app">
 
+@if (!isset($showHeader) || $showHeader)
 <header class="header">
     <div class="container">
         <div class="header__brand">
@@ -202,9 +203,11 @@
         </a>
     </div>
 </header> <!-- /.header -->
+@endif
 
 @yield('content')
 
+@if (!isset($showFooter) || $showFooter)
 <footer class="footer">
     <div class="container">
         <img class="footer__logo" src="{{ asset('img/logo.svg') }}" alt="Further Digital Solutions" />
@@ -255,6 +258,7 @@
         </div>
     </div>
 </footer>
+@endif
 
 
 

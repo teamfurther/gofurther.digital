@@ -8,7 +8,7 @@ return [
     ],
     'subject' => 'Here is the link to your download',
     'success' => [
-        'message' => 'Success! Your download should start immediately. If not, please write us at <a href="mailto:' . config('mail.to') . '">' . config('mail.to') . '</a>.',
+        'message' => 'Success! You should soon get an email with your download link. If not, please write us at <a href="mailto:' . config('mail.to') . '">' . config('mail.to') . '</a>.',
         'title' => 'You\'re awesome!',
     ],
 

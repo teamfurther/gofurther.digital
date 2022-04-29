@@ -118,6 +118,20 @@
                                 </a>
                             </strong>
                         </li>
+                        <li>
+                            <strong>
+                                <a href="{{ localizedRoute('blog.show', ['slug' => '11-mod-hogy-mvp-t-epitsunk-1-resz']) }}">
+                                    11 mód, hogy MVP-t építsünk
+                                </a>
+                            </strong>
+                        </li>
+                        <li>
+                            <strong>
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'perszonak-a-termekfejlesztesben']) }}">
+                                    Perszónák a termékfejlesztésben
+                                </a>
+                            </strong>
+                        </li>
                     </ul>
                 </div>
             </div>

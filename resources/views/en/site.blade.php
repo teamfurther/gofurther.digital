@@ -243,6 +243,7 @@
             <nav class="footer__nav">
                 <span class="footer__nav__title">Free resources</span>
                 <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">Lean validation cheat sheet</a>
+                <a href="{{ localizedRoute('freebies.design-sprint-101') }}">Design Sprint 101</a>
                 <a href="{{ localizedRoute('newsletter') }}">Newsletters</a>
             </nav>
             <nav class="social-icons is-small">

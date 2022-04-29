@@ -45,6 +45,7 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
     Route::post('contact', [ContactController::class, 'send'])->name('contact.send');
 
     Route::view('lean-validation-cheat-sheet', 'en.freebies.lean-validation-cheat-sheet')->name('freebies.lean-validation-cheat-sheet');
+    Route::view('design-sprint-101', 'en.freebies.design-sprint-101')->name('freebies.design-sprint-101');
     Route::get('freebies', [FreebiesController::class, 'download'])->name('freebies.download');
     Route::post('freebies', [FreebiesController::class, 'get'])->name('freebies.get');
 

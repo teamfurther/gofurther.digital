@@ -8,7 +8,7 @@ return [
     ],
     'subject' => 'Innen töltheted le a kért anyagot',
     'success' => [
-        'message' => 'Siker! A letöltésed hamarosan elindul. Ha mégsem, írj nekünk a következő email címre: <a href="mailto:' . config('mail.to') . '">' . config('mail.to') . '</a>.',
+        'message' => 'Siker! Hamarosan kapsz egy email a letöltési linkkel. Ha mégsem, írj nekünk a következő email címre: <a href="mailto:' . config('mail.to') . '">' . config('mail.to') . '</a>.',
         'title' => 'Szuper vagy!',
     ],
 

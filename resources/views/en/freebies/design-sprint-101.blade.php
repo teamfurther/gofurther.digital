@@ -1,7 +1,7 @@
 @extends('en.site', ['showFooter' => false, 'showNav' => false])
 
-@section('title', 'Lean Validation Cheat Sheet')
-@section('description', 'This free resource helps you decide which design & research techniques are most useful for validating assumptions in the different phases of product innovation.')
+@section('title', 'Design Sprint 101')
+@section('description', 'This free resource gives you a crash course into design sprints, what a design sprint is and how to facilitate one.')
 
 @section('content')
     <section class="section">
@@ -9,11 +9,11 @@
             <div class="columns">
                 <div class="column is-12-desktop">
                     <h1 class="hero-heading has-margin-b15">
-                        <strong class="is-pearl">Lean Validation Cheat Sheet</strong><br />
-                        4 steps to a successful digital product.
+                        <strong class="is-cobalt">The Design Sprint</strong><br />
+                        From idea to product validation in 5 days
                     </h1>
                     <h2 class="heading-5">
-                        This free resource helps you decide which design & research techniques are most useful for validating assumptions in the different phases of product innovation.
+                        This free resource gives you a crash course into design sprints, what a design sprint is and how to facilitate one.
                     </h2>
                 </div>
             </div>
@@ -39,8 +39,8 @@
                             </label>
                         </div>
 
-                        <input name="source" type="hidden" value="freebie: lean validation cheat sheet" />
-                        <input name="freebie" type="hidden" value="lean-validation-cheat-sheet-en.pdf" />
+                        <input name="source" type="hidden" value="freebie: design sprint 101" />
+                        <input name="freebie" type="hidden" value="design-sprint-101.pdf" />
 
                         {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
                         <button class="btn is-large is-pearl" type="submit">
@@ -49,7 +49,7 @@
                     </form>
                 </div>
                 <div class="column is-6-desktop">
-                    <img src="{{ asset('media/freebies/lean-validation-cheat-sheet-mockup-en.png') }}" alt="Lean Validation Cheat Sheet" />
+                    <img src="{{ asset('media/freebies/design-sprint-101-mockup.png') }}" alt="Design Sprint 101" />
                 </div>
             </div>
         </div>
@@ -59,15 +59,14 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-4-desktop is-offset-2-desktop">
-                    <h3 class="heading-2 is-white">What can you do with this cheat sheet?</h3>
+                    <h3 class="heading-2 is-white">How does this guide help you?</h3>
                 </div>
                 <div class="column is-4-desktop">
                     <ul class="list has-discs is-white">
-                        <li>make sure you don't skip any of the 4 stages of product development</li>
-                        <li>get familiarised with lean validation and the build-measure-learn loop</li>
-                        <li>find out what core assumptions you should make and test regarding your product</li>
-                        <li>learn about experiments and tools that help test these assumptions</li>
-                        <li>analyze experiment results and learn about your customers and product</li>
+                        <li>it explains what a design sprint is</li>
+                        <li>it defines a design sprint schedule</li>
+                        <li>offers tips and insights on how to facilitate a sprint</li>
+                        <li>details sprint exercises</li>
                     </ul>
                 </div>
             </div>
@@ -85,17 +84,17 @@
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="face face--3"></div>
                     <h4 class="heading-4">Startup founders</h4>
-                    <p>Founders who wish to better understand their target market and minimize inherent risk.</p>
+                    <p>Founders who wish to validate their ideas with users in a fast and efficient way.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="face face--1"></div>
                     <h4 class="heading-4">Product owners</h4>
-                    <p>PO's who want a proven, efficient and user-centered method to develop products.</p>
+                    <p>PO's who want a proven and quick method to validate new features.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="face face--5"></div>
-                    <h4 class="heading-4">Managers</h4>
-                    <p>Managers and executives of established businesses who are overseeing new product development in their company.</p>
+                    <h4 class="heading-4">Business owners</h4>
+                    <p>Managers and executives who wish to introduce new business vertical using a structured process.</p>
                 </div>
             </div>
         </div>
