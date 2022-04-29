@@ -5,6 +5,34 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'homebrewing-crowdfunding-and-30000-dollars-in-2-minutes-the-brewie-story',
+                'tags' => [
+                    'startup' => 'Startup',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'otthoni-sorfozes-crowdfunding-es-2-perc-alatt-30000-dollar-a-brewie-story',
+                'tags' => [
+                    'startup' => 'Startup',
+                ]
+            ],
+        ],
+        [
+            'en' => [
+                'slug' => 'to-pivot-or-not-to-pivot',
+                'tags' => [
+                    'startup' => 'Startup',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'pivot-vagy-nem-pivot',
+                'tags' => [
+                    'startup' => 'Startup',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'how-to-use-personas-in-product-development',
                 'tags' => [
                     'startup' => 'Startup',
