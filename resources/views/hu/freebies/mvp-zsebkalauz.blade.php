@@ -1,7 +1,7 @@
 @extends('hu.site', ['showFooter' => false, 'showNav' => false])
 
-@section('title', 'A lean termékvalidáció lépesei')
-@section('description', 'Ez az ingyenes anyag hasznos tervezési és kutatási módszereket mutat be, amelyek segítségével eligazodhatsz a termékfejlesztés különböző fázisaiban.')
+@section('title', 'MVP zsebkalauz')
+@section('description', 'Ez az anyag elkalauzol az MVP típusai között és tippeket ad arra, hogy mikor melyiket érdemes használni.')
 
 @section('content')
     <section class="section">
@@ -9,10 +9,11 @@
             <div class="columns">
                 <div class="column is-12-desktop">
                     <h1 class="hero-heading has-margin-b15">
-                        A <strong class="is-pearl">lean validáció</strong> 4 lépése
+                        <strong class="is-tangerine">MVP zsebkalauz</strong><br />
+                        11 mód, hogy MVP-t építsünk.
                     </h1>
                     <h2 class="heading-5">
-                        Ez az ingyenes anyag hasznos tervezési és kutatási módszereket mutat be, amelyek segítségével eligazodhatsz a termékfejlesztés különböző fázisaiban.
+                        Ez az anyag elkalauzol az MVP típusai között és tippeket ad arra, hogy mikor melyiket érdemes használni.
                     </h2>
                 </div>
             </div>
@@ -38,8 +39,8 @@
                             </label>
                         </div>
 
-                        <input name="source" type="hidden" value="freebie: lean validation cheat sheet" />
-                        <input name="freebie" type="hidden" value="lean-validation-cheat-sheet-hu.pdf" />
+                        <input name="source" type="hidden" value="freebie: mvp guide" />
+                        <input name="freebie" type="hidden" value="mvp-guide-hu.pdf" />
 
                         {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
                         <button class="btn is-large is-pearl" type="submit">
@@ -47,8 +48,8 @@
                         </button>
                     </form>
                 </div>
-                <div class="column is-6-desktop">
-                    <img src="{{ asset('media/freebies/lean-validation-cheat-sheet-mockup-hu.png') }}" alt="A lean termékvalidáció lépesei" />
+                <div class="column is-6-desktop has-text-right">
+                    <img src="{{ asset('media/freebies/mvp-guide-mockup-hu.png') }}" alt="MVP zsebkalauz" />
                 </div>
             </div>
         </div>
@@ -58,15 +59,15 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-4-desktop is-offset-2-desktop">
-                    <h3 class="heading-2 is-white">Miben segít ez a termékvalidációs "puska"?</h3>
+                    <h3 class="heading-2 is-white">Miben segít ez a kalauz?</h3>
                 </div>
                 <div class="column is-4-desktop">
                     <ul class="list has-discs is-white">
-                        <li>hogy ne ugord át a termékfejlesztés 4 lépése közül egyiket sem</li>
-                        <li>hogy megismerkedj a lean validációval és az építs-mérj-tanulj módszerrel</li>
-                        <li>hogy megtudd, milyen alapvető feltételezéseket kell tesztelj</li>
-                        <li>hogy milyen kísérletek és eszközök állnak rendelkezésedre, hogy teszteld ezeket a feltételezéseket</li>
-                        <li>hogy miként ismerd meg jobban a célközönségedet</li>
+                        <li>hogy megismerkedj az MVP-kkel</li>
+                        <li>hogy elkerüld a prototípuskészítés gyakori hibáit</li>
+                        <li>hogy megismerd a különböző MVP típusokat és hogy mikor melyiket érdemes használni</li>
+                        <li>hogy milyen metrikákat mérjünk prototípus tesztelés közben</li>
+                        <li>hogy miként mérd a kíserletek sikerességét és ismerd meg jobban a célközönséged</li>
                     </ul>
                 </div>
             </div>
@@ -89,7 +90,7 @@
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="face face--1"></div>
                     <h4 class="heading-4">Product ownereknek</h4>
-                    <p>Akik szeretnének egy bizonyítottan hatékony és felhasználóközpontú módszert a termékfejlesztéshez.</p>
+                    <p>Akik szeretnének egy költséghatékony módszert az új termékfunkciók tesztelésére.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="face face--5"></div>
@@ -127,8 +128,8 @@
                         </li>
                         <li>
                             <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'pivot-vagy-nem-pivot']) }}">
-                                    Pivot vagy nem pivot: az itt a kérdés
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-merjuk-a-termekunk-sikeresseget']) }}">
+                                    Hogyan mérjük a termékünk sikerességet?
                                 </a>
                             </strong>
                         </li>

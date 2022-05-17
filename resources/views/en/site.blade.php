@@ -230,9 +230,9 @@
             <nav class="footer__nav">
                 <span class="footer__nav__title">Meet Further</span>
                 {{--<a href="{{ localizedRoute('events') }}">Events</a>--}}
-                <a href="{{ localizedRoute('about.how-we-work') }}">How we work</a>
-                <a href="{{ localizedRoute('about.remote-culture') }}">Remote culture</a>
-                <a href="{{ localizedRoute('about.team') }}">The team</a>
+                <a href="{{ localizedRoute('about.how-we-work') }}">How We work</a>
+                <a href="{{ localizedRoute('about.remote-culture') }}">Remote Culture</a>
+                <a href="{{ localizedRoute('about.team') }}">The Team</a>
                 <a href="{{ localizedRoute('about.outsourcing') }}">Outsourcing</a>
                 <a href="{{ localizedRoute('jobs') }}">Careers</a>
                 <a href="{{ localizedRoute('contact') }}">Contact</a>
@@ -242,7 +242,8 @@
             </nav>
             <nav class="footer__nav">
                 <span class="footer__nav__title">Free resources</span>
-                <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">Lean validation cheat sheet</a>
+                <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">Lean Validation Cheat Sheet</a>
+                <a href="{{ localizedRoute('freebies.mvp-guide') }}">MVP Pocket Guide</a>
                 <a href="{{ localizedRoute('freebies.design-sprint-101') }}">Design Sprint 101</a>
                 <a href="{{ localizedRoute('newsletter') }}">Newsletters</a>
             </nav>

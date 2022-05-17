@@ -1,7 +1,7 @@
 @extends('en.site', ['showFooter' => false, 'showNav' => false])
 
-@section('title', 'Lean Validation Cheat Sheet')
-@section('description', 'This free resource helps you decide which design & research techniques are most useful for validating assumptions in the different phases of product innovation.')
+@section('title', 'MVP Pocket Guide')
+@section('description', 'This free resource guides you through the most popular types of MVP, complete with tips & tricks on when to use one or the other.')
 
 @section('content')
     <section class="section">
@@ -9,11 +9,11 @@
             <div class="columns">
                 <div class="column is-12-desktop">
                     <h1 class="hero-heading has-margin-b15">
-                        <strong class="is-pearl">Lean Validation Cheat Sheet</strong><br />
-                        4 steps to a successful digital product.
+                        <strong class="is-tangerine">MVP Pocket Guide</strong><br />
+                        11 ways to build a prototype.
                     </h1>
                     <h2 class="heading-5">
-                        This free resource helps you decide which design & research techniques are most useful for validating assumptions in the different phases of product innovation.
+                        This resource guides you through the most popular types of MVP, complete with tips & tricks on when to use one or the other.
                     </h2>
                 </div>
             </div>
@@ -39,8 +39,8 @@
                             </label>
                         </div>
 
-                        <input name="source" type="hidden" value="freebie: lean validation cheat sheet" />
-                        <input name="freebie" type="hidden" value="lean-validation-cheat-sheet-en.pdf" />
+                        <input name="source" type="hidden" value="freebie: mvp pocket guide" />
+                        <input name="freebie" type="hidden" value="mvp-guide-en.pdf" />
 
                         {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
                         <button class="btn is-large is-pearl" type="submit">
@@ -48,8 +48,8 @@
                         </button>
                     </form>
                 </div>
-                <div class="column is-6-desktop">
-                    <img src="{{ asset('media/freebies/lean-validation-cheat-sheet-mockup-en.png') }}" alt="Lean Validation Cheat Sheet" />
+                <div class="column is-6-desktop has-text-right">
+                    <img src="{{ asset('media/freebies/mvp-guide-mockup-en.png') }}" alt="MVP Pocket Guide" />
                 </div>
             </div>
         </div>
@@ -59,14 +59,14 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-4-desktop is-offset-2-desktop">
-                    <h3 class="heading-2 is-white">What can you do with this cheat sheet?</h3>
+                    <h3 class="heading-2 is-white">What can you do with this guide?</h3>
                 </div>
                 <div class="column is-4-desktop">
                     <ul class="list has-discs is-white">
-                        <li>make sure you don't skip any of the 4 stages of product development</li>
-                        <li>get familiarised with lean validation and the build-measure-learn loop</li>
-                        <li>find out what core assumptions you should make and test regarding your product</li>
-                        <li>learn about experiments and tools that help test these assumptions</li>
+                        <li>get familiarised with creating MVPs</li>
+                        <li>avoid the common pitfalls of creating prototypes</li>
+                        <li>learn the different types of prototypes and when to use them</li>
+                        <li>learn what metrics to follow when testing your prototypes</li>
                         <li>analyze experiment results and learn about your customers and product</li>
                     </ul>
                 </div>
@@ -90,7 +90,7 @@
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="face face--1"></div>
                     <h4 class="heading-4">Product owners</h4>
-                    <p>PO's who want a proven, efficient and user-centered method to develop products.</p>
+                    <p>PO's who want a cost-effective way to test product features.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="face face--5"></div>
@@ -121,15 +121,15 @@
                         </li>
                         <li>
                             <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'to-pivot-or-not-to-pivot']) }}">
+                                <a href="{{ localizedRoute('blog.show', ['slug' => '11-ways-to-build-an-mvp-pt1']) }}">
                                     11 Ways to Build an MVP
                                 </a>
                             </strong>
                         </li>
                         <li>
                             <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'to-pivot-or-not-to-pivot']) }}">
-                                    To Pivot or Not to Pivot – That Is the Question
+                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-measure-the-success-of-your-startup']) }}">
+                                    How to Measure the Success of Your Startup?
                                 </a>
                             </strong>
                         </li>

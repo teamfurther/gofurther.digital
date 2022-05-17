@@ -238,6 +238,7 @@
             <nav class="footer__nav">
                 <span class="footer__nav__title">Ingyenes anyagok</span>
                 <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">A lean validáció lépései</a>
+                <a href="{{ localizedRoute('freebies.mvp-guide') }}">MVP zsebkalauz</a>
                 <a href="{{ localizedRoute('newsletter') }}">Hírlevelek</a>
             </nav>
             <nav class="social-icons is-small">
