@@ -80,8 +80,14 @@
 
 <body class="{{ !empty($bodyClass) ? $bodyClass : '' }}" id="top">
 
-<div id="app">
+@if (session('alert.pixel') && session('alert.pixel') !== '')
+<script>
+    fbq('track', '{{ session('alert.pixel') }}');
+</script>
+@endif
 
+
+<div id="app">
 @if (!isset($showHeader) || $showHeader)
 <header class="header">
     <div class="container">

@@ -83,8 +83,8 @@
                 </div>
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                     <div class="about__team__member">
-                        <img class="about__team__member__picture" src="{{ asset('img/team-szabolcs-benedek.png') }}" alt="Szabolcs Benedek" />
-                        <h4 class="about__team__member__name">Szabolcs Benedek</h4>
+                        <img class="about__team__member__picture" src="{{ asset('img/team-arpad-szakali-vandor.png') }}" alt="Árpád Szakáli-Vándor" />
+                        <h4 class="about__team__member__name">Árpád Szakáli-Vándor</h4>
                         <div class="about__team__member__title">Software Developer</div>
                     </div>
                 </div>

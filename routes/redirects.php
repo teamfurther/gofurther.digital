@@ -16,9 +16,8 @@ Route::group(['prefix' => 'en'], function (): void {
     Route::redirect('projects/idea-elearning-software', '/en/projects', 301);
     Route::redirect('projects/profnet-elearning-platform', '/en/projects', 301);
 
-    Route::redirect('about', '/en/about-us/team', 301);
-    Route::redirect('tech-stack', '/en/about-us#tech-stack', 301);
-    Route::redirect('about/team', '/en/about-us', 301);
+    Route::redirect('tech-stack', '/en/about#tech-stack', 301);
+    Route::redirect('about/team', '/en/about', 301);
 });
 
 Route::group(['prefix' => 'hu'], function (): void {

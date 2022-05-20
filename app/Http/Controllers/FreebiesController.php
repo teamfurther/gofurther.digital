@@ -65,6 +65,7 @@ class FreebiesController
             return redirect()->back()->with('alert', [
                 'gtm' => '{ "success": { "event_category": "newsletter", "event_label": "subscribe" } }',
                 'message' => __('freebies.success.message'),
+                'pixel' => 'CompleteRegistration',
                 'title' => __('freebies.success.title'),
                 'type' => 'success',
             ]);
