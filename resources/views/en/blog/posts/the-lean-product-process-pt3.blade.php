@@ -42,7 +42,7 @@
                             <p class="has-margin-b60">In some sense, we are building a product since it will be a tangible, visible object that we will give our users to test. But the goal still isn't to create a chiselled product that you can sell to your customers but to create a prototype with minimal functionality that you use to test your usability hypotheses. In the startup world, they call this prototype an MVP.</p>
                             <h3 class="heading-3 has-margin-b30">MVP</h3>
                             <p>The term MVP, which stands for minimum viable product, was first coined by Frank Robinson in 2001 and then popularised by Steve Blank and Eric Ries. Nowadays, it's probably the most notorious jargon in the startup dictionary, known by many even outside the startup bubble. But just as popular as the term MVP is, it's just as divisive as well.</p>
-                            <p>Those who paid attention to my <a href="{{ localizedRoute('blog.tags.show', ['slug' => 'startup']) }}" target="_blank">articles about lean product development</a> probably already noticed that I tend to avoid using the term MVP because each part of its name is easy to misinterpret. Instead, I substitute it with experiment or prototype.</p>
+                            <p>Those who paid attention to my <a href="{{ localizedRoute('blog.tags.show', ['slug' => 'startups-and-product-development']) }}" target="_blank">articles about lean product development</a> probably already noticed that I tend to avoid using the term MVP because each part of its name is easy to misinterpret. Instead, I substitute it with experiment or prototype.</p>
                             <p>First off, there's the word "product" in the name. "Product" immediately suggests we're going to build something finite, something chiselled. Since even the less experienced product teams know that building an MVP is one of the first steps in developing a product, they often skip the problem validation and problem-solution fit stages altogether.</p>
                             <p>This approach couldn't be any more wrong. The concierge experiment, which I wrote about in my <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}" target="_blank">previous article</a>, could also be considered an MVP. Moreover, startup literature often calls it a concierge MVP. But as we've seen, it is an important tool of the problem-solution fit stage.</p>
                             <p>Because of the word "product", many people also find it hard to stay within the scope of an MVP and start adding functions to the MVP, which have no relation whatsoever to our value proposition or merely serve as glitter. This phenomenon is even harder to control when involving stakeholders who have no lean product development experience.</p>
@@ -86,6 +86,17 @@
                             <p>By now, I have presented several prototypes. But how do we measure their success? What data can we rely on when declaring our assumption as true or false?</p>
                             <p>We could perform detailed usability tests and UX tests. These will give us invaluable empirical insights and are more often worth doing than not. But suppose, for some reason, we are unable to do these. In that case, we can always rely on the good old user interviews (in fact, usability and UX tests are a specific version of user interviews, or they are at least very connected).</p>
                             <p>We should ask our users to tell us how easy it was to use the product, their general experience using it, whether they found it safe to use (did they trust it), or if they encountered any obstacles in using it. If we receive positive feedback for all of the above questions, we can proceed to the last stage of product development, the <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt4']) }}" target="_blank">product-market fit stage</a>. If not, then — yes, you know it by now — we should <a href="{{ localizedRoute('blog.show', ['slug' => 'to-pivot-or-not-to-pivot']) }}" target="_blank">pivot</a> and formulate a new set of assumptions and start the solution-product validation stage anew.</p>
+                            <div class="columns">
+                                <div class="column is-6-desktop">
+                                    <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">
+                                        <img src="{{ asset('media/freebies/lean-validation-cheat-sheet-mockup-en.png') }}">
+                                    </a>
+                                </div>
+                                <div class="column is-6-desktop">
+                                    <p class="has-margin-b30">If you liked this article, download the accompanying infographic!</p>
+                                    <a class="btn is-large is-pearl" href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">I want the infographic</a>
+                                </div>
+                            </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
                             @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The Lean Product Process: #3 Creating Your Prototype'])

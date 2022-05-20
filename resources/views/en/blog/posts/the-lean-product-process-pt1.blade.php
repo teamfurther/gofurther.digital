@@ -124,6 +124,17 @@
                             <p>If we manage to verify the validity of each assumption, we can progress to the <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}">next stage of product development</a>. This will, however, rarely be the case. When one or more of our assumptions prove invalid, we should pivot. During a pivot, we adjust our assumptions based on our learnings so far and start the build-measure-learn loop again.</p>
                             <p>In our case, there's a high chance that not even the first assumption will survive the scrutiny of validation. How we should pivot, though, is something I will <a href="{{ localizedRoute('blog.show', ['slug' => 'to-pivot-or-not-to-pivot']) }}" target="_blank">reflect upon later</a>. For now, let's focus on how to validate our solution.
                             </p>
+                            <div class="columns">
+                                <div class="column is-6-desktop">
+                                    <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">
+                                        <img src="{{ asset('media/freebies/lean-validation-cheat-sheet-mockup-en.png') }}">
+                                    </a>
+                                </div>
+                                <div class="column is-6-desktop">
+                                    <p class="has-margin-b30">If you liked this article, download the accompanying infographic!</p>
+                                    <a class="btn is-large is-pearl" href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">I want the infographic</a>
+                                </div>
+                            </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
                             @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The Lean Product Process: #1 Understanding Your Customers'])

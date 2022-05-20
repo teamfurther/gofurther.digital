@@ -28,18 +28,18 @@
 
                         <img class="project-list__featured__image" src="{{ asset('media/projects/njoy-project-list.png') }}" alt="nJoy - The Hive ERP - Termékfejlesztés felturbózva" />
                     </a>
-                    <a class="project-list__featured project-list__featured--steiger-erp is-reversed"
-                       href="{{ route(getLang() . '.projects.show', ['slug' => 'steiger-erp']) }}"
+                    <a class="project-list__featured project-list__featured--centralized is-reversed"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
                     >
                         <div class="project-list__featured__content">
-                            <h1 class="project-list__featured__title">Steiger ERP</h1>
+                            <h1 class="project-list__featured__title">Centralized.me művészmenedzsment platform</h1>
                             <div class="project-list__featured__description">
-                                Alapjában véve a Steiger egy családi vállalkozás, amely több generáción át részt vett a fémfeldolgozó iparban. A Steiger képviselői felvették velünk a kapcsolatot, hogy egy olyan rendszert dolgozzunk ki, amely automatizálja munkafolyamataikat és javítja ezek megbízhatóságát.
+                                A centralized.me a világ első művészmenedzsment applikációja, önszervezett zenészek és modern menedzserek számára. Tartalmaz minden olyan videó anyagot, útmutatót, munkafüzetet, költségvetést, email- és szerződésmintát, amire egy zenésznek szüksége lehet.
                             </div>
-                            <span class="btn is-pearl">Olvasd el az esettanulmányt</span>
+                            <span class="btn is-tangerine">Olvasd el az esettanulmány</span>
                         </div>
 
-                        <img class="project-list__featured__image" src="{{ asset('media/projects/steiger-project-list.png') }}" alt="Steiger ERP - Ajánlatkészítéstől gyártásig" />
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/centralized-project-list.png') }}" alt="Centralized.me művészmenedzsment platform" />
                     </a>
                 </div>
             </div>
@@ -58,14 +58,13 @@
                 </div>
                 <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
                     <a class="project-list__item"
-                       href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'steiger-erp']) }}"
                     >
-                        <img class="project-list__item__image" src="{{ asset('media/projects/centralized-project-list.jpg') }}" alt="Centralized.me - Artist Management From A to Z" />
+                        <img class="project-list__item__image" src="{{ asset('media/projects/steiger-project-list.jpg') }}" alt="Steiger ERP" />
 
-                        <h1 class="project-list__item__title">Centralized.me Artist Management Platform</h1>
+                        <h1 class="project-list__item__title">Steiger ERP</h1>
                         <div class="project-list__item__description">
-                            A centralized.me a világ első művészmenedzsment applikációja, önszervezett zenészek és modern menedzserek számára. Tartalmaz minden olyan videó anyagot, útmutatót, munkafüzetet, költségvetést, email- és szerződésmintát, amire egy
-                            zenésznek szüksége lehet.
+                            Alapjában véve a Steiger egy családi vállalkozás, amely több generáción át részt vett a fémfeldolgozó iparban. A Steiger képviselői felvették velünk a kapcsolatot, hogy egy olyan rendszert dolgozzunk ki, amely automatizálja munkafolyamataikat és javítja ezek megbízhatóságát.
                         </div>
                     </a>
                 </div>

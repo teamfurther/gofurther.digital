@@ -5,11 +5,11 @@ return [
     'name' => env('APP_NAME', 'Further Digital Solutions'),
 
     'title' => [
-        'en' => 'Custom software solutions',
+        'en' => 'Digital product development',
         'hu' => 'Testreszabott szoftveres megoldások',
     ],
     'description' => [
-        'en' => 'We are a development company specialized in providing bespoke software solutions, with over ' . config('site.stats.projects') . ' projects deployed in ' . config('site.stats.countries') . ' countries.',
+        'en' => 'We are a product and software development company specialized in providing bespoke solutions, with over ' . config('site.stats.projects') . ' projects deployed in ' . config('site.stats.countries') . ' countries.',
         'hu' => 'Egyedi szoftveres megoldásokat kínáló fejlesztő cég vagyunk. 2013 óta több tucat sikeres projektet valósítottunk meg boldog ügyfeleinknek, ' . config('site.stats.countries') . ' országban.',
     ],
     'preview_image' => [
@@ -46,10 +46,10 @@ return [
 
     'stats' => [
         'avg_years' => 3.3,
-        'clients' => 69,
-        'company_age' => 7,
+        'clients' => 78,
+        'company_age' => 8,
         'countries' => 11,
-        'projects' => 170,
+        'projects' => 185,
     ]
 
 ];

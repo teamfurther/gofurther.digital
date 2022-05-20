@@ -298,6 +298,33 @@ let navbar = new function () {
 };
 
 /*
+ * SERVICES
+ */
+let services = new function () {
+    if (document.querySelector('.services__animated')) {
+        function toggleRotation() {
+            this.container = document.querySelector('#services');
+            this.servicesAnimation = document.querySelector('.services__animated');
+            this.strategyAndResearchHeight = document.querySelector('.services__service:nth-child(1)').offsetHeight;
+            this.uxResearchAndDesignHeight = document.querySelector('.services__service:nth-child(2)').offsetHeight;
+
+            if (this.container.getBoundingClientRect().top < -this.uxResearchAndDesignHeight - this.strategyAndResearchHeight + 200) {
+                this.servicesAnimation.classList.remove('is-rotated-0', 'is-rotated-120');
+                this.servicesAnimation.classList.add('is-rotated-240');
+            } else if (this.container.getBoundingClientRect().top < -this.strategyAndResearchHeight + 100) {
+                this.servicesAnimation.classList.remove('is-rotated-0', 'is-rotated-240');
+                this.servicesAnimation.classList.add('is-rotated-120');
+            } else {
+                this.servicesAnimation.classList.remove('is-rotated-120', 'is-rotated-240');
+                this.servicesAnimation.classList.add('is-rotated-0');
+            }
+        }
+
+        window.addEventListener('scroll', toggleRotation);
+    }
+};
+
+/*
  * SMOOTH SCROLL
  */
 window.addEventListener('DOMContentLoaded', function () {

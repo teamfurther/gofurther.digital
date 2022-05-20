@@ -160,6 +160,8 @@
                     <div class="navbar__subnav__overlay"></div>
                 </nav>
             </div>
+            <div class="navbar__item"><a href="{{ localizedRoute('services') }}">Szolgáltatásaink</a></div>
+            <div class="navbar__item"><a href="{{ localizedRoute('about') }}">Rólunk</a></div>
             <div class="navbar__item"><a href="{{ localizedRoute('blog') }}">Blog</a></div>
             <div class="navbar__item navbar__item--cta">
                 <a href="{{ localizedRoute('contact') }}"
@@ -176,16 +178,14 @@
             <a class="navbar--mobile__item" href="{{ localizedRoute('projects') }}">
                 Projektjeink
             </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-product-development') }}">
-                Digitális termékfejlesztés
-            </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('services.custom-development') }}">
-                Egyedi szoftverfejlesztés
-            </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-transformation') }}">Digitális transzformáció
-            </a>
             <a class="navbar--mobile__item" href="{{ localizedRoute('solutions') }}">
                 Megoldásaink
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services') }}">
+                Szolgáltatásaink
+            </a>
+            <a class="navbar--mobile__item" href="{{ localizedRoute('about') }}">
+                Rólunk
             </a>
             <a class="navbar--mobile__item" href="{{ localizedRoute('blog') }}">
                 Blog
@@ -214,22 +214,21 @@
         <div class="footer__top">
             <nav class="footer__nav">
                 <span class="footer__nav__title">Szolgáltatásaink</span>
-                <a href="{{ localizedRoute('services.digital-product-development') }}">
+                <a href="{{ localizedRoute('services') }}#strategia-es-kutatas">
+                    Stratégia és kutatás
+                </a>
+                <a href="{{ localizedRoute('services') }}#ux-kutatas-es-tervezes">
+                    UX kutatás és tervezés
+                </a>
+                <a href="{{ localizedRoute('services') }}#digitalis-termekfejlesztes">
                     Digitális termékfejlesztés
-                </a>
-                <a href="{{ localizedRoute('services.custom-development') }}">
-                    Egyedi szoftverfejlesztés
-                </a>
-                <a href="{{ localizedRoute('services.digital-transformation') }}">
-                    Digitális transzformáció
                 </a>
             </nav>
             <nav class="footer__nav">
                 <span class="footer__nav__title">Kik vagyunk?</span>
                 {{--<a href="{{ localizedRoute('events') }}">Eseményeink</a>--}}
-                <a href="{{ localizedRoute('about.how-we-work') }}">Hogyan dolgozunk?</a>
+                <a href="{{ localizedRoute('about') }}">Rólunk</a>
                 <a href="{{ localizedRoute('about.remote-culture') }}">Remote kultúra</a>
-                <a href="{{ localizedRoute('about.team') }}">Csapatunk</a>
                 <a href="{{ localizedRoute('contact') }}">Kapcsolat</a>
                 @if (switchLang('en'))
                     <a class="footer__lang" href="{{ switchLang('en') }}">English</a>

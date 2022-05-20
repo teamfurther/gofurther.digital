@@ -25,13 +25,13 @@
                             <a href="{{ route(getLang() . '.blog') }}">
                                 Összes
                             </a>
-                            <a @if ($tag->slug === 'digitalis-transzformacio') class="is-active" @endif
-                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
-                                Digitális transzformáció
+                            <a @if ($tag->slug === 'startup-es-termekfejlesztes') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">
+                                Startup és termékfejlesztés
                             </a>
-                            <a @if ($tag->slug === 'startup') class="is-active" @endif
-                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
-                                startup
+                            <a @if ($tag->slug === 'digitalis-transzformacio') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
+                                Digitális transzformáció
                             </a>
                             <a @if ($tag->slug === 'elmagyarazva') class="is-active" @endif
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
@@ -65,16 +65,16 @@
                             <option value="{{ route(getLang() . '.blog') }}">
                                 Összes
                             </option>
+                            <option @if ($tag->slug === 'startup-es-termekfejlesztes') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}"
+                            >
+                                Startup és termékfejlesztés
+                            </option>
                             <option @if ($tag->slug === 'digitalis-transzformacio') selected @endif
-                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}"
+                            value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}"
                             >
                                 Digitális transzformáció
                             </option>
-                            <!-- <option @if ($tag->slug === 'startup') selected @endif
-                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}"
-                            >
-                                startup
-                            </option> -->
                             <option @if ($tag->slug === 'elmagyarazva') selected @endif
                                 value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}"
                             >

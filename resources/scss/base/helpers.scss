@@ -102,6 +102,10 @@ $displays: "block" "flex" "inline" "inline-block" "inline-flex";
     margin-bottom: 0 !important;
 }
 
+.has-margin-b5 {
+    margin-bottom: 5px !important;
+}
+
 .has-margin-b15 {
     margin-bottom: 15px !important;
 }
@@ -124,6 +128,10 @@ $displays: "block" "flex" "inline" "inline-block" "inline-flex";
 
 .has-margin-t60 {
     margin-top: 60px !important;
+}
+
+.has-margin-t90 {
+    margin-top: 90px !important;
 }
 
 // Overflow

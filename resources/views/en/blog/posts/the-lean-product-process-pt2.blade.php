@@ -106,6 +106,17 @@
                             <p>Our first step was to define our value proposition. This step can be done by (co-)creating a value proposition canvas. A user-centred business canvas can help visualise the user needs and possible solutions.</p>
                             <p>These tools help us define, structure and visualise, but they are not enough to prove our assumptions. To do that, we can use surveys or a concierge experiment if the nature of our product allows it.</p>
                             <p>Once we manage to prove our assumptions, we can proceed to our <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt3']) }}">solution-product fit stage</a>. Otherwise, we can always <a href="{{ localizedRoute('blog.show', ['slug' => 'to-pivot-or-not-to-pivot']) }}" target="_blank">pivot</a>.</p>
+                            <div class="columns">
+                                <div class="column is-6-desktop">
+                                    <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">
+                                        <img src="{{ asset('media/freebies/lean-validation-cheat-sheet-mockup-en.png') }}">
+                                    </a>
+                                </div>
+                                <div class="column is-6-desktop">
+                                    <p class="has-margin-b30">If you liked this article, download the accompanying infographic!</p>
+                                    <a class="btn is-large is-pearl" href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">I want the infographic</a>
+                                </div>
+                            </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
                             @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The Lean Product Process: #2 Formulating Your Value Proposition'])

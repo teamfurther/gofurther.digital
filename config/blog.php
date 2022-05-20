@@ -35,13 +35,13 @@ return [
             'en' => [
                 'slug' => 'how-to-use-personas-in-product-development',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'perszonak-a-termekfejlesztesben',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -49,13 +49,13 @@ return [
             'en' => [
                 'slug' => 'how-to-measure-the-success-of-your-startup',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'hogyan-merjuk-a-termekunk-sikeresseget',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -63,13 +63,13 @@ return [
             'en' => [
                 'slug' => '11-ways-to-build-an-mvp-pt2',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => '11-mod-hogy-mvp-t-epitsunk-2-resz',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -77,13 +77,13 @@ return [
             'en' => [
                 'slug' => '11-ways-to-build-an-mvp-pt1',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => '11-mod-hogy-mvp-t-epitsunk-1-resz',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -91,13 +91,13 @@ return [
             'en' => [
                 'slug' => 'what-are-hypotheses-in-product-development',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'hipotezisek-a-termekfejlesztesben',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -105,13 +105,13 @@ return [
             'en' => [
                 'slug' => 'the-lean-product-process-pt4',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'lean-termekfejlesztesi-folyamat-4-resz',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -119,13 +119,13 @@ return [
             'en' => [
                 'slug' => 'the-lean-product-process-pt3',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'lean-termekfejlesztesi-folyamat-3-resz',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -133,13 +133,13 @@ return [
             'en' => [
                 'slug' => 'the-lean-product-process-pt2',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'lean-termekfejlesztesi-folyamat-2-resz',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -147,13 +147,13 @@ return [
             'en' => [
                 'slug' => 'the-lean-product-process-pt1',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'lean-termekfejlesztesi-folyamat-1-resz',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -189,13 +189,13 @@ return [
             'en' => [
                 'slug' => 'validation-in-product-development',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'validacio-a-termekfejlesztesben',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ],
             ],
         ],
@@ -231,13 +231,13 @@ return [
             'en' => [
                 'slug' => 'dont-try-to-build-the-perfect-product',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'ne-probalj-tokeletes-termeket-fejleszteni',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ],
             ],
         ],
@@ -371,13 +371,13 @@ return [
             'en' => [
                 'slug' => '5-things-every-business-owner-should-know',
                 'tags' => [
-                    'explained' => 'Explained',
+                    'digital-transformation' => 'Digital Transformation',
                 ],
             ],
             'hu' => [
                 'slug' => '5-hasznos-adat-cegvezetoknek',
                 'tags' => [
-                    'elmagyarazva' => 'Elmagyarázva',
+                    'digitalis-transzformacio' => 'Digitális transzformáció',
                 ],
             ],
         ],
@@ -385,14 +385,12 @@ return [
             'en' => [
                 'slug' => 'how-does-a-software-optimise-your-manufacturing-processes',
                 'tags' => [
-                    'explained' => 'Explained',
                     'digital-transformation' => 'Digital Transformation',
                 ],
             ],
             'hu' => [
                 'slug' => 'hogyan-segit-egy-szoftver-a-termelesi-folyamatok-optimalizalasaban',
                 'tags' => [
-                    'elmagyarazva' => 'Elmagyarázva',
                     'digitalis-transzformacio' => 'Digitális transzformáció',
                 ],
             ],
@@ -401,13 +399,13 @@ return [
             'en' => [
                 'slug' => 'going-paperless-how-to-digitise-your-business',
                 'tags' => [
-                    'explained' => 'Explained',
+                    'digital-transformation' => 'Digital Transformation',
                 ],
             ],
             'hu' => [
                 'slug' => 'hogyan-alakitsuk-at-cegunket-papirmentesse',
                 'tags' => [
-                    'elmagyarazva' => 'Elmagyarázva',
+                    'digitalis-transzformacio' => 'Digitális transzformáció',
                 ],
             ],
         ],
@@ -415,13 +413,13 @@ return [
             'en' => [
                 'slug' => 'how-to-choose-the-right-crm',
                 'tags' => [
-                    'explained' => 'Explained',
+                    'digital-transformation' => 'Digital Transformation',
                 ],
             ],
             'hu' => [
                 'slug' => 'hogyan-valasszuk-ki-a-megfelelo-crm-rendszert',
                 'tags' => [
-                    'elmagyarazva' => 'Elmagyarázva',
+                    'digitalis-transzformacio' => 'Digitális transzformáció',
                 ],
             ],
         ],
@@ -429,13 +427,13 @@ return [
             'en' => [
                 'slug' => 'when-is-it-time-to-use-a-crm',
                 'tags' => [
-                    'explained' => 'Explained',
+                    'digital-transformation' => 'Digital Transformation',
                 ],
             ],
             'hu' => [
                 'slug' => 'mikor-hasznaljunk-crm-rendszert',
                 'tags' => [
-                    'elmagyarazva' => 'Elmagyarázva',
+                    'digitalis-transzformacio' => 'Digitális transzformáció',
                 ],
             ],
         ],
@@ -630,13 +628,13 @@ return [
         [
             'en' => [
                 'description' => 'What we learned as development partners on over a dozen startup projects.',
-                'name' => 'Startup',
-                'slug' => 'startup',
+                'name' => 'Startups and Product Development',
+                'slug' => 'startups-and-product-development',
             ],
             'hu' => [
                 'description' => 'Amit fejlesztőpartnerként megtanultunk több mint egy tucat startup projekt alatt.',
-                'name' => 'Startup',
-                'slug' => 'startup',
+                'name' => 'Startup és termékfejlesztés',
+                'slug' => 'startup-es-termekfejlesztes',
             ],
         ],
         [

@@ -96,7 +96,18 @@
                             <p>Angolul customer lifetime value (CLV, CLTV vagy LTV). Az az összeg, amit átlagban egyetlen felhasználó valaha elkölt nálunk. Tehát ha van 1000 felhasználónk, akik összesen 10 000 EUR-t költöttek nálunk, akkor a vásárlói életciklus érték, CLV = 10 EUR.</p>
                             <p class="has-margin-b60">Egy üzleti modell akkor fenntartható, hogy a CLV > CAC. Ez már egy elég jó indikátora a product-market fit-nek.</p>
                             <h2 class="heading-2 has-margin-b30">Összegzés</h2>
-                            <p>Hosszú út volt, de elértünk a lean termékfejlesztési folyamat végére. Azonban a cikksorozat itt nem ér véget! A következőkben ki fogok részletesebben bontani egy pár fogalmat amit az elmúlt cikkekben említettem, megnézzük majd, hogyan lehet a termékünket vagy szolgáltatásunkat tovább skálázni, illetve érintünk majd egyéb startupokkal kapcsolatos témákat a termékfejlesztésen túl is. Tartsatok velem!</p>
+                            <p class="has-margin-b90">Hosszú út volt, de elértünk a lean termékfejlesztési folyamat végére. Azonban a cikksorozat itt nem ér véget! A következőkben ki fogok részletesebben bontani egy pár fogalmat amit az elmúlt cikkekben említettem, megnézzük majd, hogyan lehet a termékünket vagy szolgáltatásunkat tovább skálázni, illetve érintünk majd egyéb startupokkal kapcsolatos témákat a termékfejlesztésen túl is. Tartsatok velem!</p>
+                            <div class="columns">
+                                <div class="column is-6-desktop">
+                                    <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">
+                                        <img src="{{ asset('media/freebies/lean-validation-cheat-sheet-mockup-hu.png') }}">
+                                    </a>
+                                </div>
+                                <div class="column is-6-desktop">
+                                    <p class="has-margin-b30">Ha tetszett ez a cikk, akkor töltsd le a hozzá tartozó infografikát:</p>
+                                    <a class="btn is-large is-pearl" href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">Kérem az infografikát!</a>
+                                </div>
+                            </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
                             @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'A lean termékfejlesztési folyamat: 4. Hogyan érjük el a product-market fit-et?'])

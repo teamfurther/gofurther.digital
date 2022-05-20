@@ -7,7 +7,7 @@
                         <div class="heading-2">
                             {{ $headingText ?? 'Tudj meg többet az általunk használt technológiákról' }}
                         </div>
-                        <a class="btn is-large is-pearl" href="{{ localizedRoute('about.how-we-work') }}#eszkoztar">
+                        <a class="btn is-large is-pearl" href="{{ localizedRoute('about') }}#eszkoztar">
                             {{ $buttonText ?? 'Eszköztár' }}
                         </a>
                     </div>

@@ -7,7 +7,7 @@
                         <div class="heading-2">
                             {{ $headingText ?? 'Want to learn more about the tools and tech we use?' }}
                         </div>
-                        <a class="btn is-large is-pearl" href="{{ localizedRoute('about.how-we-work') }}#tech-stack">
+                        <a class="btn is-large is-pearl" href="{{ localizedRoute('about') }}#tech-stack">
                             {{ $buttonText ?? 'Explore the stack' }}
                         </a>
                     </div>

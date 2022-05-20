@@ -3,8 +3,8 @@
         <img src="{{ asset('media/blog/thumb-dont-try-to-build-the-perfect-product.png') }}" alt="Don't Try to Build the Perfect Product!" />
     </a>
     <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
-            Startup
+        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startups-and-product-development']) }}">
+            Startups and Product Development
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => 'dont-try-to-build-the-perfect-product']) }}">

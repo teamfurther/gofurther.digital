@@ -141,7 +141,7 @@
         "width": "185"
     },
     "inLanguage": "en_gb",
-    "keywords": "Custom software development, Software development, Web development, Digital product development, MVP development, Digital transformation",
+    "keywords": "Digital product development, MVP development, Custom software development, Software development, Web development, UX research, UX design, UI design, Digital transformation",
     "mainEntityOfPage": "{{ localizedRoute('contact') }}",
     "name": "Discuss your idea, project or partnership",
     "publisher": {

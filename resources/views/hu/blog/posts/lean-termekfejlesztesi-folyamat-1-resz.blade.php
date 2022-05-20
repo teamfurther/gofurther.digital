@@ -123,6 +123,17 @@
                             </ul>
                             <p>Ha mindegyik feltevésre megerősítő választ kaptunk, akkor továbbléphetünk a <a href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-2-resz']) }}">termékfejlesztés következő szakaszára</a>. Ez azonban ritkán szokott bekövetkezni. Ezekben az ellenkező esetekben következik be az úgynevezett pivot, vagyis a fókuszváltás. Egy pivot során a tanultak alapján módosítunk a feltevéseinken és újrakezdjük ezeknek a validációját.</p>
                             <p>A mi esetünkben nagy valószínűséggel már az első feltevés hamisnak fog bizonyulni. Arra, hogy ebben az esetben hogyan pivotoljunk, szintén egy <a href="{{ localizedRoute('blog.show', ['slug' => 'pivot-vagy-nem-pivot']) }}" target="_blank">későbbi cikkben</a> fogok majd reflektálni. Egyelőre nézzük meg inkább, hogy miként validáljuk a megoldásunkat, ha már sikerült bizonyítani a probléma validitását. De ezt már egy következő cikkben!</p>
+                            <div class="columns">
+                                <div class="column is-6-desktop">
+                                    <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">
+                                        <img src="{{ asset('media/freebies/lean-validation-cheat-sheet-mockup-hu.png') }}">
+                                    </a>
+                                </div>
+                                <div class="column is-6-desktop">
+                                    <p class="has-margin-b30">Ha tetszett ez a cikk, akkor töltsd le a hozzá tartozó infografikát:</p>
+                                    <a class="btn is-large is-pearl" href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">Kérem az infografikát!</a>
+                                </div>
+                            </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
                             @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'A lean termékfejlesztési folyamat: 1. Értsük meg a felhasználóinkat'])

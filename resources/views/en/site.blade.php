@@ -95,71 +95,8 @@
         @if (!isset($showNav) || $showNav)
         <nav class="navbar">
             <div class="navbar__item"><a href="{{ localizedRoute('projects') }}">Case Studies</a></div>
-            <div class="navbar__item has-subnav">
-                <a href="{{ localizedRoute('solutions') }}">
-                    Solutions <span class="navbar__item__caret"></span>
-                </a>
-                <nav class="navbar__subnav">
-                    <div class="container">
-                        <div class="columns">
-                            <div class="column is-one-third is-sales-operations">
-                                <h3 class="navbar__subnav__title">Sales &amp; Operations</h3>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.crm') }}">CRM</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.sales') }}">Sales</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.projects') }}">Projects</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.accounting') }}">Accounting</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.purchase') }}">Purchase &amp; Inventory</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.plm') }}">PLM</a>
-                                </div>
-                            </div>
-                            <div class="column is-one-third is-productivity">
-                                <h3 class="navbar__subnav__title">Communication &amp; Productivity</h3>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.communication') }}">Communication</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.time-tracking') }}">Time Tracking</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.hr') }}">Human Resources</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.dms') }}">Document Management</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.wiki') }}">Knowledge Center</a>
-                                </div>
-                            </div>
-                            <div class="column is-one-third is-websites">
-                                <h3 class="navbar__subnav__title">Web & Mobile</h3>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.mvp') }}">MVP Development</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.mobile') }}">Mobile Apps</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.chronos') }}">Custom Websites - Chronos CMS</a></div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.ecommerce') }}">eCommerce</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="navbar__subnav__overlay"></div>
-                </nav>
-            </div>
+            <div class="navbar__item"><a href="{{ localizedRoute('services') }}">Our services</a></div>
+            <div class="navbar__item"><a href="{{ localizedRoute('about') }}">Meet us</a></div>
             <div class="navbar__item"><a href="{{ localizedRoute('blog') }}">Blog</a></div>
             <div class="navbar__item navbar__item--cta">
                 <a href="{{ localizedRoute('contact') }}"
@@ -176,17 +113,11 @@
             <a class="navbar--mobile__item" href="{{ localizedRoute('projects') }}">
                 Case Studies
             </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-product-development') }}">
-                Digital Product Development
+            <a class="navbar--mobile__item" href="{{ localizedRoute('services') }}">
+                Our services
             </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('services.custom-development') }}">
-                Software Development
-            </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('services.digital-transformation') }}">
-                Digital Transformation
-            </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('solutions') }}">
-                Our Solutions
+            <a class="navbar--mobile__item" href="{{ localizedRoute('about') }}">
+                Meet us
             </a>
             <a class="navbar--mobile__item" href="{{ localizedRoute('blog') }}">
                 Blog
@@ -217,22 +148,21 @@
         <div class="footer__top">
             <nav class="footer__nav">
                 <span class="footer__nav__title">Services</span>
-                <a href="{{ localizedRoute('services.digital-product-development') }}">
+                <a href="{{ localizedRoute('services') }}#strategy-and-research">
+                    Strategy & Research
+                </a>
+                <a href="{{ localizedRoute('services') }}#ux-research-and-design">
+                    UX Research & Design
+                </a>
+                <a href="{{ localizedRoute('services') }}#digital-product-development">
                     Digital Product Development
-                </a>
-                <a href="{{ localizedRoute('services.custom-development') }}">
-                    Custom Software Development
-                </a>
-                <a href="{{ localizedRoute('services.digital-transformation') }}">
-                    Digital Transformation
                 </a>
             </nav>
             <nav class="footer__nav">
                 <span class="footer__nav__title">Meet Further</span>
                 {{--<a href="{{ localizedRoute('events') }}">Events</a>--}}
-                <a href="{{ localizedRoute('about.how-we-work') }}">How We work</a>
+                <a href="{{ localizedRoute('about') }}">About Us</a>
                 <a href="{{ localizedRoute('about.remote-culture') }}">Remote Culture</a>
-                <a href="{{ localizedRoute('about.team') }}">The Team</a>
                 <a href="{{ localizedRoute('about.outsourcing') }}">Outsourcing</a>
                 <a href="{{ localizedRoute('jobs') }}">Careers</a>
                 <a href="{{ localizedRoute('contact') }}">Contact</a>

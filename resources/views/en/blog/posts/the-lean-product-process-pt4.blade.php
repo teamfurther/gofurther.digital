@@ -96,7 +96,18 @@
                             <p>Customer lifetime value, often abbreviated CLV, CLTV or LTV, is the sum a single customer spends on average throughout their lifetime. If we have 1000 users, who spend a total of 10 000 EUR, our CLV will be 10 EUR.</p>
                             <p class="has-margin-b60">If our CLV > CAC, we have a good indication that our business model is sustainable and we have achieved product-market fit.</p>
                             <h2 class="heading-2 has-margin-b30">Conclusions</h2>
-                            <p>It was a long journey, but we have reached the end of our product development process. The article series, however, does not end here. In the upcoming articles, I will elaborate on a couple of already mentioned notions. We're also going to take a look at scaling our product or service further and also answer some startup-related questions beyond product development. Bear with me!</p>
+                            <p class="has-margin-b90">It was a long journey, but we have reached the end of our product development process. The article series, however, does not end here. In the upcoming articles, I will elaborate on a couple of already mentioned notions. We're also going to take a look at scaling our product or service further and also answer some startup-related questions beyond product development. Bear with me!</p>
+                            <div class="columns">
+                                <div class="column is-6-desktop">
+                                    <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">
+                                        <img src="{{ asset('media/freebies/lean-validation-cheat-sheet-mockup-en.png') }}">
+                                    </a>
+                                </div>
+                                <div class="column is-6-desktop">
+                                    <p class="has-margin-b30">If you liked this article, download the accompanying infographic!</p>
+                                    <a class="btn is-large is-pearl" href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">I want the infographic</a>
+                                </div>
+                            </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
                             @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'The Lean Product Process: #4 Achieving Product-Market Fit'])

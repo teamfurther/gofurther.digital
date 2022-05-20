@@ -1,174 +1,119 @@
 @extends('en.site', ['bodyClass' => 'has-hero'])
 
 @section('content')
-    <section class="hero is-cobalt">
+    <section class="hero is-raspberry">
         <h2 class="hero-heading">
-            Your idea. Build it. Scale it.<br />
-            <strong class="is-tangerine">Go Further.</strong>
+            From <strong class="is-tangerine">idea to execution</strong><br />
+            and beyond.
         </h2>
         <a class="hero__cta" href="{{ localizedRoute('contact') }}">
-            Have an idea you want to discuss?<strong>Let's talk</strong>
+            We'd love to listen to your product idea!<strong>Let's talk</strong>
         </a>
         <a class="hero__scroll" href="#services"></a>
     </section>
 
-    <section class="section has-padding-b30" id="services">
+    <section class="section has-padding-b60 has-padding-t0" id="services">
         <div class="container">
             <div class="columns">
                 <div class="column is-6-tablet">
-                    <h2 class="hero-heading">
-                        We turn your ideas into digital products <strong class="is-pearl">that work.</strong>
-                    </h2>
-                    <p class="has-margin-b30">
-                        Our value as a full-service digital product agency is bringing business, user experience and technology under the same roof, guiding you through the whole product development process. <strong>From idea to execution and beyond.</strong>
-                    </p>
-                    <ul class="list has-bullets">
-                        <li><a href="{{ localizedRoute('services') }}#strategy-and-research">Strategy & Research</a></li>
-                        <li><a href="{{ localizedRoute('services') }}#ux-research-and-design">UX Research & Design</a></li>
-                        <li><a href="{{ localizedRoute('services') }}#digital-product-development">Digital Product Development</a></li>
-                    </ul>
+                    <div class="columns services__service" id="strategy-and-research">
+                        <div class="column">
+                            <h2 class="heading-1 has-margin-b30">
+                                Strategy & Research
+                            </h2>
+                            <div class="services__outcome">
+                                What you'll get → <span>Validated idea</span>, <span>Product strategy</span>
+                            </div>
+                            <p>
+                                Together, we start by exploring your vision. We'll break up your idea into problems and challenges we need to solve and then put everything back together by creating a product strategy.
+                            </p>
+                            <p class="has-margin-b60">
+                                One of the core activities in this phase is getting to know your users by conducting user interviews and panels to validate the concept.
+                            </p>
+                            <a class="btn has-margin-b5">Discovery Workshop</a>
+                            <a class="btn has-margin-b5">Design Sprint</a>
+                        </div>
+                    </div>
+                    <div class="columns services__service" id="ux-research-and-design">
+                        <div class="column">
+                            <h2 class="heading-1 has-margin-b30 has-margin-t90">
+                                UX Research & Design
+                            </h2>
+                            <div class="services__outcome">
+                                What you'll get → <span>Wireframes</span>, <span>UI Designs</span>
+                            </div>
+                            <p>
+                                This is where we start building real, tactile representations of your concepts, then return to the users for feedback. Exciting times!
+                            </p>
+                            <p class="has-margin-b60">
+                                First off we create wireframes to establish information hierarchy and to give you an idea on how everything fits together. Then we add colours and interactions, finally bringing your project to life through beautiful and ergonomic UI designs.
+                            </p>
+                            <a class="btn has-margin-b5">UI Design</a>
+                        </div>
+                    </div>
+                    <div class="columns services__service" id="digital-product-development">
+                        <div class="column">
+                            <h2 class="heading-1 has-margin-b30 has-margin-t90">
+                                Digital Product Development
+                            </h2>
+                            <div class="services__outcome">
+                                What you'll get → <span>Functional prototypes (MVP)</span>, <span>Market-ready product</span>
+                            </div>
+                            <p>
+                                If it lives in the digital space, we can build it! From no-code prototypes to further validate your concept, to a feature-rich mobile app or and AI-driven IoT solution, we've seen it all.
+                            </p>
+                            <p class="has-margin-b60">
+                                By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.
+                            </p>
+                            <a class="btn has-margin-b5">No-code and low-code solutions</a>
+                            <a class="btn has-margin-b5">Mobile apps</a>
+                            <a class="btn has-margin-b5">Web apps</a>
+                            <a class="btn has-margin-b5">SaaS products</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="column is-offset-1-tablet">
-                    <div class="services__static">
-                        <a href="{{ localizedRoute('services') }}#strategy-and-research" class="services__static--strategy-and-research">
-                            <span>Strategy<br />& Research</span>
-                        </a>
-                        <a href="{{ localizedRoute('services') }}#ux-research-and-design" class="services__static--ux-research-and-design">
-                            <span>UX Research<br />& Design</span>
-                        </a>
-                        <a href="{{ localizedRoute('services') }}#digital-product-development" class="services__static--digital-product-development">
-                            <span>Digital Product<br />Development</span>
-                        </a>
+                <div class="column is-hidden-mobile is-offset-1-tablet">
+                    <div class="services__animated is-rotated-0">
+                        <div class="services__animated--strategy-and-research"></div>
+                        <div class="services__animated--ux-research-and-design"></div>
+                        <div class="services__animated--digital-product-development"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section is-dark has-padding-b30" id="projects">
+    @include(getLang() . '.banners.projects')
+
+    <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column">
-                    <h2 class="hero-heading has-text-centered">
-                        Our <strong class="is-tangerine">success</strong> stories.
-                    </h2>
-                </div>
-            </div>
-            <div class="columns has-margin-b30">
-                <div class="column">
-                    <div class="columns is-mobile is-multiline has-text-centered">
-                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
-                            <img src="{{ asset('media/partners/png.png') }}" alt="Procter & Gamble" />
-                        </div>
-                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
-                            <img src="{{ asset('media/partners/msd.png') }}" alt="MSD Pharma" />
-                        </div>
-                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
-                            <img src="{{ asset('media/partners/samsung-engineering.png') }}" alt="Samsung Engineering" />
-                        </div>
-                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
-                            <img src="{{ asset('media/partners/njoy.png') }}" alt="nJoy" />
-                        </div>
-                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
-                            <img src="{{ asset('media/partners/praktiker.png') }}" alt="Praktiker Hungary" />
-                        </div>
-                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
-                            <img src="{{ asset('media/partners/corvinus.png') }}" alt="Corvinus University of Budapest" />
-                        </div>
-                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
-                            <img src="{{ asset('media/partners/harborsz.png') }}" alt="Harborsz Logistic" />
-                        </div>
-                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
-                            <img src="{{ asset('media/partners/onrobot.png') }}" alt="OnRobot" />
-                        </div>
-                        <div class="column is-hidden-mobile is-4-tablet has-margin-b60">
-                            <img src="{{ asset('media/partners/steiger.png') }}" alt="Steiger" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column">
-                    <a class="project-list__featured project-list__featured--njoy-the-hive"
-                       href="{{ route(getLang() . '.projects.show', ['slug' => 'njoy-the-hive']) }}"
-                    >
-                        <div class="project-list__featured__content">
-                            <h1 class="project-list__featured__title">nJoy - The Hive ERP</h1>
-                            <div class="project-list__featured__description">
-                                nJoy, a consumer electronics brand, quickly outgrew their existing software infrastructure and needed a custom-built integrated solution. They employed us to deliver a product lifecycle management tool, created from the ground up to fit their particular needs.
-                            </div>
-                            <span class="btn is-white">Explore the case study</span>
-                        </div>
-
-                        <img class="project-list__featured__image" src="{{ asset('media/projects/njoy-project-list.png') }}" alt="nJoy - The Hive ERP system - Rapid Product Development" />
-                    </a>
-                    <a class="project-list__featured project-list__featured--centralized is-reversed"
-                       href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
-                    >
-                        <div class="project-list__featured__content">
-                            <h1 class="project-list__featured__title">Centralized.me Artist Management Platform</h1>
-                            <div class="project-list__featured__description">
-                                Centralized.me is the world's first web application for artist management. It includes video content, guides, workflow checklists, email and agreement templates and budgets for all aspects of managing the career of a music artist.
-                            </div>
-                            <span class="btn is-tangerine">Explore the case study</span>
-                        </div>
-
-                        <img class="project-list__featured__image" src="{{ asset('media/projects/centralized-project-list.png') }}" alt="Centralized.me Artist Management Platform" />
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    @include(getLang() . '.banners.projects', [
-        'buttonText' => 'Explore our case studies',
-        'headingText' => 'Want to see more projects?',
-    ])
-
-    <section class="section has-text-centered" id="our-approach">
-        <div class="container">
-            <div class="columns">
-                <div class="column">
+                <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
                     <h2 class="hero-heading">
-                        What can <strong class="is-raspberry">you expect?</strong>
+                        <strong class="is-tangerine">Success stories</strong> from our pleased customers:
                     </h2>
                 </div>
             </div>
-
-            <div class="columns">
-                <div class="column is-10-tablet is-offset-1-tablet is-8-desktop is-offset-2-desktop">
-                    <p>
-                        A collaborative process. As opposed to a traditional agency, working with Further means you'll be involved from the very beginning and throughout the project. We find this is the best way to make sure we're building something you'll love and your users will love to use.
-                    </p>
-                    <p class="has-margin-b60">
-                        By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.
-                    </p>
+            <div class="columns has-margin-b60">
+                <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
+                    <img class="testimonial__picture" src="{{ asset('img/testimonials-brian-dubb.png') }}" alt="Centralized Brian Dubb testimonial" />
+                    <blockquote class="testimonial__content">
+                        <p>
+                            Further developed our MVP quickly and within budget, which led to the on-boarding of our beta testing users and another round of investment. We're very pleased to have stayed with Further for the second release.
+                        </p>
+                        <cite class="testimonial__author">Brian DUBB, Centralized</cite>
+                    </blockquote>
                 </div>
             </div>
-            <div class="columns">
-                <div class="column is-10-tablet is-offset-1-tablet is-8-desktop is-offset-2-desktop has-margin-b60">
-                    <div class="about__process">
-                        <span class="about__process__step about__process__step--1">
-                            <strong>Discover</strong>
-                            Understanding your business needs and requirements.
-                        </span>
-                        <span class="about__process__step about__process__step--2">
-                            <strong>Ideate</strong>
-                            Finding solutions to the problems defined.
-                        </span>
-                        <span class="about__process__step about__process__step--3">
-                            <strong>Prototype and test</strong>
-                            Designing prototypes to test our initial concepts.
-                        </span>
-                        <span class="about__process__step about__process__step--4">
-                            <strong>Implement</strong>
-                            Developing the validated features.
-                        </span>
-                        <span class="about__process__step about__process__step--5">
-                            <strong>Evolve</strong>
-                            Sustaining, measuring and improving your product.
-                        </span>
-                    </div>
+            <div class="columns has-margin-b90">
+                <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
+                    <img class="testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-attila-szegedi.png') }}" alt="Brewie Attila Szegedi testimonial" />
+                    <blockquote class="testimonial__content">
+                        <p>
+                            Further customized their own CMS called Chronos to suit our needs. It now serves as the core of our knowledge platform. The platform is working perfectly, allowing us to store and share a huge amount of information about our machine and beer brewing.
+                        </p>
+                        <cite class="testimonial__author">Attila SZEGEDI, Brewie</cite>
+                    </blockquote>
                 </div>
             </div>
         </div>

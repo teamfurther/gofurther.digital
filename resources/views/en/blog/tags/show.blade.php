@@ -25,14 +25,9 @@
                             <a href="{{ route(getLang() . '.blog') }}">
                                 All
                             </a>
-                            <a @if ($tag->slug === 'digital-transformation') class="is-active" @endif
-                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}"
-                            >
-                                Digital Transformation
-                            </a>
-                            <a @if ($tag->slug === 'startup') class="is-active" @endif
-                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
-                                startup
+                            <a @if ($tag->slug === 'startups-and-product-development') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startups-and-product-development']) }}">
+                                Startups and Product Development
                             </a>
                             <a @if ($tag->slug === 'explained') class="is-active" @endif
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
@@ -66,16 +61,11 @@
                             <option value="{{ route(getLang() . '.blog') }}">
                                 All
                             </option>
-                            <option @if ($tag->slug === 'digital-transformation') selected @endif
-                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}"
+                            <option @if ($tag->slug === 'startups-and-product-development') selected @endif
+                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startups-and-product-development']) }}"
                             >
-                                Digital Transformation
+                                Startups and Product Development
                             </option>
-                            <!-- <option @if ($tag->slug === 'startup') selected @endif
-                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}"
-                            >
-                                startup
-                            </option> -->
                             <option @if ($tag->slug === 'explained') selected @endif
                                 value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}"
                             >

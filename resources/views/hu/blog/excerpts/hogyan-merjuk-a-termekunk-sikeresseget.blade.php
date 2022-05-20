@@ -3,8 +3,8 @@
         <img src="{{ asset('media/blog/thumb-how-to-measure-the-success-of-your-startup.png') }}" alt="Hogyan mérjük a termékünk sikerességet?" />
     </a>
     <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
-            Startup
+        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">
+            Startup és termékfejlesztés
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-merjuk-a-termekunk-sikeresseget']) }}">

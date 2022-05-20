@@ -110,6 +110,17 @@
                             <p>Első lépésünk az értékajánlatunk meghatározása lesz. Ezt egy (felhasználókkal közösen készített) value proposition canvas segítségével tudjuk megvalósítani. A user-centered business canvas segít a felhasználói igények és a megoldásunk vizualizációjában.</p>
                             <p>Ez a két eszköz segít a meghatározásban, struktúrálásban és megjelenítésben, de nem elegendőek az érték feltevések megerősítéséhez. Erre használhatunk kérdőíveket, vagy ha olyan a termékünk, akkor egy concierge kísérlet egy izgalmas és hatékony módja lehet a probléma-megoldás megfelelés bizonyításának.</p>
                             <p>Ha sikerül a bizonyítás, akkor irány <a href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-3-resz']) }}">a megoldás-termék megfelelési szakasz</a>, különben pedig jöhet a már többször emlegetett fókuszváltás, más nevén <a href="{{ localizedRoute('blog.show', ['slug' => 'pivot-vagy-nem-pivot']) }}" target="_blank">a pivot</a>!</p>
+                            <div class="columns">
+                                <div class="column is-6-desktop">
+                                    <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">
+                                        <img src="{{ asset('media/freebies/lean-validation-cheat-sheet-mockup-hu.png') }}">
+                                    </a>
+                                </div>
+                                <div class="column is-6-desktop">
+                                    <p class="has-margin-b30">Ha tetszett ez a cikk, akkor töltsd le a hozzá tartozó infografikát:</p>
+                                    <a class="btn is-large is-pearl" href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">Kérem az infografikát!</a>
+                                </div>
+                            </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
                             @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'A lean termékfejlesztési folyamat: 2. Fogalmazzuk meg az értékajánlatunkat'])

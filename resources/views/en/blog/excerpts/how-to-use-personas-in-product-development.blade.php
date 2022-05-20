@@ -3,8 +3,8 @@
         <img src="{{ asset('media/blog/thumb-how-to-use-personas-in-product-development.png') }}" alt="How to Use Personas in Product Development" />
     </a>
     <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
-            Startup
+        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startups-and-product-development']) }}">
+            Startups and Product Development
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-use-personas-in-product-development']) }}">

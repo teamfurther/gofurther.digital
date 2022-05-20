@@ -3,8 +3,8 @@
         <img src="{{ asset('media/blog/thumb-the-lean-product-process-1-hu.png') }}" alt="A lean termékfejlesztési folyamat: 1. Értsük meg a felhasználóinkat" />
     </a>
     <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
-            Startup
+        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">
+            Startup és termékfejlesztés
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-1-resz']) }}">

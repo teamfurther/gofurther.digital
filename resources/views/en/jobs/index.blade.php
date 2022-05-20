@@ -56,7 +56,7 @@
             <div class="modal__content">
                 <div class="modal__header has-no-border">
                     <a class="modal__close" data-dismiss="modal">&times;</a>
-                    <img class="modal__icon" src="{{ asset('img/cv-icon.png') }}" alt="" />
+                    <img class="modal__icon" src="{{ asset('img/icon-badge.png') }}" alt="" />
                     <h3 class="modal__title has-text-centered">Send us your CV</h3>
                 </div>
                 <form class="modal__form" action="{{ localizedRoute('jobs.send') }}" method="POST">
@@ -205,7 +205,7 @@
         "width": "185"
     },
     "inLanguage": "en_gb",
-    "keywords": "Custom software development, Software development, Web development, Digital product development, MVP development, Digital transformation",
+    "keywords": "Digital product development, MVP development, Custom software development, Software development, Web development, UX research, UX design, UI design, Digital transformation",
     "mainEntityOfPage": "{{ localizedRoute('jobs') }}",
     "name": "Our Current Job Offers",
     "publisher": {

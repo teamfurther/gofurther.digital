@@ -25,17 +25,9 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
     Route::view('privacy-policy', 'en.pages.privacy')->name('privacy');
     Route::view('terms-of-use', 'en.pages.terms')->name('terms');
 
-    Route::view('digital-transformation', 'en.services.digital-transformation')
-        ->name('services.digital-transformation');
-    Route::view('custom-software-development', 'en.services.custom-development')
-        ->name('services.custom-development');
-    Route::view('digital-product-development', 'en.services.digital-product-development')
-        ->name('services.digital-product-development');
-
-    Route::view('about/how-we-work', 'en.about.how-we-work')->name('about.how-we-work');
+    Route::view('about', 'en.about.index')->name('about');
     Route::view('about/remote-culture', 'en.about.remote-culture')->name('about.remote-culture');
     Route::view('about/outsourcing', 'en.about.outsourcing')->name('about.outsourcing');
-    Route::view('about/team', 'en.about.team')->name('about.team');
 
     Route::get('blog', [BlogController::class, 'index'])->name('blog');
     Route::get('blog/posts/{slug}', [BlogController::class, 'show'])->name('blog.show');
@@ -64,6 +56,8 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
 
     Route::get('projects', [ProjectsController::class, 'index'])->name('projects');
     Route::get('projects/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
+
+    Route::view('services', 'en.services.index')->name('services');
 
     Route::view('solutions', 'en.solutions.index')
         ->name('solutions');
@@ -110,9 +104,8 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
     Route::view('hamarosan', 'hu.pages.coming-soon')->name('coming-soon');
     Route::view('linktree', 'hu.pages.linktree')->name('linktree');
 
-    Route::view('rolunk/hogyan-dolgozunk', 'hu.about.how-we-work')->name('about.how-we-work');
+    Route::view('rolunk', 'hu.about.index')->name('about');
     Route::view('rolunk/remote-kultura', 'hu.about.remote-culture')->name('about.remote-culture');
-    Route::view('rolunk/csapatunk', 'hu.about.team')->name('about.team');
 
     Route::get('blog', [BlogController::class, 'index'])->name('blog');
     Route::get('blog/cikkek/{slug}', [BlogController::class, 'show'])->name('blog.show');
@@ -137,12 +130,7 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
     Route::get('projektek', [ProjectsController::class, 'index'])->name('projects');
     Route::get('projektek/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
 
-    Route::view('digitalis-transzformacio', 'hu.services.digital-transformation')
-        ->name('services.digital-transformation');
-    Route::view('egyedi-szoftverfejlesztes', 'hu.services.custom-development')
-        ->name('services.custom-development');
-    Route::view('digitalis-termekfejlesztes', 'hu.services.digital-product-development')
-        ->name('services.digital-product-development');
+    Route::view('szolgaltatasok', 'hu.services.index')->name('services');
 
     Route::view('megoldasaink', 'hu.solutions.index')
         ->name('solutions');

@@ -3,8 +3,8 @@
         <img src="{{ asset('media/blog/thumb-11-ways-to-build-an-mvp-1-hu.png') }}" alt="11 mód, hogy MVP-t építsünk" />
     </a>
     <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
-            Startup
+        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">
+            Startup és termékfejlesztés
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => '11-mod-hogy-mvp-t-epitsunk-1-resz']) }}">

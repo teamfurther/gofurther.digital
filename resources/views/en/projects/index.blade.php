@@ -28,18 +28,18 @@
 
                         <img class="project-list__featured__image" src="{{ asset('media/projects/njoy-project-list.png') }}" alt="nJoy - The Hive ERP system - Rapid Product Development" />
                     </a>
-                    <a class="project-list__featured project-list__featured--steiger-erp is-reversed"
-                       href="{{ route(getLang() . '.projects.show', ['slug' => 'steiger-erp']) }}"
+                    <a class="project-list__featured project-list__featured--centralized is-reversed"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
                     >
                         <div class="project-list__featured__content">
-                            <h1 class="project-list__featured__title">Steiger ERP</h1>
+                            <h1 class="project-list__featured__title">Centralized.me Artist Management Platform</h1>
                             <div class="project-list__featured__description">
-                                At its core, Steiger is a family business, being involved in the metalworking industry for several generations. We were contacted by them to develop a system that would automate their workflow and improve the reliability of their processes.
+                                Centralized.me is the world's first web application for artist management. It includes video content, guides, workflow checklists, email and agreement templates and budgets for all aspects of managing the career of a music artist.
                             </div>
-                            <span class="btn is-pearl">Explore the case study</span>
+                            <span class="btn is-tangerine">Explore the case study</span>
                         </div>
 
-                        <img class="project-list__featured__image" src="{{ asset('media/projects/steiger-project-list.png') }}" alt="Steiger ERP - From Sales to Production" />
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/centralized-project-list.png') }}" alt="Centralized.me Artist Management Platform" />
                     </a>
                 </div>
             </div>
@@ -60,11 +60,11 @@
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
                     >
-                        <img class="project-list__item__image" src="{{ asset('media/projects/centralized-project-list.jpg') }}" alt="Centralized.me - Artist Management From A to Z" />
+                        <img class="project-list__item__image" src="{{ asset('media/projects/steiger-project-list.jpg') }}" alt="Steiger ERP" />
 
-                        <h1 class="project-list__item__title">Centralized.me Artist Management Platform</h1>
+                        <h1 class="project-list__item__title">Steiger ERP</h1>
                         <div class="project-list__item__description">
-                            Centralized.me is the world's first web application for artist management. It includes video content, guides, workflow checklists, email and agreement templates and budgets for all aspects of managing the career of a music artist.
+                            At its core, Steiger is a family business, being involved in the metalworking industry for several generations. We were contacted by them to develop a system that would automate their workflow and improve the reliability of their processes.
                         </div>
                     </a>
                 </div>
@@ -237,7 +237,7 @@
         "width": "185"
     },
     "inLanguage": "en_gb",
-    "keywords": "Custom software development, Software development, Web development, Digital product development, MVP development, Digital transformation",
+    "keywords": "Digital product development, MVP development, Custom software development, Software development, Web development, UX research, UX design, UI design, Digital transformation",
     "mainEntityOfPage": "{{ localizedRoute('projects') }}",
     "name": "Our Projects",
     "publisher": {

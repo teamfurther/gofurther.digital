@@ -3,111 +3,118 @@
 @section('content')
     <section class="hero is-cobalt">
         <h2 class="hero-heading">
-            Adat. Rendszer.<br />
-            Automatizálás.<br />
-            <strong class="is-tangerine">Szoftver.</strong>
+            A Te ötleted.<br />Megépítjük. Növeljük.<br />
+            <strong class="is-tangerine">Hódítsd meg a világot.</strong>
         </h2>
         <a class="hero__cta" href="{{ localizedRoute('contact') }}">
             Van egy ötleted, amit meg szeretnél velünk beszélni?<strong>Írd meg nekünk</strong>
         </a>
-        <a class="hero__scroll" href="#partners"></a>
+        <a class="hero__scroll" href="#services"></a>
     </section>
 
-    <section class="section is-dark has-padding-b30" id="partners">
+    <section class="section has-padding-b30" id="services">
         <div class="container">
             <div class="columns">
-                <div class="column is-10-tablet is-9-desktop">
+                <div class="column is-6-tablet">
                     <h2 class="hero-heading">
-                        Nehezen találsz <strong class="is-raspberry">megbízható</strong> fejlesztő partnert?
+                        Ötleteid <strong class="is-pearl">működő</strong><br />digitális termékké alakítjuk.
                     </h2>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column is-5-tablet">
                     <p class="has-margin-b30">
-                        Egy olyan szoftverfejlesztő céget keresel aki nem csak egyszerű beszállítód, hanem egyben partnered is? Aki túlteljesíti a projektleírásban szereplő igényeket? Akkor jó helyen jársz!
+                        Digitális termékfejlesztő ügynökségként abban rejlik értékünk, hogy egy sikeres termékhez szükséges összes hozzávaló egy helyen érthető el. Összehozzuk az üzletet, a felhasználói élményt és a technológiát, hogy végigkalauzoljunk a teljes termékfejlesztési folyamaton. Ötlettől megvalósításig és azon is túl.
                     </p>
-                    <p>
-                        A Further egy fejlesztőkből, rendszertervezőkből, designerekből és üzleti elemzőkből álló csapat. Büszkék vagyunk, hogy az ügyfeleink átlagban {{ config('site.stats.avg_years') }} éve kitartanak mellettünk. Ez úgy gondoljuk jól tükrözi a szolgáltatásaink minőségét és a hosszútávú partnerségek iránti elhivatottságunkat.
-                    </p>
+                    <ul class="list has-bullets">
+                        <li><a href="{{ localizedRoute('services') }}#strategia-es-kutatas">Stratégia és kutatás</a></li>
+                        <li><a href="{{ localizedRoute('services') }}#ux-kutatas-es-tervezes">UX kutatás és tervezés</a></li>
+                        <li><a href="{{ localizedRoute('services') }}#digitalis-termekfejlesztes">Digitális termékfejlesztés</a></li>
+                    </ul>
                 </div>
-                <div class="column is-6-tablet is-offset-1-tablet">
-                    <div class="columns is-mobile is-multiline">
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
-                            <img src="{{ asset('media/partners/png.png?v2') }}" alt="Procter & Gamble" />
-                        </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
-                            <img src="{{ asset('media/partners/njoy.png?v2') }}" alt="nJoy" />
-                        </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
-                            <img src="{{ asset('media/partners/msd.png') }}" alt="MSD Pharma" />
-                        </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
-                            <img src="{{ asset('media/partners/praktiker.png') }}" alt="Praktiker Hungary" />
-                        </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
-                            <img src="{{ asset('media/partners/harborsz.png?v2') }}" alt="Harborsz Logistic" />
-                        </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
-                            <img src="{{ asset('media/partners/corvinus.png') }}" alt="Corvinus University of Budapest" />
-                        </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
-                            <img src="{{ asset('media/partners/onrobot.png?v2') }}" alt="OnRobot" />
-                        </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
-                            <img src="{{ asset('media/partners/steiger.png?v2') }}" alt="Steiger" />
-                        </div>
+                <div class="column is-offset-1-tablet">
+                    <div class="services__static">
+                        <a href="{{ localizedRoute('services') }}#strategia-es-kutatas" class="services__static--strategy-and-research">
+                            <span>Stratégia<br />és kutatás</span>
+                        </a>
+                        <a href="{{ localizedRoute('services') }}#ux-kutatas-es-tervezes" class="services__static--ux-research-and-design">
+                            <span>UX kutatás<br />és tervezés</span>
+                        </a>
+                        <a href="{{ localizedRoute('services') }}#digitalis-termekfejlesztes" class="services__static--digital-product-development">
+                            <span>Digitális<br />termékfejlesztés</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section" id="services">
+    <section class="section is-dark has-padding-b30" id="projects">
         <div class="container">
-            <div class="columns is-multiline">
-                <div class="column is-12-tablet is-5-widescreen">
-                    <h2 class="hero-heading">
-                        Ötleteid <strong class="is-pearl">működő</strong> digitális termékké alakítjuk.
+            <div class="columns">
+                <div class="column">
+                    <h2 class="hero-heading has-text-centered">
+                        Ők már <strong class="is-tangerine">minket választottak</strong>.
                     </h2>
                 </div>
-                <div class="column is-offset-1-widescreen">
-                    <div class="columns has-margin-b90 is-mobile">
-                        <div class="column is-3-mobile is-2-tablet is-offset-1-tablet is-offset-0-widescreen">
-                            <img src="{{ asset('img/home-services-digital-transformation-icon.png') }}" alt="Digitális transzformáció" />
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div class="columns is-mobile is-multiline has-text-centered">
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
+                            <img src="{{ asset('media/partners/png.png') }}" alt="Procter & Gamble" />
                         </div>
-                        <div class="column is-8-tablet">
-                            <h3 class="heading-4">Digitális<br />transzformáció</h3>
-                            <p>
-                                A digitalizáció minden iparra hatással lesz. Megmutatjuk, hogyan segítheti a digitalizáció a Te vállalkozásodat és hogyan használhatod ki az ezzel járó lehetőségeket.
-                            </p>
-                            <a class="btn is-pearl" href="{{ localizedRoute('services.digital-transformation') }}">Tovább</a>
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
+                            <img src="{{ asset('media/partners/msd.png') }}" alt="MSD Pharma" />
                         </div>
-                    </div>
-                    <div class="columns has-margin-b90 is-mobile">
-                        <div class="column is-3-mobile is-2-tablet is-offset-1-tablet is-offset-0-widescreen">
-                            <img src="{{ asset('img/home-services-custom-development-icon.png') }}" alt="Egyedi szoftverfejlesztés" />
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
+                            <img src="{{ asset('media/partners/samsung-engineering.png') }}" alt="Samsung Engineering" />
                         </div>
-                        <div class="column is-8-tablet">
-                            <h3 class="heading-4">Egyedi<br />szoftverfejlesztés</h3>
-                            <p>
-                                Minden egyedi fejlesztési igényednek eleget tudunk tenni a követelmények megfogalmazásától a tervezésig és a megvalósításig.
-                            </p>
-                            <a class="btn is-pearl" href="{{ localizedRoute('services.custom-development') }}">Tovább</a>
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
+                            <img src="{{ asset('media/partners/njoy.png') }}" alt="nJoy" />
                         </div>
-                    </div>
-                    <div class="columns is-mobile">
-                        <div class="column is-3-mobile is-2-tablet is-offset-1-tablet is-offset-0-widescreen">
-                            <img src="{{ asset('img/home-services-digital-product-development-icon.png') }}" alt="Digitális termékfejlesztés" />
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
+                            <img src="{{ asset('media/partners/praktiker.png') }}" alt="Praktiker Hungary" />
                         </div>
-                        <div class="column is-8-tablet">
-                            <h3 class="heading-4">Digitális<br />termékfejlesztés</h3>
-                            <p>
-                                Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, amelyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.
-                            </p>
-                            <a class="btn is-pearl" href="{{ localizedRoute('services.digital-product-development') }}">Tovább</a>
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
+                            <img src="{{ asset('media/partners/corvinus.png') }}" alt="Corvinus University of Budapest" />
+                        </div>
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
+                            <img src="{{ asset('media/partners/harborsz.png') }}" alt="Harborsz Logistic" />
+                        </div>
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
+                            <img src="{{ asset('media/partners/onrobot.png') }}" alt="OnRobot" />
+                        </div>
+                        <div class="column is-hidden-mobile is-4-tablet has-margin-b60">
+                            <img src="{{ asset('media/partners/steiger.png') }}" alt="Steiger" />
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <a class="project-list__featured project-list__featured--njoy-the-hive"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'njoy-the-hive']) }}"
+                    >
+                        <div class="project-list__featured__content">
+                            <h1 class="project-list__featured__title">nJoy - The Hive ERP</h1>
+                            <div class="project-list__featured__description">
+                                Az nJoy, egy fogyasztói elektronikus eszközöket gyártó brand, rövid idő alatt felülmúlta a meglévő szoftverinfrastruktúráját és egyedi integrált megoldásra volt szüksége. Minket bíztak meg, hogy olyan termékéletciklus-kezelő eszközt fejlesszünk, amely megfelel sajátos igényeiknek.
+                            </div>
+                            <span class="btn is-white">Olvasd el az esettanulmány</span>
+                        </div>
+
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/njoy-project-list.png') }}" alt="nJoy - The Hive ERP system - Rapid Product Development" />
+                    </a>
+                    <a class="project-list__featured project-list__featured--centralized is-reversed"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
+                    >
+                        <div class="project-list__featured__content">
+                            <h1 class="project-list__featured__title">Centralized.me művészmenedzsment platform</h1>
+                            <div class="project-list__featured__description">
+                                A centralized.me a világ első művészmenedzsment applikációja, önszervezett zenészek és modern menedzserek számára. Tartalmaz minden olyan videó anyagot, útmutatót, munkafüzetet, költségvetést, email- és szerződésmintát, amire egy zenésznek szüksége lehet.
+                            </div>
+                            <span class="btn is-tangerine">Olvasd el az esettanulmány</span>
+                        </div>
+
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/centralized-project-list.png') }}" alt="Centralized.me művészmenedzsment platform" />
+                    </a>
                 </div>
             </div>
         </div>
@@ -115,102 +122,56 @@
 
     @include(getLang() . '.banners.projects')
 
-    <section class="section" id="laravel-vue">
+    <section class="section" id="our-approach">
         <div class="container">
             <div class="columns">
-                <div class="column is-10-tablet is-9-desktop">
+                <div class="column">
                     <h2 class="hero-heading">
-                        Further <strong class="is-raspberry">❤</strong> Laravel + Vue.
+                        Mire <strong class="is-raspberry">számíthatsz?</strong>
                     </h2>
                 </div>
             </div>
+
             <div class="columns">
-                <div class="column is-8-tablet">
-                    <p>Imádjuk az olyan keretrendszereket mint a Laravel és a Vue. A gazdag funkcionalitásuknak köszönhetően lehetőve teszik számunkra, hogy csökkentsük a fejlesztési időket és költségeket. Komoly tudással és tapasztalattal rendelkezünk ezeknek az eszközöknek a használatában, ami segít a letisztult, karbantartható és skálázható kód írásában.</p>
-                    <p>A Laravel a legnépszerűbb PHP keretrendszer, de a Vue is egyre kedveltebb a Javascript fejlesztők körében. Mindkettő hátterében egy fantasztikus közösség áll, amit mi is próbálunk támogatni, hozzájárulva a kódbázis fejlesztéséhez és közösségi projektekhez.</p>
-                </div>
-                <div class="column has-text-right is-4-tablet is-centered-vertical is-hidden-mobile">
-                    <img src="{{ asset('img/home-laravel-vuejs.png') }}" alt="Laravel & Vue" />
+                <div class="column is-10-tablet is-offset-1-tablet is-8-desktop is-offset-2-desktop">
+                    <p>
+                        Egy kollaboratív folyamatra. Egy hagyományos ügynökséggel ellentétben, ha minket választasz, akkor már elejétől fogva és a projekt során mindvégig be leszel vonva a folyamatba. Ezt találjuk a legbiztosabb módszernek, hogy olyan terméket építsünk ami te szeretni fogsz, a felhasználóid pedig szeretettel használnak majd.
+                    </p>
+                    <p class="has-margin-b60">
+                        Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, melyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="section has-padding-b0">
-        <div class="banner--laravel-meetup">
-            <img src="{{ asset('img/laravel-meetup.png?v2') }}" alt="Laravel Hungary Meetup" />
-            <div class="heading-3">A Further a Laravel Hungary <br class="is-hidden-touch is-hidden-fullhd" />meetup szervezője!</div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="contact__homepage">
-            <div class="container">
-                <div class="columns is-multiline">
-                    <div class="column is-12-tablet is-6-widescreen">
-                        <h2 class="hero-heading">
-                            Építsünk valamit <strong class="is-black">együtt!</strong>
-                        </h2>
-
-                        <p class="has-margin-b30">
-                            Nyitottak vagyunk minden új kérdésre, megkeresésre. Ha felkeltettük érdeklődésed, megtetszett a munkánk vagy van olyan projekted, amelyet meg szeretnél velünk beszélni, akkor vedd fel velünk a kapcsolatot telefonon vagy e-mailben.
-                        </p>
-
-                        <div class="h-card vcard">
-                            <div class="p-tel tel">
-                                <a href="tel:{{ str_replace(' ', '', config('site.contact.phone-1')) }}" class="value"
-                                   data-gtm-click='{ "show": { "event_category": "number", "event_label": "call" } }'
-                                >
-                                    HU: {{ config('site.contact.phone-1') }}
-                                </a>
-                            </div>
-                            <div class="p-tel tel">
-                                <a href="tel:{{ str_replace(' ', '', config('site.contact.phone-2')) }}" class="value"
-                                   data-gtm-click='{ "show": { "event_category": "number", "event_label": "call" } }'
-                                >
-                                    RO: {{ config('site.contact.phone-2') }}
-                                </a>
-                            </div>
-                            <div class="u-email email">
-                                <a href="mailto:{{ config('site.contact.email') }}" class="value"
-                                   data-gtm-click='{ "show": { "event_category": "email", "event_label": "send" } }'
-                                >
-                                    {{ config('site.contact.email') }}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column is-12-tablet is-6-widescreen">
-                        <form class="contact__form" id="contact-form" action="{{ localizedRoute('contact.send') }}" method="POST">
-                            {{ csrf_field() }}
-
-                            <div class="form-group {{ isset($errors) && $errors->has('name') ? 'has-error' : '' }}">
-                                <input class="form-control" name="name" placeholder="Neved *" type="text" value="{{ old('name') }}" autocomplete="name" tabindex="1" required />
-                            </div>
-                            <div class="form-group {{ isset($errors) && $errors->has('company') ? 'has-error' : '' }}">
-                                <input class="form-control" name="company" placeholder="Céged neve vagy weboldala" type="text" value="{{ old('company') }}" autocomplete="organization" tabindex="2" />
-                            </div>
-                            <div class="is-pulled-left">
-                                <div class="form-group {{ isset($errors) && $errors->has('email') ? 'has-error' : '' }}">
-                                    <input class="form-control" name="email" placeholder="E-mail címed *" type="email" value="{{ old('email') }}" autocomplete="email" tabindex="3" required />
-                                </div>
-                            </div>
-                            <div class="is-pulled-right">
-                                <div class="form-group {{ isset($errors) && $errors->has('phone') ? 'has-error' : '' }}">
-                                    <input class="form-control" name="phone" placeholder="Telefonszámod" type="text" value="{{ old('phone') }}" autocomplete="tel" tabindex="4" />
-                                </div>
-                            </div>
-                            <div class="form-group {{ isset($errors) && $errors->has('message') ? 'has-error' : '' }}">
-                                <textarea class="form-control" name="message" placeholder="Üzenet *" rows="5" tabindex="5" required>{{ old('message') }}</textarea>
-                            </div>
-                            {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
-                            <button class="btn is-large is-tangerine" type="submit">Küldés</button>
-                        </form>
+            <div class="columns">
+                <div class="column is-10-tablet is-offset-1-tablet is-8-desktop is-offset-2-desktop has-margin-b60">
+                    <div class="about__process">
+                        <span class="about__process__step about__process__step--1">
+                            <strong>Megismerés</strong>
+                            Felmérjük az üzleti igényeket és folyamatokat.
+                        </span>
+                        <span class="about__process__step about__process__step--2">
+                            <strong>Ötletelés</strong>
+                            Megoldásokat keresünk a meghatározott problémákra.
+                        </span>
+                        <span class="about__process__step about__process__step--3">
+                            <strong>Validáció</strong>
+                            Prototípusokat tervezünk, hogy teszteljük a kezdeti ötleteket.
+                        </span>
+                        <span class="about__process__step about__process__step--4">
+                            <strong>Megvalósítás</strong>
+                            Lefejlesztjük a validált megoldásokat.
+                        </span>
+                        <span class="about__process__step about__process__step--5">
+                            <strong>Fenntarthatóság</strong>
+                            Mérjük az eredményeket és továbbfejlesztjük a terméket.
+                        </span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    @include(getLang() . '.banners.contact-form')
 @endsection
 
 

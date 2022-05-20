@@ -114,7 +114,7 @@
         "width": "185"
     },
     "inLanguage": "hu_hu",
-    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, MVP fejlesztés, Digitális transzformáció",
+    "keywords": "Digitális termékfejlesztés, MVP fejlesztés, Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, UX kutatás, UX design, UI design, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('terms') }}",
     "name": "Terms of Use",
     "publisher": {

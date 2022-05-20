@@ -13,11 +13,11 @@
                             <a class="is-active" href="{{ route(getLang() . '.blog') }}">
                                 Összes
                             </a>
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">
+                                Startup és termékfejlesztés
+                            </a>
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
                                 Digitális transzformáció
-                            </a>
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
-                                startup
                             </a>
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
                                 Elmagyarázva
@@ -45,12 +45,12 @@
                             <option selected value="{{ route(getLang() . '.blog') }}">
                                 Összes
                             </option>
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">
+                                Startup és termékfejlesztés
+                            </option>
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
                                 Digitális transzformáció
                             </option>
-                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
-                                startup
-                            </option> -->
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
                                 Elmagyarázva
                             </option>
