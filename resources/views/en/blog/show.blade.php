@@ -1,3 +1,3 @@
 @extends('en.site')
 
-@include(getLang() . '.blog.posts.' . $slug)
+@include(getLang() . '.blog.posts.' . $path . '.' . $slug)

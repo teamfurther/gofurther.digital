@@ -16,21 +16,18 @@
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startups-and-product-development']) }}">
                                 Startups and Product Development
                             </a>
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                                UX
+                            </a>
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
+                                Development
+                            </a>
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
                                 Explained
                             </a>
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
                                 Remote work
                             </a>
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
-                                Agile
-                            </a>
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
-                                Development
-                            </a>
-                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
-                                UX
-                            </a> -->
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
                                 Life at Further
                             </a>
@@ -45,21 +42,18 @@
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startups-and-product-development']) }}">
                                 Startups and Product Development
                             </option>
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                                UX
+                            </option>
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
+                                Development
+                            </option>
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
                                 Explained
                             </option>
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'remote-work']) }}">
                                 Remote work
                             </option>
-                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
-                                Agile
-                            </option>
-                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
-                                Development
-                            </option> -->
-                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
-                                UX
-                            </option> -->
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
                                 Life at Further
                             </option>
@@ -71,7 +65,7 @@
                 <div class="columns is-multiline">
                     @foreach($posts as $post)
                     <div class="column is-full-tablet is-half-widescreen is-hidden">
-                        @include(getLang() . '.blog.excerpts.' . $post['slug'])
+                        @include(getLang() . '.blog.excerpts.' . $post['path'] . '.' . $post['slug'])
                     </div>
                     @endforeach
                 </div>

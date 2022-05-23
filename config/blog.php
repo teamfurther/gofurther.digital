@@ -7,13 +7,13 @@ return [
             'en' => [
                 'slug' => 'homebrewing-crowdfunding-and-30000-dollars-in-2-minutes-the-brewie-story',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'otthoni-sorfozes-crowdfunding-es-2-perc-alatt-30000-dollar-a-brewie-story',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -21,13 +21,13 @@ return [
             'en' => [
                 'slug' => 'to-pivot-or-not-to-pivot',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'pivot-vagy-nem-pivot',
                 'tags' => [
-                    'startup' => 'Startup',
+                    'startup' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -36,12 +36,14 @@ return [
                 'slug' => 'how-to-use-personas-in-product-development',
                 'tags' => [
                     'startups-and-product-development' => 'Startups and Product Development',
+                    'ux' => 'UX',
                 ],
             ],
             'hu' => [
                 'slug' => 'perszonak-a-termekfejlesztesben',
                 'tags' => [
                     'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
+                    'ux' => 'UX',
                 ]
             ],
         ],
@@ -525,13 +527,13 @@ return [
             'en' => [
                 'slug' => 'what-makes-a-good-agile-software-specification',
                 'tags' => [
-                    'agile' => 'Agile',
+                    'explained' => 'Explained',
                 ],
             ],
             'hu' => [
                 'slug' => 'mitol-lesz-jo-egy-agilis-szoftverspecifikacio',
                 'tags' => [
-                    'agile' => 'Agile',
+                    'elmagyarazva' => 'Elmagyarázva',
                 ],
             ],
         ],
@@ -553,18 +555,6 @@ return [
     ],
 
     'tags' => [
-        [
-            'en' => [
-                'description' => 'Our approach to agile, by our project management team.',
-                'name' => 'Agile',
-                'slug' => 'agile',
-            ],
-            'hu' => [
-                'description' => 'Agile módszerek, ahogy a projektmenedzsment csapatunk látja.',
-                'name' => 'Agile',
-                'slug' => 'agile',
-            ],
-        ],
         [
             'en' => [
                 'description' => 'Bits and thoughts, penned by our development team.',

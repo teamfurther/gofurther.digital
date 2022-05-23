@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Actions\GetBlogPathAction;
 use App\Actions\GetBlogPostsAction;
 use Illuminate\View\View;
 
@@ -20,13 +21,16 @@ class BlogController
         ]);
     }
 
-    public function show(string $slug): View
+    public function show(string $slug, GetBlogPathAction $getBlogPathAction): View
     {
-        if (!view()->exists(getLang() . '.blog.posts.' . $slug)) {
+        $path = $getBlogPathAction->execute($slug);
+
+        if (!view()->exists(getLang() . '.blog.posts.' . $path . '.' . $slug)) {
             abort(404);
         }
 
         return view(getLang() . '.blog.show')->with([
+            'path' => $path,
             'slug' => $slug,
         ]);
     }

@@ -16,6 +16,12 @@
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">
                                 Startup és termékfejlesztés
                             </a>
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                                UX
+                            </a>
+                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
+                                Fejlesztés
+                            </a>
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
                                 Digitális transzformáció
                             </a>
@@ -25,15 +31,6 @@
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}">
                                 Távmunka
                             </a>
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
-                                Agile
-                            </a>
-                            <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
-                                Fejlesztés
-                            </a>
-                            <!-- <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
-                                UX
-                            </a> -->
                             <a href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}">
                                 Élet a Furthernél
                             </a>
@@ -48,6 +45,12 @@
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">
                                 Startup és termékfejlesztés
                             </option>
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                                UX
+                            </option>
+                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
+                                Fejlesztés
+                            </option>
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
                                 Digitális transzformáció
                             </option>
@@ -57,15 +60,6 @@
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}">
                                 Távmunka
                             </option>
-                            <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
-                                Agile
-                            </option>
-                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
-                                Fejlesztés
-                            </option> -->
-                            <!-- <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
-                                UX
-                            </option> -->
                             <option value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}">
                                 Élet a Furthernél
                             </option>
@@ -77,7 +71,7 @@
                 <div class="columns is-multiline">
                     @foreach($posts as $post)
                     <div class="column is-full-tablet is-half-widescreen is-hidden">
-                        @include(getLang() . '.blog.excerpts.' . $post['slug'])
+                        @include(getLang() . '.blog.excerpts.' . $post['path'] . '.' . $post['slug'])
                     </div>
                     @endforeach
                 </div>
