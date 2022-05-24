@@ -11,6 +11,8 @@ Route::group(['prefix' => 'en'], function (): void {
     Route::redirect('blog/tagged/start-up', '/en/blog/tagged/startup-and-product-development', 301);
     Route::redirect('blog/tagged/startup', '/en/blog/tagged/startup-and-product-development', 301);
 
+    Route::redirect('linktree', '/en', 301);
+
     Route::redirect('projects/brewie-website', '/en/projects', 301);
     Route::redirect('projects/cravcitech-website', '/en/projects', 301);
     Route::redirect('projects/idea-elearning-software', '/en/projects', 301);
@@ -28,6 +30,8 @@ Route::group(['prefix' => 'hu'], function (): void {
 
     Route::redirect('blog/cimkek/start-up', '/hu/blog/cimkek/startup-es-termekfejlesztes', 301);
     Route::redirect('blog/cimkek/startup', '/hu/blog/cimkek/startup-es-termekfejlesztes', 301);
+
+    Route::redirect('linktree', '/hu', 301);
 
     Route::redirect('projektek/brewie-weboldal', '/hu/projektek', 301);
     Route::redirect('projektek/cravcitech-weboldal.blade.php', '/hu/projects', 301);

@@ -101,16 +101,16 @@
             <div class="posts has-margin-t60">
                 <div class="columns is-multiline">
                     <div class="column is-full-tablet is-half-widescreen">
-                        @include(getLang() . '.blog.excerpts.mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel')
+                        @include(getLang() . '.blog.excerpts.tavmunka.mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel')
                     </div>
                     <div class="column is-full-tablet is-half-widescreen">
-                        @include(getLang() . '.blog.excerpts.hogyan-vegyunk-fel-uj-remote-csapattagot')
+                        @include(getLang() . '.blog.excerpts.tavmunka.hogyan-vegyunk-fel-uj-remote-csapattagot')
                     </div>
                     <div class="column is-full-tablet is-half-widescreen">
-                        @include(getLang() . '.blog.excerpts.hogyan-epitsunk-remote-vallalati-kulturat')
+                        @include(getLang() . '.blog.excerpts.tavmunka.hogyan-epitsunk-remote-vallalati-kulturat')
                     </div>
                     <div class="column is-full-tablet is-half-widescreen">
-                        @include(getLang() . '.blog.excerpts.hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk')
+                        @include(getLang() . '.blog.excerpts.tavmunka.hogyan-motivaljuk-magunkat-ha-tavmunkaban-dolgozunk')
                     </div>
                 </div>
             </div>
@@ -118,7 +118,7 @@
     </section>
 
     @include(getLang() . '.banners.newsletter-subscription', [
-        'bodyText' => '<p class="has-margin-b30">Subcribe to our monthly newsletter where we share lots of fresh information about remote work.</p>',
+        'bodyText' => '<p class="has-margin-b30">Subscribe to our monthly newsletter where we share lots of fresh information about remote work.</p>',
         'headingText' => 'Subscribe for<br />more on <strong>remote!</strong>',
         'source' => 'remote-landing'
     ])

@@ -29,6 +29,14 @@
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">
                                 Startup és termékfejlesztés
                             </a>
+                            <a @if ($tag->slug === 'ux') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
+                                UX
+                            </a>
+                            <a @if ($tag->slug === 'fejlesztes') class="is-active" @endif
+                            href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
+                                Fejlesztés
+                            </a>
                             <a @if ($tag->slug === 'digitalis-transzformacio') class="is-active" @endif
                             href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
                                 Digitális transzformáció
@@ -41,18 +49,6 @@
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}">
                                 Távmunka
                             </a>
-                            <a @if ($tag->slug === 'agile') class="is-active" @endif
-                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}">
-                                Agile
-                            </a>
-                            <a @if ($tag->slug === 'fejlesztes') class="is-active" @endif
-                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
-                                Fejlesztés
-                            </a>
-                            <!-- <a @if ($tag->slug === 'ux') class="is-active" @endif
-                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}">
-                                UX
-                            </a> -->
                             <a @if ($tag->slug === 'elet-a-furthernel') class="is-active" @endif
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}">
                                 Élet a Furthernél
@@ -70,6 +66,16 @@
                             >
                                 Startup és termékfejlesztés
                             </option>
+                            <option @if ($tag->slug === 'ux') selected @endif
+                            value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}"
+                            >
+                                UX
+                            </option>
+                            <option @if ($tag->slug === 'fejlesztes') selected @endif
+                            value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}"
+                            >
+                                Fejlesztés
+                            </option>
                             <option @if ($tag->slug === 'digitalis-transzformacio') selected @endif
                             value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}"
                             >
@@ -85,21 +91,6 @@
                             >
                                 Távmunka
                             </option>
-                            <option @if ($tag->slug === 'agile') selected @endif
-                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'agile']) }}"
-                            >
-                                Agile
-                            </option>
-                            <!-- <option @if ($tag->slug === 'fejlesztes') selected @endif
-                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}"
-                            >
-                                Fejlesztés
-                            </option> -->
-                            <!-- <option @if ($tag->slug === 'ux') selected @endif
-                                value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'ux']) }}"
-                            >
-                                UX
-                            </option> -->
                             <option @if ($tag->slug === 'elet-a-furthernel') selected @endif
                                 value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elet-a-furthernel']) }}"
                             >
@@ -113,7 +104,7 @@
                 <div class="columns is-multiline">
                     @foreach($posts as $post)
                     <div class="column is-full-tablet is-half-widescreen is-hidden">
-                        @include(getLang() . '.blog.excerpts.' . $post['slug'])
+                        @include(getLang() . '.blog.excerpts.' . $post['path'] . '.' . $post['slug'])
                     </div>
                     @endforeach
                 </div>

@@ -7,10 +7,12 @@ use Illuminate\Support\Arr;
 class GetBlogPostsByTagAction
 {
     protected Arr $arr;
+    protected GetBlogPathAction $getBlogPathAction;
 
-    public function __construct(Arr $arr)
+    public function __construct(Arr $arr, GetBlogPathAction $getBlogPathAction)
     {
         $this->arr = $arr;
+        $this->getBlogPathAction = $getBlogPathAction;
     }
 
     /**
@@ -22,6 +24,12 @@ class GetBlogPostsByTagAction
             return array_key_exists($tagSlug, $value[getLang()]['tags']);
         });
 
-        return $this->arr->pluck($tagged, getLang());
+        $posts = $this->arr->pluck($tagged, getLang());
+
+        foreach ($posts as $key => $post) {
+            $posts[$key]['path'] = $this->getBlogPathAction->execute($post['slug'], 'excerpts');
+        }
+
+        return $posts;
     }
 }

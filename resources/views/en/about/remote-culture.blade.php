@@ -101,16 +101,16 @@
              <div class="posts has-margin-t60">
                  <div class="columns is-multiline">
                      <div class="column is-full-tablet is-half-widescreen">
-                         @include(getLang() . '.blog.excerpts.what-is-a-remote-team-and-is-it-for-you')
+                         @include(getLang() . '.blog.excerpts.remote-work.what-is-a-remote-team-and-is-it-for-you')
                      </div>
                      <div class="column is-full-tablet is-half-widescreen">
-                         @include(getLang() . '.blog.excerpts.how-to-hire-remote-talent')
+                         @include(getLang() . '.blog.excerpts.remote-work.how-to-hire-remote-talent')
                      </div>
                      <div class="column is-full-tablet is-half-widescreen">
-                         @include(getLang() . '.blog.excerpts.how-to-build-a-remote-company-culture')
+                         @include(getLang() . '.blog.excerpts.remote-work.how-to-build-a-remote-company-culture')
                      </div>
                      <div class="column is-full-tablet is-half-widescreen">
-                         @include(getLang() . '.blog.excerpts.how-to-stay-motivated-when-you-work-remotely')
+                         @include(getLang() . '.blog.excerpts.remote-work.how-to-stay-motivated-when-you-work-remotely')
                      </div>
                  </div>
              </div>
@@ -118,7 +118,7 @@
     </section>
 
     @include(getLang() . '.banners.newsletter-subscription', [
-        'bodyText' => '<p class="has-margin-b30">Subcribe to our monthly newsletter where we share lots of fresh information about remote work.</p>',
+        'bodyText' => '<p class="has-margin-b30">Subscribe to our monthly newsletter where we share lots of fresh information about remote work.</p>',
         'headingText' => 'Subscribe for<br />more on <strong>remote!</strong>',
         'source' => 'remote-landing'
     ])

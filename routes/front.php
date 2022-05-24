@@ -21,7 +21,6 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
     Route::view('/', 'en.pages.home')->name('home');
     Route::view('coming-soon', 'en.pages.coming-soon')->name('coming-soon');
     Route::view('cookies-policy', 'en.pages.cookies')->name('cookies');
-    Route::view('linktree', 'en.pages.linktree')->name('linktree');
     Route::view('privacy-policy', 'en.pages.privacy')->name('privacy');
     Route::view('terms-of-use', 'en.pages.terms')->name('terms');
 
@@ -102,7 +101,6 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
     Route::view('cookies-szabalyzat', 'hu.pages.cookies')->name('cookies');
     Route::view('felhasznalasi-feltetelek', 'hu.pages.terms')->name('terms');
     Route::view('hamarosan', 'hu.pages.coming-soon')->name('coming-soon');
-    Route::view('linktree', 'hu.pages.linktree')->name('linktree');
 
     Route::view('rolunk', 'hu.about.index')->name('about');
     Route::view('rolunk/remote-kultura', 'hu.about.remote-culture')->name('about.remote-culture');
