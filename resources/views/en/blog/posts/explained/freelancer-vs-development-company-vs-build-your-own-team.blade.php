@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-freelancer-vs-development-company-vs-build-your-own-team.png') }}" srcset="{{ asset('media/blog/featured-freelancer-vs-development-company-vs-build-your-own-team-768w.png') }} 768w, {{ asset('media/blog/featured-freelancer-vs-development-company-vs-build-your-own-team-1000w.png') }} 1000w" sizes="100vw" alt="Should You Hire a Freelancer, a Development Company or Build Your Own Team?" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

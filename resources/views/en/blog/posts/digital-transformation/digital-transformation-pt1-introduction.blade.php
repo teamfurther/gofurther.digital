@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-digital-transformation-1-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-digital-transformation.png') }}" srcset="{{ asset('media/blog/featured-digital-transformation-768w.png') }} 768w, {{ asset('media/blog/featured-digital-transformation-1000w.png') }} 1000w" sizes="100vw" alt="Digital Transformation Pt. 1 - Introduction" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

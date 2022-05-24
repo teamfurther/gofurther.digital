@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team-hu.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-freelancer-vs-development-company-vs-build-your-own-team.png') }}" srcset="{{ asset('media/blog/featured-freelancer-vs-development-company-vs-build-your-own-team-768w.png') }} 768w, {{ asset('media/blog/featured-freelancer-vs-development-company-vs-build-your-own-team-1000w.png') }} 1000w" sizes="100vw" alt="Szabadúszókat, saját IT csapatot vagy külsős fejlesztő partnert válasszunk egy egyedi fejlesztés kivitelezéséhez?" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

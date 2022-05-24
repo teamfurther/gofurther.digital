@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-rebranding.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-rebranding.png') }}" srcset="{{ asset('media/blog/featured-rebranding-768w.png') }} 768w, {{ asset('media/blog/featured-rebranding-1000w.png') }} 1000w" sizes="100vw" alt="The Story Behind Our Rebranding" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

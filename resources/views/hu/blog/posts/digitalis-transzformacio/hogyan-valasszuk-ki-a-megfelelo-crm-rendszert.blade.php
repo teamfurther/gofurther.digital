@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-how-to-choose-the-right-crm-hu.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-how-to-choose-the-right-crm.png') }}" srcset="{{ asset('media/blog/featured-how-to-choose-the-right-crm-768w.png') }} 768w, {{ asset('media/blog/featured-how-to-choose-the-right-crm-1000w.png') }} 1000w" sizes="100vw" alt="Hogyan válasszuk ki a megfelelő CRM rendszert?" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

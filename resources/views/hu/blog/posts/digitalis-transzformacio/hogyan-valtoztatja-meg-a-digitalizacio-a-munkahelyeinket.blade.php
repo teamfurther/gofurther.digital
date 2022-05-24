@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-how-does-digitalization-change-workplaces-hu.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-how-does-digitalization-change-workplaces.png') }}" srcset="{{ asset('media/blog/featured-how-does-digitalization-change-workplaces-768w.png') }} 768w, {{ asset('media/blog/featured-how-does-digitalization-change-workplaces-1000w.png') }} 1000w" sizes="100vw" alt="Az emberek transzformációja: hogyan változtatja meg a digitalizáció a munkahelyeinket" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

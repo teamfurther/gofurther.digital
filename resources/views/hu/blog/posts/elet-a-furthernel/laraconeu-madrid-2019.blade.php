@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-laraconeu-madrid-2019.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-laraconeu-madrid-2019.png') }}" srcset="{{ asset('media/blog/featured-laraconeu-madrid-2019-768w.png') }} 768w, {{ asset('media/blog/featured-laraconeu-madrid-2019-1000w.png') }} 1000w" sizes="100vw" alt="Élménybeszámoló a LaraconEU Madrid 2019-ről" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">
@@ -14,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">Élménybeszámoló a LaraconEU Madrid 2019-ről</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2019-05-29 12:00:00">May 29th, 2019</time> &middot; 5 min read
+                                <time class="dt-published" datetime="2019-05-29 12:00:00">2019 május 29</time> &middot; 5 min read
                             </div>
                         </div>
                     </div>

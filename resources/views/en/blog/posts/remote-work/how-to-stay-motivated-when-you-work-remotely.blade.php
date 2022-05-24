@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-remote-corporate-culture-4-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-remote-corporate-culture-4-en.png') }}" srcset="{{ asset('media/blog/featured-remote-corporate-culture-4-768w-en.png') }} 768w, {{ asset('media/blog/featured-remote-corporate-culture-4-1000w-en.png') }} 1000w" sizes="100vw" alt="How to be more motivated in a remote team" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-5-things-every-business-owner-should-know-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-5-things-every-business-owner-should-know.png') }}" srcset="{{ asset('media/blog/featured-5-things-every-business-owner-should-know-768w.png') }} 768w, {{ asset('media/blog/featured-5-things-every-business-owner-should-know-1000w.png') }} 1000w" sizes="100vw" alt="5 Things Every Business Owner Should Know" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-11-ways-to-build-an-mvp-1-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-11-ways-to-build-an-mvp-1-en.png') }}" srcset="{{ asset('media/blog/featured-11-ways-to-build-an-mvp-1-768w-en.png') }} 768w, {{ asset('media/blog/featured-11-ways-to-build-an-mvp-1-1000w-en.png') }} 1000w" sizes="100vw" alt="11 Ways to Build an MVP" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

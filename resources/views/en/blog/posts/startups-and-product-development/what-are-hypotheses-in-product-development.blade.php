@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-what-are-hypotheses-in-product-development.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-what-are-hypotheses-in-product-development.png') }}" srcset="{{ asset('media/blog/featured-what-are-hypotheses-in-product-development-768w.png') }} 768w, {{ asset('media/blog/featured-what-are-hypotheses-in-product-development-1000w.png') }} 1000w" sizes="100vw" alt="What are hypotheses in product development?" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

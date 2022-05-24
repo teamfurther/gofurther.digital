@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-how-to-use-personas-in-product-development-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-how-to-use-personas-in-product-development.png') }}" srcset="{{ asset('media/blog/featured-how-to-use-personas-in-product-development-768w.png') }} 768w, {{ asset('media/blog/featured-how-to-use-personas-in-product-development-1000w.png') }} 1000w" sizes="100vw" alt="How to Use Personas in Product Development?" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

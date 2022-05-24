@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-dont-try-to-build-the-perfect-product-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-dont-try-to-build-the-perfect-product.png') }}" srcset="{{ asset('media/blog/featured-dont-try-to-build-the-perfect-product-768w.png') }} 768w, {{ asset('media/blog/featured-dont-try-to-build-the-perfect-product-1000w.png') }} 1000w" sizes="100vw" alt="Don't Try to Build the Perfect Product!" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

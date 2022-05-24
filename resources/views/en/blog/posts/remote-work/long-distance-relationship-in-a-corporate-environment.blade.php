@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-remote-corporate-culture-5-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-remote-corporate-culture-5-en.png') }}" srcset="{{ asset('media/blog/featured-remote-corporate-culture-5-768w-en.png') }} 768w, {{ asset('media/blog/featured-remote-corporate-culture-5-1000w-en.png') }} 1000w" sizes="100vw" alt="Bridging the distance gap with remote employees" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

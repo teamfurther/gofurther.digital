@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-to-pivot-or-not-to-pivot-hu.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-to-pivot-or-not-to-pivot.png') }}" srcset="{{ asset('media/blog/featured-to-pivot-or-not-to-pivot-768w.png') }} 768w, {{ asset('media/blog/featured-to-pivot-or-not-to-pivot-1000w.png') }} 1000w" sizes="100vw" alt="Pivot vagy nem pivot: az itt a kérdés" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

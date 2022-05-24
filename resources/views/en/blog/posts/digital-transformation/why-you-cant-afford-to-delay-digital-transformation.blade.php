@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-why-you-cant-afford-to-delay-digital-transformation-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-why-you-cant-afford-to-delay-digital-transformation.png') }}" srcset="{{ asset('media/blog/featured-why-you-cant-afford-to-delay-digital-transformation-768w.png') }} 768w, {{ asset('media/blog/featured-why-you-cant-afford-to-delay-digital-transformation-1000w.png') }} 1000w" sizes="100vw" alt="The Cost of Doing Nothing: Why You Can't Afford to Delay Digital Transformation?" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

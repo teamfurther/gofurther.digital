@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-custom-development-vs-ootb-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-custom-development-vs-ootb.png') }}" srcset="{{ asset('media/blog/featured-custom-development-vs-ootb-768w.png') }} 768w, {{ asset('media/blog/featured-custom-development-vs-ootb-1000w.png') }} 1000w" sizes="100vw" alt="Custom Development vs. Out-of-the-Box Software" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

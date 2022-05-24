@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-remote-corporate-culture-5-hu.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-remote-corporate-culture-5-hu.png') }}" srcset="{{ asset('media/blog/featured-remote-corporate-culture-5-768w-hu.png') }} 768w, {{ asset('media/blog/featured-remote-corporate-culture-5-1000w-hu.png') }} 1000w" sizes="100vw" alt="Mitől válik egy remote csapat igazán összetartó csapattá?" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

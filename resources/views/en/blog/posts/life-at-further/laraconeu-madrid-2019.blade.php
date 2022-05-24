@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-laraconeu-madrid-2019.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-laraconeu-madrid-2019.png') }}" srcset="{{ asset('media/blog/featured-laraconeu-madrid-2019-768w.png') }} 768w, {{ asset('media/blog/featured-laraconeu-madrid-2019-1000w.png') }} 1000w" sizes="100vw" alt="Further@LaraconEU Madrid 2019" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'further-recognized-as-2022-leading-b2b-service-provider',
+                'tags' => [
+                    'life-at-further' => 'Life at Further',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'a-furthert-2022-vezeto-b2b-szolgaltatoi-koze-sorolta-a-clutch',
+                'tags' => [
+                    'elet-a-furthernel' => 'Élet a Furthernél',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'homebrewing-crowdfunding-and-30000-dollars-in-2-minutes-the-brewie-story',
                 'tags' => [
                     'startups-and-product-development' => 'Startups and Product Development',

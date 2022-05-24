@@ -154,7 +154,7 @@
 
                     <h4 class="heading-3">Hasznos volt az anyag, de továbbra is vannak kérdéseim…</h4>
                     <p class="has-margin-b30">
-                        <small>Ezt az anyagot csupán egy "puskának" szántuk, semmiképp nem egy kimerítő anyagnak. Ha szeretnél többet megtudni nézz bele a <a href="{{ localizedRoute('blog.tags.show', ['slug' => 'startup']) }}">blogunkba</a> részletesebb cikkekért, vagy <a href="{{ localizedRoute('contact') }}">kérj</a> egy ingyenes konzultációt.</small>
+                        <small>Ezt az anyagot csupán egy "puskának" szántuk, semmiképp nem egy kimerítő anyagnak. Ha szeretnél többet megtudni nézz bele a <a href="{{ localizedRoute('blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">blogunkba</a> részletesebb cikkekért, vagy <a href="{{ localizedRoute('contact') }}">kérj</a> egy ingyenes konzultációt.</small>
                     </p>
 
                     <h4 class="heading-3">Miért kell megadni személyes adatokat a letöltéshez?</h4>

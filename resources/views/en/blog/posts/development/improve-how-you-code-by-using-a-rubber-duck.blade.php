@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-improve-how-you-code-by-using-a-rubber-duck-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-improve-how-you-code-by-using-a-rubber-duck.png') }}" srcset="{{ asset('media/blog/featured-improve-how-you-code-by-using-a-rubber-duck-768w.png') }} 768w, {{ asset('media/blog/featured-improve-how-you-code-by-using-a-rubber-duck-1000w.png') }} 1000w" sizes="100vw" alt="Improve how you code by using a rubber duck!" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-validation-in-product-development-hu.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-validation-in-product-development.png') }}" srcset="{{ asset('media/blog/featured-validation-in-product-development-768w.png') }} 768w, {{ asset('media/blog/featured-validation-in-product-development-1000w.png') }} 1000w" sizes="100vw" alt="Validáció a termékfejlesztésben" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-how-long-is-a-development-project-hu.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-how-long-is-a-development-project.png') }}" srcset="{{ asset('media/blog/featured-how-long-is-a-development-project-768w.png') }} 768w, {{ asset('media/blog/featured-how-long-is-a-development-project-1000w.png') }} 1000w" sizes="100vw" alt="Milyen hosszú egy fejlesztési projekt?" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

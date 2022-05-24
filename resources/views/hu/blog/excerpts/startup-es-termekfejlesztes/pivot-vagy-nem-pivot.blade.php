@@ -3,8 +3,8 @@
         <img src="{{ asset('media/blog/thumb-to-pivot-or-not-to-pivot.png') }}" alt="Pivot vagy nem pivot: az itt a kérdés " />
     </a>
     <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup']) }}">
-            Startup
+        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">
+            Startup és termékfejlesztés
         </a>
         <h3 class="post__title">
             <a href="{{ localizedRoute('blog.show', ['slug' => 'pivot-vagy-nem-pivot']) }}">

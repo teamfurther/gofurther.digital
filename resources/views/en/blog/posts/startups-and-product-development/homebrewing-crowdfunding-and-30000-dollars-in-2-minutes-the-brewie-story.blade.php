@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-homebrewing-crowdfunding-and-30000-dollars-in-2-minutes-the-brewie-story-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-homebrewing-crowdfunding-and-30000-dollars-in-2-minutes-the-brewie-story.png') }}" srcset="{{ asset('media/blog/featured-homebrewing-crowdfunding-and-30000-dollars-in-2-minutes-the-brewie-story-768w.png') }} 768w, {{ asset('media/blog/featured-homebrewing-crowdfunding-and-30000-dollars-in-2-minutes-the-brewie-story-1000w.png') }} 1000w" sizes="100vw" alt="EXTRA: Homebrewing, Crowdfunding and $30.000 in 2 Minutes — The Brewie Story" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

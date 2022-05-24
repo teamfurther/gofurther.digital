@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-going-paperless-hu.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-going-paperless.png') }}" srcset="{{ asset('media/blog/featured-going-paperless-768w.png') }} 768w, {{ asset('media/blog/featured-going-paperless-1000w.png') }} 1000w" sizes="100vw" alt="Hogyan alakítsuk át cégünket papírmentessé?" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

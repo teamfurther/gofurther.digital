@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-manufacturing-software-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-manufacturing-software.png') }}" srcset="{{ asset('media/blog/featured-manufacturing-software-768w.png') }} 768w, {{ asset('media/blog/featured-manufacturing-software-1000w.png') }} 1000w" sizes="100vw" alt="How Does a Software Optimise Your Manufacturing Processes?" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

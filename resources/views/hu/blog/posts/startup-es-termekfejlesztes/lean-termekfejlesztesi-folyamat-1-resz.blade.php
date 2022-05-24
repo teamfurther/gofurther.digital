@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-the-lean-product-process-1-hu.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-the-lean-product-process-1-hu.png') }}" srcset="{{ asset('media/blog/featured-the-lean-product-process-1-768w-hu.png') }} 768w, {{ asset('media/blog/featured-the-lean-product-process-1-1000w-hu.png') }} 1000w" sizes="100vw" alt="A lean termékfejlesztési folyamat: 1. Értsük meg a felhasználóinkat" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">

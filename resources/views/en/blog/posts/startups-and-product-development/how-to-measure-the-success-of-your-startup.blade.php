@@ -3,9 +3,6 @@
 @section('preview_image', asset('media/blog/cover-how-to-measure-the-success-of-your-startup-en.png'))
 
 @section('content')
-    <div class="post__featured-image">
-        <img src="{{ asset('media/blog/featured-how-to-measure-the-success-of-your-startup.png') }}" srcset="{{ asset('media/blog/featured-how-to-measure-the-success-of-your-startup-768w.png') }} 768w, {{ asset('media/blog/featured-how-to-measure-the-success-of-your-startup-1000w.png') }} 1000w" sizes="100vw" alt="How to Measure the Success of Your Startup?" />
-    </div>
     <section class="section">
         <div class="post is-single h-entry">
             <div class="post__header">
