@@ -36,7 +36,7 @@
                             <h2 class="heading-2 has-margin-b30">Formulating our value proposition</h2>
                             <p class="has-margin-b60">In the problem validation stage, we probably discovered many user pain points and hopefully just as many opportunities to improve our users' daily lives. If our product manages to soothe these pain points and deliver these improvements, then our value propositions will be valid, and our problem-solution fit proven. Let us see what steps we can take to achieve this.</p>
                             <h3 class="heading-3 has-margin-b30">Value proposition canvas</h3>
-                            <p>One of the most useful tools to prove problem-solution fit is the value proposition canvas, introduced by Alex Osterwalder and co., in their book titled Value Proposition Design. The canvas is as simple as it gets: it's made of 1 square and 1 circle.</p>
+                            <p>One of the most useful tools to prove problem-solution fit is the <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-use-the-value-proposition-canvas']) }}">value proposition canvas</a>, introduced by Alex Osterwalder and co., in their book titled Value Proposition Design. The canvas is as simple as it gets: it's made of 1 square and 1 circle.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/the-lean-product-process-value-proposition-canvas-en.png') }}" alt="Value proposition canvas" />
                             </figure>

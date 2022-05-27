@@ -36,7 +36,7 @@
                             <h2 class="heading-2 has-margin-b30">Fogalmazzuk meg az értékajánlatunkat</h2>
                             <p class="has-margin-b60">A probléma validációs fázisban az interjúk során jó eséllyel sok felhasználói fájdalompontot fedeztünk fel, de ugyanakkor lehetőségeket is, hogy miként tudunk a felhasználók mindennapjain segíteni, jobbítani. Ha a termékünk enyhíti ezeket a fájdalompontokat és szállítja a jobbításokat, akkor az érték hipotéziseink valósak és ekkor beszélhetünk probléma-megoldás megfelelésről. De lássuk azt, hogy a gyakorlatban milyen lépéseket tudunk megtenni ennek érdekében.</p>
                             <h3 class="heading-3 has-margin-b30">Value proposition canvas</h3>
-                            <p>Az egyik leghasznosabb eszköz az probléma-megoldás megfelelés megállapítására a value proposition canvas, amit Alex Osterwalder és társai, Value Proposition Design c. könyvéből ismerhetünk. A canvas pofon egyszerű: csupán egy négyzetből és egy körből áll.</p>
+                            <p>Az egyik leghasznosabb eszköz az probléma-megoldás megfelelés megállapítására a <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-hasznald-a-value-proposition-canvast']) }}" target="_blank">value proposition canvas</a>, amit Alex Osterwalder és társai, Value Proposition Design c. könyvéből ismerhetünk. A canvas pofon egyszerű: csupán egy négyzetből és egy körből áll.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/the-lean-product-process-value-proposition-canvas-hu.png') }}" alt="Value proposition canvas" />
                             </figure>

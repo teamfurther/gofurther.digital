@@ -8,12 +8,14 @@ return [
                 'slug' => 'how-to-use-the-value-proposition-canvas',
                 'tags' => [
                     'startups-and-product-development' => 'Startups and Product Development',
+                    'ux' => 'UX',
                 ],
             ],
             'hu' => [
                 'slug' => 'hogyan-hasznald-a-value-proposition-canvast',
                 'tags' => [
                     'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
+                    'ux' => 'UX',
                 ]
             ],
         ],
