@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'how-to-use-the-value-proposition-canvas',
+                'tags' => [
+                    'startups-and-product-development' => 'Startups and Product Development',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'hogyan-hasznald-a-value-proposition-canvast',
+                'tags' => [
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'further-recognized-as-2022-leading-b2b-service-provider',
                 'tags' => [
                     'life-at-further' => 'Life at Further',
