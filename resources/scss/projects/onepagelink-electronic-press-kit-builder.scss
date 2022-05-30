@@ -1,0 +1,42 @@
+body.project--onepagelink-electronic-press-kit-builder {
+    .hero {
+        align-items: center;
+        background: radial-gradient(at 90% 100%, #e7e4df 0%, #d7d2ca 70%, #d7d2ca 100%);
+        background-color: #d7d2ca;
+        justify-content: flex-start;
+
+        &::after {
+            background: url(../media/projects/opl-hero-background.png) center bottom / 50% no-repeat;
+            content: '';
+            display: block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+
+            @include fullhd() {
+                background-size: auto;
+            }
+        }
+    }
+
+    .list-hero {
+        color: #f05a24;
+        text-shadow: 5px 5px 0 $grey-light;
+    }
+
+    .project {
+        &__contact {
+            background-color: #f05a24;
+        }
+
+        &__summary {
+            background-image: url(../media/projects/opl-summary-background.jpg);
+        }
+
+        &__text-emphasis {
+            color: #f05a24;
+        }
+    }
+}

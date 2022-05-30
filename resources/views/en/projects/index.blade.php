@@ -46,6 +46,18 @@
             <div class="columns is-mobile is-multiline">
                 <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
                     <a class="project-list__item"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'onepagelink-electronic-press-kit-builder']) }}"
+                    >
+                        <img class="project-list__item__image" src="{{ asset('media/projects/opl-project-list.jpg') }}" alt="OnePageLink - Electronic Press Kit Builder" />
+
+                        <h1 class="project-list__item__title">OnePageLink – Electronic Press Kit Builder</h1>
+                        <div class="project-list__item__description">
+                            OnePageLink is the ultimate electronic press kit builder. With its help, artists can pitch their act for opportunities or send their approved promotional assets to events & festivals. All done with one simple link.
+                        </div>
+                    </a>
+                </div>
+                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                    <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'procter-and-gamble-cycle-inventory-counting']) }}"
                     >
                         <img class="project-list__item__image" src="{{ asset('media/projects/pg-project-list.jpg') }}" alt="Procter & Gamble - Cycle Inventory Counting" />
@@ -58,13 +70,25 @@
                 </div>
                 <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
                     <a class="project-list__item"
-                       href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'steiger-erp']) }}"
                     >
                         <img class="project-list__item__image" src="{{ asset('media/projects/steiger-project-list.jpg') }}" alt="Steiger ERP" />
 
                         <h1 class="project-list__item__title">Steiger ERP</h1>
                         <div class="project-list__item__description">
                             At its core, Steiger is a family business, being involved in the metalworking industry for several generations. We were contacted by them to develop a system that would automate their workflow and improve the reliability of their processes.
+                        </div>
+                    </a>
+                </div>
+                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                    <a class="project-list__item"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'pestcast']) }}"
+                    >
+                        <img class="project-list__item__image" src="{{ asset('media/projects/pestcast-project-list.jpg') }}" alt="PestCast" />
+
+                        <h1 class="project-list__item__title">PestCast</h1>
+                        <div class="project-list__item__description">
+                            PestCast is a SaaS product for landscaping companies, gardeners, and hobbyists to predict various pests' appearance, thereby reducing the timeframe necessary for pesticide treatment.
                         </div>
                     </a>
                 </div>

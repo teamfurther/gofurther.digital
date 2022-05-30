@@ -82,7 +82,7 @@ body.has-hero > #app > .header {
 
     .navbar {
         &__item {
-            @include tablet() {
+            @include desktop() {
                 &__caret {
                     &::before,
                     &::after {
@@ -94,14 +94,14 @@ body.has-hero > #app > .header {
             & > a {
                 color: $white;
 
-                @include tablet() {
+                @include desktop() {
                     &::after {
                         background-color: $white;
                     }
                 }
             }
 
-            @include tablet() {
+            @include desktop() {
                 &--cta {
                     & > a {
                         background-color: $white;

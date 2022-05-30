@@ -46,6 +46,18 @@
             <div class="columns is-mobile is-multiline">
                 <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
                     <a class="project-list__item"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'onepagelink-electronic-press-kit-builder']) }}"
+                    >
+                        <img class="project-list__item__image" src="{{ asset('media/projects/opl-project-list.jpg') }}" alt="OnePageLink - Electronic Press Kit Builder" />
+
+                        <h1 class="project-list__item__title">OnePageLink – Electronic Press Kit Builder</h1>
+                        <div class="project-list__item__description">
+                            A OnePageLink egy EPK, azaz electronic press kit építő, aminek segítségével művészek menedzselni tudják a promóciós anyagaikat, illetve elküldeni ezeket rendezvényszervezőknek és a sajtónak. Mindezt egyetlen link segítségével.
+                        </div>
+                    </a>
+                </div>
+                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                    <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'procter-and-gamble-cycle-inventory-counting']) }}"
                     >
                         <img class="project-list__item__image" src="{{ asset('media/projects/pg-project-list.jpg') }}" alt="Procter & Gamble - Cycle Inventory Counting" />
@@ -65,6 +77,18 @@
                         <h1 class="project-list__item__title">Steiger ERP</h1>
                         <div class="project-list__item__description">
                             Alapjában véve a Steiger egy családi vállalkozás, amely több generáción át részt vett a fémfeldolgozó iparban. A Steiger képviselői felvették velünk a kapcsolatot, hogy egy olyan rendszert dolgozzunk ki, amely automatizálja munkafolyamataikat és javítja ezek megbízhatóságát.
+                        </div>
+                    </a>
+                </div>
+                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                    <a class="project-list__item"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'pestcast']) }}"
+                    >
+                        <img class="project-list__item__image" src="{{ asset('media/projects/pestcast-project-list.jpg') }}" alt="PestCast" />
+
+                        <h1 class="project-list__item__title">PestCast</h1>
+                        <div class="project-list__item__description">
+                            A PestCast egy SaaS termék kertészetek, kertészek és hobbisták számára. A termék előre jelzi a különböző kártevők megjelenését, ezáltal lerövidítve a kártevőírtási ablakot.
                         </div>
                     </a>
                 </div>

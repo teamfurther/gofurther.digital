@@ -7,7 +7,7 @@
     font-family: $family-highlight;
     width: 100%;
 
-    @include tablet() {
+    @include desktop() {
         display: flex;
     }
 
@@ -238,7 +238,7 @@
         width: 20px;
         z-index: 120;
 
-        @include tablet() {
+        @include desktop() {
             display: none;
         }
 
@@ -294,7 +294,7 @@
         width: 100%;
         z-index: 110;
 
-        @include tablet() {
+        @include desktop() {
             display: none !important;
         }
 

@@ -34,7 +34,7 @@
         }
 
         &--centralized {
-            background-color: #ea4f32;
+            background-color: #202226;
 
             img {
                 height: 40px;
@@ -49,8 +49,29 @@
             background-color: #f99b0c;
         }
 
+        &--opl {
+            background-color: #d7d2ca;
+            color: $black;
+
+            &:hover {
+                color: $black;
+            }
+
+            img {
+                height: 25px;
+            }
+        }
+
         &--ovsz {
             background-color: #e5173f;
+        }
+
+        &--pestcast {
+            background-color: #95c8a1;
+
+            img {
+                height: 30px;
+            }
         }
 
         &--pg {
