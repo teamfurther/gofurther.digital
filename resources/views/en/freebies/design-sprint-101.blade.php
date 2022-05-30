@@ -40,7 +40,7 @@
                         </div>
 
                         <input name="source" type="hidden" value="freebie: design sprint 101" />
-                        <input name="freebie" type="hidden" value="design-sprint-101.pdf" />
+                        <input name="freebie" type="hidden" value="{{ $freebie }}" />
 
                         {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
                         <button class="btn is-large is-pearl" type="submit">

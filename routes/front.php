@@ -35,9 +35,12 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
     Route::get('contact', [ContactController::class, 'show'])->name('contact');
     Route::post('contact', [ContactController::class, 'send'])->name('contact.send');
 
-    Route::view('lean-validation-cheat-sheet', 'en.freebies.lean-validation-cheat-sheet')->name('freebies.lean-validation-cheat-sheet');
-    Route::view('mvp-pocket-guide', 'en.freebies.mvp-guide')->name('freebies.mvp-guide');
-    Route::view('design-sprint-101', 'en.freebies.design-sprint-101')->name('freebies.design-sprint-101');
+    Route::view('lean-validation-cheat-sheet', 'en.freebies.lean-validation-cheat-sheet', ['freebie' => 'lean-validation-cheat-sheet-en.pdf'])
+        ->name('freebies.lean-validation-cheat-sheet');
+    Route::view('mvp-pocket-guide', 'en.freebies.mvp-guide', ['freebie' => 'mvp-guide-en.pdf'])
+        ->name('freebies.mvp-guide');
+    Route::view('design-sprint-101', 'en.freebies.design-sprint-101', ['freebie' => 'design-sprint-101.pdf'])
+        ->name('freebies.design-sprint-101');
     Route::get('freebies', [FreebiesController::class, 'download'])->name('freebies.download');
     Route::post('freebies', [FreebiesController::class, 'get'])->name('freebies.get');
 
@@ -112,8 +115,10 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
     Route::get('kapcsolat', [ContactController::class, 'show'])->name('contact');
     Route::post('kapcsolat', [ContactController::class, 'send'])->name('contact.send');
 
-    Route::view('a-lean-validacio-lepesei', 'hu.freebies.a-lean-validacio-lepesei')->name('freebies.lean-validation-cheat-sheet');
-    Route::view('mvp-zsebkalauz', 'hu.freebies.mvp-zsebkalauz')->name('freebies.mvp-guide');
+    Route::view('a-lean-validacio-lepesei', 'hu.freebies.a-lean-validacio-lepesei', ['freebie' => 'lean-validation-cheat-sheet-hu.pdf'])
+        ->name('freebies.lean-validation-cheat-sheet');
+    Route::view('mvp-zsebkalauz', 'hu.freebies.mvp-zsebkalauz', ['freebie' => 'mvp-guide-hu.pdf'])
+        ->name('freebies.mvp-guide');
     Route::get('ingyenes-anyagok', [FreebiesController::class, 'download'])->name('freebies.download');
     Route::post('ingyenes-anyagok', [FreebiesController::class, 'get'])->name('freebies.get');
 

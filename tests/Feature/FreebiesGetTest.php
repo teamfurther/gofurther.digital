@@ -10,7 +10,7 @@ use Illuminate\Notifications\AnonymousNotifiable;
 use SendinBlue\Client\Model\CreateUpdateContactModel;
 use Tests\TestCase;
 
-class FreebiesTest extends TestCase
+class FreebiesGetTest extends TestCase
 {
     use RefreshDatabase;
 

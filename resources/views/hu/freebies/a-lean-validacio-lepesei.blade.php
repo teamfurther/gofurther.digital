@@ -39,7 +39,7 @@
                         </div>
 
                         <input name="source" type="hidden" value="freebie: lean validation cheat sheet" />
-                        <input name="freebie" type="hidden" value="lean-validation-cheat-sheet-hu.pdf" />
+                        <input name="freebie" type="hidden" value="{{ $freebie }}" />
 
                         {!! Honeypot::generate('honeypotname', 'honeypottime') !!}
                         <button class="btn is-large is-pearl" type="submit">
