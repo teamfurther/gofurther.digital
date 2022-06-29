@@ -4,7 +4,7 @@
 @section('description', $tag->description)
 
 @section('content')
-    <section class="section">
+    <section class="section is-dark">
         <div class="container">
             <div class="columns">
                 <div class="column">

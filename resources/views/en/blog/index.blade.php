@@ -4,7 +4,7 @@
 @section('description', 'Thoughts and insights from the Further team. This is where we share news and moments from our life and across technology, design, innovation and culture.')
 
 @section('content')
-    <section class="section">
+    <section class="section is-dark">
         <div class="container">
             <div class="columns">
                 <div class="column">
