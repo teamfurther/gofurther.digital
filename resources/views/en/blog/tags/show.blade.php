@@ -37,6 +37,10 @@
                             href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'development']) }}">
                                 Development
                             </a>
+                            <a @if ($tag->slug === 'digital-transformation') class="is-active" @endif
+                                href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}">
+                                Digital Transformation
+                            </a>
                             <a @if ($tag->slug === 'explained') class="is-active" @endif
                                 href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
                                 Explained
@@ -72,6 +76,11 @@
                             >
                                 Development
                             </option>
+                            <option @if ($tag->slug === 'digital-transformation') selected @endif
+                            value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}"
+                            >
+                                Digital Transformation
+                            </option>
                             <option @if ($tag->slug === 'explained') selected @endif
                                 value="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}"
                             >
@@ -94,7 +103,7 @@
             <div class="posts">
                 <div class="columns is-multiline">
                     @foreach($posts as $post)
-                    <div class="column is-full-tablet is-half-widescreen is-hidden">
+                    <div class="column is-flex is-6-tablet is-4-desktop is-hidden">
                         @include(getLang() . '.blog.excerpts.' . $post['path'] . '.' . $post['slug'])
                     </div>
                     @endforeach

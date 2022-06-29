@@ -1,21 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}">
-        <img src="{{ asset('media/blog/thumb-the-lean-product-process-2-en.png') }}" alt="The Lean Product Process: #2 Formulating Your Value Proposition" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startups-and-product-development']) }}">
-            Startups and Product Development
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}">
-                The Lean Product Process: #2 Formulating Your Value Proposition
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            In this article, we'll show you how to formulate your value proposition in the search for problem-solution fit.
-        </p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}">
-            Read on &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="The Lean Product Process: #2 Formulating Your Value Proposition" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Startups and Product Development</span>
+        <h1 class="post-box__title">The Lean Product Process: #2 Formulating Your Value Proposition</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Peter Illés" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Peter Illés</h3>
+                <span class="post-box__author__date">March 17th, 2021</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        In this article, we'll show you how to formulate your value proposition in the search for problem-solution fit.
+    </div>
+</a>

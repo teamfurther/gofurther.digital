@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">How to Stay Motivated When You Work Remotely?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2020-01-04 12:00:00">2020 january 4</time> &middot; 5 min read
+                                <time class="dt-published" datetime="2020-01-04 12:00:00">Jan 4th, 2020</time> &middot; 5 min read
                             </div>
                         </div>
                     </div>

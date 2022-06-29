@@ -1,21 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'hipotezisek-a-termekfejlesztesben']) }}">
-        <img src="{{ asset('media/blog/thumb-what-are-hypotheses-in-product-development.png') }}" alt="Hipotézisek a termékfejlesztésben" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">
-            Startup és termékfejlesztés
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'hipotezisek-a-termekfejlesztesben']) }}">
-                Hipotézisek a termékfejlesztésben
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            Ebben a cikkben megismerjük a különböző hipotézis típusokat, illetve azt, hogy hogyan érdemes őket megfogalmazni és tesztelni.
-        </p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'hipotezisek-a-termekfejlesztesben']) }}">
-            Tovább &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'hipotezisek-a-termekfejlesztesben']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="Hipotézisek a termékfejlesztésben" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Startup és termékfejlesztés</span>
+        <h1 class="post-box__title">Hipotézisek a termékfejlesztésben</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Illés Péter" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Illés Péter</h3>
+                <span class="post-box__author__date">2021 június 14</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        Ebben a cikkben megismerjük a különböző hipotézis típusokat, illetve azt, hogy hogyan érdemes őket megfogalmazni és tesztelni.
+    </div>
+</a>

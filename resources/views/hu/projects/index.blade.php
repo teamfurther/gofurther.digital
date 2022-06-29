@@ -43,8 +43,8 @@
                     </a>
                 </div>
             </div>
-            <div class="columns is-mobile is-multiline">
-                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+            <div class="columns is-multiline">
+                <div class="column is-flex is-6-tablet is-4-desktop">
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'onepagelink-electronic-press-kit-builder']) }}"
                     >
@@ -56,7 +56,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                <div class="column is-flex is-6-tablet is-4-desktop">
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'procter-and-gamble-cycle-inventory-counting']) }}"
                     >
@@ -68,7 +68,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                <div class="column is-flex is-6-tablet is-4-desktop">
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'steiger-erp']) }}"
                     >
@@ -80,7 +80,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                <div class="column is-flex is-6-tablet is-4-desktop">
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'pestcast']) }}"
                     >
@@ -92,7 +92,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                <div class="column is-flex is-6-tablet is-4-desktop">
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'harborsz-logistic']) }}"
                     >

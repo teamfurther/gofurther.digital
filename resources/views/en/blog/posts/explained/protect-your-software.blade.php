@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">Protect your software! Why should you?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2020-08-12 12:00:00">August 12, 2020</time> &middot; 7 min read
+                                <time class="dt-published" datetime="2020-08-12 12:00:00">Aug 12th, 2020</time> &middot; 7 min read
                             </div>
                         </div>
                     </div>

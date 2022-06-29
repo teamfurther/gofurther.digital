@@ -103,7 +103,7 @@
             <div class="posts">
                 <div class="columns is-multiline">
                     @foreach($posts as $post)
-                    <div class="column is-full-tablet is-half-widescreen is-hidden">
+                    <div class="column is-flex is-6-tablet is-4-desktop is-hidden">
                         @include(getLang() . '.blog.excerpts.' . $post['path'] . '.' . $post['slug'])
                     </div>
                     @endforeach

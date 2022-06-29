@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">Validation in product development</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2019-11-02 12:00:00">Dec 21, 2020</time> &middot; 8 min read
+                                <time class="dt-published" datetime="2019-11-02 12:00:00">Dec 21st, 2020</time> &middot; 8 min read
                             </div>
                         </div>
                     </div>

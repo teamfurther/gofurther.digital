@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">The Cost of Doing Nothing: Why You Can't Afford to Delay Digital Transformation?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2020-07-02 12:00:00">July 2nd, 2020</time> &middot; 10 min read
+                                <time class="dt-published" datetime="2020-07-02 12:00:00">Jul 2nd, 2020</time> &middot; 10 min read
                             </div>
                         </div>
                     </div>

@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">The Lean Product Process: #1 Understanding Your Customers</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2021-03-05 12:00:00">Mar 5th, 2019</time> &middot; 12 min read
+                                <time class="dt-published" datetime="2021-03-05 12:00:00">Mar 5th, 2021</time> &middot; 12 min read
                             </div>
                         </div>
                     </div>

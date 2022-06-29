@@ -1,21 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt3']) }}">
-        <img src="{{ asset('media/blog/thumb-the-lean-product-process-3-en.png') }}" alt="The Lean Product Process: #3 Creating Your Prototype" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startups-and-product-development']) }}">
-            Startups and Product Development
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt3']) }}">
-                The Lean Product Process: #3 Creating Your Prototype
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            Let's explore how to create prototypes in order check if your product is usable and delivers the expected user experience.
-        </p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt3']) }}">
-            Read on &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt3']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="The Lean Product Process: #3 Creating Your Prototype" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Startups and Product Development</span>
+        <h1 class="post-box__title">The Lean Product Process: #3 Creating Your Prototype</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Peter Illés" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Peter Illés</h3>
+                <span class="post-box__author__date">April 29th, 2021</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        Let's explore how to create prototypes in order check if your product is usable and delivers the expected user experience.
+    </div>
+</a>

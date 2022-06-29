@@ -91,7 +91,7 @@
                             <p class="has-margin-b60">Az ajánlási arány (referral rate / RR) szorosan összefügg az NPS-el. Az RR az összes eladásunk azon százaléka, amely egy másik felhasználó ajánlásából jött létre. Minél nagyobb az NPS, valószínüleg annál magasabb az RR. Egy virális növekedési motor esetén, az RR lesz a legfontosabb metrikánk.</p>
                             <h3 class="heading-3 has-margin-b30">Vásárlói életciklus érték</h3>
                             <p>Angolul customer lifetime value (CLV, CLTV vagy LTV). Az az összeg, amit átlagban egyetlen felhasználó valaha elkölt nálunk. Tehát ha van 1000 felhasználónk, akik összesen 10 000 EUR-t költöttek nálunk, akkor a vásárlói életciklus érték, CLV = 10 EUR.</p>
-                            <p class="has-margin-b60">Egy üzleti modell akkor fenntartható, hogy a CLV > CAC. Ez már egy elég jó indikátora a product-market fit-nek.</p>
+                            <p class="has-margin-b60">Egy üzleti modell akkor fenntartható, ha a CLV > CAC. Ez már egy elég jó indikátora a product-market fit-nek.</p>
                             <h2 class="heading-2 has-margin-b30">Összegzés</h2>
                             <p class="has-margin-b90">Hosszú út volt, de elértünk a lean termékfejlesztési folyamat végére. Azonban a cikksorozat itt nem ér véget! A következőkben ki fogok részletesebben bontani egy pár fogalmat amit az elmúlt cikkekben említettem, megnézzük majd, hogyan lehet a termékünket vagy szolgáltatásunkat tovább skálázni, illetve érintünk majd egyéb startupokkal kapcsolatos témákat a termékfejlesztésen túl is. Tartsatok velem!</p>
                             <div class="columns">

@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">Can a Long-distance Relationship Work in a Corporate Environment?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2020-01-27 12:00:00">2020 january 27</time> &middot; 4 min read
+                                <time class="dt-published" datetime="2020-01-27 12:00:00">Jan 27th, 2020</time> &middot; 4 min read
                             </div>
                         </div>
                     </div>

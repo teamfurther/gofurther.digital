@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">11 Ways to Build an MVP</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2021-11-22 10:00:00">November 22nd, 2021</time> &middot; 8 min read
+                                <time class="dt-published" datetime="2021-11-22 10:00:00">Nov 22nd, 2021</time> &middot; 8 min read
                             </div>
                         </div>
                     </div>

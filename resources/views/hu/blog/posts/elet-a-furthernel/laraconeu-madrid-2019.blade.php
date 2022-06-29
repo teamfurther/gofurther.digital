@@ -21,7 +21,7 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p>Május 23-a különleges nap volt számunkra, mivel részt vettünk az első Laracon találkozónkon Madridban. 2014 óta használjuk a Laravelt (4.2-es verzió), az egyik <a href="{{ localizedRoute('about.how-we-work') }}#laravel-vue">legkedveltebb technológiánk</a>, és mi is aktívan részt veszünk a helyi közösségben, ezért a Laracon mindig is ott volt a konferencia bakancslistánkon, de mostanáig nem sikerült eljutnunk.</p>
+                            <p>Május 23-a különleges nap volt számunkra, mivel részt vettünk az első Laracon találkozónkon Madridban. 2014 óta használjuk a Laravelt (4.2-es verzió), az egyik <a href="{{ localizedRoute('about') }}#laravel-vue">legkedveltebb technológiánk</a>, és mi is aktívan részt veszünk a helyi közösségben, ezért a Laracon mindig is ott volt a konferencia bakancslistánkon, de mostanáig nem sikerült eljutnunk.</p>
                             <p>Május 22-én korán érkeztünk, egy hosszú séta során felfedeztük Madridot és megkóstoltunk néhány fantasztikus paellát. Ezután elmentünk a Teatros Luchanaba egy kapcsolatépítési estre, a remek italokat és tapast a <a href="https://twitter.com/Cyberduck_uk" target="_blank">Cyber Duck</a> finanszírozta. Nagyszerű volt találkozni olyan új emberekkel, akik hasonlóan gondolkodnak és ugyannyira kedvelik a Laravelt, mint mi.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/laraconeu-madrid-2019-teatros-luchana.jpg') }}" alt="A Teatros Luchana fantasztikus helyszín volt, nagyszerű ipari formatervezéssel" />

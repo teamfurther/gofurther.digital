@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">Technical Debt: How to Build Future-proof IT Systems?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2020-07-21 12:00:00">June 21 2020</time> &middot; 6 min read
+                                <time class="dt-published" datetime="2020-07-21 12:00:00">Jun 21st, 2020</time> &middot; 6 min read
                             </div>
                         </div>
                     </div>

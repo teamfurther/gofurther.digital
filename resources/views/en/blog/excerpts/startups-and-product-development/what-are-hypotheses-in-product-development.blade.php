@@ -1,21 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'what-are-hypotheses-in-product-development']) }}">
-        <img src="{{ asset('media/blog/thumb-what-are-hypotheses-in-product-development.png') }}" alt="What Are Hypotheses in Product Development?" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startups-and-product-development']) }}">
-            Startups and Product Development
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'what-are-hypotheses-in-product-development']) }}">
-                What Are Hypotheses in Product Development?
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            In this article we'll explore the different types of assumptions, which ones you should make and how to formulate and test them.
-        </p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'what-are-hypotheses-in-product-development']) }}">
-            Read on &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'what-are-hypotheses-in-product-development']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="What Are Hypotheses in Product Development?" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Startups and Product Development</span>
+        <h1 class="post-box__title">What Are Hypotheses in Product Development?</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Peter Illés" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Peter Illés</h3>
+                <span class="post-box__author__date">June 14th, 2021</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        In this article we'll explore the different types of assumptions, which ones you should make and how to formulate and test them.
+    </div>
+</a>

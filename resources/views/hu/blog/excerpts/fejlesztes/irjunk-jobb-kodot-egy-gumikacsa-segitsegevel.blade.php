@@ -1,20 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'irjunk-jobb-kodot-egy-gumikacsa-segitsegevel']) }}">
-        <img src="{{ asset('media/blog/thumb-improve-how-you-code-by-using-a-rubber-duck.png') }}" alt="Írjunk jobb kódot… egy gumikacsa segítségével" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'fejlesztes']) }}">
-            Fejlesztés
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'irjunk-jobb-kodot-egy-gumikacsa-segitsegevel']) }}">
-                Írjunk jobb kódot… egy gumikacsa segítségével
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            Belefutottál egy olyan programozási gubancba, amelyet nem tudsz megoldani? Keress egy gumikacsát és kezdj el hozzá beszélni a problémáiról… hadd magyarázzuk meg.</p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'irjunk-jobb-kodot-egy-gumikacsa-segitsegevel']) }}">
-            Tovább &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'irjunk-jobb-kodot-egy-gumikacsa-segitsegevel']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="Írjunk jobb kódot… egy gumikacsa segítségével" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Fejlesztés</span>
+        <h1 class="post-box__title">Írjunk jobb kódot… egy gumikacsa segítségével</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-csongor-ur.png') }}" alt="Ur Csongor" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Ur Csongor</h3>
+                <span class="post-box__author__date">2021 január 4</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        Belefutottál egy olyan programozási gubancba, amelyet nem tudsz megoldani? Keress egy gumikacsát és kezdj el hozzá beszélni a problémáiról… hadd magyarázzuk meg.
+    </div>
+</a>

@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">A semmittevés ára: miért ne halogasd a digitális transzformációt?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2020-07-02 12:00:00">2020 július 02</time> &middot; 10 perces olvasás
+                                <time class="dt-published" datetime="2020-07-02 12:00:00">2020 július 2</time> &middot; 10 perces olvasás
                             </div>
                         </div>
                     </div>

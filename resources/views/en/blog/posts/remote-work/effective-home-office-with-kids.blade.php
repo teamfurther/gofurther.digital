@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">Effective home office with kids? We'll show you how!</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2021-01-18 12:00:00">Jan 18, 2021</time> &middot; 10 min read
+                                <time class="dt-published" datetime="2021-01-18 12:00:00">Jan 18th, 2021</time> &middot; 10 min read
                             </div>
                         </div>
                     </div>

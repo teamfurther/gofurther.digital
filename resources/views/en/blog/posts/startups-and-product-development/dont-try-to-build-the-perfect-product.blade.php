@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">Don't Try to Build the Perfect Product!</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2020-07-14 12:00:00">Jul 14, 2020</time> &middot; 6 min read
+                                <time class="dt-published" datetime="2020-07-14 12:00:00">Jul 14th, 2020</time> &middot; 6 min read
                             </div>
                         </div>
                     </div>

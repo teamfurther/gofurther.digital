@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">Milyen hosszú egy fejlesztési projekt?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2019-03-04 12:00:00">2020 március 04</time> &middot; 7 perces olvasás
+                                <time class="dt-published" datetime="2019-03-04 12:00:00">2020 március 4</time> &middot; 7 perces olvasás
                             </div>
                         </div>
                     </div>
@@ -21,9 +21,6 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <div class="post__video">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/kFNIeDCYx7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
                             <p class="has-margin-b60">A korábbi cikkekben megválaszoltunk már két olyan kérdést, amit gyakran feltesznek nekünk ügyfeleink. Beszéltünk már arról, hogy mikor válasszunk egy <a href="{{ localizedRoute('blog.show', ['slug' => 'egyedi-fejlesztes-vagy-dobozos-szoftver']) }}">dobozos szoftver helyett egyedi megoldást</a>, a legutóbbi cikkben pedig arra adtunk választ, hogy <a href="{{ localizedRoute('blog.show', ['slug' => 'szabaduszokat-sajat-it-csapatot-vagy-kulso-fejleszto-partnert-valasszunk']) }}">kit érdemes ezzel a fejlesztéssel megbízni:</a> szabadúszót vagy fejlesztő céget, esetleg érdemes-e saját fejlesztő csapatot felépíteni.</p>
                             <p>A mai cikkben ismét egy olyan kérdést válaszolunk meg, amit ügyfeleink mindig megkérdeznek a projekt elején: milyen hosszú ideig tart egy fejlesztési projekt? Szó lesz majd arról, hogy mi történik egy ilyen projekt során, ami időt vesz fel, illetve hogy milyen buktatók lehetnek, amelyek miatt elhúzódhat egy fejlesztés.</p>
                             <p>Megválaszolni ezt a kérdést nagyjából olyan nehéz, mint arra a kérdésre válaszolni, hogy mennyi idő megépíteni egy házat. Az egyszerű válasz az, hogy minden fejlesztési projekt olyan hosszú, mint amilyen hosszú a követelmények listája. De hogy ne csak általánosságban beszéljünk, hanem konkrétumokat is adjunk, vegyünk 2 mintaprojektet.</p>

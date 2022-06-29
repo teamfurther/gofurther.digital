@@ -85,7 +85,7 @@ let alert = new function () {
 let blog = new function () {
     if (document.querySelector('.blog__pagination')) {
         let currentPage = 0;
-        const itemsPerPage = 10;
+        const itemsPerPage = 12;
         const totalItems = document.querySelectorAll('.posts > .columns > .column').length;
 
         document.querySelector('.blog__pagination__total').innerHTML = totalItems;

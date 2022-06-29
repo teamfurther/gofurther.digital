@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">How to Hire Remote Talent?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2019-12-12 12:00:00">2019 december 12</time> &middot; 6 min read
+                                <time class="dt-published" datetime="2019-12-12 12:00:00">Dec 12th, 2019</time> &middot; 6 min read
                             </div>
                         </div>
                     </div>

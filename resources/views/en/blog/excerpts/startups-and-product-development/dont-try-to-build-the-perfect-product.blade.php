@@ -1,21 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'dont-try-to-build-the-perfect-product']) }}">
-        <img src="{{ asset('media/blog/thumb-dont-try-to-build-the-perfect-product.png') }}" alt="Don't Try to Build the Perfect Product!" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'startups-and-product-development']) }}">
-            Startups and Product Development
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'dont-try-to-build-the-perfect-product']) }}">
-                Don't Try to Build the Perfect Product!
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            I recently had an experience which once again made me realized the importance of idea validation. Here's my story.
-        </p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'dont-try-to-build-the-perfect-product']) }}">
-            Read on &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'dont-try-to-build-the-perfect-product']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="Don't Try to Build the Perfect Product!" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Startups and Product Development</span>
+        <h1 class="post-box__title">Don't Try to Build the Perfect Product!</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Peter Illés" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Peter Illés</h3>
+                <span class="post-box__author__date">July 14th, 2020</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        I recently had an experience which once again made me realized the importance of idea validation. Here's my story.
+    </div>
+</a>

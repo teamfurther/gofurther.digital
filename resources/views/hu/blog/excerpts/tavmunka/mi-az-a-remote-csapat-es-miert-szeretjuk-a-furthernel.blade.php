@@ -1,21 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">
-        <img src="{{ asset('media/blog/thumb-remote-corporate-culture-1-hu.png') }}" alt="Hogyan segíthet egy termelésirányítási szoftver?" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'tavmunka']) }}">
-            Távmunka
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">
-                Mi az a remote csapat (és miért imádjuk a Furthernél)?
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            Mire érdemes odafigyelned, ha távmunkában gondolkozol? Mik az előnyei és hátrányai? Mi hogyan csináljuk a Furtherél? Mindezt megtudhatod cikkünkből.
-        </p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}">
-            Tovább &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'mi-az-a-remote-csapat-es-miert-szeretjuk-a-furthernel']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="Mi az a remote csapat (és miért imádjuk a Furthernél)?" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Távmunka</span>
+        <h1 class="post-box__title">Mi az a remote csapat (és miért imádjuk a Furthernél)?</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Illés Péter" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Illés Péter</h3>
+                <span class="post-box__author__date">2019 november 24</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        Mire érdemes odafigyelned, ha távmunkában gondolkozol? Mik az előnyei és hátrányai? Mi hogyan csináljuk a Furtherél? Mindezt megtudhatod cikkünkből.
+    </div>
+</a>

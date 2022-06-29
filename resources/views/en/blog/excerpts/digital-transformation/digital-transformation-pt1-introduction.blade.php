@@ -1,21 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'digital-transformation-pt1-introduction']) }}">
-        <img src="{{ asset('media/blog/thumb-digital-transformation-1-en.png') }}" alt="Digital Transformation Pt. 1 - Introduction" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digital-transformation']) }}">
-            Digital Transformation
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'digital-transformation-pt1-introduction']) }}">
-                Digital Transformation Pt. 1 - Introduction
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            Welcome to the first part of our 4 part series on digital transformation. Let's dive in, and start with what digital transformation actually means.
-        </p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'digital-transformation-pt1-introduction']) }}">
-            Read on &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'digital-transformation-pt1-introduction']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="Digital Transformation Pt. 1 - Introduction" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Digital Transformation</span>
+        <h1 class="post-box__title">Digital Transformation Pt. 1 - Introduction</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Illés Péter" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Peter Illes</h3>
+                <span class="post-box__author__date">June 25th, 2019</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        Welcome to the first part of our 4 part series on digital transformation. Let's dive in, and start with what digital transformation actually means.
+    </div>
+</a>

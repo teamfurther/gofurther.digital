@@ -1,21 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">
-        <img src="{{ asset('media/blog/thumb-digital-transformation-3-hu.png') }}" alt="Digitális transzformáció 3. rész - Üzleti folyamatok" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
-            Digitális transzformáció
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">
-                Digitális transzformáció 3. rész - Üzleti folyamatok
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            Sorozatunk harmadik részében megnézzük hogyan segítheti a BPM és az agilis metódusok a digitális transzformációt.
-        </p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}">
-            Tovább &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-3-resz-uzleti-folyamatok']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="Digitális transzformáció 3. rész - Üzleti folyamatok" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Digitális transzformáció</span>
+        <h1 class="post-box__title">Digitális transzformáció 3. rész - Üzleti folyamatok</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Illés Péter" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Illés Péter</h3>
+                <span class="post-box__author__date">2019 június 27</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        Sorozatunk harmadik részében megnézzük hogyan segítheti a BPM és az agilis metódusok a digitális transzformációt.
+    </div>
+</a>

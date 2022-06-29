@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">The transformation of people: how does digitalization change workplaces?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2020-09-20 12:00:00">Sept 20, 2020</time> &middot; 11 min read
+                                <time class="dt-published" datetime="2020-09-20 12:00:00">Sep 20, 2020</time> &middot; 11 min read
                             </div>
                         </div>
                     </div>

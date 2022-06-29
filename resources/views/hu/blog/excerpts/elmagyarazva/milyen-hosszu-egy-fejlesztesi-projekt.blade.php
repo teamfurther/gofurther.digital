@@ -1,21 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'milyen-hosszu-egy-fejlesztesi-projekt']) }}">
-        <img src="{{ asset('media/blog/thumb-how-long-is-a-development-project.png') }}" alt="Milyen hosszú egy fejlesztési projekt?" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
-            Elmagyarázva
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'milyen-hosszu-egy-fejlesztesi-projekt']) }}">
-                Milyen hosszú egy fejlesztési projekt?
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            Ma egy gyakran feltett kérdést próbálunk körbejárni: milyen hosszú ideig tart egy fejlesztés és milyen buktatókra érdemes odafigyelni, hogy ne húzódjon el a projekt?
-        </p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'milyen-hosszu-egy-fejlesztesi-projekt']) }}">
-            Tovább &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'milyen-hosszu-egy-fejlesztesi-projekt']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="Milyen hosszú egy fejlesztési projekt?" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Elmagyarázva</span>
+        <h1 class="post-box__title">Milyen hosszú egy fejlesztési projekt?</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Illés Péter" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Illés Péter</h3>
+                <span class="post-box__author__date">2020 március 4</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        Ma egy gyakran feltett kérdést próbálunk körbejárni: milyen hosszú ideig tart egy fejlesztés és milyen buktatókra érdemes odafigyelni, hogy ne húzódjon el a projekt?
+    </div>
+</a>

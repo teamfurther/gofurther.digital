@@ -1,21 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">
-        <img src="{{ asset('media/blog/thumb-digital-transformation-1-hu.png') }}" alt="Digitális transzformáció 1. rész - Bevezető" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'digitalis-transzformacio']) }}">
-            Digitális transzformáció
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">
-                Digitális transzformáció 1. rész - Bevezető
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            Üdvözlünk a digitális átalakulással kapcsolatos sorozatunk első részében. Merüljünk is el a témában, és kezdjük a digitális átalakulás valós jelentésével.
-        </p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}">
-            Tovább &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'digitalis-transzformacio-1-resz-bevezeto']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="Digitális transzformáció 1. rész - Bevezető" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Digitális transzformáció</span>
+        <h1 class="post-box__title">Digitális transzformáció 1. rész - Bevezető</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Illés Péter" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Illés Péter</h3>
+                <span class="post-box__author__date">2019 június 25</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        Üdvözlünk a digitális átalakulással kapcsolatos sorozatunk első részében. Merüljünk is el a témában, és kezdjük a digitális átalakulás valós jelentésével.
+    </div>
+</a>

@@ -1,21 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'how-long-is-a-development-project']) }}">
-        <img src="{{ asset('media/blog/thumb-how-long-is-a-development-project.png') }}" alt="How Long Does It Take to Build a Custom Software?" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'explained']) }}">
-            Explained
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'how-long-is-a-development-project']) }}">
-                How Long Does It Take to Build a Custom Software?
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            Today we're going to try and answer a question we frequently face: How Long Does It Take to Build a Custom Software and what to look out for if you want to avoid delays?
-        </p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'how-long-is-a-development-project']) }}">
-            Read on &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'how-long-is-a-development-project']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="How Long Does It Take to Build a Custom Software?" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Explained</span>
+        <h1 class="post-box__title">How Long Does It Take to Build a Custom Software?</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Illés Péter" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Peter Illes</h3>
+                <span class="post-box__author__date">February 17th, 202ö</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        Today we're going to try and answer a question we frequently face: How Long Does It Take to Build a Custom Software and what to look out for if you want to avoid delays?
+    </div>
+</a>

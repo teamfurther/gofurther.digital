@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">How to Build a Remote Company Culture?</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2019-12-28 12:00:00">2019 december 28</time> &middot; 6 min read
+                                <time class="dt-published" datetime="2019-12-28 12:00:00">Dec 28th, 2019</time> &middot; 6 min read
                             </div>
                         </div>
                     </div>

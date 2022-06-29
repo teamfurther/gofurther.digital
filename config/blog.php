@@ -5,17 +5,31 @@ return [
     'posts' => [
         [
             'en' => [
-                'slug' => 'how-to-use-the-value-proposition-canvas',
+                'slug' => 'lets-build-an-engine-of-growth',
                 'tags' => [
                     'startups-and-product-development' => 'Startups and Product Development',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'epitsunk-novekedesi-motort',
+                'tags' => [
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
+                ]
+            ],
+        ],
+        [
+            'en' => [
+                'slug' => 'how-to-use-the-value-proposition-canvas',
+                'tags' => [
                     'ux' => 'UX',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'hogyan-hasznald-a-value-proposition-canvast',
                 'tags' => [
-                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                     'ux' => 'UX',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -57,7 +71,7 @@ return [
             'hu' => [
                 'slug' => 'pivot-vagy-nem-pivot',
                 'tags' => [
-                    'startup' => 'Startup és termékfejlesztés',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -65,15 +79,15 @@ return [
             'en' => [
                 'slug' => 'how-to-use-personas-in-product-development',
                 'tags' => [
-                    'startups-and-product-development' => 'Startups and Product Development',
                     'ux' => 'UX',
+                    'startups-and-product-development' => 'Startups and Product Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'perszonak-a-termekfejlesztesben',
                 'tags' => [
-                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                     'ux' => 'UX',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
                 ]
             ],
         ],
@@ -401,76 +415,6 @@ return [
         ],
         [
             'en' => [
-                'slug' => '5-things-every-business-owner-should-know',
-                'tags' => [
-                    'digital-transformation' => 'Digital Transformation',
-                ],
-            ],
-            'hu' => [
-                'slug' => '5-hasznos-adat-cegvezetoknek',
-                'tags' => [
-                    'digitalis-transzformacio' => 'Digitális transzformáció',
-                ],
-            ],
-        ],
-        [
-            'en' => [
-                'slug' => 'how-does-a-software-optimise-your-manufacturing-processes',
-                'tags' => [
-                    'digital-transformation' => 'Digital Transformation',
-                ],
-            ],
-            'hu' => [
-                'slug' => 'hogyan-segit-egy-szoftver-a-termelesi-folyamatok-optimalizalasaban',
-                'tags' => [
-                    'digitalis-transzformacio' => 'Digitális transzformáció',
-                ],
-            ],
-        ],
-        [
-            'en' => [
-                'slug' => 'going-paperless-how-to-digitise-your-business',
-                'tags' => [
-                    'digital-transformation' => 'Digital Transformation',
-                ],
-            ],
-            'hu' => [
-                'slug' => 'hogyan-alakitsuk-at-cegunket-papirmentesse',
-                'tags' => [
-                    'digitalis-transzformacio' => 'Digitális transzformáció',
-                ],
-            ],
-        ],
-        [
-            'en' => [
-                'slug' => 'how-to-choose-the-right-crm',
-                'tags' => [
-                    'digital-transformation' => 'Digital Transformation',
-                ],
-            ],
-            'hu' => [
-                'slug' => 'hogyan-valasszuk-ki-a-megfelelo-crm-rendszert',
-                'tags' => [
-                    'digitalis-transzformacio' => 'Digitális transzformáció',
-                ],
-            ],
-        ],
-        [
-            'en' => [
-                'slug' => 'when-is-it-time-to-use-a-crm',
-                'tags' => [
-                    'digital-transformation' => 'Digital Transformation',
-                ],
-            ],
-            'hu' => [
-                'slug' => 'mikor-hasznaljunk-crm-rendszert',
-                'tags' => [
-                    'digitalis-transzformacio' => 'Digitális transzformáció',
-                ],
-            ],
-        ],
-        [
-            'en' => [
                 'slug' => 'digital-transformation-pt4-it',
                 'tags' => [
                     'digital-transformation' => 'Digital Transformation',
@@ -530,12 +474,14 @@ return [
                 'slug' => 'laraconeu-madrid-2019',
                 'tags' => [
                     'life-at-further' => 'Life at Further',
+                    'development' => 'Development',
                 ],
             ],
             'hu' => [
                 'slug' => 'laraconeu-madrid-2019',
                 'tags' => [
                     'elet-a-furthernel' => 'Élet a Furthernél',
+                    'fejlesztes' => 'Fejlesztés',
                 ],
             ],
         ],

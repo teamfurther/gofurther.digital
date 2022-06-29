@@ -1,21 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'the-story-behind-our-rebranding']) }}">
-        <img src="{{ asset('media/blog/thumb-rebranding.png') }}" alt="The Story Behind Our Rebranding" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'life-at-further']) }}">
-            Life at Further
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'the-story-behind-our-rebranding']) }}">
-                The Story Behind Our Rebranding
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            We decided to rebrand our company not only because change is necessary to grow, but the main reason behind the rebrand was that the old brand did not represent us well anymore.
-        </p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'the-story-behind-our-rebranding']) }}">
-            Read on &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'the-story-behind-our-rebranding']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="The Story Behind Our Rebranding" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Life at Further</span>
+        <h1 class="post-box__title">The Story Behind Our Rebranding</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-eszter-balla.png') }}" alt="Eszter Balla" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Eszter Balla</h3>
+                <span class="post-box__author__date">May 13th, 2019</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        We decided to rebrand our company not only because change is necessary to grow, but the main reason behind the rebrand was that the old brand did not represent us well anymore.
+    </div>
+</a>

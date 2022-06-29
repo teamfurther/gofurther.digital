@@ -1,21 +1,19 @@
-<div class="post">
-    <a class="post__image" href="{{ localizedRoute('blog.show', ['slug' => 'szabaduszokat-sajat-it-csapatot-vagy-kulso-fejleszto-partnert-valasszunk']) }}">
-        <img src="{{ asset('media/blog/thumb-freelancer-vs-development-company-vs-build-your-own-team.png') }}" alt="Szabadúszókat, saját IT csapatot vagy külsős fejlesztő partnert válasszunk?" />
-    </a>
-    <div class="post__content">
-        <a class="post__tag" href="{{ route(getLang() . '.blog.tags.show', ['slug' => 'elmagyarazva']) }}">
-            Elmagyarázva
-        </a>
-        <h3 class="post__title">
-            <a href="{{ localizedRoute('blog.show', ['slug' => 'szabaduszokat-sajat-it-csapatot-vagy-kulso-fejleszto-partnert-valasszunk']) }}">
-                Szabadúszókat, saját IT csapatot vagy külsős partnert válasszunk?
-            </a>
-        </h3>
-        <p class="post__excerpt">
-            Egy egyedi szoftvert sokféleképpen le lehet fejleszteni. De melyik opció a legmegfelelőbb számodra?
-        </p>
-        <a class="post__read-more" href="{{ localizedRoute('blog.show', ['slug' => 'szabaduszokat-sajat-it-csapatot-vagy-kulso-fejleszto-partnert-valasszunk']) }}">
-            Tovább &raquo;
-        </a>
+<a class="post-box"
+   href="{{ localizedRoute('blog.show', ['slug' => 'szabaduszokat-sajat-it-csapatot-vagy-kulso-fejleszto-partnert-valasszunk']) }}"
+>
+    <img class="post-box__image" src="{{ asset('img/blog-' . mt_rand(1, 10) . '.jpg') }}" alt="Szabadúszókat, saját IT csapatot vagy külsős partnert válasszunk?" />
+    <div class="post-box__image__overlay">
+        <span class="post-box__tag">Elmagyarázva</span>
+        <h1 class="post-box__title">Szabadúszókat, saját IT csapatot vagy külsős partnert válasszunk?</h1>
+        <div class="post-box__author">
+            <img class="post-box__author__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Illés Péter" />
+            <div class="post-box__author__info">
+                <h3 class="post-box__author__name">Illés Péter</h3>
+                <span class="post-box__author__date">2020 február 17</span>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="post-box__excerpt">
+        Egy egyedi szoftvert sokféleképpen le lehet fejleszteni. De melyik opció a legmegfelelőbb számodra?
+    </div>
+</a>
