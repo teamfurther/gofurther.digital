@@ -8,8 +8,8 @@ Route::group(['prefix' => 'en'], function (): void {
     Route::redirect('digital-product-development', '/en/services#digital-product-development', 301);
     Route::redirect('digital-transformation', '/en/services', 301);
 
-    Route::redirect('blog/tagged/start-up', '/en/blog/tagged/startup-and-product-development', 301);
-    Route::redirect('blog/tagged/startup', '/en/blog/tagged/startup-and-product-development', 301);
+    Route::redirect('blog/tagged/start-up', '/en/blog/tagged/startups-and-product-development', 301);
+    Route::redirect('blog/tagged/startup', '/en/blog/tagged/startups-and-product-development', 301);
 
     Route::redirect('linktree', '/en', 301);
 
