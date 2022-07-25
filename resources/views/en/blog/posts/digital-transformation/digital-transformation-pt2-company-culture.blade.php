@@ -1,6 +1,6 @@
 @section('title', 'Digital Transformation Series Pt. 2 - Company Culture')
 @section('description', 'In the first part of the series we saw how digital killed Kodak. But they made efforts to change their company culture and have risen from their ashes.')
-@section('preview_image', asset('media/blog/cover-digital-transformation-2-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Digital Transformation Series Pt. 2 - Company Culture']))
 
 @section('content')
     <section class="section">

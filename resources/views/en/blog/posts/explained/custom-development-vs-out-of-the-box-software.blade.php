@@ -1,6 +1,6 @@
 @section('title', 'Custom Development vs. Out-of-the-Box Software')
 @section('description', 'At one stage, each company reaches a point when they need to invest in their software infrastructure in order to grow. We will try to help you decide if a custom-built solution or out-of-the-box software is right for you.')
-@section('preview_image', asset('media/blog/cover-custom-development-vs-ootb-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'How to Choose Between Custom Development and Out-of-the-Box Software']))
 
 @section('content')
     <section class="section">

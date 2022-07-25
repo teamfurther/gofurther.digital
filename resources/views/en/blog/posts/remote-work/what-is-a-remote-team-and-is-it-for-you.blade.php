@@ -1,6 +1,6 @@
 @section('title', 'Remote Corporate Culture: Benefits and Challenges for Employees and Employers')
 @section('description', 'In this article, we\'ll show you what are the advantages and disadvantages of the remote work, what you should pay attention to when you think of working in a remote team and how we do it ourselves!')
-@section('preview_image', asset('media/blog/cover-remote-corporate-culture-1-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'What is a Remote Team?']))
 
 @section('content')
     <section class="section">
@@ -9,7 +9,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">Remote Corporate Culture Part 1 - What is a Remote Team?</h1>
+                            <h1 class="post__title p-name">What is a Remote Team?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2019-11-24 12:00:00">Nov 24th, 2019</time> &middot; 5 min read
                             </div>

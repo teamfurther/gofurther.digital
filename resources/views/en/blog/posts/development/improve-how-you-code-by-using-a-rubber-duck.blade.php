@@ -1,6 +1,6 @@
-@section('title', 'Rubber duck debugging method: How teaching helps in learning')
+@section('title', 'Rubber Duck Debugging Method: How Teaching Helps in Learning')
 @section('description', 'Did you run into a programming snag you can\'t figure out? Find a rubber duck and start talking to it. Sound silly? Let me explain.')
-@section('preview_image', asset('media/blog/cover-improve-how-you-code-by-using-a-rubber-duck-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Improve How You Code by Using a Rubber Duck!']))
 
 @section('content')
     <section class="section">
@@ -9,7 +9,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">Improve how you code by using a rubber duck!</h1>
+                            <h1 class="post__title p-name">Improve How You Code by Using a Rubber Duck!</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2021-01-04 12:00:00">Jan 4th, 2021</time> &middot; 3 min read
                             </div>

@@ -1,6 +1,6 @@
 @section('title', 'Áthidalható-e a földrajzi távolság egy remote csapat életében?')
 @section('description', 'Mitől válik egy remote csapat igazán összetartó csapattá és hogyan járulhatunk hozzá a sikeres céges távkapcsolat kialakításához?')
-@section('preview_image', asset('media/blog/cover-remote-corporate-culture-5-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Működhet-e sikeres távkapcsolat céges környezetben?']))
 
 @section('content')
     <section class="section">

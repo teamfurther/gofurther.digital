@@ -1,6 +1,6 @@
-@section('title', 'How to be more motivated as a member of a remote team')
+@section('title', 'How to Be More Motivated as a Member of a Remote Team')
 @section('description', 'One of the biggest challenges of working from home is losing motivation. What can we do on our part to regain our initial enthusiasm?')
-@section('preview_image', asset('media/blog/cover-remote-corporate-culture-4-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'How to Stay Motivated When You Work Remotely?']))
 
 @section('content')
     <section class="section">

@@ -1,6 +1,6 @@
 @section('title', 'Consequences of the delayed implementation of digital transformation')
 @section('description', 'In this article, we\'ll show you the consequences of delaying digital transformation.')
-@section('preview_image', asset('media/blog/cover-why-you-cant-afford-to-delay-digital-transformation-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Consequences of the delayed implementation of digital transformation']))
 
 @section('content')
     <section class="section">

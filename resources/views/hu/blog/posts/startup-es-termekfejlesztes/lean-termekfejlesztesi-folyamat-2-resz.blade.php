@@ -1,6 +1,6 @@
 @section('title', 'A lean termékfejlesztési folyamat: 2. Fogalmazzuk meg az értékajánlatunkat')
 @section('description', 'Ebben a cikkben bemutatjuk, hogyan fogalmazz meg egy értékajánlatot a probléma-megoldás megfelelés keresésében.')
-@section('preview_image', asset('media/blog/cover-the-lean-product-process-2-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'A lean termékfejlesztési folyamat: 2. Fogalmazzuk meg az értékajánlatunkat']))
 
 @section('content')
     <section class="section">

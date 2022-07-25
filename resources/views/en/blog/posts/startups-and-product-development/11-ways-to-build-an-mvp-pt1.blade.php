@@ -1,6 +1,6 @@
 @section('title', '11 Ways to Build an MVP')
 @section('description', 'Join us, to find an answer to what an MVP is, how can you build one and what the most popular types of MVP are. Let\'s kick off with no product prototypes!')
-@section('preview_image', asset('media/blog/cover-11-ways-to-build-an-mvp-1-en.png'))
+@section('preview_image', route('generate-cover', ['title' => '11 Ways to Build an MVP']))
 
 @section('content')
     <section class="section">

@@ -1,6 +1,6 @@
 @section('title', 'A digitális transzformáció késedelmes megvalósulásának következményei')
 @section('description', 'Ebben a cikkben bemutatjuk, melyek a digitális transzformáció halogatásának a következményei.')
-@section('preview_image', asset('media/blog/cover-why-you-cant-afford-to-delay-digital-transformation-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'A semmittevés ára: miért ne halogasd a digitális transzformációt?']))
 
 @section('content')
     <section class="section">

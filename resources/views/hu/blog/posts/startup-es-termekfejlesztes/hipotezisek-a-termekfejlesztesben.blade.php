@@ -1,6 +1,6 @@
 @section('title', 'Hipotézisek a termékfejlesztésben')
 @section('description', 'Ebben a cikkben megismerjük a különböző hipotézis típusokat, illetve azt, hogy hogyan érdemes őket megfogalmazni és tesztelni.')
-@section('preview_image', asset('media/blog/cover-what-are-hypotheses-in-product-development-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Hipotézisek a termékfejlesztésben']))
 
 @section('content')
     <section class="section">

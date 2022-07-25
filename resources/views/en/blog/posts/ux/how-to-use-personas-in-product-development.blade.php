@@ -1,6 +1,6 @@
 @section('title', 'How to Use Personas in Product Development?')
 @section('description', 'What are personas, why are they important in product development and how to create them? Find out by reading our in-depth article about personas.')
-@section('preview_image', asset('media/blog/cover-how-to-use-personas-in-product-development-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'How to Use Personas in Product Development?']))
 
 @section('content')
     <section class="section">

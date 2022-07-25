@@ -1,6 +1,6 @@
 @section('title', 'Hogyan védhetjük meg a szoftverünk szellemi tulajdonát?')
 @section('description', 'Mi a szoftverjog? Mi a különbség a szoftverjog és a szabadalom között? El kellene indulni mindkettő irányában, vagy sem? Melyik védi jobban a szoftvered? Olvass tovább és a cikkünkből megtudhatod.')
-@section('preview_image', asset('media/blog/cover-protect-your-software-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Hogyan védhetjük meg a szoftverünk szellemi tulajdonát?']))
 
 @section('content')
     <section class="section">

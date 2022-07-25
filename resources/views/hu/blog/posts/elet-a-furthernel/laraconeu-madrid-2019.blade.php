@@ -1,6 +1,6 @@
 @section('title', 'Élményeink a 2019-es LaraconEU Madrid konferenciáról')
 @section('description', 'Május 23-a különleges nap volt számunkra, mivel részt vettünk az első Laracon találkozónkon Madridban. A Laracon mindig is ott volt a konferencia bakancslistánkon, de nem sikerült eljutnunk... egészen mostanáig.')
-@section('preview_image', asset('media/blog/cover-laraconeu-madrid-2019.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Élménybeszámoló a LaraconEU Madrid 2019-ről']))
 
 @section('content')
     <section class="section">

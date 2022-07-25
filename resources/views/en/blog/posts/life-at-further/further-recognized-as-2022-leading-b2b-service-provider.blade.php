@@ -1,6 +1,6 @@
 @section('title', 'Further Was Recognized by Clutch as a Leading 2022 B2B Service Provider in Romania')
 @section('description', 'We\'re happy to announce that we\'ve been named as a top provider of B2B services in 2022. According to Clutch, we\'re among the leading software developers in Romania this year!')
-@section('preview_image', asset('media/blog/cover-further-recognized-as-2022-leading-b2b-service-provider-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Further Was Recognized by Clutch as a Leading 2022 B2B Service Provider in Romania']))
 
 @section('content')
     <section class="section">

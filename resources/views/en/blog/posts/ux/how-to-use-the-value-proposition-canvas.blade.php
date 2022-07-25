@@ -1,7 +1,6 @@
-@section('title', 'How to use the value proposition canvas?')
-@section('description', 'Why is your value proposition an important part of your business plan? How to formulate it?
-                         How to visualize it using the value proposition canvas? Read on, to find answer to these questions and more.')
-@section('preview_image', asset('media/blog/cover-how-to-use-the-value-proposition-canvas-en.jpg'))
+@section('title', 'How to Use the Value Proposition Canvas?')
+@section('description', 'Why is your value proposition an important part of your business plan? How to formulate it? How to visualize it using the value proposition canvas? Read on, to find answer to these questions and more.')
+@section('preview_image', route('generate-cover', ['title' => 'How to Use the Value Proposition Canvas?']))
 
 @section('content')
     <section class="section">
@@ -10,7 +9,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">How to use the value proposition canvas?</h1>
+                            <h1 class="post__title p-name">How to Use the Value Proposition Canvas?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2022-05-18 10:00:00">May 18th, 2022</time> &middot; 6 min read
                             </div>
@@ -236,8 +235,8 @@
     },
     "datePublished": "2022-03-14T10:00:00",
     "dateModified": "2022-03-14T10:00:00",
-    "description": "What is a pivot? How many ways can you pivot? When to pivot? All this and and more!",
-    "headline": "To Pivot or Not to Pivot – That Is the Question",
+    "description": "Why is your value proposition an important part of your business plan? How to formulate it? How to visualize it using the value proposition canvas? Read on, to find answer to these questions and more.",
+    "headline": "How to Use the Value Proposition Canvas?",
     "image": {
         "@type": "ImageObject",
         "height": 630,
@@ -245,12 +244,12 @@
         "url": "{{ asset('media/blog/cover-to-pivot-or-not-to-pivot.png') }}"
     },
     "inLanguage": "en_gb",
-    "keywords": "Product Development, Lean Product Development Process, Startup, Pivot",
+    "keywords": "Product Development, Lean Product Development Process, Startup, Value Proposition, Value Proposition Canvas",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "To Pivot or Not to Pivot – That Is the Question",
+    "name": "How to Use the Value Proposition Canvas?",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -290,7 +289,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "To Pivot or Not to Pivot – That Is the Question"
+                "name": "How to Use the Value Proposition Canvas?"
             }
         }
     ]

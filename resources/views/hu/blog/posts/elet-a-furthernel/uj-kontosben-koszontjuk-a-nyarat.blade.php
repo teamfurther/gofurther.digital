@@ -1,6 +1,6 @@
 @section('title', 'Új köntösben köszöntjük a nyarat')
 @section('description', 'Nemcsak azért döntöttünk cégünk arculatváltása mellett, mert ez elengedhetetlen a növekedéshez, hanem főleg azért, mert a régi arculat már nem képviselt minket eléggé.')
-@section('preview_image', asset('media/blog/cover-rebranding.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Új köntösben köszöntjük a nyarat']))
 
 @section('content')
     <section class="section">

@@ -1,6 +1,6 @@
 @section('title', '11 mód, hogy MVP-t építsünk')
 @section('description', 'Tarts velünk és tudd meg mi az az MVP, hogy tudunk egyet építeni és melyek a legismertebb fajtái. Kezdjünk is a no product prototípusokkal!')
-@section('preview_image', asset('media/blog/cover-11-ways-to-build-an-mvp-1-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => '11 mód, hogy MVP-t építsünk']))
 
 @section('content')
     <section class="section">

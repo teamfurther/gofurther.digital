@@ -1,6 +1,6 @@
 @section('title', 'How to Build a Remote Company Culture')
 @section('description', 'Why is a good corporate culture so important and how you can achieve it within a remote company?')
-@section('preview_image', asset('media/blog/cover-remote-corporate-culture-3-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'How to Build a Remote Company Culture?']))
 
 @section('content')
     <section class="section">

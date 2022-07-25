@@ -1,7 +1,6 @@
 @section('title', 'Hogyan használd a value proposition canvas-t?')
-@section('description', 'Miért ennyire fontos része az értékajánlat egy üzleti tervnek? Hogyan fogalmazd meg az értékajánlatodat? Hogyan segít ebben a value proposition canvas?
-          Olvasd el a cikkünket, hogy minderre választ kapjál.')
-@section('preview_image', asset('media/blog/cover-how-to-use-the-value-proposition-canvas-hu.jpg'))
+@section('description', 'Miért ennyire fontos része az értékajánlat egy üzleti tervnek? Hogyan fogalmazd meg az értékajánlatodat? Hogyan segít ebben a value proposition canvas? Olvasd el a cikkünket, hogy minderre választ kapjál.')
+@section('preview_image', route('generate-cover', ['title' => 'Hogyan használd a value proposition canvas-t?']))
 
 @section('content')
     <section class="section">
@@ -236,8 +235,8 @@
     },
     "datePublished": "2022-03-14T10:00:00",
     "dateModified": "2022-03-14T10:00:00",
-    "description": "Mi az a pivot? Hány fajtája van? Mikor pivotoljunk? Tartsatok velünk, hogy mindezt megtudjátok!",
-    "headline": "Pivot vagy nem pivot: az itt a kérdés",
+    "description": "Miért ennyire fontos része az értékajánlat egy üzleti tervnek? Hogyan fogalmazd meg az értékajánlatodat? Hogyan segít ebben a value proposition canvas? Olvasd el a cikkünket, hogy minderre választ kapjál.",
+    "headline": "Hogyan használd a value proposition canvas-t?",
     "image": {
         "@type": "ImageObject",
         "height": 630,
@@ -250,7 +249,7 @@
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "Pivot vagy nem pivot: az itt a kérdés",
+    "name": "Hogyan használd a value proposition canvas-t?",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -290,7 +289,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "Pivot vagy nem pivot: az itt a kérdés"
+                "name": "Hogyan használd a value proposition canvas-t?"
             }
         }
     ]

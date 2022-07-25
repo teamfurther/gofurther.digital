@@ -1,6 +1,6 @@
 @section('title', 'Digital Transformation Series Pt. 4 - IT')
 @section('description', 'In this final part, we\'ll tackle the final piece of the puzzle and look at what technology you can leverage to take your business one step further.')
-@section('preview_image', asset('media/blog/cover-digital-transformation-4-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Digital Transformation Series Pt. 4 - IT']))
 
 @section('content')
     <section class="section">

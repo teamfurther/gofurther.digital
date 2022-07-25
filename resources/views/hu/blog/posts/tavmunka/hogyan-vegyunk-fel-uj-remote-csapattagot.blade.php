@@ -1,6 +1,6 @@
 @section('title', 'Hogyan vegyünk fel új remote csapattagot?')
 @section('description', 'Ebben a cikkben megmutatjuk, hogyan tanácsos új remote csapattagot alkalmazni és melyek azok a lépések, amellyel segíthetjük a beilleszkedésüket.')
-@section('preview_image', asset('media/blog/cover-remote-corporate-culture-2-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Hogyan vegyünk fel új remote csapattagot?']))
 
 @section('content')
     <section class="section">

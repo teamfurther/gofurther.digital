@@ -1,6 +1,6 @@
 @section('title', 'Néhány szabály, hogy gyerek mellett is hatékony legyen a home office')
 @section('description', 'A gyerekek mellett produktívabbá válhatsz - kivéve, ha állandóan ott csüngenek rajtad. Hogyan teljesítheted a munkahelyi kötelezettségeidet, amikor a gyerekek otthon vannak?')
-@section('preview_image', asset('media/blog/cover-remote-corporate-culture-6-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Hatékony home office a gyerekek mellett? Mutatjuk, hogyan!']))
 
 @section('content')
     <section class="section">

@@ -1,6 +1,6 @@
 @section('title', 'Highlights from our visit to LaraconEU Madrid 2019')
 @section('description', 'The 23rd of May was a special day for us, as we attended our first Laracon in Madrid. Laracon has always been high up on our conferences bucket list, but it just didn\'t work out for us. Until now.')
-@section('preview_image', asset('media/blog/cover-laraconeu-madrid-2019.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Further@LaraconEU Madrid 2019']))
 
 @section('content')
     <section class="section">

@@ -1,6 +1,6 @@
 @section('title', 'Szabadúszókat, saját IT csapatot vagy külsős fejlesztő partnert válasszunk?')
 @section('description', 'Egy egyedi szoftvert sokféleképpen le lehet fejleszteni. De melyik opció a legmegfelelőbb számodra?')
-@section('preview_image', asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Szabadúszókat, saját IT csapatot vagy külsős fejlesztő partnert válasszunk?']))
 
 @section('content')
     <section class="section">

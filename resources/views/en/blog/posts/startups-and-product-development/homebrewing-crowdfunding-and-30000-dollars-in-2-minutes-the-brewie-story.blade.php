@@ -1,6 +1,6 @@
 @section('title', 'EXTRA: Homebrewing, Crowdfunding and $30.000 in 2 Minutes — The Brewie Story')
 @section('description', 'In this EXTRA, we talking with the people behind Brewie, one of the first successful crowdfunding campaign run in Hungary.')
-@section('preview_image', asset('media/blog/cover-homebrewing-crowdfunding-and-30000-dollars-in-2-minutes-the-brewie-story-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Homebrewing, Crowdfunding and $30.000 in 2 Minutes — The Brewie Story']))
 
 @section('content')
     <section class="section">

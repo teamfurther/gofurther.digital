@@ -1,6 +1,6 @@
 @section('title', 'A lean termékfejlesztési folyamat: 1. Értsük meg a felhasználóinkat')
 @section('description', 'Ahhoz, hogy egy termék sikeres legyen, több a felhasználóinkról tett feltevésnek igaznak kell bizonyulnia. Ez a cikk megmutatja, hogyan tudjuk ezeket tesztelni.')
-@section('preview_image', asset('media/blog/cover-the-lean-product-process-1-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'A lean termékfejlesztési folyamat: 1. Értsük meg a felhasználóinkat']))
 
 @section('content')
     <section class="section">

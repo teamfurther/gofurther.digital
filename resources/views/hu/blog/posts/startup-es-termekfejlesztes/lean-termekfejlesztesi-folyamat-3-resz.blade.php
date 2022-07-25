@@ -1,6 +1,6 @@
 @section('title', 'A lean termékfejlesztési folyamat: 3. Építsünk prototípust')
 @section('description', 'Nézzük meg, hogy tudunk prototípust készíteni annak érdekében, hogy teszteljük a termékünk által nyújtott felhasználói élményt.')
-@section('preview_image', asset('media/blog/cover-the-lean-product-process-3-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'A lean termékfejlesztési folyamat: 3. Építsünk prototípust']))
 
 @section('content')
     <section class="section">

@@ -1,6 +1,6 @@
-@section('title', 'How to hire people in a remote team?')
+@section('title', 'How to Hire People in a Remote Team?')
 @section('description', 'In this article, we\'ll show you how to hire a new remote team member and the steps you can take for a smoother integration.')
-@section('preview_image', asset('media/blog/cover-remote-corporate-culture-2-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'How to Hire People in a Remote Team?']))
 
 @section('content')
     <section class="section">

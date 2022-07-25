@@ -1,6 +1,6 @@
 @section('title', 'How to protect the intellectual property of your software?')
 @section('description', 'What is software copyright? What is the difference between software copyright and a patent? Should you go for both or not? Which one protects your software better? Read on and find out.')
-@section('preview_image', asset('media/blog/cover-protect-your-software-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Protect Your Software! Why Should You?']))
 
 @section('content')
     <section class="section">
@@ -9,7 +9,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">Protect your software! Why should you?</h1>
+                            <h1 class="post__title p-name">Protect Your Software! Why Should You?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2020-08-12 12:00:00">Aug 12th, 2020</time> &middot; 7 min read
                             </div>

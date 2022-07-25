@@ -1,6 +1,6 @@
 @section('title', 'A Furthert 2022 vezető B2B szolgáltatói közé sorolta a Clutch')
 @section('description', 'Örömmel jelentjük, hogy a Clutch, 2022 vezető B2B szolgáltatói közé sorolt minket! A beszámolójuk szerint, egyike vagyunk Románia vezető szoftverfejlesztő cégeinek.')
-@section('preview_image', asset('media/blog/cover-further-recognized-as-2022-leading-b2b-service-provider-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'A Furthert 2022 vezető B2B szolgáltatói közé sorolta a Clutch!']))
 
 @section('content')
     <section class="section">

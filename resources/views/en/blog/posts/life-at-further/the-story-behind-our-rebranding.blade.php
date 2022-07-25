@@ -1,6 +1,6 @@
 @section('title', 'The Story Behind Our Rebranding')
 @section('description', 'We took the shot and decided to rebrand our company not only because change is necessary to grow, but the main reason behind the rebrand was that the old brand did not represent us well anymore.')
-@section('preview_image', asset('media/blog/cover-rebranding.png'))
+@section('preview_image', route('generate-cover', ['title' => 'The Story Behind Our Rebranding']))
 
 @section('content')
     <section class="section">

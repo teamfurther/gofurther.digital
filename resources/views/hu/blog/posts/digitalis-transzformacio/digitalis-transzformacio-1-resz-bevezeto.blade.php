@@ -1,6 +1,6 @@
 @section('title', 'Digitális transzformáció sorozat 1. rész – Bevezető')
 @section('description', 'Üdvözlünk a digitális átalakulással kapcsolatos sorozatunk első részében. Merüljünk is el a témában, és kezdjük a digitális átalakulás valós jelentésével.')
-@section('preview_image', asset('media/blog/cover-digital-transformation-1-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Digitális transzformáció 1. rész – Bevezető']))
 
 @section('content')
     <section class="section">

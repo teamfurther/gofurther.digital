@@ -1,6 +1,6 @@
-@section('title', 'Bridging the distance gap with remote employees')
+@section('title', 'Bridging the Distance Gap with Remote Employees')
 @section('description', 'What makes a remote team a truly cohesive team and how can we contribute to building a successful remote corporate culture?')
-@section('preview_image', asset('media/blog/cover-remote-corporate-culture-5-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Can a Long-distance Relationship Work in a Corporate Environment']))
 
 @section('content')
     <section class="section">

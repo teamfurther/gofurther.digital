@@ -1,6 +1,6 @@
 @section('title', 'Remote vállalati kultúra: előnyök és kihívások alkalmazottak és munkaadók számára')
 @section('description', 'Ebben a cikkben megmutatjuk, mi is az a remote csapat, és hogy milyen előnyökkel és specifikus kihívásokkal jár munkaadóknak és alkalmazottaknak egyaránt.')
-@section('preview_image', asset('media/blog/cover-remote-corporate-culture-1-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Mi az a remote csapat (és miért imádjuk a Furthernél)?']))
 
 @section('content')
     <section class="section">

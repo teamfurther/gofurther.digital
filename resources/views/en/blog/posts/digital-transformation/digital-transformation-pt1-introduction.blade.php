@@ -1,6 +1,6 @@
 @section('title', 'Digital Transformation Series Pt. 1 - Introduction')
 @section('description', 'Welcome to the first part of our 4 part series on digital transformation. Let\'s dive in, and start with what digital transformation actually means.')
-@section('preview_image', asset('media/blog/cover-digital-transformation-1-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Digital Transformation Series Pt. 1 - Introduction']))
 
 @section('content')
     <section class="section">

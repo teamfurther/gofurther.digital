@@ -1,6 +1,6 @@
 @section('title', 'Egyedi fejlesztés vagy dobozos szoftver?')
 @section('description', 'Valamikor minden vállalat eléri azt a pontot, amikor a növekedés érdekében be kell fektetnie a szoftverinfrastruktúrájába. Megpróbálunk segíteni abban, hogy eldöntsd, hogy az egyedi fejlesztés vagy egy dobozos megoldás a megfelelő vállalatodnak.')
-@section('preview_image', asset('media/blog/cover-custom-development-vs-ootb-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Egyedi fejlesztés vagy dobozos szoftver?']))
 
 @section('content')
     <section class="section">

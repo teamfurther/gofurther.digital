@@ -1,6 +1,6 @@
 @section('title', 'The Lean Product Process: #3 Creating Your Prototype')
 @section('description', 'Let\'s explore how to create prototypes in order check if your product is usable and delivers the expected user experience.')
-@section('preview_image', asset('media/blog/cover-the-lean-product-process-3-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'The Lean Product Process: #3 Creating Your Prototype']))
 
 @section('content')
     <section class="section">

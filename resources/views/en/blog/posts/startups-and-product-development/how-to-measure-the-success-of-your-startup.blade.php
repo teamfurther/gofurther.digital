@@ -1,6 +1,6 @@
 @section('title', 'How to Measure the Success of Your Startup?')
 @section('description', 'Let\'s take a closer look at the different analytics and metrics you can use to gauge if your startup product is on track for success.')
-@section('preview_image', asset('media/blog/cover-how-to-measure-the-success-of-your-startup-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'How to Measure the Success of Your Startup?']))
 
 @section('content')
     <section class="section">

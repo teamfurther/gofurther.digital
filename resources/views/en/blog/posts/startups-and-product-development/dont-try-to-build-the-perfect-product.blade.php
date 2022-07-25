@@ -1,6 +1,6 @@
-@section('title', 'Don\'t try to build the perfect product!')
+@section('title', 'Don\'t Try to Build the Perfect Product!')
 @section('description', 'I recently had an experience which once again made me realized the importance of idea validation. Here\'s my story.')
-@section('preview_image', asset('media/blog/cover-dont-try-to-build-the-perfect-product-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Don\'t Try to Build the Perfect Product!']))
 
 @section('content')
     <section class="section">

@@ -1,6 +1,6 @@
-@section('title', 'How digitalization changes tomorrow\'s workspace')
+@section('title', 'How Digitalization Changes Tomorrow\'s Workspace')
 @section('description', 'In this article, we\'ll show you how digital technologies are changing the workforce and how enterprises can adapt and evolve.')
-@section('preview_image', asset('media/blog/cover-how-does-digitalization-change-workplaces-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'How Digitalization Changes Tomorrow\'s Workspace']))
 
 @section('content')
     <section class="section">
@@ -9,7 +9,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">The transformation of people: how does digitalization change workplaces?</h1>
+                            <h1 class="post__title p-name">The Transformation of People: How Does Digitalization Change Workplaces?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2020-09-20 12:00:00">Sep 20, 2020</time> &middot; 11 min read
                             </div>

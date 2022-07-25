@@ -1,6 +1,6 @@
 @section('title', 'How Long Does It Take to Build a Custom Software?')
 @section('description', 'We\'re going to try and answer a question we frequently face: How Long Does It Take to Build a Custom Software?')
-@section('preview_image', asset('media/blog/cover-how-long-is-a-development-project-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'How Long Does It Take to Build a Custom Software?']))
 
 @section('content')
     <section class="section">

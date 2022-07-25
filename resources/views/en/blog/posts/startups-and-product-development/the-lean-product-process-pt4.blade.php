@@ -1,6 +1,6 @@
 @section('title', 'The Lean Product Process: #4 Achieving Product-Market Fit')
 @section('description', 'Finally we arrive at the end of the product development process, where we test how the buyers react to our product and if our business plan is sustainable.')
-@section('preview_image', asset('media/blog/cover-the-lean-product-process-4-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'The Lean Product Process: #4 Achieving Product-Market Fit']))
 
 @section('content')
     <section class="section">

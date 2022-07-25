@@ -1,6 +1,6 @@
 @section('title', 'EXTRA: Otthoni sörfőzés, crowdfunding és két perc alatt $30.000 — A Brewie story')
 @section('description', 'A mai EXTRA-ban a Brewie sikeres közösségi finanszírozási kampánya mögötti emberekkel beszélgetünk arról, hogyan érdemes egy ilyen kampány összerakni és menedzselni.')
-    @section('preview_image', asset('media/blog/cover-homebrewing-crowdfunding-and-30000-dollars-in-2-minutes-the-brewie-story-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Otthoni sörfőzés, crowdfunding és két perc alatt $30.000 — A Brewie story']))
 
 @section('content')
     <section class="section">

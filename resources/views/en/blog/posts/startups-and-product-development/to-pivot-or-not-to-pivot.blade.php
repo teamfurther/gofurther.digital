@@ -1,6 +1,6 @@
 @section('title', 'To Pivot or Not to Pivot – That Is the Question')
 @section('description', 'What is a pivot? How many ways can you pivot? When to pivot? All this and and more!')
-@section('preview_image', asset('media/blog/cover-to-pivot-or-not-to-pivot.png'))
+@section('preview_image', route('generate-cover', ['title' => 'To Pivot or Not to Pivot – That Is the Question']))
 
 @section('content')
     <section class="section">

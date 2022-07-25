@@ -1,6 +1,6 @@
 @section('title', 'The Lean Product Process: #1 Understanding Your Customers')
 @section('description', 'For a product to be successful, several hypotheses about our users must prove to be true. This article shows how you can test these.')
-@section('preview_image', asset('media/blog/cover-the-lean-product-process-1-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'The Lean Product Process: #1 Understanding Your Customers']))
 
 @section('content')
     <section class="section">

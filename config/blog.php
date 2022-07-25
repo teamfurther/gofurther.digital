@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'supply-and-demand-in-two-sided-marketplaces',
+                'tags' => [
+                    'startups-and-product-development' => 'Startups and Product Development',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'a-kereslet-es-kinalat-problema-megoldasa-piactereken',
+                'tags' => [
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'lets-build-an-engine-of-growth',
                 'tags' => [
                     'startups-and-product-development' => 'Startups and Product Development',

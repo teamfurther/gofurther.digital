@@ -1,6 +1,6 @@
-@section('title', 'How to successfully validate your idea in product development?')
+@section('title', 'How to Successfully Validate Your Idea in Product Development?')
 @section('description', 'In this article, we\'ll show you which design & research techniques are most useful for validating assumptions in the different phases of product innovation.')
-@section('preview_image', asset('media/blog/cover-validation-in-product-development-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Validation in Product Development']))
 
 @section('content')
     <section class="section">
@@ -9,7 +9,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">Validation in product development</h1>
+                            <h1 class="post__title p-name">Validation in Product Development</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2019-11-02 12:00:00">Dec 21st, 2020</time> &middot; 8 min read
                             </div>
@@ -38,7 +38,7 @@
                             <p>If the data shows we reached a dead end, we might choose to pivot, which means developing a new strategy to achieve our goals.</p>
                             <p class="has-margin-b60">This decision point in the loop is our Learn phase. Although the Learn stage is the last element of the loop, since it is where we make our decisions, our very first task at the beginning of a loop is to decide what assumptions we want to test and what we want to learn from these tests.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/dont-try-to-build-the-perfect-product-infographic-en.png') }}" alt="Validation in product development - Infographic" />
+                                <img src="{{ asset('media/blog/dont-try-to-build-the-perfect-product-infographic-en.png') }}" alt="Validation in Product Development - Infographic" />
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Assumptions and validation in the different stages of product development</h2>
                             <p class="has-margin-b30">As we've seen, we constantly develop new experiments to test our assumptions during our Build-Measure-Learn loop. But what assumptions should we test in the different stages of product development? My favourite resource on this topic is the <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}" target="_blank">Lean Validation Cheat Sheet</a>.</p>
@@ -47,7 +47,7 @@
                             <p>In the learning phase, we should find answers to questions like what is the problem we wish to solve? Who else has this problem? How do they try to solve this problem currently? Is this problem significant enough for them to invest their time and effort in solving it?</p>
                             <p>In the build phase of problem validation, it's worth defining the vision and goals, user personas and customer journey map. In the measure phase, one should conduct interviews, field observations and other discovery techniques such as context mapping.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-1-en.png') }}" alt="Validation in product development-Cheat-sheet-1" />
+                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-1-en.png') }}" alt="Validation in Product Development-Cheat-sheet-1" />
                             </figure>
                             <h3 class="heading-3 has-margin-b30">Problem-solution fit</h3>
                             <p>When <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}">in this phase</a>, we already know that the problem we discovered is meaningful for others, and they are actively looking for a solution, but we are not sure that our solution truly solves the problem for them.</p>
@@ -55,7 +55,7 @@
                             <p>A good method to find answers to these questions is creating a value proposition canvas. This canvas helps us position our product or solution around the needs and values of our users.</p>
                             <p>Another tool we might use in this phase is the concierge MVP, one of the most minimal versions of an MVP. It's so minimal that we don't even have a product. Instead, we perform every function of the product manually. Of course, this is not a sustainable business model, but it isn't even our goal. We only want answers to the questions above before building our actual product.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-2-en.png') }}" alt="Validation in product development-Cheat-sheet-2" />
+                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-2-en.png') }}" alt="Validation in Product Development-Cheat-sheet-2" />
                             </figure>
                             <h3 class="heading-3 has-margin-b30">Solution-product fit</h3>
                             <p>Once <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt3']) }}">in this phase</a>, we already have a validated problem and solution, but we still need to answer whether we can develop a product that effectively delivers this solution.</p>
@@ -64,14 +64,14 @@
                             <p>Solution-product fit is the first phase when we develop tangible, palpable prototypes: paper prototypes, clickable demos or even a Wizard of Oz type MVP. This type of MVP is an advanced version of a concierge MVP. The prototype needs to feel like a polished product, that everything is fully automated. However, human operators still carry out all the background functionality, just like a concierge MVP. We can measure these tangible products with the help of usability tests, UX test, alpha and beta tests.</p>
                             <p>Measurements are also done on the tangible product with the help of usability tests, UX test, alpha and beta tests.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-3-en.png') }}" alt="Validation in product development-Cheat-sheet-3" />
+                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-3-en.png') }}" alt="Validation in Product Development-Cheat-sheet-3" />
                             </figure>
                             <h3 class="heading-3 has-margin-b30">Product-market fit</h3>
                             <p>Product-market fit is <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt4']) }}">the last stage</a> of our product development. At this stage, we already know that our product delivers the solution to our problem effectively, but we still don't know if our business model is sustainable.</p>
                             <p>Are we able to turn users into paying customers? How many customers can we get, and how much are they willing to pay? How many customers are going to be returning customers? These are the core questions we are looking to find answers to.</p>
                             <p>In the Build phase, we are no longer creating prototypes. Instead, we build marketing campaigns: product videos, landing pages and newsletters. As for the Measure phase, we should concentrate on measuring the success of our campaigns based on analytics, A/B testing or pre-order experiments.</p>
                             <figure>
-                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-4-en.png') }}" alt="Validation in product development" />
+                                <img src="{{ asset('media/blog/validation-in-product-development-cheat-sheet-4-en.png') }}" alt="Validation in Product Development" />
                             </figure>
                             <p>Whichever stage we're in, when we arrive at the end of our experiments, we have to decide based on the things we learned and our measurements if our developments are getting us closer to our goals, and we should persevere or pivot instead. If we reach the end of the product development process, we can repeat these steps to improve our product or introduce new features.</p>
                             <p class="has-margin-b90">The beauty of validated learning is that we can apply it outside the startup world, in enterprise or industrial settings.</p>
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Validation in product development'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'Validation in Product Development'])
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
     "datePublished": "2020-12-21T12:00:00",
     "dateModified": "2020-12-21T12:00:00",
     "description": "In this article, we'll show you which design & research techniques are most useful for validating assumptions in the different phases of product innovation.",
-    "headline": "How to successfully validate your idea in product development?",
+    "headline": "How to Successfully Validate Your Idea in Product Development?",
     "image": {
         "@type": "ImageObject",
         "height": 630,
@@ -159,7 +159,7 @@
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "How to successfully validate your idea in product development?",
+    "name": "How to Successfully Validate Your Idea in Product Development?",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -199,7 +199,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "How to successfully validate your idea in product development?"
+                "name": "How to Successfully Validate Your Idea in Product Development?"
             }
         }
     ]

@@ -4,6 +4,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\BlogTagsController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\FreebiesController;
+use App\Http\Controllers\GenerateCoverImageController;
 use App\Http\Controllers\JobsController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\PrivateContentController;
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function (): void {
     // this is empty, as lang middleware will take care of redirection
 });
+
+Route::get('/cover/generate', [GenerateCoverImageController::class, 'generate'])->name('generate-cover');
 
 /*
  * ENGLISH

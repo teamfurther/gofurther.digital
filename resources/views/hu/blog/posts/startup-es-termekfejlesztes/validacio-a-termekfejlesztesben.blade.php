@@ -1,6 +1,6 @@
 @section('title', 'Hogyan validáld sikeresen az ötletedet a termékfejlesztésben?')
 @section('description', 'Ebben a cikkben megmutatjuk, hogy a termékinnováció különböző szakaszaiban mely tervezési és kutatási technikák a leghasznosabbak a feltételezések teszteléséhez.')
-@section('preview_image', asset('media/blog/cover-validation-in-product-development-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Validáció a termékfejlesztésben']))
 
 @section('content')
     <section class="section">

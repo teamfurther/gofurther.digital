@@ -1,6 +1,6 @@
 @section('title', 'Hogyan legyünk motiváltabbak egy remote csapat tagjaként')
 @section('description', 'Az otthoni munka iránti elhivatottság egy idő után jellemzően alábbhagy. Mit tehetünk azért, hogy visszanyerjük a kezdeti lelkesedésünket?')
-@section('preview_image', asset('media/blog/cover-remote-corporate-culture-4-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Hogyan motiváljuk magunkat, ha távmunkában dolgozunk?']))
 
 @section('content')
     <section class="section">

@@ -1,6 +1,6 @@
 @section('title', 'Technikai adósság avagy hogyan legyenek időtálló IT rendszereink?')
 @section('description', 'Ebben a cikkben bemutatjuk, mi a technikai adósság, mit tehetünk annak minimalizálása érdekében, és hogyan kezeljük a már felhalmozódott technikai adósságot.')
-@section('preview_image', asset('media/blog/cover-technical-debt-how-to-build-future-proof-it-systems-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Technikai adósság avagy hogyan legyenek időtálló IT rendszereink?']))
 
 @section('content')
     <section class="section">

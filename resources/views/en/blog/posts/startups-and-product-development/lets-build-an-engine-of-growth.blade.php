@@ -1,6 +1,6 @@
 @section('title', 'Let\'s Build an Engine of Growth')
 @section('description', 'What\'s common in a SaaS product, a newspaper and the church? They all use the same growth engine! Bear with us. We\'ll explain.')
-@section('preview_image', asset('media/blog/cover-lets-build-an-engine-of-growth-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Let\'s Build an Engine of Growth']))
 
 @section('content')
     <section class="section">

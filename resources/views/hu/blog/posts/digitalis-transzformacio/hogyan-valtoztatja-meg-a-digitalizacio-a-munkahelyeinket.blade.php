@@ -1,6 +1,6 @@
 @section('title', 'Hogyan változtatja meg a digitalizáció a jövő munkaterületeit')
 @section('description', 'Ebben a cikkben megmutatjuk, hogy a digitális technológiák hogyan változtatják meg a munkaerőt, és a vállalkozások hogyan tudnak ehez alkalmazkodni és fejlődni.')
-@section('preview_image', asset('media/blog/cover-how-does-digitalization-change-workplaces-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Az emberek transzformációja: hogyan változtatja meg a digitalizáció a munkahelyeinket']))
 
 @section('content')
     <section class="section">

@@ -1,6 +1,6 @@
 @section('title', 'Remote vállalati kultúra, 3 rész: Hogyan építsünk remote vállalati kultúrát?')
 @section('description', 'Miért olyan fontos a jó vállalati kultúra és hogyan alakíthatod ki ezt egy remote vállalat keretein belül?')
-@section('preview_image', asset('media/blog/cover-remote-corporate-culture-3-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Hogyan építsünk remote vállalati kultúrát']))
 
 @section('content')
     <section class="section">

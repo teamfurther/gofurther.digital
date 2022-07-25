@@ -1,6 +1,6 @@
 @section('title', 'Hogyan mérjük a termékünk sikerességet?')
 @section('description', 'Nézzük meg közelebbről azokat a különböző metrikákat amik segítenek abban, hogy felmérjük termékünk pályan van-e a siker felé.')
-@section('preview_image', asset('media/blog/cover-how-to-measure-the-success-of-your-startup-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Hogyan mérjük a termékünk sikerességet?']))
 
 @section('content')
     <section class="section">

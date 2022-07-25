@@ -1,6 +1,6 @@
 @section('title', 'Technical Debt: How to Build Future-proof IT Systems?')
 @section('description', 'In this article, we show you what technical debt is, what we can do to minimize it, and how we can manage the technical debt that has already been accumulated.')
-@section('preview_image', asset('media/blog/cover-technical-debt-how-to-build-future-proof-it-systems-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Technical Debt: How to Build Future-proof IT Systems?']))
 
 @section('content')
     <section class="section">

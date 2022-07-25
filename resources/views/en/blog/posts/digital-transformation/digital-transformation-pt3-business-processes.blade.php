@@ -1,6 +1,6 @@
 @section('title', 'Digital Transformation Series Pt. 3 - Business Processes')
 @section('description', 'In the third part of the series, we take a look at how implementing BPM and Agile helps support digital transformation.')
-@section('preview_image', asset('media/blog/cover-digital-transformation-3-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Digital Transformation Series Pt. 3 - Business Processes']))
 
 @section('content')
     <section class="section">

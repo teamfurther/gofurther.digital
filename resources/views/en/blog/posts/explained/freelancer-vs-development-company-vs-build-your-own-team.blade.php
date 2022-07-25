@@ -1,6 +1,6 @@
 @section('title', 'Should You Hire a Freelancer, a Development Company or Build Your Own Team?')
 @section('description', 'There are several ways to go about implementing a custom software solution. But which option would suit you best?')
-@section('preview_image', asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Should You Hire a Freelancer, a Development Company or Build Your Own Team?']))
 
 @section('content')
     <section class="section">

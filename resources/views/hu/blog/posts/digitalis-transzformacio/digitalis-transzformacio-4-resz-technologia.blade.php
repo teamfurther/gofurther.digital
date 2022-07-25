@@ -1,6 +1,6 @@
 @section('title', 'Digitális transzformáció sorozat 4. rész – Technológia')
 @section('description', 'Sorozatunk záró cikkében, a digitális transzformáció puzzle utolsó darabjával foglalkozunk és megnézzük hogyan használhatod ki a technológiában rejlő lehetőségeket, hogy előrelendítse vállalkozásodat.')
-@section('preview_image', asset('media/blog/cover-digital-transformation-4-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Digitális transzformáció 4. rész – Technológia']))
 
 @section('content')
     <section class="section">

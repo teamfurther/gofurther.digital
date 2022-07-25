@@ -1,6 +1,6 @@
 @section('title', 'The Lean Product Process: #2 Formulating Your Value Proposition')
 @section('description', 'In this article, we\'ll show you how to formulate your value proposition in the search for problem-solution fit.')
-@section('preview_image', asset('media/blog/cover-the-lean-product-process-2-en.png'))
+@section('preview_image', route('generate-cover', ['title' => 'The Lean Product Process: #2 Formulating Your Value Proposition']))
 
 @section('content')
     <section class="section">

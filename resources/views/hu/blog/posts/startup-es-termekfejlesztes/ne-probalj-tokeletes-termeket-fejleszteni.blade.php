@@ -1,6 +1,6 @@
 @section('title', 'Ne próbálj tökéletes terméket építeni!')
 @section('description', 'Nemrég volt egy olyan tapasztalatom, ami ismét rávilágított az ötlet validáció fontosságára. Ma ezt a történetet mesélem el.')
-@section('preview_image', asset('media/blog/cover-dont-try-to-build-the-perfect-product-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Ne próbálj tökéletes terméket építeni!']))
 
 @section('content')
     <section class="section">

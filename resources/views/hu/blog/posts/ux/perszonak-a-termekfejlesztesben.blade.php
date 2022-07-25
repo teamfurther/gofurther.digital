@@ -1,6 +1,6 @@
 @section('title', 'Perszónák a termékfejlesztésben')
 @section('description', 'Mi az a perszóna? Miért fontosak a termékfejlesztés során? Hogyan hozzuk létre? Mindez és több a perszónákról szóló cikkünkben.')
-@section('preview_image', asset('media/blog/cover-how-to-use-personas-in-product-development-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Perszónák a termékfejlesztésben']))
 
 @section('content')
     <section class="section">

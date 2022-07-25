@@ -1,6 +1,6 @@
 @section('title', 'Pivot vagy nem pivot: az itt a kérdés')
 @section('description', 'Mi az a pivot? Hány fajtája van? Mikor pivotoljunk? Tartsatok velünk, hogy mindezt megtudjátok!')
-@section('preview_image', asset('media/blog/cover-to-pivot-or-not-to-pivot-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Pivot vagy nem pivot: az itt a kérdés']))
 
 @section('content')
     <section class="section">

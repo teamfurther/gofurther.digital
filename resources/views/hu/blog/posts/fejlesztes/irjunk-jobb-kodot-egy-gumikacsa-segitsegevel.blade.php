@@ -1,6 +1,6 @@
 @section('title', 'Gumikacsa hibakeresési módszer: Hogyan segít a tanítás a tanulásban')
 @section('description', 'Belefutottál egy olyan programozási gubancba, amelyet nem tudsz megoldani? Csak keress egy gumikacsát, és kezdj el hozzá beszélni a problémáiról. Hadd magyarázzam meg.')
-@section('preview_image', asset('media/blog/cover-improve-how-you-code-by-using-a-rubber-duck-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Írjunk jobb kódot… egy gumikacsa segítségével']))
 
 @section('content')
     <section class="section">

@@ -1,6 +1,6 @@
 @section('title', 'Milyen hosszú egy fejlesztési projekt?')
 @section('description', 'Megpróbálunk egy gyakran feltett kérdést próbálunk körbejárni: milyen hosszú ideig tart majd a fejlesztés?')
-@section('preview_image', asset('media/blog/cover-how-long-is-a-development-project-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Milyen hosszú egy fejlesztési projekt?']))
 
 @section('content')
     <section class="section">

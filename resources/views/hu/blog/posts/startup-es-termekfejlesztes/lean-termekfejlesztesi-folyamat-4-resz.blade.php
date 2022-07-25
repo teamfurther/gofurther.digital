@@ -1,6 +1,6 @@
 @section('title', 'A lean termékfejlesztési folyamat: 4. Hogyan érjük el a product-market fit-et?')
 @section('description', 'A termékfejlesztés végére érve, teszteljük hogyan fogadják majd a vevőink a termékünket és azt, hogy fenntartható-e az üzleti tervünk.')
-@section('preview_image', asset('media/blog/cover-the-lean-product-process-4-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'A lean termékfejlesztési folyamat: 4. Hogyan érjük el a product-market fit-et?']))
 
 @section('content')
     <section class="section">

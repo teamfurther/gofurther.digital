@@ -1,6 +1,6 @@
 @section('title', 'Építsünk motort… növekedési motort!')
 @section('description', 'Mi a közös egy SaaS termékben, egy újságban és az egyházban? Az, hogy mind ugyanazt a növekedési motort használják. Tartsatok velünk, elmagyarázzuk.')
-@section('preview_image', asset('media/blog/cover-epitsunk-novekedesi-motort-hu.png'))
+@section('preview_image', route('generate-cover', ['title' => 'Építsünk motort… növekedési motort!']))
 
 @section('content')
     <section class="section">

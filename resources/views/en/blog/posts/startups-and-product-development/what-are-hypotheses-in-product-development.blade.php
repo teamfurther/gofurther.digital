@@ -1,6 +1,6 @@
-@section('title', 'What are hypotheses in product development?')
+@section('title', 'What are Hypotheses in Product Development?')
 @section('description', 'In this article we\'ll explore the different types of assumptions, which ones you should make and how to formulate and test them.')
-@section('preview_image', asset('media/blog/cover-what-are-hypotheses-in-product-development.png'))
+@section('preview_image', route('generate-cover', ['title' => 'What are Hypotheses in Product Development?']))
 
 @section('content')
     <section class="section">
@@ -9,7 +9,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <h1 class="post__title p-name">What are hypotheses in product development?</h1>
+                            <h1 class="post__title p-name">What are Hypotheses in Product Development?</h1>
                             <div class="post__meta">
                                 <time class="dt-published" datetime="2021-06-14 10:00:00">Jun 14th, 2021</time> &middot; 11 min read
                             </div>
@@ -109,7 +109,7 @@
                             <p>The goal, as always, is to learn more about your users with each test and be able to sustain this knowledge with empirical data.</p>
                         </div>
                         <div class="column is-1-tablet is-2-desktop">
-                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'What are hypotheses in product development?'])
+                            @include(getLang() . '.blog.includes.share', ['slug' => $slug, 'title' => 'What are Hypotheses in Product Development?'])
                         </div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
     "datePublished": "2021-06-14T12:00:00",
     "dateModified": "2021-06-14T12:00:00",
     "description": "In this article we'll explore the different types of assumptions, which ones you should make and how to formulate and test them.",
-    "headline": "What are hypotheses in product development?",
+    "headline": "What are Hypotheses in Product Development?",
     "image": {
         "@type": "ImageObject",
         "height": 630,
@@ -180,7 +180,7 @@
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"
     },
-    "name": "What are hypotheses in product development?",
+    "name": "What are Hypotheses in Product Development?",
     "publisher": {
         "@type": "Organization",
         "logo": {
@@ -220,7 +220,7 @@
             "position": "3",
             "item": {
                 "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}",
-                "name": "What are hypotheses in product development?"
+                "name": "What are Hypotheses in Product Development?"
             }
         }
     ]
