@@ -1,14 +1,16 @@
 @extends('en.site', ['bodyClass' => 'has-hero'])
 
 @section('content')
-    <section class="hero is-cobalt">
+    <section class="hero hero--background-1 is-cobalt">
         <h2 class="hero-heading">
-            Your idea. Build it. Scale it.<br />
+            Your idea.<br />Build it. Scale it.
             <strong class="is-tangerine">Go Further.</strong>
         </h2>
+
         <a class="hero__cta" href="{{ localizedRoute('contact') }}">
             Have an idea you want to discuss?<strong>Let's talk</strong>
         </a>
+
         <a class="hero__scroll" href="#services"></a>
     </section>
 
@@ -19,13 +21,13 @@
                     <h2 class="hero-heading">
                         We turn your ideas into digital products <strong class="is-pearl">that work.</strong>
                     </h2>
-                    <p class="has-margin-b30">
-                        Our value as a full-service digital product agency is bringing business, user experience and technology under the same roof, guiding you through the whole product development process. <strong>From idea to execution and beyond.</strong>
-                    </p>
+
+                    <p class="has-margin-b30">Our value as a full-service digital product agency is bringing business, user experience and technology under the same roof, guiding you through the whole product development process. <strong>From idea to execution and beyond.</strong></p>
+
                     <ul class="list has-bullets">
-                        <li><a href="{{ localizedRoute('services') }}#strategy-and-research">Strategy & Research</a></li>
-                        <li><a href="{{ localizedRoute('services') }}#ux-research-and-design">UX Research & Design</a></li>
-                        <li><a href="{{ localizedRoute('services') }}#digital-product-development">Digital Product Development</a></li>
+                        <li><a class="is-grey" href="{{ localizedRoute('services') }}#strategy-and-research">Strategy & Research</a></li>
+                        <li><a class="is-grey" href="{{ localizedRoute('services') }}#ux-research-and-design">UX Research & Design</a></li>
+                        <li><a class="is-grey" href="{{ localizedRoute('services') }}#digital-product-development">Digital Product Development</a></li>
                     </ul>
                 </div>
                 <div class="column is-offset-1-tablet">
@@ -47,15 +49,12 @@
 
     <section class="section is-dark has-padding-b30" id="projects">
         <div class="container">
-            <div class="columns">
+            <div class="columns has-margin-b30">
                 <div class="column">
                     <h2 class="hero-heading has-text-centered">
                         Our <strong class="is-tangerine">success</strong> stories.
                     </h2>
-                </div>
-            </div>
-            <div class="columns has-margin-b30">
-                <div class="column">
+
                     <div class="columns is-mobile is-multiline has-text-centered">
                         <div class="column is-6-mobile is-4-tablet has-margin-b60">
                             <img src="{{ asset('media/partners/png.png') }}" alt="Procter & Gamble" />
@@ -125,50 +124,24 @@
         'headingText' => 'Want to see more projects?',
     ])
 
-    <section class="section has-text-centered" id="our-approach">
+    <section class="section" id="our-approach">
         <div class="container">
             <div class="columns">
-                <div class="column">
+                <div class="column is-8">
                     <h2 class="hero-heading">
                         What can <strong class="is-raspberry">you expect?</strong>
                     </h2>
-                </div>
-            </div>
 
-            <div class="columns">
-                <div class="column is-10-tablet is-offset-1-tablet is-8-desktop is-offset-2-desktop">
-                    <p>
-                        A collaborative process. As opposed to a traditional agency, working with Further means you'll be involved from the very beginning and throughout the project. We find this is the best way to make sure we're building something you'll love and your users will love to use.
-                    </p>
-                    <p class="has-margin-b60">
-                        By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.
-                    </p>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column is-10-tablet is-offset-1-tablet is-8-desktop is-offset-2-desktop has-margin-b60">
-                    <div class="about__process">
-                        <span class="about__process__step about__process__step--1">
-                            <strong>Discover</strong>
-                            Understanding your business needs and requirements.
-                        </span>
-                        <span class="about__process__step about__process__step--2">
-                            <strong>Ideate</strong>
-                            Finding solutions to the problems defined.
-                        </span>
-                        <span class="about__process__step about__process__step--3">
-                            <strong>Prototype and test</strong>
-                            Designing prototypes to test our initial concepts.
-                        </span>
-                        <span class="about__process__step about__process__step--4">
-                            <strong>Implement</strong>
-                            Developing the validated features.
-                        </span>
-                        <span class="about__process__step about__process__step--5">
-                            <strong>Evolve</strong>
-                            Sustaining, measuring and improving your product.
-                        </span>
+                    <p>A collaborative process. As opposed to a traditional agency, working with Further means you'll be involved from the very beginning and throughout the project. We find this is the best way to make sure we're building something you'll love and your users will love to use.</p>
+                    <p class="has-margin-b60">By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.</p>
+
+                    <div class="slides">
+                        <img src="{{ asset('img/team-1.jpg') }}" alt="Further team" />
+                        <img src="{{ asset('img/team-2.jpg') }}" alt="Further team" />
                     </div>
+                </div>
+                <div class="column is-hidden-mobile is-offset-1-desktop">
+                    <img src="{{ asset('img/process-en.png') }}" alt="Our process" />
                 </div>
             </div>
         </div>

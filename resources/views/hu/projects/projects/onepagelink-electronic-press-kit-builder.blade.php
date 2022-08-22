@@ -15,12 +15,8 @@
             <div class="columns">
                 <div class="column">
                     <h4 class="heading-1">Összefoglaló</h4>
-                    <p>
-                        A OnePageLink egy egyszerű és hatékony EPK építő. Az EPK az Electronic Press (vagy Promo) kit rövidítése. Segítségével, a művészek menedzselni tudják a promóciós anyagaikat, illetve elküldeni ezeket eseményszervezőknek és a sajtónak.
-                    </p>
-                    <p>
-                        A OnePageLink célja, hogy bárki számára könnyen megugorható feladat legyen egy EPK vagy promó oldal összeállítása, design készségek nélkül is. Miután a művészek feliratkoznak, pár perc alatt össze tudják állítani maguknak a promóciós oldalt.
-                    </p>
+                    <p>A OnePageLink egy egyszerű és hatékony EPK építő. Az EPK az Electronic Press (vagy Promo) kit rövidítése. Segítségével, a művészek menedzselni tudják a promóciós anyagaikat, illetve elküldeni ezeket eseményszervezőknek és a sajtónak.</p>
+                    <p>A OnePageLink célja, hogy bárki számára könnyen megugorható feladat legyen egy EPK vagy promó oldal összeállítása, design készségek nélkül is. Miután a művészek feliratkoznak, pár perc alatt össze tudják állítani maguknak a promóciós oldalt.</p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
                     <img class="project__logo" src="{{ asset('media/projects/opl-logo.svg') }}" alt="OnePageLink" />
@@ -53,13 +49,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Megszakításmentes szolgáltatás az új platformra való migrálás közben</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            Mivel a OnePageLink már rendelkezett aktív felhasználókkal, biztosítanunk kellett, hogy a szolgáltatásban nem lesznek kiesések amint egy új technológiai platformrma migráltuk az applikációt.
-                        </p>
+                        <p>Mivel a OnePageLink már rendelkezett aktív felhasználókkal, biztosítanunk kellett, hogy a szolgáltatásban nem lesznek kiesések amint egy új technológiai platformrma migráltuk az applikációt.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            A probléma megfejtésére együttesen kellett technikai és ügyfélszolgálati megoldásokat alkalmaznunk. A legtöbb tartalmat át lehetett egy automatizált folyamattal migrálni, de technológiai korlátok miatt nem mindet. Ezekben az esetekben szorosan együtt dolgoztunk a OnePageLink csapatával, hogy ezt kommunikáljuk az ügyfelek felé és felkészítsük őket a váltásra.
-                        </p>
+                        <p>A probléma megfejtésére együttesen kellett technikai és ügyfélszolgálati megoldásokat alkalmaznunk. A legtöbb tartalmat át lehetett egy automatizált folyamattal migrálni, de technológiai korlátok miatt nem mindet. Ezekben az esetekben szorosan együtt dolgoztunk a OnePageLink csapatával, hogy ezt kommunikáljuk az ügyfelek felé és felkészítsük őket a váltásra.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/opl-overview-1.png') }}" alt="OnePageLink - Megszakításmentes szolgáltatás az új platformra való migrálás közben" />
@@ -69,16 +61,10 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Fizetési szolgáltató leváltása</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            Az új platformra költözés része volt az is, hogy a meglévő bankkártyás fizetési szolgáltatót egy modernebb, olcsóbb rendszerre cseréltük. Ebből adódóan újabb migrációs akadályba ütköztünk. Hogyan engedjük a meglévő feliratkozásokat tovább futni úgy, hogy a felhasználók ne kelljen ismét feliratkozzanak?
-                        </p>
+                        <p>Az új platformra költözés része volt az is, hogy a meglévő bankkártyás fizetési szolgáltatót egy modernebb, olcsóbb rendszerre cseréltük. Ebből adódóan újabb migrációs akadályba ütköztünk. Hogyan engedjük a meglévő feliratkozásokat tovább futni úgy, hogy a felhasználók ne kelljen ismét feliratkozzanak?</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            Ezt a problémát is két oldalról kellett megközelítsük. Automata scripteket írtunk, amelyek kiszámolták a hátralevő időt a feliratkozások esetében, majd átmigráltuk ezeket az új szolgáltatóhoz. A bankkártya adatokat viszont nem mi, hanem az szolgáltató tárolta, így ezeknek az átvitelét nem tudtuk automatizálni.
-                        </p>
-                        <p>
-                            Érthető okokból nem szerettük volna az ügyfeleket arra kényszeríteni, hogy ismételten be kelljen írják a bankkártya adataikat, ezért a két szolgáltató között mediátorként működtünk a probléma megoldása érdekében. Egy nagyon hosszú email sorozat után, örömmel vettük tudomásul, hogy végre sikerrel jártunk.
-                        </p>
+                        <p>Ezt a problémát is két oldalról kellett megközelítsük. Automata scripteket írtunk, amelyek kiszámolták a hátralevő időt a feliratkozások esetében, majd átmigráltuk ezeket az új szolgáltatóhoz. A bankkártya adatokat viszont nem mi, hanem az szolgáltató tárolta, így ezeknek az átvitelét nem tudtuk automatizálni.</p>
+                        <p>Érthető okokból nem szerettük volna az ügyfeleket arra kényszeríteni, hogy ismételten be kelljen írják a bankkártya adataikat, ezért a két szolgáltató között mediátorként működtünk a probléma megoldása érdekében. Egy nagyon hosszú email sorozat után, örömmel vettük tudomásul, hogy végre sikerrel jártunk.</p>
                     </div>
                     <div class="column">
                         <img class="is-pulled-right" src="{{ asset('media/projects/opl-overview-2.png') }}" alt="OnePageLink - Fizetési szolgáltató leváltása" />
@@ -97,9 +83,7 @@
                         <cite class="project__testimonial__author">SANTONE Carlo</cite>
                         <span class="project__testimonial__title">Alapító, OnePageLink</span>
                         <blockquote class="project__testimonial__content">
-                            <p>
-                                "Nyitottak és barátságosak, mindig elegendő időt adnak, hogy felvázold az igényeidet, amikre okos és logikus megoldásokat javasolnak. Elégedettek vagyunk azzal, amit a Furtherrel közösen építettünk, illetve hogy továbbra is színvonalas kretív és technikai megoldásokat alkalmazunk, amint a terméket finomítjuk."
-                            </p>
+                            <p>"Nyitottak és barátságosak, mindig elegendő időt adnak, hogy felvázold az igényeidet, amikre okos és logikus megoldásokat javasolnak. Elégedettek vagyunk azzal, amit a Furtherrel közösen építettünk, illetve hogy továbbra is színvonalas kretív és technikai megoldásokat alkalmazunk, amint a terméket finomítjuk."</p>
                         </blockquote>
                     </div>
                 </div>
@@ -124,12 +108,8 @@
                     <h5 class="heading-4">
                         Kreatív partnerekkel dolgozni motiváló, de kihívásokkal teli is
                     </h5>
-                    <p>
-                        A OnePageLink csapata kimondottan kreatív emberekből tevődik össze. Művészek, zenészek, designerek. Ez különösen izgalmas volt, hiszen jobbnál jobb ötletekkel és gyönyörő design megoldásokkal álltak elő.
-                    </p>
-                    <p>
-                        Ugyanakkor ennek megvoltak a saját kihívásai is. Folyamatosan módosítanunk kellett olyan programrészeket amiket már befejezettnek tekintettünk, közben vigyázva arra, hogy a meglévő funkcionalitásba se csússzanak be hibák (hálásak vagyunk annak, aki feltalálta az automata teszteket). Mindezt úgy, hogy közben az idővel is harcoltunk, hogy a termék minél hamarabb piacra kerülhessen.
-                    </p>
+                    <p>A OnePageLink csapata kimondottan kreatív emberekből tevődik össze. Művészek, zenészek, designerek. Ez különösen izgalmas volt, hiszen jobbnál jobb ötletekkel és gyönyörő design megoldásokkal álltak elő.</p>
+                    <p>Ugyanakkor ennek megvoltak a saját kihívásai is. Folyamatosan módosítanunk kellett olyan programrészeket amiket már befejezettnek tekintettünk, közben vigyázva arra, hogy a meglévő funkcionalitásba se csússzanak be hibák (hálásak vagyunk annak, aki feltalálta az automata teszteket). Mindezt úgy, hogy közben az idővel is harcoltunk, hogy a termék minél hamarabb piacra kerülhessen.</p>
                 </div>
             </div>
             <div class="columns has-margin-b60 is-mobile">
@@ -140,12 +120,8 @@
                     <h5 class="heading-4">
                         Az adatmigrációk önmagukban felérnek egy projekttel
                     </h5>
-                    <p>
-                        Ez egy különösen trükkös projekt volt az adatmigrációt tekintve. Szerecsére korábban már átéltünk pár hasonló projektet, ezért tudtuk, hogy az adatmigráció tekintélyt igényel.
-                    </p>
-                    <p>
-                        Elejétől fogva összeírtuk egy regiszterbe az összes platformon és harmadik félnél található adatot. Utána osztályoztuk őket annak alapján, hogy lehet-e őket automatizálva migrálni vagy sem. Abban az esetben ha nem lehetett, kidolgoztunk egy tervet, hogy mikor melyik kulcsszereplővel, ügyféllel kell egyeztetni.
-                    </p>
+                    <p>Ez egy különösen trükkös projekt volt az adatmigrációt tekintve. Szerecsére korábban már átéltünk pár hasonló projektet, ezért tudtuk, hogy az adatmigráció tekintélyt igényel.</p>
+                    <p>Elejétől fogva összeírtuk egy regiszterbe az összes platformon és harmadik félnél található adatot. Utána osztályoztuk őket annak alapján, hogy lehet-e őket automatizálva migrálni vagy sem. Abban az esetben ha nem lehetett, kidolgoztunk egy tervet, hogy mikor melyik kulcsszereplővel, ügyféllel kell egyeztetni.</p>
                 </div>
             </div>
         </div>
@@ -189,9 +165,7 @@
                         <div class="project__gallery-modal__notes">
                             <h5 class="project__gallery-modal__title">EPK / promó oldal</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    Így néz ki a végeredmény. A megosztható EPK vagy promó oldalt az ügyfelek pitch deck-ként is tudják használni, vagy el tudják küldeni a rendezvényszervezőknek, fesztiváloknak vagy a sajtónak.
-                                </p>
+                                <p>Így néz ki a végeredmény. A megosztható EPK vagy promó oldalt az ügyfelek pitch deck-ként is tudják használni, vagy el tudják küldeni a rendezvényszervezőknek, fesztiváloknak vagy a sajtónak.</p>
                             </div>
                         </div>
                     </div>
@@ -204,9 +178,7 @@
                         <div class="project__gallery-modal__notes is-reversed">
                             <h5 class="project__gallery-modal__title">Oldalépítő</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    Ezen a felületen tudják a művészek szerkeszteni az oldalaikat. Ehhez nincs szükségük semmiféle design készségre, minden sablonokból tevődik össze. Ugyanakkor, megfelelő testreszabhatóságot is biztosítunk, hogy az ügyfelek ki tudják élni kreatív énüket.
-                                </p>
+                                <p>Ezen a felületen tudják a művészek szerkeszteni az oldalaikat. Ehhez nincs szükségük semmiféle design készségre, minden sablonokból tevődik össze. Ugyanakkor, megfelelő testreszabhatóságot is biztosítunk, hogy az ügyfelek ki tudják élni kreatív énüket.</p>
                             </div>
                         </div>
                     </div>

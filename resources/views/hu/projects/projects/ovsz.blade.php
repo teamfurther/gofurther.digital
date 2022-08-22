@@ -15,18 +15,10 @@
             <div class="columns">
                 <div class="column">
                     <h4 class="heading-1">Összefoglaló</h4>
-                    <p>
-                        A regiszter fejlesztése előtt a plazmaferezis állomások analóg módon kellett beküldjék a laborvizsgálatok eredményeit a központi adatbázisba.
-                    </p>
-                    <p>
-                        Az OVSZ eltárolta ezeket az eredményeket, de nem biztosított egy standard hozzáférési metódust.
-                    </p>
-                    <p>
-                        Mivel nem létezett kétirányú adatcsere, a plazmaferezis állomások nem tudták felmérni, ha egy donor már kiszűrtnek lett minősítve egy másik állomás által.
-                    </p>
-                    <p>
-                        <small>A projekt a <a href="https://www.happymed.hu" target="_blank">Happymed-el</a> és a <a href="http://popcode.hu" target="_blank">Popcode-al</a> közreműködésben készült.</small>
-                    </p>
+                    <p>A regiszter fejlesztése előtt a plazmaferezis állomások analóg módon kellett beküldjék a laborvizsgálatok eredményeit a központi adatbázisba.</p>
+                    <p>Az OVSZ eltárolta ezeket az eredményeket, de nem biztosított egy standard hozzáférési metódust.</p>
+                    <p>Mivel nem létezett kétirányú adatcsere, a plazmaferezis állomások nem tudták felmérni, ha egy donor már kiszűrtnek lett minősítve egy másik állomás által.</p>
+                    <p><small>A projekt a <a href="https://www.happymed.hu" target="_blank">Happymed-el</a> és a <a href="http://popcode.hu" target="_blank">Popcode-al</a> közreműködésben készült.</small></p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
                     <img src="{{ asset('media/projects/ovsz-illustration.png') }}" alt="OVSZ - Online keresztdonációs regiszter" />
@@ -59,16 +51,10 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Nem létezett egységes hozzáférési mód a donor információkhoz</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            A plazmaferezik állomásoknak nem állt módjukban a korábban kiszűrtnek nyilvánított donorokat ellenőrízni.
-                        </p>
+                        <p>A plazmaferezik állomásoknak nem állt módjukban a korábban kiszűrtnek nyilvánított donorokat ellenőrízni.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            Az OVSZ adatbázis mérnökeivel közreműködve, meghatároztunk egy szerződést amely leírja milyen feltételek mellett férhetnek hozzá és dolgozhatják fel a donor adatokat a plazmaferezis állomások.
-                        </p>
-                        <p>
-                            Ezek után lefejlesztettünk egy olyan adatcsere metódust, amely a laboreredményeket és a donor információkat automatikusan elküldi a központi adatbázisba.
-                        </p>
+                        <p>Az OVSZ adatbázis mérnökeivel közreműködve, meghatároztunk egy szerződést amely leírja milyen feltételek mellett férhetnek hozzá és dolgozhatják fel a donor adatokat a plazmaferezis állomások.</p>
+                        <p>Ezek után lefejlesztettünk egy olyan adatcsere metódust, amely a laboreredményeket és a donor információkat automatikusan elküldi a központi adatbázisba.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/ovsz-overview-1.png') }}" alt="OVSZ - Nem létezett egységes hozzáférési mód a donor információkhoz" />
@@ -78,16 +64,10 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">A donoradatok feltöltése körülményes és megbízhatatlan volt</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            A plazmaferezis állomások korábban papír alapon tudták beküldeni a laboreredményeket, amit később manuálisan rögzítettek a központi adatbázisba.
-                        </p>
-                        <p>
-                            Ez egy meglehetősen körülményes folyamat volt mind az állomások, mind az OVZ számára. Az emberi faktor miatt, ráadásul nagyon magas volt a hibázási lehetőség is.
-                        </p>
+                        <p>A plazmaferezis állomások korábban papír alapon tudták beküldeni a laboreredményeket, amit később manuálisan rögzítettek a központi adatbázisba.</p>
+                        <p>Ez egy meglehetősen körülményes folyamat volt mind az állomások, mind az OVZ számára. Az emberi faktor miatt, ráadásul nagyon magas volt a hibázási lehetőség is.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            A standard adatcsere protokollok meghatározása lehetővé tette számunkra, hogy a laboreredményeket automatikusan elküldjük a központi adatbázisba.
-                        </p>
+                        <p>A standard adatcsere protokollok meghatározása lehetővé tette számunkra, hogy a laboreredményeket automatikusan elküldjük a központi adatbázisba.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/ovsz-overview-2.png') }}" alt="OVSZ - A donoradatok feltöltése körülményes és megbízhatatlan volt" />
@@ -114,12 +94,8 @@
                     <h5 class="heading-4">
                         Érzékeny adatokkal dolgozni bonyolult
                     </h5>
-                    <p>
-                        Az első dolog amit megtanultunk a projekt során az volt, hogy hogyan kezeljünk érzékeny egészségügyi adatokat.
-                    </p>
-                    <p>
-                        Az erre vonatkozó Magyar jogszabályok nem mindig egyértelműek, ezért a HIPAA standardokat és annak a különböző implementációit is vizsgáltuk. Ennek eredményeként egy robusztus megoldást építettünk, ahol biztonságban vannak a donor információk.
-                    </p>
+                    <p>Az első dolog amit megtanultunk a projekt során az volt, hogy hogyan kezeljünk érzékeny egészségügyi adatokat.</p>
+                    <p>Az erre vonatkozó Magyar jogszabályok nem mindig egyértelműek, ezért a HIPAA standardokat és annak a különböző implementációit is vizsgáltuk. Ennek eredményeként egy robusztus megoldást építettünk, ahol biztonságban vannak a donor információk.</p>
                 </div>
             </div>
             <div class="columns is-mobile">
@@ -130,12 +106,8 @@
                     <h5 class="heading-4">
                         A biztosított adatok hozzáférése és módosítása nem egyszerű
                     </h5>
-                    <p>
-                        A legtöbb projektünk esetében megszoktuk, hogy teljes kontrollunk van az adatbázis fölött is, vagy legalább egy standard hozzáférési mód biztosított hozzá egy API-n keresztül.
-                    </p>
-                    <p>
-                        Ebben az esetben egyik sem állt rendelkezésünkre. Közre kellett működjön az OVSZ adatbázis csapatával, hogy egy olyan rendszert tervezzünk ami több tűzfalon és köztes biztonsági kapun keresztül lehetővé teszi a bizalmas adatokhoz való hozzáférést.
-                    </p>
+                    <p>A legtöbb projektünk esetében megszoktuk, hogy teljes kontrollunk van az adatbázis fölött is, vagy legalább egy standard hozzáférési mód biztosított hozzá egy API-n keresztül.</p>
+                    <p>Ebben az esetben egyik sem állt rendelkezésünkre. Közre kellett működjön az OVSZ adatbázis csapatával, hogy egy olyan rendszert tervezzünk ami több tűzfalon és köztes biztonsági kapun keresztül lehetővé teszi a bizalmas adatokhoz való hozzáférést.</p>
                 </div>
             </div>
         </div>

@@ -1,10 +1,8 @@
-<p>
-    @if ($data['job'])
+<p>@if ($data['job'])
         {{ $data['name'] }} has applied for the job: {{ $data['job'] }}
     @else
         {{ $data['name'] }} has applied for a job.
-    @endif
-</p>
+    @endif</p>
 
 <table>
     <tr>

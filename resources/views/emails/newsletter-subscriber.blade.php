@@ -1,6 +1,4 @@
-<p>
-    {{ $data['name'] }} has just subsribed to our newsletter.
-</p>
+<p>{{ $data['name'] }} has just subsribed to our newsletter.</p>
 
 <table>
     <tr>

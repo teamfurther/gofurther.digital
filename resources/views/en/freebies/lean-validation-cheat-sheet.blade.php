@@ -153,19 +153,13 @@
                     <h3 class="heading-2">F.A.Q.</h3>
 
                     <h4 class="heading-3">The cheat sheet was helpful, but I still have questions…</h4>
-                    <p class="has-margin-b30">
-                        <small>This resource was by no means meant to be exhaustive. Check out <a href="{{ localizedRoute('blog.tags.show', ['slug' => 'startups-and-product-development']) }}">our blog</a> for more in-depth articles, or <a href="{{ localizedRoute('contact') }}">get in touch</a> for a free consultation.</small>
-                    </p>
+                    <p class="has-margin-b30"><small>This resource was by no means meant to be exhaustive. Check out <a href="{{ localizedRoute('blog.tags.show', ['slug' => 'startups-and-product-development']) }}">our blog</a> for more in-depth articles, or <a href="{{ localizedRoute('contact') }}">get in touch</a> for a free consultation.</small></p>
 
                     <h4 class="heading-3">Why do I have to provide personal information to download resources?</h4>
-                    <p class="has-margin-b30">
-                        <small>We put in a lot of work into creating quality material for our readers. We are asking for your personal details so we can send you further resources that we think might be useful for you. Don't worry, all your personal data is handled confidentially and in accordance to our <a href="{{ localizedRoute('privacy') }}" target="_blank">privacy policy</a>. If you do not wish to receive these free resources, you'll be able to easily unsubscribe.</small>
-                    </p>
+                    <p class="has-margin-b30"><small>We put in a lot of work into creating quality material for our readers. We are asking for your personal details so we can send you further resources that we think might be useful for you. Don't worry, all your personal data is handled confidentially and in accordance to our <a href="{{ localizedRoute('privacy') }}" target="_blank">privacy policy</a>. If you do not wish to receive these free resources, you'll be able to easily unsubscribe.</small></p>
 
                     <h4 class="heading-3">Can I redistribute this material?</h4>
-                    <p>
-                        <small>Yes! This work is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a> license. As long as you give appropriate credit, you may redistribute this material.</small>
-                    </p>
+                    <p><small>Yes! This work is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a> license. As long as you give appropriate credit, you may redistribute this material.</small></p>
                 </div>
             </div>
         </div>

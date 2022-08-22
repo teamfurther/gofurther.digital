@@ -1,5 +1,5 @@
 .banner {
-    background: url(../img/banner-bg.png) center center mix($cobalt, $black, 50%);
+    background-color: $cobalt;
     margin: -30px -15px;
     padding: 50px 30px 60px;
     text-align: center;
@@ -10,6 +10,19 @@
 
     @include desktop() {
         margin: -90px -15px;
+    }
+
+    &::before {
+        background: url(../img/banner-background.jpg) top center / cover no-repeat;
+        content: '';
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: .1;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 5;
     }
 
     &--contact {
@@ -73,6 +86,11 @@
                 max-width: 30%;
             }
         }
+    }
+
+    .container {
+        position: relative;
+        z-index: 10;
     }
 
     .heading-2 {

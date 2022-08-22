@@ -58,7 +58,7 @@
                                 <li>butchers and meat cutters - 93%</li>
                             </ul>
                             <h2 class="heading-2 has-margin-b30">Unemployment or adaptation?</h2>
-                            <p>It's no wonder that people are afraid of automation. But does their fear of unemployment have valid grounds? </p>
+                            <p>It's no wonder that people are afraid of automation. But does their fear of unemployment have valid grounds?</p>
                             <p>Although there are many instances when someone lost their means of making a living, history and current trends show that these jobs don't cease to exist, but instead transform.</p>
                             <p>When at the beginning of the 20th century internal combustion engines and cars became attainable to the general public, a whole industry disappeared. Thousands of horse breeders, coachmen, carriage makers and blacksmiths lost their jobs.</p>
                             <p>But the rise of the automobile industry also created jobs, far more than it destroyed. Factories were built, petrol stations, car washes and even drive-through restaurants and drive-in theaters appeared.</p>

@@ -7,9 +7,7 @@
                         Let's start something <strong class="is-black">together!</strong>
                     </h2>
 
-                    <p class="has-margin-b30">
-                        Do you have an idea, project or partnership proposal?<br />We're always willing and ready to listen to any request. So, if you like our work and you want to discuss, just grab your phone or keyboard and contact us.
-                    </p>
+                    <p class="has-margin-b30">Do you have an idea, project or partnership proposal?<br />We're always willing and ready to listen to any request. So, if you like our work and you want to discuss, just grab your phone or keyboard and contact us.</p>
 
                     <div class="h-card vcard">
                         <div class="p-tel tel">

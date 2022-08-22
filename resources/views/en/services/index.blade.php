@@ -1,14 +1,16 @@
 @extends('en.site', ['bodyClass' => 'has-hero'])
 
 @section('content')
-    <section class="hero is-raspberry">
+    <section class="hero hero--background-2 is-raspberry">
         <h2 class="hero-heading">
             From <strong class="is-tangerine">idea to execution</strong><br />
             and beyond.
         </h2>
+
         <a class="hero__cta" href="{{ localizedRoute('contact') }}">
             We'd love to listen to your product idea!<strong>Let's talk</strong>
         </a>
+
         <a class="hero__scroll" href="#services"></a>
     </section>
 
@@ -24,12 +26,10 @@
                             <div class="services__outcome">
                                 What you'll get → <span>Validated idea</span>, <span>Product strategy</span>
                             </div>
-                            <p>
-                                Together, we start by exploring your vision. We'll break up your idea into problems and challenges we need to solve and then put everything back together by creating a product strategy.
-                            </p>
-                            <p class="has-margin-b60">
-                                One of the core activities in this phase is getting to know your users by conducting user interviews and panels to validate the concept.
-                            </p>
+
+                            <p>Together, we start by exploring your vision. We'll break up your idea into problems and challenges we need to solve and then put everything back together by creating a product strategy.</p>
+                            <p class="has-margin-b60">One of the core activities in this phase is getting to know your users by conducting user interviews and panels to validate the concept.</p>
+
                             <a class="btn has-margin-b5">Discovery Workshop</a>
                             <a class="btn has-margin-b5">Design Sprint</a>
                         </div>
@@ -42,12 +42,10 @@
                             <div class="services__outcome">
                                 What you'll get → <span>Wireframes</span>, <span>UI Designs</span>
                             </div>
-                            <p>
-                                This is where we start building real, tactile representations of your concepts, then return to the users for feedback. Exciting times!
-                            </p>
-                            <p class="has-margin-b60">
-                                First off we create wireframes to establish information hierarchy and to give you an idea on how everything fits together. Then we add colours and interactions, finally bringing your project to life through beautiful and ergonomic UI designs.
-                            </p>
+
+                            <p>This is where we start building real, tactile representations of your concepts, then return to the users for feedback. Exciting times!</p>
+                            <p class="has-margin-b60">First off we create wireframes to establish information hierarchy and to give you an idea on how everything fits together. Then we add colours and interactions, finally bringing your project to life through beautiful and ergonomic UI designs.</p>
+
                             <a class="btn has-margin-b5">UI Design</a>
                         </div>
                     </div>
@@ -59,12 +57,9 @@
                             <div class="services__outcome">
                                 What you'll get → <span>Functional prototypes (MVP)</span>, <span>Market-ready product</span>
                             </div>
-                            <p>
-                                If it lives in the digital space, we can build it! From no-code prototypes to further validate your concept, to a feature-rich mobile app or and AI-driven IoT solution, we've seen it all.
-                            </p>
-                            <p class="has-margin-b60">
-                                By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.
-                            </p>
+                            <p>If it lives in the digital space, we can build it! From no-code prototypes to further validate your concept, to a feature-rich mobile app or and AI-driven IoT solution, we've seen it all.</p>
+                            <p class="has-margin-b60">By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.</p>
+
                             <a class="btn has-margin-b5">No-code and low-code solutions</a>
                             <a class="btn has-margin-b5">Mobile apps</a>
                             <a class="btn has-margin-b5">Web apps</a>
@@ -98,9 +93,7 @@
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
                     <img class="testimonial__picture" src="{{ asset('img/testimonials-brian-dubb.png') }}" alt="Centralized Brian Dubb testimonial" />
                     <blockquote class="testimonial__content">
-                        <p>
-                            Further developed our MVP quickly and within budget, which led to the on-boarding of our beta testing users and another round of investment. We're very pleased to have stayed with Further for the second release.
-                        </p>
+                        <p>Further developed our MVP quickly and within budget, which led to the on-boarding of our beta testing users and another round of investment. We're very pleased to have stayed with Further for the second release.</p>
                         <cite class="testimonial__author">Brian DUBB, Centralized</cite>
                     </blockquote>
                 </div>
@@ -109,9 +102,7 @@
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
                     <img class="testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-attila-szegedi.png') }}" alt="Brewie Attila Szegedi testimonial" />
                     <blockquote class="testimonial__content">
-                        <p>
-                            Further customized their own CMS called Chronos to suit our needs. It now serves as the core of our knowledge platform. The platform is working perfectly, allowing us to store and share a huge amount of information about our machine and beer brewing.
-                        </p>
+                        <p>Further customized their own CMS called Chronos to suit our needs. It now serves as the core of our knowledge platform. The platform is working perfectly, allowing us to store and share a huge amount of information about our machine and beer brewing.</p>
                         <cite class="testimonial__author">Attila SZEGEDI, Brewie</cite>
                     </blockquote>
                 </div>

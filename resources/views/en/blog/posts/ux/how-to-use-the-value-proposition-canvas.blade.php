@@ -42,9 +42,9 @@
                                 <img src="{{ asset('media/blog/value-proposition-canvas.jpg') }}" alt="Value proposition canvas" />
                             </figure>
                             <h3 class="heading-3 has-margin-b30">Customer Profile</h3>
-                            <p class="has-margin-b30">The Customer Profile part helps identify problems from a customer perspective. Try to understand the customer's jobs, pain points and gains rather than brainstorming solutions. </p>
+                            <p class="has-margin-b30">The Customer Profile part helps identify problems from a customer perspective. Try to understand the customer's jobs, pain points and gains rather than brainstorming solutions.</p>
                             <p class="has-margin-b30">Before we start filling the canvas, our first step is choosing the target customer. Here, you can use the <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-use-personas-in-product-development']) }}" target="_blank">persona</a> you have created before. If you haven't, it's time to! We use personas as a guide when filling customers' profiles, focusing on the jobs, pains and gains from the persona's point of view.</p>
-                            <p>The customer profile is divided into three parts: </p>
+                            <p>The customer profile is divided into three parts:</p>
                             <figure>
                                 <img src="{{ asset('media/blog/value-proposition-canvas-customer-profile.jpg') }}" alt="Customer profile" />
                             </figure>
@@ -55,7 +55,7 @@
                                 <li>Social — These jobs are motivated by our societal duty, fears, or aspirations. For example, when buying a hybrid car, a social job would be to protect the environment.</li>
                                 <li>Emotional — These jobs stem from our tastes, dislikes, and insecurities. It would be the sensation we get while driving a car.</li>
                             </ul>
-                            <p class="has-margin-b30">These questions may help you define customer jobs: </p>
+                            <p class="has-margin-b30">These questions may help you define customer jobs:</p>
                             <ul class="list has-bullets has-margin-b60">
                                 <li>What actions are your customers attempting to accomplish?</li>
                                 <li>What are your customer's emotional goals?</li>
@@ -88,7 +88,7 @@
                             <figure>
                                 <img src="{{ asset('media/blog/value-proposition-canvas-value-map.jpg') }}" alt="Value Map" />
                             </figure>
-                            <p class="has-margin-b30"><b>1. Products and services</b> that define the most critical components of your offering </p>
+                            <p class="has-margin-b30"><b>1. Products and services</b> that define the most critical components of your offering</p>
                             <p class="has-margin-b30"><b>2. Pain Relievers</b> eliminate, reduce or minimize the pains that customers care about, making their life easier.</p>
                             <p class="has-margin-b30">These questions may help you define your pain relievers:</p>
                             <ul class="list has-bullets has-margin-b60">
@@ -145,7 +145,7 @@
                                 <li>Regular cleaning service</li>
                                 <li>Trained drivers</li>
                             </ul>
-                            <p class="has-margin-b30">This train of thought might help when writing down pain relievers: if a customer has a pain X, the pain reliever might be Y. </p>
+                            <p class="has-margin-b30">This train of thought might help when writing down pain relievers: if a customer has a pain X, the pain reliever might be Y.</p>
                             <p class="has-margin-b30">So, if a customer has a pain "No taxi availability", the pain reliever might be "24/7 taxi availability".</p>
                             <p class="has-margin-b30"><b>Gain Creators</b></p>
                             <ul class="list has-bullets has-margin-b30">

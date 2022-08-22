@@ -13,9 +13,7 @@
                             Építsünk valamit <strong class="is-tangerine">együtt!</strong>
                         </h2>
 
-                        <p class="has-text-centered">
-                            Nyitottak vagyunk minden új kérdésre, megkeresésre. Ha felkeltettük érdeklődésed, megtetszett a munkánk vagy van olyan projekted, amelyet meg szeretnél velünk beszélni, akkor vedd fel velünk a kapcsolatot telefonon vagy e-mailben.
-                        </p>
+                        <p class="has-text-centered">Nyitottak vagyunk minden új kérdésre, megkeresésre. Ha felkeltettük érdeklődésed, megtetszett a munkánk vagy van olyan projekted, amelyet meg szeretnél velünk beszélni, akkor vedd fel velünk a kapcsolatot telefonon vagy e-mailben.</p>
 
                         <form class="contact__form" id="contact-form" action="{{ localizedRoute('contact.send') }}" method="POST">
                             {{ csrf_field() }}
@@ -45,6 +43,14 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="is-hidden-mobile">
+        <div class="slides-separator">
+            <img src="{{ asset('img/team-15.jpg') }}" alt="Further team" />
+            <img src="{{ asset('img/team-7.jpg') }}" alt="Further team" />
+            <img src="{{ asset('img/team-1.jpg') }}" alt="Further team" />
         </div>
     </section>
 

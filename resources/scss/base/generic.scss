@@ -67,6 +67,22 @@ a {
     &:hover {
         color: darken($pearl, 25%);
     }
+
+    &.is-grey {
+        color: $grey-text;
+
+        &:hover {
+            color: $black;
+        }
+    }
+
+    &.is-white {
+        color: $white;
+
+        &:hover {
+            color: $grey-light;
+        }
+    }
 }
 
 code {

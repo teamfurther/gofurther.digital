@@ -36,7 +36,7 @@
                                 <figcaption>Egy digitális transzformáció sikere az emberi ellenálláson és ennek kezelésén múlhat.</figcaption>
                             </figure>
                             <h2 class="heading-2 has-margin-b30">A változástól való félelem</h2>
-                            <p>Az ellenállás másik és jóval összetettebb oka a változástól való félelem. A technológia olyan mértékben megváltoztatta a mai világot, vele együtt pedig a munkahelyeket, hogy ez a félelem kétségkívül megalapozott. </p>
+                            <p>Az ellenállás másik és jóval összetettebb oka a változástól való félelem. A technológia olyan mértékben megváltoztatta a mai világot, vele együtt pedig a munkahelyeket, hogy ez a félelem kétségkívül megalapozott.</p>
                             <p class="has-margin-b30">A továbbiakban főként ezzel a témával foglalkozunk a cikkben.</p>
                             <h3 class="heading-4 has-margin-b30">A technológia átalakítja a munkahelyeinket</h3>
                             <p>Egyre több munkahelyet részben vagy teljesen automatizáltak technológia segítségével.</p>

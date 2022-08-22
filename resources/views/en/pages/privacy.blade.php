@@ -16,8 +16,7 @@
                     <p>{{ config('site.company.name') }}<br />
                         {{ config('site.company.address.postal_code') }} {{ config('site.company.address.city') }} ({{ config('site.company.address.country') }}), {{ config('site.company.address.street_address') }}<br />
                         Company no.: {{ config('site.company.regno') }}<br />
-                        VAT no.: {{ config('site.company.vatno') }}<br />
-                    </p>
+                        VAT no.: {{ config('site.company.vatno') }}<br /></p>
                     <p class="has-margin-b60">At Further, your personal information will only be accessible to the management team. Your personal details will not be made available to any third parties or data processors.</p>
                     <h2 class="heading-2 has-margin-b30">Use of Personal Information</h2>
                     <p>Personal information provided to Further Digital Solutions via the Further website will be used for the purposes outlined at the time of collection. In addition, personal information may be used for statistical analysis.</p>

@@ -15,12 +15,8 @@
             <div class="columns">
                 <div class="column">
                     <h4 class="heading-1">Összefoglaló</h4>
-                    <p>
-                        A centralized.me a világ első automatizált digitális menedzsere feltörekvő zenészek számára. Számukra biztosít útmutatást, kontrollt a karrierjük fölött és kapcsolatokat az iparággal, hogy több idejük maradjon a zenére.
-                    </p>
-                    <p>
-                        A centralized.me-n videók, útmutatók, munkafolyamatok, email- és szerződésminták, illetve költségvetések segítik a művészeket, hogy megtalálják az irányt a zeneiparban.
-                    </p>
+                    <p>A centralized.me a világ első automatizált digitális menedzsere feltörekvő zenészek számára. Számukra biztosít útmutatást, kontrollt a karrierjük fölött és kapcsolatokat az iparággal, hogy több idejük maradjon a zenére.</p>
+                    <p>A centralized.me-n videók, útmutatók, munkafolyamatok, email- és szerződésminták, illetve költségvetések segítik a művészeket, hogy megtalálják az irányt a zeneiparban.</p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
                     <img class="project__logo" src="{{ asset('media/projects/centralized-logo.svg') }}" alt="Centralized" />
@@ -53,13 +49,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">A rendszer könnyen skálázható kell legyen</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            Mivel egy startup projektről van szó, azt reméltük, hogy egy adott ponton rengeteg felhasználója lesz a platformnak. A marketing terv alapján pedig arra számítottunk, hogy óriási hullámokban fognak érkezni.
-                        </p>
+                        <p>Mivel egy startup projektről van szó, azt reméltük, hogy egy adott ponton rengeteg felhasználója lesz a platformnak. A marketing terv alapján pedig arra számítottunk, hogy óriási hullámokban fognak érkezni.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            Mielőtt egyetlen sor kódot írtunk volna, alaposan meg kellett tervezzük a szoftver architektúrát. Egy olyan rendszert és felhő szolgáltatót választottunk ami lehetővé teszi, hogy gyorsan fel tudjuk skálázni a rendszert, akár több millió felhasználót kiszolgálva.
-                        </p>
+                        <p>Mielőtt egyetlen sor kódot írtunk volna, alaposan meg kellett tervezzük a szoftver architektúrát. Egy olyan rendszert és felhő szolgáltatót választottunk ami lehetővé teszi, hogy gyorsan fel tudjuk skálázni a rendszert, akár több millió felhasználót kiszolgálva.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/centralized-overview-1.png') }}" alt="Centralized - A rendszer könnyen skálázható kell legyen" />
@@ -69,13 +61,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">A rendszer részletes analitikákat kell gyűjtsön</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            Az MVP-ből kinyert analitika és a kapott visszajelzések mind beépítésre kerültek a második verzióba. Ezért nagyon fontosnak éreztük, hogy az új verzióból még pontosabb mérőszámokat tudjunk kinyerni.
-                        </p>
+                        <p>Az MVP-ből kinyert analitika és a kapott visszajelzések mind beépítésre kerültek a második verzióba. Ezért nagyon fontosnak éreztük, hogy az új verzióból még pontosabb mérőszámokat tudjunk kinyerni.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            A szokásos Google Analytics és Hotjar telepítése mellett, szorosan közreműködtünk a marketing csapattal, hogy beállítsunk egy sorozat követő kódot, A/B tesztet és feedback eszközt annak érdekében, hogy folyamatosan tudjuk a terméket fejleszteni és releváns funkcióval kiegészíteni.
-                        </p>
+                        <p>A szokásos Google Analytics és Hotjar telepítése mellett, szorosan közreműködtünk a marketing csapattal, hogy beállítsunk egy sorozat követő kódot, A/B tesztet és feedback eszközt annak érdekében, hogy folyamatosan tudjuk a terméket fejleszteni és releváns funkcióval kiegészíteni.</p>
                     </div>
                     <div class="column">
                         <img class="is-pulled-right" src="{{ asset('media/projects/centralized-overview-2.png') }}" alt="Centralized - A rendszer részletes analitikákat kell gyűjtsön" />
@@ -94,9 +82,7 @@
                         <cite class="project__testimonial__author">DUBB Brian</cite>
                         <span class="project__testimonial__title">Alapító, Centralized</span>
                         <blockquote class="project__testimonial__content">
-                            <p>
-                                "A Further határidőn és költségvetésen belül fejlesztette le az MVP-t, ami sikeres béta teszteléshez, majd egy második kör befektetéshez vezetett. Örvendünk hogy az applikáció második verzióján is a Furtherrel együtt dolgozhatunk."
-                            </p>
+                            <p>"A Further határidőn és költségvetésen belül fejlesztette le az MVP-t, ami sikeres béta teszteléshez, majd egy második kör befektetéshez vezetett. Örvendünk hogy az applikáció második verzióján is a Furtherrel együtt dolgozhatunk."</p>
                         </blockquote>
                     </div>
                 </div>
@@ -121,12 +107,8 @@
                     <h5 class="heading-4">
                         A startup projektek és nagyvállalati projektek nagyon különbözőek
                     </h5>
-                    <p>
-                        A centralized.me előtt és után is dolgoztunk már startup projekteken, de kevés projekt volt ennyire pörgős. A szokásos nagyvállalati projektjeinkhez képest, ahol legtöbb döntés lassú és bürokratikus, ennél a projekthez egy teljesen más gondolkodásmódra volt szükség.
-                    </p>
-                    <p>
-                        Ahhoz, hogy flexibilisek maradjunk és tartani tudjuk a lépést a gyors döntéshozásokkal amit egy startup projekt igényel, apró változtatásokat kellett eszközöljünk a projektmenedzsment folyamatainkban.
-                    </p>
+                    <p>A centralized.me előtt és után is dolgoztunk már startup projekteken, de kevés projekt volt ennyire pörgős. A szokásos nagyvállalati projektjeinkhez képest, ahol legtöbb döntés lassú és bürokratikus, ennél a projekthez egy teljesen más gondolkodásmódra volt szükség.</p>
+                    <p>Ahhoz, hogy flexibilisek maradjunk és tartani tudjuk a lépést a gyors döntéshozásokkal amit egy startup projekt igényel, apró változtatásokat kellett eszközöljünk a projektmenedzsment folyamatainkban.</p>
                 </div>
             </div>
         </div>
@@ -170,9 +152,7 @@
                         <div class="project__gallery-modal__notes">
                             <h5 class="project__gallery-modal__title">Varázsló</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    A felhasználói történet egy varázsló űrlap kitöltésével kezdődik. A varázsló megmondja hol tart a felhasználó a zenei karrier útján.
-                                </p>
+                                <p>A felhasználói történet egy varázsló űrlap kitöltésével kezdődik. A varázsló megmondja hol tart a felhasználó a zenei karrier útján.</p>
                             </div>
                         </div>
                     </div>
@@ -185,9 +165,7 @@
                         <div class="project__gallery-modal__notes is-reversed">
                             <h5 class="project__gallery-modal__title">Terv</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    A válaszok alapján minden felhasználónak generálunk egy testreszabott tervet amit követhetnek.
-                                </p>
+                                <p>A válaszok alapján minden felhasználónak generálunk egy testreszabott tervet amit követhetnek.</p>
                             </div>
                         </div>
                     </div>
@@ -200,9 +178,7 @@
                         <div class="project__gallery-modal__notes">
                             <h5 class="project__gallery-modal__title">Útmutatók</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    A felhasználó tervében minden lépés egy útmutató oldalra vezet. Ezek az útmutatók videó tartalmakat, checklisteket, email- és szerződéstervezeteket, illetve költségvetéseket tartalmaznak.
-                                </p>
+                                <p>A felhasználó tervében minden lépés egy útmutató oldalra vezet. Ezek az útmutatók videó tartalmakat, checklisteket, email- és szerződéstervezeteket, illetve költségvetéseket tartalmaznak.</p>
                             </div>
                         </div>
                     </div>

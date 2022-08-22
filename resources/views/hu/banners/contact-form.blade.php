@@ -7,9 +7,7 @@
                         Építsünk valamit <strong class="is-black">együtt!</strong>
                     </h2>
 
-                    <p class="has-margin-b30">
-                        Nyitottak vagyunk minden új kérdésre, megkeresésre. Ha felkeltettük érdeklődésed, megtetszett a munkánk vagy van olyan projekted, amelyet meg szeretnél velünk beszélni, akkor vedd fel velünk a kapcsolatot telefonon vagy e-mailben.
-                    </p>
+                    <p class="has-margin-b30">Nyitottak vagyunk minden új kérdésre, megkeresésre. Ha felkeltettük érdeklődésed, megtetszett a munkánk vagy van olyan projekted, amelyet meg szeretnél velünk beszélni, akkor vedd fel velünk a kapcsolatot telefonon vagy e-mailben.</p>
 
                     <div class="h-card vcard">
                         <div class="p-tel tel">

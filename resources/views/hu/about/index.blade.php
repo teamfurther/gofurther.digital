@@ -4,32 +4,33 @@
 @section('description', 'Ismerd meg a mosolygós embereket a Further mögött.')
 
 @section('content')
-    <section class="section">
+    <section class="section has-padding-b0">
         <div class="container">
             <div class="columns">
-                <div class="column is-10-tablet is-offset-1-tablet">
-                    <h2 class="hero-heading">
+                <div class="column is-7-tablet">
+                    <h2 class="hero-heading has-margin-b15">
                         <strong class="is-raspberry">Örvendünk</strong>, hogy megismerhetünk!
                     </h2>
                 </div>
             </div>
-            <div class="columns">
-                <div class="column is-6-tablet is-5-desktop is-offset-1-tablet">
-                    <p>
-                        Szia! Bármelyik kollégánkkal beszélsz majd, biztos lehetsz abban, hogy egy széles mosollyal megfűszerezett sziával köszönt majd. Ez a fajta közvetlenség és barátságosság olyan érték, amely a teljes csapatunkat jellemzi.
-                    </p>
-                    <p>
-                        Görgess tovább és ismerd meg azokat, akikkel együtt dolgozol majd a következő projekteden!
-                    </p>
-                </div>
-                <div class="column is-hidden-mobile is-4-tablet is-offset-1-desktop has-text-centered">
-                    <img src="{{ asset('img/about-szia.png') }}" alt="Örvendünk, hogy megismerhetünk" />
+        </div>
+
+        <div class="panel is-raspberry">
+            <div class="container">
+                <div class="columns about__top__background">
+                    <div class="column is-7-tablet is-6-widescreen">
+                        <p>Szia! Bármelyik kollégánkkal beszélsz majd, biztos lehetsz abban, hogy egy széles mosollyal megfűszerezett sziával köszönt majd. Ez a fajta közvetlenség és barátságosság olyan érték, amely a teljes csapatunkat jellemzi.</p>
+                        <p>Görgess tovább és ismerd meg azokat, akikkel együtt dolgozol majd a következő projekteden!</p>
+                    </div>
+                    <div class="column is-offset-1-widescreen is-offset-top is-hidden-mobile">
+                        <img src="{{ asset('img/team-2.jpg') }}" alt="Further team" />
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section is-dark">
+    <section class="section">
         <div class="container">
                 <div class="columns is-mobile is-multiline">
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
@@ -51,13 +52,6 @@
                             <img class="about__team__member__picture" src="{{ asset('img/team-norbert-zsombori.png') }}" alt="Norbert Zsombori" />
                             <h4 class="about__team__member__name">Zsombori Norbert</h4>
                             <div class="about__team__member__title">Fejlesztési vezető</div>
-                        </div>
-                    </div>
-                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                        <div class="about__team__member">
-                            <img class="about__team__member__picture" src="{{ asset('img/team-veronika-danos.png') }}" alt="Veronika Dános" />
-                            <h4 class="about__team__member__name">Dános Veronika</h4>
-                            <div class="about__team__member__title">Üzletfejlesztési vezető</div>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
@@ -97,33 +91,46 @@
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
+                            <img class="about__team__member__picture" src="{{ asset('img/team-veronika-danos.png') }}" alt="Veronika Dános" />
+                            <h4 class="about__team__member__name">Dános Veronika</h4>
+                            <div class="about__team__member__title">Üzletfejlesztés</div>
+                        </div>
+                    </div>
+                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                        <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-gergely-fenyvesi.png') }}" alt="Gergő Fenyvesi" />
                             <h4 class="about__team__member__name">Fenyvesi Gergő</h4>
                             <div class="about__team__member__title">Marketing Koordinátor</div>
+                        </div>
+                    </div>
+                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                        <div class="about__team__member">
+                            <img class="about__team__member__picture" src="{{ asset('img/team-foerdi.png') }}" alt="Fördi" />
+                            <h4 class="about__team__member__name">Fördi</h4>
+                            <div class="about__team__member__title">Kikapcsolódási vezető</div>
                         </div>
                     </div>
                 </div>
         </div>
     </section>
 
-    <section class="section">
+    <section class="section is-dark" id="how-we-work">
         <div class="container">
-            <div class="columns">
-                <div class="column is-10-tablet is-offset-1-tablet">
+            <div class="columns is-reversed-tablet">
+                <div class="column is-8-tablet is-offset-1-widescreen">
                     <h2 class="hero-heading">
-                        <strong class="is-pearl">Csatlakozz</strong> csapatunkhoz
+                        Ismerd meg <strong class="is-tangerine">hogyan dolgozunk</strong>
                     </h2>
+
+                    <p>Egy digitális termék sikeréknek 3 kulcsa van: innovatív termékstratégia, megfelelő technológiai megoldás és kiváló felhasználói élmény (UX). A mi értékünk full-service digitális termékfejlesztő ügynökségként az, hogy mindhármat egy kézből biztosítjuk Neked.</p>
+                    <p>A Further Digital Solutionsnél ügyfélközpontú megoldások kidolgozására fókuszálunk: időt szakítunk arra, hogy megismerjük a vállalkozásod, így olyan testreszabott szoftvereket fejlesztünk, melyek a Te konkrét igényeid szolgálják ki.</p>
+                    <p>A nyitottság, az őszinteség és a tudásmegosztás olyan értékek, melyekben hiszünk, és amelyek ideális hosszú távú partnerekké tesznek minket.</p>
                 </div>
-            </div>
-            <div class="columns">
-                <div class="column is-7-tablet is-offset-1-tablet is-6-desktop">
-                    <p>Szenvedélyes, kreatív és világot hódítani akaró munkatársakat keresünk.</p>
-                    <p>Úgy gondoljuk, hogy a tapasztalatot és a tudást meg kell osztani, ezért ösztönözzük a csapat tagjai közötti kommunikációt, konferenciákra járunk és workshopokat tartunk.</p>
-                    <p><a href="{{ localizedRoute('contact') }}">Ismerkedj meg velünk</a>, tudd meg hogyan pörgünk munka közben, és mit szeretünk a munkánkban.</p>
-                    <p>Oklevelek helyett inkább a fejlődni akarást és az ambíciót vesszük figyelembe. Ezért ha úgy gondolod, hogy rendelkezel ezekkel a tulajdonságokkal, akkor keresd fel az <a href="https://gofurther.digital/en/careers" target="_blank">https://gofurther.digital/en/careers</a> oldalt.</p>
-                </div>
-                <div class="column is-hidden-mobile is-3-tablet">
-                    <img class="is-pulled-right" src="{{ asset('img/join-our-team-illustration.png') }}" alt="Csatlakozz csapatunkhoz" />
+                <div class="column">
+                    <div class="slides is-vertical">
+                        <img src="{{ asset('img/team-3.jpg') }}" alt="Further team" />
+                        <img src="{{ asset('img/team-9.jpg') }}" alt="Further team" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -131,47 +138,22 @@
 
     @include(getLang() . '.banners.booklet')
 
-    <section class="section" id="our-mission">
-        <div class="about">
-            <div class="container">
-                <div class="columns">
-                    <div class="column is-6-tablet is-7-desktop">
-                        <h1 class="hero-heading">
-                            Ismerd meg <strong class="is-tangerine">hogyan dolgozunk</strong>
-                        </h1>
-                        <p>
-                            A Further Digital Solutionsnél ügyfélközpontú megoldások kidolgozására fókuszálunk: időt szakítunk arra, hogy megismerjük a vállalkozásod, így olyan testreszabott szoftvereket fejlesztünk, melyek a Te konkrét igényeid szolgálják ki.
-                        </p>
-                        <p>
-                            Célunk ügyfeleink üzleti növekedésének segítése innovatív megoldások és kiváló minőségű szoftverek szolgáltatásával. Az állandó kommunikáció, a szenvedély és a közvetlenség olyan értékek, melyekben hiszünk, és amelyek ideális hosszú távú partnerekké tesznek minket.
-                        </p>
-                    </div>
-                    <div class="about__stats is-hu">
-                        <span class="about__stat about__stat--1"><strong>{{ config('site.stats.projects') }}+</strong>projekt</span>
-                        <span class="about__stat about__stat--2"><strong>{{ config('site.stats.clients') }}</strong>ügyfél</span>
-                        <span class="about__stat about__stat--3"><strong>{{ config('site.stats.countries') }}</strong>országban</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section is-dark" id="laravel-vue">
+    <section class="section" id="laravel-vue">
         <div class="container">
             <div class="columns">
-                <div class="column is-10-tablet is-9-desktop">
-                    <h2 class="hero-heading">
-                        Further <strong class="is-raspberry">❤</strong> Laravel + Vue.
-                    </h2>
-                </div>
-            </div>
-            <div class="columns">
                 <div class="column is-8-tablet">
+                    <h2 class="hero-heading">
+                        Further <strong class="is-raspberry">❤</strong> Laravel + Vue.js
+                    </h2>
+
                     <p>Imádjuk az olyan keretrendszereket mint a Laravel és a Vue. A gazdag funkcionalitásuknak köszönhetően lehetőve teszik számunkra, hogy csökkentsük a fejlesztési időket és költségeket. Komoly tudással és tapasztalattal rendelkezünk ezeknek az eszközöknek a használatában, ami segít a letisztult, karbantartható és skálázható kód írásában.</p>
                     <p>A Laravel a legnépszerűbb PHP keretrendszer, de a Vue is egyre kedveltebb a Javascript fejlesztők körében. Mindkettő hátterében egy fantasztikus közösség áll, amit mi is próbálunk támogatni, hozzájárulva a kódbázis fejlesztéséhez és közösségi projektekhez.</p>
                 </div>
-                <div class="column has-text-right is-4-tablet is-centered-vertical is-hidden-mobile">
-                    <img src="{{ asset('img/home-laravel-vuejs.png') }}" alt="Laravel & Vue" />
+                <div class="column is-offset-1-widescreen">
+                    <div class="slides is-vertical">
+                        <img src="{{ asset('img/team-5.jpg') }}" alt="Further team" />
+                        <img src="{{ asset('img/team-6.jpg') }}" alt="Further team" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -191,15 +173,17 @@
                     <h1 class="heading">Eszköztárunk</h1>
                 </div>
             </div>
-            <div class="columns">
+            <div class="columns is-multiline">
                 <div class="column has-margin-b0 is-half-tablet is-one-quarter-desktop">
                     <h2 class="heading-4 has-margin-b0">PHP</h2>
                     <ul class="list has-bullets has-margin-b30">
                         <li>Laravel</li>
-                        <li>Lumen</li>
                         <li>Statamic</li>
                         <li>Symfony</li>
-                        <li>Drupal</li>
+                    </ul>
+                    <h2 class="heading-4 has-margin-b0">Python</h2>
+                    <ul class="list has-bullets has-margin-b30">
+                        <li>Django</li>
                     </ul>
                     <h2 class="heading-4 has-margin-b0">Adatbázisok</h2>
                     <ul class="list has-bullets has-margin-b30">
@@ -210,23 +194,16 @@
                     </ul>
                 </div>
                 <div class="column has-margin-b0 is-half-tablet is-one-quarter-desktop">
-                    <h2 class="heading-4 has-margin-b0">Kliensoldali JS</h2>
+                    <h2 class="heading-4 has-margin-b0">Client-side JS</h2>
                     <ul class="list has-bullets has-margin-b30">
-                        <li>Vue</li>
+                        <li>Vue.js</li>
+                        <li>Nuxt.js</li>
                         <li>React</li>
                     </ul>
-                    <h2 class="heading-4 has-margin-b0">Szerveroldali JS</h2>
+                    <h2 class="heading-4 has-margin-b0">Server-side JS</h2>
                     <ul class="list has-bullets has-margin-b30">
                         <li>Node.js</li>
-                        <li>socket.io</li>
-                    </ul>
-                    <h2 class="heading-4 has-margin-b0">Python</h2>
-                    <ul class="list has-bullets has-margin-b30">
-                        <li>Django</li>
-                    </ul>
-                    <h2 class="heading-4 has-margin-b0">Java</h2>
-                    <ul class="list has-bullets has-margin-b30">
-                        <li>Spring</li>
+                        <li>Nest.js</li>
                     </ul>
                 </div>
                 <div class="column has-margin-b0 is-half-tablet is-one-quarter-desktop">
@@ -245,7 +222,6 @@
                     <ul class="list has-bullets has-margin-b30">
                         <li>GIT</li>
                         <li>CI/CD</li>
-                        <li>nginx, Apache</li>
                         <li>Docker, Kubernetes</li>
                         <li>Amazon AWS, Microsoft Azure</li>
                         <li>Linode, DigitalOcean</li>
@@ -339,7 +315,7 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "Célunk ügyfeleink üzleti növekedésének segítése innovatív megoldások és kiváló minőségű szoftverek szolgáltatásával. Az állandó kommunikáció, a szenvedély és a rugalmasság olyan értékek, amelyekben hiszünk, és amelyek ideális hosszú távú partnerekké tesznek minket.",
+    "description": "A Further Digital Solutionsnél ügyfélközpontú megoldások kidolgozására fókuszálunk: időt szakítunk arra, hogy megismerjük a vállalkozásod, így olyan testreszabott szoftvereket fejlesztünk, melyek a Te konkrét igényeid szolgálják ki.",
     "headline": "Csapatunk",
     "image": {
         "@type": "ImageObject",

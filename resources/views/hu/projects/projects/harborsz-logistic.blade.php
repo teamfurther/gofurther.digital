@@ -15,12 +15,8 @@
             <div class="columns">
                 <div class="column">
                     <h4 class="heading-1">Összefoglaló</h4>
-                    <p>
-                        A Harborsz fő tevékenysége a teherszállítás megszervezése kompon, hidakon és alagutakon át. A jelenlegi rendszer fejlesztése előtt, a napi teendők elvégzéséhez több különböző szoftver és az email applikáció közötti folyamatos váltogatásra volt szükség.
-                    </p>
-                    <p>
-                        Az új integrált ügyviteli megoldásnak köszönhetően a Harborsznak sikerült teljes mértékben automatizálni a folyamataikat, redukálni az emberi hibákat és átlátni a működésük összes aspektusát.
-                    </p>
+                    <p>A Harborsz fő tevékenysége a teherszállítás megszervezése kompon, hidakon és alagutakon át. A jelenlegi rendszer fejlesztése előtt, a napi teendők elvégzéséhez több különböző szoftver és az email applikáció közötti folyamatos váltogatásra volt szükség.</p>
+                    <p>Az új integrált ügyviteli megoldásnak köszönhetően a Harborsznak sikerült teljes mértékben automatizálni a folyamataikat, redukálni az emberi hibákat és átlátni a működésük összes aspektusát.</p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
                     <img src="{{ asset('media/projects/harborsz-illustration.gif') }}" alt="Harborsz Logistic" />
@@ -53,13 +49,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Az útdíjak és kompjegyek foglalása egy manuális folyamat volt</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            Minden esetben, amikor egy szállításhoz útdíj fizetésére vagy kompoztatásra volt szükség, a foglalásokat manuálisan kellett megkötni. Ez vagy emailen keresztül, vagy egy harmadik fél rendszerén keresztül történt.
-                        </p>
+                        <p>Minden esetben, amikor egy szállításhoz útdíj fizetésére vagy kompoztatásra volt szükség, a foglalásokat manuálisan kellett megkötni. Ez vagy emailen keresztül, vagy egy harmadik fél rendszerén keresztül történt.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            Egy pár előzetes egyeztetés után, az összes beszállító rendszerét sikeresen <strong>integráltuk API kapcsolatokon keresztül</strong>. Ez lehetővé tette az útdíjak és kompjegyek automatikus foglalását.
-                        </p>
+                        <p>Egy pár előzetes egyeztetés után, az összes beszállító rendszerét sikeresen <strong>integráltuk API kapcsolatokon keresztül</strong>. Ez lehetővé tette az útdíjak és kompjegyek automatikus foglalását.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/harborsz-overview-1.png') }}" alt="Harborsz - Az útdíjak és kompjegyek foglalása egy manuális folyamat volt" />
@@ -69,13 +61,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Az ügyfelek csak közvetlenül a Harborszon keresztül tudtak foglalni</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            Korábban, ha egy ügyfél foglalást szeretett volna indítani, ezt csak a Harborsz weboldalon keresztül tudták megtenni. Emiatt nem tudták a saját folyamataikat automatizálni.
-                        </p>
+                        <p>Korábban, ha egy ügyfél foglalást szeretett volna indítani, ezt csak a Harborsz weboldalon keresztül tudták megtenni. Emiatt nem tudták a saját folyamataikat automatizálni.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            Az ügyfelektől beérkezett visszajelzések alapján egyértelművé vált az igény egy <strong>automatizált foglalási folyamatra</strong>. Miután részletesen interjúztattuk őket, sok értékes információt tudtunk meg arról, hogy milyen felhasználási eseteik vannak. Ezek alapján egy olyan API kapcsolatot dolgoztunk ki, amely lefedi az összes üzleti igényüket.
-                        </p>
+                        <p>Az ügyfelektől beérkezett visszajelzések alapján egyértelművé vált az igény egy <strong>automatizált foglalási folyamatra</strong>. Miután részletesen interjúztattuk őket, sok értékes információt tudtunk meg arról, hogy milyen felhasználási eseteik vannak. Ezek alapján egy olyan API kapcsolatot dolgoztunk ki, amely lefedi az összes üzleti igényüket.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/harborsz-overview-2.png') }}" alt="Harborsz - Az ügyfelek csak közvetlenül a Harborszon keresztül tudtak foglalni" />
@@ -93,12 +81,8 @@
                         <img class="project__testimonial__picture" src="{{ asset('img/testimonials-edina-bakk.png') }}" alt="Harborsz Edina Bakk testimonial" />
                         <cite class="project__testimonial__author">BAKK Edina</cite>
                         <blockquote class="project__testimonial__content">
-                            <p>
-                                "Számunkra a Harborsz Logistic szoftver legnagyobb előnye, hogy egy komplett, integrált rendszert kaptunk. Többé nem kell folyton különböző programok és emailek között váltogatva lebonyolítsuk a mindennapi ügyvitelt.
-                            </p>
-                            <p>
-                                Ez jelentősen csökkentette az emberi hibák lehetőségét és növelte a produktivitásunkat."
-                            </p>
+                            <p>"Számunkra a Harborsz Logistic szoftver legnagyobb előnye, hogy egy komplett, integrált rendszert kaptunk. Többé nem kell folyton különböző programok és emailek között váltogatva lebonyolítsuk a mindennapi ügyvitelt.</p>
+                            <p>Ez jelentősen csökkentette az emberi hibák lehetőségét és növelte a produktivitásunkat."</p>
                         </blockquote>
                     </div>
                 </div>
@@ -123,12 +107,8 @@
                     <h5 class="heading-4">
                         A külső rendszerek bekötése nehéz feladat
                     </h5>
-                    <p>
-                        Mindegyik beszállítói rendszernek saját hozzáférési mechanizmusa volt. Egyesek jól dokumentált API hozzáféréssel rendelkeztek, másokhoz csak FTP hozzáférés volt. Egyes API-k SOAP alapúak voltak, mások REST típusúak.
-                    </p>
-                    <p>
-                        Az egyik legfőbb kihívásunk az volt, hogy kifejlesszünk egy olyan közös felületet, ami eléggé flexibilis ahhoz, hogy a különböző rendszerekkel tudjon kommunikálni, de ugyanakkor bővíthető is, hogy később akár új kapcsolatokat is hozzá tudjunk adni.
-                    </p>
+                    <p>Mindegyik beszállítói rendszernek saját hozzáférési mechanizmusa volt. Egyesek jól dokumentált API hozzáféréssel rendelkeztek, másokhoz csak FTP hozzáférés volt. Egyes API-k SOAP alapúak voltak, mások REST típusúak.</p>
+                    <p>Az egyik legfőbb kihívásunk az volt, hogy kifejlesszünk egy olyan közös felületet, ami eléggé flexibilis ahhoz, hogy a különböző rendszerekkel tudjon kommunikálni, de ugyanakkor bővíthető is, hogy később akár új kapcsolatokat is hozzá tudjunk adni.</p>
                 </div>
             </div>
         </div>
@@ -172,15 +152,9 @@
                         <div class="project__gallery-modal__notes">
                             <h5 class="project__gallery-modal__title">Foglalások</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    A "Foglalások" képernyőn történik az aktivitás legnagyobb része. Minden beérkező rendelés, a weboldalról vagy az API-któl, ide fut be.
-                                </p>
-                                <p>
-                                    A legtöbb foglalást a rendszer automatikusan feldolgozza: a díjszámítást és számlázást a rendszer automatikusan kezeli.
-                                </p>
-                                <p>
-                                    Ahol ez nem lehetséges, a szoftver egyértelműen jelzi egy humán operátornak, hogy manuális beavatkozásra van szükség.
-                                </p>
+                                <p>A "Foglalások" képernyőn történik az aktivitás legnagyobb része. Minden beérkező rendelés, a weboldalról vagy az API-któl, ide fut be.</p>
+                                <p>A legtöbb foglalást a rendszer automatikusan feldolgozza: a díjszámítást és számlázást a rendszer automatikusan kezeli.</p>
+                                <p>Ahol ez nem lehetséges, a szoftver egyértelműen jelzi egy humán operátornak, hogy manuális beavatkozásra van szükség.</p>
                             </div>
                         </div>
                     </div>
@@ -193,12 +167,8 @@
                         <div class="project__gallery-modal__notes is-reversed">
                             <h5 class="project__gallery-modal__title">Dinamikus árazás</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    A teljes automatizáció elsősorban a dinamikus árazásnak köszönhető. Több tucat változót veszünk figyelembe, amikor egy utat árazunk: a jármű mérete és súlya, a szállítmány típusa, sofőrök száma, az út hossza, a csúcsszezonok, a kikötői díjak és a beszállítói költségek.
-                                </p>
-                                <p>
-                                    Előre meghatározott időszakokban részletes riportokat generálunk ezekről, hogy a Harborsz igazítani tudja a díjakat annak érdekében, hogy a költségeket fedezni és az árréseket növelni tudja.
-                                </p>
+                                <p>A teljes automatizáció elsősorban a dinamikus árazásnak köszönhető. Több tucat változót veszünk figyelembe, amikor egy utat árazunk: a jármű mérete és súlya, a szállítmány típusa, sofőrök száma, az út hossza, a csúcsszezonok, a kikötői díjak és a beszállítói költségek.</p>
+                                <p>Előre meghatározott időszakokban részletes riportokat generálunk ezekről, hogy a Harborsz igazítani tudja a díjakat annak érdekében, hogy a költségeket fedezni és az árréseket növelni tudja.</p>
                             </div>
                         </div>
                     </div>

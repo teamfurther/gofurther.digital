@@ -30,6 +30,24 @@
             margin: -90px -15px;
         }
 
+        &::before {
+            background: url(../img/contact-background.jpg) center center / cover no-repeat;
+            content: '';
+            display: block;
+            height: 100%;
+            left: 0;
+            opacity: .1;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 5;
+        }
+
+        .container {
+            position: relative;
+            z-index: 10;
+        }
+
         .hero-heading {
             color: $white;
             margin-bottom: 45px;

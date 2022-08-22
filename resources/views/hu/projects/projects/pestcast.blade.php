@@ -15,12 +15,8 @@
             <div class="columns">
                 <div class="column">
                     <h4 class="heading-1">Összefoglaló</h4>
-                    <p>
-                        Az ügyfelünk az amerikai Virginia állam egy legnagyobb parkgondozó vállalata. A személyi kiadások mellett, a legnagyobb költségüket a kártevőírtásra használt vegyszerek jelentették.
-                    </p>
-                    <p>
-                        Az egyik módja ennek a költségnek a csökkentésére a vegyszerek célzottabb alkalmazása. Ez gyakorlatban annyit jelent, hogy a kártevőírtó szereket rövidebb ideig, ugyanolyan hatékonysággal használják. Ügyfelünk azzal keresett meg minket, hogy egy olyan megoldást fejlesszünk, ami technológia segítségével lerövidíti a kártevőírtási ablakot.
-                    </p>
+                    <p>Az ügyfelünk az amerikai Virginia állam egy legnagyobb parkgondozó vállalata. A személyi kiadások mellett, a legnagyobb költségüket a kártevőírtásra használt vegyszerek jelentették.</p>
+                    <p>Az egyik módja ennek a költségnek a csökkentésére a vegyszerek célzottabb alkalmazása. Ez gyakorlatban annyit jelent, hogy a kártevőírtó szereket rövidebb ideig, ugyanolyan hatékonysággal használják. Ügyfelünk azzal keresett meg minket, hogy egy olyan megoldást fejlesszünk, ami technológia segítségével lerövidíti a kártevőírtási ablakot.</p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
                     <img class="project__logo" src="{{ asset('media/projects/pestcast-logo.svg') }}" alt="PestCast" />
@@ -53,13 +49,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Gépi tanulással a kártevők ellen</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            Mivel nem rendelkeztünk szakági ismeretekkel, nem tudtuk, hogy egyáltalán mitől függ az, hogy mikor jelenik meg egy-egy kártevő. Ezért azzal kezdtük, hogy az ügyfél szakértő munkatársait interjúztattuk. Így tudtuk meg, hogy szoros összefüggés van a kartevők megjelenése és a megjelenés előtti hetek időjárása között.
-                        </p>
+                        <p>Mivel nem rendelkeztünk szakági ismeretekkel, nem tudtuk, hogy egyáltalán mitől függ az, hogy mikor jelenik meg egy-egy kártevő. Ezért azzal kezdtük, hogy az ügyfél szakértő munkatársait interjúztattuk. Így tudtuk meg, hogy szoros összefüggés van a kartevők megjelenése és a megjelenés előtti hetek időjárása között.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            Rendelkeztünk egy adatbázissal, ami dokumentálta visszamenőleg ötven évre, hogy különböző földrajzi tájegységeket mikor jelentek meg a különböző kártevő. Ezt az adatbázist és historikus meteorológiai adatokat felhasználva betanítottunk egy gépi tanulás algoritmust, hogy előre jelezze a csapadék, illetve az átlag- és csúcshőmérsékletek alapján, hogy az idén mikor várható egy-egy kártevő megjelenése.
-                        </p>
+                        <p>Rendelkeztünk egy adatbázissal, ami dokumentálta visszamenőleg ötven évre, hogy különböző földrajzi tájegységeket mikor jelentek meg a különböző kártevő. Ezt az adatbázist és historikus meteorológiai adatokat felhasználva betanítottunk egy gépi tanulás algoritmust, hogy előre jelezze a csapadék, illetve az átlag- és csúcshőmérsékletek alapján, hogy az idén mikor várható egy-egy kártevő megjelenése.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/pestcast-overview-1.png') }}" alt="PestCast - Gépi tanulással a kártevők ellen" />
@@ -69,16 +61,10 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Az algorimus finomítása</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            Az eredmények biztatóak voltak, azonban csupán egy külső adatbázisra hagyatkozva nem értük el az elvárt pontosságot. A vegyszerezési intervallum továbbra is túl tág volt. Ezért elkezdtünk ötletelni arról, hogy hogyan tudunk több adathoz jutni.
-                        </p>
+                        <p>Az eredmények biztatóak voltak, azonban csupán egy külső adatbázisra hagyatkozva nem értük el az elvárt pontosságot. A vegyszerezési intervallum továbbra is túl tág volt. Ezért elkezdtünk ötletelni arról, hogy hogyan tudunk több adathoz jutni.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            We realised that we could turn the app into a SaaS product. This would mean more people started using it, which we could turn into an advantage by allowing users to report pest occurrences. The faster the SaaS product scales, the more accurate our ML algorithm becomes.
-                        </p>
-                        <p>
-                            Ezen a ponton tudatosult bennünk, hogy az applikációt átalakíthatnánk egy SaaS termékké. Ez azt jelentené, hogy több ember használja majd, akik az extra adatokat biztosítani tudnák nekünk. Így minél gyorsabban skálázódott a SaaS termék, annál pontosabb lett a gépi tanulás algoritmus.
-                        </p>
+                        <p>We realised that we could turn the app into a SaaS product. This would mean more people started using it, which we could turn into an advantage by allowing users to report pest occurrences. The faster the SaaS product scales, the more accurate our ML algorithm becomes.</p>
+                        <p>Ezen a ponton tudatosult bennünk, hogy az applikációt átalakíthatnánk egy SaaS termékké. Ez azt jelentené, hogy több ember használja majd, akik az extra adatokat biztosítani tudnák nekünk. Így minél gyorsabban skálázódott a SaaS termék, annál pontosabb lett a gépi tanulás algoritmus.</p>
                     </div>
                     <div class="column">
                         <img class="is-pulled-right" src="{{ asset('media/projects/pestcast-overview-2.png') }}" alt="Az algorimus finomítás" />
@@ -126,9 +112,7 @@
                         <div class="project__gallery-modal__notes">
                             <h5 class="project__gallery-modal__title">Közelgő kártevők</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    A gépi tanulás algoritmus mint lokáció meghatározza, hogy melyik kártevők fognak valószínűsíthetően megjelenni a következő időszakban.
-                                </p>
+                                <p>A gépi tanulás algoritmus mint lokáció meghatározza, hogy melyik kártevők fognak valószínűsíthetően megjelenni a következő időszakban.</p>
                             </div>
                         </div>
                     </div>
@@ -141,9 +125,7 @@
                         <div class="project__gallery-modal__notes is-reversed">
                             <h5 class="project__gallery-modal__title">Kártevő megjelenésének rögzítése</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    Sajnos az algoritmus nem 100% pontos és időnként előfordulhat, hogy hamarabb megjelenik egy kártevő. Ilyen esetekben arra ösztönözzük a felhasználókat, hogy ezt jelentség be az applikáció segítségével. Ezek az adatok segítenek abban, hogy az algoritmust tovább finomhangoljuk és jobb eredményeket adjunk a jövőben.
-                                </p>
+                                <p>Sajnos az algoritmus nem 100% pontos és időnként előfordulhat, hogy hamarabb megjelenik egy kártevő. Ilyen esetekben arra ösztönözzük a felhasználókat, hogy ezt jelentség be az applikáció segítségével. Ezek az adatok segítenek abban, hogy az algoritmust tovább finomhangoljuk és jobb eredményeket adjunk a jövőben.</p>
                             </div>
                         </div>
                     </div>
@@ -156,9 +138,7 @@
                         <div class="project__gallery-modal__notes is-reversed">
                             <h5 class="project__gallery-modal__title">Kártevő információs oldal</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    A központi funkciókon kívül, az applikáció tudásbázisként is működik, segítve a felhasználókat, hogy azonosítsák és megfékezzék a kártevők elszaporodását.
-                                </p>
+                                <p>A központi funkciókon kívül, az applikáció tudásbázisként is működik, segítve a felhasználókat, hogy azonosítsák és megfékezzék a kártevők elszaporodását.</p>
                             </div>
                         </div>
                     </div>

@@ -15,12 +15,8 @@
             <div class="columns">
                 <div class="column">
                     <h4 class="heading-1">Background</h4>
-                    <p>
-                        OnePageLink is a simple and effective EPK builder. An EPK is an Electronic Press (or Promo) Kit. Artists can use their OnePageLink to pitch their act for opportunities or send approved promotional assets to events & festivals. All done with one simple link, professionally presented.
-                    </p>
-                    <p>
-                        The whole purpose of OnePageLink is to make creating a promo page or EPK simple and easy for anyone. No design skills are needed! Once artists sign up for the free trial, they'll be able to quickly and effectively set up a promo page in minutes.
-                    </p>
+                    <p>OnePageLink is a simple and effective EPK builder. An EPK is an Electronic Press (or Promo) Kit. Artists can use their OnePageLink to pitch their act for opportunities or send approved promotional assets to events & festivals. All done with one simple link, professionally presented.</p>
+                    <p>The whole purpose of OnePageLink is to make creating a promo page or EPK simple and easy for anyone. No design skills are needed! Once artists sign up for the free trial, they'll be able to quickly and effectively set up a promo page in minutes.</p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
                     <img class="project__logo" src="{{ asset('media/projects/opl-logo.svg') }}" alt="OnePageLink" />
@@ -53,13 +49,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Offering continued service while migrating to a new platform</h5>
                         <em class="project__text-emphasis">Problem</em>
-                        <p>
-                            Since OnePageLink already had active users, we had to make sure there were no disruptions in the service as we moved to a new technological platform. We rewrote the entire code for the product from scratch.
-                        </p>
+                        <p>Since OnePageLink already had active users, we had to make sure there were no disruptions in the service as we moved to a new technological platform. We rewrote the entire code for the product from scratch.</p>
                         <em class="project__text-emphasis">Solution</em>
-                        <p>
-                            We had to employ both technical and customer support solutions to overcome this challenge. Most of the content could be migrated automatically, but not all, due to technological limitations. In such situations, we closely collaborated with the OnePageLink team to communicate this to their customers and prepare them for the switch.
-                        </p>
+                        <p>We had to employ both technical and customer support solutions to overcome this challenge. Most of the content could be migrated automatically, but not all, due to technological limitations. In such situations, we closely collaborated with the OnePageLink team to communicate this to their customers and prepare them for the switch.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/opl-overview-1.png') }}" alt="OnePageLink - Offering continued service while migrating to a new platform" />
@@ -69,16 +61,10 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Changing payment providers</h5>
                         <em class="project__text-emphasis">Problem</em>
-                        <p>
-                            As part of moving to a new platform, we also decided to replace the existing credit card payment provider with a more modern and cheaper solution. This raised another migration issue. How do we keep the different customer subscriptions rolling on without interruption or the need to create a new subscription?
-                        </p>
+                        <p>As part of moving to a new platform, we also decided to replace the existing credit card payment provider with a more modern and cheaper solution. This raised another migration issue. How do we keep the different customer subscriptions rolling on without interruption or the need to create a new subscription?</p>
                         <em class="project__text-emphasis">Solution</em>
-                        <p>
-                            Again, we had to tackle this issue from two sides. We wrote automated scripts to calculate the remaining days on subscriptions and move these subscriptions to the new provider. Still, we couldn't migrate credit card details, as the 3rd party providers store those.
-                        </p>
-                        <p>
-                            We didn't wish to force customers to re-enter their credit card details, so we liaised with both providers to migrate the data, which was done successfully after a long chain of emails.
-                        </p>
+                        <p>Again, we had to tackle this issue from two sides. We wrote automated scripts to calculate the remaining days on subscriptions and move these subscriptions to the new provider. Still, we couldn't migrate credit card details, as the 3rd party providers store those.</p>
+                        <p>We didn't wish to force customers to re-enter their credit card details, so we liaised with both providers to migrate the data, which was done successfully after a long chain of emails.</p>
                     </div>
                     <div class="column">
                         <img class="is-pulled-right" src="{{ asset('media/projects/opl-overview-2.png') }}" alt="OnePageLink - Changing payment providers" />
@@ -97,9 +83,7 @@
                         <cite class="project__testimonial__author">Carlo SANTONE</cite>
                         <span class="project__testimonial__title">Founder at OnePageLink</span>
                         <blockquote class="project__testimonial__content">
-                            <p>
-                                "They are open and friendly to work with, they will give you the time you need to explain your needs and requirements and will come up with smart and logical solutions. We are very happy with what we've built together with Further, and what we continue to come up with creatively & technically as we iterate and refine."
-                            </p>
+                            <p>"They are open and friendly to work with, they will give you the time you need to explain your needs and requirements and will come up with smart and logical solutions. We are very happy with what we've built together with Further, and what we continue to come up with creatively & technically as we iterate and refine."</p>
                         </blockquote>
                     </div>
                 </div>
@@ -124,12 +108,8 @@
                     <h5 class="heading-4">
                         Working with creative partners is fun, but challenging
                     </h5>
-                    <p>
-                        The team of OnePageLink is made up of highly creative people. Artists, musicians, designers. This was extremely exciting as they constantly came up with bright new ideas and beautiful design solutions.
-                    </p>
-                    <p>
-                        At the same time, it was also challenging, as we had to constantly revisit features that were considered done, alter them and make sure they didn't break anything else in the app (thank heavens for automated tests). All this while trying to get the product to market as quickly as possible!
-                    </p>
+                    <p>The team of OnePageLink is made up of highly creative people. Artists, musicians, designers. This was extremely exciting as they constantly came up with bright new ideas and beautiful design solutions.</p>
+                    <p>At the same time, it was also challenging, as we had to constantly revisit features that were considered done, alter them and make sure they didn't break anything else in the app (thank heavens for automated tests). All this while trying to get the product to market as quickly as possible!</p>
                 </div>
             </div>
             <div class="columns has-margin-b60 is-mobile">
@@ -140,12 +120,8 @@
                     <h5 class="heading-4">
                         Data migrations are projects in their own right
                     </h5>
-                    <p>
-                        This project was very tricky from a data migration perspective. We were fortunate to have worked on similar projects before and knew it had to be given the necessary attention.
-                    </p>
-                    <p>
-                        We have already gathered all the data on the platform and 3rd party systems from the get-go. Then we marked the ones that could be migrated automatically and those that couldn't and devised a step-by-step plan for migration, including communication with all stakeholders involved.
-                    </p>
+                    <p>This project was very tricky from a data migration perspective. We were fortunate to have worked on similar projects before and knew it had to be given the necessary attention.</p>
+                    <p>We have already gathered all the data on the platform and 3rd party systems from the get-go. Then we marked the ones that could be migrated automatically and those that couldn't and devised a step-by-step plan for migration, including communication with all stakeholders involved.</p>
                 </div>
             </div>
         </div>
@@ -189,9 +165,7 @@
                         <div class="project__gallery-modal__notes">
                             <h5 class="project__gallery-modal__title">EPK / Promo page</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    This is the end result. The shareable electronic press kit or promo page which artists can use as a pitch deck or send to events, festivals or PR.
-                                </p>
+                                <p>This is the end result. The shareable electronic press kit or promo page which artists can use as a pitch deck or send to events, festivals or PR.</p>
                             </div>
                         </div>
                     </div>
@@ -204,9 +178,7 @@
                         <div class="project__gallery-modal__notes is-reversed">
                             <h5 class="project__gallery-modal__title">Page builder</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    This is where artists can build their pages. No design skills are needed to create the page. It is all build using templates, while still allowing enough customization for customers to let their creativity loose.
-                                </p>
+                                <p>This is where artists can build their pages. No design skills are needed to create the page. It is all build using templates, while still allowing enough customization for customers to let their creativity loose.</p>
                             </div>
                         </div>
                     </div>

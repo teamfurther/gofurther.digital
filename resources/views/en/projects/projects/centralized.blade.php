@@ -15,12 +15,8 @@
             <div class="columns">
                 <div class="column">
                     <h4 class="heading-1">Background</h4>
-                    <p>
-                        Centralized.me is the world's first automated digital manager for emerging musicians and managers, providing them with guidance, control over their careers and connection to the music industry&hellip; so they can spend more time creating!
-                    </p>
-                    <p>
-                        Centralized.me provides video content, guides, workflow checklists, email and agreement templates and budgets to help artists navigate their way through the music industry.
-                    </p>
+                    <p>Centralized.me is the world's first automated digital manager for emerging musicians and managers, providing them with guidance, control over their careers and connection to the music industry&hellip; so they can spend more time creating!</p>
+                    <p>Centralized.me provides video content, guides, workflow checklists, email and agreement templates and budgets to help artists navigate their way through the music industry.</p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
                     <img class="project__logo" src="{{ asset('media/projects/centralized-logo.svg') }}" alt="Centralized" />
@@ -53,13 +49,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">The platform had to be scalable</h5>
                         <em class="project__text-emphasis">Problem</em>
-                        <p>
-                            Being a startup project we were hoping lots of people to start using the platform at some point in time. And based on the marketing plan, we were expecting them to start using it in huge waves.
-                        </p>
+                        <p>Being a startup project we were hoping lots of people to start using the platform at some point in time. And based on the marketing plan, we were expecting them to start using it in huge waves.</p>
                         <em class="project__text-emphasis">Solution</em>
-                        <p>
-                            Before writing even a single line of code, we had to take extra care in choosing the right software architecture. After careful planning we chose a system and a cloud-provider which will allow us to quickly scale up to hundreds of thousands of users.
-                        </p>
+                        <p>Before writing even a single line of code, we had to take extra care in choosing the right software architecture. After careful planning we chose a system and a cloud-provider which will allow us to quickly scale up to hundreds of thousands of users.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/centralized-overview-1.png') }}" alt="Centralized - The platform had to be scalable" />
@@ -69,13 +61,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">We needed to gather insights</h5>
                         <em class="project__text-emphasis">Problem</em>
-                        <p>
-                            A lot of effort went into improving the second release, based on the customer feedback we got regarding the MVP. We realised we need to put in place the necessary tools to gather even more relevant analytics.
-                        </p>
+                        <p>A lot of effort went into improving the second release, based on the customer feedback we got regarding the MVP. We realised we need to put in place the necessary tools to gather even more relevant analytics.</p>
                         <em class="project__text-emphasis">Solution</em>
-                        <p>
-                            Apart from the usual suspects like Google Analytics and Hotjar, we also worked closely together with the marketing team to set up a whole suite of tracking codes, A/B tests and feedback tools which help us continuously improve the product with relevant features.
-                        </p>
+                        <p>Apart from the usual suspects like Google Analytics and Hotjar, we also worked closely together with the marketing team to set up a whole suite of tracking codes, A/B tests and feedback tools which help us continuously improve the product with relevant features.</p>
                     </div>
                     <div class="column">
                         <img class="is-pulled-right" src="{{ asset('media/projects/centralized-overview-2.png') }}" alt="Centralized - We needed to gather insights" />
@@ -94,9 +82,7 @@
                         <cite class="project__testimonial__author">Brian DUBB</cite>
                         <span class="project__testimonial__title">Founder at Centralized</span>
                         <blockquote class="project__testimonial__content">
-                            <p>
-                                "Further developed our MVP quickly and within budget, which led to the on-boarding of our beta testing users and another round of investment. We're very pleased to have stayed with Further for the second release."
-                            </p>
+                            <p>"Further developed our MVP quickly and within budget, which led to the on-boarding of our beta testing users and another round of investment. We're very pleased to have stayed with Further for the second release."</p>
                         </blockquote>
                     </div>
                 </div>
@@ -121,12 +107,8 @@
                     <h5 class="heading-4">
                         Startup projects and corporate project are very different
                     </h5>
-                    <p>
-                        Although we have worked on startup projects before and after centralized.me, few have been as fast paced. Compared to our usual corporate projects, where many decisions are slow and often fall victim to bureaucracy, this project required a completely different mindset.
-                    </p>
-                    <p>
-                        We had to adjust some of our project management workflows to allow for the flexibility and quick decision making demanded by a startup project.
-                    </p>
+                    <p>Although we have worked on startup projects before and after centralized.me, few have been as fast paced. Compared to our usual corporate projects, where many decisions are slow and often fall victim to bureaucracy, this project required a completely different mindset.</p>
+                    <p>We had to adjust some of our project management workflows to allow for the flexibility and quick decision making demanded by a startup project.</p>
                 </div>
             </div>
         </div>
@@ -170,9 +152,7 @@
                         <div class="project__gallery-modal__notes">
                             <h5 class="project__gallery-modal__title">Wizard</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    The user story starts with a wizard, which helps them determine where they are in their journey.
-                                </p>
+                                <p>The user story starts with a wizard, which helps them determine where they are in their journey.</p>
                             </div>
                         </div>
                     </div>
@@ -185,9 +165,7 @@
                         <div class="project__gallery-modal__notes is-reversed">
                             <h5 class="project__gallery-modal__title">My plan</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    Based on the answers the users give in the wizard, we generate them a customized plan to follow.
-                                </p>
+                                <p>Based on the answers the users give in the wizard, we generate them a customized plan to follow.</p>
                             </div>
                         </div>
                     </div>
@@ -200,9 +178,7 @@
                         <div class="project__gallery-modal__notes">
                             <h5 class="project__gallery-modal__title">Guides</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    Each step in a user's plan links to a guide page. These guide pages contain video content, checklists, email and contract templates, and budgets.
-                                </p>
+                                <p>Each step in a user's plan links to a guide page. These guide pages contain video content, checklists, email and contract templates, and budgets.</p>
                             </div>
                         </div>
                     </div>

@@ -13,7 +13,7 @@
     @include desktop() {
         left: 0;
         margin-top: 0;
-        height: 625px;
+        height: 600px;
         position: fixed;
         top: 0;
         width: 100%;
@@ -23,7 +23,7 @@
     @include fullhd() {
         left: 0;
         margin-top: 0;
-        height: 800px;
+        height: 750px;
         position: fixed;
         top: 0;
         width: 100%;
@@ -33,7 +33,7 @@
     &::before {
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         display: block;
         height: 100%;
         left: 0;
@@ -43,13 +43,20 @@
         z-index: 10;
     }
 
+    &--background-1:before {
+        background-image: url(../img/hero-background-1.jpg);
+    }
+
+    &--background-2:before {
+        background-image: url(../img/hero-background-2.jpg);
+    }
+
     &.is-cobalt {
         background-color: $cobalt;
 
         &::before {
-            background-image: url(../img/hero-background-cobalt.gif);
             content: '';
-            opacity: .15;
+            opacity: .1;
         }
     }
 
@@ -57,9 +64,8 @@
         background-color: $pearl;
 
         &::before {
-            background-image: url(../img/hero-background-pearl.gif);
             content: '';
-            opacity: .4;
+            opacity: .05;
         }
     }
 
@@ -67,9 +73,8 @@
         background-color: mix($raspberry, $black, 90%);
 
         &::before {
-            background-image: url(../img/hero-background-raspberry.gif);
             content: '';
-            opacity: .4;
+            opacity: .1;
         }
     }
 
@@ -77,22 +82,19 @@
         background-color: $tangerine;
 
         &::before {
-            background-image: url(../img/hero-background-tangerine.gif);
             content: '';
-            opacity: .4;
+            opacity: .05;
         }
     }
 
     &__cta {
         bottom: 15px;
         color: $white;
-        display: block;
         font: 600 12px / 1.5 $family-highlight;
         left: 50%;
         position: absolute;
         text-align: center;
         transform: translateX(-50%);
-        width: 100%;
         z-index: 15;
 
         @include tablet() {
@@ -109,9 +111,10 @@
         }
 
         strong {
-            display: block;
+            display: table;
             font-size: 24px;
             font-weight: 700;
+            margin: 0 auto;
             text-transform: uppercase;
 
             @include tablet() {
@@ -120,6 +123,22 @@
 
             @include desktop() {
                 font-size: 32px;
+            }
+
+            &:hover {
+                &::after {
+                    width: 100%;
+                }
+            }
+
+            &::after {
+                background-color: $white;
+                content: '';
+                display: block;
+                height: 3px;
+                margin: 0 auto;
+                transition: all .2s ease-in-out;
+                width: 0;
             }
         }
     }
@@ -277,18 +296,6 @@
         @include widescreen() {
             margin-bottom: 5%;
         }
-    }
-}
-
-@keyframes blink-caret {
-    0% {
-        border-color: transparent;
-    }
-    50% {
-        border-color: $white;
-    }
-    100% {
-        border-color: transparent;
     }
 }
 

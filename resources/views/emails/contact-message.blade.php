@@ -1,6 +1,4 @@
-<p>
-    {{ $data['name'] }} has sent you a message.
-</p>
+<p>{{ $data['name'] }} has sent you a message.</p>
 
 <table>
     <tr>

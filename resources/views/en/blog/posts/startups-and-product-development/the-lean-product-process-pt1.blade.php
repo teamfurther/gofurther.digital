@@ -104,7 +104,7 @@
                             <p>We should continue by setting our scenes. A scene is a context, physical or logical, where the interaction will happen. For example, in the case of an e-commerce website, it could be the website itself, the mobile app, the call centre, or the brick and mortar shop. In our case (since there is no product yet), we can use scenes like the city street, a public square or the skate park.</p>
                             <p>Finally, we will define the user actions (what the persona does), their reactions (what perceivable change happens as a result) and the next steps (what options or challenges does the persona face now).</p>
                             <p>The customer journey map can represent an actual journey or an envisioned (coveted) journey. The latter will be more useful in the <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}">problem-solution fit stage</a> of product development.</p>
-                            <p> In my experience, a customer journey map works best when it is co-created with potential customers. It gives us an outstanding opportunity to gauge their reactions at specific points in the journey. We can even illustrate these emotions on an emotion diagram, where peaks mark positive reactions while valleys mark negative reactions.</p>
+                            <p>In my experience, a customer journey map works best when it is co-created with potential customers. It gives us an outstanding opportunity to gauge their reactions at specific points in the journey. We can even illustrate these emotions on an emotion diagram, where peaks mark positive reactions while valleys mark negative reactions.</p>
 {{--                            <p><i>Download our free product development tool bundle, in which you can find a template for customer journey maps.</i></p>--}}
                             <figure>
                                 <img src="{{ asset('media/blog/the-lean-product-process-1-flow-workshop.jpg') }}" alt="A customer journey map we created together with a client." />
@@ -119,8 +119,7 @@
                                 <li>users of micromobility vehicles are not happy with the current safety solutions</li>
                             </ul>
                             <p>If we manage to verify the validity of each assumption, we can progress to the <a href="{{ localizedRoute('blog.show', ['slug' => 'the-lean-product-process-pt2']) }}">next stage of product development</a>. This will, however, rarely be the case. When one or more of our assumptions prove invalid, we should pivot. During a pivot, we adjust our assumptions based on our learnings so far and start the build-measure-learn loop again.</p>
-                            <p>In our case, there's a high chance that not even the first assumption will survive the scrutiny of validation. How we should pivot, though, is something I will <a href="{{ localizedRoute('blog.show', ['slug' => 'to-pivot-or-not-to-pivot']) }}" target="_blank">reflect upon later</a>. For now, let's focus on how to validate our solution.
-                            </p>
+                            <p>In our case, there's a high chance that not even the first assumption will survive the scrutiny of validation. How we should pivot, though, is something I will <a href="{{ localizedRoute('blog.show', ['slug' => 'to-pivot-or-not-to-pivot']) }}" target="_blank">reflect upon later</a>. For now, let's focus on how to validate our solution.</p>
                             <div class="columns">
                                 <div class="column is-6-desktop">
                                     <a href="{{ localizedRoute('freebies.lean-validation-cheat-sheet') }}">

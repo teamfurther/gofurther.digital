@@ -26,12 +26,8 @@
                             <p>Néha nagyon bele tudunk merülni a kódolásba, ilyenkor bekerülünk a "zónába" és csak írunk és írunk… de lényegében alig gondolkozunk azon, hogy mit miért is teszünk. Csak akkor kezdjük el jobban szemügyre venni a sorainkat, amikor valamit nem értünk, hogy miért nem működik, vagy amikor egy kis manó meg nem szólal a fejünkben, hogy "azért ezt csak nem így kéne csinálni", vagy "biztos van ennél elegánsabb megoldás".</p>
                             <p>Ilyenkor hátra kell dőlni, kilépni a zónából és megkeresni a régi gyerekkori barátunkat, a jó öreg gumikacsát. Gumikacsát?! Igen! Nem kötelező gumikacsa legyen, megteszi bármilyen tárgy ami egy kis időre a kollégánk lesz és csakúgy mint egy code review keretén belül, elmagyarázzuk neki, hogy mit miért tettünk.</p>
                             <p>Ilyenkor születnek azok az "Aha!" gondolatok, amikor lényegében saját magunk code review-oljuk a kódunkat. Ez a módszer nem helyettesíti a tényleges code review-t, mert ez a kód mégis a saját gyerekünk és mint minden jó szülőknek, a mi kódunk lesz számunkra is a legszebb és a legjobb, de nem árt egy kicsit nekünk is szemügyre venni még mielőtt másokkal is átnézetnénk a kódunkat.</p>
-                            <p class="has-margin-t60">
-                                <em>A code review vagy peer review egy olyan szoftver minőségbiztosítási módszer, amelynek során egy vagy több személy átnézi egy szoftvernek a részleges vagy teljes kódbázisát. Legalább az egyik személy más kell legyen mint a kód szerzője.</em>
-                            </p>
-                            <p>
-                                <em>A code review célja a kód minőségének és karbantarthatóságának javítása, a szoftverhibák felderítése, a tudás átadása kollégák közt, illetve a kollektív felelősségérzet erősítése.</em>
-                            </p>
+                            <p class="has-margin-t60"><em>A code review vagy peer review egy olyan szoftver minőségbiztosítási módszer, amelynek során egy vagy több személy átnézi egy szoftvernek a részleges vagy teljes kódbázisát. Legalább az egyik személy más kell legyen mint a kód szerzője.</em></p>
+                            <p><em>A code review célja a kód minőségének és karbantarthatóságának javítása, a szoftverhibák felderítése, a tudás átadása kollégák közt, illetve a kollektív felelősségérzet erősítése.</em></p>
                             <figure>
                                 <img src="{{ asset('media/blog/improve-how-you-code-by-using-a-rubber-duck-rubber-duckies.jpg') }}" alt="A gumikacsa hibakeresési módszer egy kód hibakeresési módszer" />
                             </figure>

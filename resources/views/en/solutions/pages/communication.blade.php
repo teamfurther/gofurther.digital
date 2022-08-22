@@ -14,7 +14,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet">
-                        <p class="solution__intro">By using our integrated modules, you can communicate and share ideas more efficiently with your teams, partners or customers. </p>
+                        <p class="solution__intro">By using our integrated modules, you can communicate and share ideas more efficiently with your teams, partners or customers.</p>
                     </div>
                 </div>
                 <div class="columns">

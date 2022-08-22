@@ -52,7 +52,7 @@
                                 <li>az eszközünk hozzájárul ahhoz, hogy a felhasználók nagyobb biztonságban legyenek utazás közben</li>
                                 <li>az eszközünk olyan jelentős mértékben megnöveli a felhasználók biztonsági érzetét, hogy emiatt rendszeresen használják</li>
                             </ul>
-                            <p>Az érték hipotézissel elsősorban a <a href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-2-resz']) }}" target="_blank">probléma-megoldás illeszkedés</a> szakaszban fogunk találkozni. </p>
+                            <p>Az érték hipotézissel elsősorban a <a href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-2-resz']) }}" target="_blank">probléma-megoldás illeszkedés</a> szakaszban fogunk találkozni.</p>
                             <p>Szorosan kapcsolódik az érték hipotézishez a usability hipotézis. Annyira szorosan, hogy a szakirodalom gyakran meg sem említi külön. Pedig ha a termékfejlesztés 4 szakaszát nézzük jól látszik, hogy a usability hipotézissel inkább a harmadik, <a href="{{ localizedRoute('blog.show', ['slug' => 'lean-termekfejlesztesi-folyamat-3-resz']) }}" target="_blank">megoldás-termék illeszkedés</a> szakaszban találkozunk.</p>
                             <p class="has-margin-b30">A usability hipotéziseink azt feltételezik, hogy a termékünk hatékonyan tudja szállítani az értékajánlatunkat. Azt, hogy a termék könnyen használható és az elvárt felhasználói élményt nyújtja. A mi példánk esetében a következő usability feltevéseket fogalmazhatnánk meg:</p>
                             <ul class="list has-bullets has-margin-b60">

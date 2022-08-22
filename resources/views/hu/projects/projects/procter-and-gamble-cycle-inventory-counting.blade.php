@@ -15,15 +15,9 @@
             <div class="columns">
                 <div class="column">
                     <h4 class="heading-1">Összefoglaló</h4>
-                    <p>
-                        Mielőtt elkezdtük a közös munkát, a P&G nyomtatott táblázatokat használt a gyöngyösi létesítményükben található több mint 7000 tárgy nyomonkövetésére. Az állótőke menedzserek (fixed asset accountant / FAA) SAP-ból töltötték le az ellenőrizendő álló tőke listát és osztották szét a feladatok a felelősök (fixed asset owner / FAO) között.
-                    </p>
-                    <p>
-                        Az FAO-k ezután a táblázatokban jelölték a tárgyak meglétét, állapotát és hollétét. A tárgyakról fotókat is készítettek. A folyamat végén az összes információt visszatöltötték SAP-be. Ahhoz, hogy a több mint 7000 tárgyat leltárba vegyék, 3 évre volt szükségük!
-                    </p>
-                    <p>
-                        A P&G-val szorosan közreműködve fejlesztett applikáció letölti az adatokat SAP-ből, egyenlően elosztja a munkát az FAO-k között akik beolvassák a tárgyakon található RFID cimkét vagy QR kódot, lefotózzák a tárgyat. A folyamat végén minden adat automatikusan feltöltésre kerül vissza az SAP-ba. Ezzel a megoldással lényegesen sikerült csökkentsük a leltározáshoz szükséges időt, 67%-al, egyetlen egy évre.
-                    </p>
+                    <p>Mielőtt elkezdtük a közös munkát, a P&G nyomtatott táblázatokat használt a gyöngyösi létesítményükben található több mint 7000 tárgy nyomonkövetésére. Az állótőke menedzserek (fixed asset accountant / FAA) SAP-ból töltötték le az ellenőrizendő álló tőke listát és osztották szét a feladatok a felelősök (fixed asset owner / FAO) között.</p>
+                    <p>Az FAO-k ezután a táblázatokban jelölték a tárgyak meglétét, állapotát és hollétét. A tárgyakról fotókat is készítettek. A folyamat végén az összes információt visszatöltötték SAP-be. Ahhoz, hogy a több mint 7000 tárgyat leltárba vegyék, 3 évre volt szükségük!</p>
+                    <p>A P&G-val szorosan közreműködve fejlesztett applikáció letölti az adatokat SAP-ből, egyenlően elosztja a munkát az FAO-k között akik beolvassák a tárgyakon található RFID cimkét vagy QR kódot, lefotózzák a tárgyat. A folyamat végén minden adat automatikusan feltöltésre kerül vissza az SAP-ba. Ezzel a megoldással lényegesen sikerült csökkentsük a leltározáshoz szükséges időt, 67%-al, egyetlen egy évre.</p>
                     <div class="project__stats">
                         <div class="project__stat is-downward">
                             <span>7<small>e +</small></span> tárgy
@@ -64,13 +58,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Egyéb rendszerekkel való integráció</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            A P&G már több szoftvert használt, mint az SAP vagy a Microsoft Azure. Biztosítanunk kellett a zökkenőmentes kapcsolódást ebben a környezetbe.
-                        </p>
+                        <p>A P&G már több szoftvert használt, mint az SAP vagy a Microsoft Azure. Biztosítanunk kellett a zökkenőmentes kapcsolódást ebben a környezetbe.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            Korábban már volt tapasztalatunk a Microsoft Azure-al, így megvolt a megfelelő termékismeretünk az integrációhoz. Közreműködve a P&G IT osztályával felállítottuk a szükséges kapcsolatokat. Ami az SAP-t illetve, folyamatosan tanulmányoztuk a fejlesztői dokumentációt és egyeztettünk a P&G csapatával, hogy a folyamat teljesen automatizált legyen.
-                        </p>
+                        <p>Korábban már volt tapasztalatunk a Microsoft Azure-al, így megvolt a megfelelő termékismeretünk az integrációhoz. Közreműködve a P&G IT osztályával felállítottuk a szükséges kapcsolatokat. Ami az SAP-t illetve, folyamatosan tanulmányoztuk a fejlesztői dokumentációt és egyeztettünk a P&G csapatával, hogy a folyamat teljesen automatizált legyen.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/pg-overview-1.png') }}" alt="P&G - Egyéb rendszerekkel való integráció" />
@@ -80,13 +70,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Tárgyak helyzetének pontos meghatározása</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            Minden tárgy esetében, pontosan meg kellett határoznunk ezeknek a fizikai lokációját. A GPS tökéletesen működött nagyobb terek esetén, de nem volt elég pontos a kisebb szobák, irodák esetén.
-                        </p>
+                        <p>Minden tárgy esetében, pontosan meg kellett határoznunk ezeknek a fizikai lokációját. A GPS tökéletesen működött nagyobb terek esetén, de nem volt elég pontos a kisebb szobák, irodák esetén.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            Eredetileg az applikációt kizárólag GPS alapú helyzetmeghatározással indítottuk el, teszt jelleggel. A vártaknál sokkal jobban már ez a rendszer is, amivel sikerült 90%-os pontosságot elérni. A kisebb terek esetén, ezt a GPS alapú megoldást kiterjesztettük beacon technológiával is. Az applikáció ezekből a kicsit, stratégikusan elhelyezett, beaconnek nevezett IoT eszközökből nyerte ki a pontos lokációt. Ezzel a megoldással már 100%-os pontosságot tudtunk elérni.
-                        </p>
+                        <p>Eredetileg az applikációt kizárólag GPS alapú helyzetmeghatározással indítottuk el, teszt jelleggel. A vártaknál sokkal jobban már ez a rendszer is, amivel sikerült 90%-os pontosságot elérni. A kisebb terek esetén, ezt a GPS alapú megoldást kiterjesztettük beacon technológiával is. Az applikáció ezekből a kicsit, stratégikusan elhelyezett, beaconnek nevezett IoT eszközökből nyerte ki a pontos lokációt. Ezzel a megoldással már 100%-os pontosságot tudtunk elérni.</p>
                     </div>
                     <div class="column has-text-right">
                         <img src="{{ asset('media/projects/pg-overview-2.png') }}" alt="P&G - Beacon technológia" />
@@ -113,12 +99,8 @@
                     <h5 class="heading-4">
                         IoT eszközökkel dolgozni jó szórakozás
                     </h5>
-                    <p>
-                        Imádunk olyan projekteken dolgozni, ahol új technológiákat próbálhatunk ki. A P&G Cycle Inventory Counting applikációja jó példája volt egy ilyen projektnek. A beacon technológia már 2013-ban megjelent, de továbbra sem terjedt el, a korlátolt felhasználási területei miatt. Erre a projektre viszont tökéletesen megfelelt.
-                    </p>
-                    <p>
-                        Mai napig mosollyal emlékezünk vissza arra a napra, amikor az első beaconek megérkeztek a postán. Olyan volt mint egy előrehozott Karácsony este!
-                    </p>
+                    <p>Imádunk olyan projekteken dolgozni, ahol új technológiákat próbálhatunk ki. A P&G Cycle Inventory Counting applikációja jó példája volt egy ilyen projektnek. A beacon technológia már 2013-ban megjelent, de továbbra sem terjedt el, a korlátolt felhasználási területei miatt. Erre a projektre viszont tökéletesen megfelelt.</p>
+                    <p>Mai napig mosollyal emlékezünk vissza arra a napra, amikor az első beaconek megérkeztek a postán. Olyan volt mint egy előrehozott Karácsony este!</p>
                 </div>
             </div>
             <div class="columns has-margin-b60 is-mobile">
@@ -129,12 +111,8 @@
                     <h5 class="heading-4">
                         A nagyvállalati folyamatok nagyon szigorúak
                     </h5>
-                    <p>
-                        Korábban és azóta is dolgoztunk már nagyvállalatokkal, de a P&G-nél tapasztalt alapos kiválasztási folyamat azóta is lenyűgöz. Komoly háttér ellenőrzésen estünk át, illetve részletes adatbiztonsági házirendet, folytonossági tervet és incidens menedzsment folyamatokat kellett bemutassunk.
-                    </p>
-                    <p>
-                        Legtöbb kis vállalatnak mint amilyen a miénk, nincsenek is ilyen irányelvei, ezért különösen boldogok voltunk, amikor a P&G mindent rendben talált.
-                    </p>
+                    <p>Korábban és azóta is dolgoztunk már nagyvállalatokkal, de a P&G-nél tapasztalt alapos kiválasztási folyamat azóta is lenyűgöz. Komoly háttér ellenőrzésen estünk át, illetve részletes adatbiztonsági házirendet, folytonossági tervet és incidens menedzsment folyamatokat kellett bemutassunk.</p>
+                    <p>Legtöbb kis vállalatnak mint amilyen a miénk, nincsenek is ilyen irányelvei, ezért különösen boldogok voltunk, amikor a P&G mindent rendben talált.</p>
                 </div>
             </div>
             <div class="columns is-mobile">
@@ -145,9 +123,7 @@
                     <h5 class="heading-4">
                         A nagyvállalati döntéshozás gyakran lassú
                     </h5>
-                    <p>
-                        Egy másik szempont amire fel kellett készüljünk, az a lassú döntéshozási folyamat volt. Ez nem ügyfélspecifikus, egyszerűen csak része a nagyvállalati világnak. Minden választást és megoldási javaslatot több szinten kellett jóváhagyni, úgy IT, mind üzleti oldalon. Ezt mind figyelembe kellett vegyük, amikor határidőket szabtunk meg.
-                    </p>
+                    <p>Egy másik szempont amire fel kellett készüljünk, az a lassú döntéshozási folyamat volt. Ez nem ügyfélspecifikus, egyszerűen csak része a nagyvállalati világnak. Minden választást és megoldási javaslatot több szinten kellett jóváhagyni, úgy IT, mind üzleti oldalon. Ezt mind figyelembe kellett vegyük, amikor határidőket szabtunk meg.</p>
                 </div>
             </div>
         </div>
@@ -191,12 +167,8 @@
                         <div class="project__gallery-modal__notes">
                             <h5 class="project__gallery-modal__title">Kimenő listák</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    Ez az a felület, ahol az FAA-k tudják a feladatokat menedzselni. A szoftver kiolvassa az állótőke listát az SAP-ból, majd egyenlően elosztja a munkát az FAO-k között úgy, hogy egyetlen tárgy se legyen több mint egyszer ellenőrízve leltár ciklusonként.
-                                </p>
-                                <p>
-                                    Az FAA-k jóvá tudják hagyni ezeket a listákat vagy, amennyiben az FAO tútterhelt vagy szabadságon van, a következő hónapra átprogramálni. Az FAO-k ugyanitt tudnak további feladatok kérni, ha úgy érzik több munkát is tudnak vállalni.
-                                </p>
+                                <p>Ez az a felület, ahol az FAA-k tudják a feladatokat menedzselni. A szoftver kiolvassa az állótőke listát az SAP-ból, majd egyenlően elosztja a munkát az FAO-k között úgy, hogy egyetlen tárgy se legyen több mint egyszer ellenőrízve leltár ciklusonként.</p>
+                                <p>Az FAA-k jóvá tudják hagyni ezeket a listákat vagy, amennyiben az FAO tútterhelt vagy szabadságon van, a következő hónapra átprogramálni. Az FAO-k ugyanitt tudnak további feladatok kérni, ha úgy érzik több munkát is tudnak vállalni.</p>
                             </div>
                         </div>
                     </div>
@@ -209,15 +181,9 @@
                         <div class="project__gallery-modal__notes is-reversed">
                             <h5 class="project__gallery-modal__title">Leltározási folyamat</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    A leltározási folyamat úgy kezdődik, hogy az FAO beolvassa a tárgyon található RFID címkét vagy QR kódot. Amennyiben a címke megegyezik a keresett tárggyal, a szoftver kiolvassa a hozzá tartozó adatokat az adatbázisból, a lokáció pedig beacon és GPS alapon meghatározásra kerül.
-                                </p>
-                                <p>
-                                    Az FAO-nak innen már csak egy pár fotót kell készítenie a telefonjával amin az applikáció fut, illetve egy pár adatot jóvá kell hagyjon. Amennyiben valamelyik adatot nem talál rendben, erről egy bejelentést tud írni.
-                                </p>
-                                <p>
-                                    Mielőtt a jelenlegi applikációt bevezettük, az FAO a listát SAP-ből kellett letöltse Excel táblázatként, kinyomtassa, kézzel kitöltse majd a folyamat végén minden adatot begépeljen SAP-ba. Ez a folyamat fölöslegesen időigényes volt, ráadásul az emberi hibafaktor is maga volt.
-                                </p>
+                                <p>A leltározási folyamat úgy kezdődik, hogy az FAO beolvassa a tárgyon található RFID címkét vagy QR kódot. Amennyiben a címke megegyezik a keresett tárggyal, a szoftver kiolvassa a hozzá tartozó adatokat az adatbázisból, a lokáció pedig beacon és GPS alapon meghatározásra kerül.</p>
+                                <p>Az FAO-nak innen már csak egy pár fotót kell készítenie a telefonjával amin az applikáció fut, illetve egy pár adatot jóvá kell hagyjon. Amennyiben valamelyik adatot nem talál rendben, erről egy bejelentést tud írni.</p>
+                                <p>Mielőtt a jelenlegi applikációt bevezettük, az FAO a listát SAP-ből kellett letöltse Excel táblázatként, kinyomtassa, kézzel kitöltse majd a folyamat végén minden adatot begépeljen SAP-ba. Ez a folyamat fölöslegesen időigényes volt, ráadásul az emberi hibafaktor is maga volt.</p>
                             </div>
                         </div>
                     </div>
@@ -230,9 +196,7 @@
                         <div class="project__gallery-modal__notes">
                             <h5 class="project__gallery-modal__title">Bejövő listák</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    A bejövő listák felület mintegy irányítótoronyként szolgál az FAA számára. Itt tudják megtekinteni a már teljesített leltári listákat és ugyanitt látják a folyamat előrehaladását és a bontásokat bejelentések és FAO-k szerint.
-                                </p>
+                                <p>A bejövő listák felület mintegy irányítótoronyként szolgál az FAA számára. Itt tudják megtekinteni a már teljesített leltári listákat és ugyanitt látják a folyamat előrehaladását és a bontásokat bejelentések és FAO-k szerint.</p>
                             </div>
                         </div>
                     </div>

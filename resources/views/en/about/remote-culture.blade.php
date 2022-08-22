@@ -5,115 +5,106 @@
 
 @section('content')
     <section class="section">
-         <div class="container">
+        <div class="container">
             <div class="columns">
-                <div class="column is-8-desktop is-offset-2-desktop">
+                <div class="column is-9-desktop is-offset-1-desktop">
                     <h2 class="hero-heading">
                         We are <strong class="is-pearl">100%</strong> remote
                     </h2>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column is-8-desktop is-offset-2-desktop">
-                    <p>
-                        We strongly believe that remote working is the future. It gives our teammates more freedom and flexibility to handle life's challenges which in turn leads to a better well-being and a happier and more productive team.
-                    </p>
+
+                    <p>We strongly believe that remote working is the future. It gives our teammates more freedom and flexibility to handle life's challenges which in turn leads to a better well-being and a happier and more productive team.</p>
                 </div>
             </div>
             <div class="columns has-margin-t60 is-multiline">
-                <div class="column is-6-tablet">
+                <div class="column is-8-tablet is-6-desktop is-offset-1-desktop">
                     <h3 class="heading-4">No office required</h3>
-                    <p>
-                        It's been a long road until we got here. We learned the hard way. But now we can be truly proud of the way we communicate and collaborate as a remote team. This allows us to work from anywhere: from home, a co-working office, a coffee shop, or even from an exotic country sipping margaritas by the pool. No office required!
-                    </p>
+                    <p>It's been a long road until we got here. We learned the hard way. But now we can be truly proud of the way we communicate and collaborate as a remote team. This allows us to work from anywhere: from home, a co-working office, a coffee shop, or even from an exotic country sipping margaritas by the pool. No office required!</p>
+
                     <h3 class="heading-4 has-margin-t60">Flexible schedule and unlimited holidays</h3>
-                    <p>
-                        We believe that work shouldn't hinder you when life throws you a curveball. That is why we have a flexible work schedule. Need to take your child to kindergarten or entertain the plumber while he fixes your clogged kitchen sink? No problem!
-                    </p>
-                    <p>
-                        We also allow our colleagues to take as many sick-days or holidays as they need to. It might sound crazy at first, but who needs an employee who is inefficient because of a burnout?
-                    </p>
+                    <p>We believe that work shouldn't hinder you when life throws you a curveball. That is why we have a flexible work schedule. Need to take your child to kindergarten or entertain the plumber while he fixes your clogged kitchen sink? No problem!</p>
+                    <p>We also allow our colleagues to take as many sick-days or holidays as they need to. It might sound crazy at first, but who needs an employee who is inefficient because of a burnout?</p>
+
                     <h3 class="heading-4 has-margin-t60">Regular team retreats</h3>
-                    <p>
-                        Being remote also means we see each other less than regular teams. That is why we always  start the year with a winter camp when we spend some time getting to know each other better and learning new stuff.
-                    </p>
-                    <p>
-                        Late summer we throw in a family retreat as well for good measure, which allows us to see our teammates in a different perspective.
-                    </p>
+                    <p>Being remote also means we see each other less than regular teams. That is why we always  start the year with a winter camp when we spend some time getting to know each other better and learning new stuff.</p>
+                    <p>Late summer we throw in a family retreat as well for good measure, which allows us to see our teammates in a different perspective.</p>
                 </div>
-                <div class="column is-6-tablet">
-                    <img src="{{ asset('img/about-remote.png') }}" alt="Remote is what we do" />
+                <div class="column is-3-desktop is-offset-1-desktop">
+                    <div class="slides is-vertical">
+                        <img src="{{ asset('img/team-17.jpg') }}" alt="Further team" />
+                        <img class="is-hidden-mobile" src="{{ asset('img/team-13.jpg') }}" alt="Further team" />
+                        <img src="{{ asset('img/team-7.jpg') }}" alt="Further team" />
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section is-dark">
-         <div class="container">
+    <section class="is-hidden-mobile">
+        <div class="slides-separator">
+            <img src="{{ asset('img/team-3.jpg') }}" alt="Further team" />
+            <img src="{{ asset('img/team-15.jpg') }}" alt="Further team" />
+            <img src="{{ asset('img/team-8.jpg') }}" alt="Further team" />
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
             <div class="columns">
-                <div class="column is-8-desktop is-offset-2-desktop">
+                <div class="column is-9-desktop is-offset-1-desktop">
                     <h2 class="hero-heading">
                         Remote culture is about <strong class="is-cobalt">sharing knowledge</strong>
                     </h2>
                 </div>
             </div>
             <div class="columns has-margin-t60 is-multiline is-reversed-tablet">
-                <div class="column is-6-tablet">
+                <div class="column is-8-tablet is-6-desktop is-offset-1-desktop">
                     <h3 class="heading-4">Further Fridays</h3>
-                    <p>
-                        We reserve Friday afternoons to work on something together, to discuss a current topic or spending time on cultivating team relationships.
-                    </p>
+                    <p>We reserve Friday afternoons to work on something together, to discuss a current topic or spending time on cultivating team relationships.</p>
+
                     <h3 class="heading-4 has-margin-t60">Open source</h3>
-                    <p>
-                        The community has given us so much along the years. We try to give back whenever we can by contributing to community projects or releasing some of our work as open source.
-                    </p>
+                    <p>The community has given us so much along the years. We try to give back whenever we can by contributing to community projects or releasing some of our work as open source.</p>
+
                     <h3 class="heading-4 has-margin-t60">Constant learning</h3>
-                    <p>
-                        We firmly believe that in the fast-paced IT world, you have to continuously learn to stay competitive. We attend conferences and meetups whenever possible.
-                    </p>
-                    <p>
-                        Heck, we even organize some ourselves, such as the Hungarian Laravel Meetup or the local Digital Transformation meetup.
-                    </p>
+                    <p>We firmly believe that in the fast-paced IT world, you have to continuously learn to stay competitive. We attend conferences and meetups whenever possible.</p>
+                    <p>Heck, we even organize some ourselves, such as the Hungarian Laravel Meetup or the local Digital Transformation meetup.</p>
                 </div>
-                <div class="column is-6-tablet">
-                    <img src="{{ asset('img/about-sharing-knowledge.png') }}" alt="Sharing knowledge is important" />
+                <div class="column is-3-desktop is-offset-1-desktop">
+                    <div class="slides is-vertical">
+                        <img src="{{ asset('img/team-11.jpg') }}" alt="Further team" />
+                        <img src="{{ asset('img/team-14.jpg') }}" alt="Further team" />
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="section">
-         <div class="container">
+        <div class="container">
             <div class="columns">
-                <div class="column is-8-desktop is-offset-2-desktop">
+                <div class="column is-10-desktop is-offset-1-desktop">
                     <h2 class="hero-heading">
                         We also <strong class="is-pearl">spread the word</strong>
                     </h2>
+
+                    <p>What's the point in doing something well, if you can't share it with others? That's the reasons why we try to popularize remote work whereever possible. We talked about pros and cons of remote work at several meetups and we also write about challenges, pitfalls and ideas regarding remote work on our blog.</p>
                 </div>
             </div>
-            <div class="columns">
-                <div class="column is-8-desktop is-offset-2-desktop">
-                    <p>
-                        What's the point in doing something well, if you can't share it with others? That's the reasons why we try to popularize remote work whereever possible. We talked about pros and cons of remote work at several meetups and we also write about challenges, pitfalls and ideas regarding remote work on our blog.
-                    </p>
+            <div class="posts has-margin-t60">
+                <div class="columns is-multiline">
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.remote-work.what-is-a-remote-team-and-is-it-for-you')
+                    </div>
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.remote-work.how-to-hire-remote-talent')
+                    </div>
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.remote-work.how-to-build-a-remote-company-culture')
+                    </div>
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.remote-work.how-to-stay-motivated-when-you-work-remotely')
+                    </div>
                 </div>
             </div>
-             <div class="posts has-margin-t60">
-                 <div class="columns is-multiline">
-                     <div class="column is-full-tablet is-half-widescreen">
-                         @include(getLang() . '.blog.excerpts.remote-work.what-is-a-remote-team-and-is-it-for-you')
-                     </div>
-                     <div class="column is-full-tablet is-half-widescreen">
-                         @include(getLang() . '.blog.excerpts.remote-work.how-to-hire-remote-talent')
-                     </div>
-                     <div class="column is-full-tablet is-half-widescreen">
-                         @include(getLang() . '.blog.excerpts.remote-work.how-to-build-a-remote-company-culture')
-                     </div>
-                     <div class="column is-full-tablet is-half-widescreen">
-                         @include(getLang() . '.blog.excerpts.remote-work.how-to-stay-motivated-when-you-work-remotely')
-                     </div>
-                 </div>
-             </div>
         </div>
     </section>
 
@@ -127,7 +118,7 @@
 
 
 @push('structured-data')
-<script type="application/ld+json">
+    <script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebPage",
@@ -245,7 +236,7 @@
 }
 </script>
 
-<script type="application/ld+json">
+    <script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "BreadcrumbList",

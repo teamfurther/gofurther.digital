@@ -7,9 +7,43 @@
     <section class="section">
         <div class="container">
             <div class="columns">
+                <div class="column is-8-tablet">
+                    <h2 class="hero-heading">
+                        <strong class="is-tangerine">Join</strong> our team
+                    </h2>
+
+                    <p>We are always looking for passionate, creative and driven people to work with.</p>
+                    <p>We believe that experience and knowledge should be shared, so we encourage communication between team members, attend conferences and hold regular workshops.</p>
+                    <p><a href="{{ localizedRoute('about') }}">Get to know us</a>, how we roll and what we love about our jobs.</p>
+                    <p>At Further we hire for fit and ambition, rather than qualifications and degrees, so if you think you got what it takes, apply to one of our <a href="#open-positions">open positions</a>.</p>
+                </div>
+                <div class="column is-offset-1-widescreen">
+                    <div class="slides is-vertical">
+                        <img src="{{ asset('img/team-1.jpg') }}" alt="Further team" />
+                        <img src="{{ asset('img/team-4.jpg') }}" alt="Further team" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="is-hidden-mobile">
+        <div class="slides-separator">
+            <img src="{{ asset('img/team-15.jpg') }}" alt="Further team" />
+            <img src="{{ asset('img/team-1.jpg') }}" alt="Further team" />
+            <img src="{{ asset('img/team-7.jpg') }}" alt="Further team" />
+        </div>
+    </section>
+
+    <section class="section" id="open-positions">
+        <div class="container">
+            <div class="columns">
                 <div class="column">
+                    <h2 class="hero-heading">
+                        <strong class="is-pearl">Open</strong> positions
+                    </h2>
+
                     @if (count($jobs) > 0)
-                    <h1 class="heading">Open positions</h1>
                         @foreach ($jobs as $job)
                         <article class="job">
                             <div class="job__meta">
@@ -44,9 +78,57 @@
         </div>
     </section>
 
-    @include(getLang() . '.banners.projects', [
-        'headingText' => 'Take a look at some of the projects you might work on'
-    ])
+    <section class="section has-padding-b0">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-7-tablet">
+                    <h2 class="hero-heading has-margin-b15">
+                        <strong class="is-tangerine">Remote</strong> is natural
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel is-tangerine">
+            <div class="container">
+                <div class="columns about__top__background">
+                    <div class="column is-7-tablet is-6-widescreen">
+                        <p>We've been a 100% remote company since before it was cool. 2014 to be exact. This means we know how to stay effective while letting everyone enjoy the benefits of remote work, but also how to foster good working relationships.</p>
+                        <p>For us, it is natural that you work from wherever you want and whenever you feel the most productive. And when we need to blow off some post-work steam, we do that at Further Fridays and team retreats.</p>
+                    </div>
+                    <div class="column is-offset-1-widescreen is-offset-top is-hidden-mobile">
+                        <img src="{{ asset('img/team-17.jpg') }}" alt="Further team" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section has-padding-b0">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-7-tablet is-offset-5-tablet is-offset-6-desktop">
+                    <h2 class="hero-heading has-margin-b15">
+                        <strong class="is-cobalt">Sharing</strong> is caring
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel is-cobalt">
+            <div class="container">
+                <div class="columns about__top__background">
+                    <div class="column is-offset-top is-hidden-mobile">
+                        <img src="{{ asset('img/team-2.jpg') }}" alt="Further team" />
+                    </div>
+                    <div class="column is-7-tablet is-6-widescreen is-offset-1-widescreen">
+                        <p>We harvest a strong culture of knowledge sharing. We make it one of our main goals to constantly improve ourselves and share this wisdom with others during dev hours, on <a class="has-text-underlined is-white" href="{{ localizedRoute('blog') }}" target="_blank">our blog</a>, at meetups or conferences.</p>
+                        <p>On top of this, we also try to give back whenever we can by contributing to community projects or releasing some of our work as open source.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
 
 

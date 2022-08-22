@@ -22,7 +22,7 @@
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p>Ezt a kérdést teszik fel nekünk a leggyakrabban: milyen előnyökkel jár az egyedi megoldás a licences szoftverrel (SaaP) vagy a szolgáltatott szoftverrel (SaaS) szemben. Rengeteg cikket írtak erről, de mivel sokszor találkozunk ezzel a kérdéssel, íme a mi nézőpontunk.</p>
-                            <p class="has-margin-b60">Az egyszerűség kedvéért, ebben a cikkben dobozos szoftver gyűjtőnév alatt fogunk hivatkozni a licences és szolgáltatott szoftverekre egyaránt. </p>
+                            <p class="has-margin-b60">Az egyszerűség kedvéért, ebben a cikkben dobozos szoftver gyűjtőnév alatt fogunk hivatkozni a licences és szolgáltatott szoftverekre egyaránt.</p>
                             <h2 class="heading-3 has-margin-b30">Funkcionalitások és testreszabás</h2>
                             <p>Nézzük meg, hogyan viszonyul egy dobozos termék és egy egyedi fejlesztés egymáshoz funkcionalitás és testreszabhatóság szempontjából.</p>
                             <p>Egy dobozos szoftver célja, hogy megfeleljen a lehető a legtöbb vállalat legtöbb igényének, de valószínűleg nem fog megfelelni a Te összes igényednek.</p>

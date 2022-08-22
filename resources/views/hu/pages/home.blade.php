@@ -1,14 +1,16 @@
 @extends('hu.site', ['bodyClass' => 'has-hero'])
 
 @section('content')
-    <section class="hero is-cobalt">
+    <section class="hero hero--background-1 is-cobalt">
         <h2 class="hero-heading">
-            A Te ötleted.<br />Megépítjük. Növeljük.<br />
+            A Te ötleted.<br />Megtervezzük. Megépítjük.<br />
             <strong class="is-tangerine">Hódítsd meg a világot.</strong>
         </h2>
+
         <a class="hero__cta" href="{{ localizedRoute('contact') }}">
             Van egy ötleted, amit meg szeretnél velünk beszélni?<strong>Írd meg nekünk</strong>
         </a>
+
         <a class="hero__scroll" href="#services"></a>
     </section>
 
@@ -19,13 +21,13 @@
                     <h2 class="hero-heading">
                         Ötleteid <strong class="is-pearl">működő</strong><br />digitális termékké alakítjuk.
                     </h2>
-                    <p class="has-margin-b30">
-                        Digitális termékfejlesztő ügynökségként abban rejlik értékünk, hogy egy sikeres termékhez szükséges összes hozzávaló egy helyen érthető el. Összehozzuk az üzletet, a felhasználói élményt és a technológiát, hogy végigkalauzoljunk a teljes termékfejlesztési folyamaton. Ötlettől megvalósításig és azon is túl.
-                    </p>
+
+                    <p class="has-margin-b30">Digitális termékfejlesztő ügynökségként abban rejlik értékünk, hogy egy sikeres termékhez szükséges összes hozzávaló egy helyen érthető el. Összehozzuk az üzletet, a felhasználói élményt és a technológiát, hogy végigkalauzoljunk a teljes termékfejlesztési folyamaton. Ötlettől megvalósításig és azon is túl.</p>
+
                     <ul class="list has-bullets">
-                        <li><a href="{{ localizedRoute('services') }}#strategia-es-kutatas">Stratégia és kutatás</a></li>
-                        <li><a href="{{ localizedRoute('services') }}#ux-kutatas-es-tervezes">UX kutatás és tervezés</a></li>
-                        <li><a href="{{ localizedRoute('services') }}#digitalis-termekfejlesztes">Digitális termékfejlesztés</a></li>
+                        <li><a class="is-grey" href="{{ localizedRoute('services') }}#strategia-es-kutatas">Stratégia és kutatás</a></li>
+                        <li><a class="is-grey" href="{{ localizedRoute('services') }}#ux-kutatas-es-tervezes">UX kutatás és tervezés</a></li>
+                        <li><a class="is-grey" href="{{ localizedRoute('services') }}#digitalis-termekfejlesztes">Digitális termékfejlesztés</a></li>
                     </ul>
                 </div>
                 <div class="column is-offset-1-tablet">
@@ -52,10 +54,7 @@
                     <h2 class="hero-heading has-text-centered">
                         Ők már <strong class="is-tangerine">minket választottak</strong>.
                     </h2>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column">
+
                     <div class="columns is-mobile is-multiline has-text-centered">
                         <div class="column is-6-mobile is-4-tablet has-margin-b60">
                             <img src="{{ asset('media/partners/png.png') }}" alt="Procter & Gamble" />
@@ -125,47 +124,21 @@
     <section class="section" id="our-approach">
         <div class="container">
             <div class="columns">
-                <div class="column">
+                <div class="column is-8">
                     <h2 class="hero-heading">
                         Mire <strong class="is-raspberry">számíthatsz?</strong>
                     </h2>
-                </div>
-            </div>
 
-            <div class="columns">
-                <div class="column is-10-tablet is-offset-1-tablet is-8-desktop is-offset-2-desktop">
-                    <p>
-                        Egy kollaboratív folyamatra. Egy hagyományos ügynökséggel ellentétben, ha minket választasz, akkor már elejétől fogva és a projekt során mindvégig be leszel vonva a folyamatba. Ezt találjuk a legbiztosabb módszernek, hogy olyan terméket építsünk ami te szeretni fogsz, a felhasználóid pedig szeretettel használnak majd.
-                    </p>
-                    <p class="has-margin-b60">
-                        Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, melyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.
-                    </p>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column is-10-tablet is-offset-1-tablet is-8-desktop is-offset-2-desktop has-margin-b60">
-                    <div class="about__process">
-                        <span class="about__process__step about__process__step--1">
-                            <strong>Megismerés</strong>
-                            Felmérjük az üzleti igényeket és folyamatokat.
-                        </span>
-                        <span class="about__process__step about__process__step--2">
-                            <strong>Ötletelés</strong>
-                            Megoldásokat keresünk a meghatározott problémákra.
-                        </span>
-                        <span class="about__process__step about__process__step--3">
-                            <strong>Validáció</strong>
-                            Prototípusokat tervezünk, hogy teszteljük a kezdeti ötleteket.
-                        </span>
-                        <span class="about__process__step about__process__step--4">
-                            <strong>Megvalósítás</strong>
-                            Lefejlesztjük a validált megoldásokat.
-                        </span>
-                        <span class="about__process__step about__process__step--5">
-                            <strong>Fenntarthatóság</strong>
-                            Mérjük az eredményeket és továbbfejlesztjük a terméket.
-                        </span>
+                    <p>Egy kollaboratív folyamatra. Egy hagyományos ügynökséggel ellentétben, ha minket választasz, akkor már elejétől fogva és a projekt során mindvégig be leszel vonva a folyamatba. Ezt találjuk a legbiztosabb módszernek, hogy olyan terméket építsünk ami te szeretni fogsz, a felhasználóid pedig szeretettel használnak majd.</p>
+                    <p class="has-margin-b60">Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, melyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.</p>
+
+                    <div class="slides">
+                        <img src="{{ asset('img/team-1.jpg') }}" alt="Further team" />
+                        <img src="{{ asset('img/team-2.jpg') }}" alt="Further team" />
                     </div>
+                </div>
+                <div class="column is-hidden-mobile is-offset-1-desktop">
+                    <img src="{{ asset('img/process-hu.png') }}" alt="Mire számíthatsz?" />
                 </div>
             </div>
         </div>

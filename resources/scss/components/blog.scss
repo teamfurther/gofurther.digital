@@ -50,6 +50,7 @@
         a {
             color: $grey-dark;
             display: block;
+            flex-shrink: 0;
             font-size: 12px;
             text-transform: uppercase;
             transition: all .2s ease-out;

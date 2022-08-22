@@ -45,7 +45,7 @@
                             </figure>
                             <h2 class="heading-2 has-margin-b30">Knowledge sharing</h2>
                             <h3 class="heading-4 has-margin-b15">Write down everything</h3>
-                            <p class="has-margin-b30">In an office environment it's easy to share that Eureka! moment with everyone. But when working remotely, it's much easier to keep these to ourselves. To make sure no information is lost, we encourage the team to always write down everything they would like to share. We do this in a dedicated <a href="https://slack.com/" target="_blank">Slack</a> channel. Later on, we will discuss these on a call or a workshop. </p>
+                            <p class="has-margin-b30">In an office environment it's easy to share that Eureka! moment with everyone. But when working remotely, it's much easier to keep these to ourselves. To make sure no information is lost, we encourage the team to always write down everything they would like to share. We do this in a dedicated <a href="https://slack.com/" target="_blank">Slack</a> channel. Later on, we will discuss these on a call or a workshop.</p>
                             <h3 class="heading-4 has-margin-b15">Organise workshops</h3>
                             <p class="has-margin-b30">We often organise workshops, when we discuss a specific topic as a team. The development team often has so-called dev-hours, when one of our colleagues presents something new they've been working on, be it a new technology, framework or tool that we might use in the future.</p>
                             <h3 class="heading-4 has-margin-b15">Set up a knowledge center</h3>

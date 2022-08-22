@@ -87,7 +87,7 @@
                             <p>Your goal should be the minimum amount of money you need to deliver the product. We calculated that if we buy every part from our local hardware store and screw them together ourselves, we can still do it within this budget.</p>
                             <p class="has-margin-b60">You should also make sure you achieve your goal. This is pure psychology. People are more likely to join something successful. If you see a campaign is at $5k out of $100k, you think twice before investing. But if you see it's past $100k and still growing, you will join with much less thought..</p>
                             <p><strong>PETER: </strong> How fast did you achieve your goal? How much did you surpass it?</p>
-                            <p><strong>BREWIE: </strong> We had $60k secured after two days. In the end, we reached $220k. </p>
+                            <p><strong>BREWIE: </strong> We had $60k secured after two days. In the end, we reached $220k.</p>
                             <p>Later we did a second round when Indiegogo's InDemand programme launched. This was targeted toward those who already had a successful campaign. This time we didn't do any PR campaigns. We only used our still growing email lists.</p>
                             <p class="has-margin-b60">It went unexpectedly well. Within 2 minutes, we raised $30k. Indiegogo wasn't aware when we launched and didn't know where all this money was coming from. Almost $200k went through the system in under an hour. During this 1 month-long campaign, we raised another half a million, reaching $720k.</p>
                             <p><strong>PETER: </strong> What happens after launching the campaign?</p>

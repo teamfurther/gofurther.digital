@@ -16,8 +16,7 @@
                     <p>{{ config('site.company.name') }}<br />
                         {{ config('site.company.address.postal_code') }} {{ config('site.company.address.city') }} ({{ config('site.company.address.country') }}), {{ config('site.company.address.street_address') }}<br />
                         Cégjegyzékszám: {{ config('site.company.regno') }}<br />
-                        Adószám: {{ config('site.company.vatno') }}
-                    </p>
+                        Adószám: {{ config('site.company.vatno') }}</p>
                     <p class="has-margin-b60">A Further Digital Solutions társaságnál személyes adataid csak a menedzsment csapat számára hozzáférhetők. Személyes adataid nem lesznek elérhetők harmadik felek vagy adatfeldolgozók számára.</p>
                     <h2 class="heading-2 has-margin-b30">Személyes adatok felhasználása</h2>
                     <p>A Further honlap által a Further Digital Solutions társaságnak szolgáltatott személyes adatokat a gyűjtés időpontjában megjelölt célokra használják. Továbbá a személyes adatok felhasználhatók statisztikai elemzésekhez.</p>

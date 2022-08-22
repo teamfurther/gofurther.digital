@@ -1,14 +1,16 @@
 @extends('hu.site', ['bodyClass' => 'has-hero'])
 
 @section('content')
-    <section class="hero is-raspberry">
+    <section class="hero hero--background-2 is-raspberry">
         <h2 class="hero-heading">
             Ötlettől <strong class="is-tangerine">megvalósításig</strong><br />
             és azon is túl.
         </h2>
+
         <a class="hero__cta" href="{{ localizedRoute('contact') }}">
             Kiváncsiak vagyunk az ötletedre!<strong>Meséld el nekünk</strong>
         </a>
+
         <a class="hero__scroll" href="#services"></a>
     </section>
 
@@ -24,12 +26,10 @@
                             <div class="services__outcome">
                                 Amit kapsz → <span>Validált ötlet</span>, <span>Termékstratégia</span>
                             </div>
-                            <p>
-                                Együtt elkezdjük feltérképezni a víziót. Az ötletedet problémákra és kihívásokra bontjuk, majd az egészet ismét összerakjuk egy termékstratégia formájában.
-                            </p>
-                            <p class="has-margin-b60">
-                                Ennek a fázisnak a kulcsfeladata a felhasználók megismerése. Felhasználói- és panelinterjúkat végzünk, hogy validálni tudjuk a koncepciót.
-                            </p>
+
+                            <p>Együtt elkezdjük feltérképezni a víziót. Az ötletedet problémákra és kihívásokra bontjuk, majd az egészet ismét összerakjuk egy termékstratégia formájában.</p>
+                            <p class="has-margin-b60">Ennek a fázisnak a kulcsfeladata a felhasználók megismerése. Felhasználói- és panelinterjúkat végzünk, hogy validálni tudjuk a koncepciót.</p>
+
                             <a class="btn has-margin-b5">Discovery Workshop</a>
                             <a class="btn has-margin-b5">Design Sprint</a>
                         </div>
@@ -42,12 +42,10 @@
                             <div class="services__outcome">
                                 Amit kapsz → <span>Drótvázak</span>, <span>UI designok</span>
                             </div>
-                            <p>
-                                Ebben a fázisban kezdünk el előszőr működő és tapintható prototípusokat építeni, majd ezekkel visszatérni a felhasználókhoz és visszacsatolást kérni.
-                            </p>
-                            <p class="has-margin-b60">
-                                Előbb drótvázakat készítünk, hogy meghatározzuk az információ hierarchiát és kapjál egy elképzelést arról, hogy miként néz majd ki a megoldás. Később ezeket a drótvázakat egy UI design folyamat során felruházzuk színekkel és interakciókkal. Végre életre kelt a projekted!
-                            </p>
+
+                            <p>Ebben a fázisban kezdünk el előszőr működő és tapintható prototípusokat építeni, majd ezekkel visszatérni a felhasználókhoz és visszacsatolást kérni.</p>
+                            <p class="has-margin-b60">Előbb drótvázakat készítünk, hogy meghatározzuk az információ hierarchiát és kapjál egy elképzelést arról, hogy miként néz majd ki a megoldás. Később ezeket a drótvázakat egy UI design folyamat során felruházzuk színekkel és interakciókkal. Végre életre kelt a projekted!</p>
+
                             <a class="btn has-margin-b5">UI design</a>
                         </div>
                     </div>
@@ -59,12 +57,9 @@
                             <div class="services__outcome">
                                 Amit kapsz → <span>Prototípusok (MVP)</span>, <span>Piacképes termék</span>
                             </div>
-                            <p>
-                                Ha a digitális térben él, akkor mi meg tudjuk építeni! No-code prototípustól, komplex mobil applikáción át a mesterséges intelligenciát alkalmazó IoT megoldásig mindent láttunk már.
-                            </p>
-                            <p class="has-margin-b60">
-                                Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, amelyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.
-                            </p>
+                            <p>Ha a digitális térben él, akkor mi meg tudjuk építeni! No-code prototípustól, komplex mobil applikáción át a mesterséges intelligenciát alkalmazó IoT megoldásig mindent láttunk már.</p>
+                            <p class="has-margin-b60">Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, amelyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.</p>
+
                             <a class="btn has-margin-b5">No-code és low-code megoldások</a>
                             <a class="btn has-margin-b5">Mobilapplikációk</a>
                             <a class="btn has-margin-b5">Webes applikációk</a>
@@ -87,15 +82,12 @@
 
     <section class="section">
         <div class="container">
-            <div class="columns">
+            <div class="columns has-margin-b60">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
                     <h2 class="hero-heading">
                         <strong class="is-tangerine">Sikertörténetek</strong> ügyfeleinktől:
                     </h2>
-                </div>
-            </div>
-            <div class="columns has-margin-b60">
-                <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
+
                     <img class="testimonial__picture" src="{{ asset('img/testimonials-brian-dubb.png') }}" alt="Centralized Brian Dubb testimonial" />
                     <blockquote class="testimonial__content">
                         <p>A Further határidőn és költségvetésen belül fejlesztette le az MVP-t, ami sikeres béta teszteléshez, majd egy második kör befektetéshez vezetett. Örvendünk hogy az applikáció második verzióján is a Furtherrel együtt dolgozhatunk.</p>
@@ -107,9 +99,7 @@
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
                     <img class="testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-attila-szegedi.png') }}" alt="Brewie Attila Szegedi testimonial" />
                     <blockquote class="testimonial__content">
-                        <p>
-                            A Further testreszabta a Chronos tartalommenedzsment rendszerüket, hogy megfeleljen a mi specifikus igényeinknek. Jelenleg a tudástárunk motorjaként üzemel. A rendszer tökéletesen bevált és lehetővé teszi számunkra, hogy nagymennyiségű információt tároljunk és osszunk meg a sörfőző gépunkről és a sörfőzésről.
-                        </p>
+                        <p>A Further testreszabta a Chronos tartalommenedzsment rendszerüket, hogy megfeleljen a mi specifikus igényeinknek. Jelenleg a tudástárunk motorjaként üzemel. A rendszer tökéletesen bevált és lehetővé teszi számunkra, hogy nagymennyiségű információt tároljunk és osszunk meg a sörfőző gépunkről és a sörfőzésről.</p>
                         <cite class="testimonial__author">SZEGEDI Attila, Brewie</cite>
                     </blockquote>
                 </div>

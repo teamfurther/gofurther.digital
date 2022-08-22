@@ -118,30 +118,33 @@
                 </div>
             </div>
             <div class="columns">
-                <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <div class="columns is-mobile is-multiline">
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                <div class="column">
+                    <div class="columns is-mobile is-multiline has-text-centered">
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
                             <img src="{{ asset('media/partners/png.png') }}" alt="Procter & Gamble" />
                         </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
-                            <img src="{{ asset('media/partners/njoy.png') }}" alt="nJoy" />
-                        </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
                             <img src="{{ asset('media/partners/msd.png') }}" alt="MSD Pharma" />
                         </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
+                            <img src="{{ asset('media/partners/samsung-engineering.png') }}" alt="Samsung Engineering" />
+                        </div>
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
+                            <img src="{{ asset('media/partners/njoy.png') }}" alt="nJoy" />
+                        </div>
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
                             <img src="{{ asset('media/partners/praktiker.png') }}" alt="Praktiker Hungary" />
                         </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
-                            <img src="{{ asset('media/partners/harborsz.png') }}" alt="Harborsz Logistic" />
-                        </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
                             <img src="{{ asset('media/partners/corvinus.png') }}" alt="Corvinus University of Budapest" />
                         </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
+                            <img src="{{ asset('media/partners/harborsz.png') }}" alt="Harborsz Logistic" />
+                        </div>
+                        <div class="column is-6-mobile is-4-tablet has-margin-b60">
                             <img src="{{ asset('media/partners/onrobot.png') }}" alt="OnRobot" />
                         </div>
-                        <div class="column is-6-mobile is-6-tablet is-3-desktop has-margin-b60">
+                        <div class="column is-hidden-mobile is-4-tablet has-margin-b60">
                             <img src="{{ asset('media/partners/steiger.png') }}" alt="Steiger" />
                         </div>
                     </div>
@@ -156,9 +159,7 @@
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
                     <img class="testimonial__picture" src="{{ asset('img/testimonials-adorian-demeter.png') }}" alt="nJoy - The Hive Adorian Demeter testimonial" />
                     <blockquote class="testimonial__content">
-                        <p>
-                            Nem tudnám elképzelni, hogyan működne a termékfejlesztésünk a Hive nélkül. Bevezetése óta az új termékek fejlesztésének ideje 20%-al csökkent, minden adatunk rendszerezett és könnyen utánkövethető.
-                        </p>
+                        <p>Nem tudnám elképzelni, hogyan működne a termékfejlesztésünk a Hive nélkül. Bevezetése óta az új termékek fejlesztésének ideje 20%-al csökkent, minden adatunk rendszerezett és könnyen utánkövethető.</p>
                         <cite class="testimonial__author">DEMETER Adorian, nJoy</cite>
                     </blockquote>
                 </div>

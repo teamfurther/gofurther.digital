@@ -153,19 +153,13 @@
                     <h3 class="heading-2">Gy.I.K.</h3>
 
                     <h4 class="heading-3">Hasznos volt az anyag, de továbbra is vannak kérdéseim…</h4>
-                    <p class="has-margin-b30">
-                        <small>Ezt az anyagot csupán egy "puskának" szántuk, semmiképp nem egy kimerítő anyagnak. Ha szeretnél többet megtudni nézz bele a <a href="{{ localizedRoute('blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">blogunkba</a> részletesebb cikkekért, vagy <a href="{{ localizedRoute('contact') }}">kérj</a> egy ingyenes konzultációt.</small>
-                    </p>
+                    <p class="has-margin-b30"><small>Ezt az anyagot csupán egy "puskának" szántuk, semmiképp nem egy kimerítő anyagnak. Ha szeretnél többet megtudni nézz bele a <a href="{{ localizedRoute('blog.tags.show', ['slug' => 'startup-es-termekfejlesztes']) }}">blogunkba</a> részletesebb cikkekért, vagy <a href="{{ localizedRoute('contact') }}">kérj</a> egy ingyenes konzultációt.</small></p>
 
                     <h4 class="heading-3">Miért kell megadni személyes adatokat a letöltéshez?</h4>
-                    <p class="has-margin-b30">
-                        <small>Sok munkát fektettünk abba, hogy minőségi anyagokat készítsünk számotokra. Azért kérjük a személyes adataid, hogy a jövőben további olyan anyagokat is tudjunk küldeni, amikről úgy gondoljuk, hogy érdekesek lehetnek számodra. Ne izgulj, minden adatot bizalmasan és az <a href="{{ localizedRoute('privacy') }}" target="_blank">adatvédelmi tájékoztatónak</a> megfelelően kezelünk. Ha nem szeretnél több ehhez hasonló ingyenes anyagot kapni, bármikor leiratkozhatsz majd.</small>
-                    </p>
+                    <p class="has-margin-b30"><small>Sok munkát fektettünk abba, hogy minőségi anyagokat készítsünk számotokra. Azért kérjük a személyes adataid, hogy a jövőben további olyan anyagokat is tudjunk küldeni, amikről úgy gondoljuk, hogy érdekesek lehetnek számodra. Ne izgulj, minden adatot bizalmasan és az <a href="{{ localizedRoute('privacy') }}" target="_blank">adatvédelmi tájékoztatónak</a> megfelelően kezelünk. Ha nem szeretnél több ehhez hasonló ingyenes anyagot kapni, bármikor leiratkozhatsz majd.</small></p>
 
                     <h4 class="heading-3">Továbbküldhetem ezt az anyagot?</h4>
-                    <p>
-                        <small>Igen! Ez az anyag a <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a> licensz alá van besorolva. Amíg megfelelően feltünteted a forrást, addig nyugodtan tovább terjesztheted az anyagot.</small>
-                    </p>
+                    <p><small>Igen! Ez az anyag a <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a> licensz alá van besorolva. Amíg megfelelően feltünteted a forrást, addig nyugodtan tovább terjesztheted az anyagot.</small></p>
                 </div>
             </div>
         </div>

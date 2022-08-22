@@ -8,6 +8,7 @@
         <h2 class="hero-heading">
             Zárt tartalom.
         </h2>
+
         <form class="hero__form" action="{{ localizedRoute('private-content.verify') }}" method="POST">
             {{ csrf_field() }}
 

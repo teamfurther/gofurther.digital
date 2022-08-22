@@ -31,12 +31,14 @@
 
         @include tablet() {
             float: right;
-            width: calc(100% - 155px);
+            padding-top: 20px;
+            width: calc(100% - 168px);
         }
     }
 
     &__picture {
         margin-bottom: 30px;
+        width: 138px;
 
         @include tablet() {
             float: left;

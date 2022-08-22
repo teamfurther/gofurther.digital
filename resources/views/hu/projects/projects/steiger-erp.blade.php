@@ -15,10 +15,8 @@
             <div class="columns">
                 <div class="column">
                     <h4 class="heading-1">Összefoglaló</h4>
-                    <p>
-                        Alapjában véve a Steiger egy családi vállalkozás, amely 1994 óta több generáción át részt vett a fémfeldolgozó iparban.
-                        2015-ben felvették velünk a kapcsolatot, hogy egy olyan rendszert dolgozzunk ki, amely automatizálja munkafolyamatukat és javítja ezek megbízhatóságát.
-                    </p>
+                    <p>Alapjában véve a Steiger egy családi vállalkozás, amely 1994 óta több generáción át részt vett a fémfeldolgozó iparban.
+                        2015-ben felvették velünk a kapcsolatot, hogy egy olyan rendszert dolgozzunk ki, amely automatizálja munkafolyamatukat és javítja ezek megbízhatóságát.</p>
                     <div class="project__stats">
                         <div class="project__stat is-downward">
                             <span>23<small>%</small></span> munkaóra<br />csökkenés
@@ -53,25 +51,17 @@
                 <div class="columns has-margin-b90">
                     <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
                         <h4 class="heading-1">Hogyan határoztuk és oldottuk meg a problémákat</h4>
-                        <p>
-                            A megismerési fázisban interjúkat tartottunk a Steiger technikai vezetőjével és gyártórészlegi munkásokkal. A cél az volt, hogy jobban megértsük hogyan járul hozzá mindegyik munkatárs és munkafolyamat a végső termék előállításához. <strong>A beszélgetések során, 3 fő problémát azonosítottunk.</strong> Ez segített abban, hogy azokra a funkciókra koncentrálhassunk, amik igazán fontosak voltak számukra.
-                        </p>
+                        <p>A megismerési fázisban interjúkat tartottunk a Steiger technikai vezetőjével és gyártórészlegi munkásokkal. A cél az volt, hogy jobban megértsük hogyan járul hozzá mindegyik munkatárs és munkafolyamat a végső termék előállításához. <strong>A beszélgetések során, 3 fő problémát azonosítottunk.</strong> Ez segített abban, hogy azokra a funkciókra koncentrálhassunk, amik igazán fontosak voltak számukra.</p>
                     </div>
                 </div>
                 <div class="columns is-reversed">
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Az árajánlatok összeállítása különösen időigényes volt</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            Egy árajánlat összeállításához több mint 50 kritérium figyelembevételére és komplex számításokra volt szükség. Korábban ezeket manuálisan, több Excel táblázat segítségével állították össze a Steiger munkatársai.
-                        </p>
+                        <p>Egy árajánlat összeállításához több mint 50 kritérium figyelembevételére és komplex számításokra volt szükség. Korábban ezeket manuálisan, több Excel táblázat segítségével állították össze a Steiger munkatársai.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            Szorosan együttműködve a Steiger vezetőségével és az értékesítési csapattal <strong>leegyszerűsítettük a folyamatot</strong> a változók számának leredukálásával és az adatduplikációk megszűntetésével.
-                        </p>
-                        <p>
-                            A végeredmény egy olyan megoldás lett, amely pontosan felbecsüli a projektek munkaigényét a régebbi projektek és a jelenlegi kapacitás alapján, illetve az anyagigényét, figyelembe véve a raktárkészletet.
-                        </p>
+                        <p>Szorosan együttműködve a Steiger vezetőségével és az értékesítési csapattal <strong>leegyszerűsítettük a folyamatot</strong> a változók számának leredukálásával és az adatduplikációk megszűntetésével.</p>
+                        <p>A végeredmény egy olyan megoldás lett, amely pontosan felbecsüli a projektek munkaigényét a régebbi projektek és a jelenlegi kapacitás alapján, illetve az anyagigényét, figyelembe véve a raktárkészletet.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/steiger-overview-1-hu.gif') }}" alt="Steiger - Az árajánlatok összeállítása különösen időigényes volt" />
@@ -81,13 +71,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">A raktárkészlet nem volt központosított</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            Észrevettük, hogy a Steigernek nem volt egy olyan rendszere amivel követni lehetett a gyártásból megmaradt anyagokat. Ezért sok anyag előbb vagy utóbb selejtezésre került. Ez egy óriási veszteségforrás volt, amire sürgősen megoldást kellett találni.
-                        </p>
+                        <p>Észrevettük, hogy a Steigernek nem volt egy olyan rendszere amivel követni lehetett a gyártásból megmaradt anyagokat. Ezért sok anyag előbb vagy utóbb selejtezésre került. Ez egy óriási veszteségforrás volt, amire sürgősen megoldást kellett találni.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            Bevezettünk egy olyan <strong>beszerzési és leltározási rendszert</strong> amivel a Steiger könnyebben tudja menedzselni a beszerzéseket, értékelni tudja a beszállítókat és követni tudja az aktuális raktárkészleteket.
-                        </p>
+                        <p>Bevezettünk egy olyan <strong>beszerzési és leltározási rendszert</strong> amivel a Steiger könnyebben tudja menedzselni a beszerzéseket, értékelni tudja a beszállítókat és követni tudja az aktuális raktárkészleteket.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/steiger-overview-2-hu.gif') }}" alt="Steiger - A raktárkészlet nem volt központosított" />
@@ -97,16 +83,10 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">A gyártási idők nem voltak mérve</h5>
                         <em class="project__text-emphasis">Probléma</em>
-                        <p>
-                            Észrevettük, hogy bár létezett erre egy korábbi rendszer, a munkások nem mérték a különböző munkákkal eltöltött időt. A probléma oka az volt, hogy mivel munkavédelmi kesztyűben dolgoztak, a csarnokban telepített táblagépekkel csak nehezen tudtak dolgozni.
-                        </p>
-                        <p>
-                            Ennek következtében inkább nem használták ezeket a készülékeket, a vezetőség pedig fontos információktól esett el.
-                        </p>
+                        <p>Észrevettük, hogy bár létezett erre egy korábbi rendszer, a munkások nem mérték a különböző munkákkal eltöltött időt. A probléma oka az volt, hogy mivel munkavédelmi kesztyűben dolgoztak, a csarnokban telepített táblagépekkel csak nehezen tudtak dolgozni.</p>
+                        <p>Ennek következtében inkább nem használták ezeket a készülékeket, a vezetőség pedig fontos információktól esett el.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>
-                            Kidolgoztunk egy olyan <strong>QR kód alapú rendszert</strong> aminek segítségével a munkások könnyedén és gyorsan tudták rögzíteni, hogy milyen munkát végeznek és milyen anyagokat használtak el. Ezekből az adatokból a rendszer napi összesítőket állít össze a vezetőség számára.
-                        </p>
+                        <p>Kidolgoztunk egy olyan <strong>QR kód alapú rendszert</strong> aminek segítségével a munkások könnyedén és gyorsan tudták rögzíteni, hogy milyen munkát végeznek és milyen anyagokat használtak el. Ezekből az adatokból a rendszer napi összesítőket állít össze a vezetőség számára.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/steiger-overview-3.gif') }}" alt="Steiger - A gyártási idők nem voltak mérve" />
@@ -133,12 +113,8 @@
                     <h5 class="heading-4">
                         Kérdd ki mindenki véleményét
                     </h5>
-                    <p>
-                        Az egyik fő kihívásunk az volt, hogy az ott dolgozók elzárkóztak egy új szoftver bevezetésének ötletétől.
-                    </p>
-                    <p>
-                        Miután interjúztattuk őket és pontosan megállapítottuk mik a fájdalompontjaik, sokkal könnyebb lett egy olyan megoldási javaslattal előállni, amit ők is elfogadtak.
-                    </p>
+                    <p>Az egyik fő kihívásunk az volt, hogy az ott dolgozók elzárkóztak egy új szoftver bevezetésének ötletétől.</p>
+                    <p>Miután interjúztattuk őket és pontosan megállapítottuk mik a fájdalompontjaik, sokkal könnyebb lett egy olyan megoldási javaslattal előállni, amit ők is elfogadtak.</p>
                 </div>
             </div>
             <div class="columns has-margin-b60 is-mobile">
@@ -149,12 +125,8 @@
                     <h5 class="heading-4">
                         A vezetőségnek nincs mindig igaza
                     </h5>
-                    <p>
-                        A vezetőségnek sok olyan megoldási javaslata volt, ami merőben eltért az alkalmazottak igényeitől. Ez azért jelent problémát, mert nem ők lesznek a szoftver mindennapi felhaszálói.
-                    </p>
-                    <p>
-                        Gyorsan megértettük, hogy a projekt sikerének érdekében, az összes érintett véleményét szem előtt kell tartanunk.
-                    </p>
+                    <p>A vezetőségnek sok olyan megoldási javaslata volt, ami merőben eltért az alkalmazottak igényeitől. Ez azért jelent problémát, mert nem ők lesznek a szoftver mindennapi felhaszálói.</p>
+                    <p>Gyorsan megértettük, hogy a projekt sikerének érdekében, az összes érintett véleményét szem előtt kell tartanunk.</p>
                 </div>
             </div>
             <div class="columns is-mobile">
@@ -165,12 +137,8 @@
                     <h5 class="heading-4">
                         Nem könnyű egy szoftvert minden környezetre megtervezni
                     </h5>
-                    <p>
-                        Egy olyan felhasználó felület megtervezése, ami egyaránt használható az irodában, a gyártócsarnokban vagy menet közben mobiltelefonról, pontosan annyira bonyolult, mint amennyire hangzik.
-                    </p>
-                    <p>
-                        Ebből kiindulva egy tapasztalt UX designer segítségét kértük a tervezéshez. Több tucat óra kutatás és közös tervezés eredményeként egy olyan design rendszert dolgoztunk ki, aminek segítségével minden létfontosságú adat kényelmesen elérhető minden környezetben.
-                    </p>
+                    <p>Egy olyan felhasználó felület megtervezése, ami egyaránt használható az irodában, a gyártócsarnokban vagy menet közben mobiltelefonról, pontosan annyira bonyolult, mint amennyire hangzik.</p>
+                    <p>Ebből kiindulva egy tapasztalt UX designer segítségét kértük a tervezéshez. Több tucat óra kutatás és közös tervezés eredményeként egy olyan design rendszert dolgoztunk ki, aminek segítségével minden létfontosságú adat kényelmesen elérhető minden környezetben.</p>
                 </div>
             </div>
         </div>
@@ -214,15 +182,9 @@
                         <div class="project__gallery-modal__notes">
                             <h5 class="project__gallery-modal__title">Árajánlatok</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    A Steiger legtöbb projektje hosszú és komplex. A projektek árkalkulációja pedig egy hasonlóan időigényes folyamat.
-                                </p>
-                                <p>
-                                    Rengeteg szempontot kell figyelembe venni az árszámítás során: anyagszükségletek, többféle manuális és gépi megmunkálás, szállítás és helyszíni szerelés.
-                                </p>
-                                <p>
-                                    Az új árajánlat-készítő modulnak köszönhetően, 4x gyorsabb egy árajánlat elkészítése a régi Excel táblázatok használatán alapuló módszerhez képest.
-                                </p>
+                                <p>A Steiger legtöbb projektje hosszú és komplex. A projektek árkalkulációja pedig egy hasonlóan időigényes folyamat.</p>
+                                <p>Rengeteg szempontot kell figyelembe venni az árszámítás során: anyagszükségletek, többféle manuális és gépi megmunkálás, szállítás és helyszíni szerelés.</p>
+                                <p>Az új árajánlat-készítő modulnak köszönhetően, 4x gyorsabb egy árajánlat elkészítése a régi Excel táblázatok használatán alapuló módszerhez képest.</p>
                             </div>
                         </div>
                     </div>
@@ -235,15 +197,9 @@
                         <div class="project__gallery-modal__notes is-reversed">
                             <h5 class="project__gallery-modal__title">Beszerzés és leltár</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    Amint megkezdődik egy projekt, az első lépés az anyagbeszerzés. A beszerzés és leltár modul segítségével a Steiger lépésről lépésre követni tudja az anyagvásárlási folyamatot.
-                                </p>
-                                <p>
-                                    A leltárrendszer nyomon követi a raktárkészleteket és előrejelzéseket gyárt az értékesítési csatornában lévő projektek alapján. Emellett jelzi a felhasználónak, ha egy projekthez felhasználható valamilyen raktáron lévő anyag.
-                                </p>
-                                <p>
-                                    A beszerzési rendszer automatizálja az anyagvásárlási folyamatot: kiküldi az árajánlat bekérőket a beszállítóknak, megengedi hogy a beszállítók feltöltsék a saját árlistáikat és raktárkészleteiket, illetve kezeli a beszállítói minőségbiztosítást.
-                                </p>
+                                <p>Amint megkezdődik egy projekt, az első lépés az anyagbeszerzés. A beszerzés és leltár modul segítségével a Steiger lépésről lépésre követni tudja az anyagvásárlási folyamatot.</p>
+                                <p>A leltárrendszer nyomon követi a raktárkészleteket és előrejelzéseket gyárt az értékesítési csatornában lévő projektek alapján. Emellett jelzi a felhasználónak, ha egy projekthez felhasználható valamilyen raktáron lévő anyag.</p>
+                                <p>A beszerzési rendszer automatizálja az anyagvásárlási folyamatot: kiküldi az árajánlat bekérőket a beszállítóknak, megengedi hogy a beszállítók feltöltsék a saját árlistáikat és raktárkészleteiket, illetve kezeli a beszállítói minőségbiztosítást.</p>
                             </div>
                         </div>
                     </div>
@@ -256,15 +212,9 @@
                         <div class="project__gallery-modal__notes">
                             <h5 class="project__gallery-modal__title">Időkövetés</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    A gyártás megkezdésével több folyamat időkövetését is meg kell oldanunk: a manuális munkák, gépi munkák, anyagcserék és karbantartási idők folyamatát.
-                                </p>
-                                <p>
-                                    A manuális munkák követésére egy QR kód alapú rendszert vezettünk be, aminek segítésével a munkások egyetlen szkenneléssel tudják az időt mérni a különböző munkafolyamatokon.
-                                </p>
-                                <p>
-                                    Ezen kívül a gépekből is kinyerjük a gyártási adatokat, hogy kiszámoljuk az átlag anyagcsere időket és beidőzítsük a preventív karbantartást.
-                                </p>
+                                <p>A gyártás megkezdésével több folyamat időkövetését is meg kell oldanunk: a manuális munkák, gépi munkák, anyagcserék és karbantartási idők folyamatát.</p>
+                                <p>A manuális munkák követésére egy QR kód alapú rendszert vezettünk be, aminek segítésével a munkások egyetlen szkenneléssel tudják az időt mérni a különböző munkafolyamatokon.</p>
+                                <p>Ezen kívül a gépekből is kinyerjük a gyártási adatokat, hogy kiszámoljuk az átlag anyagcsere időket és beidőzítsük a preventív karbantartást.</p>
                             </div>
                         </div>
                     </div>
@@ -277,15 +227,9 @@
                         <div class="project__gallery-modal__notes is-reversed">
                             <h5 class="project__gallery-modal__title">Műszerfal</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    A Steiger ERP műszerfala egy álom egy ügyvezető igazgató számára, több tucat testreszabható mérőszámmal.
-                                </p>
-                                <p>
-                                    Hogy csak egy párat említsünk: lead konverziós adatok, projekt határidők és költségvetések, gyártási adatok, HR riportok és pénzügyi előrejelzések.
-                                </p>
-                                <p>
-                                    Ugyanakkor itt kaptak helyet az értesítések, a személyes feladatlisták és a vállalati kalendárium is.
-                                </p>
+                                <p>A Steiger ERP műszerfala egy álom egy ügyvezető igazgató számára, több tucat testreszabható mérőszámmal.</p>
+                                <p>Hogy csak egy párat említsünk: lead konverziós adatok, projekt határidők és költségvetések, gyártási adatok, HR riportok és pénzügyi előrejelzések.</p>
+                                <p>Ugyanakkor itt kaptak helyet az értesítések, a személyes feladatlisták és a vállalati kalendárium is.</p>
                             </div>
                         </div>
                     </div>

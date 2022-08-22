@@ -43,8 +43,7 @@
                             <p>Egy pár szabadúszóval folytatott interjú során viszont rájöttünk arra, hogy számukra sokkal fontosabb az, hogy bárhova beülnek, ott megfelelő munkakörülmények legyenek, mint az, hogy hány kávézóból választhatnak. Az viszont fontos volt számukra, hogy mindig legyen közel 1-1 kávézó.</p>
                             <p>Így bekövetkezett egy paradigmaváltás. Már nem arra lőttünk, hogy minél több legyen a kávézó, hanem arra, hogy csak az elvárásoknak megfelelő kávézók legyenek. Ahhoz pedig, hogy földrajzilag is megfelelő elosztásban legyenek, a keresletet és kínálatot a következő módon tartottuk egyensúlyban.</p>
                             <p>Ügyfelünkkel közösen úgy döntöttünk, hogy Berlin és Düsseldorf lesz a két teszt város. Mindkettőt felbontottuk
-                                zónákra, úgy, hogy a belvárosban és a nagyobb gyalogos forgalmú részeken kisebb területűek legyenek a zónák, a külvárosokban nagyobb területűek. Ezzel azt próbáltuk elérni, hogy a frekventáltabb részeken gyorsabban lehessen a kiválasztott kávézóba eljutni.
-                            </p>
+                                zónákra, úgy, hogy a belvárosban és a nagyobb gyalogos forgalmú részeken kisebb területűek legyenek a zónák, a külvárosokban nagyobb területűek. Ezzel azt próbáltuk elérni, hogy a frekventáltabb részeken gyorsabban lehessen a kiválasztott kávézóba eljutni.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/coeasy-zone-map.jpg') }}" alt="Coeasy zóna térkép" />
                                 <figcaption>Berlin zóna térképe. Azok a zónák, ahol legalább 30 érdeklődőt regisztráltunk zölddel jelöltük.</figcaption>

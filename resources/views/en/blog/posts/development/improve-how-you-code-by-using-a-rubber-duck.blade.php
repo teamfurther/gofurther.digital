@@ -26,12 +26,8 @@
                             <p>Sometimes we developers can get very immersed in coding, in which case we get into the "zone" and just write and write… but basically we hardly think about what we're doing. We only start to take a closer look at our lines when we don't understand something, when doesn't work, or when a little elf whispers in our head that "that's just not the way to do it" or "there's definitely a more elegant solution".</p>
                             <p>At such times, we have to lean back, get out of the zone, and find our old childhood friend, the good old rubber duck. A rubber duck?! Yes! It must not be a rubber duck, any object that will be our colleague for a while will do: the office dog or a plush monkey. And just as part of a peer review, we will explain to him or her what we did.</p>
                             <p>That's when those "Aha!" thoughts are born: when we are essentially code reviewing our own code. This method is not a substitute for the actual code review, because this code is like our child and like all good parents, our code will be the most beautiful and the best for us, but it does not hurt for us to look at it for a while before others do.</p>
-                            <p class="has-margin-t60">
-                                <em>Code review or peer review is a software quality assurance method in which one or more persons review the partial or complete code base of a software. At least one person must be different from the author of the code.</em>
-                            </p>
-                            <p>
-                                <em>The purpose of the code review is to improve the quality and maintainability of the code, detect software bugs, to transfer knowledge between colleagues, and to strengthen the sense of collective responsibility.</em>
-                            </p>
+                            <p class="has-margin-t60"><em>Code review or peer review is a software quality assurance method in which one or more persons review the partial or complete code base of a software. At least one person must be different from the author of the code.</em></p>
+                            <p><em>The purpose of the code review is to improve the quality and maintainability of the code, detect software bugs, to transfer knowledge between colleagues, and to strengthen the sense of collective responsibility.</em></p>
                             <figure>
                                 <img src="{{ asset('media/blog/improve-how-you-code-by-using-a-rubber-duck-rubber-duckies.jpg') }}" alt="Rubber duck debugging is a method of debugging code" />
                             </figure>

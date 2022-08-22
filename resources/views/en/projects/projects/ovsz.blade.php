@@ -15,18 +15,10 @@
             <div class="columns">
                 <div class="column">
                     <h4 class="heading-1">Background</h4>
-                    <p>
-                        Before developing this application for OVSZ (Hungarian National Blood Transfusion Service), donation centers had to submit lab results to the central database on paper.
-                    </p>
-                    <p>
-                        OVSZ stored all these results, but never provided a standard protocol for it to be accessed.
-                    </p>
-                    <p>
-                        Because two-way data synchronization didn't exist, donation centers had no knowledge if a donor has already been marked as ineligible to give blood by another donation center.
-                    </p>
-                    <p>
-                        <small>The project was developed in collaboration with <a href="https://www.happymed.hu" target="_blank">Happymed</a> and <a href="http://popcode.hu" target="_blank">Popcode</a>.</small>
-                    </p>
+                    <p>Before developing this application for OVSZ (Hungarian National Blood Transfusion Service), donation centers had to submit lab results to the central database on paper.</p>
+                    <p>OVSZ stored all these results, but never provided a standard protocol for it to be accessed.</p>
+                    <p>Because two-way data synchronization didn't exist, donation centers had no knowledge if a donor has already been marked as ineligible to give blood by another donation center.</p>
+                    <p><small>The project was developed in collaboration with <a href="https://www.happymed.hu" target="_blank">Happymed</a> and <a href="http://popcode.hu" target="_blank">Popcode</a>.</small></p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
                     <img src="{{ asset('media/projects/ovsz-illustration.png') }}" alt="OVSZ - Online Cross-Donation Registry" />
@@ -59,16 +51,10 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">There was no standard way to access donor information</h5>
                         <em class="project__text-emphasis">Problem</em>
-                        <p>
-                            Donation centers had no way to check if a donor has been previously marked as ineligible to give blood at another donation center.
-                        </p>
+                        <p>Donation centers had no way to check if a donor has been previously marked as ineligible to give blood at another donation center.</p>
                         <em class="project__text-emphasis">Solution</em>
-                        <p>
-                            Working together with the database architects at OVSZ, we defined a contract which describes the way information from the donation centers is transmitted and processed.
-                        </p>
-                        <p>
-                            After this, we implemented a data transport method which automatically submits donor information to the central database, whenever a donation center uploads lab result to the application.
-                        </p>
+                        <p>Working together with the database architects at OVSZ, we defined a contract which describes the way information from the donation centers is transmitted and processed.</p>
+                        <p>After this, we implemented a data transport method which automatically submits donor information to the central database, whenever a donation center uploads lab result to the application.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/ovsz-overview-1.png') }}" alt="OVSZ - There was no standard way to access donor information" />
@@ -78,16 +64,10 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Uploading donor information was tedious and unreliable</h5>
                         <em class="project__text-emphasis">Problem</em>
-                        <p>
-                            Donation centers previously had to submit lab results by paper, which was then manually uploaded to the central database.
-                        </p>
-                        <p>
-                            This process was tiresome for both the donation centers and OVSZ, and also error-prone because of the human factor.
-                        </p>
+                        <p>Donation centers previously had to submit lab results by paper, which was then manually uploaded to the central database.</p>
+                        <p>This process was tiresome for both the donation centers and OVSZ, and also error-prone because of the human factor.</p>
                         <em class="project__text-emphasis">Solution</em>
-                        <p>
-                            Defining the standard protocol of how a submission should look like, allowed us to automatically update donor information whenever a donation center finished the lab results.
-                        </p>
+                        <p>Defining the standard protocol of how a submission should look like, allowed us to automatically update donor information whenever a donation center finished the lab results.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/ovsz-overview-2.png') }}" alt="OVSZ - Uploading donor information was tedious and unreliable" />
@@ -114,12 +94,8 @@
                     <h5 class="heading-4">
                         Working with sensitive information is tricky
                     </h5>
-                    <p>
-                        The first thing we had to learn during this project, is how to handle sensitive healthcare data.
-                    </p>
-                    <p>
-                        Though Hungarian laws regarding this issue are not as exact, studying the US HIPAA standards and their different implementations helped us build a robust and secure solution which protects donor information.
-                    </p>
+                    <p>The first thing we had to learn during this project, is how to handle sensitive healthcare data.</p>
+                    <p>Though Hungarian laws regarding this issue are not as exact, studying the US HIPAA standards and their different implementations helped us build a robust and secure solution which protects donor information.</p>
                 </div>
             </div>
             <div class="columns is-mobile">
@@ -130,12 +106,8 @@
                     <h5 class="heading-4">
                         Accessing and modifying secure data isn't easy
                     </h5>
-                    <p>
-                        On most projects we work on, we're used to having complete control of the database, or at the very least have a standard way of accessing it through an API.
-                    </p>
-                    <p>
-                        In this case we had neither, so we had to work together with the database team at OVSZ to design a system which would allow us to access and update sensitive data through multiple firewalls and intermediary security gates.
-                    </p>
+                    <p>On most projects we work on, we're used to having complete control of the database, or at the very least have a standard way of accessing it through an API.</p>
+                    <p>In this case we had neither, so we had to work together with the database team at OVSZ to design a system which would allow us to access and update sensitive data through multiple firewalls and intermediary security gates.</p>
                 </div>
             </div>
         </div>

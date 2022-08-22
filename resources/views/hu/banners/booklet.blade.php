@@ -5,7 +5,7 @@
                 <div class="column">
                     <div class="container">
                         <div class="heading-2">{{ $headingText ?? 'Szeretnél többet megtudni rólunk?' }}</div>
-                        <a class="btn is-large is-pearl" href="{{ url('media/further-booklet-0821-web-hu.pdf') }}" target="_blank">
+                        <a class="btn is-large is-pearl" href="{{ url('media/further-booklet-0821-web-en.pdf') }}" target="_blank">
                             {{ $buttonText ?? 'Töltsd le bemutatónkat' }}
                         </a>
                     </div>

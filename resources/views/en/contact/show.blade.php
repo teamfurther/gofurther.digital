@@ -13,9 +13,7 @@
                             Let's start something <strong class="is-tangerine">together!</strong>
                         </h2>
 
-                        <p class="has-text-centered">
-                            Do you have an idea, project or partnership proposal?<br />We're always willing and ready to listen to any request. So, if you like our work and you want to discuss, just grab your phone or keyboard and contact us.
-                        </p>
+                        <p class="has-text-centered">Do you have an idea, project or partnership proposal?<br />We're always willing and ready to listen to any request. So, if you like our work and you want to discuss, just grab your phone or keyboard and contact us.</p>
 
                         <form class="contact__form" id="contact-form" action="{{ localizedRoute('contact.send') }}" method="POST">
 
@@ -46,6 +44,14 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="is-hidden-mobile">
+        <div class="slides-separator">
+            <img src="{{ asset('img/team-15.jpg') }}" alt="Further team" />
+            <img src="{{ asset('img/team-7.jpg') }}" alt="Further team" />
+            <img src="{{ asset('img/team-1.jpg') }}" alt="Further team" />
         </div>
     </section>
 

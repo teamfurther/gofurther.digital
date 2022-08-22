@@ -15,12 +15,8 @@
             <div class="columns">
                 <div class="column">
                     <h4 class="heading-1">Background</h4>
-                    <p>
-                        Our client is a major landscaping company based in Virginia, USA. Apart from payroll, their second-largest expense was that of pesticides and other chemicals used for pest control.
-                    </p>
-                    <p>
-                        One way to reduce this cost is to find a way to apply chemicals more accurately. This would allow using them for a shorter period, but with the same effect. They reached out to us to help build a solution that leverages technology to reduce the timeframe necessary for pesticide treatment.
-                    </p>
+                    <p>Our client is a major landscaping company based in Virginia, USA. Apart from payroll, their second-largest expense was that of pesticides and other chemicals used for pest control.</p>
+                    <p>One way to reduce this cost is to find a way to apply chemicals more accurately. This would allow using them for a shorter period, but with the same effect. They reached out to us to help build a solution that leverages technology to reduce the timeframe necessary for pesticide treatment.</p>
                 </div>
                 <div class="column is-centered-vertical is-hidden-mobile">
                     <img class="project__logo" src="{{ asset('media/projects/pestcast-logo.svg') }}" alt="PestCast" />
@@ -53,13 +49,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Machine learning to the rescue</h5>
                         <em class="project__text-emphasis">Problem</em>
-                        <p>
-                            We had no industry knowledge whatsoever, so we had no idea what makes various pests appear when they do. So we started by talking to our clients' expert staff and soon found a correlation between the date pests appeared and how the weather was in the weeks leading up to this date.
-                        </p>
+                        <p>We had no industry knowledge whatsoever, so we had no idea what makes various pests appear when they do. So we started by talking to our clients' expert staff and soon found a correlation between the date pests appeared and how the weather was in the weeks leading up to this date.</p>
                         <em class="project__text-emphasis">Solution</em>
-                        <p>
-                            We had a database at our disposal, documenting pest occurrences in different locations for the past fifty years. We used this database and historical weather data to train a machine-learning algorithm to predict pest occurrence based on the precipitation, average temperatures, and peak temperatures of the past weeks.
-                        </p>
+                        <p>We had a database at our disposal, documenting pest occurrences in different locations for the past fifty years. We used this database and historical weather data to train a machine-learning algorithm to predict pest occurrence based on the precipitation, average temperatures, and peak temperatures of the past weeks.</p>
                     </div>
                     <div class="column">
                         <img src="{{ asset('media/projects/pestcast-overview-1.png') }}" alt="PestCast - Machine learning to the rescue" />
@@ -69,13 +61,9 @@
                     <div class="column is-centered-vertical">
                         <h5 class="heading-3">Making the algorithm more precise</h5>
                         <em class="project__text-emphasis">Problem</em>
-                        <p>
-                            The results were promising, but relying solely on a 3rd party database still didn't provide enough precision; the timeframe was still too big. So we started brainstorming ideas on how we could get more data.
-                        </p>
+                        <p>The results were promising, but relying solely on a 3rd party database still didn't provide enough precision; the timeframe was still too big. So we started brainstorming ideas on how we could get more data.</p>
                         <em class="project__text-emphasis">Solution</em>
-                        <p>
-                            We realised that we could turn the app into a SaaS product. This would mean more people started using it, which we could turn into an advantage by allowing users to report pest occurrences. The faster the SaaS product scales, the more accurate our ML algorithm becomes.
-                        </p>
+                        <p>We realised that we could turn the app into a SaaS product. This would mean more people started using it, which we could turn into an advantage by allowing users to report pest occurrences. The faster the SaaS product scales, the more accurate our ML algorithm becomes.</p>
                     </div>
                     <div class="column">
                         <img class="is-pulled-right" src="{{ asset('media/projects/pestcast-overview-2.png') }}" alt="PestCast - Making the algorithm more precise" />
@@ -123,9 +111,7 @@
                         <div class="project__gallery-modal__notes">
                             <h5 class="project__gallery-modal__title">Upcoming pest occurrences</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    The machine learning algorithm provides a list of upcoming pest occurences for each location.
-                                </p>
+                                <p>The machine learning algorithm provides a list of upcoming pest occurences for each location.</p>
                             </div>
                         </div>
                     </div>
@@ -138,9 +124,7 @@
                         <div class="project__gallery-modal__notes is-reversed">
                             <h5 class="project__gallery-modal__title">Report pest occurrence</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    Unfortunately, the algorithm isn't 100% precise and pests may appear earlier. In situations such as this, we encourage users to report the occurrence. This trains the algorithm and makes it more accurate in the future.
-                                </p>
+                                <p>Unfortunately, the algorithm isn't 100% precise and pests may appear earlier. In situations such as this, we encourage users to report the occurrence. This trains the algorithm and makes it more accurate in the future.</p>
                             </div>
                         </div>
                     </div>
@@ -153,9 +137,7 @@
                         <div class="project__gallery-modal__notes is-reversed">
                             <h5 class="project__gallery-modal__title">Pest information pages</h5>
                             <div class="project__gallery-modal__description">
-                                <p>
-                                    Besides the core functionality, the app also acts as a knowledge base, teaching users to identify and control pests in their gardens.
-                                </p>
+                                <p>Besides the core functionality, the app also acts as a knowledge base, teaching users to identify and control pests in their gardens.</p>
                             </div>
                         </div>
                     </div>
