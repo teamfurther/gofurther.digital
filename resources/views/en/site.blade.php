@@ -173,7 +173,7 @@
                 <a href="{{ localizedRoute('about.outsourcing') }}">Outsourcing</a>
                 <a href="{{ localizedRoute('jobs') }}">Careers</a>
                 <a href="{{ localizedRoute('contact') }}">Contact</a>
-                @if (switchLang('hu'))
+                @if (!isset($exception) && switchLang('hu'))
                     <a class="footer__lang" href="{{ switchLang('hu') }}">Magyar</a>
                 @endif
             </nav>

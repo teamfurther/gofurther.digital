@@ -13,10 +13,7 @@ class GetBlogPathAction
         $this->arr = $arr;
     }
 
-    /**
-     * @return array<string>
-     */
-    public function execute(string $slug, string $type = 'posts'): string
+    public function execute(string $slug, string $type = 'posts'): ?string
     {
         $search = glob(resource_path() . '/views/' . getLang() . '/blog/' . $type . '/*/' . $slug . '.blade.php');
 
@@ -26,6 +23,6 @@ class GetBlogPathAction
             return array_slice($fullpath, -2, 1)[0];
         }
 
-        throw new \ErrorException('View not found for blog post ' . $slug . '.');
+        return null;
     }
 }
