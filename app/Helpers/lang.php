@@ -106,7 +106,7 @@ if (!function_exists('routeMappingLookup')) {
      * Lookup localized version of route
      * from the route mapping table.
      */
-    function routeMappingLookup(string $key, string $slug, string $targetLang): string
+    function routeMappingLookup(string $key, string $slug, string $targetLang): ?string
     {
         $array = config($key);
         $currentLang = app()->getLocale();

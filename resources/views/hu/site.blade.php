@@ -237,7 +237,7 @@
                 <a href="{{ localizedRoute('about') }}">Rólunk</a>
                 <a href="{{ localizedRoute('about.remote-culture') }}">Remote kultúra</a>
                 <a href="{{ localizedRoute('contact') }}">Kapcsolat</a>
-                @if (switchLang('en'))
+                @if (!isset($exception) && switchLang('en'))
                     <a class="footer__lang" href="{{ switchLang('en') }}">English</a>
                 @endif
             </nav>

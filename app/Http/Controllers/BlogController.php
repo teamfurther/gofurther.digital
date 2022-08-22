@@ -25,7 +25,7 @@ class BlogController
     {
         $path = $getBlogPathAction->execute($slug);
 
-        if (!view()->exists(getLang() . '.blog.posts.' . $path . '.' . $slug)) {
+        if (!$path || !view()->exists(getLang() . '.blog.posts.' . $path . '.' . $slug)) {
             abort(404);
         }
 
