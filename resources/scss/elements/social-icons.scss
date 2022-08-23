@@ -11,39 +11,39 @@
                 &::after {
                     background-position: 0 -21px;
                     height: 15px;
-                    width: 8px;
+                    width: 9px;
                 }
             }
 
             &--github {
                 &::after {
-                    background-position: -73px -21px;
+                    background-position: -75px -21px;
                     height: 15px;
-                    width: 15px;
+                    width: 14px;
                 }
             }
 
             &--instagram {
                 &::after {
-                    background-position: -40px -21px;
-                    height: 14px;
+                    background-position: -43px -21px;
+                    height: 15px;
                     width: 14px;
                 }
             }
 
             &--linkedin {
                 &::after {
-                    background-position: -25px -21px;
+                    background-position: -26px -21px;
                     height: 15px;
-                    width: 13px;
+                    width: 14px;
                 }
             }
 
             &--medium {
                 &::after {
-                    background-position: -55px -21px;
+                    background-position: -59px -21px;
                     height: 15px;
-                    width: 18px;
+                    width: 15px;
                 }
             }
 
@@ -51,7 +51,7 @@
                 &::after {
                     background-position: -10px -20px;
                     height: 15px;
-                    width: 13px;
+                    width: 14px;
                 }
             }
         }
@@ -59,7 +59,7 @@
 
     .icon {
         align-items: center;
-        background-color: $cobalt;
+        background-color: $grey-darker;
         border-radius: 30px;
         display: flex;
         height: 35px;
@@ -69,10 +69,12 @@
         width: 35px;
 
         &::after {
-            background-image: url(../img/social-icons.png?v2);
+            background-image: url(../img/social-icons.png?v3);
             background-repeat: no-repeat;
             content: '';
             display: block;
+            height: 21px;
+            width: 19px;
         }
 
         &:hover {
@@ -86,8 +88,7 @@
 
             &::after {
                 background-position: 0 0;
-                height: 20px;
-                width: 10px;
+                width: 11px;
             }
         }
 
@@ -97,9 +98,7 @@
             }
 
             &::after {
-                background-position: -91px 0;
-                height: 18px;
-                width: 19px;
+                background-position: -98px 0;
             }
         }
 
@@ -109,9 +108,7 @@
             }
 
             &::after {
-                background-position: -51px 0;
-                height: 19px;
-                width: 19px;
+                background-position: -55px 0;
             }
         }
 
@@ -121,9 +118,7 @@
             }
 
             &::after {
-                background-position: -32px 0;
-                height: 20px;
-                width: 18px;
+                background-position: -33px 0;
             }
         }
 
@@ -133,9 +128,7 @@
             }
 
             &::after {
-                background-position: -71px 0;
-                height: 16px;
-                width: 19px;
+                background-position: -77px 0;
             }
         }
 
@@ -145,9 +138,7 @@
             }
 
             &::after {
-                background-position: -11px 0;
-                height: 20px;
-                width: 19px;
+                background-position: -12px 0;
             }
         }
     }

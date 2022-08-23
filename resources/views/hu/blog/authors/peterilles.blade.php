@@ -6,8 +6,8 @@
             A Further alapítója. Szereti az utazást, a klasszikus rock zenét és bármilyen sportot amiben egy labdát kell egy hálóval vagy más módon elhatárolt kapuba juttatni. Amikor nem a fentiekkel foglalkozik, akkor elsősorban az üzleti folyamatok automatizációja és a fiatal tehetségek mentorálása köti le az idejét.
         </div>
         <div class="social-icons is-small">
-            <a href="https://twitter.com/ilpet" class="u-url url" target="_blank"><span class="icon icon--twitter"></span></a>
             <a href="https://www.linkedin.com/in/ilpet" class="u-url url" target="_blank"><span class="icon icon--linkedin"></span></a>
+            <a href="https://twitter.com/ilpet" class="u-url url" target="_blank"><span class="icon icon--twitter"></span></a>
         </div>
     </div>
 </div>

@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit:400,600,700&amp;subset=latin-ext" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&amp;subset=latin-ext" />
 
-    <link rel="stylesheet" href="{{ mix('css/site.css') }}?v20220823" />
+    <link rel="stylesheet" href="{{ mix('css/site.css') }}?v20220824" />
 
     <link rel="preload" href="{{ asset('img/logo.svg') }}" as="image" type="image/svg+xml" />
     <link rel="preload" href="{{ asset('img/logo-knockout.svg') }}" as="image" type="image/svg+xml" />
@@ -188,6 +188,7 @@
                 <a href="{{ config('site.social.linkedin') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--linkedin"></span></a>
                 <a href="{{ config('site.social.instagram') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--instagram"></span></a>
                 <a href="{{ config('site.social.github') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--github"></span></a>
+                <a href="{{ config('site.social.medium') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--medium"></span></a>
             </nav>
         </div>
         <div class="footer__bottom">

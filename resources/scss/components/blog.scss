@@ -204,10 +204,6 @@
         .social-icons {
             justify-content: flex-start;
 
-            .icon {
-                background-color: $grey-darker;
-            }
-
             @include tablet() {
                 flex-direction: column;
 
