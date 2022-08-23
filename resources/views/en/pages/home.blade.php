@@ -141,7 +141,7 @@
                     </div>
                 </div>
                 <div class="column is-hidden-mobile is-offset-1-desktop">
-                    <img src="{{ asset('img/process-en.png') }}" alt="Our process" />
+                    <img src="{{ asset('img/process-en.svg') }}" alt="Our process" />
                 </div>
             </div>
         </div>

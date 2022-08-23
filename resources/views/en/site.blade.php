@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit:400,600,700&amp;subset=latin-ext" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&amp;subset=latin-ext" />
 
-    <link rel="stylesheet" href="{{ mix('css/site.css') }}?v20220629" />
+    <link rel="stylesheet" href="{{ mix('css/site.css') }}?v20220823" />
 
     <link rel="preload" href="{{ asset('img/logo.svg') }}" as="image" type="image/svg+xml" />
     <link rel="preload" href="{{ asset('img/logo-knockout.svg') }}" as="image" type="image/svg+xml" />

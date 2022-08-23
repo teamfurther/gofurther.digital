@@ -138,7 +138,7 @@
                     </div>
                 </div>
                 <div class="column is-hidden-mobile is-offset-1-desktop">
-                    <img src="{{ asset('img/process-hu.png') }}" alt="Mire számíthatsz?" />
+                    <img src="{{ asset('img/process-hu.svg') }}" alt="Mire számíthatsz?" />
                 </div>
             </div>
         </div>
