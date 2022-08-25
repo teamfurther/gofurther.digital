@@ -156,7 +156,7 @@
         "url": "{{ asset('media/blog/cover-how-to-use-personas-in-product-development-en.png') }}"
     },
     "inLanguage": "hu_hu",
-    "keywords": "Perszóna, Startup",
+    "keywords": "Termékfejlesztés, Lean termékfejlesztés, Startup, Perszóna, Persona",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"

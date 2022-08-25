@@ -5,6 +5,36 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'what-is-customer-journey-mapping',
+                'tags' => [
+                    'ux' => 'UX',
+                    'startups-and-product-development' => 'Startups and Product Development',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'mire-jo-a-customer-journey-map',
+                'tags' => [
+                    'ux' => 'UX',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
+                ]
+            ],
+        ],
+        [
+            'en' => [
+                'slug' => 'marketplace-strategies-to-crack-the-chicken-and-egg-problem',
+                'tags' => [
+                    'startups-and-product-development' => 'Startups and Product Development',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'piacter-strategiak-a-csirke-es-tojas-problema-megoldasara',
+                'tags' => [
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'supply-and-demand-in-two-sided-marketplaces',
                 'tags' => [
                     'startups-and-product-development' => 'Startups and Product Development',

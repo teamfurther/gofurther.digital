@@ -21,7 +21,7 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p class="has-margin-b60">Az új termékek 72%-a nem felel meg az ügyfelek elvárásainak. Ebből következik, hogy 10 új piacra dobott termékből a vásárlókat 7 termék nem érdekli. Ennek nem kell így lennie. Erre való a <b>Value Proposition Canvas (VPC — értékajánlat canvas)</b>, egy eszköz, amivel vizualizáljuk, megtervezzük és teszteljük azt, hogy hogyan teremthetünk értéket az ügyfelek számára.</p>
+                            <p class="has-margin-b60">Az új termékek 72%-a nem felel meg az ügyfelek elvárásainak. Ebből következik, hogy 10 új piacra dobott termékből a vásárlókat 7 termék nem érdekli. Ennek nem kell így lennie. Erre való a <strong>Value Proposition Canvas (VPC — értékajánlat canvas)</strong>, egy eszköz, amivel vizualizáljuk, megtervezzük és teszteljük azt, hogy hogyan teremthetünk értéket az ügyfelek számára.</p>
                             <h2 class="heading-2 has-margin-b30">A VPC eredete</h2>
                             <p  class="has-margin-b60">A value proposition canvas ötlete a Business Model Canvas-ből származik, ami a teljes üzleti modellt ábrázolja vizuálisan, kiemelve a kulcsfontosságú stratégiai tényezőket. Ezek közül az egyik az ügyfélszegments, egy másik pedig az értékajánlat. Ez a két elem több helyet igényel a kifejtéshez, mint amennyit a Business Model Canvas lehetővé tesz, ezért a Value Proposition Canvas külön eszközként is létrejött.</p>
                             <h2 class="heading-2 has-margin-b30">Mi a Value Proposition Canvas?</h2>
@@ -244,7 +244,7 @@
         "url": "{{ asset('media/blog/cover-to-pivot-or-not-to-pivot-en.png') }}"
     },
     "inLanguage": "hu_hu",
-    "keywords": "Termékfejlesztés, Lean termékfejlesztés, Startup, Pivot",
+    "keywords": "Termékfejlesztés, Lean termékfejlesztés, Startup, Értékajánlat, Value Proposition Canvas",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"

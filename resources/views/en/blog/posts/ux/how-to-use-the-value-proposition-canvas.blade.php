@@ -21,7 +21,7 @@
                 <div class="container">
                     <div class="columns is-reversed">
                         <div class="column is-10-tablet is-8-desktop e-content">
-                            <p class="has-margin-b60">72% of the new products in service innovation fail to deliver on customer expectations. This means that customers don't care about 7 out of 10 new products introduced to the market. It doesn't have to be this way. There is a tool to visualize, design and test how you create value for customers. It's called the <b>Value Proposition Canvas (VPC).</b></p>
+                            <p class="has-margin-b60">72% of the new products in service innovation fail to deliver on customer expectations. This means that customers don't care about 7 out of 10 new products introduced to the market. It doesn't have to be this way. There is a tool to visualize, design and test how you create value for customers. It's called the <strong>Value Proposition Canvas (VPC).</strong></p>
                             <h2 class="heading-2 has-margin-b30">The Origins</h2>
                             <p  class="has-margin-b60">The idea of the Value Proposition Canvas came from the Business Model Canvas, which is a visual representation of a business model, highlighting all key strategic factors in 9 sections. Two of those sections are the Value Proposition and the Customer Segment. These sections require more space to expand than the Business Model Canvas allows, so the Value Proposition Canvas was generated as a separate tool.</p>
                             <h2 class="heading-2 has-margin-b30">What is the VPC?</h2>
