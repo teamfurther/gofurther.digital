@@ -1,4 +1,4 @@
-@extends('en.site', ['showFooter' => false, 'showNav' => false])
+@extends('en.site', ['showFooter' => false])
 
 @section('title', 'Design Sprint 101')
 @section('description', 'This free resource gives you a crash course into design sprints, what a design sprint is and how to facilitate one.')
@@ -55,19 +55,37 @@
         </div>
     </section>
 
-    <section class="section is-cobalt">
+    <section class="section is-dark">
         <div class="container">
             <div class="columns">
-                <div class="column is-4-desktop is-offset-2-desktop">
-                    <h3 class="heading-2 is-white">How does this guide help you?</h3>
+                <div class="column">
+                    <h3 class="heading-1 has-margin-b90 has-text-centered">How does this guide help you?</h3>
                 </div>
-                <div class="column is-4-desktop">
-                    <ul class="list has-discs is-white">
-                        <li>it explains what a design sprint is</li>
-                        <li>it defines a design sprint schedule</li>
-                        <li>offers tips and insights on how to facilitate a sprint</li>
-                        <li>details sprint exercises</li>
-                    </ul>
+            </div>
+            <div class="columns is-multiline">
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">It explains what a design sprint is</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">It defines a design sprint schedule</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Offers tips and insights on how to facilitate a sprint</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Details sprint exercises</h5>
                 </div>
             </div>
         </div>
@@ -82,17 +100,17 @@
             </div>
             <div class="columns">
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--3"></div>
+                    <div class="avatar is-cobalt"></div>
                     <h4 class="heading-4">Startup founders</h4>
                     <p>Founders who wish to validate their ideas with users in a fast and efficient way.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--1"></div>
-                    <h4 class="heading-4">Product owners</h4>
-                    <p>PO's who want a proven and quick method to validate new features.</p>
+                    <div class="avatar is-tangerine"></div>
+                    <h4 class="heading-4">Product managers</h4>
+                    <p>Product managers who want a proven and quick method to validate new features.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--5"></div>
+                    <div class="avatar is-raspberry"></div>
                     <h4 class="heading-4">Business owners</h4>
                     <p>Managers and executives who wish to introduce new business vertical using a structured process.</p>
                 </div>
@@ -103,36 +121,18 @@
     <section class="section is-dark">
         <div class="container">
             <div class="columns">
-                <div class="column has-margin-b0 is-3-tablet is-offset-1-tablet is-2-desktop is-offset-2-desktop">
-                    <a href="{{ localizedRoute('blog.show', ['slug' => 'validation-in-product-development']) }}">
-                        <img src="{{ asset('media/blog/thumb-validation-in-product-development.png') }}" alt="Validation in product development" />
-                    </a>
+                <div class="column">
+                    <h3 class="heading-1">You might also be interested in</h3>
                 </div>
-                <div class="column is-7-tablet is-6-desktop">
-                    <h3 class="heading-4 has-margin-b15">You might also be interested in</h3>
-                    <ul class="list has-bullets">
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'validation-in-product-development']) }}">
-                                    Validation in Product Development
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => '11-ways-to-build-an-mvp-pt1']) }}">
-                                    11 Ways to Build an MVP
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-use-personas-in-product-development']) }}">
-                                    How to Use Personas in Product Development?
-                                </a>
-                            </strong>
-                        </li>
-                    </ul>
+            </div>
+            <div class="posts">
+                <div class="columns is-multiline">
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.startups-and-product-development.validation-in-product-development')
+                    </div>
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.ux.how-to-use-personas-in-product-development')
+                    </div>
                 </div>
             </div>
         </div>

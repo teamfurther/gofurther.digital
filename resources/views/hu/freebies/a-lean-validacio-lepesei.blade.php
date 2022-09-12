@@ -1,4 +1,4 @@
-@extends('hu.site', ['showFooter' => false, 'showNav' => false])
+@extends('hu.site', ['showFooter' => false])
 
 @section('title', 'A lean termékvalidáció lépesei')
 @section('description', 'Ez az ingyenes anyag hasznos tervezési és kutatási módszereket mutat be, amelyek segítségével eligazodhatsz a termékfejlesztés különböző fázisaiban.')
@@ -54,20 +54,43 @@
         </div>
     </section>
 
-    <section class="section is-cobalt">
+    <section class="section is-dark">
         <div class="container">
             <div class="columns">
-                <div class="column is-4-desktop is-offset-2-desktop">
-                    <h3 class="heading-2 is-white">Miben segít ez a termékvalidációs "puska"?</h3>
+                <div class="column">
+                    <h3 class="heading-1 has-margin-b90 has-text-centered">Miben segít ez a termékvalidációs "puska"?</h3>
                 </div>
-                <div class="column is-4-desktop">
-                    <ul class="list has-discs is-white">
-                        <li>hogy ne ugord át a termékfejlesztés 4 lépése közül egyiket sem</li>
-                        <li>hogy megismerkedj a lean validációval és az építs-mérj-tanulj módszerrel</li>
-                        <li>hogy megtudd, milyen alapvető feltételezéseket kell tesztelj</li>
-                        <li>hogy milyen kísérletek és eszközök állnak rendelkezésedre, hogy teszteld ezeket a feltételezéseket</li>
-                        <li>hogy miként ismerd meg jobban a célközönségedet</li>
-                    </ul>
+            </div>
+            <div class="columns is-multiline">
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Hogy ne ugord át a termékfejlesztés 4 lépése közül egyiket sem</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Hogy megismerkedj a lean validációval és a feltételezz-építs-mérj-tanulj módszerrel</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Hogy megtudd, milyen alapvető feltételezéseket kell tesztelj</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Hogy milyen kísérletek és eszközök állnak rendelkezésedre, hogy teszteld ezeket a feltételezéseket</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Hogy miként ismerd meg jobban a célközönségedet</h5>
                 </div>
             </div>
         </div>
@@ -82,17 +105,17 @@
             </div>
             <div class="columns">
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--3"></div>
+                    <div class="avatar is-cobalt"></div>
                     <h4 class="heading-4">Ötletgazdáknak</h4>
                     <p>Akik jobban megszeretnék ismerni a célközönségüket, továbbá minimalizálni szeretnék a startupokkal járó kockázatot.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--1"></div>
-                    <h4 class="heading-4">Product ownereknek</h4>
+                    <div class="avatar is-pearl"></div>
+                    <h4 class="heading-4">Product managereknek</h4>
                     <p>Akik szeretnének egy bizonyítottan hatékony és felhasználóközpontú módszert a termékfejlesztéshez.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--5"></div>
+                    <div class="avatar is-raspberry"></div>
                     <h4 class="heading-4">Vezetőknek</h4>
                     <p>Akik egy stabil vállalkozáson belüli új termékek fejlesztéséért felelnek.</p>
                 </div>
@@ -103,43 +126,18 @@
     <section class="section is-dark">
         <div class="container">
             <div class="columns">
-                <div class="column has-margin-b0 is-3-tablet is-offset-1-tablet is-2-desktop is-offset-2-desktop">
-                    <a href="{{ localizedRoute('blog.show', ['slug' => 'validacio-a-termekfejlesztesben']) }}">
-                        <img src="{{ asset('media/blog/thumb-validation-in-product-development.png') }}" alt="Validáció a termékfejlesztésben" />
-                    </a>
+                <div class="column">
+                    <h3 class="heading-1">Ez is érdekelhet</h3>
                 </div>
-                <div class="column is-7-tablet is-6-desktop">
-                    <h3 class="heading-4 has-margin-b15">Ez is érdekelhet</h3>
-                    <ul class="list has-bullets">
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'validacio-a-termekfejlesztesben']) }}">
-                                    Validáció a termékfejlesztésben
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => '11-mod-hogy-mvp-t-epitsunk-1-resz']) }}">
-                                    11 mód, hogy MVP-t építsünk
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'pivot-vagy-nem-pivot']) }}">
-                                    Pivot vagy nem pivot: az itt a kérdés
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'perszonak-a-termekfejlesztesben']) }}">
-                                    Perszónák a termékfejlesztésben
-                                </a>
-                            </strong>
-                        </li>
-                    </ul>
+            </div>
+            <div class="posts">
+                <div class="columns is-multiline">
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.startup-es-termekfejlesztes.validacio-a-termekfejlesztesben')
+                    </div>
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.startup-es-termekfejlesztes.pivot-vagy-nem-pivot')
+                    </div>
                 </div>
             </div>
         </div>

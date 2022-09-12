@@ -31,9 +31,9 @@
     <link rel="home" href="{{ config('app.url') }}" />
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit:400,600,700&amp;subset=latin-ext" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&amp;subset=latin-ext" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&amp;subset=latin-ext" />
 
-    <link rel="stylesheet" href="{{ mix('css/site.css') }}?v20220824" />
+    <link rel="stylesheet" href="{{ mix('css/site.css') }}?v20220831" />
 
     <link rel="preload" href="{{ asset('img/logo.svg') }}" as="image" type="image/svg+xml" />
     <link rel="preload" href="{{ asset('img/logo-knockout.svg') }}" as="image" type="image/svg+xml" />
@@ -99,6 +99,7 @@
                 </a>
             </h1>
         </div> <!-- /.header__brand -->
+        @if (!isset($showNav) || $showNav)
         <nav class="navbar">
             <div class="navbar__item"><a href="{{ localizedRoute('projects') }}">Projektjeink</a></div>
             <div class="navbar__item has-subnav">
@@ -208,6 +209,7 @@
             <span></span>
             <span></span>
         </a>
+        @endif
     </div>
 </header> <!-- /.header -->
 @endif

@@ -1,0 +1,49 @@
+.webinar {
+    &__closed {
+        color: $grey-darker;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 30px;
+        padding: 0 5px;
+    }
+
+    &__date {
+        color: $grey-darker;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0 5px;
+    }
+
+    &__host {
+        color: $grey-darker;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        padding: 0 5px;
+    }
+
+    &__info {
+        background-color: $white;
+        border-radius: 3px;
+        box-shadow: 0 0 30px 0 rgba($black, .5);
+        padding: 15px;
+    }
+
+    &__spots {
+        color: $raspberry;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        padding: 0 5px;
+    }
+
+    &__tag {
+        background-color: rgba($cobalt, .1);
+        border-radius: 3px;
+        color: $grey-darker;
+        display: table;
+        font-size: 13px;
+        margin-bottom: 5px;
+        padding: 5px 10px;
+    }
+}

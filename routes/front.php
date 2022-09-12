@@ -9,6 +9,7 @@ use App\Http\Controllers\JobsController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\PrivateContentController;
 use App\Http\Controllers\ProjectsController;
+use App\Http\Controllers\WebinarController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function (): void {
@@ -38,18 +39,21 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
     Route::get('contact', [ContactController::class, 'show'])->name('contact');
     Route::post('contact', [ContactController::class, 'send'])->name('contact.send');
 
-    Route::view('lean-validation-cheat-sheet', 'en.freebies.lean-validation-cheat-sheet', ['freebie' => 'lean-validation-cheat-sheet-en.pdf'])
-        ->name('freebies.lean-validation-cheat-sheet');
-    Route::view('mvp-pocket-guide', 'en.freebies.mvp-guide', ['freebie' => 'mvp-guide-en.pdf'])
-        ->name('freebies.mvp-guide');
-    Route::view('design-sprint-101', 'en.freebies.design-sprint-101', ['freebie' => 'design-sprint-101.pdf'])
-        ->name('freebies.design-sprint-101');
-    Route::get('freebies', [FreebiesController::class, 'download'])->name('freebies.download');
-    Route::post('freebies', [FreebiesController::class, 'get'])->name('freebies.get');
-
     Route::get('careers', [JobsController::class, 'index'])->name('jobs');
     Route::get('careers/{slug}', [JobsController::class, 'show'])->name('jobs.show');
     Route::post('careers', [JobsController::class, 'send'])->name('jobs.send');
+
+    Route::view('lean-validation-cheat-sheet', 'en.freebies.lean-validation-cheat-sheet', [
+        'freebie' => 'lean-validation-cheat-sheet-en.pdf'
+    ])->name('freebies.lean-validation-cheat-sheet');
+    Route::view('mvp-pocket-guide', 'en.freebies.mvp-guide', [
+        'freebie' => 'mvp-guide-en.pdf'
+    ])->name('freebies.mvp-guide');
+    Route::view('design-sprint-101', 'en.freebies.design-sprint-101', [
+        'freebie' => 'design-sprint-101.pdf'
+    ])->name('freebies.design-sprint-101');
+    Route::get('freebies', [FreebiesController::class, 'download'])->name('freebies.download');
+    Route::post('freebies', [FreebiesController::class, 'get'])->name('freebies.get');
 
     Route::get('newsletter', [NewsletterController::class, 'index'])->name('newsletter');
     Route::get('newsletter/{year}/{issue}', [NewsletterController::class, 'show'])->name('newsletter.show');
@@ -96,6 +100,11 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
         ->name('solutions.sales');
     Route::view('solutions/time-tracking', 'en.solutions.pages.time-tracking')
         ->name('solutions.time-tracking');
+
+    Route::get('9-out-of-10-products-fail-heres-how-to-ensure-yours-doesnt', [
+        WebinarController::class, 'show'
+    ])->name('webinars.validation');
+    Route::post('webinar', [WebinarController::class, 'register'])->name('webinar.register');
 });
 
 /*

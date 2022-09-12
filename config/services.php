@@ -34,6 +34,12 @@ return [
         'list_ids' => [
             'en' => 10,
             'hu' => 9,
+            'webinars' => [
+                'validation' => [
+                    'responders' => 17,
+                    'confirmed' => 18,
+                ],
+            ]
         ],
     ],
 

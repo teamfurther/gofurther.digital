@@ -1,0 +1,24 @@
+.avatar {
+    border: 5px solid $grey-lighter;
+    border-radius: 100%;
+    display: block;
+    height: 100px;
+    margin: 0 auto 15px;
+    width: 100px;
+
+    &.is-cobalt {
+        border-color: $cobalt;
+    }
+
+    &.is-pearl {
+        border-color: $pearl;
+    }
+
+    &.is-raspberry {
+        border-color: $raspberry;
+    }
+
+    &.is-tangerine {
+        border-color: $tangerine;
+    }
+}

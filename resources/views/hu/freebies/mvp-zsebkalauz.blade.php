@@ -1,4 +1,4 @@
-@extends('hu.site', ['showFooter' => false, 'showNav' => false])
+@extends('hu.site', ['showFooter' => false])
 
 @section('title', 'MVP zsebkalauz')
 @section('description', 'Ez az anyag elkalauzol az MVP típusai között és tippeket ad arra, hogy mikor melyiket érdemes használni.')
@@ -55,20 +55,43 @@
         </div>
     </section>
 
-    <section class="section is-cobalt">
+    <section class="section is-dark">
         <div class="container">
             <div class="columns">
-                <div class="column is-4-desktop is-offset-2-desktop">
-                    <h3 class="heading-2 is-white">Miben segít ez a kalauz?</h3>
+                <div class="column">
+                    <h3 class="heading-1 has-margin-b90 has-text-centered">Miben segít ez a kalauz?</h3>
                 </div>
-                <div class="column is-4-desktop">
-                    <ul class="list has-discs is-white">
-                        <li>hogy megismerkedj az MVP-kkel</li>
-                        <li>hogy elkerüld a prototípuskészítés gyakori hibáit</li>
-                        <li>hogy megismerd a különböző MVP típusokat és hogy mikor melyiket érdemes használni</li>
-                        <li>hogy milyen metrikákat mérjünk prototípus tesztelés közben</li>
-                        <li>hogy miként mérd a kíserletek sikerességét és ismerd meg jobban a célközönséged</li>
-                    </ul>
+            </div>
+            <div class="columns is-multiline">
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Hogy megismerkedj a prototípusokkal</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Hogy elkerüld az MVP készítés gyakori hibáit</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">megismerd a különböző MVP típusokat és hogy mikor melyiket érdemes használni</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Hogy milyen metrikákat mérjünk prototípus tesztelés közben</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Hogy miként mérd a kíserletek sikerességét és ismerd meg jobban a célközönséged</h5>
                 </div>
             </div>
         </div>
@@ -83,17 +106,17 @@
             </div>
             <div class="columns">
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--3"></div>
+                    <div class="avatar is-cobalt"></div>
                     <h4 class="heading-4">Ötletgazdáknak</h4>
                     <p>Akik jobban megszeretnék ismerni a célközönségüket, továbbá minimalizálni szeretnék a startupokkal járó kockázatot.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--1"></div>
-                    <h4 class="heading-4">Product ownereknek</h4>
+                    <div class="avatar is-tangerine"></div>
+                    <h4 class="heading-4">Product managereknek</h4>
                     <p>Akik szeretnének egy költséghatékony módszert az új termékfunkciók tesztelésére.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--5"></div>
+                    <div class="avatar is-raspberry"></div>
                     <h4 class="heading-4">Vezetőknek</h4>
                     <p>Akik egy stabil vállalkozáson belüli új termékek fejlesztéséért felelnek.</p>
                 </div>
@@ -104,43 +127,18 @@
     <section class="section is-dark">
         <div class="container">
             <div class="columns">
-                <div class="column has-margin-b0 is-3-tablet is-offset-1-tablet is-2-desktop is-offset-2-desktop">
-                    <a href="{{ localizedRoute('blog.show', ['slug' => 'validacio-a-termekfejlesztesben']) }}">
-                        <img src="{{ asset('media/blog/thumb-validation-in-product-development.png') }}" alt="Validáció a termékfejlesztésben" />
-                    </a>
+                <div class="column">
+                    <h3 class="heading-1">Ez is érdekelhet</h3>
                 </div>
-                <div class="column is-7-tablet is-6-desktop">
-                    <h3 class="heading-4 has-margin-b15">Ez is érdekelhet</h3>
-                    <ul class="list has-bullets">
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'validacio-a-termekfejlesztesben']) }}">
-                                    Validáció a termékfejlesztésben
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => '11-mod-hogy-mvp-t-epitsunk-1-resz']) }}">
-                                    11 mód, hogy MVP-t építsünk
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'hogyan-merjuk-a-termekunk-sikeresseget']) }}">
-                                    Hogyan mérjük a termékünk sikerességet?
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'perszonak-a-termekfejlesztesben']) }}">
-                                    Perszónák a termékfejlesztésben
-                                </a>
-                            </strong>
-                        </li>
-                    </ul>
+            </div>
+            <div class="posts">
+                <div class="columns is-multiline">
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.startup-es-termekfejlesztes.11-mod-hogy-mvp-t-epitsunk-1-resz')
+                    </div>
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.startup-es-termekfejlesztes.11-mod-hogy-mvp-t-epitsunk-2-resz')
+                    </div>
                 </div>
             </div>
         </div>

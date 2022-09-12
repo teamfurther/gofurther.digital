@@ -1,4 +1,4 @@
-@extends('en.site', ['showFooter' => false, 'showNav' => false])
+@extends('en.site', ['showFooter' => false])
 
 @section('title', 'Lean Validation Cheat Sheet')
 @section('description', 'This free resource helps you decide which design & research techniques are most useful for validating assumptions in the different phases of product innovation.')
@@ -55,20 +55,43 @@
         </div>
     </section>
 
-    <section class="section is-cobalt">
+    <section class="section is-dark">
         <div class="container">
             <div class="columns">
-                <div class="column is-4-desktop is-offset-2-desktop">
-                    <h3 class="heading-2 is-white">What can you do with this cheat sheet?</h3>
+                <div class="column">
+                    <h3 class="heading-1 has-margin-b90 has-text-centered">What can you do with this cheat sheet?</h3>
                 </div>
-                <div class="column is-4-desktop">
-                    <ul class="list has-discs is-white">
-                        <li>make sure you don't skip any of the 4 stages of product development</li>
-                        <li>get familiarised with lean validation and the build-measure-learn loop</li>
-                        <li>find out what core assumptions you should make and test regarding your product</li>
-                        <li>learn about experiments and tools that help test these assumptions</li>
-                        <li>analyze experiment results and learn about your customers and product</li>
-                    </ul>
+            </div>
+            <div class="columns is-multiline">
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Make sure you don't skip any of the 4 stages of product development</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Get familiarised with lean validation and the assume-build-measure-learn loop</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Find out what core assumptions you should make and test regarding your product</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Learn about experiments and tools that help test these assumptions</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-cobalt">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Analyze experiment results and learn about your customers and product</h5>
                 </div>
             </div>
         </div>
@@ -78,22 +101,22 @@
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <h3 class="heading-2 has-text-centered">Who do we recommend this resource for?</h3>
+                    <h3 class="heading-1 has-text-centered">Who do we recommend this resource for?</h3>
                 </div>
             </div>
             <div class="columns">
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--3"></div>
+                    <div class="avatar is-cobalt"></div>
                     <h4 class="heading-4">Startup founders</h4>
                     <p>Founders who wish to better understand their target market and minimize inherent risk.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--1"></div>
-                    <h4 class="heading-4">Product owners</h4>
-                    <p>PO's who want a proven, efficient and user-centered method to develop products.</p>
+                    <div class="avatar is-pearl"></div>
+                    <h4 class="heading-4">Product managers</h4>
+                    <p>Product managers who want a proven, efficient and user-centered method to develop products.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--5"></div>
+                    <div class="avatar is-raspberry"></div>
                     <h4 class="heading-4">Managers</h4>
                     <p>Managers and executives of established businesses who are overseeing new product development in their company.</p>
                 </div>
@@ -104,43 +127,18 @@
     <section class="section is-dark">
         <div class="container">
             <div class="columns">
-                <div class="column has-margin-b0 is-3-tablet is-offset-1-tablet is-2-desktop is-offset-2-desktop">
-                    <a href="{{ localizedRoute('blog.show', ['slug' => 'validation-in-product-development']) }}">
-                        <img src="{{ asset('media/blog/thumb-validation-in-product-development.png') }}" alt="Validation in product development" />
-                    </a>
+                <div class="column">
+                    <h3 class="heading-1">You might also be interested in</h3>
                 </div>
-                <div class="column is-7-tablet is-6-desktop">
-                    <h3 class="heading-4 has-margin-b15">You might also be interested in</h3>
-                    <ul class="list has-bullets">
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'validation-in-product-development']) }}">
-                                    Validation in Product Development
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'to-pivot-or-not-to-pivot']) }}">
-                                    11 Ways to Build an MVP
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'to-pivot-or-not-to-pivot']) }}">
-                                    To Pivot or Not to Pivot – That Is the Question
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-use-personas-in-product-development']) }}">
-                                    How to Use Personas in Product Development?
-                                </a>
-                            </strong>
-                        </li>
-                    </ul>
+            </div>
+            <div class="posts">
+                <div class="columns is-multiline">
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.startups-and-product-development.validation-in-product-development')
+                    </div>
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.startups-and-product-development.to-pivot-or-not-to-pivot')
+                    </div>
                 </div>
             </div>
         </div>

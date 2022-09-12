@@ -1,4 +1,4 @@
-@extends('en.site', ['showFooter' => false, 'showNav' => false])
+@extends('en.site', ['showFooter' => false])
 
 @section('title', 'MVP Pocket Guide')
 @section('description', 'This free resource guides you through the most popular types of MVP, complete with tips & tricks on when to use one or the other.')
@@ -55,20 +55,43 @@
         </div>
     </section>
 
-    <section class="section is-cobalt">
+    <section class="section is-dark">
         <div class="container">
             <div class="columns">
-                <div class="column is-4-desktop is-offset-2-desktop">
-                    <h3 class="heading-2 is-white">What can you do with this guide?</h3>
+                <div class="column">
+                    <h3 class="heading-1 has-margin-b90 has-text-centered">What can you do with this guide?</h3>
                 </div>
-                <div class="column is-4-desktop">
-                    <ul class="list has-discs is-white">
-                        <li>get familiarised with creating MVPs</li>
-                        <li>avoid the common pitfalls of creating prototypes</li>
-                        <li>learn the different types of prototypes and when to use them</li>
-                        <li>learn what metrics to follow when testing your prototypes</li>
-                        <li>analyze experiment results and learn about your customers and product</li>
-                    </ul>
+            </div>
+            <div class="columns is-multiline">
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-raspberry">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Get familiarised with creating prototypes</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-raspberry">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Avoid the common pitfalls of MVPs</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-raspberry">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Learn the different types of prototypes and when to use them</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-raspberry">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Learn what metrics to follow when testing your prototypes</h5>
+                </div>
+                <div class="column is-1-tablet">
+                    <div class="list-hero is-raspberry">↪</div>
+                </div>
+                <div class="column is-5-tablet">
+                    <h5 class="heading-5">Analyze experiment results and learn about your customers and product</h5>
                 </div>
             </div>
         </div>
@@ -83,17 +106,17 @@
             </div>
             <div class="columns">
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--3"></div>
+                    <div class="avatar is-cobalt"></div>
                     <h4 class="heading-4">Startup founders</h4>
                     <p>Founders who wish to better understand their target market and minimize inherent risk.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--1"></div>
-                    <h4 class="heading-4">Product owners</h4>
-                    <p>PO's who want a cost-effective way to test product features.</p>
+                    <div class="avatar is-tangerine"></div>
+                    <h4 class="heading-4">Product managers</h4>
+                    <p>Product managers who want a cost-effective way to test product features.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
-                    <div class="face face--5"></div>
+                    <div class="avatar is-raspberry"></div>
                     <h4 class="heading-4">Managers</h4>
                     <p>Managers and executives of established businesses who are overseeing new product development in their company.</p>
                 </div>
@@ -104,43 +127,18 @@
     <section class="section is-dark">
         <div class="container">
             <div class="columns">
-                <div class="column has-margin-b0 is-3-tablet is-offset-1-tablet is-2-desktop is-offset-2-desktop">
-                    <a href="{{ localizedRoute('blog.show', ['slug' => 'validation-in-product-development']) }}">
-                        <img src="{{ asset('media/blog/thumb-validation-in-product-development.png') }}" alt="Validation in product development" />
-                    </a>
+                <div class="column">
+                    <h3 class="heading-1">You might also be interested in</h3>
                 </div>
-                <div class="column is-7-tablet is-6-desktop">
-                    <h3 class="heading-4 has-margin-b15">You might also be interested in</h3>
-                    <ul class="list has-bullets">
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'validation-in-product-development']) }}">
-                                    Validation in Product Development
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => '11-ways-to-build-an-mvp-pt1']) }}">
-                                    11 Ways to Build an MVP
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-measure-the-success-of-your-startup']) }}">
-                                    How to Measure the Success of Your Startup?
-                                </a>
-                            </strong>
-                        </li>
-                        <li>
-                            <strong>
-                                <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-use-personas-in-product-development']) }}">
-                                    How to Use Personas in Product Development?
-                                </a>
-                            </strong>
-                        </li>
-                    </ul>
+            </div>
+            <div class="posts">
+                <div class="columns is-multiline">
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.startups-and-product-development.11-ways-to-build-an-mvp-pt1')
+                    </div>
+                    <div class="column is-6-tablet">
+                        @include(getLang() . '.blog.excerpts.startups-and-product-development.11-ways-to-build-an-mvp-pt2')
+                    </div>
                 </div>
             </div>
         </div>

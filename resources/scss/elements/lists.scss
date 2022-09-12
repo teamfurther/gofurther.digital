@@ -20,7 +20,7 @@
             position: relative;
 
             &::before {
-                background: url(../img/bullets.png) 0 50% no-repeat;
+                background: url(../img/bullets.png) 0 0 no-repeat;
                 content: '';
                 display: block;
                 float: left;
@@ -31,15 +31,15 @@
                 width: 10px;
             }
         }
+
+        &.is-white {
+            li:before {
+                background-position: 0 -14px;
+            }
+        }
     }
 
     &.has-discs {
-        &.is-white {
-            li:before {
-                background-color: $white;
-            }
-        }
-
         li {
             margin-bottom: 5px;
             overflow: hidden;
@@ -59,6 +59,12 @@
                 width: 5px;
             }
         }
+
+        &.is-white {
+            li:before {
+                background-color: $white;
+            }
+        }
     }
 
     @include tablet() {
@@ -70,10 +76,26 @@
 }
 
 .list-hero {
-    color: $cobalt;
+    color: $grey-darker;
     font-size: 56px;
     font-family: $family-highlight;
     font-weight: 700;
     line-height: .85;
-    text-shadow: 5px 5px 0 $pearl;
+    text-shadow: 5px 5px 0 $grey-light;
+
+    &.is-cobalt {
+        color: $cobalt;
+    }
+
+    &.is-pearl {
+        color: $pearl;
+    }
+
+    &.is-raspberry {
+        color: $raspberry;
+    }
+
+    &.is-tangerine {
+        color: $tangerine;
+    }
 }

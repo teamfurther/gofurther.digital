@@ -43,7 +43,7 @@
                 <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                     <div class="about__team__member">
                         <img class="about__team__member__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Péter Illés" />
-                        <h4 class="about__team__member__name">Péter Illés</h4>
+                        <h4 class="about__team__member__name">Peter Illés</h4>
                         <div class="about__team__member__title">Head of Strategy</div>
                     </div>
                 </div>

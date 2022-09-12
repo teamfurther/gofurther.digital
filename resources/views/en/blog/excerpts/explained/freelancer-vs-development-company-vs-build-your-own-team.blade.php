@@ -9,7 +9,7 @@
             <img class="post-box__author__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Illés Péter" />
             <div class="post-box__author__info">
                 <h3 class="post-box__author__name">Peter Illes</h3>
-                <span class="post-box__author__date">February 17th, 202ö</span>
+                <span class="post-box__author__date">February 17th, 2020</span>
             </div>
         </div>
     </div>

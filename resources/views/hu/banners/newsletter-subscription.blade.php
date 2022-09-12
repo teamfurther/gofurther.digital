@@ -1,4 +1,4 @@
-<section class="section">
+<section class="section" id="newsletter">
     <div class="newsletter-box">
         <div class="container">
             <div class="columns is-multiline">

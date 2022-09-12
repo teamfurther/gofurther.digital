@@ -2,6 +2,10 @@
     display: flex;
     justify-content: center;
 
+    &.is-left-aligned {
+        justify-content: flex-start;
+    }
+
     &.is-small {
         .icon {
             height: 26px;
