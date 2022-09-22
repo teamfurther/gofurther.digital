@@ -13,16 +13,6 @@ class WebinarConfirmationRequest extends Request
     }
 
     /**
-     * Get the URL to redirect to on a validation error.
-     */
-    protected function getRedirectUrl(): string
-    {
-        $url = $this->redirector->getUrlGenerator();
-
-        return $url->previous() . '#newsletter-subscribe-form';
-    }
-
-    /**
      * Get the validation rules that apply to the request.
      *
      * @return array<string>
@@ -30,7 +20,7 @@ class WebinarConfirmationRequest extends Request
     public function rules(): array
     {
         return [
-            'email' => 'required|email',
+            'Your email' => 'required|email',
             'webinar' => 'required',
         ];
     }

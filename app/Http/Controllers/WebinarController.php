@@ -25,7 +25,7 @@ class WebinarController
     ): Response
     {
         return $confirmWebinarParticipantAction->execute(
-            $request->get('email'),
+            $request->get('Your email'),
             $request->get('webinar'),
         );
     }
