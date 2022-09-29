@@ -151,7 +151,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-remote-corporate-culture-6-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Hatékony home office a gyerekek mellett? Mutatjuk, hogyan!']) }}"
     },
     "inLanguage": "hu_HU",
     "keywords": "Home office, Remote work, Remote munka, Otthoni munka, Working from home, Munka a gyerek mellett, Hatékony remote munka, Hatékony otthoni munkavégzés",

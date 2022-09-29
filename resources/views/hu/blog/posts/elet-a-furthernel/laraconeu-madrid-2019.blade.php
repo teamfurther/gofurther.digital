@@ -115,7 +115,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-rebranding.jpg') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Élménybeszámoló a LaraconEU Madrid 2019-ről']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Further Digital Solutions, Further, Rebranding",

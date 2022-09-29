@@ -121,7 +121,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-digital-transformation-4-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Digitális transzformáció 4. rész – Technológia']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Digitális transzformáció, Digitális átalakulás",

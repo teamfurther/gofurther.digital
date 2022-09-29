@@ -138,7 +138,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-protect-your-software-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Hogyan védhetjük meg a szoftverünk szellemi tulajdonát?']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Szoftver szerzői jog, Szoftver szerzői jogi törvény, Szerzői jogi törvény, Szoftver szabadalom",

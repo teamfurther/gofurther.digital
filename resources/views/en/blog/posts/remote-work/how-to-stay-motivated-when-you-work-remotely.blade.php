@@ -139,7 +139,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-remote-corporate-culture-4-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'How to Stay Motivated When You Work Remotely?']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Team, Remote team, Communication, Corporate culture, Video call, Team building, Employee, Motivation",

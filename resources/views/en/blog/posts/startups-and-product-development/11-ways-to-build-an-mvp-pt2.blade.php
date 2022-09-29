@@ -149,7 +149,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-11-ways-to-build-an-mvp-2-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => '11 Ways to Build an MVP']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Product Development, Lean Product Development Process, MVP, Minimum Viable Product, Startup",

@@ -167,7 +167,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-lets-build-an-engine-of-growth.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Let\'s Build an Engine of Growth']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Product Development, Lean Product Development Process, Startup, Engine of Growth, Growth Engine",

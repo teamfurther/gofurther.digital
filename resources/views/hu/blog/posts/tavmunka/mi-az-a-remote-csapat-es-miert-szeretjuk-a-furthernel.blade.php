@@ -151,7 +151,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-remote-corporate-culture-1-hu.jpg') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Mi az a remote csapat (és miért imádjuk a Furthernél)?']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Csapat, Remote csapat, Remote team, Távmunka, Távoli csapat, Kommunikáció, Céges távkapcsolat, Videóhívás, Team building, Csapatépítés, Munkavállaló, Motiváció",

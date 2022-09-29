@@ -108,7 +108,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-digital-transformation-1-hu.jpg') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Digitális transzformáció 1. rész – Bevezető']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Digitális transzformáció, Digitális átalakulás",

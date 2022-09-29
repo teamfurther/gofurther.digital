@@ -170,7 +170,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-the-lean-product-process-4-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'The Lean Product Process: #4 Achieving Product-Market Fit']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Product Development, Lean Product Development Process, Product-market Fit",

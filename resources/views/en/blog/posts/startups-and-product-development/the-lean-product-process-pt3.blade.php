@@ -159,7 +159,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-the-lean-product-process-3-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'The Lean Product Process: #3 Creating Your Prototype']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Product Development, Lean Product Development Process, MVP",

@@ -179,7 +179,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-the-lean-product-process-2-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'A lean termékfejlesztési folyamat: 2. Fogalmazzuk meg az értékajánlatunkat']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Termékfejlesztés, Lean termékfejlesztési folyamat, User Persona, Felhasználói interjú",

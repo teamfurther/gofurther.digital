@@ -151,7 +151,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-validation-in-product-development-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Validáció a termékfejlesztésben']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Startup, Validáció, Lean validáció, Lean termékfejlesztés, Üzleti modell, Termékfejlesztés",

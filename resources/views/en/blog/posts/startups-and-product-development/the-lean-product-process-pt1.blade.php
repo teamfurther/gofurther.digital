@@ -196,7 +196,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-the-lean-product-process-1-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'The Lean Product Process: #1 Understanding Your Customers']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Product Development, Lean Product Development Process, User, User Persona, User interview",

@@ -181,7 +181,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-remote-corporate-culture-2-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Hogyan vegyünk fel új remote csapattagot?']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Csapat, Remote csapat, Remote team, Távmunka, Távoli csapat, Kommunikáció, Céges távkapcsolat, Videóhívás, Team building, Csapatépítés, Munkavállaló, Motiváció ",

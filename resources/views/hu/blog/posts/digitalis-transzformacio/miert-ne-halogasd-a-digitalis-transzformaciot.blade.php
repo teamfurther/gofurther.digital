@@ -179,7 +179,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-why-you-cant-afford-to-delay-digital-transformation-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'A semmittevés ára: miért ne halogasd a digitális transzformációt?']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Digital Transformation",

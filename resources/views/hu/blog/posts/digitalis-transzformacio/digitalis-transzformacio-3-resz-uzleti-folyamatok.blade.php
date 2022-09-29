@@ -110,7 +110,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-digital-transformation-3-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Digitális transzformáció 3. rész – Üzleti folyamatok']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Digitális transzformáció, Digitális átalakulás",

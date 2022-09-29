@@ -241,7 +241,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-to-pivot-or-not-to-pivot.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'How to Use the Value Proposition Canvas?']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Product Development, Lean Product Development Process, Startup, Value Proposition, Value Proposition Canvas",

@@ -119,7 +119,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-agile-software-specification-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'A szoftverspecifikáció egy agilis környezetben']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Egyedi szoftverfejlesztés, Szoftverspecifikáció, Agilis szoftverfejlesztés",

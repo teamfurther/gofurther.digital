@@ -143,7 +143,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-remote-corporate-culture-5-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Can a Long-distance Relationship Work in a Corporate Environment']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Team, Remote team, Communication, Corporate culture, Video calls, Team building, Employees",

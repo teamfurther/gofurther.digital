@@ -182,7 +182,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-remote-corporate-culture-2-en-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'How to Hire People in a Remote Team?']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "BI, Business Intelligence, Big Data, Analytics, ERP",

@@ -151,7 +151,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-remote-corporate-culture-1-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'What is a Remote Team?']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Team, Remote team, Software developer, Software company, Remote work, Remote team, Teamwork, Home office, Video call, Motivation, ",

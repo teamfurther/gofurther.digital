@@ -144,7 +144,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-dont-try-to-build-the-perfect-product-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Don\'t Try to Build the Perfect Product!']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "MVP, Minimum Viable Product, Startup, Idea Validation",

@@ -142,7 +142,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-how-long-is-a-development-project-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'How Long Does It Take to Build a Custom Software?']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Freelancer, Outsourcing",

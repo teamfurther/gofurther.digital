@@ -146,7 +146,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-to-pivot-or-not-to-pivot.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'What is Customer Journey Mapping?']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Product Development, Lean Product Development Process, Startup, Customer Journey, Customer Journey Map",

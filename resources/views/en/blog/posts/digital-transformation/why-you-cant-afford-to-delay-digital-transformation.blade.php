@@ -179,7 +179,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-why-you-cant-afford-to-delay-digital-transformation-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Consequences of the delayed implementation of digital transformation']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Digital Transformation",

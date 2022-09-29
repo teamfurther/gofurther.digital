@@ -145,7 +145,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-dont-try-to-build-the-perfect-product-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Ne próbálj tökéletes terméket építeni!']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "MVP, Minimum Viable Product, Startup, Ötletvalidáció",

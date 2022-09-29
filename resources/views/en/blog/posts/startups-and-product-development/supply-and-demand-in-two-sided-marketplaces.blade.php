@@ -119,7 +119,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-supply-and-demand-in-two-sided-marketplaces.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Case Study: Matching Supply and Demand in Marketplaces']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Product Development, Lean Product Development Process, Startup, Marketplace",

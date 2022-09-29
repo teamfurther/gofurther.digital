@@ -142,7 +142,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-how-long-is-a-development-project-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Milyen hosszú egy fejlesztési projekt?']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Szabadúszó, Freelancer, Outsourcing",

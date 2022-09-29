@@ -157,7 +157,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-how-does-digitalization-change-workplaces-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'How Digitalization Changes Tomorrow\'s Workspace']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Digital transformation, Digitalization, Workplace digitalization, Digital workplace, Digital technologies, Change management",

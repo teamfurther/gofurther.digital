@@ -29,7 +29,7 @@
                             <h2 class="heading-2 has-margin-b30">A customer journey map létrehozásának lépései</h2>
                             <h3 class="heading-3 has-margin-b30">1. Készíts perszónákat</h3>
                             <p>Mielőtt elkezdenéd a journey map létrehozását, fontos, hogy egyértelműen azonosítsd a vásárlói perszónáidat. A perszónák áttekintést nyújtanak az ügyfelek céljairól, mélyebben megértve igényeiket és érdeklődésüket. Ha még nem tetted, olvasd el a korábbi blog cikkünket, amiben részletes magyarázatot találsz a <a href="{{ localizedRoute('blog.show', ['slug' => 'perszonak-a-termekfejlesztesben']) }}" target="_blank">perszónákról</a>.</p>
-                            <p  class="has-margin-b60">The idea of the Value Proposition Canvas came from the Business Model Canvas, which is a visual representation of a business model, highlighting all key strategic factors in 9 sections. Two of those sections are the Value Proposition and the Customer Segment. These sections require more space to expand than the Business Model Canvas allows, so the Value Proposition Canvas was generated as a separate tool.</p>
+                            <p class="has-margin-b60">The idea of the Value Proposition Canvas came from the Business Model Canvas, which is a visual representation of a business model, highlighting all key strategic factors in 9 sections. Two of those sections are the Value Proposition and the Customer Segment. These sections require more space to expand than the Business Model Canvas allows, so the Value Proposition Canvas was generated as a separate tool.</p>
                             <h3 class="heading-3 has-margin-b30">2. A térkép</h3>
                             <p class="has-margin-b60">Az üzleti siker kulcsa az ügyfelek útjának megértése a pre-sale szakasztól az értékesítés utáni továbbajánlásig és utánkövetésig. Az X tengelyen ezt a folyamatot 5 szakaszban láthatjuk:</p>
                             <h4 class="heading-4 has-margin-b30">X1. Tudatosság</h4>
@@ -147,7 +147,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-how-to-use-personas-in-product-development-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Mire jó a customer journey map?']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Termékfejlesztés, Lean termékfejlesztés, Startup, Customer Journey, Customer Journey Map",

@@ -172,7 +172,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-what-are-hypotheses-in-product-development.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Hipotézisek a termékfejlesztésben']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Termékfejlesztés, Lean termékfejlesztési folyamat, Érték hipotézis, Növekedési hipotézis",

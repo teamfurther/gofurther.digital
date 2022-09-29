@@ -157,7 +157,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-technical-debt-how-to-build-future-proof-it-systems-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Technical Debt: How to Build Future-proof IT Systems?']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "IT, ERP, Software, Technical debt",

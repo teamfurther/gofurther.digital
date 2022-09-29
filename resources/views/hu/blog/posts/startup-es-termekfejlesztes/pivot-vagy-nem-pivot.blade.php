@@ -136,7 +136,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-to-pivot-or-not-to-pivot-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Pivot vagy nem pivot: az itt a kérdés']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Termékfejlesztés, Lean termékfejlesztés, Startup, Pivot",

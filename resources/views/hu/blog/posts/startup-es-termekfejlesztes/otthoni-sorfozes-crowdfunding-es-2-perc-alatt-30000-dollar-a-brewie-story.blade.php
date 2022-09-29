@@ -168,7 +168,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-homebrewing-crowdfunding-and-30000-dollars-in-2-minutes-the-brewie-story-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Otthoni sörfőzés, crowdfunding és két perc alatt $30.000 — A Brewie story']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Termékfejlesztés, Lean termékfejlesztés, Startup, Crowdfunding, Indiegogo, Kickstarter, Brewie",

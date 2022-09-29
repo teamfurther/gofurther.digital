@@ -5,6 +5,22 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'conducting-usability-tests',
+                'tags' => [
+                    'ux' => 'UX',
+                    'startups-and-product-development' => 'Startups and Product Development',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'hogyan-vezessunk-usability-tesztet',
+                'tags' => [
+                    'ux' => 'UX',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'what-is-customer-journey-mapping',
                 'tags' => [
                     'ux' => 'UX',

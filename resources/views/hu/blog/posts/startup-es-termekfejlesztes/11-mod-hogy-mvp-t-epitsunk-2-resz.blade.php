@@ -149,7 +149,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-11-ways-to-build-an-mvp-2-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => '11 mód, hogy MVP-t építsünk']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Termékfejlesztés, Lean termékfejlesztési folyamat, MVP, Startup",

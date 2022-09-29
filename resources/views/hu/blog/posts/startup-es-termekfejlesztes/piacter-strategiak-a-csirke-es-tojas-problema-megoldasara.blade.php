@@ -111,7 +111,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-to-pivot-or-not-to-pivot-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Piactér stratégiák a csirke és tojás probléma megoldására']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Termékfejlesztés, Lean termékfejlesztés, Startup, Marketplace, Piactér",

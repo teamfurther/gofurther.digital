@@ -91,7 +91,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-further-recognized-as-2022-leading-b2b-service-provider-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Further Was Recognized by Clutch as a Leading 2022 B2B Service Provider in Romania']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Further Digital Solutions, Further",

@@ -154,7 +154,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-how-to-use-personas-in-product-development-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'How to Use Personas in Product Development?']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Product Development, Lean Product Development Process, Startup, Persona",

@@ -23,7 +23,7 @@
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p class="has-margin-b60">Az új termékek 72%-a nem felel meg az ügyfelek elvárásainak. Ebből következik, hogy 10 új piacra dobott termékből a vásárlókat 7 termék nem érdekli. Ennek nem kell így lennie. Erre való a <strong>Value Proposition Canvas (VPC — értékajánlat canvas)</strong>, egy eszköz, amivel vizualizáljuk, megtervezzük és teszteljük azt, hogy hogyan teremthetünk értéket az ügyfelek számára.</p>
                             <h2 class="heading-2 has-margin-b30">A VPC eredete</h2>
-                            <p  class="has-margin-b60">A value proposition canvas ötlete a Business Model Canvas-ből származik, ami a teljes üzleti modellt ábrázolja vizuálisan, kiemelve a kulcsfontosságú stratégiai tényezőket. Ezek közül az egyik az ügyfélszegments, egy másik pedig az értékajánlat. Ez a két elem több helyet igényel a kifejtéshez, mint amennyit a Business Model Canvas lehetővé tesz, ezért a Value Proposition Canvas külön eszközként is létrejött.</p>
+                            <p class="has-margin-b60">A value proposition canvas ötlete a Business Model Canvas-ből származik, ami a teljes üzleti modellt ábrázolja vizuálisan, kiemelve a kulcsfontosságú stratégiai tényezőket. Ezek közül az egyik az ügyfélszegments, egy másik pedig az értékajánlat. Ez a két elem több helyet igényel a kifejtéshez, mint amennyit a Business Model Canvas lehetővé tesz, ezért a Value Proposition Canvas külön eszközként is létrejött.</p>
                             <h2 class="heading-2 has-margin-b30">Mi a Value Proposition Canvas?</h2>
                             <p class="has-margin-b60">A Value Proposition Canvas az ügyfelek problémáinak megértésére összpontosít és abban segít, hogy olyan termékeket vagy szolgáltatásokat hozzunk létre, amelyek megoldják ezeket a problémákat. Ha pusztán elmondjuk az embereknek, hogy létrehoztunk egy nagyszerű terméket attól még nem fogják azt kívánni. Készíthetünk egy fantasztikus terméket minden földi jóval, de ha ez alapvetően nem segít a vásárlóknak, vagy nem tisztázod egyértelműen az értékajánlatot, akkor nem veszik azt meg.</p>
                             <h2 class="heading-2 has-margin-b30">Hogyan használjuk?</h2>
@@ -43,7 +43,7 @@
                             </figure>
                             <h3 class="heading-3 has-margin-b30">Ügyfélprofil</h3>
                             <p class="has-margin-b30">Az Ügyfélprofil rész segít azonosítani a problémákat az ügyfél szemszögéből. A megoldások keresése helyett próbáljuk megérteni az ügyfél feladatait, fájdalom pontjait és nyereségeit.</p>
-                            <p class="has-margin-b30">Mielőtt elkezdenénk a canvas kitöltését, az első lépés a célvásárló kiválasztása. Itt használhatjuk a korábban létrehozott  <a href="{{ localizedRoute('blog.show', ['slug' => 'how-to-use-personas-in-product-development']) }}" target="_blank">perszónákat</a>. Ha még nem készítettünk, itt az ideje! A perszonákat útmutatóként használjuk az ügyfelekprofilok meghatározásakor, a feladatokra, fájdalompontokra és a nyereségekre fókuszálva a perszóna szemszögéből.</p>
+                            <p class="has-margin-b30">Mielőtt elkezdenénk a canvas kitöltését, az első lépés a célvásárló kiválasztása. Itt használhatjuk a korábban létrehozott  <a href="{{ localizedRoute('blog.show', ['slug' => 'perszonak-a-termekfejlesztesben']) }}" target="_blank">perszónákat</a>. Ha még nem készítettünk, itt az ideje! A perszonákat útmutatóként használjuk az ügyfelekprofilok meghatározásakor, a feladatokra, fájdalompontokra és a nyereségekre fókuszálva a perszóna szemszögéből.</p>
                             <p>Az ügyfélprofil három részre oszlik:</p>
                             <figure>
                                 <img src="{{ asset('media/blog/value-proposition-canvas-customer-profile.jpg') }}" alt="Customer structure" />
@@ -233,15 +233,15 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "datePublished": "2022-03-14T10:00:00",
-    "dateModified": "2022-03-14T10:00:00",
+    "datePublished": "2022-05-18T10:00:00",
+    "dateModified": "2022-05-18T10:00:00",
     "description": "Miért ennyire fontos része az értékajánlat egy üzleti tervnek? Hogyan fogalmazd meg az értékajánlatodat? Hogyan segít ebben a value proposition canvas? Olvasd el a cikkünket, hogy minderre választ kapjál.",
     "headline": "Hogyan használd a value proposition canvas-t?",
     "image": {
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-to-pivot-or-not-to-pivot-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Hogyan használd a value proposition canvas-t?']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Termékfejlesztés, Lean termékfejlesztés, Startup, Értékajánlat, Value Proposition Canvas",

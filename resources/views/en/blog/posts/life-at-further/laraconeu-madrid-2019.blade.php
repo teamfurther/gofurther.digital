@@ -115,7 +115,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-rebranding.jpg') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Further@LaraconEU Madrid 2019']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Further Digital Solutions, Further, Laracon, Laravel",

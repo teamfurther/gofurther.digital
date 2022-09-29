@@ -108,7 +108,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-improve-how-you-code-by-using-a-rubber-duck-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Improve How You Code by Using a Rubber Duck!']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Rubber duck debugging, Debugging method, Debugging, Debugging method names, ",

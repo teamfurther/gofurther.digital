@@ -160,7 +160,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-the-lean-product-process-3-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'A lean termékfejlesztési folyamat: 3. Építsünk prototípust']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Termékfejlesztés, Lean termékfejlesztési folyamat, MVP",

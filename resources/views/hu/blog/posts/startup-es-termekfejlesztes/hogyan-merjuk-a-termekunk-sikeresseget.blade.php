@@ -152,7 +152,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-how-to-measure-the-success-of-your-startup-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Hogyan mérjük a termékünk sikerességet?']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Termékfejlesztés, Lean termékfejlesztés, Startup, Analitika, Metrika",

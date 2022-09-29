@@ -157,7 +157,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-how-does-digitalization-change-workplaces-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Az emberek transzformációja: hogyan változtatja meg a digitalizáció a munkahelyeinket']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Digital transformation, Workplace digitalization, Digital workplace, Digital technologies, Adapt to change, Digitális átalakulás, Munkahely digitalizálás, Digitális munkahely, Digitális technológiák, ",

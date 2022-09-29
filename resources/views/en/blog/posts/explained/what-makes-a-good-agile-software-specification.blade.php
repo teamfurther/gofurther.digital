@@ -119,7 +119,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-agile-software-specification-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'What Makes a Good (Agile) Software Specification?']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Custom software development, Software specification, Agile software development",

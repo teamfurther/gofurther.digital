@@ -167,7 +167,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-epitsunk-novekedesi-motort-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Építsünk motort… növekedési motort!']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Termékfejlesztés, Lean termékfejlesztés, Startup, Növekedési motor",

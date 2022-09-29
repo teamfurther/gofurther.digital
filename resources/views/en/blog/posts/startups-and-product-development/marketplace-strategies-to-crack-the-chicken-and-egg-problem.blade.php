@@ -111,7 +111,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-to-pivot-or-not-to-pivot.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Marketplace Strategies to Crack the Chicken and Egg Problem']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Product Development, Lean Product Development Process, Startup, Marketplace",

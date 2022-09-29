@@ -125,7 +125,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-custom-development-vs-ootb-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'How to Choose Between Custom Development and Out-of-the-Box Software']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Custom software development, Licensed software, Out-of-the-box software, Packaged software, SaaP, SaaS",

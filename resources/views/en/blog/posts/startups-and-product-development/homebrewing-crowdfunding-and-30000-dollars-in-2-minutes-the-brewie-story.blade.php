@@ -167,7 +167,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-homebrewing-crowdfunding-and-30000-dollars-in-2-minutes-the-brewie-story.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Homebrewing, Crowdfunding and $30.000 in 2 Minutes — The Brewie Story']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Product Development, Lean Product Development Process, Startup, Crowdfunding, Kickstarter, Indiegogo, Brewie",

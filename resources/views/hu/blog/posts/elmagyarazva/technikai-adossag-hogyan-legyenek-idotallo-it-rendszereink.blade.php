@@ -157,7 +157,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-technical-debt-how-to-build-future-proof-it-systems-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Technikai adósság avagy hogyan legyenek időtálló IT rendszereink?']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "IT, ERP, Vállalatirányítási rendszer, Szoftver, Technikai adósság",

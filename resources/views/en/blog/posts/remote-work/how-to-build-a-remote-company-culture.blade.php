@@ -163,7 +163,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-remote-corporate-culture-3-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'How to Build a Remote Company Culture?']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Remote team, Remote corporate culture, Remote work, Team, Team building,",

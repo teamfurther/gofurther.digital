@@ -154,7 +154,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Szabadúszókat, saját IT csapatot vagy külsős fejlesztő partnert válasszunk?']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": "Szabadúszó, Freelancer, Outsourcing",

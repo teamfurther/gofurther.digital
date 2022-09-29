@@ -151,7 +151,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-validation-in-product-development-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Validation in Product Development']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Startup, Lean Validation, Lean product development, Business model, Product development",

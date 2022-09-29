@@ -152,7 +152,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-remote-corporate-culture-6-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Effective Home Office with Kids? We\'ll Show You How!']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Home office, Remote work, Teleworking, Home work, Work from home, Remote work with kids, Efficient remote work ",

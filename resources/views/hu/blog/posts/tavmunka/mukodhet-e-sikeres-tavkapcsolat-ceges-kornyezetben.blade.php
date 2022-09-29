@@ -143,7 +143,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-remote-corporate-culture-5-hu.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Működhet-e sikeres távkapcsolat céges környezetben?']) }}"
     },
     "inLanguage": "hu_hu",
     "keywords": " Csapat, Remote csapat, Remote team, Távmunka, Távoli csapat, Kommunikáció, Céges távkapcsolat, Videóhívás, Team building, Csapatépítés, Munkavállaló",

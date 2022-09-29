@@ -172,7 +172,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-what-are-hypotheses-in-product-development.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'What are Hypotheses in Product Development?']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Product Development, Lean Product Development Process, Value Hypothesis, Growth Hypothesis",

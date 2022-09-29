@@ -151,7 +151,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-freelancer-vs-development-company-vs-build-your-own-team-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Should You Hire a Freelancer, a Development Company or Build Your Own Team?']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Freelancer, Outsourcing",

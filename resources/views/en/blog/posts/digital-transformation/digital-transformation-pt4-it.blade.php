@@ -121,7 +121,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-digital-transformation-4-en.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'Digital Transformation Series Pt. 4 - IT']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Digital Transformation",

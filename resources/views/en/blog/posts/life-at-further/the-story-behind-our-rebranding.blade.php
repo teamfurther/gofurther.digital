@@ -107,7 +107,7 @@
         "@type": "ImageObject",
         "height": 630,
         "width": 1200,
-        "url": "{{ asset('media/blog/cover-rebranding.png') }}"
+        "url": "{{ route('generate-cover', ['title' => 'The Story Behind Our Rebranding']) }}"
     },
     "inLanguage": "en_gb",
     "keywords": "Further Digital Solutions, Further, Rebranding",
