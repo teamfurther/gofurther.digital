@@ -6,6 +6,7 @@ use GuzzleHttp\Client;
 use Illuminate\Log\LogManager;
 use SendinBlue\Client\Api\ContactsApi;
 use SendinBlue\Client\Configuration;
+use SendinBlue\Client\Model\AddContactToList;
 use SendinBlue\Client\Model\CreateContact;
 
 class CreateWebinarRegistrantAction
@@ -45,6 +46,13 @@ class CreateWebinarRegistrantAction
             return 1;
         } catch (\Exception $exception) {
             if (str_contains($exception->getMessage(), 'Contact already exist')) {
+                $addEmails = new AddContactToList(['emails' => [$email]]);
+
+                $this->apiInstance->addContactToList(
+                    config('services.sendinblue.list_ids.webinars.' . $webinar . '.responders'),
+                    $addEmails
+                );
+
                 return 2;
             }
 

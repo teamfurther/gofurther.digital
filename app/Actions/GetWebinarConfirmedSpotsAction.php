@@ -28,9 +28,14 @@ class GetWebinarConfirmedSpotsAction
     public function execute(string $webinar): ?int
     {
         try {
-            $list = $this->apiInstance->getList(config('services.sendinblue.list_ids.webinars.' . $webinar . '.confirmed'));
+            $confirmed = $this->apiInstance->getList(
+                config('services.sendinblue.list_ids.webinars.' . $webinar . '.confirmed')
+            );
+            $participantsToBe = $this->apiInstance->getList(
+                config('services.sendinblue.list_ids.webinars.' . $webinar . '.participants-to-be')
+            );
 
-            return $list['totalSubscribers'];
+            return $confirmed['totalSubscribers'] + $participantsToBe['totalSubscribers'];
         } catch (\Exception $exception) {
 
             $this->log->error($exception->getMessage());

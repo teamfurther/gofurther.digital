@@ -22,7 +22,7 @@
                             <div class="column is-9">
                                 <div class="webinar__tag">Free Live Webinar</div>
                                 <div class="webinar__host">hosted by <a href="#host">Peter Illés</a></div>
-                                @if ($date)
+                                @if ($date && !$date->isPast())
                                 <div class="webinar__spots">{{ $totalSpots - $confirmedSpots }} spots left</div>
                                 <div class="webinar__date">
                                     {{ $date->format('l, F jS') }}<br />

@@ -38,6 +38,7 @@ return [
                 'validation' => [
                     'responders' => 17,
                     'confirmed' => 18,
+                    'participants-to-be' => 20,
                 ],
             ]
         ],
