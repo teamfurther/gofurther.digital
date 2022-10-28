@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'ai-generated-prototypes',
+                'tags' => [
+                    'startups-and-product-development' => 'Startups and Product Development',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'mesterseges-intelligencia-altal-gyartott-prototipusok',
+                'tags' => [
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'conducting-usability-tests',
                 'tags' => [
                     'ux' => 'UX',

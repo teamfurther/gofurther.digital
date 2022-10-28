@@ -40,8 +40,8 @@
                         </div>
                         <div class="columns">
                             <div class="column">
-                                @if ($date)
-                                <a class="btn is-full-width is-large is-tangerine" href="#register">Book your spot now!</a>
+                                @if ($date && !$date->isPast())
+                                    <a class="btn is-full-width is-large is-tangerine" href="#register">Book your spot now!</a>
                                 @else
                                     <a class="btn is-full-width is-large" href="#newsletter">Keep me in the loop!</a>
                                 @endif
@@ -179,7 +179,7 @@
         </div>
     </section>
 
-    @if ($date)
+    @if ($date && !$date->isPast())
     <section class="section is-dark" id="register">
         <div class="newsletter-box">
             <div class="container">
