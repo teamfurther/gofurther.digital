@@ -5,6 +5,22 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'low-and-high-fidelity-prototypes',
+                'tags' => [
+                    'ux' => 'UX',
+                    'startups-and-product-development' => 'Startups and Product Development',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'low-es-high-fidelity-prototipusok',
+                'tags' => [
+                    'ux' => 'UX',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'ai-generated-prototypes',
                 'tags' => [
                     'startups-and-product-development' => 'Startups and Product Development',
