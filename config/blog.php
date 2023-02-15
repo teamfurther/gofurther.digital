@@ -5,6 +5,22 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'how-to-run-successful-user-interviews',
+                'tags' => [
+                    'ux' => 'UX',
+                    'startups-and-product-development' => 'Startups and Product Development',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'egy-sikeres-felhasznaloi-interju-titkai',
+                'tags' => [
+                    'ux' => 'UX',
+                    'startup-es-termekfejlesztes' => 'Startup és termékfejlesztés',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'low-and-high-fidelity-prototypes',
                 'tags' => [
                     'ux' => 'UX',

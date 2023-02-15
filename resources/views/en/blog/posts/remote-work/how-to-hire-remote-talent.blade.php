@@ -58,7 +58,7 @@
                             <figure>
                                 <img src="{{ asset('media/blog/remote-corporate-culture-2-job-interview.jpg') }}" alt="The interview" />
                             </figure>
-                            <h2 class="heading-2 has-margin-b30 has-margin-t60">The interview</h2>
+                            <h2 class="heading-2 has-margin-b30">The interview</h2>
                             <p>During an interview, we always concentrate on finding out how the interviewee is going to fit into our team. Does he have the same motivation? Does he represent the same values? Can we communicate with him and are we going to be able to work with him on a daily basis? For us, these are much more important questions than what skills and qualifications they have.</p>
                             <p>As we already mentioned, soft skills like communication and self-discipline are really important. Technical skills less so, as these can be taught.</p>
                             <figure>

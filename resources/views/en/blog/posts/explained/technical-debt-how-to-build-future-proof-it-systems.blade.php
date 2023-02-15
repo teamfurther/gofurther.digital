@@ -70,12 +70,12 @@
                                 <img src="{{ asset('media/blog/technical-debt-how-to-build-future-proof-it-systems-statistic-en.png') }}" alt="How to build future-proof IT systems - 1. statistics" />
                             </figure>
                             <p>Apart from the direct increase in costs, technical debt also has indirect effects, such as:</p>
-                            <ul class="list has-bullets">
+                            <ul class="list has-bullets has-margin-b60">
                                 <li>Longer development cycles, which means users have to wait more for a change or new features. This leads to a lower customer satisfaction;</li>
                                 <li>Less qualified personnel who is willing to work on the project, higher training costs;</li>
                                 <li>Lower IT security, higher probability for breaches.</li>
                             </ul>
-                            <h2 class="heading-2 has-margin-b30 has-margin-t60">How to minimize technical debt?</h2>
+                            <h2 class="heading-2 has-margin-b30">How to minimize technical debt?</h2>
                             <p>We already stated that it is impossible to get rid of technical debt entirely. There are however some methods that development teams can adopt to ensure better code quality which leads to a slower accumulation of technical debt:</p>
                             <ul class="list has-bullets">
                                 <li>Every software, framework and documentation should be constantly updated;</li>
@@ -88,8 +88,8 @@
                                 <li>Document debt – every necessary fix, update or refactoring should be documented. This is the most essential step towards making sure these steps are actually performed. This way, everyone will be aware of the extent of the technical debt, business will be more likely to acknowledge debt and spend the necessary resources to combat it;</li>
                                 <li>Refactoring – if some technical debt is already present, then it can be only decreased by refactoring. it is worthwhile to refactor the high business value debt first: code that is often affected by changes should be prioritized instead of code that is rarely or never changes. You should not wait until enough high-ticket tasks accumulate and then spend weeks only refactoring. Instead, repay debt while also doing valuable work. Determine how much of your maintenance and development time is set aside for refactoring (depending on the complexity of the technical debt, the recommended percentage is around 5%-33%).</li>
                             </ul>
-                            <p>There are some (rare) occasions when it is acceptable to ignore technical debt. This could be for instance when a product is nearing its end-of-life, or when the sole purpose of the product was to <a href="{{ localizedRoute('blog.show', ['slug' => 'dont-try-to-build-the-perfect-product']) }}">validate an idea or market</a>, as is the case of a prototype or MVP.</p>
-                            <h2 class="heading-2 has-margin-b30 has-margin-t60">Conclusions</h2>
+                            <p class="has-margin-b60">There are some (rare) occasions when it is acceptable to ignore technical debt. This could be for instance when a product is nearing its end-of-life, or when the sole purpose of the product was to <a href="{{ localizedRoute('blog.show', ['slug' => 'dont-try-to-build-the-perfect-product']) }}">validate an idea or market</a>, as is the case of a prototype or MVP.</p>
+                            <h2 class="heading-2 has-margin-b30">Conclusions</h2>
                             <p>Technical debt is unavoidable, a collateral of any IT project. Avoiding it, or just constantly delaying the necessary actions will sooner or later cripple the entire system, and the business with it.</p>
                             <p>Because of this, good development teams do not accumulate technical debt, but manage it in a timely fashion. Software and documentation is always up-to-date, code quality is ensured by automated tests and code reviews, and they also constantly refactor the code parallel to developing new features.</p>
                         </div>

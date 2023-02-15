@@ -106,8 +106,8 @@
                             <figure>
                                 <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-formula-2-en.jpg') }}" alt="Why you shouldn't delay the digital transformation - Formula 2" />
                             </figure>
-                            <p>Let's look at our example above. Let's suppose the upkeep costs of our current systems are $50k yearly. Adding the ROI to this amount results in the total dollar value of delaying digital transformation: $350k yearly.</p>
-                            <h2 class="heading-2 has-margin-b30 has-margin-t60">Key takeaways</h2>
+                            <p class="has-margin-b60">Let's look at our example above. Let's suppose the upkeep costs of our current systems are $50k yearly. Adding the ROI to this amount results in the total dollar value of delaying digital transformation: $350k yearly.</p>
+                            <h2 class="heading-2 has-margin-b30">Key takeaways</h2>
                             <ul class="list has-bullets">
                                 <li>Doing nothing may seem like a safe move for any number of reasons, it will take us further away from our goals.</li>
                                 <li>Although a DX project can be judged based on investment alone, it's also important to consider qualitative ROI as well: how much influence can a digital culture bring to the way we work and how invested is our team going to be?</li>

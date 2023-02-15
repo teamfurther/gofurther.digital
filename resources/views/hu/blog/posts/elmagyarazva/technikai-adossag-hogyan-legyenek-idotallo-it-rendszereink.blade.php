@@ -70,12 +70,12 @@
                                 <img src="{{ asset('media/blog/technical-debt-how-to-build-future-proof-it-systems-statistic-hu.png') }}" alt="Hogyan legyenek időtálló IT rendszereink - 1. statisztika" />
                             </figure>
                             <p>A fenti direkt költségnövekedésen a technikai adósságnak egyéb, közvetett hatásai is vannak, mint például:</p>
-                            <ul class="list has-bullets">
+                            <ul class="list has-bullets has-margin-b60">
                                 <li>A hosszabb fejlesztési ciklusok miatt a felhasználók többet kell várjanak egy új funkcióra vagy módosításra, ezért csökken az ügyfélelégedettség;</li>
                                 <li>Nehezebb megfelelő fejlesztőket találni a projekthez, magasabbak a betanítási költségek;</li>
                                 <li>Csökken az IT rendszerek biztonsága, ki leszünk szolgáltatva a támadásoknak.</li>
                             </ul>
-                            <h2 class="heading-2 has-margin-b30 has-margin-t60">Hogyan minimalizáljuk a technikai adósságot?</h2>
+                            <h2 class="heading-2 has-margin-b30">Hogyan minimalizáljuk a technikai adósságot?</h2>
                             <p>Azt már megállapítottuk, hogy a technikai adósságtól nem lehet teljesen megszabadulni. Ellenben van pár olyan módszer amit a fejlesztő csapatok alkalmazhatnak, hogy jobb legyen a kód minősége és ezáltal redukálják a technikai adósság növekedési ritmusát:</p>
                             <ul class="list has-bullets">
                                 <li>Minden szoftver, keretrendszer és dokumentáció legyen folyamatosan frissítve;</li>
@@ -88,8 +88,8 @@
                                 <li>Dokumentáljuk a technikai adósságot – minden szükséges javítást, frissítést vagy refaktorálást részletesen dokumentáljunk. Ez az első lépés annak érdekében, hogy tényleg sor kerüljön arra, hogy foglalkozzunk vele, így mindenki tudatában van az adósság mértékével és a vezetőség is nagyobb valószínűséggel fordít majd erőforrásokat a problémák kezelésére;</li>
                                 <li>Refaktorálás – ha már felhalmozódott valamennyi technikai adósság, akkor azt csak refaktorálás által tudjuk csökkenteni. Refaktorálás esetén célszerű a nagyobb értékű adósságot priorizálni: azok a kódrészletek amik gyakran változnak, előnyt kell élvezzenek azokkal szemben amikhez egyáltalán vagy csak ritkán nyúlunk. Nem érdemes viszont addig várni, amíg annyi nagy értékű adósság összegyűl, hogy utána hetekig csak a refaktorálással foglalkozzunk. Inkább határozzuk meg, hogy a karbantartási és fejlesztési munkákra szánt idő hány százalékát különítjük el refaktorálásra (a technikai adósság mértékétől és komplexitásától függően 5%-33%-ot ajánlott elkülöníteni).</li>
                             </ul>
-                            <p>Vannak olyan (ritka) esetek is amikor nem érdemes a technikai adóssággal. Ilyen lehet például, hogy egy termék kivezetés alatt áll, vagy ha a termék csak egy prototípus vagy MVP aminek a célja csupán egy <a href="{{ localizedRoute('blog.show', ['slug' => 'ne-probalj-tokeletes-termeket-fejleszteni']) }}">ötlet vagy célpiac validálása</a>.</p>
-                            <h2 class="heading-2 has-margin-b30 has-margin-t60">Következtetések</h2>
+                            <p class="has-margin-b60">Vannak olyan (ritka) esetek is amikor nem érdemes a technikai adóssággal. Ilyen lehet például, hogy egy termék kivezetés alatt áll, vagy ha a termék csak egy prototípus vagy MVP aminek a célja csupán egy <a href="{{ localizedRoute('blog.show', ['slug' => 'ne-probalj-tokeletes-termeket-fejleszteni']) }}">ötlet vagy célpiac validálása</a>.</p>
+                            <h2 class="heading-2 has-margin-b30">Következtetések</h2>
                             <p>A technikai adósság elkerülhetetlen, minden IT projekt kötelező velejárója. Nem tudomást venni róla, vagy folyamatosan halasztgatni a közbeavatkozást előbb vagy utóbb megbénítja a rendszert és egyúttal a vállalkozást is.</p>
                             <p>Éppen ezért a jó fejlesztő csapatok nem halmozzák fel a technikai adósságot, hanem időben menedzselik ezt. A szoftvereket és dokumentációt folyamatosan frissítik, biztosítják a kód minőségét automata tesztek és code review-k segítségével és a továbbfejlesztések mellett folyamatosan időt szakítanak a kódbázis refaktorálására is.</p>
                         </div>

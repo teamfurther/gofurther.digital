@@ -57,7 +57,7 @@
                             <figure>
                                 <img src="{{ asset('media/blog/remote-corporate-culture-2-job-interview.jpg') }}" alt="Az interjú" />
                             </figure>
-                            <h2 class="heading-2 has-margin-b30 has-margin-t60">Az interjú</h2>
+                            <h2 class="heading-2 has-margin-b30">Az interjú</h2>
                             <p>Egy interjú során mindig arra koncentrálunk, hogy kiderítsük, hogyan illeszkedni a jelölt a csapatunkba. Ugyanaz motiválja? Ugyanazokat az értékeket képviseli? Tudnánk-e vele kommunikálni és nap-mint-nap együtt dolgozni? Ezek a kérdések sokkal inkább foglalkoztatnak minket, mint hogy milyen képesítései és diplomái vannak.</p>
                             <p>Mint már említettem, számunkra bizonyos soft skillek, mint a kommunikáció készségek vagy az önfegyelem, igazán fontosak. A technikai tudás csak másodlagos, hiszen ezeket meg lehet tanítani.</p>
                             <figure>

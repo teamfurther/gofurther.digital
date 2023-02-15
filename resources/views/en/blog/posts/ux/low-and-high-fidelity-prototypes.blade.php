@@ -11,7 +11,7 @@
                         <div class="column">
                             <h1 class="post__title p-name">Low and High Fidelity Prototyping for User Testing</h1>
                             <div class="post__meta">
-                                <time class="dt-published" datetime="2022-12-04 10:00:00">December 4th 2022</time> &middot; 4 minute read
+                                <time class="dt-published" datetime="2022-11-28 10:00:00">November 28th 2022</time> &middot; 4 minute read
                             </div>
                         </div>
                     </div>
@@ -156,8 +156,8 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "datePublished": "2022-12-04T10:00:00",
-    "dateModified": "2022-12-04T10:00:00",
+    "datePublished": "2022-11-28T10:00:00",
+    "dateModified": "2022-11-28T10:00:00",
     "description": "When should you use low-fidelity prototypes? And when should you go for high-fidelity one? How do these both fit into user research? Find out in our article",
     "headline": "Low and High Fidelity Prototyping for User Testing",
     "image": {
@@ -167,7 +167,7 @@
 {{--        "url": "{{ route('generate-cover', ['title' => 'Low and High Fidelity Prototyping for User Testing']) }}"--}}
         },
         "inLanguage": "en_gb",
-        "keywords": "Product Development, Lean Product Development Process, Startup",
+        "keywords": "Product Development, Startup, UX, Prototypes, Wireframes, Mockups",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "{{ localizedRoute('blog.show', ['slug' => $slug]) }}"

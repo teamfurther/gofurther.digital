@@ -106,8 +106,8 @@
                             <figure>
                                 <img src="{{ asset('media/blog/why-you-cant-afford-to-delay-digital-transformation-formula-2-hu.jpg') }}" alt="Miért ne halogasd a digitális transzformációt -1. képlet" />
                             </figure>
-                            <p>A már említett számításnál maradva, tegyük fel, hogy a jelenlegi rendszerek éves fenntartási költsége 5 millió Ft. Ehhez adjuk hozzá a kimaradó ROI-t, megkapva a végösszeget amitől elesünk, ha nem teszünk semmit: évi 35 millió Ft.</p>
-                            <h2 class="heading-2 has-margin-b30 has-margin-t60">Következtetések</h2>
+                            <p class="has-margin-b60">A már említett számításnál maradva, tegyük fel, hogy a jelenlegi rendszerek éves fenntartási költsége 5 millió Ft. Ehhez adjuk hozzá a kimaradó ROI-t, megkapva a végösszeget amitől elesünk, ha nem teszünk semmit: évi 35 millió Ft.</p>
+                            <h2 class="heading-2 has-margin-b30">Következtetések</h2>
                             <ul class="list has-bullets">
                                 <li>Bár különböző okok miatt a semmittevés biztonságos lépésnek tűnhet a jelenlegi helyzetünkben, hosszú távon csak egyre jobban eltávolít a kitűzött céljainktól.</li>
                                 <li>Bár egy DX projekt szükségessége megítélhető pusztán a pénzbeli befektetés alapján, a döntéshozatalkor érdemes a kvalitatív megtérülést is szem előtt tartani: mekkora változást hozhat egy digitális kultúra a napi rutinba és mennyire lesz elkötelezett a csapatunk?</li>
