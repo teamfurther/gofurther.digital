@@ -1,5 +1,5 @@
 @section('title', 'How to Run Successful User Interviews?')
-@section('description', 'Running a user interviews doesn\'t come naturally to many. But with a bit of preparation and practice, it can become one of the most important accessories in a UX specialist\'s toolkit.')
+@section('description', 'Running a user interview doesn\'t come naturally to many. But with a bit of preparation and practice, it can become one of the most important accessories in a UX specialist\'s toolkit.')
 @section('preview_image', route('generate-cover', ['title' => 'How to Run Successful User Interviews?']))
 
 @section('content')
@@ -133,7 +133,7 @@
     },
     "datePublished": "2023-01-13T12:00:00",
     "dateModified": "2023-01-13T12:00:00",
-    "description": "Running a user interviews doesn't come naturally to many. But with a bit of preparation and practice, it can become one of the most important accessories in a UX specialist's toolkit.",
+    "description": "Running a user interview doesn't come naturally to many. But with a bit of preparation and practice, it can become one of the most important accessories in a UX specialist's toolkit.",
     "headline": "How to Run Successful User Interviews?",
     "image": {
         "@type": "ImageObject",

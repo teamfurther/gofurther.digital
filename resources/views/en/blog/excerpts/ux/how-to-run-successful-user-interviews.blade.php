@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="post-box__excerpt">
-        Running a user interviews doesn't come naturally to many. But with a bit of preparation and practice, it can become one of the most important accessories in a UX specialist's toolkit.
+        Running a user interview doesn't come naturally to many. But with a bit of preparation and practice, it can become one of the most important accessories in a UX specialist's toolkit.
     </div>
 </a>
 
