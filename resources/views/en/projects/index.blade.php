@@ -15,6 +15,19 @@
             </div>
             <div class="columns">
                 <div class="column">
+                    <a class="project-list__featured project-list__featured--kompozit is-reversed"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'kompozit-field-service-management-app']) }}"
+                    >
+                        <div class="project-list__featured__content">
+                            <h1 class="project-list__featured__title">Kompozit Field Service Management</h1>
+                            <div class="project-list__featured__description">
+                                Kompozit is a field service management solution for documenting the work of service teams in an easy and efficient way.
+                            </div>
+                            <span class="btn is-tangerine">Explore the case study</span>
+                        </div>
+
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/kompozit-project-list.png') }}" alt="Kompozit Field Service Management App" />
+                    </a>
                     <a class="project-list__featured project-list__featured--njoy-the-hive"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'njoy-the-hive']) }}"
                     >
@@ -28,22 +41,21 @@
 
                         <img class="project-list__featured__image" src="{{ asset('media/projects/njoy-project-list.png') }}" alt="nJoy - The Hive ERP system - Rapid Product Development" />
                     </a>
-                    <a class="project-list__featured project-list__featured--centralized is-reversed"
-                       href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
-                    >
-                        <div class="project-list__featured__content">
-                            <h1 class="project-list__featured__title">Centralized.me Artist Management Platform</h1>
-                            <div class="project-list__featured__description">
-                                Centralized.me is the world's first web application for artist management. It includes video content, guides, workflow checklists, email and agreement templates and budgets for all aspects of managing the career of a music artist.
-                            </div>
-                            <span class="btn is-tangerine">Explore the case study</span>
-                        </div>
-
-                        <img class="project-list__featured__image" src="{{ asset('media/projects/centralized-project-list.png') }}" alt="Centralized.me Artist Management Platform" />
-                    </a>
                 </div>
             </div>
             <div class="columns is-mobile is-multiline">
+                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                    <a class="project-list__item"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
+                    >
+                        <img class="project-list__item__image" src="{{ asset('media/projects/centralized-project-list.png?v2') }}" alt="Centralized.me Artist Management Platform" />
+
+                        <h1 class="project-list__item__title">Centralized.me Artist Management Platform</h1>
+                        <div class="project-list__item__description">
+                            Centralized.me is the world's first web application for artist management. It includes video content, guides, workflow checklists, email and agreement templates and budgets for all aspects of managing the career of a music artist.
+                        </div>
+                    </a>
+                </div>
                 <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'onepagelink-electronic-press-kit-builder']) }}"
