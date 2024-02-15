@@ -16,7 +16,7 @@
             <div class="columns">
                 <div class="column">
                     <a class="project-list__featured project-list__featured--kompozit is-reversed"
-                       href="{{ route(getLang() . '.projects.show', ['slug' => 'kompozit-digitalis-munkalap-szoftver']) }}"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'kompozit-field-service-management-app']) }}"
                     >
                         <div class="project-list__featured__content">
                             <h1 class="project-list__featured__title">Kompozit Field Service Management</h1>

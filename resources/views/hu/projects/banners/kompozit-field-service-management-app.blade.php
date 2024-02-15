@@ -1,6 +1,6 @@
 <section class="section">
     <a class="project__banner project__banner--kompozit"
-       href="{{ route(getLang() . '.projects.show', ['slug' => 'kompozit-digitalis-munkalap-szoftver']) }}"
+       href="{{ route(getLang() . '.projects.show', ['slug' => 'kompozit-field-service-management-app']) }}"
     >
         <div class="container">
             Következő esettanulmány
