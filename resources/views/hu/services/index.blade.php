@@ -46,6 +46,7 @@
                             <p>Ebben a fázisban kezdünk el előszőr működő és tapintható prototípusokat építeni, majd ezekkel visszatérni a felhasználókhoz és visszacsatolást kérni.</p>
                             <p class="has-margin-b60">Előbb drótvázakat készítünk, hogy meghatározzuk az információ hierarchiát és kapjál egy elképzelést arról, hogy miként néz majd ki a megoldás. Később ezeket a drótvázakat egy UI design folyamat során felruházzuk színekkel és interakciókkal. Végre életre kelt a projekted!</p>
 
+                            <a class="btn has-margin-b5">UX audit</a>
                             <a class="btn has-margin-b5">UI design</a>
                         </div>
                     </div>

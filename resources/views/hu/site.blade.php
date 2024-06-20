@@ -33,8 +33,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit:400,600,700&amp;subset=latin-ext" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&amp;subset=latin-ext" />
 
-    <link rel="stylesheet" href="{{ mix('css/site.css') }}?v20240216" />
-
     <link rel="preload" href="{{ asset('img/logo.svg') }}" as="image" type="image/svg+xml" />
     <link rel="preload" href="{{ asset('img/logo-knockout.svg') }}" as="image" type="image/svg+xml" />
 
@@ -46,6 +44,8 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('favicon-72px.png') }}">
     <!-- For iPhone: -->
     <link rel="apple-touch-icon-precomposed" href="{{ asset('favicon-57px.png') }}">
+
+    @vite(['resources/scss/site.scss', 'resources/js/site.js'])
 
     @stack('structured-data')
 
@@ -283,8 +283,6 @@
 @stack('content-modals')
 
 </div>
-
-<script src="{{ mix('js/site.js') }}?v20220629"></script>
 
 @stack('content-scripts')
 

@@ -2,12 +2,12 @@
 
 namespace App\Actions;
 
+use Brevo\Client\Api\ContactsApi;
+use Brevo\Client\Configuration;
+use Brevo\Client\Model\AddContactToList;
+use Brevo\Client\Model\CreateContact;
 use GuzzleHttp\Client;
 use Illuminate\Log\LogManager;
-use SendinBlue\Client\Api\ContactsApi;
-use SendinBlue\Client\Configuration;
-use SendinBlue\Client\Model\AddContactToList;
-use SendinBlue\Client\Model\CreateContact;
 
 class CreateWebinarRegistrantAction
 {
@@ -19,7 +19,7 @@ class CreateWebinarRegistrantAction
     {
         $this->config = new Configuration();
         $this->config = Configuration::getDefaultConfiguration()->setApiKey(
-            'api-key', config('services.sendinblue.key')
+            'api-key', config('services.brevo.key')
         );
 
         $this->apiInstance = new ContactsApi(new Client(), $this->config);
@@ -35,8 +35,8 @@ class CreateWebinarRegistrantAction
                 'FIRSTNAME' => $fname,
             ],
             'listIds' => [
-                config('services.sendinblue.list_ids.webinars.' . $webinar . '.responders'),
-                config('services.sendinblue.list_ids.' . getLang()),
+                config('services.brevo.list_ids.webinars.' . $webinar . '.responders'),
+                config('services.brevo.list_ids.' . getLang()),
             ],
         ]);
 
@@ -49,7 +49,7 @@ class CreateWebinarRegistrantAction
                 $addEmails = new AddContactToList(['emails' => [$email]]);
 
                 $this->apiInstance->addContactToList(
-                    config('services.sendinblue.list_ids.webinars.' . $webinar . '.responders'),
+                    config('services.brevo.list_ids.webinars.' . $webinar . '.responders'),
                     $addEmails
                 );
 

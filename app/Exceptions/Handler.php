@@ -11,28 +11,24 @@ use Throwable;
 class Handler extends ExceptionHandler
 {
     /**
-     * @var array<string>
+     * The list of the inputs that are never flashed to the session on validation exceptions.
+     *
+     * @var array<int, string>
      */
     protected $dontFlash = [
+        'current_password',
         'password',
         'password_confirmation',
     ];
 
     /**
-     * @var array<object>
+     * Register the exception handling callbacks for the application.
      */
-    protected $dontReport = [
-        //
-    ];
-
-    /**
-     * @param \Illuminate\Http\Request $request
-     *
-     * @throws \Throwable
-     */
-    public function render($request, Throwable $exception): Response
+    public function register(): void
     {
-        return parent::render($request, $exception);
+        $this->reportable(function (Throwable $e) {
+            //
+        });
     }
 
     /**
@@ -57,13 +53,5 @@ class Handler extends ExceptionHandler
         }
 
         return $this->convertExceptionToResponse($exception);
-    }
-
-    /**
-     * @throws \Exception
-     */
-    public function report(Throwable $exception): void
-    {
-        parent::report($exception);
     }
 }

@@ -4,10 +4,9 @@ namespace Tests\Unit;
 
 use App\Actions\CreateNewsletterSubscriberAction;
 use App\Notifications\FreebieRequestedNotification;
-use App\Notifications\NewsletterSubscribedNotification;
+use Brevo\Client\Model\CreateUpdateContactModel;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Notifications\AnonymousNotifiable;
-use SendinBlue\Client\Model\CreateUpdateContactModel;
 use Tests\TestCase;
 
 class FreebiesGetTest extends TestCase

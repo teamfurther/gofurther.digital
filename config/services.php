@@ -14,23 +14,8 @@ return [
     |
     */
 
-    'ipapi' => [
-        'secret' => env('IPAPI_SECRET'),
-        'geo_endpoint' => env('IPAPI_ENDPOINT', 'https://geo.ipify.org/api/v1'),
-    ],
-
-    'mailgun' => [
-        'domain' => env('MAILGUN_DOMAIN'),
-        'secret' => env('MAILGUN_SECRET'),
-        'endpoint' => env('MAILGUN_ENDPOINT', 'api.mailgun.net'),
-    ],
-
-    'postmark' => [
-        'token' => env('POSTMARK_TOKEN'),
-    ],
-
-    'sendinblue' => [
-        'key' => env('SENDINBLUE_API_KEY'),
+    'brevo' => [
+        'key' => env('BREVO_API_KEY'),
         'list_ids' => [
             'en' => 10,
             'hu' => 9,
@@ -41,6 +26,33 @@ return [
                     'participants-to-be' => 20,
                 ],
             ]
+        ],
+    ],
+
+    'ipapi' => [
+        'secret' => env('IPAPI_SECRET'),
+        'geo_endpoint' => env('IPAPI_ENDPOINT', 'https://geo.ipify.org/api/v1'),
+    ],
+
+    'mailgun' => [
+        'domain' => env('MAILGUN_DOMAIN'),
+        'secret' => env('MAILGUN_SECRET'),
+        'endpoint' => env('MAILGUN_ENDPOINT', 'api.mailgun.net'),
+        'scheme' => 'https',
+    ],
+
+    'postmark' => [
+        'token' => env('POSTMARK_TOKEN'),
+    ],
+
+    'resend' => [
+        'key' => env('RESEND_KEY'),
+    ],
+
+    'slack' => [
+        'notifications' => [
+            'bot_user_oauth_token' => env('SLACK_BOT_USER_OAUTH_TOKEN'),
+            'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
 

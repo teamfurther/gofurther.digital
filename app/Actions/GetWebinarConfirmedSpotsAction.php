@@ -2,10 +2,10 @@
 
 namespace App\Actions;
 
+use Brevo\Client\Api\ContactsApi;
+use Brevo\Client\Configuration;
 use GuzzleHttp\Client;
 use Illuminate\Log\LogManager;
-use SendinBlue\Client\Api\ContactsApi;
-use SendinBlue\Client\Configuration;
 
 class GetWebinarConfirmedSpotsAction
 {
@@ -17,7 +17,7 @@ class GetWebinarConfirmedSpotsAction
     {
         $this->config = new Configuration();
         $this->config = Configuration::getDefaultConfiguration()->setApiKey(
-            'api-key', config('services.sendinblue.key')
+            'api-key', config('services.brevo.key')
         );
 
         $this->apiInstance = new ContactsApi(new Client(), $this->config);
@@ -29,10 +29,10 @@ class GetWebinarConfirmedSpotsAction
     {
         try {
             $confirmed = $this->apiInstance->getList(
-                config('services.sendinblue.list_ids.webinars.' . $webinar . '.confirmed')
+                config('services.brevo.list_ids.webinars.' . $webinar . '.confirmed')
             );
             $participantsToBe = $this->apiInstance->getList(
-                config('services.sendinblue.list_ids.webinars.' . $webinar . '.participants-to-be')
+                config('services.brevo.list_ids.webinars.' . $webinar . '.participants-to-be')
             );
 
             return $confirmed['totalSubscribers'] + $participantsToBe['totalSubscribers'];

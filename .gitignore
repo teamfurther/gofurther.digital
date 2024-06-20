@@ -1,4 +1,5 @@
 /node_modules
+/public/build
 /public/css
 /public/fonts
 /public/hot
@@ -10,12 +11,18 @@
 /storage/*.key
 /vendor
 /.docker-sync
+/.fleet
 /.idea
+/.phpunit.cache
 /.vscode
 /.vagrant
 .DS_Store
 .env
+.env.backup
+.env.production
+.phpactor.json
 .phpunit.result.cache
+auth.json
 Homestead.json
 Homestead.yaml
 npm-debug.log

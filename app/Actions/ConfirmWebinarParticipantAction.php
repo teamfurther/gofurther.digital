@@ -2,13 +2,12 @@
 
 namespace App\Actions;
 
+use Brevo\Client\Api\ContactsApi;
+use Brevo\Client\Configuration;
+use Brevo\Client\Model\AddContactToList;
+use Brevo\Client\Model\RemoveContactFromList;
 use GuzzleHttp\Client;
-use Illuminate\Http\Request;
 use Illuminate\Log\LogManager;
-use SendinBlue\Client\Api\ContactsApi;
-use SendinBlue\Client\Configuration;
-use SendinBlue\Client\Model\AddContactToList;
-use SendinBlue\Client\Model\RemoveContactFromList;
 use Symfony\Component\HttpFoundation\Response;
 
 class ConfirmWebinarParticipantAction
@@ -21,7 +20,7 @@ class ConfirmWebinarParticipantAction
     {
         $this->config = new Configuration();
         $this->config = Configuration::getDefaultConfiguration()->setApiKey(
-            'api-key', config('services.sendinblue.key')
+            'api-key', config('services.brevo.key')
         );
 
         $this->apiInstance = new ContactsApi(new Client(), $this->config);
@@ -36,11 +35,11 @@ class ConfirmWebinarParticipantAction
 
         try {
             $this->apiInstance->removeContactFromList(
-                config('services.sendinblue.list_ids.webinars.' . $webinar . '.responders'),
+                config('services.brevo.list_ids.webinars.' . $webinar . '.responders'),
                 $removeEmails
             );
             $this->apiInstance->addContactToList(
-                config('services.sendinblue.list_ids.webinars.' . $webinar . '.confirmed'),
+                config('services.brevo.list_ids.webinars.' . $webinar . '.confirmed'),
                 $addEmails
             );
 

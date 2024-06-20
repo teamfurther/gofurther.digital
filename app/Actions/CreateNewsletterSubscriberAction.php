@@ -2,11 +2,11 @@
 
 namespace App\Actions;
 
+use Brevo\Client\Api\ContactsApi;
+use Brevo\Client\Configuration;
+use Brevo\Client\Model\CreateContact;
 use GuzzleHttp\Client;
 use Illuminate\Log\LogManager;
-use SendinBlue\Client\Api\ContactsApi;
-use SendinBlue\Client\Configuration;
-use SendinBlue\Client\Model\CreateContact;
 
 class CreateNewsletterSubscriberAction
 {
@@ -18,7 +18,7 @@ class CreateNewsletterSubscriberAction
     {
         $this->config = new Configuration();
         $this->config = Configuration::getDefaultConfiguration()->setApiKey(
-            'api-key', config('services.sendinblue.key')
+            'api-key', config('services.brevo.key')
         );
 
         $this->apiInstance = new ContactsApi(new Client(), $this->config);
@@ -34,7 +34,7 @@ class CreateNewsletterSubscriberAction
                 'FIRSTNAME' => $fname,
             ],
             'listIds' => [
-                config('services.sendinblue.list_ids.' . getLang()),
+                config('services.brevo.list_ids.' . getLang()),
             ],
         ]);
 
