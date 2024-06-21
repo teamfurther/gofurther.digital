@@ -13,6 +13,7 @@ class RoutesTest extends TestCase
      */
     private array $except = [
         '/',
+        '_ignition/health-check',
         'cover/generate',
         'en/careers',
         'en/careers/{slug}',

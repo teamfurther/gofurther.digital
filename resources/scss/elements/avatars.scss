@@ -1,5 +1,5 @@
 .avatar {
-    border: 5px solid $grey-lighter;
+    border: 5px solid $grey-light;
     border-radius: 100%;
     display: block;
     height: 100px;
@@ -16,6 +16,11 @@
 
     &.is-raspberry {
         border-color: $raspberry;
+    }
+
+    &.is-small {
+        height: 50px;
+        width: 50px;
     }
 
     &.is-tangerine {

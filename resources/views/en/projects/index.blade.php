@@ -169,11 +169,13 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <img class="testimonial__picture" src="{{ asset('img/testimonials-adorian-demeter.png') }}" alt="nJoy - The Hive Adorian Demeter testimonial" />
-                    <blockquote class="testimonial__content">
-                        <p>I couldn't imagine how developing products would work without The Hive. Since its introduction, development of new products is 20% faster and all our data is organized and easy to manage.</p>
-                        <cite class="testimonial__author">Adorian DEMETER, nJoy</cite>
-                    </blockquote>
+                    <div class="has-items-centered">
+                        <img class="testimonial__picture has-margin-r15" src="{{ asset('img/testimonials-adorian-demeter.png') }}" alt="nJoy - The Hive Adorian Demeter testimonial" />
+                        <blockquote class="testimonial__content">
+                            <p>I couldn't imagine how developing products would work without The Hive. Since its introduction, development of new products is 20% faster and all our data is organized and easy to manage.</p>
+                            <cite class="testimonial__author">Adorian DEMETER, nJoy</cite>
+                        </blockquote>
+                    </div>
                 </div>
             </div>
         </div>

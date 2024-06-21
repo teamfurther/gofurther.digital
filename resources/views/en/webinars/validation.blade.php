@@ -160,20 +160,24 @@
             </div>
             <div class="columns has-margin-b60">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <img class="testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-carlo-santone.png') }}" alt="OnePageLink Carlo Santone testimonial" />
-                    <blockquote class="testimonial__content">
-                        <p>We are very happy with what we've built together with Further, and what we continue to come up with creatively & technically as we iterate and refine.</p>
-                        <cite class="testimonial__author">Carlo SANTONE, OnePageLink</cite>
-                    </blockquote>
+                    <div class="has-items-centered is-reversed">
+                        <img class="testimonial__picture has-margin-l15 is-right-aligned" src="{{ asset('img/testimonials-carlo-santone.png') }}" alt="OnePageLink Carlo Santone testimonial" />
+                        <blockquote class="testimonial__content">
+                            <p>We are very happy with what we've built together with Further, and what we continue to come up with creatively & technically as we iterate and refine.</p>
+                            <cite class="testimonial__author">Carlo SANTONE, OnePageLink</cite>
+                        </blockquote>
+                    </div>
                 </div>
             </div>
             <div class="columns has-margin-b90">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <img class="testimonial__picture" src="{{ asset('img/testimonials-ferenc-fodor.png') }}" alt="MPRX Ferenc Fodor testimonial" />
-                    <blockquote class="testimonial__content">
-                        <p>Further held several workshops with us, the aim of which was to map our current products and to define and coordinate our goals. (...) They found the right solutions in a short time, keeping in mind customer needs. In the process, it became clear that they have serious expertise in digital product development and digital transformation projects.</p>
-                        <cite class="testimonial__author">Ferenc FODOR, Menedzser Praxis</cite>
-                    </blockquote>
+                    <div class="has-items-centered">
+                        <img class="testimonial__picture has-margin-r15" src="{{ asset('img/testimonials-ferenc-fodor.png') }}" alt="MPRX Ferenc Fodor testimonial" />
+                        <blockquote class="testimonial__content">
+                            <p>Further held several workshops with us, the aim of which was to map our current products and to define and coordinate our goals. (...) They found the right solutions in a short time, keeping in mind customer needs. In the process, it became clear that they have serious expertise in digital product development and digital transformation projects.</p>
+                            <cite class="testimonial__author">Ferenc FODOR, Menedzser Praxis</cite>
+                        </blockquote>
+                    </div>
                 </div>
             </div>
         </div>

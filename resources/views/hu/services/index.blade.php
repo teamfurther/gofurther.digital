@@ -46,7 +46,9 @@
                             <p>Ebben a fázisban kezdünk el előszőr működő és tapintható prototípusokat építeni, majd ezekkel visszatérni a felhasználókhoz és visszacsatolást kérni.</p>
                             <p class="has-margin-b60">Előbb drótvázakat készítünk, hogy meghatározzuk az információ hierarchiát és kapjál egy elképzelést arról, hogy miként néz majd ki a megoldás. Később ezeket a drótvázakat egy UI design folyamat során felruházzuk színekkel és interakciókkal. Végre életre kelt a projekted!</p>
 
-                            <a class="btn has-margin-b5">UX audit</a>
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.ux-audit') }}">
+                                UX audit
+                            </a>
                             <a class="btn has-margin-b5">UI design</a>
                         </div>
                     </div>
@@ -89,20 +91,24 @@
                         <strong class="is-tangerine">Sikertörténetek</strong> ügyfeleinktől:
                     </h2>
 
-                    <img class="testimonial__picture" src="{{ asset('img/testimonials-brian-dubb.png') }}" alt="Centralized Brian Dubb testimonial" />
+                    <div class="has-items-centered">
+                    <img class="testimonial__picture has-margin-r15" src="{{ asset('img/testimonials-brian-dubb.png') }}" alt="Centralized Brian Dubb testimonial" />
                     <blockquote class="testimonial__content">
                         <p>A Further határidőn és költségvetésen belül fejlesztette le az MVP-t, ami sikeres béta teszteléshez, majd egy második kör befektetéshez vezetett. Örvendünk hogy az applikáció második verzióján is a Furtherrel együtt dolgozhatunk.</p>
                         <cite class="testimonial__author">DUBB Brian, Centralized</cite>
                     </blockquote>
+                    </div>
                 </div>
             </div>
             <div class="columns has-margin-b90">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <img class="testimonial__picture is-right-aligned" src="{{ asset('img/testimonials-attila-szegedi.png') }}" alt="Brewie Attila Szegedi testimonial" />
-                    <blockquote class="testimonial__content">
-                        <p>A Further testreszabta a Chronos tartalommenedzsment rendszerüket, hogy megfeleljen a mi specifikus igényeinknek. Jelenleg a tudástárunk motorjaként üzemel. A rendszer tökéletesen bevált és lehetővé teszi számunkra, hogy nagymennyiségű információt tároljunk és osszunk meg a sörfőző gépunkről és a sörfőzésről.</p>
-                        <cite class="testimonial__author">SZEGEDI Attila, Brewie</cite>
-                    </blockquote>
+                    <div class="has-items-centered is-reversed">
+                        <img class="testimonial__picture has-margin-l15 is-right-aligned" src="{{ asset('img/testimonials-attila-szegedi.png') }}" alt="Brewie Attila Szegedi testimonial" />
+                        <blockquote class="testimonial__content">
+                            <p>A Further testreszabta a Chronos tartalommenedzsment rendszerüket, hogy megfeleljen a mi specifikus igényeinknek. Jelenleg a tudástárunk motorjaként üzemel. A rendszer tökéletesen bevált és lehetővé teszi számunkra, hogy nagymennyiségű információt tároljunk és osszunk meg a sörfőző gépunkről és a sörfőzésről.</p>
+                            <cite class="testimonial__author">SZEGEDI Attila, Brewie</cite>
+                        </blockquote>
+                    </div>
                 </div>
             </div>
         </div>

@@ -72,6 +72,15 @@ $displays: "block" "flex" "inline" "inline-block" "inline-flex";
     }
 }
 
+.has-items-centered {
+    align-items: center;
+    display: flex;
+
+    &.is-reversed {
+        flex-direction: row-reverse;
+    }
+}
+
 // Float
 
 .is-clearfix {
@@ -120,6 +129,14 @@ $displays: "block" "flex" "inline" "inline-block" "inline-flex";
 
 .has-margin-b90 {
     margin-bottom: 90px !important;
+}
+
+.has-margin-l15 {
+    margin-left: 15px !important;
+}
+
+.has-margin-r15 {
+    margin-right: 15px !important;
 }
 
 .has-margin-t15 {

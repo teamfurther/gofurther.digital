@@ -141,7 +141,14 @@
             margin-bottom: 15px;
         }
     }
+}
 
+.hero-heading,
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5 {
     strong {
         &.is-black {
             color: $grey-darker;
@@ -160,6 +167,10 @@
 
         &.is-tangerine {
             color: $tangerine;
+        }
+
+        &.is-white {
+            color: $white;
         }
     }
 }

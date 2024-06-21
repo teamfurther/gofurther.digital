@@ -67,6 +67,7 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
     Route::get('projects/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
 
     Route::view('services', 'en.services.index')->name('services');
+    Route::view('services/ux-audit', 'en.services.ux-audit')->name('services.ux-audit');
 
     Route::view('solutions', 'en.solutions.index')
         ->name('solutions');
@@ -146,6 +147,7 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
     Route::get('projektek/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
 
     Route::view('szolgaltatasok', 'hu.services.index')->name('services');
+    Route::view('szolgaltatasok/ux-audit', 'hu.services.ux-audit')->name('services.ux-audit');
 
     Route::view('megoldasaink', 'hu.solutions.index')
         ->name('solutions');

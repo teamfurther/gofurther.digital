@@ -1,23 +1,4 @@
 .testimonial {
-    background: url(../img/testimonial-bg.jpg) center center / cover no-repeat;
-    color: $white;
-    margin: -30px -15px;
-    padding: 60px 15px;
-    text-align: center;
-
-    @include tablet() {
-        margin: -60px -15px;
-    }
-
-    @include desktop() {
-        background: url(../img/testimonial-bg-md.jpg) center center / cover no-repeat;
-        margin: -90px -15px;
-    }
-
-    @include widescreen() {
-        background: url(../img/testimonial-bg-lg.jpg) center center / cover no-repeat;
-    }
-
     &__author {
         font-style: normal;
         font-weight: 700;
@@ -31,7 +12,6 @@
 
         @include tablet() {
             float: right;
-            padding-top: 20px;
             width: calc(100% - 168px);
         }
     }
