@@ -36,6 +36,9 @@ jobs:
           - name: Install dependencies
             run: composer update --no-interaction --prefer-dist --${{ matrix.dependency-version }}
 
+          - name: Build frontend
+            run: npm install && npm run build
+
           - name: Prepare Laravel Application
             run: |
                 cp .env.example .env

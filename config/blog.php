@@ -5,6 +5,20 @@ return [
     'posts' => [
         [
             'en' => [
+                'slug' => 'first-steps-to-creating-wireframes',
+                'tags' => [
+                    'ux' => 'UX',
+                ],
+            ],
+            'hu' => [
+                'slug' => 'elso-lepesek-a-drotvazkeszitesben',
+                'tags' => [
+                    'ux' => 'UX',
+                ]
+            ],
+        ],
+        [
+            'en' => [
                 'slug' => 'how-to-run-successful-user-interviews',
                 'tags' => [
                     'ux' => 'UX',
