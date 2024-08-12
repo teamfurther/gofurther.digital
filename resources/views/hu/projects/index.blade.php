@@ -48,7 +48,7 @@
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
                     >
-                        <img class="project-list__item__image" src="{{ asset('media/projects/centralized-project-list.jpg') }}" alt="Centralized.me művészmenedzsment platform" />
+                        <img class="project-list__item__image" src="{{ asset('media/projects/centralized-project-list.png') }}" alt="Centralized.me művészmenedzsment platform" />
 
                         <h1 class="project-list__item__title">Centralized.me művészmenedzsment platform</h1>
                         <div class="project-list__item__description">

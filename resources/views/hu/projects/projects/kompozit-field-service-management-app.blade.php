@@ -55,7 +55,6 @@
                         <em class="project__text-emphasis">Probléma</em>
                         <p>Legyünk őszinték. A munkások ritkán szeretnek papírmunkázni. Ha hiánytalanul ki is töltik a munkalapot, ezek gyakran elvesznek vagy megrongálódnak az autó csomagterében. Az eltűnt munkalapok pedig hiányos riportokhoz és a döntések hátráltatásához vezetnek. A hiányos munkalapokból kritikus információk hiányozhatnak az elvégezett feladatokról, a felhasznált anyagokról vagy munkaidőről ami az elvégzett munka megértéséhez szükséges. Emiatt pedig úgy a munkások, mint az irodai dolgozók számára nehéz a projekt haladását felmérni és az ügyfél felé elszámolni.</p>
                         <em class="project__text-emphasis">Megoldás</em>
-                        <p>With our solution every piece of information can be found and tracked in a single digital space. Digital worksheets streamline processes by allowing easy data entry, retrieval, and sharing. This enhances overall efficiency and reduces time spent searching for or recreating lost documents.</p>
                         <p>Megoldásunkat használva, minden információ egyetlen digitális helyen tárolódik A digitális munkalapok hatékonyabbá teszik a munkavégzés folyamatát, mivel egyszerűbb és gyorsabb lesz adatok felvitele, lekérdezése és megosztása. Az ügyfeleink kevesebb időt töltenek információk keresésével és elveszett dokumentumok újboli megszerkesztésével.</p>
                     </div>
                     <div class="column">
@@ -67,7 +66,7 @@
                         <h5 class="heading-3">Valós idejű kommunikáció</h5>
                         <em class="project__text-emphasis">Probléma</em>
                         <p>Egy másik probléma amit kutatásunk során felfedeztünk az volt, hogy legtöbb cég az elszámolást hónap végére hagyja. Az ellentmondó vagy hiányzó adatokat ilyenkor már nehéz volt összeegyeztetni, hiszen senki sem emlékezett, hogy pontosan mi történt hetekkel ezelőtt a helyszínen.</p>
-                        <em class="project__text-emphasis">Megoldás</em>>
+                        <em class="project__text-emphasis">Megoldás</em>
                         <p>A Kompozit lehetővé teszi a munkaidő, felhasznált anyagok és alkatrészek, illetve fotó dokumentáció rögzítését, amit az irodában is rögtön látnak, így akár már aznap számlázhatnak az ügyfél felé..</p>
                     </div>
                     <div class="column">
