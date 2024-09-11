@@ -101,18 +101,18 @@
 
                         <img class="project-list__featured__image" src="{{ asset('media/projects/njoy-project-list.png') }}" alt="nJoy - The Hive ERP system - Rapid Product Development" />
                     </a>
-                    <a class="project-list__featured project-list__featured--centralized is-reversed"
-                       href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
+                    <a class="project-list__featured project-list__featured--kompozit is-reversed"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'kompozit-field-service-management-app']) }}"
                     >
                         <div class="project-list__featured__content">
-                            <h1 class="project-list__featured__title">Centralized.me művészmenedzsment platform</h1>
+                            <h1 class="project-list__featured__title">Kompozit Field Service Management</h1>
                             <div class="project-list__featured__description">
-                                A centralized.me a világ első művészmenedzsment applikációja, önszervezett zenészek és modern menedzserek számára. Tartalmaz minden olyan videó anyagot, útmutatót, munkafüzetet, költségvetést, email- és szerződésmintát, amire egy zenésznek szüksége lehet.
+                                A Kompozit egy helyszíni munkavégzést támogató megoldás amely segít a szervíz és karbantartási munkák hatékony dokumentálásában.
                             </div>
                             <span class="btn is-tangerine">Olvasd el az esettanulmány</span>
                         </div>
 
-                        <img class="project-list__featured__image" src="{{ asset('media/projects/centralized-project-list.png') }}" alt="Centralized.me művészmenedzsment platform" />
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/kompozit-project-list.png') }}" alt="Kompozit Field Service Management" />
                     </a>
                 </div>
             </div>

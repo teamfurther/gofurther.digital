@@ -37,7 +37,7 @@
                     <div class="columns services__service" id="ux-research-and-design">
                         <div class="column">
                             <h2 class="heading-1 has-margin-b30 has-margin-t90">
-                                UX Research & Design
+                                UX & UI Design
                             </h2>
                             <div class="services__outcome">
                                 What you'll get → <span>Wireframes</span>, <span>UI Designs</span>

@@ -37,7 +37,7 @@
                     <div class="columns services__service" id="ux-kutatas-es-tervezes">
                         <div class="column">
                             <h2 class="heading-1 has-margin-b30 has-margin-t90">
-                                UX kutatás és tervezés
+                                UX és UI tervezés
                             </h2>
                             <div class="services__outcome">
                                 Amit kapsz → <span>Drótvázak</span>, <span>UI designok</span>
