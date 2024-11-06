@@ -23,7 +23,7 @@
                         <div class="column is-10-tablet is-8-desktop e-content">
                             <p class="has-margin-b60">A drótváz készítése alapvető lépés a sikeres digitális termékek létrehozásában, legyen szó weboldalról, mobilalkalmazásról vagy bármilyen más felületről. Ez a folyamat segít körvonalazni a design szerkezetét és funkcionalitását, átlátható útmutatót adva a részletek kidolgozása előtt.</p>
                             <h2 class="heading-2 has-margin-b30">Mi az a drótváz?</h2>
-                            <p>A drótváz egy vizuális tervrajz egy weboldalról, szoftverről vagy alkalmazás képernyőjéről. Csontvázszerű vázlatot ad az oldal elrendezéséről, az olyan elemek elhelyezésére összpontosítva, mint a navigációs menük, gombok, képek és szövegek. Ellentétben a végleges dizájnnal, a drótvázak egyszerűek és mentesek olyan design elemektől, mint a színek, betűtípusok vagy képek. Gondolj rájuk úgy, mint a digitális projekted építészeti tervére, amely körvonalazza annak funkcionalitását és szerkezetét.</p>
+                            <p>A drótváz egy vizuális tervrajz egy weboldalról, szoftverről vagy alkalmazás képernyőjéről. Csontvázszerű vázlatot ad az oldal elrendezéséről, az olyan elemek elhelyezésére összpontosítva, mint a navigációs menük, gombok, képek és szövegek. Ellentétben a végleges designal, a drótvázak egyszerűek és mentesek olyan design elemektől, mint a színek, betűtípusok vagy képek. Gondolj rájuk úgy, mint a digitális projekted építészeti tervére, amely körvonalazza annak funkcionalitását és szerkezetét.</p>
                             <figure>
                                 <img src="{{ asset('media/blog/wireframe-1.png') }}" alt="Wireframe" />
                             </figure>

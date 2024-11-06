@@ -30,8 +30,9 @@
                             <p>Együtt elkezdjük feltérképezni a víziót. Az ötletedet problémákra és kihívásokra bontjuk, majd az egészet ismét összerakjuk egy termékstratégia formájában.</p>
                             <p class="has-margin-b60">Ennek a fázisnak a kulcsfeladata a felhasználók megismerése. Felhasználói- és panelinterjúkat végzünk, hogy validálni tudjuk a koncepciót.</p>
 
-                            <a class="btn has-margin-b5">Discovery Workshop</a>
-                            <a class="btn has-margin-b5">Design Sprint</a>
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.discovery-workshop') }}">Discovery Workshop</a>
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.design-sprint') }}">Design Sprint</a>
+                            <span class="services__pointer">👈</span>
                         </div>
                     </div>
                     <div class="columns services__service" id="ux-kutatas-es-tervezes">
@@ -40,7 +41,7 @@
                                 UX és UI tervezés
                             </h2>
                             <div class="services__outcome">
-                                Amit kapsz → <span>Drótvázak</span>, <span>UI designok</span>
+                                Amit kapsz → <span>UX Akcióterv</span>, <span>Drótvázak</span>, <span>UI designok</span>
                             </div>
 
                             <p>Ebben a fázisban kezdünk el előszőr működő és tapintható prototípusokat építeni, majd ezekkel visszatérni a felhasználókhoz és visszacsatolást kérni.</p>
@@ -49,7 +50,8 @@
                             <a class="btn has-margin-b5" href="{{ localizedRoute('services.ux-audit') }}">
                                 UX audit
                             </a>
-                            <a class="btn has-margin-b5">UI design</a>
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.ui-design') }}">UI design</a>
+                            <span class="services__pointer">👈</span>
                         </div>
                     </div>
                     <div class="columns services__service" id="digitalis-termekfejlesztes">
@@ -63,10 +65,10 @@
                             <p>Ha a digitális térben él, akkor mi meg tudjuk építeni! No-code prototípustól, komplex mobil applikáción át a mesterséges intelligenciát alkalmazó IoT megoldásig mindent láttunk már.</p>
                             <p class="has-margin-b60">Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, amelyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.</p>
 
-                            <a class="btn has-margin-b5">No-code és low-code megoldások</a>
-                            <a class="btn has-margin-b5">Mobilapplikációk</a>
-                            <a class="btn has-margin-b5">Webes applikációk</a>
-                            <a class="btn has-margin-b5">SaaS termékek</a>
+                            <a class="btn has-margin-b5 is-disabled">No-code és low-code megoldások</a>
+                            <a class="btn has-margin-b5 is-disabled">Mobilapplikációk</a>
+                            <a class="btn has-margin-b5 is-disabled">Webes applikációk</a>
+                            <a class="btn has-margin-b5 is-disabled">SaaS termékek</a>
                         </div>
                     </div>
                 </div>

@@ -35,6 +35,49 @@ return [
         'email' => 'hello@gofurther.digital',
     ],
 
+    'prices' => [
+        'design-sprint' => [
+            'default' => '3990',
+            'payment_url' => 'https://book.stripe.com/fZe5ny8Zxgxe10I7su',
+            'promo' => [
+                'name' => 'Online Special',
+                'price' => '2990',
+            ]
+        ],
+        'discovery' => [
+            'default' => '1990',
+            'payment_url' => 'https://book.stripe.com/fZe17i0t194M7p66op',
+            'promo' => [
+                'name' => 'Online Special',
+                'price' => '1390',
+            ]
+        ],
+        'ui-design' => [
+            'default' => '3490',
+            'promo' => [
+                'name' => 'Online Special',
+                'price' => '2490',
+            ],
+            'spots' => 2,
+        ],
+        'ui-design-duo' => [
+            'default' => '4490',
+        ],
+        'ui-design-trial' => [
+            'default' => '750',
+        ],
+        'ux-audit' => [
+            'default' => '1490',
+            'payment_url' => 'https://book.stripe.com/3cs4jua3B0yg5gY144',
+            'promo' => [
+//                'name' => 'Online Special',
+//                'price' => '990',
+                'name' => 'WebSummit2024',
+                'price' => '490',
+            ],
+        ],
+    ],
+
     'social' => [
         'facebook' => 'https://facebook.com/furtherdigitalsolutions',
         'github' => 'https://github.com/teamfurther',
@@ -47,7 +90,7 @@ return [
     'stats' => [
         'avg_years' => 3.3,
         'clients' => 78,
-        'company_age' => 8,
+        'company_age' => 11,
         'countries' => 11,
         'projects' => 185,
     ]

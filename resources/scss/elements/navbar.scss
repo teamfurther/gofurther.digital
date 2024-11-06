@@ -109,7 +109,7 @@
                 padding: 0 15px;
 
                 &:hover {
-                    background-color: $pearl;
+                    background-color: lighten($pearl, 5%);
                     color: $white;
                 }
             }
@@ -316,7 +316,7 @@
             text-align: center;
 
             &:hover {
-                background-color: $pearl;
+                background-color: lighten($pearl, 5%);
                 color: $white;
             }
         }

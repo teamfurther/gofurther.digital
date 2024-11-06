@@ -26,7 +26,8 @@ class JobsController
     public function index(): View
     {
         return view(getLang() . '.jobs.index')->with([
-            'jobs' => Job::all(),
+//            'jobs' => Job::all(),
+            'jobs' => [],
         ]);
     }
 

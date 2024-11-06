@@ -159,7 +159,7 @@
                     Strategy & Research
                 </a>
                 <a href="{{ localizedRoute('services') }}#ux-research-and-design">
-                    UX Research & Design
+                    UX Research & UI Design
                 </a>
                 <a href="{{ localizedRoute('services') }}#digital-product-development">
                     Digital Product Development

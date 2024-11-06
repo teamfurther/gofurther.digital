@@ -83,7 +83,7 @@
                         <cite class="project__testimonial__author">SANTONE Carlo</cite>
                         <span class="project__testimonial__title">Alapító, OnePageLink</span>
                         <blockquote class="project__testimonial__content">
-                            <p>"Nyitottak és barátságosak, mindig elegendő időt adnak, hogy felvázold az igényeidet, amikre okos és logikus megoldásokat javasolnak. Elégedettek vagyunk azzal, amit a Furtherrel közösen építettünk, illetve hogy továbbra is színvonalas kretív és technikai megoldásokat alkalmazunk, amint a terméket finomítjuk."</p>
+                            <p>"Nyitottak és barátságosak, mindig elegendő időt adnak, hogy felvázold az igényeidet, amikre okos és logikus megoldásokat javasolnak. Elégedettek vagyunk azzal, amit a Furtherrel közösen építettünk, illetve hogy továbbra is színvonalas kreatív és technikai megoldásokat alkalmazunk, amint a terméket finomítjuk."</p>
                         </blockquote>
                     </div>
                 </div>

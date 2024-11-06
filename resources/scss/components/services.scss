@@ -116,6 +116,167 @@
         }
     }
 
+    &__pointer {
+        align-items: center;
+        animation: point 1s 1s infinite;
+        display: inline-flex;
+        font-size: 28px;
+        height: 34px;
+        vertical-align: middle;
+    }
+
+    &__service {
+        &__alert {
+            align-items: center;
+            background-color: rgba($raspberry, .4);
+            border: 1px solid $raspberry;
+            border-radius: 15px;
+            display: flex;
+            font-size: 14px;
+            padding: 3px 10px;
+            position: relative;
+
+            &:after {
+                animation: pulse 2s linear forwards infinite;
+                background-color: $raspberry;
+                border-radius: 100%;
+                content: '';
+                display: inline-block;
+                height: 7px;
+                position: absolute;
+                width: 7px;
+                z-index: 5;
+            }
+
+            &:before {
+                background-color: $raspberry;
+                border-radius: 100%;
+                content: '';
+                display: inline-block;
+                height: 7px;
+                margin-right: 7px;
+                position: relative;
+                width: 7px;
+                z-index: 10;
+            }
+        }
+
+        &__benefits {
+            border-radius: 15px;
+            color: $white;
+            padding: 15px;
+
+            &.is-cobalt {
+                background-color: $cobalt;
+            }
+
+            &.is-pearl {
+                background-color: $pearl;
+            }
+
+            &.is-raspberry {
+                background-color: $raspberry;
+            }
+
+            &.is-tangerine {
+                background-color: $tangerine;
+            }
+
+            &__badge {
+                background-color: $white;
+                border-radius: 5px;
+                color: $grey-darker;
+                display: table;
+                font-size: 12px;
+                font-weight: 700;
+                margin-bottom: 10px;
+                padding: 2px 5px;
+            }
+
+            &__list {
+                li {
+                    align-items: center;
+                    display: flex;
+                    font-size: 18px;
+
+                    &:before {
+                        content: '↪';
+                        font-size: 24px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+
+        &__plan {
+            box-shadow: 1px 1px 3px 0 rgba($black, .15);
+            border: 1px solid $grey-light;
+            border-radius: 5px;
+            padding: 30px;
+
+            &__items {
+                li {
+                    align-items: center;
+                    display: flex;
+                    font-size: 14px;
+
+                    &:before {
+                        content: '↪';
+                        font-size: 24px;
+                        margin-right: 10px;
+                    }
+
+                    &.is-empty {
+                        &:before {
+                            content: '';
+                            height: 36px;
+                        }
+                    }
+                }
+
+                &__title {
+                    color: $grey-darker;
+                    font-family: $family-highlight;
+                    font-size: 18px;
+                    font-weight: 700;
+                    margin-bottom: 15px;
+                }
+            }
+
+            &__price {
+                color: $grey-darker;
+                font-family: $family-highlight;
+                font-size: 32px;
+                margin-bottom: 30px;
+            }
+
+            &__title {
+                color: $grey-darker;
+                font-family: $family-highlight;
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 5px;
+            }
+        }
+
+        &__price {
+            display: inline-flex;
+            font-family: $family-highlight;
+            font-size: 24px;
+            line-height: 1;
+            margin-right: 10px;
+            text-decoration: line-through;
+        }
+
+        &__price-promo {
+            display: inline-flex;
+            font-family: $family-highlight;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1;
+        }
+    }
+
     &__static {
         display: inline-block;
         left: 50%;
@@ -205,5 +366,26 @@
                 box-shadow: 5px 0 0 $white, -5px 0 0 $white;
             }
         }
+    }
+}
+
+@keyframes point {
+    0%, 100%   {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: 10px;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1
+    }
+
+    100% {
+        transform: scale(2.5);
+        opacity: 0
     }
 }

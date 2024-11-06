@@ -83,7 +83,7 @@
             <div class="columns">
                 <div class="column is-7-tablet">
                     <h2 class="hero-heading has-margin-b15">
-                        <strong class="is-tangerine">Remote</strong> is natural
+                        <strong class="is-tangerine">Remote</strong> is in our DNA
                     </h2>
                 </div>
             </div>

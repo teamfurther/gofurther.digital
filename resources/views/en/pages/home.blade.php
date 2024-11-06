@@ -26,7 +26,7 @@
 
                     <ul class="list has-bullets">
                         <li><a class="is-grey" href="{{ localizedRoute('services') }}#strategy-and-research">Strategy & Research</a></li>
-                        <li><a class="is-grey" href="{{ localizedRoute('services') }}#ux-research-and-design">UX Research & Design</a></li>
+                        <li><a class="is-grey" href="{{ localizedRoute('services') }}#ux-research-and-design">UX Research & UI Design</a></li>
                         <li><a class="is-grey" href="{{ localizedRoute('services') }}#digital-product-development">Digital Product Development</a></li>
                     </ul>
                 </div>

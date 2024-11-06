@@ -30,8 +30,13 @@
                             <p>Together, we start by exploring your vision. We'll break up your idea into problems and challenges we need to solve and then put everything back together by creating a product strategy.</p>
                             <p class="has-margin-b60">One of the core activities in this phase is getting to know your users by conducting user interviews and panels to validate the concept.</p>
 
-                            <a class="btn has-margin-b5">Discovery Workshop</a>
-                            <a class="btn has-margin-b5">Design Sprint</a>
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.discovery-workshop') }}">
+                                Discovery Workshop
+                            </a>
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.design-sprint') }}">
+                                Design Sprint
+                            </a>
+                            <span class="services__pointer">👈</span>
                         </div>
                     </div>
                     <div class="columns services__service" id="ux-research-and-design">
@@ -40,7 +45,7 @@
                                 UX & UI Design
                             </h2>
                             <div class="services__outcome">
-                                What you'll get → <span>Wireframes</span>, <span>UI Designs</span>
+                                What you'll get → <span>UX Action Plan</span>, <span>Wireframes</span>, <span>UI Designs</span>
                             </div>
 
                             <p>This is where we start building real, tactile representations of your concepts, then return to the users for feedback. Exciting times!</p>
@@ -49,7 +54,10 @@
                             <a class="btn has-margin-b5" href="{{ localizedRoute('services.ux-audit') }}">
                                 UX audit
                             </a>
-                            <a class="btn has-margin-b5">UI Design</a>
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.ui-design') }}">
+                                UI Design
+                            </a>
+                            <span class="services__pointer">👈</span>
                         </div>
                     </div>
                     <div class="columns services__service" id="digital-product-development">
@@ -63,10 +71,10 @@
                             <p>If it lives in the digital space, we can build it! From no-code prototypes to further validate your concept, to a feature-rich mobile app or and AI-driven IoT solution, we've seen it all.</p>
                             <p class="has-margin-b60">By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.</p>
 
-                            <a class="btn has-margin-b5">No-code and low-code solutions</a>
-                            <a class="btn has-margin-b5">Mobile apps</a>
-                            <a class="btn has-margin-b5">Web apps</a>
-                            <a class="btn has-margin-b5">SaaS products</a>
+                            <a class="btn has-margin-b5 is-disabled">No-code and low-code solutions</a>
+                            <a class="btn has-margin-b5 is-disabled">Mobile apps</a>
+                            <a class="btn has-margin-b5 is-disabled">Web apps</a>
+                            <a class="btn has-margin-b5 is-disabled">SaaS products</a>
                         </div>
                     </div>
                 </div>

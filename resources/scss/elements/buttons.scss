@@ -19,7 +19,7 @@
     }
 
     &:hover {
-        background-color: lighten($grey-darker, 2.5%);
+        background-color: lighten($grey-darker, 15%);
         color: $white;
     }
 
@@ -28,7 +28,7 @@
         background-color: $cobalt;
 
         &:hover {
-            background-color: lighten($cobalt, 2.5%);
+            background-color: lighten($cobalt, 5%);
         }
     }
 
@@ -36,7 +36,7 @@
         background-color: $pearl;
 
         &:hover {
-            background-color: lighten($pearl, 2.5%);
+            background-color: lighten($pearl, 5%);
         }
     }
 
@@ -44,7 +44,7 @@
         background-color: $raspberry;
 
         &:hover {
-            background-color: lighten($raspberry, 2.5%);
+            background-color: lighten($raspberry, 5%);
         }
     }
 
@@ -52,12 +52,12 @@
         background-color: $tangerine;
 
         &:hover {
-            background-color: lighten($tangerine, 2.5%);
+            background-color: lighten($tangerine, 5%);
         }
     }
 
     &.is-white {
-        background-color: darken($white, 2.5%);
+        background-color: darken($white, 5%);
         color: $cobalt;
 
         &:hover {
