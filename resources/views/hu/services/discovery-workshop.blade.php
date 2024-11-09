@@ -214,7 +214,7 @@
                         <a class="btn has-margin-t15 is-large is-white" href="{{ config('site.prices.discovery.payment_url') }}?prefilled_promo_code={{ config('site.prices.discovery.promo.name') }}" target="_blank">
                             Foglald le most
                         </a>
-                        <a class="has-text-underlined is-white" href="{{ localizedRoute('contact') }}">vagy írj</a>
+                        <a class="has-margin-t15 has-text-underlined is-block is-white" href="{{ localizedRoute('contact') }}">vagy írj</a>
                     </div>
                 </div>
             </div>

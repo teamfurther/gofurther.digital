@@ -237,7 +237,7 @@
                         Ne veszíts több ügyfelet!
                     </h3>
                     <h4 class="heading-5 has-margin-b0">
-                        Legyen jobb konverziód és tarts meg könnyebben az ügyfeleket.
+                        Legyen jobb konverziód és tartsd meg könnyebben az ügyfeleket.
                     </h4>
                 </div>
                 <div class="column is-4-desktop">
@@ -268,7 +268,7 @@
             <div class="columns">
                 <div class="column is-6-desktop">
                     <h2 class="heading-1 has-margin-b60">
-                        Töltsd le egy <strong class="is-pearl">minta</strong> auditot
+                        Tölts le egy <strong class="is-pearl">minta</strong> auditot
                     </h2>
 
                     <form class="has-margin-t60" action="{{ localizedRoute('freebies.get') }}" method="POST">
@@ -357,7 +357,7 @@
                         <a class="btn has-margin-t15 is-large" href="{{ config('site.prices.ux-audit.payment_url') }}?prefilled_promo_code={{ config('site.prices.ux-audit.promo.name') }}" target="_blank">
                             Kérd a UX auditodat ma
                         </a>
-                        <a class="has-text-underlined is-white" href="{{ localizedRoute('contact') }}">vagy írj</a>
+                        <a class="has-margin-t15 has-text-underlined is-block is-white" href="{{ localizedRoute('contact') }}">vagy írj</a>
                     </div>
                 </div>
             </div>
