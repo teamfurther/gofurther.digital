@@ -41,3 +41,5 @@ Route::group(['prefix' => 'hu'], function (): void {
     Route::redirect('eszkoztar', '/hu/rolunk#eszkoztar', 301);
     Route::redirect('rolunk/csapatunk', '/hu/rolunk', 301);
 });
+
+Route::redirect('/media/further-booklet-0417-web-en.pdf', '/media/further-booklet-0821-web-en.pdf', 301);

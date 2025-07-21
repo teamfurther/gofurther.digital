@@ -43,7 +43,10 @@ class CreateNewsletterSubscriberAction
 
             return 1;
         } catch (\Exception $exception) {
-            if (str_contains($exception->getMessage(), 'Contact already exist')) {
+            if (
+                str_contains($exception->getMessage(), 'Contact already exist')
+                || str_contains($exception->getMessage(), 'email is already associated with another Contact')
+            ) {
                 return 2;
             }
 
