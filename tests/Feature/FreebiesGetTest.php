@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit;
+namespace Tests\Feature;
 
 use App\Actions\CreateNewsletterSubscriberAction;
 use App\Notifications\FreebieRequestedNotification;

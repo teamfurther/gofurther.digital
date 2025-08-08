@@ -1,3 +1,6 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
 .alert {
     background-color: $grey-lighter;
     border-radius: 3px;
@@ -20,11 +23,11 @@
     }
 
     &.is-error {
-        background: url(../img/alert-error-bg.png) -30px 50% no-repeat $coral; // https://thenounproject.com/goldenroof/collection/mood-smiles
+        background: url(../../img/alert-error-bg.png) -30px 50% no-repeat $coral; // https://thenounproject.com/goldenroof/collection/mood-smiles
     }
 
     &.is-success {
-        background: url(../img/alert-success-bg.png) -30px 50% no-repeat $pearl; // https://thenounproject.com/goldenroof/collection/mood-smiles
+        background: url(../../img/alert-success-bg.png) -30px 50% no-repeat $pearl; // https://thenounproject.com/goldenroof/collection/mood-smiles
     }
 
     &.is-open {

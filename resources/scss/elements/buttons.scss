@@ -1,3 +1,6 @@
+@use "sass:color";
+@use "../utilities/variables" as *;
+
 .btn {
     background-color: $grey-darker;
     border: none;
@@ -19,7 +22,7 @@
     }
 
     &:hover {
-        background-color: lighten($grey-darker, 15%);
+        background-color: color.adjust($grey-darker, $lightness: 15%);
         color: $white;
     }
 
@@ -28,7 +31,7 @@
         background-color: $cobalt;
 
         &:hover {
-            background-color: lighten($cobalt, 5%);
+            background-color: color.adjust($cobalt, $lightness: 5%);
         }
     }
 
@@ -36,7 +39,7 @@
         background-color: $pearl;
 
         &:hover {
-            background-color: lighten($pearl, 5%);
+            background-color: color.adjust($pearl, $lightness: 5%);
         }
     }
 
@@ -44,7 +47,7 @@
         background-color: $raspberry;
 
         &:hover {
-            background-color: lighten($raspberry, 5%);
+            background-color: color.adjust($raspberry, $lightness: 5%);
         }
     }
 
@@ -52,12 +55,12 @@
         background-color: $tangerine;
 
         &:hover {
-            background-color: lighten($tangerine, 5%);
+            background-color: color.adjust($tangerine, $lightness: 5%);
         }
     }
 
     &.is-white {
-        background-color: darken($white, 5%);
+        background-color: color.adjust($white, $lightness: -5%);
         color: $cobalt;
 
         &:hover {

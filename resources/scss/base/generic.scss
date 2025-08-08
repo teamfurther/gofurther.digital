@@ -1,3 +1,7 @@
+@use "sass:color";
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
 html {
     background-color: $white;
     font-size: 14px;
@@ -59,13 +63,13 @@ body {
 // Inline
 
 a {
-    color: darken($pearl, 15%);
+    color: color.adjust($pearl, $lightness: -15%);
     cursor: pointer;
     text-decoration: none;
     transition: none;
 
     &:hover {
-        color: darken($pearl, 25%);
+        color: color.adjust($pearl, $lightness: -25%);
     }
 
     &.is-grey {

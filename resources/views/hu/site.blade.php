@@ -102,72 +102,6 @@
         @if (!isset($showNav) || $showNav)
         <nav class="navbar">
             <div class="navbar__item"><a href="{{ localizedRoute('projects') }}">Projektjeink</a></div>
-            <div class="navbar__item has-subnav">
-                <a href="{{ localizedRoute('solutions') }}">
-                    Megoldásaink <span class="navbar__item__caret"></span>
-                </a>
-                <nav class="navbar__subnav">
-                    <div class="container">
-                        <div class="columns">
-                            <div class="column is-one-third is-sales-operations">
-                                <h3 class="navbar__subnav__title">Vállalatirányítás és ügyvitel</h3>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.crm') }}">CRM</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.sales') }}">Értékesítés</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.projects') }}">Projektmenedzsment</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.accounting') }}">Számvitel</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.purchase') }}">Beszerzés és leltározás</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.plm') }}">Termékéletciklus-kezelés</a>
-                                </div>
-                            </div>
-                            <div class="column is-one-third is-productivity">
-                                <h3 class="navbar__subnav__title">Kommunikáció és produktivitás</h3>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.communication') }}">Kommunikáció</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.time-tracking') }}">Időkövetés</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.hr') }}">Humán erőforrások</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.dms') }}">Dokumentumkezelés</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.wiki') }}">Tudástár</a>
-                                </div>
-                            </div>
-                            <div class="column is-one-third is-websites">
-                                <h3 class="navbar__subnav__title">Web- és mobilfejlesztés</h3>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.mvp') }}">MVP fejlesztés</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.mobile') }}">Mobilapplikációk</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.chronos') }}">Egyedi weboldalak - Chronos CMS</a>
-                                </div>
-                                <div class="navbar__subnav__item">
-                                    <a href="{{ localizedRoute('solutions.ecommerce') }}">Webáruház</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="navbar__subnav__overlay"></div>
-                </nav>
-            </div>
             <div class="navbar__item"><a href="{{ localizedRoute('services') }}">Szolgáltatásaink</a></div>
             <div class="navbar__item"><a href="{{ localizedRoute('about') }}">Rólunk</a></div>
             <div class="navbar__item"><a href="{{ localizedRoute('blog') }}">Blog</a></div>
@@ -185,9 +119,6 @@
             </a>
             <a class="navbar--mobile__item" href="{{ localizedRoute('projects') }}">
                 Projektjeink
-            </a>
-            <a class="navbar--mobile__item" href="{{ localizedRoute('solutions') }}">
-                Megoldásaink
             </a>
             <a class="navbar--mobile__item" href="{{ localizedRoute('services') }}">
                 Szolgáltatásaink
@@ -253,7 +184,6 @@
                 <a href="{{ config('site.social.linkedin') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--linkedin"></span></a>
                 <a href="{{ config('site.social.instagram') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--instagram"></span></a>
                 <a href="{{ config('site.social.github') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--github"></span></a>
-                <a href="{{ config('site.social.medium') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--medium"></span></a>
             </nav>
         </div>
         <div class="footer__bottom">

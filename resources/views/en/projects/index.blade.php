@@ -26,20 +26,21 @@
                             <span class="btn is-tangerine">Explore the case study</span>
                         </div>
 
-                        <img class="project-list__featured__image" src="{{ asset('media/projects/kompozit-project-list.png') }}" alt="Kompozit Field Service Management App" />
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/kompozit-project-list.png?v2') }}" alt="Kompozit Field Service Management App" width="588" />
                     </a>
                     <a class="project-list__featured project-list__featured--njoy-the-hive"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'njoy-the-hive']) }}"
                     >
                         <div class="project-list__featured__content">
                             <h1 class="project-list__featured__title">nJoy - The Hive ERP</h1>
+                            <h2 class="project-list__featured__subtitle">Achieved 30% decrease in man-hours</h2>
                             <div class="project-list__featured__description">
                                 nJoy, a consumer electronics brand, quickly outgrew their existing software infrastructure and needed a custom-built integrated solution. They employed us to deliver a product lifecycle management tool, created from the ground up to fit their particular needs.
                             </div>
                             <span class="btn is-white">Explore the case study</span>
                         </div>
 
-                        <img class="project-list__featured__image" src="{{ asset('media/projects/njoy-project-list.png') }}" alt="nJoy - The Hive ERP system - Rapid Product Development" />
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/njoy-project-list.png?v2') }}" alt="nJoy - The Hive ERP system - Rapid Product Development" width="588" />
                     </a>
                 </div>
             </div>
@@ -48,7 +49,7 @@
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'centralized']) }}"
                     >
-                        <img class="project-list__item__image" src="{{ asset('media/projects/centralized-project-list.png?v2') }}" alt="Centralized.me Artist Management Platform" />
+                        <img class="project-list__item__image" src="{{ asset('media/projects/centralized-project-list-small.jpg?v2') }}" alt="Centralized.me Artist Management Platform" />
 
                         <h1 class="project-list__item__title">Centralized.me Artist Management Platform</h1>
                         <div class="project-list__item__description">
@@ -58,9 +59,21 @@
                 </div>
                 <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
                     <a class="project-list__item"
+                       href="{{ route(getLang() . '.projects.show', ['slug' => 'onrobot-website-redesign']) }}"
+                    >
+                        <img class="project-list__item__image" src="{{ asset('media/projects/onrobot-project-list-small.jpg?v2') }}" alt="OnRobot Website Redesign" />
+
+                        <h1 class="project-list__item__title">OnRobot Website Redesign</h1>
+                        <div class="project-list__item__description">
+                            As their marketing and sales ambitions grew, OnRobot needed a new website that could keep pace and enable their team to build modular landing pages, launch campaigns, and run A/B tests independently, without relying on external developers.
+                        </div>
+                    </a>
+                </div>
+                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
+                    <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'onepagelink-electronic-press-kit-builder']) }}"
                     >
-                        <img class="project-list__item__image" src="{{ asset('media/projects/opl-project-list.jpg') }}" alt="OnePageLink - Electronic Press Kit Builder" />
+                        <img class="project-list__item__image" src="{{ asset('media/projects/opl-project-list-small.jpg?v2') }}" alt="OnePageLink - Electronic Press Kit Builder" />
 
                         <h1 class="project-list__item__title">OnePageLink – Electronic Press Kit Builder</h1>
                         <div class="project-list__item__description">
@@ -72,7 +85,7 @@
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'procter-and-gamble-cycle-inventory-counting']) }}"
                     >
-                        <img class="project-list__item__image" src="{{ asset('media/projects/pg-project-list.jpg') }}" alt="Procter & Gamble - Cycle Inventory Counting" />
+                        <img class="project-list__item__image" src="{{ asset('media/projects/pg-project-list-small.jpg?v2') }}" alt="Procter & Gamble - Cycle Inventory Counting" />
 
                         <h1 class="project-list__item__title">P&G Cycle Inventory Counting</h1>
                         <div class="project-list__item__description">
@@ -84,7 +97,7 @@
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'steiger-erp']) }}"
                     >
-                        <img class="project-list__item__image" src="{{ asset('media/projects/steiger-project-list.jpg') }}" alt="Steiger ERP" />
+                        <img class="project-list__item__image" src="{{ asset('media/projects/steiger-project-list-small.jpg?v2') }}" alt="Steiger ERP" />
 
                         <h1 class="project-list__item__title">Steiger ERP</h1>
                         <div class="project-list__item__description">
@@ -96,7 +109,7 @@
                     <a class="project-list__item"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'pestcast']) }}"
                     >
-                        <img class="project-list__item__image" src="{{ asset('media/projects/pestcast-project-list.jpg') }}" alt="PestCast" />
+                        <img class="project-list__item__image" src="{{ asset('media/projects/pestcast-project-list-small.jpg?v2') }}" alt="PestCast" />
 
                         <h1 class="project-list__item__title">PestCast</h1>
                         <div class="project-list__item__description">
@@ -104,18 +117,18 @@
                         </div>
                     </a>
                 </div>
-                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">
-                    <a class="project-list__item"
-                       href="{{ route(getLang() . '.projects.show', ['slug' => 'harborsz-logistic']) }}"
-                    >
-                        <img class="project-list__item__image" src="{{ asset('media/projects/harborsz-project-list.jpg') }}" alt="Harborsz Logistic - Integrated Business Management" />
+{{--                <div class="column is-flex is-12-mobile is-6-tablet is-4-desktop">--}}
+{{--                    <a class="project-list__item"--}}
+{{--                       href="{{ route(getLang() . '.projects.show', ['slug' => 'harborsz-logistic']) }}"--}}
+{{--                    >--}}
+{{--                        <img class="project-list__item__image" src="{{ asset('media/projects/harborsz-project-list-small.jpg') }}" alt="Harborsz Logistic - Integrated Business Management" />--}}
 
-                        <h1 class="project-list__item__title">Harborsz Logistic</h1>
-                        <div class="project-list__item__description">
-                            Harborsz is a logistics company, whose main field of activity is the organisation of freight transfers by ferry, bridges or tunnels. Working closely with their team, we developed a system that helps them oversee all aspects of their operation.
-                        </div>
-                    </a>
-                </div>
+{{--                        <h1 class="project-list__item__title">Harborsz Logistic</h1>--}}
+{{--                        <div class="project-list__item__description">--}}
+{{--                            Harborsz is a logistics company, whose main field of activity is the organisation of freight transfers by ferry, bridges or tunnels. Working closely with their team, we developed a system that helps them oversee all aspects of their operation.--}}
+{{--                        </div>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
             </div>
         </div>
     </section>
@@ -124,7 +137,7 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                    <h2 class="hero-heading">
+                    <h2 class="hero-heading has-text-centered">
                         They already <strong class="is-raspberry">chose us:</strong>
                     </h2>
                 </div>

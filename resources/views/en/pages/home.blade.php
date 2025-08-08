@@ -93,13 +93,14 @@
                     >
                         <div class="project-list__featured__content">
                             <h1 class="project-list__featured__title">nJoy - The Hive ERP</h1>
+                            <h2 class="project-list__featured__subtitle">Achieved 30% decrease in man-hours</h2>
                             <div class="project-list__featured__description">
                                 nJoy, a consumer electronics brand, quickly outgrew their existing software infrastructure and needed a custom-built integrated solution. They employed us to deliver a product lifecycle management tool, created from the ground up to fit their particular needs.
                             </div>
                             <span class="btn is-white">Explore the case study</span>
                         </div>
 
-                        <img class="project-list__featured__image" src="{{ asset('media/projects/njoy-project-list.png') }}" alt="nJoy - The Hive ERP system - Rapid Product Development" />
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/njoy-project-list.png?v2') }}" alt="nJoy - The Hive ERP system - Rapid Product Development" width="588" />
                     </a>
                     <a class="project-list__featured project-list__featured--kompozit is-reversed"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'kompozit-field-service-management-app']) }}"
@@ -112,7 +113,7 @@
                             <span class="btn is-tangerine">Explore the case study</span>
                         </div>
 
-                        <img class="project-list__featured__image" src="{{ asset('media/projects/kompozit-project-list.png') }}" alt="Kompozit Field Service Management App" />
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/kompozit-project-list.png?v2') }}" alt="Kompozit Field Service Management App" width="588" />
                     </a>
                 </div>
             </div>

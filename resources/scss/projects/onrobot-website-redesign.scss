@@ -1,0 +1,77 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+body.project--onrobot-website-redesign {
+    .hero {
+        align-items: center;
+        background: linear-gradient(to bottom, #499dda 0%, #88c0e7 100%);
+        justify-content: flex-start;
+
+        &::after {
+            background: url(../../media/projects/onrobot-hero-image.png) center bottom / contain no-repeat;
+            bottom: 0;
+            content: '';
+            display: block;
+            height: 40%;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            z-index: 10;
+
+            @include tablet() {
+                height: 50%;
+            }
+
+            @include desktop() {
+                height: 55%;
+            }
+
+            @include fullhd() {
+                height: 60%;
+            }
+        }
+
+        &::before {
+            background: url(../../media/projects/onrobot-hero-background.svg) center center / cover no-repeat;
+            bottom: 0;
+            content: '';
+            display: block;
+            left: 50%;
+            opacity: .3;
+            position: absolute;
+            transform: translateX(-50%);
+            width: 120%;
+            z-index: 5;
+        }
+    }
+
+    .list-hero {
+        color: #499dda;
+        text-shadow: 5px 5px 0 #e3e2e6;
+    }
+
+    .project {
+        &__contact {
+            background-color: #499dda;
+        }
+
+        &__stat {
+            &::before {
+                background-image: url(../../media/projects/onrobot-stats.png);
+            }
+        }
+
+        &__summary {
+            background-image: url(../../media/projects/onrobot-summary-background.jpg);
+        }
+
+        &__text-emphasis {
+            color: #499dda;
+        }
+    }
+}
+
+.project-list__featured--onrobot-website-redesign {
+    background: radial-gradient(at 30% 100%, #499dda 0%, #88c0e7 80%, #499dda 100%);
+    padding-bottom: 0;
+}

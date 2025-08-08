@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
 .header {
     background-color: $white;
     border-bottom: 1px solid $grey-lighter;
@@ -28,7 +30,7 @@
         background-color: $white;
 
         &__logo a {
-            background-image: url(../img/logo.svg);
+            background-image: url(../../img/logo.svg);
         }
     }
 
@@ -64,7 +66,7 @@
         transition: .2s all ease-in-out;
 
         a {
-            background: url(../img/logo.svg) 0 0 / 160px 45px no-repeat;
+            background: url(../../img/logo.svg) 0 0 / 160px 45px no-repeat;
             display: block;
             height: 45px;
             width: 160px;
@@ -77,7 +79,7 @@ body.has-hero > #app > .header {
     border-bottom-color: transparent;
 
     .header__logo a {
-        background-image: url(../img/logo-knockout.svg);
+        background-image: url(../../img/logo-knockout.svg);
     }
 
     .navbar {
@@ -135,7 +137,7 @@ body.has-hero > #app > .header {
         border-bottom-color: $grey-lighter;
 
         .header__logo a {
-            background-image: url(../img/logo.svg);
+            background-image: url(../../img/logo.svg);
         }
 
         .navbar {

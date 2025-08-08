@@ -71,43 +71,20 @@ Route::group(['as' => 'en.', 'namespace' => 'EN', 'prefix' => 'en'], function ()
         ->name('services.design-sprint');
     Route::view('services/discovery-workshop', 'en.services.discovery-workshop')
         ->name('services.discovery-workshop');
+    Route::view('services/ecommerce-development', 'en.services.ecommerce')
+        ->name('services.ecommerce');
+    Route::view('services/mobile-app-development', 'en.services.mobile-apps')
+        ->name('services.mobile-apps');
+    Route::view('services/no-code-and-low-code-development', 'en.services.no-code-low-code')
+        ->name('services.no-code-low-code');
+    Route::view('services/saas-product-development', 'en.services.saas')
+        ->name('services.saas');
     Route::view('services/unlimited-ui-design-subscription', 'en.services.ui-design')
         ->name('services.ui-design');
     Route::view('services/ux-audit', 'en.services.ux-audit')
         ->name('services.ux-audit');
-
-    Route::view('solutions', 'en.solutions.index')
-        ->name('solutions');
-    Route::view('solutions/accounting', 'en.solutions.pages.accounting')
-        ->name('solutions.accounting');
-    Route::view('solutions/chronos-cms', 'en.solutions.pages.chronos')
-        ->name('solutions.chronos');
-    Route::view('solutions/communication', 'en.solutions.pages.communication')
-        ->name('solutions.communication');
-    Route::view('solutions/customer-relationship-management', 'en.solutions.pages.crm')
-        ->name('solutions.crm');
-    Route::view('solutions/document-management-system', 'en.solutions.pages.dms')
-        ->name('solutions.dms');
-    Route::view('solutions/ecommerce', 'en.solutions.pages.ecommerce')
-        ->name('solutions.ecommerce');
-    Route::view('solutions/human-resources', 'en.solutions.pages.hr')
-        ->name('solutions.hr');
-    Route::view('solutions/knowledge-center', 'en.solutions.pages.wiki')
-        ->name('solutions.wiki');
-    Route::view('solutions/mobile-apps', 'en.solutions.pages.mobile')
-        ->name('solutions.mobile');
-    Route::view('solutions/mvp-development', 'en.solutions.pages.mvp')
-        ->name('solutions.mvp');
-    Route::view('solutions/product-lifecycle-management', 'en.solutions.pages.plm')
-        ->name('solutions.plm');
-    Route::view('solutions/project-management', 'en.solutions.pages.projects')
-        ->name('solutions.projects');
-    Route::view('solutions/purchase-and-inventory', 'en.solutions.pages.purchase')
-        ->name('solutions.purchase');
-    Route::view('solutions/sales', 'en.solutions.pages.sales')
-        ->name('solutions.sales');
-    Route::view('solutions/time-tracking', 'en.solutions.pages.time-tracking')
-        ->name('solutions.time-tracking');
+    Route::view('services/web-development', 'en.services.web-development')
+        ->name('services.web-development');
 
     Route::get('9-out-of-10-products-fail-heres-how-to-ensure-yours-doesnt', [
         WebinarController::class, 'show'
@@ -154,45 +131,22 @@ Route::group(['as' => 'hu.', 'namespace' => 'HU', 'prefix' => 'hu'], function ()
     Route::get('projektek/{slug}', [ProjectsController::class, 'show'])->name('projects.show');
 
     Route::view('szolgaltatasok', 'hu.services.index')->name('services');
+    Route::view('szolgaltatasok/applikacio-fejlesztes', 'hu.services.mobile-apps')
+        ->name('services.mobile-apps');
     Route::view('szolgaltatasok/design-sprint', 'hu.services.design-sprint')
         ->name('services.design-sprint');
     Route::view('szolgaltatasok/discovery-workshop', 'hu.services.discovery-workshop')
         ->name('services.discovery-workshop');
+    Route::view('szolgaltatasok/no-code-es-low-code-fejlesztes', 'hu.services.no-code-low-code')
+        ->name('services.no-code-low-code');
+    Route::view('szolgaltatasok/saas-termek-fejlesztes', 'hu.services.saas')
+        ->name('services.saas');
     Route::view('szolgaltatasok/ui-design-elofizetes', 'hu.services.ui-design')
         ->name('services.ui-design');
     Route::view('szolgaltatasok/ux-audit', 'hu.services.ux-audit')
         ->name('services.ux-audit');
-
-    Route::view('megoldasaink', 'hu.solutions.index')
-        ->name('solutions');
-    Route::view('megoldasaink/beszerzes-es-leltarozas', 'hu.solutions.pages.purchase')
-        ->name('solutions.purchase');
-    Route::view('megoldasaink/chronos-cms', 'hu.solutions.pages.chronos')
-        ->name('solutions.chronos');
-    Route::view('megoldasaink/dokumentumkezeles', 'hu.solutions.pages.dms')
-        ->name('solutions.dms');
-    Route::view('megoldasaink/ertekesites', 'hu.solutions.pages.sales')
-        ->name('solutions.sales');
-    Route::view('megoldasaink/human-eroforrasok', 'hu.solutions.pages.hr')
-        ->name('solutions.hr');
-    Route::view('megoldasaink/idokovetes', 'hu.solutions.pages.time-tracking')
-        ->name('solutions.time-tracking');
-    Route::view('megoldasaink/kommunikacio', 'hu.solutions.pages.communication')
-        ->name('solutions.communication');
-    Route::view('megoldasaink/mobilapplikaciok', 'hu.solutions.pages.mobile')
-        ->name('solutions.mobile');
-    Route::view('megoldasaink/mvp-fejlesztes', 'hu.solutions.pages.mvp')
-        ->name('solutions.mvp');
-    Route::view('megoldasaink/projektmenedzsment', 'hu.solutions.pages.projects')
-        ->name('solutions.projects');
-    Route::view('megoldasaink/szamvitel', 'hu.solutions.pages.accounting')
-        ->name('solutions.accounting');
-    Route::view('megoldasaink/termekeletciklus-kezeles', 'hu.solutions.pages.plm')
-        ->name('solutions.plm');
-    Route::view('megoldasaink/tudastar', 'hu.solutions.pages.wiki')
-        ->name('solutions.wiki');
-    Route::view('megoldasaink/ugyfelkapcsolat-kezeles', 'hu.solutions.pages.crm')
-        ->name('solutions.crm');
-    Route::view('megoldasaink/webaruhaz', 'hu.solutions.pages.ecommerce')
-        ->name('solutions.ecommerce');
+    Route::view('szolgaltatasok/webfejlesztes', 'hu.services.web-development')
+        ->name('services.web-development');
+    Route::view('szolgaltatasok/webshop-fejlesztes', 'hu.services.ecommerce')
+        ->name('services.ecommerce');
 });

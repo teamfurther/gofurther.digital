@@ -93,13 +93,14 @@
                     >
                         <div class="project-list__featured__content">
                             <h1 class="project-list__featured__title">nJoy - The Hive ERP</h1>
+                            <h2 class="project-list__featured__subtitle">30%-os munkaidő megtakarítás</h2>
                             <div class="project-list__featured__description">
                                 Az nJoy, egy fogyasztói elektronikus eszközöket gyártó brand, rövid idő alatt felülmúlta a meglévő szoftverinfrastruktúráját és egyedi integrált megoldásra volt szüksége. Minket bíztak meg, hogy olyan termékéletciklus-kezelő eszközt fejlesszünk, amely megfelel sajátos igényeiknek.
                             </div>
-                            <span class="btn is-white">Olvasd el az esettanulmány</span>
+                            <span class="btn is-white">Olvasd el az esettanulmányt</span>
                         </div>
 
-                        <img class="project-list__featured__image" src="{{ asset('media/projects/njoy-project-list.png') }}" alt="nJoy - The Hive ERP system - Rapid Product Development" />
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/njoy-project-list.png?v2') }}" alt="nJoy - The Hive ERP system - Rapid Product Development" width="588" />
                     </a>
                     <a class="project-list__featured project-list__featured--kompozit is-reversed"
                        href="{{ route(getLang() . '.projects.show', ['slug' => 'kompozit-field-service-management-app']) }}"
@@ -109,10 +110,10 @@
                             <div class="project-list__featured__description">
                                 A Kompozit egy helyszíni munkavégzést támogató megoldás amely segít a szervíz és karbantartási munkák hatékony dokumentálásában.
                             </div>
-                            <span class="btn is-tangerine">Olvasd el az esettanulmány</span>
+                            <span class="btn is-tangerine">Olvasd el az esettanulmányt</span>
                         </div>
 
-                        <img class="project-list__featured__image" src="{{ asset('media/projects/kompozit-project-list.png') }}" alt="Kompozit Field Service Management" />
+                        <img class="project-list__featured__image" src="{{ asset('media/projects/kompozit-project-list.png?v2') }}" alt="Kompozit Field Service Management" width="588" />
                     </a>
                 </div>
             </div>

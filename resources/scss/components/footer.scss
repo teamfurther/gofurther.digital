@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
 .footer {
     background-color: $white;
     color: $grey-darker;
@@ -39,7 +41,7 @@
         margin-top: 25px;
 
         &::before {
-            background: url(../img/icon-lang.png) 0 0 no-repeat;
+            background: url(../../img/icon-lang.png) 0 0 no-repeat;
             content: '';
             display: inline-block;
             height: 20px;

@@ -1,5 +1,5 @@
 <section class="section">
-    <a class="project__banner project__banner--steiger"
+    <a class="project__banner project__banner--steiger-erp"
        href="{{ route(getLang() . '.projects.show', ['slug' => 'steiger-erp']) }}"
     >
         <div class="container">

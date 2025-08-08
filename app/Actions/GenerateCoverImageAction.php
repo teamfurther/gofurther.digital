@@ -28,7 +28,7 @@ class GenerateCoverImageAction
     {
         $key = base64_encode($this->str->ascii($title));
 
-        return $this->cache->remember('cover-image.' . $key, 365 * 24 * 60, function () use ($title) {
+//        return $this->cache->remember('cover-image.' . $key, 365 * 24 * 60, function () use ($title) {
             $imageSrc = asset('img/blog-' . mt_rand(1, 10) . '.jpg');
 
             $html = <<<HTML
@@ -45,6 +45,6 @@ class GenerateCoverImageAction
                 ->html($html)
                 ->windowSize($this->coverWidth, $this->coverHeight)
                 ->base64Screenshot();
-        });
+//        });
     }
 }

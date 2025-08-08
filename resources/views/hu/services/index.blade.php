@@ -65,10 +65,22 @@
                             <p>Ha a digitális térben él, akkor mi meg tudjuk építeni! No-code prototípustól, komplex mobil applikáción át a mesterséges intelligenciát alkalmazó IoT megoldásig mindent láttunk már.</p>
                             <p class="has-margin-b60">Agilis technikákat és tervezői gondolkodásmódot használva rövid időn belül működő megoldásokat szállítunk, amelyek lehetővé teszik számodra, hogy hamar mérhető eredményeket lássál.</p>
 
-                            <a class="btn has-margin-b5 is-disabled">No-code és low-code megoldások</a>
-                            <a class="btn has-margin-b5 is-disabled">Mobilapplikációk</a>
-                            <a class="btn has-margin-b5 is-disabled">Webes applikációk</a>
-                            <a class="btn has-margin-b5 is-disabled">SaaS termékek</a>
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.no-code-low-code') }}">
+                                No-code és low-code megoldások
+                            </a>
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.web-development') }}">
+                                Webfejlesztés
+                            </a>
+{{--                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.ecommerce') }}">--}}
+{{--                                eCommerce--}}
+{{--                            </a>--}}
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.mobile-apps') }}">
+                                Mobilapplikációk
+                            </a>
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.saas') }}">
+                                SaaS termékek
+                            </a>
+                            <span class="services__pointer">👈</span>
                         </div>
                     </div>
                 </div>
@@ -94,11 +106,11 @@
                     </h2>
 
                     <div class="has-items-centered">
-                    <img class="testimonial__picture has-margin-r15" src="{{ asset('img/testimonials-brian-dubb.png') }}" alt="Centralized Brian Dubb testimonial" />
-                    <blockquote class="testimonial__content">
-                        <p>A Further határidőn és költségvetésen belül fejlesztette le az MVP-t, ami sikeres béta teszteléshez, majd egy második kör befektetéshez vezetett. Örvendünk hogy az applikáció második verzióján is a Furtherrel együtt dolgozhatunk.</p>
-                        <cite class="testimonial__author">DUBB Brian, Centralized</cite>
-                    </blockquote>
+                        <img class="testimonial__picture has-margin-r15" src="{{ asset('img/testimonials-brian-dubb.png') }}" alt="Centralized Brian Dubb testimonial" />
+                        <blockquote class="testimonial__content">
+                            <p>A Further határidőn és költségvetésen belül fejlesztette le az MVP-t, ami sikeres béta teszteléshez, majd egy második kör befektetéshez vezetett. Örvendünk hogy az applikáció második verzióján is a Furtherrel együtt dolgozhatunk.</p>
+                            <cite class="testimonial__author">DUBB Brian, Centralized</cite>
+                        </blockquote>
                     </div>
                 </div>
             </div>
@@ -190,8 +202,16 @@
                 "@type": "ListItem",
                 "position": "1",
                 "item": {
-                    "@id": "{{ localizedRoute('home') }}",
-                    "name": "Homepage"
+                    "@id": "{{ config('app.url') }}",
+                    "name": "Főoldal"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                    "@id": "{{ localizedRoute('services') }}",
+                    "name": "Szolgáltatások"
                 }
             }
         ]
@@ -230,8 +250,8 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "en_gb",
-    "keywords": "Digital product development, MVP development, Custom software development, Software development, Web development, UX research, UX design, UI design, Digital transformation",
+    "inLanguage": "hu_hu",
+    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, Digitális termékfejlesztés, MVP fejlesztés, Digitális transzformáció",
     "mainEntityOfPage": "{{ localizedRoute('home') }}",
     "name": "{{ config('site.name') }} | {{ config('site.title.' . config('app.locale')) }}",
     "publisher": {
@@ -345,7 +365,15 @@
             "position": "1",
             "item": {
                 "@id": "{{ config('app.url') }}",
-                "name": "Homepage"
+                "name": "Főoldal"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": "2",
+            "item": {
+                "@id": "{{ localizedRoute('services') }}",
+                "name": "Services"
             }
         }
     ]

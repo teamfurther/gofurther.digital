@@ -1,3 +1,4 @@
+@use "../utilities/variables" as *;
 .webinar {
     &__closed {
         color: $grey-darker;

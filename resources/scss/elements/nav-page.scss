@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
 .nav-page {
     font-size: 0;
     margin-top: 30px;

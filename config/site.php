@@ -70,10 +70,10 @@ return [
             'default' => '1490',
             'payment_url' => 'https://book.stripe.com/3cs4jua3B0yg5gY144',
             'promo' => [
-//                'name' => 'Online Special',
-//                'price' => '990',
-                'name' => 'WebSummit2024',
-                'price' => '490',
+                'name' => 'Online Special',
+                'price' => '990',
+//                'name' => 'WebSummit2024',
+//                'price' => '490',
             ],
         ],
     ],
@@ -90,7 +90,7 @@ return [
     'stats' => [
         'avg_years' => 3.3,
         'clients' => 78,
-        'company_age' => 11,
+        'company_age' => 12,
         'countries' => 11,
         'projects' => 185,
     ]

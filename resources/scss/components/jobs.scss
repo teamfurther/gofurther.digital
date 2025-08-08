@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
 .job {
     border-bottom: 1px solid $grey-light;
     margin-bottom: 15px;

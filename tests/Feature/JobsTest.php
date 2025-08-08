@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit;
+namespace Tests\Feature;
 
 use App\Notifications\JobApplicationNotification;
 use Illuminate\Foundation\Testing\RefreshDatabase;

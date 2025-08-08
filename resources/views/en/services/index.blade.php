@@ -71,10 +71,22 @@
                             <p>If it lives in the digital space, we can build it! From no-code prototypes to further validate your concept, to a feature-rich mobile app or and AI-driven IoT solution, we've seen it all.</p>
                             <p class="has-margin-b60">By using agile and design thinking methods, we are able to swiftly deliver working solutions and allow you to see measurable value right away.</p>
 
-                            <a class="btn has-margin-b5 is-disabled">No-code and low-code solutions</a>
-                            <a class="btn has-margin-b5 is-disabled">Mobile apps</a>
-                            <a class="btn has-margin-b5 is-disabled">Web apps</a>
-                            <a class="btn has-margin-b5 is-disabled">SaaS products</a>
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.no-code-low-code') }}">
+                                No-code and low-code solutions
+                            </a>
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.web-development') }}">
+                                Web development
+                            </a>
+{{--                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.ecommerce') }}">--}}
+{{--                                eCommerce--}}
+{{--                            </a>--}}
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.mobile-apps') }}">
+                                Mobile app development
+                            </a>
+                            <a class="btn has-margin-b5" href="{{ localizedRoute('services.saas') }}">
+                                SaaS products
+                            </a>
+                            <span class="services__pointer">👈</span>
                         </div>
                     </div>
                 </div>
@@ -201,6 +213,14 @@
                 "item": {
                     "@id": "{{ localizedRoute('home') }}",
                     "name": "Homepage"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                    "@id": "{{ localizedRoute('services') }}",
+                    "name": "Services"
                 }
             }
         ]
@@ -355,6 +375,14 @@
             "item": {
                 "@id": "{{ config('app.url') }}",
                 "name": "Homepage"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": "2",
+            "item": {
+                "@id": "{{ localizedRoute('services') }}",
+                "name": "Services"
             }
         }
     ]

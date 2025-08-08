@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
 body.project--harborsz-logistic {
     .hero {
         align-items: center;
@@ -5,7 +7,7 @@ body.project--harborsz-logistic {
         justify-content: flex-start;
 
         &::after {
-            background: url(../media/projects/harborsz-hero-background.png) center bottom no-repeat;
+            background: url(../../media/projects/harborsz-hero-background.png) center bottom no-repeat;
             content: '';
             display: block;
             height: 100%;
@@ -15,15 +17,15 @@ body.project--harborsz-logistic {
             width: 100%;
 
             @include tablet() {
-                background-image: url(../media/projects/harborsz-hero-background-768w.png);
+                background-image: url(../../media/projects/harborsz-hero-background-768w.png);
             }
 
             @include desktop() {
-                background-image: url(../media/projects/harborsz-hero-background-1000w.png);
+                background-image: url(../../media/projects/harborsz-hero-background-1000w.png);
             }
 
             @include fullhd() {
-                background-image: url(../media/projects/harborsz-hero-background-1384w.png);
+                background-image: url(../../media/projects/harborsz-hero-background-1384w.png);
             }
         }
     }
@@ -39,7 +41,7 @@ body.project--harborsz-logistic {
         }
 
         &__summary {
-            background-image: url(../media/projects/harborsz-summary-background.jpg);
+            background-image: url(../../media/projects/harborsz-summary-background.jpg);
         }
 
         &__text-emphasis {

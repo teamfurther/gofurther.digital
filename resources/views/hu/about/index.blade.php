@@ -35,13 +35,6 @@
                 <div class="columns is-mobile is-multiline">
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
-                            <img class="about__team__member__picture" src="{{ asset('img/team-eszter-balla.png') }}" alt="Eszter Balla" />
-                            <h4 class="about__team__member__name">Balla Eszter</h4>
-                            <div class="about__team__member__title">Ügyfélkapcsolati vezető<br class="visible-md-block" /><br class="visible-md-block" /></div>
-                        </div>
-                    </div>
-                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                        <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-peter-illes.png') }}" alt="Péter Illés" />
                             <h4 class="about__team__member__name">Illés Péter</h4>
                             <div class="about__team__member__title">Stratégiai vezető</div>
@@ -77,23 +70,9 @@
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
                         <div class="about__team__member">
-                            <img class="about__team__member__picture" src="{{ asset('img/team-arpad-szakali-vandor.png') }}" alt="Árpád Szakáli-Vándor" />
-                            <h4 class="about__team__member__name">Szakáli-Vándor Árpád</h4>
-                            <div class="about__team__member__title">Fejlesztő<br class="visible-md-block" /><br class="visible-md-block" /></div>
-                        </div>
-                    </div>
-                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                        <div class="about__team__member">
                             <img class="about__team__member__picture" src="{{ asset('img/team-zoltan-sarosi.png') }}" alt="Zoltán Sárosi" />
                             <h4 class="about__team__member__name">Sárosi Zoltán</h4>
                             <div class="about__team__member__title">Fejlesztő<br class="visible-md-block" /><br class="visible-md-block" /></div>
-                        </div>
-                    </div>
-                    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                        <div class="about__team__member">
-                            <img class="about__team__member__picture" src="{{ asset('img/team-veronika-danos.png') }}" alt="Veronika Dános" />
-                            <h4 class="about__team__member__name">Dános Veronika</h4>
-                            <div class="about__team__member__title">Üzletfejlesztés</div>
                         </div>
                     </div>
                     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
@@ -161,7 +140,7 @@
 
     <section class="section has-padding-b0">
         <div class="banner--laravel-meetup">
-            <img src="{{ asset('img/laravel-meetup.png?v2') }}" alt="Laravel Hungary Meetup" />
+            <img src="{{ asset('img/laravel-meetup.png') }}" alt="Laravel Hungary Meetup" />
             <div class="heading-3">A Further a Laravel Hungary <br class="is-hidden-touch is-hidden-fullhd" />meetup szervezője!</div>
         </div>
     </section>
@@ -175,6 +154,22 @@
             </div>
             <div class="columns is-multiline">
                 <div class="column has-margin-b0 is-half-tablet is-one-quarter-desktop">
+                    <h2 class="heading-4 has-margin-b0">UX/UI tervezés</h2>
+                    <ul class="list has-bullets has-margin-b30">
+                        <li>Figma</li>
+                        <li>Miro</li>
+                        <li>Relume</li>
+                        <li>Adobe Creative Suite</li>
+                    </ul>
+                    <h2 class="heading-4 has-margin-b0">No code / low code</h2>
+                    <ul class="list has-bullets has-margin-b30">
+                        <li>Polymet.ai</li>
+                        <li>Flutterflow</li>
+                        <li>Lovable</li>
+                        <li>Bubble.io</li>
+                    </ul>
+                </div>
+                <div class="column has-margin-b0 is-half-tablet is-one-quarter-desktop">
                     <h2 class="heading-4 has-margin-b0">PHP</h2>
                     <ul class="list has-bullets has-margin-b30">
                         <li>Laravel</li>
@@ -185,25 +180,11 @@
                     <ul class="list has-bullets has-margin-b30">
                         <li>Django</li>
                     </ul>
-                    <h2 class="heading-4 has-margin-b0">Adatbázisok</h2>
-                    <ul class="list has-bullets has-margin-b30">
-                        <li>MySQL, MariaDB</li>
-                        <li>PostgreSQL</li>
-                        <li>MongoDB</li>
-                        <li>redis</li>
-                    </ul>
-                </div>
-                <div class="column has-margin-b0 is-half-tablet is-one-quarter-desktop">
-                    <h2 class="heading-4 has-margin-b0">Client-side JS</h2>
+                    <h2 class="heading-4 has-margin-b0">Javascript</h2>
                     <ul class="list has-bullets has-margin-b30">
                         <li>Vue.js</li>
-                        <li>Nuxt.js</li>
                         <li>React</li>
-                    </ul>
-                    <h2 class="heading-4 has-margin-b0">Server-side JS</h2>
-                    <ul class="list has-bullets has-margin-b30">
                         <li>Node.js</li>
-                        <li>Nest.js</li>
                     </ul>
                 </div>
                 <div class="column has-margin-b0 is-half-tablet is-one-quarter-desktop">
@@ -213,8 +194,13 @@
                         <li>ReactNative</li>
                         <li>Swift</li>
                         <li>Kotlin</li>
-                        <li>Cordova</li>
-                        <li>Electron</li>
+                    </ul>
+                    <h2 class="heading-4 has-margin-b0">Adatbázisok</h2>
+                    <ul class="list has-bullets has-margin-b30">
+                        <li>MySQL, MariaDB</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                        <li>redis</li>
                     </ul>
                 </div>
                 <div class="column has-margin-b0 is-half-tablet is-one-quarter-desktop">

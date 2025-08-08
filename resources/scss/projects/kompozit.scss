@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
 body.project--kompozit-field-service-management-app {
     .hero {
         align-items: center;
@@ -5,7 +7,7 @@ body.project--kompozit-field-service-management-app {
         justify-content: center;
 
         &::after {
-            background: url(../media/projects/kompozit-hero-background.png) 100% 100% / contain no-repeat;
+            background: url(../../media/projects/kompozit-hero-background.png) 100% 100% / contain no-repeat;
             content: '';
             display: block;
             height: 125%;
@@ -49,7 +51,7 @@ body.project--kompozit-field-service-management-app {
         }
 
         &__summary {
-            background-image: url(../media/projects/kompozit-summary-background.jpg);
+            background-image: url(../../media/projects/kompozit-summary-background.jpg);
         }
 
         &__text-emphasis {

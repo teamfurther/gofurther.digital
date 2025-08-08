@@ -237,7 +237,7 @@
     "inLanguage": "hu_hu",
     "keywords": "App, Digitális munkalap, Field Service Management, FSM, Flutter, Kompozit",
     "mainEntityOfPage": "{{ localizedRoute('projects.show', ['slug' => $slug]) }}",
-    "name": "Centralized esettanulmány",
+    "name": "Kompozit esettanulmány",
     "publisher": {
         "@type": "Corporation",
         "address": {

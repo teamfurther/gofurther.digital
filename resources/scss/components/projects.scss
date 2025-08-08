@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
 .project {
     &__banner {
         border-top: 5px solid $white;
@@ -41,11 +43,11 @@
             }
         }
 
-        &--harborsz {
+        &--harborsz-logistic {
             background-color: #cf301b;
         }
 
-        &--kompozit {
+        &--kompozit-field-service-management {
             background-color: #4f46e5;
 
             img {
@@ -53,11 +55,15 @@
             }
         }
 
-        &--njoy {
+        &--njoy-the-hive {
             background-color: #f99b0c;
         }
 
-        &--opl {
+        &--onrobot-website-redesign {
+            background-color: #499dda;
+        }
+
+        &--onepagelink-electronic-press-kit-builder {
             background-color: #d7d2ca;
             color: $black;
 
@@ -82,11 +88,11 @@
             }
         }
 
-        &--pg {
+        &--procter-and-gamble-cycle-inventory-counting {
             background-color: #1b5eaa;
         }
 
-        &--steiger {
+        &--steiger-erp {
             background-color: #254f51;
 
             img {
@@ -213,7 +219,7 @@
             }
 
             &::before {
-                background: url(../img/project-gallery-arrows.png) center center no-repeat;
+                background: url(../../img/project-gallery-arrows.png) center center no-repeat;
                 content: '';
                 display: block;
                 height: 50px;
@@ -282,12 +288,12 @@
 
         &.is-downward {
             &::before {
-                top: 25px;
                 transform: rotate(180deg);
             }
 
             span {
-                left: 30px;
+                left: 28px;
+                top: 5px;
             }
         }
 
@@ -310,8 +316,7 @@
         span {
             color: $white;
             display: block;
-            left: 18px;
-            letter-spacing: -2px;
+            left: 20px;
             font-size: 24px;
             font-weight: 600;
             position: absolute;

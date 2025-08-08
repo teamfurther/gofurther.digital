@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
 body.project--onepagelink-electronic-press-kit-builder {
     .hero {
         align-items: center;
@@ -6,7 +8,7 @@ body.project--onepagelink-electronic-press-kit-builder {
         justify-content: flex-start;
 
         &::after {
-            background: url(../media/projects/opl-hero-background.png) center bottom / 50% no-repeat;
+            background: url(../../media/projects/opl-hero-background.png) center bottom / 50% no-repeat;
             content: '';
             display: block;
             height: 100%;
@@ -32,11 +34,18 @@ body.project--onepagelink-electronic-press-kit-builder {
         }
 
         &__summary {
-            background-image: url(../media/projects/opl-summary-background.jpg);
+            background-image: url(../../media/projects/opl-summary-background.jpg);
         }
 
         &__text-emphasis {
             color: #f05a24;
         }
     }
+}
+
+.project-list__featured--onepagelink-electronic-press-kit-builder {
+    align-items: flex-end;
+    background: radial-gradient(at 10% 100%, #dcd8d0 0%, #d7d2ca 20%, #d7d2ca 100%);
+    background-color: #d7d2ca;
+    padding-bottom: 0;
 }

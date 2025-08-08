@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
 body.project--pestcast {
     .hero {
         align-items: center;
@@ -6,7 +8,7 @@ body.project--pestcast {
         justify-content: flex-start;
 
         &::after {
-            background: url(../media/projects/pestcast-hero-background.png) 50% 95% / contain no-repeat;
+            background: url(../../media/projects/pestcast-hero-background.png) 50% 95% / contain no-repeat;
             content: '';
             display: block;
             height: 100%;
@@ -18,18 +20,18 @@ body.project--pestcast {
             width: 100%;
 
             @include tablet() {
-                background-image: url(../media/projects/pestcast-hero-background-768w.png);
+                background-image: url(../../media/projects/pestcast-hero-background-768w.png);
                 background-size: auto;
                 max-width: none;
             }
 
             @include desktop() {
-                background-image: url(../media/projects/pestcast-hero-background-1000w.png);
+                background-image: url(../../media/projects/pestcast-hero-background-1000w.png);
                 background-position: 50%  90%;
             }
 
             @include fullhd() {
-                background-image: url(../media/projects/pestcast-hero-background-1384w.png);
+                background-image: url(../../media/projects/pestcast-hero-background-1384w.png);
             }
         }
     }
@@ -45,7 +47,7 @@ body.project--pestcast {
         }
 
         &__summary {
-            background-image: url(../media/projects/pestcast-summary-background.jpg);
+            background-image: url(../../media/projects/pestcast-summary-background.jpg);
         }
 
         &__text-emphasis {

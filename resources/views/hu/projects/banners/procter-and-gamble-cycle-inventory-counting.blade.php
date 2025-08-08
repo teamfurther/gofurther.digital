@@ -1,5 +1,5 @@
 <section class="section">
-    <a class="project__banner project__banner--pg"
+    <a class="project__banner project__banner--procter-and-gamble-cycle-inventory-counting"
        href="{{ route(getLang() . '.projects.show', ['slug' => 'procter-and-gamble-cycle-inventory-counting']) }}"
     >
         <div class="container">

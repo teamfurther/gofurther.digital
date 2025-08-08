@@ -1,5 +1,5 @@
 <section class="section">
-    <a class="project__banner project__banner--kompozit"
+    <a class="project__banner project__banner--kompozit-field-service-management"
        href="{{ route(getLang() . '.projects.show', ['slug' => 'kompozit-field-service-management-app']) }}"
     >
         <div class="container">

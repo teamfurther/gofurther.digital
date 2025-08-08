@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
 body.project--ovsz {
     .hero {
         align-items: center;
@@ -5,7 +7,7 @@ body.project--ovsz {
         justify-content: flex-start;
 
         &::after {
-            background: url(../media/projects/ovsz-hero-background.png) center bottom no-repeat;
+            background: url(../../media/projects/ovsz-hero-background.png) center bottom no-repeat;
             content: '';
             display: block;
             height: 100%;
@@ -15,31 +17,31 @@ body.project--ovsz {
             width: 100%;
 
             @include tablet() {
-                background-image: url(../media/projects/ovsz-hero-background-768w.png);
+                background-image: url(../../media/projects/ovsz-hero-background-768w.png);
             }
 
             @include desktop() {
-                background-image: url(../media/projects/ovsz-hero-background-1000w.png);
+                background-image: url(../../media/projects/ovsz-hero-background-1000w.png);
                 background-position: 50%  90%;
             }
 
             @include fullhd() {
-                background-image: url(../media/projects/ovsz-hero-background-1384w.png);
+                background-image: url(../../media/projects/ovsz-hero-background-1384w.png);
             }
         }
 
         &.is-hu {
             &::after {
                 @include tablet() {
-                    background-image: url(../media/projects/ovsz-hero-background-768w-hu.png);
+                    background-image: url(../../media/projects/ovsz-hero-background-768w-hu.png);
                 }
 
                 @include desktop() {
-                    background-image: url(../media/projects/ovsz-hero-background-1000w-hu.png);
+                    background-image: url(../../media/projects/ovsz-hero-background-1000w-hu.png);
                 }
 
                 @include fullhd() {
-                    background-image: url(../media/projects/ovsz-hero-background-1384w-hu.png);
+                    background-image: url(../../media/projects/ovsz-hero-background-1384w-hu.png);
                 }
             }
         }
@@ -56,7 +58,7 @@ body.project--ovsz {
         }
 
         &__summary {
-            background-image: url(../media/projects/ovsz-summary-background.jpg);
+            background-image: url(../../media/projects/ovsz-summary-background.jpg);
         }
 
         &__text-emphasis {

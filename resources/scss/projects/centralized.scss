@@ -1,3 +1,6 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
 body.project--centralized {
     .hero {
         align-items: center;
@@ -5,7 +8,7 @@ body.project--centralized {
         justify-content: flex-start;
 
         &::after {
-            background: url(../media/projects/centralized-hero-background.png) center bottom no-repeat;
+            background: url(../../media/projects/centralized-hero-background.png) center bottom no-repeat;
             content: '';
             display: block;
             height: 100%;
@@ -15,15 +18,15 @@ body.project--centralized {
             width: 100%;
 
             @include tablet() {
-                background-image: url(../media/projects/centralized-hero-background-768w.png);
+                background-image: url(../../media/projects/centralized-hero-background-768w.png);
             }
 
             @include desktop() {
-                background-image: url(../media/projects/centralized-hero-background-1000w.png);
+                background-image: url(../../media/projects/centralized-hero-background-1000w.png);
             }
 
             @include fullhd() {
-                background-image: url(../media/projects/centralized-hero-background-1384w.png);
+                background-image: url(../../media/projects/centralized-hero-background-1384w.png);
             }
         }
     }
@@ -39,11 +42,15 @@ body.project--centralized {
         }
 
         &__summary {
-            background-image: url(../media/projects/centralized-summary-background.jpg);
+            background-image: url(../../media/projects/centralized-summary-background.jpg);
         }
 
         &__text-emphasis {
             color: #ea4f32;
         }
     }
+}
+
+.project-list__featured--centralized {
+    background-color: #202226;
 }

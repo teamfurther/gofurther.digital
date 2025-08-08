@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
 .panel {
     color: $white;
     padding: 30px 0 15px;

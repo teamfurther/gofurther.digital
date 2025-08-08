@@ -1,3 +1,4 @@
+@use "../utilities/variables" as *;
 .avatar {
     border: 5px solid $grey-light;
     border-radius: 100%;

@@ -1,3 +1,7 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+@use "sass:color";
+
 .table {
     margin-bottom: 15px;
 
@@ -21,7 +25,7 @@
     }
 
     th {
-        background-color: lighten($olive, 20%);
+        background-color: color.adjust($olive, $lightness: 20%);
         color: $grey-darker;
         font-family: $family-highlight;
     }

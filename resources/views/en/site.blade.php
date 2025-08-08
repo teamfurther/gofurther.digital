@@ -188,7 +188,6 @@
                 <a href="{{ config('site.social.linkedin') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--linkedin"></span></a>
                 <a href="{{ config('site.social.instagram') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--instagram"></span></a>
                 <a href="{{ config('site.social.github') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--github"></span></a>
-                <a href="{{ config('site.social.medium') }}" class="u-url url" rel="me" target="_blank"><span class="icon icon--medium"></span></a>
             </nav>
         </div>
         <div class="footer__bottom">

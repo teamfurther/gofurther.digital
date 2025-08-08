@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
 .services {
     &__animated {
         display: inline-block;
@@ -15,7 +17,7 @@
                 z-index: 5;
 
                 &::after {
-                    background: url(../img/pattern-pearl.png) 0 0 / 50% repeat $white;
+                    background: url(../../img/pattern-pearl.png) 0 0 / 50% repeat $white;
                     opacity: 1;
                 }
             }
@@ -29,7 +31,7 @@
                 z-index: 5;
 
                 &::after {
-                    background: url(../img/pattern-tangerine.png) 0 0 / 45% repeat $white;
+                    background: url(../../img/pattern-tangerine.png) 0 0 / 45% repeat $white;
                     opacity: 1;
                 }
             }
@@ -43,7 +45,7 @@
                 z-index: 5;
 
                 &::after {
-                    background: url(../img/pattern-raspberry.png) 0 0 / 40% repeat $white;
+                    background: url(../../img/pattern-raspberry.png) 0 0 / 40% repeat $white;
                     opacity: 1;
                 }
             }
@@ -325,7 +327,7 @@
             width: 62.4%;
 
             &:hover {
-                background: url(../img/pattern-raspberry.png) 0 0 / 40% repeat;
+                background: url(../../img/pattern-raspberry.png) 0 0 / 40% repeat;
                 border-color: $raspberry;
             }
 
@@ -341,7 +343,7 @@
             width: 48.3%;
 
             &:hover {
-                background: url(../img/pattern-pearl.png) 0 0 / 50% repeat;
+                background: url(../../img/pattern-pearl.png) 0 0 / 50% repeat;
                 border-color: $pearl;
             }
 
@@ -358,7 +360,7 @@
             width: 54.2%;
 
             &:hover {
-                background: url(../img/pattern-tangerine.png) 0 0 / 45% repeat;
+                background: url(../../img/pattern-tangerine.png) 0 0 / 45% repeat;
                 border-color: $tangerine;
             }
 
