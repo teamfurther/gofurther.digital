@@ -130,11 +130,13 @@
                     </div>
                 </div>
                 <div class="columns">
-                    <h5 class="heading-3">Globális csapatnak globális megoldás</h5>
-                    <em class="project__text-emphasis">Probléma</em>
-                    <p>Az OnRobot 23 nyelven kezel tartalmakat, mindegyikhez külön szerkesztőcsapat tartozik. A frissítések, fordítások összehangolása és a verziók közötti konzisztencia megtartása komoly kihívást jelentett.</p>
-                    <em class="project__text-emphasis">Megoldás</em>
-                    <p>A Statamic többoldalas (multi-site) architektúrája lehetővé tette egy skálázható rendszer kialakítását lokalizált tartalommal, testreszabott hozzáféréskezeléssel és strukturált ellenőrzési-publikálási munkafolyamattal minden egyes nyelvhez.</p>
+                    <div class="column is-centered-vertical">
+                        <h5 class="heading-3">Globális csapatnak globális megoldás</h5>
+                        <em class="project__text-emphasis">Probléma</em>
+                        <p>Az OnRobot 23 nyelven kezel tartalmakat, mindegyikhez külön szerkesztőcsapat tartozik. A frissítések, fordítások összehangolása és a verziók közötti konzisztencia megtartása komoly kihívást jelentett.</p>
+                        <em class="project__text-emphasis">Megoldás</em>
+                        <p>A Statamic többoldalas (multi-site) architektúrája lehetővé tette egy skálázható rendszer kialakítását lokalizált tartalommal, testreszabott hozzáféréskezeléssel és strukturált ellenőrzési-publikálási munkafolyamattal minden egyes nyelvhez.</p>
+                    </div>
                     <div class="column has-margin-b60">
                         <img class="is-rounded" src="{{ asset('media/projects/onrobot-overview-2.png') }}" alt="OnRobot.com - Globális csapatnak globális megoldás" />
                     </div>
