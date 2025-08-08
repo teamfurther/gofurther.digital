@@ -18,7 +18,9 @@ class RoutesTest extends TestCase
         'en/careers',
         'en/careers/{slug}',
         'en/freebies',
+        'en/solutions/{any}',
         'hu/ingyenes-anyagok',
+        'hu/megoldasaink/{any}',
     ];
 
     /**

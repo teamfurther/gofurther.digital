@@ -1,7 +1,7 @@
-@extends('en.site')
+@extends('hu.site')
 
-@section('title', 'eCommerce development services')
-@section('description', 'eCommerce platforms that drive sales: fast, scalable, and tailored to your product catalog, user flows, and marketing needs.')
+@section('title', 'eCommerce fejlesztési szolgáltatások')
+@section('description', 'Webshopok, amelyek valóban eladnak: gyorsak, skálázhatók, és a termékkatalógusodhoz, felhasználói útvonalaidhoz és marketingigényeidhez igazodnak.')
 
 @section('content')
     <section class="section">
@@ -9,28 +9,28 @@
             <div class="columns is-vcentered">
                 <div class="column is-12-tablet is-6-desktop">
                     <h5 class="heading-5 has-margin-b0 is-uppercase">
-                        eCommerce development
+                        eCommerce fejlesztés
                     </h5>
                     <h1 class="heading-1 has-margin-b5">
-                        <strong class="is-raspberry">Scalable storefronts</strong><br />built for conversion.
+                        <strong class="is-raspberry">Skálázható webshopok</strong><br />konverzióra optimalizálva
                     </h1>
                     <div>
-                        eCommerce platforms that drive sales: fast, scalable, and tailored to your product catalog, user flows, and marketing needs.
+                        Webáruházak, amelyek valóban eladnak: gyorsak, jól skálázhatók, és igazodnak a termékkatalógusodhoz, felhasználói útvonalaidhoz és marketingfolyamataidhoz.
                     </div>
                 </div>
                 <div class="column is-12-tablet is-5-desktop is-offset-1-desktop">
                     <div class="services__service__benefits is-raspberry">
-                        <div class="services__service__benefits__badge">Why eCommerce brands choose us</div>
+                        <div class="services__service__benefits__badge">Ezért választanak minket eCommerce márkák</div>
                         <ul class="services__service__benefits__list has-margin-b30">
-                            <li>Optimized user flows that drive purchases</li>
-                            <li>Flexible product structures for B2C or B2B</li>
-                            <li>Headless or custom Shopify storefronts</li>
-                            <li>Integrations with ERPs, CRMs & payment systems</li>
-                            <li>Fast, accessible, mobile-first experience</li>
+                            <li>Vásárlásra ösztönző, optimalizált felhasználói útvonalak</li>
+                            <li>Rugalmas termékstruktúrák B2C-re és B2B-re</li>
+                            <li>Headless vagy egyedi Shopify alapú webshopok</li>
+                            <li>Integráció ERP-, CRM- és fizetési rendszerekkel</li>
+                            <li>Gyors, akadálymentes, mobilbarát élmény</li>
                         </ul>
                         <div class="has-items-centered has-margin-t15 is-flex">
                             <a class="btn has-margin-r15 is-large" href="#schedule">
-                                Book a free consultation
+                                Foglalj ingyenes konzultációt
                             </a>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
             <div class="columns">
                 <div class="column">
                     <h2 class="heading-1 has-margin-b60 has-text-centered">
-                        What our <strong class="is-pearl">development</strong> process looks like?
+                        Hogyan <strong class="is-pearl">dolgozunk</strong>?
                     </h2>
                 </div>
             </div>
@@ -56,9 +56,9 @@
                         </div>
                         <div class="column is-10-mobile is-11-tablet">
                             <h3 class="heading-4">
-                                Discovery
+                                Feltérképezés
                             </h3>
-                            <p>We dive into your product catalog, buyer personas, and sales model to define technical and UX requirements.</p>
+                            <p>Megismerjük a termékkínálatodat, célcsoportjaidat és értékesítési modelledet, hogy meghatározzuk a technikai és UX követelményeket.</p>
                         </div>
                     </div>
                     <div class="columns has-margin-b60 is-mobile">
@@ -67,9 +67,9 @@
                         </div>
                         <div class="column is-10-mobile is-11-tablet">
                             <h3 class="heading-4">
-                                Ideation
+                                Tervezés
                             </h3>
-                            <p>We design the product taxonomy, filtering logic, and checkout flow to match your business logic and optimize for conversions.</p>
+                            <p>Megtervezzük a megfelelő termékstruktúrát, szűrési logikát és a vásárlási folyamatot, hogy illeszkedjen az üzleti logikádhoz és növelje a konverziót.</p>
                         </div>
                     </div>
                     <div class="columns has-margin-b60 is-mobile">
@@ -80,7 +80,7 @@
                             <h3 class="heading-4">
                                 UX/UI Design
                             </h3>
-                            <p>We implement or collaborate on interface design that meets UX best practices while highlighting your brand and product value.</p>
+                            <p>Megvalósítjuk vagy közösen kialakítjuk a felhasználói felületet, amely megfelel a UX alapelveknek, miközben kiemeli a márkád és a termékeid értékét.</p>
                         </div>
                     </div>
                     <div class="columns has-margin-b60 is-mobile">
@@ -89,9 +89,9 @@
                         </div>
                         <div class="column is-10-mobile is-11-tablet">
                             <h3 class="heading-4">
-                                Implementation
+                                Megvalósítás
                             </h3>
-                            <p>We build responsive, fast-loading storefronts using Shopify or headless architectures — with all your tools integrated.</p>
+                            <p>Reszponzív, gyorsan betöltődő webshopokat fejlesztünk Shopify vagy headless architektúrával – minden eszközöd integrálva.</p>
                         </div>
                     </div>
                     <div class="columns is-mobile">
@@ -100,9 +100,9 @@
                         </div>
                         <div class="column is-10-mobile is-11-tablet">
                             <h3 class="heading-4">
-                                Handoff
+                                Átadás
                             </h3>
-                            <p>After testing and optimization, we train your team and hand over a robust eCommerce system ready to scale with you.</p>
+                            <p>Tesztelés és optimalizálás után betanítjuk a csapatodat, és átadunk egy megbízható webshoprendszert, ami veled együtt tud növekedni.</p>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
             <div class="columns">
                 <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
                     <h2 class="hero-heading">
-                        <strong class="is-raspberry">Success stories</strong> from our pleased customers:
+                        <strong class="is-raspberry">Sikertörténetek</strong> ügyfeleinktől:
                     </h2>
                 </div>
             </div>
@@ -133,7 +133,7 @@
                         <img class="testimonial__picture has-margin-r15" src="{{ asset('img/testimonials-adam-kuzniarszki.png') }}" alt="Pipacs Pékség Ádám Kuzniárszki testimonial" />
                         <blockquote class="testimonial__content">
                             <p>[TODO]</p>
-                            <cite class="testimonial__author">Ádám KUZNIÁRSZKI, Poppy Bakery Budapest</cite>
+                            <cite class="testimonial__author">KUZNIÁRSZKI Ádám, Poppy Pékség Budapest</cite>
                         </blockquote>
                     </div>
                 </div>
@@ -145,34 +145,34 @@
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <h2 class="heading-1 has-margin-b60 has-text-centered">What to expect?</h2>
+                    <h2 class="heading-1 has-margin-b60 has-text-centered">Mire számíthatsz?</h2>
                 </div>
             </div>
             <div class="columns">
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="avatar is-pearl is-small"></div>
-                    <h3 class="heading-4">Conversion-Driven UX</h3>
-                    <p>Navigation, search, and filtering designed to reduce friction and increase add-to-cart rates.</p>
+                    <h3 class="heading-4">Konverzióra tervezett UX</h3>
+                    <p>Átlátható navigáció, keresés és szűrés: kevesebb súrlódás, magasabb kosárba helyezési arány.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="avatar is-small is-tangerine"></div>
-                    <h3 class="heading-4">Flexible Catalog Structure</h3>
-                    <p>Custom product types, variants, B2B pricing models, and bulk ordering.</p>
+                    <h3 class="heading-4">Rugalmas termékkatalógus</h3>
+                    <p>Egyedi terméktípusok, változatok, B2B árképzés és nagy tételes rendelések támogatása.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="avatar is-raspberry is-small"></div>
-                    <h3 class="heading-4">Fast & Scalable Frontend</h3>
-                    <p>Mobile-first, SEO-ready, and blazing fast on every device.</p>
+                    <h3 class="heading-4">Gyors, skálázható frontend</h3>
+                    <p>Mobilra optimalizált, SEO-barát, és minden eszközön villámgyors.</p>
                 </div>
                 <div class="column has-text-centered has-padding-l30 has-padding-r30">
                     <div class="avatar is-cobalt is-small"></div>
-                    <h3 class="heading-4">Tool & System Integration</h3>
-                    <p>We sync your site with inventory, CRMs, marketing tools, and fulfillment partners.</p>
+                    <h3 class="heading-4">Integráció rendszerekkel</h3>
+                    <p>Szinkronizáljuk az oldalt a készletkezelőddel, CRM-mel, marketingeszközeiddel és teljesítési partnerekkel.</p>
                 </div>
             </div>
             <div class="column has-text-centered">
                 <a class="btn has-margin-t15 is-large is-pearl" href="#schedule">
-                    Talk with us about your eCommerce project
+                    Beszéljünk az eCommerce projektedről
                 </a>
             </div>
         </div>
@@ -182,23 +182,22 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-8-desktop is-offset-2-desktop">
-                    <h3 class="heading-2">F.A.Q.</h3>
+                    <h3 class="heading-2">Gy.I.K.</h3>
 
-                    <h4 class="heading-3">Do you build both B2C and B2B platforms?</h4>
-                    <p class="has-margin-b30"><small>Yes. Whether you need traditional eCommerce or portals with tiered pricing, bulk ordering, or dealer accounts — we've done it.</small></p>
+                    <h4 class="heading-3">Készítetek B2C és B2B platformokat is?</h4>
+                    <p class="has-margin-b30"><small>Igen. Legyen szó hagyományos webshopról vagy viszonteladói portálról többlépcsős árképzéssel és tömeges rendeléssel, mindkettőből találtok a portfólinkba.</small></p>
 
-                    <h4 class="heading-3">Can we use our existing product data?</h4>
-                    <p class="has-margin-b30"><small>We help you import and normalize product data from ERPs, Excel, or older platforms — safely and accurately.</small></p>
+                    <h4 class="heading-3">Használhatjuk a meglévő termékadatainkat?</h4>
+                    <p class="has-margin-b30"><small>Persze. Segítünk biztonságosan importálni és normalizálni az adatokat ERP rendszerből, Excelből vagy régebbi platformról.</small></p>
 
+                    <h4 class="heading-3">Támogatjátok a többnyelvű katalógusokat?</h4>
+                    <p class="has-margin-b30"><small>Természetesen. Olyan struktúrát alakítunk ki, ami támogatja a régióalapú elérhetőséget, fordítási munkafolyamatokat és lokalizált kampányokat.</small></p>
 
-                    <h4 class="heading-3">Do you support multilingual catalogs?</h4>
-                    <p class="has-margin-b30"><small>Absolutely. We structure your content to support region-based availability, translation workflows, and localized campaigns.</small></p>
+                    <h4 class="heading-3">Integrálható a CRM / ERP / marketing eszközeinkkel?</h4>
+                    <p class="has-margin-b30"><small>Igen. Megbízható integrációkat készítettünk például Salesforce, HubSpot, SAP, Mailchimp és sok más rendszerrel.</small></p>
 
-                    <h4 class="heading-3">Will it integrate with our CRM / ERP / marketing tools?</h4>
-                    <p class="has-margin-b30"><small>Yes. We've built reliable integrations with tools like Salesforce, HubSpot, SAP, Mailchimp, and many others.</small></p>
-
-                    <h4 class="heading-3">Do you offer ongoing support?</h4>
-                    <p class="has-margin-b30"><small>Yes, we offer hosting, updates, and monthly support plans to keep your storefront fast, secure, and evolving with your business.</small></p>
+                    <h4 class="heading-3">Nyújtotok hosszú távú támogatást is?</h4>
+                    <p class="has-margin-b30"><small>Igen, biztosítunk tárhelyet, frissítéseket és havi support csomagokat is, hogy a webshopod mindig gyors, biztonságos és naprakész maradjon.</small></p>
                 </div>
             </div>
         </div>
@@ -209,10 +208,10 @@
             <div class="columns">
                 <div class="column">
                     <h2 class="heading-1 has-margin-b15 has-text-centered">
-                         <strong class="is-raspberry">Schedule</strong> a free consultation!
+                        <strong class="is-raspberry">Foglalj</strong> ingyenes konzultációt!
                     </h2>
                     <h4 class="heading-5 has-text-centered">
-                        Let's talk about how your eCommerce platform can drive real growth.
+                        Beszéljünk róla, hogyan lehet a webshopod valódi növekedési eszköz
                     </h4>
                 </div>
             </div>
@@ -233,13 +232,13 @@
 
 
 @push('structured-data')
-<script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "Corporation",
-    "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "{{ config('site.company.address.country') }}",
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Corporation",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "{{ config('site.company.address.country') }}",
         "addressLocality": "{{ config('site.company.address.city') }}",
         "postalCode": "{{ config('site.company.address.postal_code') }}",
         "streetAddress": "{{ config('site.company.address.street_address') }}"
@@ -261,13 +260,13 @@
     "telephone": "{{ config('site.contact.phone-1') }}",
     "url": "{{ config('app.url') }}"
 }
-</script>
+    </script>
 
-<script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "alternateName": "{{ config('site.company.name') }}",
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebPage",
+            "alternateName": "{{ config('site.company.name') }}",
     "author": {
         "@type": "Corporation",
         "address": {
@@ -302,7 +301,7 @@
                 "position": "1",
                 "item": {
                     "@id": "{{ config('app.url') }}",
-                    "name": "Homepage"
+                    "name": "Főoldal"
                 }
             },
             {
@@ -310,15 +309,15 @@
                 "position": "2",
                 "item": {
                     "@id": "{{ localizedRoute('services') }}",
-                    "name": "Services"
+                    "name": "Szolgáltatások"
                 }
             },
             {
                 "@type": "ListItem",
                 "position": "3",
                 "item": {
-                    "@id": "{{ config('app.url') }}/en/services/ecommerce-development",
-                    "name": "eCommerce development services"
+                    "@id": "{{ config('app.url') }}/hu/szolgaltatasok/ecommerce-fejlesztes",
+                    "name": "eCommerce fejlesztési szolgáltatások"
                 }
             }
         ]
@@ -349,7 +348,7 @@
         "telephone": "{{ config('site.contact.phone-1') }}",
         "url": "{{ config('app.url') }}"
     },
-    "description": "eCommerce platforms that drive sales: fast, scalable, and tailored to your product catalog, user flows, and marketing needs.",
+    "description": "Webshopok, amelyek valóban eladnak: gyorsak, skálázhatók, és a termékkatalógusodhoz, felhasználói útvonalaidhoz és marketingigényeidhez igazodnak.",
     "headline": "{{ config('site.name') }} | {{ config('site.title.' . config('app.locale')) }}",
     "image": {
         "@type": "ImageObject",
@@ -357,8 +356,8 @@
         "height": "50",
         "width": "185"
     },
-    "inLanguage": "en_gb",
-    "keywords": "Digital product development, eCommerce development, Custom software development, Software development, Web development, UX design, UI design, Shopify",
+    "inLanguage": "hu_hu",
+    "keywords": "Egyedi szoftverfejlesztés, Testreszabott fejlesztés, Szoftverfejlesztés, Webfejlesztés, Digitális termékfejlesztés, UX Design, UI Design, Shopify",
     "mainEntityOfPage": "{{ localizedRoute('home') }}",
     "name": "{{ config('site.name') }} | {{ config('site.title.' . config('app.locale')) }}",
     "publisher": {
@@ -390,13 +389,13 @@
     "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.twitter') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.instagram') }}","{{ config('site.social.medium') }}"],
     "url": "{{ config('app.url') }}"
 }
-</script>
+    </script>
 
-<script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "alternateName": "{{ config('site.company.name') }}",
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "alternateName": "{{ config('site.company.name') }}",
     "author": {
         "@type": "Corporation",
         "address": {
@@ -460,19 +459,19 @@
     "sameAs": ["{{ config('site.social.facebook') }}","{{ config('site.social.twitter') }}","{{ config('site.social.linkedin') }}","{{ config('site.social.instagram') }}","{{ config('site.social.medium') }}"],
     "url": "{{ config('app.url') }}"
 }
-</script>
+    </script>
 
-<script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    <script type="application/ld+json">
         {
-            "@type": "ListItem",
-            "position": "1",
-            "item": {
-                "@id": "{{ config('app.url') }}",
-                "name": "Homepage"
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": "1",
+                    "item": {
+                        "@id": "{{ config('app.url') }}",
+                "name": "Főoldal"
             }
         },
         {
@@ -480,18 +479,18 @@
             "position": "2",
             "item": {
                 "@id": "{{ localizedRoute('services') }}",
-                "name": "Services"
+                "name": "Szolgáltatások"
             }
         },
         {
             "@type": "ListItem",
             "position": "3",
             "item": {
-                "@id": "{{ config('app.url') }}/en/services/ecommerce-development",
-                "name": "eCommerce development services"
+                "@id": "{{ config('app.url') }}/hu/szolgaltatasok/ecommerce-fejlesztes",
+                "name": "eCommerce fejlesztési szolgáltatások"
             }
         }
     ]
 }
-</script>
+    </script>
 @endpush
