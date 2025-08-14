@@ -65,6 +65,12 @@ body.project--onrobot-website-redesign {
             background-image: url(../../media/projects/onrobot-summary-background.jpg);
         }
 
+        &__testimonial {
+            &__video:before {
+                background-color: #499dda;
+            }
+        }
+
         &__text-emphasis {
             color: #499dda;
         }

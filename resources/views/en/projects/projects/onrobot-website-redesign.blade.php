@@ -161,10 +161,14 @@
             <div class="container">
                 <div class="columns">
                     <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                        <img class="project__testimonial__picture" src="{{ asset('img/testimonials-christian-hummelgaard.png') }}" alt="OnRobot.com Christian Kuntz Hummelgaard testimonial" />
-                        <div class="project__testimonial__video">
-                            <cite class="project__testimonial__author">Christian Kuntz HUMMELGAARD</cite>
-                        </div>
+                        <a class="project__testimonial__video" href="https://youtu.be/KutKlQievCA" target="_blank">
+                            <img class="project__testimonial__picture" src="{{ asset('img/testimonials-christian-hummelgaard.png') }}" alt="OnRobot.com Christian Kuntz Hummelgaard testimonial" />
+                            <div>
+                                <span>Click here to watch full video testimonial</span>
+                                <img src="{{ asset('img/waveform.gif') }}" />
+                            </div>
+                        </a>
+                        <cite class="project__testimonial__author">Christian Kuntz HUMMELGAARD</cite>
                         <span class="project__testimonial__title">Global Digital Marketing Manager at OnRobot</span>
                         <blockquote class="project__testimonial__content">
                             <p>"We've had a 70 to 100% increase in leads since launching the site a week ago. (...) And it's mid-July! We shouldn't be seeing this kind of spike. It's an incredible end to a web development journey."</p>

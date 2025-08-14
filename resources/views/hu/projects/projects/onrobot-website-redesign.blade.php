@@ -162,10 +162,14 @@
             <div class="container">
                 <div class="columns">
                     <div class="column is-10-tablet is-offset-1-tablet is-8-widescreen is-offset-2-widescreen">
-                        <img class="project__testimonial__picture" src="{{ asset('img/testimonials-christian-hummelgaard.png') }}" alt="OnRobot.com Christian Kuntz Hummelgaard testimonial" />
-                        <div class="project__testimonial__video">
-                            <cite class="project__testimonial__author">HUMMELGAARD Christian Kuntz</cite>
-                        </div>
+                        <a class="project__testimonial__video" href="https://youtu.be/KutKlQievCA" target="_blank">
+                            <img class="project__testimonial__picture" src="{{ asset('img/testimonials-christian-hummelgaard.png') }}" alt="OnRobot.com Christian Kuntz Hummelgaard testimonial" />
+                            <div>
+                                <span>Nézd meg a teljes ügyfélélmény videót</span>
+                                <img src="{{ asset('img/waveform.gif') }}" />
+                            </div>
+                        </a>
+                        <cite class="project__testimonial__author">HUMMELGAARD Christian Kuntz</cite>
                         <span class="project__testimonial__title">Global Digital Marketing Manager, OnRobot</span>
                         <blockquote class="project__testimonial__content">
                             <p>"A weboldal egy héttel ezelőtti indulása óta 70 - 100%-os növekedést tapasztaltunk az érdeklődők számában. (...) És még csak július közepe van! Ilyen megugrásra ilyenkor nem is számítottunk. Ez egy hihetetlen lezárása egy webfejlesztési projektnek."</p>

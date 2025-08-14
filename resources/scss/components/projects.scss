@@ -391,6 +391,68 @@
             display: block;
             font: 18px $family-highlight;
         }
+
+        &__video {
+            display: flex;
+            margin: 0 auto 15px;
+            padding-right: 15px;
+            position: relative;
+            width: fit-content;
+
+            &:before {
+                background-color: $cobalt;
+                border-bottom-right-radius: 10px;
+                border-top-right-radius: 10px;
+                content: '';
+                height: calc(100% - 2px);
+                left: 69px;
+                position: absolute;
+                top: 1px;
+                width: calc(100% - 69px);
+                z-index: -1;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 15px;
+                vertical-align: middle;
+
+                span {
+                    align-items: center;
+                    display: flex;
+                    color: $white;
+                    font-family: $family-highlight;
+                    font-size: 16px;
+                    font-weight: 600;
+                    justify-content: flex-end;
+                    margin-top: 10px;
+
+                    @include tablet() {
+                        font-size: 20px;
+                    }
+
+                    &:before {
+                        background: url(../../img/icon-play.svg) center center / contain no-repeat;
+                        content: '';
+                        display: block;
+                        height: 32px;
+                        margin-right: 10px;
+                        width: 32px;
+                    }
+                }
+
+                img {
+                    width: 400px;
+                }
+            }
+
+            .project__testimonial__picture {
+                margin-bottom: 0;
+                vertical-align: middle;
+            }
+        }
     }
 
     &__text-emphasis {
